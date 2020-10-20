@@ -1,0 +1,105 @@
+####################### Banner #########################
+banner:
+  title : "Pilihan tepat untuk desainer<br>dan pengguna desktop"
+  image : "gambar/banner-art.png"
+  content : "Distribusi GNU/Linux dengan Musl berdasar pada VoidLinux. Menggunakan KDE lingkungan desktop,<br>frekuensi update stabil rolling rilis, dan menggunakan sumber daya yang efisien."
+  button:
+    enable : true
+    label : "Fitur LangitKetujuh?"
+    link : "fitur"
+
+##################### Feature ##########################
+feature:
+  enable : true
+  title : "Fitur Menarik!"
+  feature_item:
+    # feature item loop
+    - name : "Musl libc"
+      icon : "ti-pulse"
+      content : "Libc modern yang mengutamakan efisiensi sumber daya. Render audio/video dan kompil aplikasi semakin cepat."
+      
+    # feature item loop
+    - name : "Runit init"
+      icon : "ti-package"
+      content : "Menggunakan runit karena PID1 harus sederhana, minimalis, aman, dan stabil. Tentunya bebas dari SystemD."
+      
+    # feature item loop
+    - name : "Perlengkapan Desain (pro)"
+      icon : "ti-credit-card"
+      content : "Perangkat lunak untuk ilustrasi, animasi, digital painting, fotografi, dan game kreator. Google fonts sudah masuk di dalamnya."
+      
+    # feature item loop
+    - name : "Xbps paket manajemen"
+      icon : "ti-alarm-clock"
+      content : "Paket manajer yang ringan dan cepat. Serta dukungan perangkat lunak yang stabil dan terbarukan (Rolling Release)."
+      
+    # feature item loop
+    - name : "KDE Lingkungan Destop"
+      icon : "ti-cloud-up"
+      content : "Lingkungan destop yang ringan, mudah, dan handal. Didukung dengan KDE aplikasi seperti Falkon dan KDE Connect."
+      
+    # feature item loop
+    - name : "Dukungan instalasi (pro)"
+      icon : "ti-headphone-alt"
+      content : "Anda akan dibantu untuk memasang OS hingga selesai oleh tenaga ahli. Hubungi kami melalui telegram, whatsapp atau surel."
+
+######################### Service #####################
+service:
+  enable : true
+  service_item:
+    # service item loop
+    - title : "Distribusi khusus desainer, animator, fotografer, dan game kreator"
+      images:
+      - "gambar/service-a1.svg"
+      content : "LangitKetujuh Pro terdapat berbagai aplikasi penunjang kubutuhan desainer, seperti aplikasi vektor, animasi 2D/3D, digital painting, fotografi, dan pengembang game. Serta sudah dimasukkannya google fonts yang bebas digunakan untuk proyek komersil. Distribusi ini patut dicoba."
+      button:
+        enable : true
+        label : "Fitur lebih lanjut"
+        link : "#"
+        
+    # service item loop
+    - title : "Dukungan performa dengan runit init"
+      images:
+      - "gambar/service-b1.svg"
+      content : "Runit lebih sederhana dan berukuran kecil, runit juga dapat menggantikan sysvinit sebagai pid1. Secara konsep runit membangun struktur depedensi yang fleksibel dan sistem terdistribusi, atau mempercepat perubahan runlevel paralel dengan cepat (termasuk boot awal)."
+      button:
+        enable : true
+        label : "Fitur lebih lanjut"
+        link : "#"
+        
+    # service item loop
+    - title : "Lebih efisien dengan Musl Libc"
+      images:
+      - "gambar/service-c1.svg"
+      content : "Efisiensi musl tidak tertandingi dalam implementasi libc Linux. Dirancang dari bawah ke atas untuk tautan statis. musl juga menampilkan implementasi post-NPTL, implementasi POSIX pertama untuk Linux, dan yang pertama ditujukan untuk kesesuaian dan ketahanan yang lengkap."
+      button:
+        enable : true
+        label : "Fitur lebih lanjut"
+        link : "#"
+        
+    # service item loop
+    - title : "KDE lingkungan destop yang sederhana"
+      images:
+      - "gambar/service-d1.svg"
+      content : "KDE Plasma menawarkan kemudahan dalam tampilannya, menyesuaikan kebutuhan Anda dengan aman, perlindungan privasi, menjadi kreatif dan produktif di tempat kerja. Serta menggunakan perangkat lunak sumber terbuka bebas yang terbaik."
+      button:
+        enable : true
+        label : "Fitur lebih lanjut"
+        link : "#"
+        
+################### Screenshot ########################
+screenshot:
+  enable : true
+  title : "Ciptakan pengalaman Free Software <br> bersama LangitKetujuh OS"
+  image : "gambar/experience.svg"
+
+##################### Call to action #####################
+call_to_action:
+  enable : true
+  title : "Apakah Anda siap menjadi seorang Profesional ???"
+  image : "gambar/profesional.svg"
+  content : "Kami telah mengoptimasi pemilihan sistem yang lebih baik dan menyesuaikan aplikasi sesuai kebutuhan spesifik. LangitKetujuh GNU/Linux akan membantu Anda menjadi desainer yang tangguh dengan perangkat lunak terbuka."
+  button:
+    enable : true
+    label : "Kabari kami!"
+    link : "kabari"
