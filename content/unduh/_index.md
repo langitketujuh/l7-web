@@ -17,7 +17,7 @@ basic:
   button:
     enable : true
     label : "Unduh gratis"
-    link : "#"
+    link : "https://osdn.net/dl/langitketujuh/langitketujuh-lite-live-x86_64-musl-5.8.14_1-4zj7xss.iso"
     
 professional:
   name : "Pro Musl"

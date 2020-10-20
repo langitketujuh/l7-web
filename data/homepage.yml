@@ -11,7 +11,7 @@ banner:
 ##################### Feature ##########################
 feature:
   enable : true
-  title : "Fitur Menarik!"
+  title : "Handal dan Terbaru"
   feature_item:
     # feature item loop
     - name : "Musl libc"
@@ -21,7 +21,7 @@ feature:
     # feature item loop
     - name : "Runit init"
       icon : "ti-package"
-      content : "Menggunakan runit karena PID1 harus sederhana, minimalis, aman, dan stabil. Tentunya bebas dari SystemD."
+      content : "Keamanan lebih baik. menggunakan runit karena PID1 harus sederhana, minimalis, dan stabil. Tentunya bebas dari SystemD."
       
     # feature item loop
     - name : "Perlengkapan Desain (pro)"
@@ -55,27 +55,27 @@ service:
       button:
         enable : true
         label : "Fitur lebih lanjut"
-        link : "#"
+        link : "fitur"
         
     # service item loop
-    - title : "Dukungan performa dengan runit init"
+    - title : "Dukungan performa lebih baik dengan runit init"
       images:
       - "gambar/service-b1.svg"
       content : "Runit lebih sederhana dan berukuran kecil, runit juga dapat menggantikan sysvinit sebagai pid1. Secara konsep runit membangun struktur depedensi yang fleksibel dan sistem terdistribusi, atau mempercepat perubahan runlevel paralel dengan cepat (termasuk boot awal)."
       button:
         enable : true
         label : "Fitur lebih lanjut"
-        link : "#"
+        link : "runit"
         
     # service item loop
-    - title : "Lebih efisien dengan Musl Libc"
+    - title : "Lebih efisien dengan musl libc"
       images:
       - "gambar/service-c1.svg"
       content : "Efisiensi musl tidak tertandingi dalam implementasi libc Linux. Dirancang dari bawah ke atas untuk tautan statis. musl juga menampilkan implementasi post-NPTL, implementasi POSIX pertama untuk Linux, dan yang pertama ditujukan untuk kesesuaian dan ketahanan yang lengkap."
       button:
         enable : true
         label : "Fitur lebih lanjut"
-        link : "#"
+        link : "musl"
         
     # service item loop
     - title : "KDE lingkungan destop yang sederhana"
@@ -85,7 +85,7 @@ service:
       button:
         enable : true
         label : "Fitur lebih lanjut"
-        link : "#"
+        link : "plasma"
         
 ################### Screenshot ########################
 screenshot:
@@ -97,7 +97,7 @@ screenshot:
 call_to_action:
   enable : true
   title : "Apakah Anda siap menjadi seorang Profesional ???"
-  image : "gambar/profesional.svg"
+  image : "gambar/ready.svg"
   content : "Kami telah mengoptimasi pemilihan sistem yang lebih baik dan menyesuaikan aplikasi sesuai kebutuhan spesifik. LangitKetujuh GNU/Linux akan membantu Anda menjadi desainer yang tangguh dengan perangkat lunak terbuka."
   button:
     enable : true

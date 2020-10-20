@@ -2,7 +2,7 @@
 title: "Pump-up the team morale and celebrate the excellence"
 date: 2020-04-18T10:07:21+06:00
 # post image
-image: "gambar/blog/post-2.jpg"
+image: "gambar/blog/post-2.webp"
 # post type (regular/featured)
 type: "regular"
 # meta description
@@ -163,7 +163,7 @@ Markdown | Less | Pretty
 
 ##### Image
 
-![image](../../gambar/blog/post-6.jpg)
+![image](../../gambar/blog/post-2.webp)
 
 <hr>
 
