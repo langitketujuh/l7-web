@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://langitketujuh.id.netlify.app/"
+baseURL = "https://langitketujuh.netlify.app/"
 title = "LangitKetujuh OS"
 theme = "bigspring"
 languageName = "En"
