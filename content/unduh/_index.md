@@ -20,7 +20,7 @@ basic:
     link : "https://osdn.net/dl/langitketujuh/langitketujuh-lite-0.4-live-x86_64-musl-5.8.16_1-icki7yt.iso"
     
 professional:
-  name : "Pro Musl"
+  name : "Pro Musl."
   price: "115k"
   price_per : ""
   info : "Terbaik untuk Professional"
@@ -43,9 +43,10 @@ business:
   price_per : ""
   info : "Terbaik untuk Dukungan Nonfree"
   services:
-  - "(+) Fitur Lite Musl"
-  - "(+) Fitur Pro Musl"
-  - "Dukungan Aplikasi Nonfree dan Wine 32-bit."
+  - "(+) Fitur Lite Musl."
+  - "(+) Fitur Pro Musl."
+  - "Dukungan Aplikasi Nonfree."
+  - "Dukungan Wine 32-bit."
   button:
     enable : true
     label : "Pilih Pro Glibc"
@@ -55,7 +56,7 @@ call_to_action:
   enable : true
   title : "Perbedaan Fitur?"
   image : "gambar/faq.svg"
-  content : "Masih bingung? berikut perbedaan fitur antara Lite dan Pro yang akan dijelaskan rinci di tabel."
+  content : "Masih bingung? berikut perbedaan fitur antara Lite dan Pro yang akan dijelaskan secara rinci."
   button:
     enable : true
     label : "Bandingkan!"

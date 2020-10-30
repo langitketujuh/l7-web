@@ -1,8 +1,8 @@
 ---
-title: "Frequently Asked Questions"
+title: "Pertanyaan dan Jawaban Cepat"
 subtitle: ""
 # meta description
-description: "This is meta description"
+description: "Berbagai pertanyaan dan jawaban yang memudahkan Anda"
 draft: false
 ---
 

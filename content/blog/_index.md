@@ -1,7 +1,7 @@
 ---
-title: "Menarik nih!"
-subtitle: "Beberapa berita dan tips keren."
+title: "Artikel Menarik!"
+subtitle: "Beberapa berita dan tips seputar GNU/Linux."
 # meta description
-description: "LangitKetujuh OS | Beberapa berita dan tips keren."
+description: "LangitKetujuh OS | Beberapa berita dan tips seputar GNU/Linux."
 draft: false
 ---
