@@ -27,8 +27,8 @@ professional:
   info : "Terbaik untuk Professional"
   services:
   - "(+) Fitur Lite Musl"
-  - "Software Digital Painting."
   - "Software Edit Video."
+  - "Software Digital Painting."
   - "Software Audio Production."
   - "Software Desain Animasi 2D/3D."
   - "Fonta Google untuk proyek komersil."
@@ -46,8 +46,8 @@ business:
   services:
   - "(+) Fitur Lite Musl."
   - "(+) Fitur Pro Musl."
-  - "Dukungan Aplikasi Nonfree."
   - "Dukungan Wine 32-bit."
+  - "Dukungan Aplikasi Nonfree."
   button:
     enable : true
     label : "Pilih Pro Glibc"
