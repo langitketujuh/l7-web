@@ -27,6 +27,7 @@ Tersedia codec Audio dan Video. | **Ya** | **Ya** | **Ya**
 Libreoffice paket aplikasi perkantoran. | **Ya** | **Ya** | **Ya**
 Gimp manipulasi foto. | **Ya** | **Ya** | **Ya**
 Inkscape pengolah vektor. | **Ya** | **Ya** | **Ya**
+Audacity pengolah audio. | - | **Ya** | **Ya**
 Blender animasi 2D/3D. | - | **Ya** | **Ya**
 Fontfoge pembuat font. | - | **Ya** | **Ya**
 Godot pembuat game. | - | **Ya** | **Ya**
@@ -37,6 +38,7 @@ Synfigstudio animasi 2D. | - | **Ya** | **Ya**
 Digikam manajemen foto. | - | **Ya** | **Ya**
 Rawtherapee pengolah foto raw. | - | **Ya** | **Ya**
 Fonta google untuk proyek komersil. | - | **Ya** | **Ya**
+Dukungan Nvidia gpu driver | - | Noveau | **Ya**
+Dukungan aplikasi nonfree<br>spotify, steam, skype, canon, pycharm | Flatpak | Flatpak | **Ya**
+Dukungan Wine windows | 64bit | 64bit | 32/64bit
 Dukungan instalasi oleh tenaga ahli. | - | **Ya** | **Ya**
-Dukungan Wine windows | 64-bit | 64-bit | 32/64-bit
-Dukungan aplikasi nonfree<br>spotify, steam, skype, nvidia, canon, pycharm | Terbatas via Flatpak | Terbatas via Flatpak | **Ya**

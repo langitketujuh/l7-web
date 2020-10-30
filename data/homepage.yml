@@ -1,7 +1,7 @@
 ####################### Banner #########################
 banner:
   title : "Pilihan tepat untuk desainer<br>dan pengguna desktop"
-  image : "gambar/banner-art.png"
+  image : "gambar/banner.svg"
   content : "Distribusi GNU/Linux dengan Musl berdasar pada VoidLinux. Menggunakan KDE lingkungan desktop,<br>frekuensi update stabil rolling rilis, dan menggunakan sumber daya yang efisien."
   button:
     enable : true
