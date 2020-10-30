@@ -14,6 +14,7 @@ basic:
   - "Tersedia Codec Audio dan Video."
   - "Libreoffice Paket Aplikasi Perkantoran."
   - "Software Desain Vector dan Raster."
+  - "Deteksi HP dan Epson Printer"
   button:
     enable : true
     label : "Unduh gratis"
