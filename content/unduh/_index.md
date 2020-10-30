@@ -11,9 +11,9 @@ basic:
   price_per : ""
   info : "Terbaik untuk Rumahan"
   services:
-  - "Tersedia codec Audio dan Video."
-  - "Libreoffice paket aplikasi perkantoran."
-  - "Aplikasi Desain gimp dan inkscape"
+  - "Tersedia Codec Audio dan Video."
+  - "Libreoffice Paket Aplikasi Perkantoran."
+  - "Software Desain Vector dan Raster."
   button:
     enable : true
     label : "Unduh gratis"
@@ -21,15 +21,17 @@ basic:
     
 professional:
   name : "Pro Musl"
-  price: "75k"
+  price: "115k"
   price_per : ""
   info : "Terbaik untuk Professional"
   services:
-  - "Tersedia codec Audio dan Video."
-  - "Libreoffice paket aplikasi perkantoran."
-  - "**Aplikasi Desain yang lengkap.**"
-  - "**Fonta google untuk proyek komersil.**"
-  - "**Dukungan instalasi oleh tenaga ahli.**"
+  - "(+) Fitur Lite Musl"
+  - "Software Digital Painting."
+  - "Software Edit Video."
+  - "Software Audio Production."
+  - "Software Desain Animasi 2D/3D."
+  - "Fonta Google untuk proyek komersil."
+  - "Dukungan Instalasi oleh Tenaga Ahli."
   button:
     enable : true
     label : "Pilih Pro Musl"
@@ -37,16 +39,13 @@ professional:
     
 business:
   name : "Pro Glibc"
-  price: "95k"
+  price: "150k"
   price_per : ""
   info : "Terbaik untuk Dukungan Nonfree"
   services:
-  - "Tersedia codec Audio dan Video."
-  - "Libreoffice paket aplikasi perkantoran."
-  - "**Aplikasi Desain yang lengkap.**"
-  - "**Fonta google untuk proyek komersil.**"
-  - "**Dukungan instalasi oleh tenaga ahli.**"
-  - "**Dukungan aplikasi nonfree dan wine 32-bit.**"
+  - "(+) Fitur Lite Musl"
+  - "(+) Fitur Pro Musl"
+  - "Dukungan Aplikasi Nonfree dan Wine 32-bit."
   button:
     enable : true
     label : "Pilih Pro Glibc"
