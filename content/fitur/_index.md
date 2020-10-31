@@ -25,6 +25,7 @@ Fitur | **Lite Musl** | **Pro Musl** | **Pro Glibc**
 :--- | :---: | :---: | :---:
 Tersedia codec Audio dan Video. | **Ya** | **Ya** | **Ya**
 Libreoffice paket aplikasi perkantoran. | **Ya** | **Ya** | **Ya**
+Deteksi Printer HP dan Epson. | **Ya** | **Ya** | **Ya**
 Gimp manipulasi foto. | **Ya** | **Ya** | **Ya**
 Inkscape pengolah vektor. | **Ya** | **Ya** | **Ya**
 Audacity pengolah audio. | - | **Ya** | **Ya**
@@ -37,6 +38,7 @@ Scribus publisher. | - | **Ya** | **Ya**
 Synfigstudio animasi 2D. | - | **Ya** | **Ya**
 Digikam manajemen foto. | - | **Ya** | **Ya**
 Rawtherapee pengolah foto raw. | - | **Ya** | **Ya**
+Produksi Audio dengan Ardour & Cadence. | - | **Ya** | **Ya**
 Fonta google untuk proyek komersil. | - | **Ya** | **Ya**
 Dukungan Nvidia gpu driver | - | Noveau | **Ya**
 Dukungan aplikasi nonfree<br>spotify, steam, skype, canon, pycharm | Flatpak | Flatpak | **Ya**
