@@ -22,7 +22,7 @@ basic:
     
 professional:
   name : "Pro Musl."
-  price: "115k"
+  price: "±10k"
   price_per : ""
   info : "Terbaik untuk Professional"
   services:
@@ -35,12 +35,12 @@ professional:
   - "Dukungan Instalasi oleh Tenaga Ahli."
   button:
     enable : true
-    label : "Pilih Pro Musl"
-    link : "#"
+    label : "Donasi"
+    link : "https://trakteer.id/langitketujuh.id"
     
 business:
   name : "Pro Glibc"
-  price: "150k"
+  price: "±10k"
   price_per : ""
   info : "Terbaik untuk Dukungan Nonfree"
   services:
@@ -50,8 +50,8 @@ business:
   - "Dukungan Aplikasi Nonfree."
   button:
     enable : true
-    label : "Pilih Pro Glibc"
-    link : "#"
+    label : "Donasi"
+    link : "https://trakteer.id/langitketujuh.id"
 
 call_to_action:
   enable : true

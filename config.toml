@@ -126,8 +126,8 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation buttons
 [params.navigation_button]
 enable = true
-label = "Unduh v0.4"
-link = "unduh"
+label = "Donasi"
+link = "https://trakteer.id/langitketujuh.id"
 
   
 ############################# social site ########################
