@@ -36,8 +36,8 @@ professional:
   - "**Dukungan Instalasi oleh Tenaga Ahli.**"
   button:
     enable : true
-    label : "Pilih & Hubungi"
-    link : "https://t.me/langitketujuhCS"
+    label : "Pilih"
+    link : "hubungi"
     
 business:
   name : "PRO Glibc"
@@ -50,8 +50,8 @@ business:
   - "Dukungan Aplikasi Nonfree."
   button:
     enable : true
-    label : "Pilih & Hubungi"
-    link : "https://t.me/langitketujuhCS"
+    label : "Pilih"
+    link : "hubungi"
 
 call_to_action:
   enable : true

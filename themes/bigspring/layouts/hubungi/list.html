@@ -1,6 +1,13 @@
 {{ define "main" }}
 
-{{ partial "page-header.html" . }}
+<section class="section pb-0">
+  <div class="container text-center">
+    {{ with .Params.subtitle }}
+    <p>{{ . | markdownify }}</p>
+    {{ end }}
+  </div>
+</section>
+
 <section class="section bg-white">
   <div class="container">
     <div class="row">
@@ -10,14 +17,13 @@
           <div class="form-group">
               <label for="pro"></label>
               <select class="form-control" id="pro">
-              <option>PRO - Musl</option>
-              <option>PRO - Glibc</option>
+              <option>PRO Musl (Disarankan)</option>
+              <option>PRO Glibc (Mendukung Nonfree)</option>
               </select>
           </div>
           <input type="text" class="form-control mb-3" id="name" name="name" placeholder="Nama Anda">
           <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="Email Anda">
-          <input type="text" class="form-control mb-3" id="telegram" name="telegram" placeholder="Telegram">
-          <textarea name="message" id="message" class="form-control mb-3" placeholder="Pesan Anda"></textarea>
+          <input type="text" class="form-control mb-3" id="telegram" name="telegram" placeholder="Akun Telegram (pakai @)">
           <button type="submit" value="send" class="btn btn-primary">Kirim</button>
         </form>
       </div>

@@ -1,5 +1,5 @@
 ---
-title: "Kabari kami"
+title: "Download Edisi PRO | LangitKetujuh GNU/Linux"
 subtitle: ""
 # meta description
 description: "Hubungi Tim LangitKetujuh jika ada masalah sistem operasi."
@@ -7,10 +7,9 @@ draft: false
 ---
 
 ### Anda butuh bantuan?
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+Setelah Anda mengirimkan form, admin akan menghungi Anda via telegram dalam kurun waktu 1x24 Jam. Apabila tidak ada konfirmasi hubungi akun layanan LangitKetujuh dibawah ini untuk balasan lebih cepat. Syukran.
 
-* **Telefon/WA: [+62 81234 492171](tel:+6281234492171)**
-* **Telegram Bantuan: [@langitketujuhcs](tg:langitketujuhcs)**
-* **Telegram Kanal: [@langitketujuhid](tg:langitketujuhid)**
+* **Layanan: [@langitketujuhCS](tg:langitketujuhCS)**
+* **Kanal: [@langitketujuhID](tg:langitketujuhID)**
+* **Telefon/WA: [+62 81234 492171](whatsapp:+6281234492171)**
 * **Surel: [langitketujuh.id@pm.me](mailto:langitketujuh.id@pm.me)**
-* **Alamat: RT 02/02 Kembangsri, Ngoro.<br>Mojokerto - Jawa Timur.**
