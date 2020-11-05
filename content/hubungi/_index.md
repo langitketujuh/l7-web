@@ -1,8 +1,8 @@
 ---
-title: "Kontak kami"
+title: "Kabari kami"
 subtitle: ""
 # meta description
-description: "Kontak LangitKetujuh jika ada masalah sistem operasi."
+description: "Hubungi Tim LangitKetujuh jika ada masalah sistem operasi."
 draft: false
 ---
 
