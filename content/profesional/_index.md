@@ -7,7 +7,7 @@ draft: false
 ---
 
 ### Anda butuh bantuan?
-Setelah Anda mengirimkan form, admin akan menghungi Anda via telegram dalam kurun waktu 1x24 Jam. Apabila tidak ada konfirmasi hubungi akun layanan LangitKetujuh dibawah ini untuk balasan lebih cepat. Syukran.
+Setelah mengirimkan form, admin akan menghubungi via telegram dalam kurun waktu 1x24 Jam. Apabila tidak ada konfirmasi hubungi layanan dibawah ini untuk balasan lebih cepat. Syukran.
 
 * **Layanan: [@langitketujuhCS](tg:langitketujuhCS)**
 * **Kanal: [@langitketujuhID](tg:langitketujuhID)**
