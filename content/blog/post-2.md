@@ -8,7 +8,7 @@ type: "regular"
 # meta description
 description: "This is meta description"
 # post draft
-draft: false
+draft: true
 ---
 
 
