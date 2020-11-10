@@ -37,7 +37,7 @@ professional:
   button:
     enable : true
     label : "Pilih"
-    link : "hubungi"
+    link : "profesional"
     
 business:
   name : "PRO Glibc"
@@ -51,7 +51,7 @@ business:
   button:
     enable : true
     label : "Pilih"
-    link : "hubungi"
+    link : "profesional"
 
 call_to_action:
   enable : true
