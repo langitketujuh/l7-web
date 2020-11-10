@@ -6,7 +6,7 @@ description: "Hubungi Tim LangitKetujuh jika ada masalah sistem operasi."
 draft: false
 ---
 
-### Anda butuh bantuan?
+### Konfirmasi!
 Setelah mengirimkan form, admin akan menghubungi via telegram dalam kurun waktu 1x24 Jam. Apabila tidak ada konfirmasi hubungi layanan dibawah ini untuk balasan lebih cepat. Syukran.
 
 * **Layanan: [@langitketujuhCS](tg:langitketujuhCS)**

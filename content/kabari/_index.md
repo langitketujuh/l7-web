@@ -6,7 +6,7 @@ description: "Hubungi Tim LangitKetujuh jika ada masalah sistem operasi."
 draft: false
 ---
 
-### Anda butuh bantuan?
+### Butuh bantuan?
 Terima kasih telah memberikan kritik dan saran kepada tim Langitketujuh OS. Anda juga dapat menyapa tim L7 melalui aplikasi telegram dibawah ini. Syukran.
 
 * **Layanan: [@langitketujuhCS](tg:langitketujuhCS)**
