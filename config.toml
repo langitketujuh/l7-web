@@ -110,8 +110,6 @@ logo_width_footer = "90px"
 # Meta data
 description = "Distribusi GNU/Linux untuk desainer, ilustrator, animator, publisher, fotografer, dan game desainer. Dibangun dengan musl rolling rilis stabil, runit, dan KDE."
 author = "langitketujuh"
-# contact form action
-contact_form_action = "https://formspree.io/f/xeqpgqda" # contact form works with https://formspree.io
 
 ########### footer content ##########
 footer_content = "Distribusi GNU/Linux untuk desainer, ilustrator, animator, publisher, fotografer, dan game desainer. Dibangun dengan musl rolling rilis stabil, runit, dan KDE."
