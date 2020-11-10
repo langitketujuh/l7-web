@@ -15,11 +15,11 @@
         <form name="profesional" netlify-honeypot="bot-field" method="POST" data-netlify="true">
           <h3>Jenis Edisi PRO:</h3>
           <div class="form-group">
-              <label for="profesional" name="role[]" multiple></label>
-              <select class="form-control" id="pro">
+              <label for="profesional">
+              <select class="form-control" id="profesional" name="role[]">
               <option value="pro-mus" >PRO Musl (Disarankan)</option>
               <option value="pro-glibc" >PRO Glibc (Mendukung Nonfree)</option>
-              </select>
+              </select></label>
           </div>
           <input type="text" class="form-control mb-3" id="name" name="name" placeholder="Nama Anda">
           <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="Email Anda">
