@@ -91,9 +91,9 @@ service:
 
 ################### Screenshot ########################
 screenshot:
-  enable : true
+  enable : false
   title : "Ciptakan pengalaman Free Software <br> bersama LangitKetujuh OS"
-  image : "gambar/experience.svg"
+  image : "gambar/screenshot.svg"
 
 ##################### Call to action #####################
 call_to_action:
