@@ -1,12 +1,12 @@
 ---
-title: "Download Edisi PRO | LangitKetujuh GNU/Linux"
+title: "Download PRO Glibc | LangitKetujuh GNU/Linux"
 subtitle: ""
 # meta description
 description: "Hubungi Tim LangitKetujuh jika ada masalah sistem operasi."
 draft: false
 ---
 
-### Konfirmasi!
+### Konfirmasi PRO Glibc!
 Setelah mengirimkan form, admin akan menghubungi via telegram dalam kurun waktu 1x24 Jam. Apabila tidak ada konfirmasi hubungi layanan dibawah ini untuk balasan lebih cepat. Syukran.
 
 * **Layanan: [@langitketujuhCS](https://te.me/langitketujuhCS)**

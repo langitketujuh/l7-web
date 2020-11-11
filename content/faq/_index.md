@@ -8,7 +8,7 @@ draft: false
 
 
 {{< faq "Apakah pembaruannya bebas?" >}}
-LangitKetujuh OS mengikuti pembaruan dari voidlinux dengan repsitori tunggal [Alpha De Repo](https://alpha.de.repo.voidlinux.org). Pembaruan bebas dan menggunakan siklus roling rilis agar aplikasinya tetap versi yang terbaru.
+LangitKetujuh OS mengikuti pembaruan dari voidlinux dengan repsitori tunggal [Alpha De Repo](https://alpha.de.repo.voidlinux.org). Pembaruan bebas dan menggunakan siklus roling rilis agar aplikasinya tetap versi yang terbaru. Cara untuk memperbarui sistem yaitu buka konsole lalu ketik `update` kemudian tekan Enter. Proses pembaruan akan berjalan dengan semestinya.
 {{</ faq >}}
 
 {{< faq "Apakah saya perlu donasi dahulu?" >}}
@@ -20,10 +20,10 @@ Anda cukup menghubungi tim [Layanan LangitKetujuh OS](https://t.me/langitketujuh
 {{</ faq >}}
 
 {{< faq "Apakah ada dokumentasi dan bantuan instalasi?" >}}
-Dokumentasi hampir sama dokumentasi voidlinux. Jika Anda mengunakan versi PRO, Anda dapat menghubungi tim [Layanan LangitKetujuh OS](https://t.me/langitketujuhCS).
+Dokumentasi hampir sama [dokumentasi Voidlinux](https://docs.voidlinux.org/). Jika Anda mengunakan versi PRO, Anda dapat menghubungi tim [Layanan LangitKetujuh OS](https://t.me/langitketujuhCS) untuk bantuan teknis.
 {{</ faq >}}
 
-{{< faq "Berapa donasi yang dapat saya berikan?" >}}
+{{< faq "Berapa donasi yang saya berikan?" >}}
 Anda dapat memberikan donasi terbaik sesuai kemampuan Anda, tidak ada beban yang kami berikan. Dan tentunya kami sebagai tim pengembang hanyalah mencari keberkahan dalam membuat produk sistem operasi ini.
 {{</ faq >}}
 
@@ -32,5 +32,19 @@ Kami menggunakan layanan pihak ketiga [Trakteer.id](https://trakteer.id/langitke
 {{</ faq >}}
 
 {{< faq "Apakah musl tidak bisa menjalankan aplikasi Nonfree?" >}}
-Tidak bisa langsung, karena aplikasi nonfree kebanyakan dibangun menggunakan glibc. Tetapi LangitKetujuh Musl mendukung aplikasi nonfree menggunakan flatpak seperti Zoom, Microsoft Teams, Spotify, Skype dan lain-lain. Selengkapnya kunjungi [Flathub](https://flathub.org) untuk memasang aplikasi nonfree.
+Tidak bisa langsung, karena aplikasi nonfree kebanyakan dibangun menggunakan glibc. Tetapi LangitKetujuh Musl mendukung aplikasi nonfree menggunakan flatpak seperti Zoom, Microsoft Teams, Spotify, Skype dan lain-lain. Selengkapnya kunjungi [Flathub](https://flathub.org) untuk memasang aplikasi nonfree. Jika ada kesulitan Anda bisa menghubungi tim [Layanan LangitKetujuh OS](https://t.me/langitketujuhCS).
 {{</ faq >}}
+
+{{< faq "Apakah musl tidak bisa menjalankan aplikasi Appimage?" >}}
+Tidak bisa, karena aplikasi Appimage kebanyakan dibangun menggunakan glibc. Appimage hanya bisa dijalankan di Glibc. Anda bisa melihat perbedaan fitur Langitketujuh di [halaman fitur](/fitur).
+{{</ faq >}}
+
+{{< faq "Apakah saya boleh mengandakan dan membagikan berkas `.iso` ke rekan dan teman saya?" >}}
+Ya boleh. Asalkan tidak mengupload iso ke website/media lain. Sebab, berkas `.iso` akan diperbarui jika ada pembaruan.
+{{</ faq >}}
+
+{{< faq "Apakah Langitketujuh OS bisa dipasang aplikasi wine?" >}}
+Ya bisa. Musl hanya mendukung aplikasi windows 64-bit saja, sedangkan Glibc mendukung aplikasi windows 64-bit dan 32-bit.
+{{</ faq >}}
+
+

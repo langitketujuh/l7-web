@@ -37,7 +37,7 @@ professional:
   button:
     enable : true
     label : "Pilih"
-    link : "profesional"
+    link : "pro-musl"
     
 business:
   name : "PRO Glibc"
@@ -47,11 +47,12 @@ business:
   services:
   - "**(+) Fitur PRO.**"
   - "Dukungan Wine 64/32-bit."
+  - "Dukungan Aplikasi Appimage."
   - "Dukungan Aplikasi Nonfree."
   button:
     enable : true
     label : "Pilih"
-    link : "profesional"
+    link : "pro-glibc"
 
 call_to_action:
   enable : true

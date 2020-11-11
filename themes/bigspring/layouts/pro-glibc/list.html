@@ -1,0 +1,63 @@
+{{ define "main" }}
+
+<section class="section pb-0">
+  <div class="container text-center">
+    {{ with .Params.subtitle }}
+    <p>{{ . | markdownify }}</p>
+    {{ end }}
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 mb-4 mb-lg-0">
+        <form name="profesional" netlify-honeypot="bot-field" method="POST" data-netlify="true">
+          <input type="text" class="form-control mb-3" id="nama" name="nama" placeholder="Nama Lengkap" required="true">
+          <input type="email" class="form-control mb-3" id="surel" name="surel" placeholder="Email Anda" required="true">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="telegram">@</span>
+            </div>
+            <input type="text" class="form-control" id="telegram" name="telegram" aria-label="telegram" aria-describedby="inputTelegram" placeholder="Telegram" required="true">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="whatsapp">+62</span>
+            </div>
+            <input type="number" class="form-control" id="whatsapp" name="whatsapp" aria-label="whatsapp" aria-describedby="inputWhatsapp" placeholder="Whatsapp" required="true">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label class="input-group-text" for="inputProfesional">Jenis PRO</label>
+            </div>
+            <select class="custom-select" id="profesional" name="profesional[]" required="true">
+              <option id="pro-musl" value="MUSL">Musl (Disarankan)</option>
+              <option selected id="pro-glibc" value="GLIBC">Glibc (Mendukung Nonfree)</option>
+            </select>
+          </div>
+          <div class="form-group mb-3">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck"  name="data" value="Ya, Saya Setuju" required="true">
+                <label class="form-check-label" for="gridCheck">
+                Saya menyetujui untuk membagikan data yang akan dikirimkan.
+                </label>
+              </div>
+          </div>
+        <div>
+        <button type="submit" value="send" class="btn btn-primary">Kirim</button>
+        </div>
+        </form>
+      </div>
+      <div class="col-lg-5 content">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- call to action -->
+
+<!-- /call to action -->
+
+{{ end }}
