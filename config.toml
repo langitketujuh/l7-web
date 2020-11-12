@@ -75,16 +75,6 @@ name = "LangitKetujuh OS"
 URL = "/"
 weight = 1
 
-[[menu.produk]]
-name = "Impress Template"
-URL = "impress"
-weight = 2
-
-[[menu.produk]]
-name = "Online Course"
-URL = "online-course"
-weight = 3
-
 # dukungan 
 [[menu.dukungan]]
 name = "Peraturan dan kondisi"
