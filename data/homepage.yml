@@ -15,27 +15,27 @@ feature:
   feature_item:
     # feature item loop
     - name : "Musl libc"
-      icon : "ti-pulse"
+      icon : "ti-bolt"
       content : "Libc modern yang mengutamakan efisiensi sumber daya. Render audio/video dan kompil aplikasi semakin cepat."
 
     # feature item loop
     - name : "Runit init"
-      icon : "ti-package"
+      icon : "ti-dashboard"
       content : "Keamanan lebih baik. menggunakan runit karena PID1 harus sederhana, minimalis, dan stabil. Tentunya bebas dari SystemD."
 
     # feature item loop
     - name : "Xbps paket manajemen"
-      icon : "ti-alarm-clock"
+      icon : "ti-package"
       content : "Paket manajer yang ringan dan cepat. Serta dukungan perangkat lunak yang stabil dan terbarukan (Rolling Release)."
 
     # feature item loop
     - name : "KDE Lingkungan Destop"
-      icon : "ti-cloud-up"
+      icon : "ti-desktop"
       content : "Lingkungan destop yang ringan, mudah, dan handal. Didukung dengan KDE aplikasi seperti Falkon dan KDE Connect."
 
     # feature item loop
     - name : "Perlengkapan Desain (pro)"
-      icon : "ti-credit-card"
+      icon : "ti-palette"
       content : "Perangkat lunak untuk ilustrasi, animasi, digital painting, fotografi, dan game kreator. Google fonts sudah masuk di dalamnya."
 
     # feature item loop
