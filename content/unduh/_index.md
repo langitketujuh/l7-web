@@ -18,7 +18,7 @@ basic:
   button:
     enable : true
     label : "Unduh"
-    link : "https://osdn.net/dl/langitketujuh/langitketujuh-lite-0.5-live-x86_64-musl-5.8.18_1-te6ka26.iso"
+    link : "https://osdn.net/dl/langitketujuh/langitketujuh-lite-0.6-live-x86_64-musl-5.8.18_1-09c9x5d.iso"
     
 professional:
   name : "PRO Musl"
