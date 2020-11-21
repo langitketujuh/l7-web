@@ -32,6 +32,7 @@ professional:
   - "Software Digital Painting."
   - "Software Audio Production."
   - "Software Desain Animasi 2D/3D."
+  - "Software Game Kreator 2D/3D."
   - "**Fonta Google untuk proyek komersil.**"
   - "**Dukungan Instalasi oleh Tenaga Ahli.**"
   button:
