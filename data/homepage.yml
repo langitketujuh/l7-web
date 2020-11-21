@@ -51,8 +51,6 @@ service:
     - title : "Distribusi khusus desainer, animator, fotografer, dan game kreator"
       images:
       - "gambar/service-a1.svg"
-      - "gambar/service-a2.svg"
-      - "gambar/service-a3.svg"
       content : "LangitKetujuh Pro terdapat berbagai aplikasi penunjang kubutuhan desainer, seperti aplikasi vektor, animasi 2D/3D, digital painting, fotografi, dan pengembang game. Serta sudah dimasukkannya google fonts yang bebas digunakan untuk proyek komersil. Distribusi ini patut dicoba."
       button:
         enable : true
