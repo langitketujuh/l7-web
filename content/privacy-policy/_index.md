@@ -2,7 +2,7 @@
 title: "Privecy & Policy"
 subtitle: ""
 # meta description
-description: "This is meta description"
+description: "Ketentuan Privasi LangitKetujuh GNU/Linux | Pilihan tepat untuk desainer dan pengguna desktop"
 draft: false
 ---
 

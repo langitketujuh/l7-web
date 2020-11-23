@@ -2,7 +2,7 @@
 title: "Pertanyaan dan Jawaban Cepat"
 subtitle: ""
 # meta description
-description: "Berbagai pertanyaan dan jawaban yang memudahkan Anda"
+description: "FAQ LangitKetujuh GNU/Linux | Pilihan tepat untuk desainer dan pengguna desktop"
 draft: false
 ---
 

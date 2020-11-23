@@ -2,7 +2,7 @@
 title: "Terms of Service"
 subtitle: ""
 # meta description
-description: "This is meta description"
+description: "Ketentuan Kondisi LangitKetujuh GNU/Linux | Pilihan tepat untuk desainer dan pengguna desktop"
 draft: false
 ---
 

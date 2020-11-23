@@ -2,7 +2,7 @@
 title: "Unduh - LangitKetujuh GNU/Linux"
 subtitle: ""
 # meta description
-description: "This is meta description"
+description: "Unduh LangitKetujuh GNU/Linux | Pilihan tepat untuk desainer dan pengguna desktop"
 draft: false
 
 basic:

@@ -6,7 +6,7 @@ image: "gambar/blog/post-1.webp"
 # post type (regular/featured)
 type: "featured"
 # meta description
-description: "Perbedaan fitur edisi Lite dan Pro akan dijelaskan sebagai berikut."
+description: "Fitur LangitKetujuh GNU/Linux | Pilihan tepat untuk desainer dan pengguna desktop"
 # post draft
 draft: false
 

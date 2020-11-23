@@ -2,7 +2,7 @@
 title: "Kabari kami"
 subtitle: ""
 # meta description
-description: "Hubungi Tim LangitKetujuh jika ada masalah sistem operasi."
+description: "Kabari Tim LangitKetujuh GNU/Linux | Pilihan tepat untuk desainer dan pengguna desktop"
 draft: false
 ---
 

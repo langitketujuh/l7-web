@@ -2,7 +2,7 @@
 title: "Download PRO Musl | LangitKetujuh GNU/Linux"
 subtitle: ""
 # meta description
-description: "Hubungi Tim LangitKetujuh jika ada masalah sistem operasi."
+description: "Unduh PRO-Musl LangitKetujuh GNU/Linux | Pilihan tepat untuk desainer dan pengguna desktop"
 draft: false
 ---
 
