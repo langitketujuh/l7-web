@@ -28,63 +28,69 @@ TMP="/tmp"
 PRO="pro"
 LITE="lite"
 
-if [[ $UID != 0 ]]; then
-    echo "Please run this script with sudo:"
-    echo "sudo $NAME $*"
-    exit 1
-fi
-
 for arg in "$@"; do
     case $arg in
         lite-musl)
-            echo "1. Remove old tmp."
-            rm -rf $TMP/$LITE
-            echo "2. Remove old skeleton (.config)."
-            rm -rf /etc/skel/.config
-            echo "3. Clone GIT."
+            echo "1. Remove old /tmp"
+            sudo rm -rf $TMP/$LITE
+            echo "2. Remove old skeleton (/etc/skel/.config)"
+            sudo rm -rf /etc/skel/.config
+            echo "3. Clone GIT"
             git clone --depth 1 $GITLITE $TMP/$LITE
             cd $TMP/$LITE/musl
-            echo "4. Copying update."
-            cp -rf * /
+            echo "4. Copying update"
+            sudo cp -rf * /
+            echo "5. Apply Fish Shell"
+            chsh -s /usr/bin/fish $USER
+            cp -rf /etc/skel/.config/fish ~/.config
             cd ~
             echo ">>>> Finish..."
             ;;
         lite-glibc)
-            echo "1. Remove old tmp."
-            rm -rf $TMP/$LITE
-            echo "2. Remove old skeleton (.config)."
-            rm -rf /etc/skel/.config
-            echo "3. Clone GIT."
+            echo "1. Remove old /tmp"
+            sudo rm -rf $TMP/$LITE
+            echo "2. Remove old skeleton (/etc/skel/.config)"
+            sudo rm -rf /etc/skel/.config
+            echo "3. Clone GIT"
             git clone --depth 1 $GITLITE $TMP/$LITE
             cd $TMP/$LITE/glibc
-            echo "4. Copying update."
-            cp -rf * /
+            echo "4. Copying update"
+            sudo cp -rf * /
+            echo "5. Apply Fish Shell"
+            chsh -s /usr/bin/fish $USER
+            cp -rf /etc/skel/.config/fish ~/.config
             cd ~
             echo ">>>> Finish..."
             ;;
         pro-musl)
-            echo "1. Remove old tmp."
-            rm -rf $TMP/$PRO
-            echo "2. Remove old skeleton (.config)."
-            rm -rf /etc/skel/.config
-            echo "3. Clone GIT."
-            git clone --depth 1 $GITLITE $TMP/$PRO
+            echo "1. Remove old /tmp"
+            sudo rm -rf $TMP/$PRO
+            echo "2. Remove old skeleton (/etc/skel/.config)"
+            sudo rm -rf /etc/skel/.config
+            echo "3. Clone GIT"
+            git clone --depth 1 $GITPRO $TMP/$PRO
             cd $TMP/$PRO/musl
-            echo "4. Copying update."
-            cp -rf * /
+            echo "4. Copying update"
+            sudo cp -rf * /
+            echo "5. Apply Fish Shell"
+            chsh -s /usr/bin/fish $USER
+            cp -rf /etc/skel/.config/fish ~/.config
             cd ~
             echo ">>>> Finish..."
             ;;
         pro-glibc)
-            echo "1. Remove old tmp."
-            rm -rf $TMP/$PRO
-            echo "2. Remove old skeleton (.config)."
-            rm -rf /etc/skel/.config
-            echo "3. Clone GIT."
-            git clone --depth 1 $GITLITE $TMP/$PRO
+            echo "1. Remove old /tmp"
+            sudo rm -rf $TMP/$PRO
+            echo "2. Remove old skeleton (/etc/skel/.config)"
+            sudo rm -rf /etc/skel/.config
+            echo "3. Clone GIT"
+            git clone --depth 1 $GITPRO $TMP/$PRO
             cd $TMP/$PRO/glibc
-            echo "4. Copying update."
-            cp -rf * /
+            echo "4. Copying update"
+            sudo cp -rf * /
+            echo "5. Apply Fish Shell"
+            chsh -s /usr/bin/fish $USER
+            cp -rf /etc/skel/.config/fish ~/.config
             cd ~
             echo ">>>> Finish..."
             ;;
