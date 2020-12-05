@@ -40,10 +40,11 @@ for arg in "$@"; do
             cd $TMP/$LITE/musl
             echo "4. Copying update"
             sudo cp -rf * /
-            echo "5. Apply Fish Shell"
+            echo "5. Install Fish shell"
+	        sudo xbps-install -S fish-shell
+            echo "6. Apply Fish Shell"
             chsh -s /usr/bin/fish $USER
             cp -rf /etc/skel/.config/fish ~/.config
-            cd ~
             echo ">>>> Finish..."
             ;;
         lite-glibc)
@@ -56,10 +57,11 @@ for arg in "$@"; do
             cd $TMP/$LITE/glibc
             echo "4. Copying update"
             sudo cp -rf * /
-            echo "5. Apply Fish Shell"
+            echo "5. Install Fish shell"
+	        sudo xbps-install -S fish-shell
+            echo "6. Apply Fish Shell"
             chsh -s /usr/bin/fish $USER
             cp -rf /etc/skel/.config/fish ~/.config
-            cd ~
             echo ">>>> Finish..."
             ;;
         pro-musl)
@@ -72,10 +74,11 @@ for arg in "$@"; do
             cd $TMP/$PRO/musl
             echo "4. Copying update"
             sudo cp -rf * /
-            echo "5. Apply Fish Shell"
+            echo "5. Install Fish shell"
+	        sudo xbps-install -S fish-shell
+            echo "6. Apply Fish Shell"
             chsh -s /usr/bin/fish $USER
             cp -rf /etc/skel/.config/fish ~/.config
-            cd ~
             echo ">>>> Finish..."
             ;;
         pro-glibc)
@@ -88,10 +91,11 @@ for arg in "$@"; do
             cd $TMP/$PRO/glibc
             echo "4. Copying update"
             sudo cp -rf * /
-            echo "5. Apply Fish Shell"
+            echo "5. Install Fish shell"
+            sudo xbps-install -S fish-shell
+            echo "6. Apply Fish Shell"
             chsh -s /usr/bin/fish $USER
             cp -rf /etc/skel/.config/fish ~/.config
-            cd ~
             echo ">>>> Finish..."
             ;;
         help)
