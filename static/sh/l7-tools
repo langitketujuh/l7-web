@@ -1,0 +1,87 @@
+#!/usr/bin/env bash
+
+NAME=$(basename "$0")
+INSTALLDIR=$(which basename)
+VERSION="1.0"
+LICENSE="GNU GPLV3+"
+
+usage()
+{
+    cat <<- EOF
+
+ ================== LangitKetujuh Tools ==================
+
+ license : $LICENSE
+ usage   : $NAME [type]
+ type    : [pro, lite, pro-musl, lite-musl]
+ option  : $NAME -h,--help     # show this help
+           $NAME -v,--version  # show $NAME version
+
+ =========================================================
+
+EOF
+}
+
+GITPRO="https://gitlab.com/langitketujuh/pro"
+GITLITE="https://gitlab.com/langitketujuh/lite"
+TMP="/tmp"
+PRO="pro"
+LITE="lite"
+
+if [[ $UID != 0 ]]; then
+    echo "Please run this script with sudo:"
+    echo "sudo $NAME $*"
+    exit 1
+fi
+
+for arg in "$@"; do
+    case $arg in
+        lite-musl)
+            rm -rf $TMP/$LITE
+            rm -rf /etc/skel/.config
+            git clone --depth 1 $GITLITE $TMP/$LITE
+            cd $TMP/$LITE/musl
+            cp -rf * /
+            cd ~
+            echo ">>>> Finish..."
+            ;;
+        lite-glibc)
+            rm -rf $TMP/$LITE
+            rm -rf /etc/skel/.config
+            git clone --depth 1 $GITLITE $TMP/$LITE
+            cd $TMP/$LITE/glibc
+            cp -rf * /
+            cd ~
+            echo ">>>> Finish..."
+            ;;
+        pro-musl)
+            rm -rf $TMP/$PRO
+            rm -rf /etc/skel/.config
+            git clone --depth 1 $GITPRO $TMP/$PRO
+            cd $TMP/$PRO/musl
+            cp -rf * /
+            cd ~
+            echo ">>>> Finish..."
+            ;;
+        pro-glibc)
+            rm -rf $TMP/$PRO
+            rm -rf /etc/skel/.config
+            git clone --depth 1 $GITPRO $TMP/$PRO
+            cd $TMP/$PRO/glibc
+            cp -rf * /
+            cd ~
+            echo ">>>> Finish..."
+            ;;
+        help)
+            usage
+            exit 0
+            ;;
+        version)
+            echo "\033[1;33m $NAME\033[0m version $VERSION"
+            exit 0
+            ;;
+        *)
+            printf "\noption does not exist: %s\n\n" "$arg"
+            exit 2
+    esac
+done
