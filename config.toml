@@ -108,8 +108,8 @@ copyright = "2020 [LangitKetujuh GNU/Linux](https://gitlab.com/langitketujuh). 2
 
 # Preloader
 [params.preloader]
-enable = false
-preloader = "" # use jpg, png, svg or gif format.
+enable = true
+preloader = "gambar/preloader.svg" # use jpg, png, svg or gif format.
 
 # Navigation buttons
 [params.navigation_button]
