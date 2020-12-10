@@ -21,7 +21,7 @@ call_to_action:
     link : "https://t.me/langitketujuhCS"
 ---
 
-Fitur | **Lite M** | **Pro M** | **Pro G**
+Fitur | **Lite - M** | **Pro - M** | **Pro - G**
 :--- | :---: | :---: | :---:
 Tersedia codec Audio dan Video. | **√** | **√** | **√**
 Libreoffice paket aplikasi perkantoran. | **√** | **√** | **√**
@@ -44,7 +44,7 @@ Fonta google untuk proyek komersil. | - | **√** | **√**
 Dukungan instalasi via remote | - | **√** | **√**
 Dukungan aplikasi Appimage | - | - | **√**
 Dukungan Nvidia gpu driver | Noveau | Noveau | **√**
-Dukungan aplikasi Nonfree<br>spotify, steam, skype, canon, pycharm | Flatpak | Flatpak | **√**
+Dukungan aplikasi Nonfree spotify, steam, skype, canon, pycharm, mendeley | Flatpak | Flatpak | **√**
 Dukungan Wine windows | 64 bit | 64 bit | 32 dan 64 bit
 
 **Keterangan**

@@ -54,17 +54,22 @@ URL = "fitur"
 weight = 3
 
 [[menu.main]]
+name = "Cuplikan"
+URL = "cuplikan"
+weight = 4
+
+[[menu.main]]
 name = "Kabari"
 URL = "kabari"
-weight = 4
+weight = 5
 
 [[menu.main]]
 name = "FAQ"
 URL = "faq"
-weight = 5
+weight = 6
 
-# komunitas 
-[[menu.komunitas]]
+# profil
+[[menu.profil]]
 name = "Tentang Kami"
 URL = "tentang-kami"
 weight = 1

@@ -21,14 +21,14 @@ call_to_action:
     link : "https://t.me/langitketujuhCS"
 ---
 
-### TPengembang Sistem Operasi:
+### Pengembang Sistem Operasi:
 - Hervy Qurrotul Ainur Rozi
 
 ### Layanan dan bantuan:
 - Hervy Qurrotul Ainur Rozi
 
-### Pengembang Wesite dan Dokumentasi:
+### Pengembang website dan dokumentasi:
 - Hervy Qurrotul Ainur Rozi
 
-### Marketing dan Sosial Media:
+### Marketing dan sosial media:
 - Hervy Qurrotul Ainur Rozi
