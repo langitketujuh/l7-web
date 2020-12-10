@@ -45,7 +45,7 @@ feature:
 
 ######################### Service #####################
 service:
-  enable : true
+  enable : false
   service_item:
     # service item loop
     - title : "Distribusi khusus desainer, animator, fotografer, dan game kreator"
@@ -96,7 +96,7 @@ screenshot:
 ##################### Call to action #####################
 call_to_action:
   enable : true
-  title : "Apakah Anda siap menjadi seorang Profesional ???"
+  title : "Siap menjadi Profesional"
   image : "gambar/ready.svg"
   content : "Kami telah mengoptimasi pemilihan sistem yang lebih baik dan menyesuaikan aplikasi sesuai kebutuhan spesifik. LangitKetujuh GNU/Linux akan membantu Anda menjadi desainer yang tangguh dengan perangkat lunak terbuka."
   button:

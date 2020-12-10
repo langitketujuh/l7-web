@@ -40,8 +40,8 @@ Digikam manajemen foto. | - | **Ya** | **Ya**
 Rawtherapee pengolah foto raw. | - | **Ya** | **Ya**
 Produksi Audio dengan Ardour & Cadence. | - | **Ya** | **Ya**
 Fonta google untuk proyek komersil. | - | **Ya** | **Ya**
+Dukungan instalasi via remote | - | **Ya** | **Ya**
 Dukungan aplikasi Appimage | - | - | **Ya**
 Dukungan Nvidia gpu driver | Noveau | Noveau | **Ya**
 Dukungan aplikasi Nonfree<br>spotify, steam, skype, canon, pycharm | Flatpak | Flatpak | **Ya**
 Dukungan Wine windows | 64bit | 64bit | 32/64bit
-Dukungan instalasi oleh tenaga ahli. | - | **Ya** | **Ya**
