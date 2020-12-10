@@ -21,27 +21,33 @@ call_to_action:
     link : "https://t.me/langitketujuhCS"
 ---
 
-Fitur | **Lite Musl** | **Pro Musl** | **Pro Glibc**
+Fitur | **Lite (M)** | **Pro (M)** | **Pro (G)**
 :--- | :---: | :---: | :---:
-Tersedia codec Audio dan Video. | **Ya** | **Ya** | **Ya**
-Libreoffice paket aplikasi perkantoran. | **Ya** | **Ya** | **Ya**
-Deteksi Printer HP dan Epson. | **Ya** | **Ya** | **Ya**
-Gimp manipulasi foto. | **Ya** | **Ya** | **Ya**
-Inkscape pengolah vektor. | **Ya** | **Ya** | **Ya**
-Audacity pengolah audio. | - | **Ya** | **Ya**
-Blender animasi 2D/3D. | - | **Ya** | **Ya**
-Fontfoge pembuat font. | - | **Ya** | **Ya**
-Godot pembuat game. | - | **Ya** | **Ya**
-Kdenlive pengolah video. | - | **Ya** | **Ya**
-Krita digital painting. | - | **Ya** | **Ya**
-Scribus publisher. | - | **Ya** | **Ya**
-Synfigstudio animasi 2D. | - | **Ya** | **Ya**
-Digikam manajemen foto. | - | **Ya** | **Ya**
-Rawtherapee pengolah foto raw. | - | **Ya** | **Ya**
-Produksi Audio dengan Ardour & Cadence. | - | **Ya** | **Ya**
-Fonta google untuk proyek komersil. | - | **Ya** | **Ya**
-Dukungan instalasi via remote | - | **Ya** | **Ya**
-Dukungan aplikasi Appimage | - | - | **Ya**
-Dukungan Nvidia gpu driver | Noveau | Noveau | **Ya**
-Dukungan aplikasi Nonfree<br>spotify, steam, skype, canon, pycharm | Flatpak | Flatpak | **Ya**
+Tersedia codec Audio dan Video. | **√** | **√** | **√**
+Libreoffice paket aplikasi perkantoran. | **√** | **√** | **√**
+Deteksi Printer HP dan Epson. | **√** | **√** | **√**
+Gimp manipulasi foto. | **√** | **√** | **√**
+Inkscape pengolah vektor. | **√** | **√** | **√**
+Audacity pengolah audio. | - | **√** | **√**
+Blender animasi 2D/3D. | - | **√** | **√**
+Fontfoge pembuat font. | - | **√** | **√**
+Godot pembuat game. | - | **√** | **√**
+Kdenlive pengolah video. | - | **√** | **√**
+Krita digital painting. | - | **√** | **√**
+Scribus publisher. | - | **√** | **√**
+Synfigstudio animasi 2D. | - | **√** | **√**
+Digikam manajemen foto. | - | **√** | **√**
+Rawtherapee pengolah foto raw. | - | **√** | **√**
+Plugin GMIC Qt Gimp dan Krita. | - | **√** | **√**
+Produksi Audio dengan Ardour & Cadence. | - | **√** | **√**
+Fonta google untuk proyek komersil. | - | **√** | **√**
+Dukungan instalasi via remote | - | **√** | **√**
+Dukungan aplikasi Appimage | - | - | **√**
+Dukungan Nvidia gpu driver | Noveau | Noveau | **√**
+Dukungan aplikasi Nonfree<br>spotify, steam, skype, canon, pycharm | Flatpak | Flatpak | **√**
 Dukungan Wine windows | 64bit | 64bit | 32/64bit
+
+**Keterangan**
+
+- (M) = Musl
+- (G) = Glibc
