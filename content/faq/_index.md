@@ -1,5 +1,5 @@
 ---
-title: "Pertanyaan dan Jawaban Cepat"
+title: "Pertanyaan dan Jawaban Cepat | LangitKetujuh GNU/Linux"
 subtitle: ""
 # meta description
 description: "FAQ LangitKetujuh GNU/Linux | Pilihan tepat untuk desainer dan pengguna desktop"

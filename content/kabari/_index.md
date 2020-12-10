@@ -1,5 +1,5 @@
 ---
-title: "Kabari kami"
+title: "Kabari Kami | LangitKetujuh GNU/Linux"
 subtitle: ""
 # meta description
 description: "Kabari Tim LangitKetujuh GNU/Linux | Pilihan tepat untuk desainer dan pengguna desktop"

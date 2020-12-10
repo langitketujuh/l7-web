@@ -1,5 +1,5 @@
 ---
-title: "Cuplikan LangitKetujuh GNU/Linux"
+title: "Cuplikan | LangitKetujuh GNU/Linux"
 date: 2020-04-18T10:07:21+06:00
 # post image
 image: "gambar/blog/post-1.webp"

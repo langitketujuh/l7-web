@@ -1,5 +1,5 @@
 ---
-title: "Download PRO Glibc | LangitKetujuh GNU/Linux"
+title: "Unduh PRO Glibc | LangitKetujuh GNU/Linux"
 subtitle: ""
 # meta description
 description: "Unduh PRO-Glibc LangitKetujuh GNU/Linux | Pilihan tepat untuk desainer dan pengguna desktop"

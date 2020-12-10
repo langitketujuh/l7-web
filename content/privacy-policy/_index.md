@@ -1,5 +1,5 @@
 ---
-title: "Privecy & Policy"
+title: "Privecy & Policy | LangitKetujuh GNU/Linux"
 subtitle: ""
 # meta description
 description: "Ketentuan Privasi LangitKetujuh GNU/Linux | Pilihan tepat untuk desainer dan pengguna desktop"
