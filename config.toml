@@ -2,7 +2,7 @@
 baseURL = "https://langitketujuh.netlify.app/"
 title = "LangitKetujuh OS"
 theme = "bigspring"
-languageName = "En"
+languageName = "Id"
 languageCode = "en-us"
 # post pagination
 paginate = "3"
