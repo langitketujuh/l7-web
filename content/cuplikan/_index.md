@@ -60,7 +60,7 @@ _Gimp sebagai raster foto editor, pembuat kover buku dan majalah._
 ![Gimp LangitKetujuh OS](/capture/gimp-langitketujuh-id-1.webp)
 ![Gimp LangitKetujuh OS](/capture/gimp-langitketujuh-id-2.webp)
 
-## GMIC QT (Plugn raster)
+## GMIC QT (Plugin Gimp dan Krita)
 
 _GMIC merupakan plugin tambahan untuk memberikan efek pada foto. GMIC plugin juga tersedia untuk gimp dan krita._
 
