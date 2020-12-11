@@ -12,7 +12,7 @@ tag:
   - free
   - design
 include_toc: true
-draft: false
+draft: true
 
 opengraph:
   image: "gambar/post-1.jpg"
