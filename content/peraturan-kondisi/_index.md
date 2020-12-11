@@ -2,7 +2,7 @@
 title: "Terms of Service | LangitKetujuh GNU/Linux"
 subtitle: ""
 # meta description
-description: "Ketentuan LangitKetujuh GNU/Linux | Pilihan tepat untuk desainer dan pengguna desktop"
+description: "Hak dan kewajiban tim L7 dan Anda."
 draft: false
 ---
 

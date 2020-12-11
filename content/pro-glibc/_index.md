@@ -2,7 +2,7 @@
 title: "Unduh PRO Glibc | LangitKetujuh GNU/Linux"
 subtitle: ""
 # meta description
-description: "Unduh PRO-Glibc LangitKetujuh GNU/Linux | Pilihan tepat untuk desainer dan pengguna desktop"
+description: "PRO glibc untuk dukungan perangkat lunak nonfree (propietary)"
 draft: false
 ---
 

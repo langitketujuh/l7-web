@@ -6,7 +6,7 @@ image: "gambar/blog/post-1.webp"
 # post type (regular/featured)
 type: "featured"
 # meta description
-description: "Fitur LangitKetujuh GNU/Linux | Pilihan tepat untuk desainer dan pengguna desktop"
+description: "Perbandingan antara fitur lite dan pro. lite untuk kebutuhan minimalis, pro untuk kebutuhan profesional."
 # post draft
 draft: false
 

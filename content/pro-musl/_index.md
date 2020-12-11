@@ -2,7 +2,7 @@
 title: "Unduh PRO Musl | LangitKetujuh GNU/Linux"
 subtitle: ""
 # meta description
-description: "Unduh PRO-Musl LangitKetujuh GNU/Linux | Pilihan tepat untuk desainer dan pengguna desktop"
+description: "PRO musl untuk kebutuhan profesional dan efisiensi."
 draft: false
 ---
 

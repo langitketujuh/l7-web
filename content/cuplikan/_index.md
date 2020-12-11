@@ -6,7 +6,7 @@ image: "gambar/blog/post-1.webp"
 # post type (regular/featured)
 type: "featured"
 # meta description
-description: "Cuplikan LangitKetujuh GNU/Linux | Pilihan tepat untuk desainer dan pengguna desktop"
+description: "Beberapa cuplikan tampilan desktop, perangkat lunak ilustrasi, animasi, perkantoran, dan lain-lain."
 # post draft
 draft: false
 

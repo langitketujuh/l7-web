@@ -6,7 +6,7 @@ image: "gambar/blog/post-1.webp"
 # post type (regular/featured)
 type: "featured"
 # meta description
-description: "Tim LangitKetujuh GNU/Linux | Pilihan tepat untuk desainer dan pengguna desktop"
+description: "Tim beserta jajarannya."
 # post draft
 draft: false
 
