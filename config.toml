@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://langitketujuh.netlify.app/"
-title = "LangitKetujuh OS | Pilihan tepat untuk desainer dan pengguna desktop"
+title = "LangitKetujuh | Pilihan Tepat untuk Desainer dan Pengguna Desktop"
 theme = "bigspring"
 languageName = "Id"
 languageCode = "en-us"

@@ -5,7 +5,7 @@ banner:
   content : "Distribusi GNU/Linux dengan Musl berdasar pada VoidLinux. Menggunakan KDE lingkungan desktop, update stabil rolling rilis, dan sumber daya yang efisien."
   button:
     enable : true
-    label : "Fitur LangitKetujuh OS"
+    label : "Fitur"
     link : "fitur"
 
 ##################### Feature ##########################
@@ -90,7 +90,7 @@ service:
 ################### Screenshot ########################
 screenshot:
   enable : false
-  title : "Ciptakan pengalaman Free Software <br> bersama LangitKetujuh OS"
+  title : "Ciptakan pengalaman Free Software <br> bersama LangitKetujuh GNU/Linux"
   image : "gambar/screenshot.svg"
 
 ##################### Call to action #####################

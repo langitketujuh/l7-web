@@ -14,7 +14,7 @@ call_to_action:
   enable : true
   title : "Butuh Bantuan?"
   image : "gambar/faq.svg"
-  content : "Silakan hubungi kami di telegram. Balasan akan di respon 1x24 jam."
+  content : "Silakan hubungi kami di telegram. Balasan akan di respon 1x3 jam."
   button:
     enable : true
     label : "Kabari via Telegram"

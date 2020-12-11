@@ -1,4 +1,4 @@
-### LangitKetujuh OS for Web
+### LangitKetujuh GNU/Linux for Web
 
 website : https://langitketujuh.netlify.app
 
