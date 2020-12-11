@@ -104,7 +104,7 @@ logo_footer = "gambar/logo-l7.svg"
 logo_width_footer = "90px"
 # Meta data
 author = "langitketujuh"
-opengraphimage = "gambar/preview.jpg"
+opengraphimage = "gambar/preview.webp"
 latitude = ""
 longitude = ""
 locality ="Mojokerto"
@@ -130,7 +130,6 @@ enable = true
 label = "Donasi"
 link = "https://trakteer.id/langitketujuh.id"
 
-  
 ############################# social site ########################
 [[params.social]]
 title = "facebook"

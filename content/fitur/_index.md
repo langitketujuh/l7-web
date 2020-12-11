@@ -1,14 +1,10 @@
 ---
 title: "Fitur Lite dan Pro"
-date: 2020-04-18T10:07:21+06:00
-# post image
-image: "gambar/blog/post-1.webp"
-# post type (regular/featured)
-type: "featured"
+subtitle: ""
 # meta description
 description: "Perbandingan antara fitur lite dan pro. Lite untuk kebutuhan sederhana, sedangkan pro untuk kebutuhan profesional."
-# post draft
 draft: false
+
 
 call_to_action:
   enable : true

@@ -1,13 +1,8 @@
 ---
 title: "Tentang kami"
-date: 2020-04-18T10:07:21+06:00
-# post image
-image: "gambar/blog/post-1.webp"
-# post type (regular/featured)
-type: "featured"
+subtitle: ""
 # meta description
 description: "Tim LangitKetujuh beserta jajarannya."
-# post draft
 draft: false
 
 call_to_action:
