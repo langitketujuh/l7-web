@@ -1,5 +1,5 @@
 ---
-title: "Cuplikan desktop"
+title: "Cuplikan Desktop"
 subtitle: ""
 # meta description
 description: "Beberapa cuplikan tampilan desktop, perangkat lunak ilustrasi, animasi, perkantoran, browser, pemutar audio/video dan lain-lain."

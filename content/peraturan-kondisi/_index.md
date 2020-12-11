@@ -1,5 +1,5 @@
 ---
-title: "Peraturan layanan"
+title: "Peraturan Layanan"
 subtitle: ""
 # meta description
 description: "Hak dan kewajiban tim LangitKetujuh dan Anda."

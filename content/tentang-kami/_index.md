@@ -1,5 +1,5 @@
 ---
-title: "Tentang kami"
+title: "Tentang Kami"
 subtitle: ""
 # meta description
 description: "Tim LangitKetujuh beserta jajarannya."

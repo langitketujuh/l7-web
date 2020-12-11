@@ -1,5 +1,5 @@
 ---
-title: "Unduh"
+title: "Unduh ISO"
 subtitle: ""
 # meta description
 description: "Pilih edisi lite untuk kebutuhan sederhana dan edisi pro untuk kebutuhan profesional."

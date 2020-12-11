@@ -1,5 +1,5 @@
 ---
-title: "Kabari kami"
+title: "Kabari Kami!"
 subtitle: ""
 # meta description
 description: "Hubungi kami jika ada saran, kritikan, dan memberikan pelaporan kutu. Atau sekedar menyapa kami :)"
