@@ -5,7 +5,6 @@ subtitle: ""
 description: "Perbandingan antara fitur lite dan pro. Lite untuk kebutuhan sederhana, sedangkan pro untuk kebutuhan profesional."
 draft: false
 
-
 call_to_action:
   enable : true
   title : "Butuh Bantuan?"
@@ -36,14 +35,15 @@ Digikam manajemen foto. | - | **√** | **√**
 Rawtherapee pengolah foto raw. | - | **√** | **√**
 Plugin GMIC Qt Gimp dan Krita. | - | **√** | **√**
 Produksi Audio dengan Ardour & Cadence. | - | **√** | **√**
-Fonta google untuk proyek komersil. | - | **√** | **√**
+Google Fonts untuk proyek komersil. | - | **√** | **√**
 Dukungan instalasi via remote | - | **√** | **√**
 Dukungan aplikasi Appimage | - | - | **√**
-Dukungan Nvidia gpu driver | Noveau | Noveau | **√**
-Dukungan aplikasi Nonfree spotify, steam, skype, canon, pycharm, mendeley | Flatpak | Flatpak | **√**
-Dukungan Wine windows | 64 bit | 64 bit | 32 dan 64 bit
+Dukungan Nvidia gpu driver | - | - | **√**
+Dukungan Aplikasi Nonfree  | - | - | **√**
+Dukungan Wine windows | - | - | **√**
 
-**Keterangan**
+**Keterangan:**
 
-- (M) = Musl
-- (G) = Glibc
+- M = Musl. G = Glibc
+- Aplikasi Nonfree seperti driver gpu Nvidia, Spotify, Steam, Skype, Printer Canon, Pycharm, Mendeley tidak mendukung musl. Tetapi bisa dipasang melalui flatpak.
+- Musl hanya mendukung Wine windows 64 bit saja, sedangkan Glibc mendukung 32 dan 64 bit.
