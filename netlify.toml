@@ -42,3 +42,15 @@ HUGO_ENABLEGITINFO = "true"
   for = "*.css" # css files too
   [headers.values]
     Cache-Control = "public, max-age=31536000"
+
+[[redirects]]
+  from = "https://langitketujuh.netlify.app/*"
+  to = "https://langitketujuh.id/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://langitketujuh.netlify.app/*"
+  to = "https://langitketujuh.id/:splat"
+  status = 301
+  force = true
