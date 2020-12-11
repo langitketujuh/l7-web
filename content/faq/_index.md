@@ -1,8 +1,8 @@
 ---
-title: "Pertanyaan dan Jawaban Cepat | LangitKetujuh GNU/Linux"
+title: "Pertanyaan dan Jawaban"
 subtitle: ""
 # meta description
-description: "Beberapa pertanyaan dan penjelasannya."
+description: "Beberapa pertanyaan dan penjelasannya. Bisa jadi, apa yang Anda maksud ada disini."
 draft: false
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: "Privecy & Policy | LangitKetujuh GNU/Linux"
+title: "Kebijakan Privasi"
 subtitle: ""
 # meta description
-description: "Ketentuan privasi pengguna"
+description: "Anda mungkin akan diminta untuk memberikan informasi pribadi yang berhubungan dengan Layanan L7, tujuannya untuk kemudahan menghubungi dan mengenali."
 draft: false
 ---
 

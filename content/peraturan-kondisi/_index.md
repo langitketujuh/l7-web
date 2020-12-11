@@ -1,8 +1,8 @@
 ---
-title: "Terms of Service | LangitKetujuh GNU/Linux"
+title: "Peraturan layanan"
 subtitle: ""
 # meta description
-description: "Hak dan kewajiban tim L7 dan Anda."
+description: "Hak dan kewajiban tim LangitKetujuh dan Anda."
 draft: false
 ---
 

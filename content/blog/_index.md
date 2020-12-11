@@ -1,5 +1,5 @@
 ---
-title: "Artikel Menarik! | LangitKetujuh GNU/Linux"
+title: "Artikel menarik!"
 subtitle: "Beberapa berita dan tips seputar GNU/Linux."
 # meta description
 description: "Berbagi berita dan tips"

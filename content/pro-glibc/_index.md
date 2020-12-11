@@ -1,8 +1,8 @@
 ---
-title: "Unduh PRO Glibc | LangitKetujuh GNU/Linux"
+title: "Unduh PRO Glibc"
 subtitle: ""
 # meta description
-description: "PRO glibc untuk dukungan perangkat lunak nonfree (propietary)"
+description: "Terbaik untuk dukungan perangkat lunak nonfree (propietary)"
 draft: false
 ---
 

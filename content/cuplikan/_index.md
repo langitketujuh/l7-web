@@ -1,12 +1,12 @@
 ---
-title: "Cuplikan | LangitKetujuh GNU/Linux"
+title: "Cuplikan desktop"
 date: 2020-04-18T10:07:21+06:00
 # post image
 image: "gambar/blog/post-1.webp"
 # post type (regular/featured)
 type: "featured"
 # meta description
-description: "Beberapa cuplikan tampilan desktop, perangkat lunak ilustrasi, animasi, perkantoran, dan lain-lain."
+description: "Beberapa cuplikan tampilan desktop, perangkat lunak ilustrasi, animasi, perkantoran, browser, pemutar audio/video dan lain-lain."
 # post draft
 draft: false
 

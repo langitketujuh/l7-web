@@ -1,8 +1,8 @@
 ---
-title: "Unduh | LangitKetujuh GNU/Linux"
+title: "Unduh"
 subtitle: ""
 # meta description
-description: "Pilih edisi lite untuk kebutuhan rumahan dan edisi pro untuk kebutuhan profesional."
+description: "Pilih edisi lite untuk kebutuhan sederhana dan edisi pro untuk kebutuhan profesional."
 draft: false
 
 basic:
