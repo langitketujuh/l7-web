@@ -104,7 +104,7 @@ logo_footer = "gambar/logo-l7.svg"
 logo_width_footer = "90px"
 # Meta data
 author = "langitketujuh"
-opengraphimage = "gambar/preview.webp"
+opengraphimage = "gambar/thumbnail.jpg"
 latitude = ""
 longitude = ""
 locality ="Mojokerto"
