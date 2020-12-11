@@ -1,0 +1,12 @@
+  {{- if .Page.Params.Author }}
+    <meta name="author"      content="{{ .Page.Params.Author }}">
+  {{- end }}
+
+  {{- if .Page.Params.Excerpt }}
+    <meta name="description" content="{{ replace .Page.Params.Excerpt "\n" " " }}">
+  {{- end }}
+
+  {{- $terms := union .Page.Params.Categories .Page.Params.Tags -}}
+  {{- if $terms }}
+    <meta name="keywords"    content="{{ delimit $terms ", " }}">
+  {{- end }}

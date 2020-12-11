@@ -1,12 +1,12 @@
 <head>
   <meta charset="utf-8">
-  <title>{{ .Title }}</title>
+  <title>{{ .Page.Title | default .Site.Title }}</title>
+  
+  {{ partial "meta-html.html" . }}
 
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
   {{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-  {{ hugo.Generator }}
 
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range site.Params.plugins.css }}
@@ -25,8 +25,15 @@
   {{ with .Params.Image }}
   <meta property="og:image" content="{{ . | absURL }}" />
   {{ end }}
+  
+  {{ partial "meta-seo.html" . }}
+  {{ partial "meta-opengraph.html" . }}
+  {{ partial "meta-twitter.html" . }}
+
+  <!--
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/google_analytics.html" . }}
   {{ template "_internal/google_analytics_async.html" . }}
+  -->
   
 </head>

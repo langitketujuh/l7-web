@@ -27,8 +27,9 @@ professional:
   info : "Terbaik untuk Professional"
   services:
   - "**(+) Fitur LITE Musl.**"
+  - "Plugin GMIC-Qt."
   - "Software Fotografi."
-  - "Software Edit Video."
+  - "Software Video Editor."
   - "Software Digital Painting."
   - "Software Audio Production."
   - "Software Desain Animasi 2D/3D."
@@ -59,7 +60,7 @@ call_to_action:
   enable : true
   title : "Perbedaan Fitur?"
   image : "gambar/faq.svg"
-  content : "Masih bingung dengan jenisnya? Berikut perbedaan fitur antara Lite dan Pro yang akan dijelaskan secara rinci."
+  content : "Masih bingung? Bandingkan perbedaan fitur Lite dan Pro disini."
   button:
     enable : true
     label : "Bandingkan!"

@@ -1,16 +1,22 @@
 ---
 title: "Adversus is a web-based dialer and practical CRM solution"
 date: 2020-04-18T10:07:21+06:00
-# post image
 image: "gambar/blog/post-1.webp"
 # post type (regular/featured)
 type: "featured"
-# meta description
 description: "This is meta description"
-# post draft
-draft: true
----
+author: "LangitKetujuh ID"
+categories: ""
+tag:
+  - software
+  - free
+  - design
+include_toc: true
+draft: false
 
+opengraph:
+  image: "gambar/post-1.jpg"
+---
 
 #### Heading example
 
