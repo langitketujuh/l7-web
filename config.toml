@@ -114,10 +114,7 @@ latitude = ""
 longitude = ""
 locality ="Mojokerto"
 countryname ="Indonesia"
-description = """\
- Distribusi GNU/Linux untuk desainer, ilustrator, animator, publisher, fotografer, dan game desainer.
- Dibangun dengan musl, rolling rilis stabil, runit, dan KDE lingkungan desktop.
-"""
+description = "Distribusi GNU/Linux untuk desainer, ilustrator, animator, publisher, fotografer, dan game desainer. Menggunakan musl libc, rolling rilis, runit, dan KDE lingkungan desktop. "
 
 ########### footer content ##########
 footer_content = "Pilihan Tepat untuk Desainer dan Pengguna Desktop"
