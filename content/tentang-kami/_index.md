@@ -16,9 +16,25 @@ call_to_action:
     link : "https://t.me/langitketujuhCS"
 ---
 
-LangitKetujuh OS dibuat dengan alat void-mklive yang telah dimodifikasi. Kode sumbernya ada di [gitlab](https://gitlab.com/langitketujuh).
 
-Distribusi GNU/Linux dengan Musl berdasar pada VoidLinux. Menggunakan KDE lingkungan desktop, update stabil rolling rilis, dan sumber daya yang efisien.
+### Inspirasi?
 
-### Pengembang Sistem Operasi:
-- Hervy Qurrotul Ainur Rozi
+Amar ma'ruf nahi munkar. Mengajak kepada kebaikan, mencegah keburukan (kejahatan).
+
+### Asal Nama LangitKetujuh?
+
+Peristiwa Isra' Miraj. Perjalanan Rasulullah dari langit pertama, langit ketujuh, hingga ke _Sidratul Muntaha_. Alasan kedua, jarang ada projek free software yang menggunakan nama islami, sehingga developer bertambah yakin dengan nama tersebut. Kita sebut saja L7, singkatan dari LangitKetujuh.
+
+### Mengapa KDE?
+
+Berbagai aplikasi desain kebanyakan terbuat dari QT. Seperti krita, kdenlive, scribus, fontforge, synfigstudio, opentoonz. Namun aplikasi desain gtk juga ada seperti Inkscape dan Gimp. Terlebih lagi tampilan UI KDE lebih familiar oleh pengguna awam.
+
+### Mengapa untuk desainer saja?
+
+Karena developer L7 juga desainer, pengajar desain grafis, freelancer, dan memiliki bakat di desain grafis.
+
+### Siapa Para Tim?
+
+1. Hervy Qurrotul Ainur Rozi (Developer & Desainer)
+
+2. (Selanjutnya bisa jadi Anda)
