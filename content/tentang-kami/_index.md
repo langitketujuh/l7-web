@@ -16,16 +16,9 @@ call_to_action:
     link : "https://t.me/langitketujuhCS"
 ---
 
+LangitKetujuh OS dibuat dengan alat void-mklive yang telah dimodifikasi. Kode sumbernya ada di [gitlab](https://gitlab.com/langitketujuh).
+
 Distribusi GNU/Linux dengan Musl berdasar pada VoidLinux. Menggunakan KDE lingkungan desktop, update stabil rolling rilis, dan sumber daya yang efisien.
 
 ### Pengembang Sistem Operasi:
-- Hervy Qurrotul Ainur Rozi
-
-### Layanan dan bantuan:
-- Hervy Qurrotul Ainur Rozi
-
-### Pengembang website dan dokumentasi:
-- Hervy Qurrotul Ainur Rozi
-
-### Marketing dan sosial media:
 - Hervy Qurrotul Ainur Rozi

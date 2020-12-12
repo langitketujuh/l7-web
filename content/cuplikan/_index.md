@@ -141,6 +141,12 @@ _Vokoscreen adalah perangkat lunak yang bisa digunakan untuk melakukan perekaman
 
 ![Vokoscreen LangitKetujuh](/capture/vokoscreen-langitketujuh-id.webp)
 
+## Cadence (Prodduksi Audio)
+
+_Cadence merupakan alat lengkap untuk mengolah audio, terutama untuk jack. Ada beberapa aplkasi lain yang disebut alat cadence, seperti Catarina, Catia, dan Claudia._
+
+![Cadence LangitKetujuh](/capture/cadence-langitketujuh-id.webp)
+
 ## Libreoffice (Perangkat lunak perkantoran)
 
 _LibreOffice adalah sebuah paket aplikasi perkantoran sumber terbuka dan bebas yang dikembangkan oleh The Document Foundation (TDF)._

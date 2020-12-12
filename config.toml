@@ -3,7 +3,7 @@ baseURL = "https://langitketujuh.id/"
 title = "LangitKetujuh OS | Pilihan Tepat untuk Desainer dan Pengguna Desktop"
 theme = "bigspring"
 languageName = "Id"
-languageCode = "en-us"
+languageCode = "id-ID"
 # post pagination
 paginate = "3"
 # post excerpt
@@ -73,6 +73,11 @@ weight = 6
 name = "Tentang Kami"
 URL = "tentang-kami"
 weight = 1
+
+[[menu.profil]]
+name = "Kode Sumber"
+URL = "https://gitlab.com/langitketujuh"
+weight = 2
 
 # produk 
 [[menu.produk]]
