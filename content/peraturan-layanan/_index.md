@@ -3,7 +3,7 @@ title: "Peraturan Layanan"
 subtitle: ""
 # meta description
 description: "Hak dan kewajiban tim LangitKetujuh dan Anda."
-draft: false
+draft: true
 ---
 
 #### Responsibility of Contributors

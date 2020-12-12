@@ -23,7 +23,7 @@ Amar ma'ruf nahi munkar. Mengajak kepada kebaikan, mencegah keburukan (kejahatan
 
 ### Asal Nama LangitKetujuh?
 
-Peristiwa Isra' Miraj. Perjalanan Rasulullah dari langit pertama, langit ketujuh, hingga ke _Sidratul Muntaha_. Alasan kedua, jarang ada projek free software yang menggunakan nama islami, sehingga developer bertambah yakin dengan nama tersebut. Kita sebut saja L7, singkatan dari LangitKetujuh.
+Peristiwa Isra' Miraj. Perjalanan Rasulullah dari langit pertama, langit ketujuh, hingga ke _Sidratul Muntaha_. Alasan kedua, jarang ada projek free software yang menggunakan nama islami, sehingga developer bertambah yakin dengan nama tersebut. Kita sebut saja L7, kepanjangan dari LangitKetujuh.
 
 ### Mengapa KDE?
 

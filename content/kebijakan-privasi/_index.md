@@ -3,7 +3,7 @@ title: "Kebijakan Privasi"
 subtitle: ""
 # meta description
 description: "Anda mungkin akan diminta untuk memberikan informasi pribadi yang berhubungan dengan Layanan L7, tujuannya untuk kemudahan menghubungi dan mengenali."
-draft: false
+draft: true
 ---
 
 #### Responsibility of Contributors
