@@ -85,15 +85,15 @@ name = "LangitKetujuh OS"
 URL = "/"
 weight = 1
 
-# dukungan 
+# dukungan
 [[menu.dukungan]]
-name = "Peraturan layanan"
-URL = "peraturan-layanan"
+name = "Finansial"
+URL = "finansial"
 weight = 1
 
 [[menu.dukungan]]
-name = "FAQ"
-URL = "faq"
+name = "Peraturan layanan"
+URL = "peraturan-layanan"
 weight = 2
 
 [[menu.dukungan]]
