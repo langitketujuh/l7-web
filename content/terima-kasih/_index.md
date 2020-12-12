@@ -16,6 +16,7 @@ call_to_action:
     link : "https://t.me/langitketujuhCS"
 ---
 
-Kakak sudah mengisi formulir.
-Kami akan menghubungi kakak via telegram dalam kurun waktu 1x3 Jam.
+Anda sudah mengisi formulir.
+Kami akan segera menghubungi Anda via Telegram/WhatsApp/E-mail.
+
 Syukran wa jazaakumullahu khairan katsiran.
