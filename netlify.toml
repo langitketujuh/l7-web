@@ -54,3 +54,8 @@ HUGO_ENABLEGITINFO = "true"
   to = "https://langitketujuh.id/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/404/"
+  status = 404
