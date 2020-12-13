@@ -13,8 +13,6 @@
 
 {{- if .Page.Params.Opengraph.Image }}
 <meta property="og:image" content="{{ .Page.Params.Opengraph.Image | absURL }}">
-{{- else if eq .Page.Params.Type "post" }}
-<meta property="og:image" content="{{ "/images/epsi-vexel.png" | absURL }}">
 {{- else if .Site.Params.Opengraphimage }}
 <meta property="og:image" content="{{ .Site.Params.Opengraphimage | absURL }}">
 {{- end }}
