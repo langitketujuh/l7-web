@@ -1,7 +1,7 @@
 ---
-title: "Daftar Dokumentasi Free Software Khusus Desain"
+title: "Daftar Dokumentasi Free Software Khusus Desain (Lengkap)"
 date: 2020-12-12T22:09:20+07:00
-image: /blog/daftar-dokumentasi-free-software-khusus-desain.webp
+image: /blog/daftar-dokumentasi-free-software-khusus-desain-lengkap.webp
 # post type (regular/featured)
 type: "regular"
 description: "This is meta description"
@@ -16,7 +16,7 @@ tag:
   - krita
   - kdenlive
 opengraph:
-  image: "/blog/daftar-dokumentasi-free-software-khusus-desain.webp"
+  image: "/blog/daftar-dokumentasi-free-software-khusus-desain-lengkap.webp"
 
 draft: false
 ---
