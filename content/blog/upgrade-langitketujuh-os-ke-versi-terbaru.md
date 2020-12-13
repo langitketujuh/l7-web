@@ -4,7 +4,7 @@ date: 2020-12-12T19:18:27+07:00
 image: "/blog/upgrade-langitketujuh-os-ke-versi-terbaru.webp"
 # post type (regular/featured)
 type: "featured"
-description: "This is meta description"
+description: "Menggunakan L7-tools. Apa itu?"
 author: "LangitKetujuh ID"
 categories:
   - software

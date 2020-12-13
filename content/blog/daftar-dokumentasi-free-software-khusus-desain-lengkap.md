@@ -4,7 +4,7 @@ date: 2020-12-12T22:09:20+07:00
 image: /blog/daftar-dokumentasi-free-software-khusus-desain-lengkap.webp
 # post type (regular/featured)
 type: "regular"
-description: "This is meta description"
+description: "Daftar dokumentasi perangkat lunak bebas, baik resmi dan tidak resmi yang patut dicoba."
 author: "LangitKetujuh ID"
 categories:
   - software
