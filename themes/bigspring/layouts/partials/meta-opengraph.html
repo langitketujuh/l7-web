@@ -1,33 +1,32 @@
- 
-    <meta property="og:locale"       content="{{ $.Site.LanguageCode | default "en" }}">
+<meta property="og:locale" content="{{ $.Site.LanguageCode | default "en" }}">
 
-  {{- if eq .Page.Params.Type "post" }}
-    <meta property="og:type"         content="article">
-  {{- end }}
-    <meta property="og:title"        content="{{ .Title | default .Site.Title }}">
+{{- if eq .Page.Params.Type "post" }}
+<meta property="og:type" content="article">
+{{- end }}
+<meta property="og:title" content="{{ .Title | default .Site.Title }}">
 
-  {{- if .Page.Params.Excerpt }}
-    <meta property="og:description"  content="{{ replace .Page.Params.Excerpt "\n" " " }}">
-  {{- end }}
-    <meta property="og:url"          content="{{ .Permalink }}">
-    <meta property="og:site_name"    content="{{ .Site.Title }}">
+{{- if .Page.Params.Excerpt }}
+<meta property="og:description" content="{{ replace .Page.Params.Excerpt "\n" " " }}">
+{{- end }}
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
 
-  {{- if .Page.Params.Opengraph.Image }}
-    <meta property="og:image"        content="{{ .Page.Params.Opengraph.Image | absURL }}">
-  {{- else if eq .Page.Params.Type "post" }}
-    <meta property="og:image"        content="{{ "/images/epsi-vexel.png" | absURL }}">
-  {{- else if .Site.Params.Opengraphimage }}
-    <meta property="og:image"        content="{{ .Site.Params.Opengraphimage | absURL }}">
-  {{- end }}
-  {{- if .Page.Params.Latitude }}
-    <meta property="og:latitude"     content="{{ .Site.Params.Latitude }}"/>
-  {{- end }}
-  {{- if .Page.Params.Longitude }}
-    <meta property="og:longitude"    content="{{ .Site.Params.Longitude }}"/>
-  {{- end }}
-  {{- if .Page.Params.Locality }}
-    <meta property="og:locality"     content="{{ .Site.Params.Locality }}"/>
-  {{- end }}
-  {{- if .Page.Params.Countryname }}
-    <meta property="og:country-name" content="{{ .Site.Params.Countryname }}"/>
-  {{- end }}
+{{- if .Page.Params.Opengraph.Image }}
+<meta property="og:image" content="{{ .Page.Params.Opengraph.Image | absURL }}">
+{{- else if eq .Page.Params.Type "post" }}
+<meta property="og:image" content="{{ "/images/epsi-vexel.png" | absURL }}">
+{{- else if .Site.Params.Opengraphimage }}
+<meta property="og:image" content="{{ .Site.Params.Opengraphimage | absURL }}">
+{{- end }}
+{{- if .Page.Params.Latitude }}
+<meta property="og:latitude" content="{{ .Site.Params.Latitude }}"/>
+{{- end }}
+{{- if .Page.Params.Longitude }}
+<meta property="og:longitude" content="{{ .Site.Params.Longitude }}"/>
+{{- end }}
+{{- if .Page.Params.Locality }}
+<meta property="og:locality" content="{{ .Site.Params.Locality }}"/>
+{{- end }}
+{{- if .Page.Params.Countryname }}
+<meta property="og:country-name" content="{{ .Site.Params.Countryname }}"/>
+{{- end }}
