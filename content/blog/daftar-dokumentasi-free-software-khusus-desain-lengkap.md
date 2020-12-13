@@ -15,9 +15,6 @@ tag:
   - gimp
   - krita
   - kdenlive
-opengraph:
-  image: "/blog/daftar-dokumentasi-free-software-khusus-desain-lengkap.webp"
-
 draft: false
 ---
 

@@ -15,8 +15,6 @@ tag:
   - gimp
   - krita
   - kdenlive
-opengraph:
-  image: "blog/upgrade-langitketujuh-os-ke-versi-terbaru.webp"
 draft: false
 ---
 
