@@ -23,7 +23,9 @@ Amar ma'ruf nahi munkar. Mengajak kepada kebaikan, mencegah keburukan (kejahatan
 
 ### Asal Nama LangitKetujuh?
 
-Peristiwa Isra' Miraj. Perjalanan Rasulullah dari langit pertama, langit ketujuh, hingga ke _Sidratul Muntaha_. Alasan kedua, jarang ada projek free software yang menggunakan nama islami, sehingga developer bertambah yakin dengan nama tersebut. Kita sebut saja L7, kepanjangan dari LangitKetujuh.
+Diambil dari peristiwa Isra' Miraj. Perjalanan Rasulullah dari Al Masjidil Haram ke Al Masjidil Aqsha. Mi'raj ke langit pertama, langit ketujuh, hingga ke _Sidratul Muntaha_. Tempat tertinggi di langit yang menjadi batas ujung pengetahuan dan amal aktifitas para makhluk.
+
+Alasan kedua, nama LangitKetujuh ini diambil karena jarang ada projek free software yang menggunakan nama tempat yang islami dan istimewa, sehingga developer bertambah yakin dengan nama tersebut. Kita sebut saja L7, kepanjangan dari LangitKetujuh.
 
 ### Mengapa KDE?
 
@@ -31,10 +33,10 @@ Berbagai aplikasi desain kebanyakan terbuat dari QT. Seperti krita, kdenlive, sc
 
 ### Mengapa untuk desainer saja?
 
-Karena developer L7 juga desainer, pengajar desain grafis, freelancer, dan memiliki bakat di desain grafis.
+Karena developer L7 juga desainer, pengajar desain grafis, freelancer, dan memiliki bakat di desain grafis. Meskipun demikian, L7 terdapat versi Lite yang digunakan untuk kebutuhan umum dan awam.
 
 ### Siapa Para Tim?
 
 1. Hervy Qurrotul Ainur Rozi (Developer & Desainer)
 
-2. (Selanjutnya bisa jadi Anda)
+2. (Selanjutnya adalah bisa jadi Anda)
