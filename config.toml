@@ -103,18 +103,18 @@ weight = 3
 
 #################### default parameters ################################
 [params]
-logo = "gambar/logo-l7.svg"
-logo_width = "130px"
-logo_footer = "gambar/logo-l7.svg"
-logo_width_footer = "90px"
-# Meta data
-author = "LangitKetujuh ID"
-opengraphimage = "gambar/thumbnail.jpg"
-latitude = ""
-longitude = ""
-locality ="Mojokerto"
-countryname ="Indonesia"
-description = "Distribusi GNU/Linux untuk desainer, ilustrator, animator, publisher, fotografer, dan game desainer. Menggunakan musl libc, rolling rilis, runit, dan KDE lingkungan desktop. "
+  logo = "gambar/logo-l7.svg"
+  logo_width = "130px"
+  logo_footer = "gambar/logo-l7.svg"
+  logo_width_footer = "90px"
+  author = "LangitKetujuh ID"
+  opengraphimage = "gambar/thumbnail.webp"
+  description = "Distribusi GNU/Linux untuk desainer, ilustrator, animator, publisher, fotografer, dan game desainer. Menggunakan musl libc, rolling rilis, runit, dan KDE lingkungan desktop. "
+  latitude = ""
+  longitude = ""
+  locality ="Mojokerto"
+  countryname ="Indonesia"
+
 
 ########### footer content ##########
 footer_content = "Pilihan Tepat untuk Desainer dan Pengguna Desktop"

@@ -9,7 +9,16 @@
   <meta charset="utf-8">
   <title>{{ .Page.Title | default .Site.Title }}</title>
 
-  {{ partial "meta-html.html" . }}
+  {{/* Required meta tags */}}
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  {{/* The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags */}}
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="generator" content="LangitKetujuh 1.0 Generator" />
+  <meta name="theme-color" content="#5b37f0">
 
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="description" content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
@@ -34,17 +43,6 @@
   <link rel="apple-touch-icon" href="{{ $icon152 | relURL }}" type="image/x-icon">
   <link rel="shortcut icon" href="{{ $favicon | absURL }}" type="image/x-icon">
 
-  {{ with .Params.Image }}
-  <meta property="og:image" content="{{ . | absURL }}" />
-  {{ end }}
-
-  {{ partial "meta-seo.html" . }}
-  {{ partial "meta-opengraph.html" . }}
-  {{ partial "meta-twitter.html" . }}
-
-  <!--
-  {{ template "_internal/opengraph.html" . }}
-  {{ template "_internal/google_analytics.html" . }}
-  {{ template "_internal/google_analytics_async.html" . }}
-  -->
+  {{- partial "opengraph.html" . -}}
+  
 </head>

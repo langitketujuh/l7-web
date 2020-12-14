@@ -103,3 +103,5 @@ call_to_action:
     enable : true
     label : "Unduh"
     link : "unduh"
+
+image : "gambar/thumbnail.webp"
