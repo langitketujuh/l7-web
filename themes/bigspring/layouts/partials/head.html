@@ -44,5 +44,6 @@
   <link rel="shortcut icon" href="{{ $favicon | absURL }}" type="image/x-icon">
 
   {{- partial "opengraph.html" . -}}
+  {{ template "_internal/twitter_cards.html" . }}
   
 </head>

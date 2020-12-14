@@ -4,7 +4,7 @@ baseURL = "https://langitketujuh.id/"
 title = "LangitKetujuh OS | Pilihan Tepat untuk Desainer dan Pengguna Desktop"
 theme = "bigspring"
 languageName = "Id"
-languageCode = "id-ID"
+languageCode = "en-US"
 # post pagination
 paginate = "3"
 # post excerpt
@@ -109,10 +109,6 @@ weight = 3
   author = "LangitKetujuh ID"
   opengraphimage = "gambar/thumbnail.webp"
   description = "Distribusi GNU/Linux untuk desainer, ilustrator, animator, publisher, fotografer, dan game desainer. Menggunakan musl libc, rolling rilis, runit, dan KDE lingkungan desktop. "
-  latitude = ""
-  longitude = ""
-  locality ="Mojokerto"
-  countryname ="Indonesia"
 
 # FOOTER
 

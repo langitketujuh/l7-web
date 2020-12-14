@@ -1,3 +1,4 @@
+
 <meta property="og:locale"
       content="{{ $.Site.LanguageCode | default "en" }}">
 
@@ -22,13 +23,11 @@
       content="{{ .Page.Params.Opengraph.Image | absURL }}">
 {{- else if eq .Page.Params.Type "post" }}
 <meta property="og:image"
-      content="{{ "/assets/site/images/topics/default.png" | absURL }}">
+      content="{{ "gambar/thumbnail.webp" | absURL }}">
 {{- else if .Site.Params.Opengraphimage }}
 <meta property="og:image"
       content="{{ .Site.Params.Opengraphimage | absURL }}">
 {{- end }}
 
-<meta property="og:latitude"     content="-6.193665"/>
-<meta property="og:longitude"    content="106.848558"/>
-<meta property="og:locality"     content="Jakarta"/>
-<meta property="og:country-name" content="Indonesia"/>
+<meta property="og:locality"     content="Mojokerto">
+<meta property="og:country-name" content="Indonesia">
