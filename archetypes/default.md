@@ -18,3 +18,5 @@ tag:
   - krita
 draft: true
 ---
+
+_Barakallahu fiikum._
