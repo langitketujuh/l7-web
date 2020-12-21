@@ -3,6 +3,9 @@ title: "Pertanyaan dan Jawaban"
 subtitle: ""
 # meta description
 description: "Beberapa pertanyaan dan penjelasannya. Bisa jadi, apa yang Anda maksud ada disini."
+image: gambar/thumbnail.webp
+opengraph:
+  image: gambar/thumbnail.webp
 draft: false
 ---
 

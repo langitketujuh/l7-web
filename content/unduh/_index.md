@@ -3,6 +3,9 @@ title: "Unduh ISO"
 subtitle: ""
 # meta description
 description: "Pilih edisi lite untuk kebutuhan sederhana dan edisi pro untuk kebutuhan profesional."
+image: gambar/thumbnail.webp
+opengraph:
+  image: gambar/thumbnail.webp
 draft: false
 
 basic:

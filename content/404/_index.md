@@ -3,10 +3,10 @@ title: "Halaman Tidak Ditemukan"
 subtitle: ""
 # meta description
 description: "Salah Alamat URL"
-draft: false
 image: gambar/thumbnail.webp
 opengraph:
   image: gambar/thumbnail.webp
+draft: false
 
 call_to_action:
   enable : true

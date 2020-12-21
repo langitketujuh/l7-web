@@ -3,6 +3,9 @@ title: "Fitur Lite dan Pro"
 subtitle: ""
 # meta description
 description: "Perbandingan antara fitur lite dan pro. Lite untuk kebutuhan sederhana, sedangkan pro untuk kebutuhan profesional."
+image: gambar/thumbnail.webp
+opengraph:
+  image: gambar/thumbnail.webp
 draft: false
 
 call_to_action:
