@@ -1,5 +1,5 @@
 ---
-title: "Tips Optimalkan Font Di Langitketujuh Dan Voidlinux"
+title: "Tips Optimalkan Font di Langitketujuh dan Voidlinux"
 date: 2020-12-21T10:26:46+07:00
 image: blog/tips-optimalkan-font-di-langitketujuh-dan-voidlinux.webp
 opengraph:
