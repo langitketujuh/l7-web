@@ -19,11 +19,13 @@ tag:
 draft: false
 ---
 
-Ada beberapa cara untuk mempercepat rendering font, diantaranya dengan menonaktifkan bitmap font dan menononaktifkan font yang tidak terpakai. Dan untuk inkscape sendiri jika menggunakan preview font langsung maka akan lag, sehingga gunakan docker font untuk mengatur font.
+Ada beberapa cara untuk mempercepat rendering font, diantaranya dengan menonaktifkan bitmap font dan font yang jarang dipakai. 2 tips ini sudah cukup untuk mengoptimalkan font. Namun ada tips lain untuk menggunakan preview font di inkscape agar tidak lag. Yuk kita simak langkah-langkahnya.
 
 ### Menonaktifkan Bitmap Font
 
-Cara ini agar sistem menggunakan font vektor secara default.
+Cara ini agar sistem menggunakan font vektor secara bawaan. Biasanya bitmap font mengganggu render font di browser, sehingga perlu menonaktifkan font bitmap yang terpasang.
+
+Buka konsole, lalu ketik perintah ini:
 
 ```
 sudo ln -s /usr/share/fontconfig/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d/
@@ -34,9 +36,11 @@ Kemudian Gererate ulang cache font
 sudo xbps-reconfigure -v -f fontconfig
 ```
 
-### Menonaktifkan Font yang tidak dipakai
+### Menonaktifkan Font yang jarang dipakai
 
-Tujuannya untuk mengurangi Preview render ketika membuaka perangkat lunak grafis. Pertama buka Font Management
+Tujuannya untuk mengurangi Preview render ketika membuka perangkat lunak grafis. Kadang kala render font di inkscape cukup lama ketika memilih font, nanti akan dijelaskan.
+
+Pertama, buka "Font Management".
 
 {{< figure src=/blog/font-manager-open.webp alt="Font Management Open">}}
 
