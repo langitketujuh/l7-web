@@ -1,2 +1,0 @@
-Sitemap: https://langitketujuh.id/sitemap.xml
-User-agent:*
