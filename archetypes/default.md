@@ -1,10 +1,12 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-image: gambar/blog/.webp
+image: blog/{{ .File.BaseFileName }}.webp
+opengraph:
+  image: blog/{{ .File.BaseFileName }}.webp
 # post type (regular/featured)
 type: "regular"
-description: "This is meta description"
+description: ""
 author: "LangitKetujuh ID"
 categories:
   - software
@@ -14,11 +16,5 @@ tag:
   - inkscape
   - gimp
   - krita
-  - kdenlive
-opengraph:
-  image: "gambar/blog/.webp"
-
 draft: true
 ---
-
-###

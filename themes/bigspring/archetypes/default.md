@@ -1,9 +1,9 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-image: /blog/.webp
+image: blog/"{{ .File.BaseFileName }}".webp
 opengraph:
-  image: /blog/.webp
+  image: blog/"{{ .File.BaseFileName }}".webp
 # post type (regular/featured)
 type: "regular"
 description: ""
@@ -18,4 +18,3 @@ tag:
   - krita
 draft: true
 ---
-

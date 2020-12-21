@@ -1,9 +1,9 @@
 ---
 title: "Upgrade Langitketujuh OS ke Versi Terbaru"
 date: 2020-12-12T19:18:27+07:00
-image: "/blog/upgrade-langitketujuh-os-ke-versi-terbaru.webp"
+image: "blog/upgrade-langitketujuh-os-ke-versi-terbaru.webp"
 opengraph:
-  image: "/blog/upgrade-langitketujuh-os-ke-versi-terbaru.webp"
+  image: "blog/upgrade-langitketujuh-os-ke-versi-terbaru.webp"
 # post type (regular/featured)
 type: "featured"
 description: "Menggunakan L7-tools. Apa itu?"

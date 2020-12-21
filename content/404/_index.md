@@ -4,6 +4,9 @@ subtitle: ""
 # meta description
 description: "Salah Alamat URL"
 draft: false
+image: gambar/thumbnail.webp
+opengraph:
+  image: gambar/thumbnail.webp
 
 call_to_action:
   enable : true
