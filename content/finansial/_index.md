@@ -19,7 +19,7 @@ call_to_action:
     link : "https://t.me/langitketujuhCS"
 ---
 
-## Total: Rp 396.325
+## Total: Rp 414.979
 
 ### Desember 2020
 
@@ -31,6 +31,8 @@ Prawita | Trakteer | Rp 49.000
 Habib | Trakteer | Rp 50.000
 Muhamad Nur Halim | Trakteer | Rp 110.000
 Yunus Ahmad | Trakteer | Rp 98.350
-| | | **Rp 417.185**
-| | PPN 5% | - Rp 20.860
-| | **Diterima** | **Rp 396.325**
+Dimas Nirwan | Trakteer | Rp  9.835
+Yahya Sofyan| Trakteer | 9.800
+| | | **Rp 436,820**
+| | PPN 5% | - Rp 21,841
+| | **Diterima** | **Rp 414.979**
