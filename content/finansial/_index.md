@@ -31,8 +31,8 @@ Prawita | Trakteer | Rp 49.000
 Habib | Trakteer | Rp 50.000
 Muhamad Nur Halim | Trakteer | Rp 110.000
 Yunus Ahmad | Trakteer | Rp 98.350
-Dimas Nirwan | Trakteer | Rp  9.835
-Yahya Sofyan| Trakteer | 9.800
+Dimas Nirwan | Trakteer | Rp 9.835
+Yahya Sofyan| Trakteer | Rp 9.800
 | | | **Rp 436,820**
 | | PPN 5% | - Rp 21,841
 | | **Diterima** | **Rp 414.979**
