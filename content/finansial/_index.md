@@ -23,16 +23,16 @@ call_to_action:
 
 ### Desember 2020
 
-Donatur | Transfer | **Jumlah** 
-:--- | :--- | :--- 
-Hamba Allah | Trakteer | Rp 9.835
-Wardatul Jannah | Trakteer | Rp 100.000
-Prawita | Trakteer | Rp 49.000
-Habib | Trakteer | Rp 50.000
-Muhamad Nur Halim | Trakteer | Rp 110.000
-Yunus Ahmad | Trakteer | Rp 98.350
-Dimas Nirwan | Trakteer | Rp 9.835
-Yahya Sofyan| Trakteer | Rp 9.800
-| | | **Rp 436,820**
-| | PPN 5% | - Rp 21,841
-| | **Diterima** | **Rp 414.979**
+**Donatur** | **Transfer** | **Jumlah (Rp)** 
+:--- | :--- | ---: 
+Hamba Allah | Trakteer | 9.835
+Wardatul Jannah | Trakteer | 100.000
+Prawita | Trakteer | 49.000
+Habib | Trakteer | 50.000
+Muhamad Nur Halim | Trakteer | 110.000
+Yunus Ahmad | Trakteer | 98.350
+Dimas Nirwan | Trakteer | 9.835
+Yahya Sofyan| Trakteer | 9.800
+| | **Total** | **436,820**
+| | PPN 5% | - 21,841
+| | **Diterima** | **414.979**
