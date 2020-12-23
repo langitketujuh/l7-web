@@ -57,7 +57,7 @@ HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
   from = "https://langitketujuh.id/donasi"
-  to = "https://trakteer.id/langitketujuh.id/:splat"
+  to = "https://trakteer.id/langitketujuh.id/"
   status = 301
   force = true
 
