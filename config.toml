@@ -125,7 +125,7 @@ preloader = "gambar/preloader.svg" # use jpg, png, svg or gif format.
 [params.navigation_button]
 enable = true
 label = "Donasi"
-link = "https://trakteer.id/langitketujuh.id"
+link = "donasi"
 
 # SOSIAL MEDIA
 
