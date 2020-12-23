@@ -14,12 +14,12 @@ draft: false
 LangitKetujuh OS mengikuti pembaruan dari voidlinux dengan repsitori tunggal [Alpha De Repo](https://alpha.de.repo.voidlinux.org). Pembaruan bebas dan menggunakan siklus roling rilis agar aplikasinya tetap versi yang terbaru. Cara untuk memperbarui sistem yaitu buka konsole lalu ketik `update` kemudian tekan Enter. Proses pembaruan akan berjalan dengan semestinya.
 {{</ faq >}}
 
-{{< faq "Berapa donasi yang harus dibayar?" >}}
-Donasi minimal 1 Bintang. Setiap Bintang bernilai Rp 10.000. Anda bisa memberikan banyak bintang sesuai kualitas pelayanan kami. Asalkan ikhlas, berkah dan tidak merugikan kedua belah pihak. Anda dapat memberikan donasi terbaik sesuai kemampuan Anda, tidak ada beban yang kami berikan. Dan tentunya kami sebagai tim pengembang hanyalah mencari keberkahan dalam membuat produk sistem operasi ini. Donasi bisa Anda berikan di tautan [Trakteer.id](https://trakteer.id/langitketujuh.id) ini.
-{{</ faq >}}
-
 {{< faq "Apakah saya perlu donasi dahulu?" >}}
 Tidak harus. Jika mendaftar edisi Pro, kami menyeselesaikan dahulu dukungan instalasinya. Kemudian Anda bisa memberikan donasi sesuai banyaknya bintang pelayanan kami.
+{{</ faq >}}
+
+{{< faq "Berapa donasi yang harus dibayar?" >}}
+Donasi minimal 1 Bintang. Setiap Bintang bernilai Rp 10.000. Anda bisa memberikan banyak bintang sesuai kualitas pelayanan kami. Asalkan ikhlas, berkah dan tidak merugikan kedua belah pihak. Anda dapat memberikan donasi terbaik sesuai kemampuan Anda, tidak ada beban yang kami berikan. Dan tentunya kami sebagai tim pengembang hanyalah mencari keberkahan dalam membuat produk sistem operasi ini. Donasi bisa Anda berikan di tautan [Trakteer.id](https://trakteer.id/langitketujuh.id) ini.
 {{</ faq >}}
 
 {{< faq "Apakah Saya setelah donasi mendapatkan `.ISO` terbaru?" >}}
