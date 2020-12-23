@@ -51,4 +51,4 @@ Dukungan Wine windows | - | - | **√**
 - M = Musl. G = Glibc
 - Aplikasi Nonfree seperti driver gpu Nvidia, Spotify, Steam, Skype, Printer Canon, Pycharm, Mendeley tidak mendukung musl. Tetapi bisa dipasang melalui flatpak.
 - Musl hanya mendukung Wine windows 64 bit saja, sedangkan Glibc mendukung 32 dan 64 bit.
-- Akses Update ISO terbaru untuk donatur yang memberikan 5 bintang keatas.
+- Akses Update ISO terbaru untuk donatur yang memberikan 7 bintang keatas.

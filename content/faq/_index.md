@@ -23,7 +23,7 @@ Tidak harus. Jika mendaftar edisi Pro, kami menyeselesaikan dahulu dukungan inst
 {{</ faq >}}
 
 {{< faq "Apakah Saya setelah donasi mendapatkan `.ISO` terbaru?" >}}
-Ya dapat, Anda akan mendapatkan akses iso terbaru dengan mendonasikan minimal 5 Bintang. Donasi bisa Anda berikan di tautan [Trakteer.ID ini](https://trakteer.id/langitketujuh.id).
+Ya Anda akan mendapatkan akses berkas `ISO` terbaru dengan mendonasikan minimal 7 Bintang. Donasi bisa Anda berikan di tautan [Trakteer.ID ini](https://trakteer.id/langitketujuh.id).
 {{</ faq >}}
 
 {{< faq "Layanan donasi Trakteer.id?" >}}
