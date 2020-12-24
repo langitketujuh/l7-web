@@ -31,7 +31,7 @@
         {{with .content }}<p class="mb-4">{{ . | markdownify }}</p>{{ end }}
         {{ if .button.enable }}
         {{ with .button }}
-        <a href="{{ .link | absURL }}" class="btn btn-primary" target="blank">{{ .label }}</a>
+        <a href="{{ .link | absURL }}" class="btn btn-primary" >{{ .label }}</a>
         {{ end }}
         {{ end }}
       </div>
