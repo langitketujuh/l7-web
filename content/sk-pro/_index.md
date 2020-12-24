@@ -22,4 +22,4 @@ call_to_action:
 Anda sudah mengisi formulir.
 Kami akan segera menghubungi Anda via Telegram/WhatsApp/E-mail.
 
-Syukran wa jazaakumullahu khairan katsiran.
+_Syukran wa jazaakumullahu khairan katsiran._

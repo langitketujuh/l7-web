@@ -89,14 +89,19 @@ URL = "finansial"
 weight = 1
 
 [[menu.dukungan]]
+name = "Feedback"
+URL = "feedback"
+weight = 2
+
+[[menu.dukungan]]
 name = "Peraturan layanan"
 URL = "peraturan-layanan"
-weight = 2
+weight = 3
 
 [[menu.dukungan]]
 name = "Kebijakan Privasi"
 URL = "kebijakan-privasi"
-weight = 3
+weight = 4
 
 # PARAMETER
 

@@ -23,7 +23,7 @@ Donasi minimal 1 Bintang. Setiap Bintang bernilai Rp 10.000. Anda bisa memberika
 {{</ faq >}}
 
 {{< faq "Apakah Saya setelah donasi mendapatkan `.ISO` terbaru?" >}}
-Ya Anda akan mendapatkan akses berkas `ISO` terbaru dengan mendonasikan minimal 7 Bintang. Donasi bisa Anda berikan di tautan [Trakteer.ID ini](https://trakteer.id/langitketujuh.id).
+Ya Anda akan mendapatkan akses berkas `ISO` terbaru dengan mendonasikan minimal 5 Bintang. Donasi bisa Anda berikan di tautan [Trakteer.ID ini](https://trakteer.id/langitketujuh.id).
 {{</ faq >}}
 
 {{< faq "Layanan donasi Trakteer.id?" >}}
