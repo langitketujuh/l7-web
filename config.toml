@@ -5,9 +5,9 @@ title = "LangitKetujuh OS | Pilihan Tepat untuk Desainer dan Pengguna Desktop"
 languageName = "Id"
 languageCode = "en-US"
 # post pagination
-paginate = "3"
+paginate = "9"
 # post excerpt
-summaryLength = "15"
+summaryLength = "17"
 # disqus short name
 disqusShortname = "" # get your shortname form here : https://disqus.com
 # google analytics
@@ -107,7 +107,7 @@ weight = 4
 
 [params]
   logo = "gambar/logo-l7.svg"
-  logo_width = "130px"
+  logo_width = "100px"
   logo_footer = "gambar/logo-l7.svg"
   logo_width_footer = "90px"
   author = "LangitKetujuh ID"
