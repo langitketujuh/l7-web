@@ -111,6 +111,6 @@ Berikut ini aplikasi flatpak pilihan dari flathub yang sering digunakan.
 
 ```flatpak install flathub org.zulip.Zulip```
 
-Tunggu proses intalasi hingga selesai dan berhasil tanpa error.
+Tunggu proses intalasi hingga selesai dan berhasil tanpa error. Aplikasi lainnya bisa Anda dapatkan di website resmi flathub (https://flathub.org/).
 
 _Barakallahu fiikum._
