@@ -19,15 +19,17 @@ draft: false
 
 Flatpak merupakan installer universal untuk Semua distro Linux. Bahkan dengan flatpak juga mampu menjalankan beberapa aplikasi nonfree. Secara bawaan flatpak sudah terpasang di LangitKetujuh OS.
 
-Kami menyederhanakan konfigurasi singkatan flathub di LangitKetujuh agar lebih mudah pemasangannya.
+Kami menyederhanakan konfigurasi singkatan repositori Flathub di LangitKetujuh agar lebih mudah pemasangannya.
 
 ### Konfigurasi
 
-Pertama, buka konsole lalu jalankan perintah ini untuk mengkonfigurasi repositori flathub di Langitketujuh OS.
+Pertama, buka konsole lalu jalankan perintah ini untuk mengkonfigurasi repositori Flathub di Langitketujuh OS.
 
 ```flathub```
 
-Kemudian pasang aplikasi yang Anda butuhkan. Berikut aplikasi pilihan dari flathub. Setelah memilih aplikasi ketik `y` untuk melanjutkan pemasangan aplikasi.
+Kemudian pasang aplikasi yang Anda butuhkan. Setelah memilih aplikasi ketik `y` untuk melanjutkan pemasangan aplikasi.
+
+Berikut ini aplikasi flatpak pilihan dari flathub yang sering digunakan.
 
 ### Discord
 
