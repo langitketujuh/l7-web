@@ -118,7 +118,7 @@ weight = 4
 
 footer_content = "Pilihan Tepat untuk Desainer dan Pengguna Desktop"
 # copyright
-copyright = "2020 [LangitKetujuh ID](https://gitlab.com/langitketujuh). 2020 [VoidLinux kontributor](https://github.com/orgs/void-linux/people). Hak Cipta 2008-2018 [Juan RP](https://gitlab.com/xtraeme) dan kontributor. [Linux®](https://www.linuxfoundation.org/programs/legal/trademark/attribution) telah didaftarkan dengan merek dagang dari Linus Torvalds. [KDE® and the K Desktop Environment® logo](https://kde.org/media/images/trademark_kde_gear_black_logo.png) telah didaftarkan dengan branding [KDE e.V](https://ev.kde.org/). Template oleh [Themefisher](https://themefisher.com/). Dikembangkan oleh [Gethugothemes](https://gethugothemes.com/). Ilustrasi oleh [Hervy Qurrotul](https://hervyqa.com)."
+copyright = "2020 [LangitKetujuh ID](https://gitlab.com/langitketujuh). 2020 [VoidLinux kontributor](https://github.com/orgs/void-linux/people). Hak Cipta 2008-2018 [Juan RP](https://gitlab.com/xtraeme) dan kontributor. [Linux®](https://www.linuxfoundation.org/programs/legal/trademark/attribution) telah didaftarkan dengan merek dagang dari Linus Torvalds. [KDE® and the K Desktop Environment® logo](https://kde.org/media/images/trademark_kde_gear_black_logo.png) telah didaftarkan dengan branding [KDE e.V](https://ev.kde.org/). Template oleh [Themefisher](https://themefisher.com/). Dikembangkan oleh [Gethugothemes](https://gethugothemes.com/). Ilustrasi oleh [Hervy Qurrotul](mailto:hervyqa@pm.me)."
 
 # PRELOADER
 
@@ -142,7 +142,7 @@ link = "https://instagram.com/langitketujuh.id"
 [[params.social]]
 title = "facebook"
 icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "https://facebook/langitketujuh.id"
+link = "https://facebook.com/langitketujuh.id"
 
 #[[params.social]]
 #title = "twitter"
