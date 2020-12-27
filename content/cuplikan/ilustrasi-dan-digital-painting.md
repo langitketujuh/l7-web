@@ -1,9 +1,9 @@
 ---
-title: "Ilustrasi Vektor dan Pelukis Digital + Plugin"
+title: "Ilustrasi dan Digital Painting"
 date: 2020-12-12T23:23:23+07:00
-image: cuplikan/ilustrasi-vektor-dan-pelukis-digital.webp
+image: cuplikan/ilustrasi-dan-digital-painting.webp
 opengraph:
-  image: cuplikan/ilustrasi-vektor-dan-pelukis-digital.webp
+  image: cuplikan/ilustrasi-dan-digital-painting.webp
 description: "Daftar cuplikan perangkat lunak Ilustrasi Vektor dan Digital Painting di LangitKetujuh OS"
 author: "LangitKetujuh ID"
 draft: false

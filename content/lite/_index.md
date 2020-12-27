@@ -8,8 +8,8 @@ opengraph:
   image: gambar/thumbnail.webp
 draft: false
 
-basic:
-  name : "LITE Musl"
+litemusl:
+  name : "Lite MUSL"
   price: "Gratis"
   price_per : ""
   info : "Terbaik untuk Rumahan"
@@ -18,46 +18,31 @@ basic:
   - "Libreoffice Paket Aplikasi Perkantoran."
   - "Software Desain Vector dan Raster."
   - "Deteksi HP dan Epson Printer."
+  - "Dukungan Wine 64-bit."
+  - "[+] Dukungan Musl libc (Lebih Efisien)"
   button:
     enable : true
     label : "Unduh"
     link : "https://osdn.net/dl/langitketujuh/langitketujuh-lite-0.7-live-x86_64-musl-5.9.13_1-3go7obp.iso"
     
-professional:
-  name : "PRO Musl"
-  price: "Donasi"
-  price_per : ""
-  info : "Terbaik untuk Professional"
-  services:
-  - "**(+) Fitur LITE Musl.**"
-  - "Plugin GMIC-Qt."
-  - "Software Fotografi."
-  - "Software Video Editor."
-  - "Software Digital Painting."
-  - "Software Audio Production."
-  - "Software Desain Animasi 2D/3D."
-  - "Software Game Kreator 2D/3D."
-  - "**Fonta Google untuk proyek komersil.**"
-  - "**Dukungan Instalasi oleh Tenaga Ahli.**"
-  button:
-    enable : true
-    label : "Pilih"
-    link : "pro-musl"
-    
-business:
-  name : "PRO Glibc"
-  price: "Donasi"
+liteglibc:
+  name : "Lite GLIBC"
+  price: "Gratis"
   price_per : ""
   info : "Terbaik untuk Dukungan Nonfree"
   services:
-  - "**(+) Fitur PRO.**"
-  - "Dukungan Wine 64/32-bit."
-  - "Dukungan Aplikasi Appimage."
-  - "Dukungan Aplikasi Nonfree."
+  - "Tersedia Codec Audio dan Video."
+  - "Libreoffice Paket Aplikasi Perkantoran."
+  - "Software Desain Vector dan Raster."
+  - "Deteksi HP dan Epson Printer."
+  - "[+] Dukungan Wine 64/32-bit."
+  - "[+] Dukungan Aplikasi Appimage."
+  - "[+] Dukungan Aplikasi Nvidia Propietary."
+  - "[+] Dukungan Aplikasi Nonfree."
   button:
     enable : true
-    label : "Pilih"
-    link : "pro-glibc"
+    label : "Segera Hadir"
+    link : "#"
 
 call_to_action:
   enable : true

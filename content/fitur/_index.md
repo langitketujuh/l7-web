@@ -19,36 +19,36 @@ call_to_action:
     link : "https://t.me/langitketujuhCS"
 ---
 
-Fitur | **Lite - Musl** | **Pro - Musl** | **Pro - Glibc**
-:--- | :---: | :---: | :---:
-Tersedia codec Audio dan Video. | **√** | **√** | **√**
-Libreoffice paket aplikasi perkantoran. | **√** | **√** | **√**
-Deteksi Printer HP dan Epson. | **√** | **√** | **√**
-Gimp manipulasi foto. | **√** | **√** | **√**
-Inkscape pengolah vektor. | **√** | **√** | **√**
-Audacity pengolah audio. | - | **√** | **√**
-Blender animasi 2D/3D. | - | **√** | **√**
-Fontfoge pembuat font. | - | **√** | **√**
-Godot pembuat game. | - | **√** | **√**
-Kdenlive pengolah video. | - | **√** | **√**
-Krita digital painting. | - | **√** | **√**
-Scribus publisher. | - | **√** | **√**
-Synfigstudio animasi 2D. | - | **√** | **√**
-Digikam manajemen foto. | - | **√** | **√**
-Rawtherapee pengolah foto raw. | - | **√** | **√**
-Plugin GMIC Qt Gimp dan Krita. | - | **√** | **√**
-Produksi Audio dengan Ardour & Cadence. | - | **√** | **√**
-Google Fonts untuk proyek komersil. | - | **√** | **√**
-Dukungan instalasi via remote | - | **√** | **√**
-Akses Update ISO terbaru* | - | **√** | **√**
-Dukungan Aplikasi Appimage | - | - | **√**
-Dukungan Nvidia gpu driver | - | - | **√**
-Dukungan Aplikasi Nonfree  | - | - | **√**
-Dukungan Wine windows | - | - | **√**
+Fitur | **Lite - Musl** | **Lite - Glibc** | **Pro - Musl** | **Pro - Glibc**
+:--- | :---: | :---: | :---: | :---:
+Tersedia codec Audio dan Video. | **√** | **√** | **√** | **√**
+Libreoffice paket aplikasi perkantoran. | **√** | **√** | **√** | **√**
+Deteksi Printer HP dan Epson. | **√** | **√** | **√** | **√**
+Gimp manipulasi foto. | **√** | **√** | **√** | **√**
+Inkscape pengolah vektor. | **√** | **√** | **√** | **√**
+Audacity pengolah audio. | - | -  | **√** | **√**
+Blender animasi 2D/3D. | - | -  | **√** | **√**
+Fontfoge pembuat font. | - | -  | **√** | **√**
+Godot pembuat game. | - | -  | **√** | **√**
+Kdenlive pengolah video. | - | -  | **√** | **√**
+Krita digital painting. | - | -  | **√** | **√**
+Scribus publisher. | - | -  | **√** | **√**
+Synfigstudio animasi 2D. | - | -  | **√** | **√**
+Digikam manajemen foto. | - | -  | **√** | **√**
+Rawtherapee pengolah foto raw. | - | -  | **√** | **√**
+Plugin GMIC Qt Gimp dan Krita. | - | -  | **√** | **√**
+Produksi Audio dengan Ardour & Cadence. | - | -  | **√** | **√**
+Google Fonts untuk proyek komersil. | - | -  | **√** | **√**
+Dukungan instalasi via remote | - | -  | **√** | **√**
+Akses Update ISO terbaru [*] | -  | - | **√**  | **√**
+Dukungan Aplikasi Appimage | - | **√** | -   | **√**
+Dukungan Nvidia Propietary driver | - | **√** | -   | **√**
+Dukungan Aplikasi Nonfree  | - | **√** | -   | **√**
+Dukungan Wine windows | - | **√** | -  | **√**
 
 **Keterangan:**
 
 - M = Musl. G = Glibc
 - Aplikasi Nonfree seperti driver gpu Nvidia, Spotify, Steam, Skype, Printer Canon, Pycharm, Mendeley tidak mendukung musl. Tetapi bisa dipasang melalui flatpak.
 - Musl hanya mendukung Wine windows 64 bit saja, sedangkan Glibc mendukung 32 dan 64 bit.
-- Akses Update ISO terbaru untuk donatur yang telah memberikan 5 bintang keatas.
+- [*] Akses Update ISO terbaru untuk donatur yang telah memberikan 5 bintang keatas.

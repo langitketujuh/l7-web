@@ -1,12 +1,13 @@
 ---
-title: "Mesin Game Multi Platform 2D/3D"
+title: "Mesin Game 2D/3D"
 date: 2020-12-12T23:23:20+07:00
-image: cuplikan/mesin-game-multi-platform-2d-3d.webp
+image: cuplikan/mesin-game-2d-3d.webp
 opengraph:
-  image: cuplikan/mesin-game-multi-platform-2d-3d.webp
+  image: cuplikan/mesin-game-2d-3d.webp
 description: "Daftar cuplikan perangkat lunak Multi Platform Kreator 2D/3D Mesin Game di LangitKetujuh OS"
 author: "LangitKetujuh ID"
 draft: false
+parent: cuplikan
 ---
 
 Godot Game Engine merupakan multi platform game engine yang memiliki fitur untuk membuat permainan 2D dan 3D. Perangkat lunak ini menyediakan banyak tools umum yang komprehensif. Sehingga dapat memudahkan pengguna dalam mengembangkan sebuah game.

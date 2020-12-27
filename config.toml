@@ -37,33 +37,86 @@ link = "plugins/slick/slick.min.js"
 # menu utama
 [[menu.main]]
 name = "Blog"
+identifier = "blog"
 URL = "blog"
 weight = 1
 
 [[menu.main]]
 name = "Unduh"
-URL = "unduh"
+identifier = "unduh"
+URL = "lite"
+weight = 2
+
+[[menu.main]]
+name = "Lite"
+identifier = "Lite"
+URL = "lite"
+parent = "unduh"
+weight = 1
+
+[[menu.main]]
+name = "Pro"
+identifier = "pro"
+URL = "pro"
+parent = "unduh"
 weight = 2
 
 [[menu.main]]
 name = "Fitur"
+identifier = "fitur"
 URL = "fitur"
 weight = 3
 
 [[menu.main]]
 name = "Cuplikan"
 URL = "cuplikan"
+identifier = "cuplikan"
+weight = 5
+
+[[menu.main]]
+name = "Ilustrasi dan Digital painting"
+identifier = "ilustrasi-dan-digital-painting"
+URL = "cuplikan/ilustrasi-dan-digital-painting"
+parent = "cuplikan"
+weight = 1
+
+[[menu.main]]
+name = "Kreasi Animasi 2D/3D"
+identifier = "kreasi-animasi-2d-3d-full-fitur"
+URL = "cuplikan/kreasi-animasi-2d-3d-full-fitur"
+parent = "cuplikan"
+weight = 2
+
+[[menu.main]]
+name = "Font Kreator dan Google Fonts"
+identifier = "font-kreator-dan-google-fonts"
+URL = "cuplikan/font-kreator-dan-google-fonts"
+parent = "cuplikan"
+weight = 3
+
+[[menu.main]]
+name = "Mesin Game 2D/3D"
+identifier = "mesin-game-2d-3d"
+URL = "cuplikan/mesin-game-2d-3d"
+parent = "cuplikan"
 weight = 4
+
+[[menu.main]]
+name = "Desktop Publishing"
+identifier = "desktop-publishing"
+URL = "cuplikan/desktop-publishing"
+parent = "cuplikan"
+weight = 5
 
 [[menu.main]]
 name = "Kabari"
 URL = "kabari"
-weight = 5
+weight = 6
 
 [[menu.main]]
 name = "FAQ"
 URL = "faq"
-weight = 6
+weight = 7
 
 # profil
 [[menu.profil]]

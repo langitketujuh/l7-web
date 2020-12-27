@@ -9,11 +9,11 @@ type: "regular"
 description: "Flatpak merupakan installer universal untuk Semua distro Linux. Secara bawaan Flatpak sudah terpasang di LangitKetujuh OS."
 author: "LangitKetujuh ID"
 categories:
-  - flathub
-  - flatpak
+  - "flathub"
+  - "flatpak"
 tag:
-  - flathub
-  - flatpak
+  - "flathub"
+  - "flatpak"
 draft: false
 ---
 
