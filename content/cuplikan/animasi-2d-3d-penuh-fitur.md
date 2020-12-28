@@ -1,9 +1,9 @@
 ---
 title: "Kreasi Animasi 2D/3D Full Fitur"
 date: 2020-12-12T23:23:22+07:00
-image: cuplikan/kreasi-animasi-2d-3d-full-fitur.webp
+image: cuplikan/animasi-2d-3d-penuh-fitur.webp
 opengraph:
-  image: cuplikan/kreasi-animasi-2d-3d-full-fitur.webp
+  image: cuplikan/animasi-2d-3d-penuh-fitur.webp
 description: "Daftar cuplikan perangkat lunak Kreasi Animasi 2D/3D Full Fitur di LangitKetujuh OS"
 author: "LangitKetujuh ID"
 draft: false

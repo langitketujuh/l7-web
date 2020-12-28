@@ -26,7 +26,7 @@ Mulai dari versi 0.7, langitketujuh sudah ada skrip sederhana yang digunakan unt
 
 Buka aplikasi konsole, lalu jalankan perintah ini. Pastikan ada koneksi internet ya.
 
-`sudo sh -c "curl -fsSL https://langitketujuh.id/sh/l7-tools" >> /usr/bin/l7-tools; chmod --preserve-root 755 /usr/bin/l7-tools`
+`sudo sh -c "curl -fsSL https://langitketujuh.id/sh/l7-tools" >> /usr/bin/l7-tools; chmod +x /usr/bin/l7-tools`
 
 ### Update
 

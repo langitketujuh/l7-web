@@ -44,18 +44,18 @@ weight = 1
 [[menu.main]]
 name = "Unduh"
 identifier = "unduh"
-URL = "lite"
+URL = "unduh"
 weight = 2
 
 [[menu.main]]
-name = "Lite"
-identifier = "Lite"
+name = "Lite (Standar)"
+identifier = "lite"
 URL = "lite"
 parent = "unduh"
 weight = 1
 
 [[menu.main]]
-name = "Pro"
+name = "Pro (Profesional)"
 identifier = "pro"
 URL = "pro"
 parent = "unduh"
@@ -65,6 +65,33 @@ weight = 2
 name = "Fitur"
 identifier = "fitur"
 URL = "fitur"
+weight = 3
+
+[[menu.main]]
+name = "Komparasi"
+identifier = "komparasi"
+URL = "komparasi"
+weight = 4
+
+[[menu.main]]
+name = "Vs Ubuntu Studio"
+identifier = "vs-ubuntu-studio"
+URL = "komparasi/vs-ubuntu-studio"
+parent = "komparasi"
+weight = 1
+
+[[menu.main]]
+name = "Vs Fedora Design Suite"
+identifier = "vs-fedora-design-suite"
+URL = "komparasi/vs-fedora-design-suite"
+parent = "komparasi"
+weight = 2
+
+[[menu.main]]
+name = "Vs Manjaro-X Design Suite"
+identifier = "vs-manjaro-x-design-suite"
+URL = "komparasi/vs-manjaro-x-design-suite"
+parent = "komparasi"
 weight = 3
 
 [[menu.main]]
@@ -81,9 +108,9 @@ parent = "cuplikan"
 weight = 1
 
 [[menu.main]]
-name = "Kreasi Animasi 2D/3D"
-identifier = "kreasi-animasi-2d-3d-full-fitur"
-URL = "cuplikan/kreasi-animasi-2d-3d-full-fitur"
+name = "Animasi 2D/3D Penuh Fitur"
+identifier = "animasi-2d-3d-penuh-fitur"
+URL = "cuplikan/animasi-2d-3d-penuh-fitur"
 parent = "cuplikan"
 weight = 2
 
@@ -107,6 +134,20 @@ identifier = "desktop-publishing"
 URL = "cuplikan/desktop-publishing"
 parent = "cuplikan"
 weight = 5
+
+[[menu.main]]
+name = "Fotografi dan Manajemen Gambar"
+identifier = "fotografi-dan-manajemen-gambar"
+URL = "cuplikan/fotografi-dan-manajemen-gambar"
+parent = "cuplikan"
+weight = 6
+
+[[menu.main]]
+name = "Audio dan Video Non-linear"
+identifier = "audio-dan-video-non-linear"
+URL = "cuplikan/audio-dan-video-non-linear"
+parent = "cuplikan"
+weight = 7
 
 [[menu.main]]
 name = "Kabari"

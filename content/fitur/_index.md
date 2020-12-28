@@ -19,9 +19,10 @@ call_to_action:
     link : "https://t.me/langitketujuhCS"
 ---
 
-Fitur | **Lite - Musl** | **Lite - Glibc** | **Pro - Musl** | **Pro - Glibc**
+**Fitur** | **Lite - Musl** | **Lite - Glibc** | **Pro - Musl** | **Pro - Glibc**
 :--- | :---: | :---: | :---: | :---:
-Tersedia codec Audio dan Video. | **√** | **√** | **√** | **√**
+Dukungan instalasi oleh tenaga ahli. | - | -  | **√** | **√**
+Dukungan codec Audio dan Video. | **√** | **√** | **√** | **√**
 Libreoffice paket aplikasi perkantoran. | **√** | **√** | **√** | **√**
 Deteksi Printer HP dan Epson. | **√** | **√** | **√** | **√**
 Gimp manipulasi foto. | **√** | **√** | **√** | **√**
@@ -39,7 +40,6 @@ Rawtherapee pengolah foto raw. | - | -  | **√** | **√**
 Plugin GMIC Qt Gimp dan Krita. | - | -  | **√** | **√**
 Produksi Audio dengan Ardour & Cadence. | - | -  | **√** | **√**
 Google Fonts untuk proyek komersil. | - | -  | **√** | **√**
-Dukungan instalasi via remote | - | -  | **√** | **√**
 Akses Update ISO terbaru [*] | -  | - | **√**  | **√**
 Dukungan Aplikasi Appimage | - | **√** | -   | **√**
 Dukungan Nvidia Propietary driver | - | **√** | -   | **√**

@@ -1,8 +1,8 @@
 ---
-title: "Unduh ISO"
+title: "Unduh Edisi Lite"
 subtitle: ""
 # meta description
-description: "Pilih edisi lite untuk kebutuhan sederhana dan edisi pro untuk kebutuhan profesional."
+description: "Edisi LITE untuk kebutuhan sederhana."
 image: gambar/thumbnail.webp
 opengraph:
   image: gambar/thumbnail.webp
@@ -19,7 +19,7 @@ litemusl:
   - "Software Desain Vector dan Raster."
   - "Deteksi HP dan Epson Printer."
   - "Dukungan Wine 64-bit."
-  - "[+] Dukungan Musl libc (Lebih Efisien)"
+  - "**[+] Dukungan Musl libc (Lebih Efisien).**"
   button:
     enable : true
     label : "Unduh"
@@ -35,10 +35,10 @@ liteglibc:
   - "Libreoffice Paket Aplikasi Perkantoran."
   - "Software Desain Vector dan Raster."
   - "Deteksi HP dan Epson Printer."
-  - "[+] Dukungan Wine 64/32-bit."
-  - "[+] Dukungan Aplikasi Appimage."
-  - "[+] Dukungan Aplikasi Nvidia Propietary."
-  - "[+] Dukungan Aplikasi Nonfree."
+  - "**[+] Dukungan Wine 64/32-bit.**"
+  - "**[+] Dukungan Aplikasi Appimage.**"
+  - "**[+] Dukungan Aplikasi Nvidia Propietary.**"
+  - "**[+] Dukungan Aplikasi Nonfree.**"
   button:
     enable : true
     label : "Segera Hadir"

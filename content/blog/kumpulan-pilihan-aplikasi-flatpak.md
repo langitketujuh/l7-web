@@ -83,6 +83,9 @@ Berikut ini aplikasi flatpak pilihan dari flathub yang sering digunakan.
 
 ```flatpak install flathub com.slack.Slack```
 
+### SparkleShare
+```flatpak install flathub org.sparkleshare.SparkleShare```
+
 ### Spotify
 
 ```flatpak install flathub com.spotify.Client```

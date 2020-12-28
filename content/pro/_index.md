@@ -1,8 +1,8 @@
 ---
-title: "Unduh ISO"
+title: "Unduh Edisi Pro"
 subtitle: ""
 # meta description
-description: "Pilih edisi lite untuk kebutuhan sederhana dan edisi pro untuk kebutuhan profesional."
+description: "Edisi Pro untuk kebutuhan profesional."
 image: gambar/thumbnail.webp
 opengraph:
   image: gambar/thumbnail.webp
@@ -14,7 +14,8 @@ promusl:
   price_per : ""
   info : "Terbaik untuk Professional"
   services:
-  - "[+] Fitur Lite Musl"
+  - "**[+] Fitur Lite Musl.**"
+  - "**[+] Dukungan Instalasi.**"
   - "Plugin GMIC-Qt."
   - "Software Fotografi."
   - "Software Video Editor."
@@ -23,9 +24,8 @@ promusl:
   - "Software Desain Animasi 2D/3D."
   - "Software Game Kreator 2D/3D."
   - "Fonta Google untuk proyek komersil."
-  - "Dukungan Instalasi oleh Tenaga Ahli."
   - "Dukungan Wine 64-bit."
-  - "[+] Dukungan Musl libc (Lebih Efisien)"
+  - "**[+] Dukungan Musl libc (Lebih Efisien).**"
   button:
     enable : true
     label : "Pilih"
@@ -37,7 +37,8 @@ proglibc:
   price_per : ""
   info : "Terbaik untuk Dukungan Nonfree"
   services:
-  - "[+] Fitur Lite Glibc"
+  - "**[+] Fitur Lite Glibc.**"
+  - "**[+] Dukungan Instalasi.**"
   - "Plugin GMIC-Qt."
   - "Software Fotografi."
   - "Software Video Editor."
@@ -46,11 +47,10 @@ proglibc:
   - "Software Desain Animasi 2D/3D."
   - "Software Game Kreator 2D/3D."
   - "Fonta Google untuk proyek komersil."
-  - "Dukungan Instalasi oleh Tenaga Ahli."
-  - "[+] Dukungan Wine 64/32-bit."
-  - "[+] Dukungan Aplikasi Appimage."
-  - "[+] Dukungan Aplikasi Nvidia Propietary."
-  - "[+] Dukungan Aplikasi Nonfree."
+  - "**[+] Dukungan Wine 64/32-bit.**"
+  - "**[+] Dukungan Aplikasi Appimage.**"
+  - "**[+] Dukungan Aplikasi Nvidia Propietary.**"
+  - "**[+] Dukungan Aplikasi Nonfree.**"
   button:
     enable : true
     label : "Pilih"
