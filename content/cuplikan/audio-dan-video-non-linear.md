@@ -29,7 +29,7 @@ Audacity merupakan salah satu aplikasi pemberi efek suara, mengoreksi berkas sua
 {{< figure src=/cuplikan/ardour-langitketujuh-id-2.webp alt="Ardour LangitKetujuh OS">}}
 {{< figure src=/cuplikan/ardour-langitketujuh-id-3.webp alt="Ardour LangitKetujuh OS">}}
 
-### Cadence (Prodduksi Audio)
+### Cadence (Produksi Audio)
 
 Cadence merupakan alat lengkap untuk mengolah audio, terutama untuk jack. Ada beberapa aplkasi lain yang disebut alat cadence, seperti Catarina, Catia, dan Claudia.
 

@@ -150,6 +150,20 @@ parent = "cuplikan"
 weight = 7
 
 [[menu.main]]
+name = "Perlengkapan Perkantoran"
+identifier = "perlengkapan-perkantoran"
+URL = "cuplikan/perlengkapan-perkantoran"
+parent = "cuplikan"
+weight = 8
+
+[[menu.main]]
+name = "Produktifitas Dasar"
+identifier = "produktifitas-dasar"
+URL = "cuplikan/produktifitas-dasar"
+parent = "cuplikan"
+weight = 9
+
+[[menu.main]]
 name = "Kabari"
 URL = "kabari"
 weight = 6
