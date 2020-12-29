@@ -2,22 +2,28 @@
 
 NAME=$(basename "$0")
 INSTALLDIR=$(which basename)
-VERSION="1.0"
+VERSION="v1.1"
 LICENSE="GNU GPLV3+"
 
 usage()
 {
+echo
+echo "=============== LangitKetujuh Tools \033[1;33m$VERSION\033[0m ================"
+
     cat <<- EOF
+ 
+ license :  $LICENSE
+ usage   :  $NAME [option]
+ option  :  --lite-musl     update lite-musl
+            --lite-glibc    update lite-glibc
+            --pro-musl      update pro-musl
+            --pro-glibc     update pro-glibc
+            --adobe-icc     install adobe icc
+            --ms-fonts      install ms fonts
+            --help, -h      show this help
+            --version, -v   show $NAME version
 
- ================== LangitKetujuh Tools ==================
-
- license : $LICENSE
- usage   : $NAME [type]
- type    : [pro, lite, pro-musl, lite-musl]
- option  : $NAME -h,--help     # show this help
-           $NAME -v,--version  # show $NAME version
-
- =========================================================
+ ========================================================
 
 EOF
 }
@@ -30,79 +36,143 @@ LITE="lite"
 
 for arg in "$@"; do
     case $arg in
-        lite-musl)
-            echo "1. Remove old /tmp"
+        --lite-musl)
+            echo ">>>> Remove old /tmp"
             sudo rm -rf $TMP/$LITE
-            echo "2. Remove old skeleton (/etc/skel/.config)"
+            echo ">>>> Remove old skeleton"
             sudo rm -rf /etc/skel/.config
-            echo "3. Clone GIT"
-            git clone --depth 1 $GITLITE $TMP/$LITE
+            echo ">>>> Clone GIT"
+            git clone --depth 1 $GITLITE $TMP/$LITE >/dev/null 2>&1
             cd $TMP/$LITE/musl
-            echo "4. Copying update"
+            echo ">>>> Copying update"
             sudo cp -rf * /
-            echo "5. Install Fish shell"
-	        sudo xbps-install -S fish-shell
-            echo "6. Apply Fish Shell"
+            echo ">>>> Install Fish shell"
+	        sudo xbps-install -Sy fish-shell >/dev/null 2>&1
+            echo ">>>> Apply Fish Shell"
             chsh -s /usr/bin/fish $USER
             cp -rf /etc/skel/.config/fish ~/.config
             echo ">>>> Finish..."
             ;;
-        lite-glibc)
-            echo "1. Remove old /tmp"
+        --lite-glibc)
+            echo ">>>> Remove old /tmp"
             sudo rm -rf $TMP/$LITE
-            echo "2. Remove old skeleton (/etc/skel/.config)"
+            echo ">>>> Remove old skeleton"
             sudo rm -rf /etc/skel/.config
-            echo "3. Clone GIT"
-            git clone --depth 1 $GITLITE $TMP/$LITE
+            echo ">>>> Clone GIT"
+            git clone --depth 1 $GITLITE $TMP/$LITE >/dev/null 2>&1
             cd $TMP/$LITE/glibc
-            echo "4. Copying update"
+            echo ">>>> Copying update"
             sudo cp -rf * /
-            echo "5. Install Fish shell"
-	        sudo xbps-install -S fish-shell
-            echo "6. Apply Fish Shell"
+            echo ">>>> Install Fish shell"
+	        sudo xbps-install -Sy fish-shell >/dev/null 2>&1
+            echo ">>>> Apply Fish Shell"
             chsh -s /usr/bin/fish $USER
             cp -rf /etc/skel/.config/fish ~/.config
             echo ">>>> Finish..."
             ;;
-        pro-musl)
-            echo "1. Remove old /tmp"
+        --pro-musl)
+            echo ">>>> Remove old /tmp"
             sudo rm -rf $TMP/$PRO
-            echo "2. Remove old skeleton (/etc/skel/.config)"
+            echo ">>>> Remove old skeleton"
             sudo rm -rf /etc/skel/.config
-            echo "3. Clone GIT"
-            git clone --depth 1 $GITPRO $TMP/$PRO
+            echo ">>>> Clone GIT"
+            git clone --depth 1 $GITPRO $TMP/$PRO >/dev/null 2>&1
             cd $TMP/$PRO/musl
-            echo "4. Copying update"
+            echo ">>>> Copying update"
             sudo cp -rf * /
-            echo "5. Install Fish shell"
-	        sudo xbps-install -S fish-shell
-            echo "6. Apply Fish Shell"
+            echo ">>>> Install Fish shell"
+	        sudo xbps-install -Sy fish-shell >/dev/null 2>&1
+            echo ">>>> Apply Fish Shell"
             chsh -s /usr/bin/fish $USER
             cp -rf /etc/skel/.config/fish ~/.config
             echo ">>>> Finish..."
             ;;
-        pro-glibc)
-            echo "1. Remove old /tmp"
+        --pro-glibc)
+            echo ">>>> Remove old /tmp"
             sudo rm -rf $TMP/$PRO
-            echo "2. Remove old skeleton (/etc/skel/.config)"
+            echo ">>>> Remove old skeleton"
             sudo rm -rf /etc/skel/.config
-            echo "3. Clone GIT"
-            git clone --depth 1 $GITPRO $TMP/$PRO
+            echo ">>>> Clone GIT"
+            git clone --depth 1 $GITPRO $TMP/$PRO >/dev/null 2>&1
             cd $TMP/$PRO/glibc
-            echo "4. Copying update"
+            echo ">>>> Copying update"
             sudo cp -rf * /
-            echo "5. Install Fish shell"
-            sudo xbps-install -S fish-shell
-            echo "6. Apply Fish Shell"
+            echo ">>>> Install Fish shell"
+            sudo xbps-install -Sy fish-shell >/dev/null 2>&1
+            echo ">>>> Apply Fish Shell"
             chsh -s /usr/bin/fish $USER
             cp -rf /etc/skel/.config/fish ~/.config
             echo ">>>> Finish..."
             ;;
-        help)
+        --adobe-icc)
+            echo ">>>> Remove old /tmp"
+            rm -rf /tmp/adobe-icc
+            echo ">>>> Preparing new dir /tmp"
+            mkdir /tmp/adobe-icc
+            cd /tmp/adobe-icc
+            echo ">>>> Download Adobe ICC Profiles"
+            wget -c http://download.adobe.com/pub/adobe/iccprofiles/win/AdobeICCProfilesCS4Win_end-user.zip >/dev/null 2>&1
+            echo ">>>> Unzip"
+            unzip AdobeICCProfilesCS4Win_end-user.zip >/dev/null 2>&1
+            cd "Adobe ICC Profiles (end-user)/"
+            echo ">>>> Installing"
+            sudo cp -rf CMYK /usr/share/color/icc/
+            sudo cp -rf RGB /usr/share/color/icc/
+            echo ">>>> Finish..."
+            ;;
+        --ms-fonts)
+            echo ">>>> Remove old /tmp"
+            mkdir -p /tmp/ms-corefonts/
+            mkdir -p $HOME/.fonts/ms-corefonts/
+            cd /tmp/ms-corefonts/
+            echo ">>>> Download Fonts"
+            echo ">>>> Downloading webdin32 fonts"
+            wget -c -nv "https://sourceforge.net/projects/corefonts/files/the%20fonts/final/webdin32.exe/download" -O webdin32.exe >/dev/null 2>&1
+            echo ">>>> Downloading verdan32 fonts"
+            wget -c -nv "https://sourceforge.net/projects/corefonts/files/the%20fonts/final/verdan32.exe/download" -O verdan32.exe >/dev/null 2>&1
+            echo ">>>> Downloading trebuc32 fonts"
+            wget -c -nv "https://sourceforge.net/projects/corefonts/files/the%20fonts/final/trebuc32.exe/download" -O trebuc32.exe >/dev/null 2>&1
+            echo ">>>> Downloading times32 fonts"
+            wget -c -nv "https://sourceforge.net/projects/corefonts/files/the%20fonts/final/times32.exe/download" -O times32.exe >/dev/null 2>&1
+            echo ">>>> Downloading impact32 fonts"
+            wget -c -nv "https://sourceforge.net/projects/corefonts/files/the%20fonts/final/impact32.exe/download" -O impact32.exe >/dev/null 2>&1
+            echo ">>>> Downloading georgi32 fonts"
+            wget -c -nv "https://sourceforge.net/projects/corefonts/files/the%20fonts/final/georgi32.exe/download" -O georgi32.exe >/dev/null 2>&1
+            echo ">>>> Downloading courie32 fonts"
+            wget -c -nv "https://sourceforge.net/projects/corefonts/files/the%20fonts/final/courie32.exe/download" -O courie32.exe >/dev/null 2>&1
+            echo ">>>> Downloading comic32 fonts"
+            wget -c -nv "https://sourceforge.net/projects/corefonts/files/the%20fonts/final/comic32.exe/download" -O comic32.exe >/dev/null 2>&1
+            echo ">>>> Downloading arialb32 fonts"
+            wget -c -nv "https://sourceforge.net/projects/corefonts/files/the%20fonts/final/arialb32.exe/download" -O arialb32.exe >/dev/null 2>&1
+            echo ">>>> Downloading arial32 fonts"
+            wget -c -nv "https://sourceforge.net/projects/corefonts/files/the%20fonts/final/arial32.exe/download" -O arial32.exe >/dev/null 2>&1
+            echo ">>>> Downloading andale32 fonts"
+            wget -c -nv "https://sourceforge.net/projects/corefonts/files/the%20fonts/final/andale32.exe/download" -O andale32.exe >/dev/null 2>&1
+            echo ">>>> Extract fonts"
+            7z -y x webdin32.exe >/dev/null 2>&1
+            7z -y x verdan32.exe >/dev/null 2>&1
+            7z -y x trebuc32.exe >/dev/null 2>&1
+            7z -y x times32.exe >/dev/null 2>&1
+            7z -y x impact32.exe >/dev/null 2>&1
+            7z -y x georgi32.exe >/dev/null 2>&1
+            7z -y x courie32.exe >/dev/null 2>&1
+            7z -y x comic32.exe >/dev/null 2>&1
+            7z -y x arialb32.exe >/dev/null 2>&1
+            7z -y x arial32.exe >/dev/null 2>&1
+            7z -y x andale32.exe >/dev/null 2>&1
+            echo ">>>> Install to Personal Fonts"
+            mv *.TTF $HOME/.fonts/ms-corefonts/
+            mv *.ttf $HOME/.fonts/ms-corefonts/
+            echo ">>>> Build cache fonts..."
+            fc-cache -f
+            sudo xbps-reconfigure -v -f fontconfig >/dev/null 2>&1
+            echo ">>>> Finish..."
+            ;;
+        -h|--help)
             usage
             exit 0
             ;;
-        version)
+        -v|--version)
             echo "\033[1;33m $NAME\033[0m version $VERSION"
             exit 0
             ;;
