@@ -14,7 +14,8 @@ echo "=============== LangitKetujuh Tools \033[1;33m$VERSION\033[0m ============
  
  license :  $LICENSE
  usage   :  $NAME [option]
- option  :  --lite-musl     update lite-musl
+ option  :  --update        update l7-tools script
+            --lite-musl     update lite-musl
             --lite-glibc    update lite-glibc
             --pro-musl      update pro-musl
             --pro-glibc     update pro-glibc
@@ -36,6 +37,11 @@ LITE="lite"
 
 for arg in "$@"; do
     case $arg in
+        --update|-u)
+            sudo sh -c "curl -fsSL https://langitketujuh.id/sh/l7-tools" >> /usr/bin/l7-tools
+            chmod +x /usr/bin/l7-tools
+            echo ">>>> Finish..."
+            ;;
         --lite-musl)
             echo ">>>> Remove old /tmp"
             sudo rm -rf $TMP/$LITE
