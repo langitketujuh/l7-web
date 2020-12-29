@@ -233,7 +233,7 @@ copyright = "2020 [LangitKetujuh ID](https://gitlab.com/langitketujuh). 2020 [Vo
 # PRELOADER
 
 [params.preloader]
-enable = true
+enable = false
 preloader = "gambar/preloader.svg" # use jpg, png, svg or gif format.
 
 # Navigation buttons
