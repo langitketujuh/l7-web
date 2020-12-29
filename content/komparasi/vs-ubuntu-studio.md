@@ -27,11 +27,12 @@ Dukungan Nvidia Propietary driver | **√** | - | **√**
 Dukungan Aplikasi Nonfree  | **√** |- | **√**
 Dukungan Wine windows | **√** | - | **√**
 
-### Dukungan Printer Epson & HP
+### Dukungan Printer
 
 **Fitur** | **Ubuntu Studio** | **L7 Pro Musl** | **L7 Pro Glibc**
 :--- | :---: | :---: | :---:
-Deteksi Printer HP dan Epson. | - | **√** | **√**
+Deteksi Printer Epson. | - | **√** | **√**
+Deteksi Printer HP. | - | **√** | **√**
 
 ### Ilustrasi dan Digital Painting
 
