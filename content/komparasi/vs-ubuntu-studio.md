@@ -56,7 +56,7 @@ Synfigstudio animasi 2D. | - | **√** | **√**
 
 **Fitur** | **Ubuntu Studio** | **L7 Pro Musl** | **L7 Pro Glibc**
 :--- | :---: | :---: | :---:
-Fontfoge pembuat font. | - | **√** | **√**
+Fontforge pembuat font. | - | **√** | **√**
 Google Fonts untuk proyek komersil. | - | **√** | **√**
 
 ### Mesin Game 2D/3D

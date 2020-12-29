@@ -29,7 +29,7 @@ Gimp manipulasi foto. | **√** | **√** | **√** | **√**
 Inkscape pengolah vektor. | **√** | **√** | **√** | **√**
 Audacity pengolah audio. | - | -  | **√** | **√**
 Blender animasi 2D/3D. | - | -  | **√** | **√**
-Fontfoge pembuat font. | - | -  | **√** | **√**
+Fontforge pembuat font. | - | -  | **√** | **√**
 Godot pembuat game. | - | -  | **√** | **√**
 Kdenlive pengolah video. | - | -  | **√** | **√**
 Krita digital painting. | - | -  | **√** | **√**
