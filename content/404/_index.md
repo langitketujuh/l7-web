@@ -17,6 +17,6 @@ call_to_action:
     enable : true
     label : "Kabari via Telegram"
     link : "https://t.me/langitketujuhCS"
----
 
-## Halaman tidak ditemukan
+noindex: true
+---
