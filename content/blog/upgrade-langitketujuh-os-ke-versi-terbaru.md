@@ -40,17 +40,27 @@ pilih `y` lalu enter, tunggu sampai update selesai.
 
 Setelah mengupdate sistem, jalankan skrip `l7-tools` yang sesuai edisi masing-masing.
 
-* Pengguna LITE Musl: `l7-tools lite-musl`
+* Pengguna LITE Musl:
 
-* Pengguna PRO Musl: `l7-tools pro-musl`
+`l7-tools --lite-musl`
 
-* Pengguna PRO Glibc: `l7-tools pro-glibc`
+* Pengguna LITE Glibc:
+
+`l7-tools --lite-glibc`
+
+* Pengguna PRO Musl:
+
+`l7-tools --pro-musl`
+
+* Pengguna PRO Glibc:
+
+`l7-tools --pro-glibc`
 
 ### Restart
 
 Setelah keluar sesi, maka shell Anda akan berubah menjadi Fish Shell.
 
-Jadi, ketika ada update versi baru lagi tidak perlu menginstall `l7-tools`. Cukup ketik `update` lalu jalankan perintah konfigurasinya saja, misalnya `l7-tools pro-musl`.
+Jadi, ketika ada update versi baru lagi tidak perlu menginstall `l7-tools`. Cukup ketik `update` lalu jalankan perintah konfigurasinya saja, misalnya `l7-tools --pro-musl`.
 
 Selesai. Mudah ya kan ^^
 
