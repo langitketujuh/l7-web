@@ -28,7 +28,7 @@ Buka aplikasi konsole, lalu jalankan perintah ini. Pastikan ada koneksi internet
 
 {{< highlight bash >}}
 
-sudo sh -c "curl -fsSL https://langitketujuh.id/sh/l7-tools" > /usr/bin/l7-tools; chmod +x /usr/bin/l7-tools
+sudo sh -c "curl -fsSL https://langitketujuh.id/sh/l7-tools" > /usr/bin/l7-tools; sudo chmod +x /usr/bin/l7-tools
 
 {{< /highlight >}}
 
