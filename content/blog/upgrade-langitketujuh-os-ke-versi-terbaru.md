@@ -24,19 +24,25 @@ draft: false
 
 Mulai dari versi 0.7, langitketujuh sudah ada skrip sederhana yang digunakan untuk update konfigurasi. Tetapi jika Anda memasang LangitKetujuh versi dibawah 0.7 maka harus memasang manual.
 
-Buka aplikasi konsole, lalu jalankan perintah ini. Pastikan ada koneksi internet ya.
+Buka aplikasi konsole, lalu jalankan perintah ini.
 
 {{< highlight bash >}}
+l7-tools --version
+{{< /highlight >}}
 
-sudo sh -c "curl -fsSL https://langitketujuh.id/sh/l7-tools" > /usr/bin/l7-tools; sudo chmod +x /usr/bin/l7-tools
+Jika belum versi `1.1` ke atas, maka upgrade dengan cara dibawah ini. Pastikan juga ada koneksi internet.
 
+{{< highlight bash >}}
+sudo wget 'https://langitketujuh.id/sh/l7-tools' -O /usr/bin/l7-tools && sudo chmod +x /usr/bin/l7-tools
 {{< /highlight >}}
 
 ### Update
 
 Setelah memasang L7-tools, kemudian memperbarui system.
 
-`update`
+{{< highlight bash >}}
+update
+{{< /highlight >}}
 
 pilih `y` lalu enter, tunggu sampai update selesai.
 
@@ -46,19 +52,27 @@ Setelah mengupdate sistem, jalankan skrip `l7-tools` yang sesuai edisi masing-ma
 
 * Pengguna LITE Musl:
 
-`l7-tools --lite-musl`
+{{< highlight bash >}}
+l7-tools --lite-musl
+{{< /highlight >}}
 
 * Pengguna LITE Glibc:
 
-`l7-tools --lite-glibc`
+{{< highlight bash >}}
+l7-tools --lite-glibc
+{{< /highlight >}}
 
 * Pengguna PRO Musl:
 
-`l7-tools --pro-musl`
+{{< highlight bash >}}
+l7-tools --pro-musl
+{{< /highlight >}}
 
 * Pengguna PRO Glibc:
 
-`l7-tools --pro-glibc`
+{{< highlight bash >}}
+l7-tools --pro-glibc
+{{< /highlight >}}
 
 ### Restart
 
