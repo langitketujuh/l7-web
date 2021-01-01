@@ -15,7 +15,7 @@
  </defs>
  <g transform="matrix(.99656 0 0 .9972 2.4833 2.5211)">
   <rect width="1443" height="309.83" fill="none" stop-color="#000000" stroke="#e83e8c" stroke-dasharray="40.1253, 20.0626" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.0157" style="paint-order:fill markers stroke"/>
-  <rect x="317.37" y="25.065" width="808.26" height="259.7" fill="#5b37f0" stop-color="#000000" stroke-width="1.0031" style="paint-order:fill markers stroke"/>
+  <rect x="317.37" y="25.065" width="808.26" height="259.7" fill="#494c90" stop-color="#000000" stroke-width="1.0031" style="paint-order:fill markers stroke"/>
   <path d="m317.37 284.76 808.26-259.7" fill="none" stop-color="#000000" stroke="#fff" stroke-dasharray="40.1254, 20.0626" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.0157" style="font-variation-settings:normal;paint-order:fill markers stroke"/>
   <path d="m317.37 25.065 808.26 259.7" fill="none" stop-color="#000000" stroke="#fff" stroke-dasharray="40.1254, 20.0626" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.0157" style="font-variation-settings:normal;paint-order:fill markers stroke"/>
  </g>

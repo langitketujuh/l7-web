@@ -59,7 +59,7 @@ proglibc:
 call_to_action:
   enable : true
   title : "Perbedaan Fitur?"
-  image : "gambar/faq.svg"
+  image : "gambar/faq-min.svg"
   content : "Masih bingung? Bandingkan perbedaan fitur Lite dan Pro disini."
   button:
     enable : true
