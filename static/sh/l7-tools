@@ -106,7 +106,7 @@ for arg in "$@"; do
               echo ">>>> Remove old skeleton"
               sudo rm -rf /etc/skel/.config
               echo ">>>> Clone GIT"
-              git clone --depth 1 $gitlite $tmp/pro >/dev/null 2>&1
+              git clone --depth 1 $gitpro $tmp/pro >/dev/null 2>&1
               cd $tmp/pro/musl
               echo ">>>> Copying update"
               sudo cp -rf * /
@@ -118,7 +118,7 @@ for arg in "$@"; do
               echo ">>>> Remove old skeleton"
               sudo rm -rf /etc/skel/.config
               echo ">>>> Clone GIT"
-              git clone --depth 1 $gitlite $tmp/pro >/dev/null 2>&1
+              git clone --depth 1 $gitpro $tmp/pro >/dev/null 2>&1
               cd $tmp/pro/glibc
               echo ">>>> Copying update"
               sudo cp -rf * /
