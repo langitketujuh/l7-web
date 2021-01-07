@@ -15,21 +15,23 @@ echo "version : v$version"
     cat <<- EOF
 license : $license
 usage   : $name [option]
-option  : --update        update system
+option  : --update      -u    update system
 
-          --adobe-icc     install adobe icc
-          --separate+     install separate+ gimp
-          --ms-fonts      install microsoft fonts
-          --wine-emu      install wine emulator
+          --adobe-icc   -a    install adobe icc
+          --separate+   -p    install separate+ gimp
+          --ms-fonts    -m    install microsoft fonts
 
-          --fix-lm        fix lite-musl
-          --fix-lg        fix lite-glibc
-          --fix-pm        fix pro-musl
-          --fix-pg        fix pro-glibc
-          --fix-fonts     fix bitmap fonts
+          --wine-emu    -w    install wine emulator
+          --fish        -s    install fish shell
 
-          --help, -h      show this help
-          --version, -v   show $name version
+          --fix-lm      -lm   fix lite-musl
+          --fix-lg      -lg   fix lite-glibc
+          --fix-pm      -pm   fix pro-musl
+          --fix-pg      -pg   fix pro-glibc
+          --fix-fonts   -f    fix bitmap fonts
+
+          --help        -h    show this help
+          --version     -v    show $name version
 
 EOF
 }
@@ -98,15 +100,7 @@ for arg in "$@"; do
               echo '>>>> Update is failed. Please see \033[1;33ml7-tools --help\033[0m'
             fi
             ;;
-        --fish)
-            echo ">>>> Install Fish shell"
-            sudo xbps-install -Sy fish-shell >/dev/null 2>&1
-            echo ">>>> Apply Fish Shell"
-            chsh -s /usr/bin/fish $USER
-            cp -rf /etc/skel/.config/fish ~/.config
-            echo ">>>> Finish..."
-            ;;
-        --adobe-icc)
+        --adobe-icc|-a)
             echo ">>>> Remove old /tmp"
             rm -rf /tmp/adobe-icc
             echo ">>>> Preparing new dir /tmp"
@@ -122,7 +116,7 @@ for arg in "$@"; do
             sudo install -D -m644 -t /usr/share/doc/adobe-icc */*.pdf
             echo ">>>> Finish..."
             ;;
-        --separate+)
+        --separate+|-p)
             echo ">>>> Install depedency"
             sudo xbps-install -Sy mesa-dri gimp gimp-python gimp-devel lcms lcms-devel gettext gettext-devel
             echo ">>>> Remove old /tmp"
@@ -141,7 +135,7 @@ for arg in "$@"; do
             sudo install -m644 sample-scripts/* /usr/share/gimp/2.0/scripts
             echo ">>>> Finish..."
             ;;
-        --ms-fonts)
+        --ms-fonts|-m)
             echo ">>>> Remove old /tmp"
             mkdir -p /tmp/ms-corefonts/
             mkdir -p $HOME/.fonts/ms-corefonts/
@@ -198,7 +192,15 @@ for arg in "$@"; do
               echo ">>>> Finish..."
             fi
             ;;
-        --fix-fonts)
+        --fish|-s)
+            echo ">>>> Install Fish shell"
+            sudo xbps-install -Sy fish-shell >/dev/null 2>&1
+            echo ">>>> Apply Fish Shell"
+            chsh -s /usr/bin/fish $USER
+            cp -rf /etc/skel/.config/fish ~/.config
+            echo ">>>> Finish..."
+            ;;
+        --fix-fonts|-f)
             sudo ln -s /usr/share/fontconfig/conf.avail/10-hinting-slight.conf /etc/fonts/conf.d/ >/dev/null 2>&1
             sudo ln -s /usr/share/fontconfig/conf.avail/10-sub-pixel-rgb.conf /etc/fonts/conf.d/ >/dev/null 2>&1
             sudo ln -s /usr/share/fontconfig/conf.avail/11-lcdfilter-default.conf /etc/fonts/conf.d/ >/dev/null 2>&1
@@ -207,16 +209,16 @@ for arg in "$@"; do
             sudo xbps-reconfigure -f fontconfig
             echo ">>>> Finish..."
             ;;
-        --fix-lm|--lm)
+        --fix-lm|-lm)
             sudo sed -i /usr/bin/lsb_release -res'#^(codename).*#codename="lite-musl"#'
             ;;
-        --fix-lg|--lg)
+        --fix-lg|-lg)
             sudo sed -i /usr/bin/lsb_release -res'#^(codename).*#codename="lite-glibc"#'
             ;;
-        --fix-pm|--pm)
+        --fix-pm|-pm)
             sudo sed -i /usr/bin/lsb_release -res'#^(codename).*#codename="pro-musl"#'
             ;;
-        --fix-pg|--pg)
+        --fix-pg|-pg)
             sudo sed -i /usr/bin/lsb_release -res'#^(codename).*#codename="pro-glibc"#'
             ;;
         --help|-h)
