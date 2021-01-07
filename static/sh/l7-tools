@@ -1,110 +1,104 @@
 #!/usr/bin/env sh
 
-NAME=$(basename "$0")
-INSTALLDIR=$(which basename)
-VERSION="1.1"
-LICENSE="GNU GPLV3+"
+name=$(basename "$0")
+installdir=$(which basename)
+version="1.2"
+license="GNU GPLV3+"
+type=$(lsb_release -c | cut -f 2)
+musl=$(xbps-query -v -L | grep musl | rev | cut -c17)
 
 usage()
 {
 echo
-echo "script  : \033[1;33mLangitKetujuh Tools\033[0m $VERSION"
+echo "script  : \033[1;33mLangitKetujuh Tools\033[0m"
+echo "version : v$version"
     cat <<- EOF
-license : $LICENSE
-usage   : $NAME [option]
-
-option  : --update        update l7-tools
-          --lite-musl     update lite-musl
-          --lite-glibc    update lite-glibc
-          --pro-musl      update pro-musl
-          --pro-glibc     update pro-glibc
+license : $license
+usage   : $name [option]
+option  : --update        update system
 
           --adobe-icc     install adobe icc
           --separate+     install separate+ gimp
           --ms-fonts      install microsoft fonts
+          --wine-emu      install wine emulator
 
+          --fix-lm        fix lite-musl
+          --fix-lg        fix lite-glibc
+          --fix-pm        fix pro-musl
+          --fix-pg        fix pro-glibc
           --fix-fonts     fix bitmap fonts
 
           --help, -h      show this help
-          --version, -v   show $NAME version
+          --version, -v   show $name version
 
 EOF
 }
 
-GITPRO="https://gitlab.com/langitketujuh/pro"
-GITLITE="https://gitlab.com/langitketujuh/lite"
-TMP="/tmp"
-PRO="pro"
-LITE="lite"
-
+gitpro="https://gitlab.com/langitketujuh/pro"
+gitlite="https://gitlab.com/langitketujuh/lite"
+tmp="/tmp"
 for arg in "$@"; do
     case $arg in
-        --update|-u)
+        --script|-s)
             sudo sh -c "curl -fsSL https://langitketujuh.id/sh/l7-tools" > /usr/bin/l7-tools
             chmod +x /usr/bin/l7-tools
             echo ">>>> Finish..."
             ;;
-        --lite-musl)
-            echo ">>>> Remove old /tmp"
-            sudo rm -rf $TMP/$LITE
-            echo ">>>> Remove old skeleton"
-            sudo rm -rf /etc/skel/.config
-            echo ">>>> Clone GIT"
-            git clone --depth 1 $GITLITE $TMP/$LITE >/dev/null 2>&1
-            cd $TMP/$LITE/musl
-            echo ">>>> Copying update"
-            sudo cp -rf * /
-            echo ">>>> Install Fish shell"
-	        sudo xbps-install -Sy fish-shell >/dev/null 2>&1
-            echo ">>>> Apply Fish Shell"
-            chsh -s /usr/bin/fish $USER
-            cp -rf /etc/skel/.config/fish ~/.config
-            echo ">>>> Finish..."
+        --update|-u)
+          sudo xbps-install -Su
+            if [ $type = 'lite-musl' ];
+              then
+              echo ">>>> Remove old /tmp"
+              sudo rm -rf $tmp/lite
+              echo ">>>> Remove old skeleton"
+              sudo rm -rf /etc/skel/.config
+              echo ">>>> Clone GIT"
+              git clone --depth 1 $gitlite $tmp/lite >/dev/null 2>&1
+              cd $tmp/lite/musl
+              echo ">>>> Copying update"
+              sudo cp -rf * /
+              echo ">>>> Update $type finish..."
+            elif [ $type = 'lite-glibc' ];
+              then
+              echo ">>>> Remove old /tmp"
+              sudo rm -rf $tmp/lite
+              echo ">>>> Remove old skeleton"
+              sudo rm -rf /etc/skel/.config
+              echo ">>>> Clone GIT"
+              git clone --depth 1 $gitlite $tmp/lite >/dev/null 2>&1
+              cd $tmp/lite/glibc
+              echo ">>>> Copying update"
+              sudo cp -rf * /
+              echo ">>>> Update $type finish..."
+            elif [ $type = 'pro-musl' ];
+              then
+              echo ">>>> Remove old /tmp"
+              sudo rm -rf $tmp/pro
+              echo ">>>> Remove old skeleton"
+              sudo rm -rf /etc/skel/.config
+              echo ">>>> Clone GIT"
+              git clone --depth 1 $gitlite $tmp/pro >/dev/null 2>&1
+              cd $tmp/pro/musl
+              echo ">>>> Copying update"
+              sudo cp -rf * /
+              echo ">>>> Update $type finish..."
+            elif [ $type = 'pro-glibc' ];
+              then
+              echo ">>>> Remove old /tmp"
+              sudo rm -rf $tmp/pro
+              echo ">>>> Remove old skeleton"
+              sudo rm -rf /etc/skel/.config
+              echo ">>>> Clone GIT"
+              git clone --depth 1 $gitlite $tmp/pro >/dev/null 2>&1
+              cd $tmp/pro/glibc
+              echo ">>>> Copying update"
+              sudo cp -rf * /
+              echo ">>>> Update $type finish..."
+            else
+              echo '>>>> Update is failed. Please see \033[1;33ml7-tools --help\033[0m'
+            fi
             ;;
-        --lite-glibc)
-            echo ">>>> Remove old /tmp"
-            sudo rm -rf $TMP/$LITE
-            echo ">>>> Remove old skeleton"
-            sudo rm -rf /etc/skel/.config
-            echo ">>>> Clone GIT"
-            git clone --depth 1 $GITLITE $TMP/$LITE >/dev/null 2>&1
-            cd $TMP/$LITE/glibc
-            echo ">>>> Copying update"
-            sudo cp -rf * /
-            echo ">>>> Install Fish shell"
-	        sudo xbps-install -Sy fish-shell >/dev/null 2>&1
-            echo ">>>> Apply Fish Shell"
-            chsh -s /usr/bin/fish $USER
-            cp -rf /etc/skel/.config/fish ~/.config
-            echo ">>>> Finish..."
-            ;;
-        --pro-musl)
-            echo ">>>> Remove old /tmp"
-            sudo rm -rf $TMP/$PRO
-            echo ">>>> Remove old skeleton"
-            sudo rm -rf /etc/skel/.config
-            echo ">>>> Clone GIT"
-            git clone --depth 1 $GITPRO $TMP/$PRO >/dev/null 2>&1
-            cd $TMP/$PRO/musl
-            echo ">>>> Copying update"
-            sudo cp -rf * /
-            echo ">>>> Install Fish shell"
-	        sudo xbps-install -Sy fish-shell >/dev/null 2>&1
-            echo ">>>> Apply Fish Shell"
-            chsh -s /usr/bin/fish $USER
-            cp -rf /etc/skel/.config/fish ~/.config
-            echo ">>>> Finish..."
-            ;;
-        --pro-glibc)
-            echo ">>>> Remove old /tmp"
-            sudo rm -rf $TMP/$PRO
-            echo ">>>> Remove old skeleton"
-            sudo rm -rf /etc/skel/.config
-            echo ">>>> Clone GIT"
-            git clone --depth 1 $GITPRO $TMP/$PRO >/dev/null 2>&1
-            cd $TMP/$PRO/glibc
-            echo ">>>> Copying update"
-            sudo cp -rf * /
+        --fish)
             echo ">>>> Install Fish shell"
             sudo xbps-install -Sy fish-shell >/dev/null 2>&1
             echo ">>>> Apply Fish Shell"
@@ -195,6 +189,15 @@ for arg in "$@"; do
             sudo xbps-reconfigure -v -f fontconfig >/dev/null 2>&1
             echo ">>>> Finish..."
             ;;
+        --wine-emu|-w)
+            if [ $musl = 'm' ]; then
+              sudo xbps-install wine wine-common wine-gecko wine-tools wine-mono winetricks zenity
+              echo ">>>> Finish..."
+            else
+              sudo xbps-install wine wine-32bit wine-common wine-gecko wine-tools wine-mono winetricks zenity
+              echo ">>>> Finish..."
+            fi
+            ;;
         --fix-fonts)
             sudo ln -s /usr/share/fontconfig/conf.avail/10-hinting-slight.conf /etc/fonts/conf.d/ >/dev/null 2>&1
             sudo ln -s /usr/share/fontconfig/conf.avail/10-sub-pixel-rgb.conf /etc/fonts/conf.d/ >/dev/null 2>&1
@@ -203,6 +206,18 @@ for arg in "$@"; do
             sudo ln -s /usr/share/fontconfig/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d/ >/dev/null 2>&1
             sudo xbps-reconfigure -f fontconfig
             echo ">>>> Finish..."
+            ;;
+        --fix-lm|--lm)
+            sudo sed -i /usr/bin/lsb_release -res'#^(codename).*#codename="lite-musl"#'
+            ;;
+        --fix-lg|--lg)
+            sudo sed -i /usr/bin/lsb_release -res'#^(codename).*#codename="lite-glibc"#'
+            ;;
+        --fix-pm|--pm)
+            sudo sed -i /usr/bin/lsb_release -res'#^(codename).*#codename="pro-musl"#'
+            ;;
+        --fix-pg|--pg)
+            sudo sed -i /usr/bin/lsb_release -res'#^(codename).*#codename="pro-glibc"#'
             ;;
         --help|-h)
             usage
@@ -213,7 +228,7 @@ for arg in "$@"; do
             exit 0
             ;;
         *)
-            printf "\noption does not exist: %s\n\n" "$arg"
+            echo "Please run : \033[1;33ml7-tools --update\033[0m"
             exit 2
     esac
 done
