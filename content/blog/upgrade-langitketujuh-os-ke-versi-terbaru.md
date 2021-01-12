@@ -38,48 +38,16 @@ sudo wget 'https://langitketujuh.id/sh/l7-tools' -O /usr/bin/l7-tools && sudo ch
 
 ### Update
 
-Setelah memasang L7-tools, kemudian memperbarui system.
+Setelah memasang L7-tools, kemudian jalankan update.
 
 {{< highlight bash >}}
-update
+l7-tools --update
 {{< /highlight >}}
 
-pilih `y` lalu enter, tunggu sampai update selesai.
-
-### Perintah update konfigurasi
-
-Setelah mengupdate sistem, jalankan skrip `l7-tools` yang sesuai edisi masing-masing.
-
-* Pengguna LITE Musl:
-
-{{< highlight bash >}}
-l7-tools --lite-musl
-{{< /highlight >}}
-
-* Pengguna LITE Glibc:
-
-{{< highlight bash >}}
-l7-tools --lite-glibc
-{{< /highlight >}}
-
-* Pengguna PRO Musl:
-
-{{< highlight bash >}}
-l7-tools --pro-musl
-{{< /highlight >}}
-
-* Pengguna PRO Glibc:
-
-{{< highlight bash >}}
-l7-tools --pro-glibc
-{{< /highlight >}}
+pilih `y` lalu enter, tunggu sampai selesai. Atau pilih `n` untuk melewati update.
 
 ### Restart
 
-Setelah keluar sesi, maka shell Anda akan berubah menjadi Fish Shell.
-
-Jadi, ketika ada update versi baru lagi tidak perlu menginstall `l7-tools`. Cukup ketik `update` lalu jalankan perintah konfigurasinya saja, misalnya `l7-tools --pro-musl`.
-
-Selesai. Mudah ya kan ^^
+Bila perlu restart apabila ada pembaruan kernel. Selesai. Mudah ya kan ^^
 
 _Barakallahu fiikum._
