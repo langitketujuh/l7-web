@@ -37,13 +37,13 @@ Fitur:
 
 ### Pemasangan
 
-Pastikan versi `l7-tools` Anda versi diatas `1.1`
+Pastikan versi `l7-tools` Anda versi diatas `1.3`
 
 {{< highlight bash >}}
 l7-tools --version
 {{< /highlight >}}
 
-Jika belum versi diatas `1.1` maka update dahlu sistem anda dengan cara ini. [KLIK](/blog/upgrade-langitketujuh-os-ke-versi-terbaru).
+Jika belum versi diatas `1.3` maka update dahlu sistem anda dengan cara ini. [KLIK](/blog/upgrade-langitketujuh-os-ke-versi-terbaru).
 
 `l7-export` membutuhkan warna profil Adobe dan IDEAlliance ICC, sehingga jalankan perintah ini untuk memasang depedensi warna profil eksternal.
 

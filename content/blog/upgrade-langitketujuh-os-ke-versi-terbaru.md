@@ -30,7 +30,7 @@ Buka aplikasi konsole, lalu jalankan perintah ini.
 l7-tools --version
 {{< /highlight >}}
 
-Jika belum versi `1.1` ke atas, maka upgrade dengan cara dibawah ini. Pastikan juga ada koneksi internet.
+Jika belum versi `1.3` ke atas, maka upgrade dengan cara dibawah ini. Pastikan juga ada koneksi internet.
 
 {{< highlight bash >}}
 sudo wget 'https://langitketujuh.id/sh/l7-tools' -O /usr/bin/l7-tools && sudo chmod +x /usr/bin/l7-tools
@@ -59,10 +59,10 @@ pilih `y` lalu enter, tunggu sampai selesai. Atau pilih `n` untuk melewati updat
 Jika muncul `[FAILED]` maka jalankan fiksasi dengan:
 
 {{< highlight bash >}}
-l7-tools --fix-lite-musl    # untuk pengguna lite musl.
-l7-tools --fix-lite-glibc   # untuk pengguna lite glibc.
-l7-tools --fix-pro-musl     # untuk pengguna pro musl.
-l7-tools --fix-pro-glibc    # untuk pengguna pro glibc.
+l7-tools --fix-lm   # untuk pengguna lite musl.
+l7-tools --fix-lg   # untuk pengguna lite glibc.
+l7-tools --fix-pm   # untuk pengguna pro musl.
+l7-tools --fix-pg   # untuk pengguna pro glibc.
 {{< /highlight >}}
 
 ### Restart
