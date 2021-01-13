@@ -46,8 +46,27 @@ l7-tools --update
 
 pilih `y` lalu enter, tunggu sampai selesai. Atau pilih `n` untuk melewati update.
 
+{{< highlight bash >}}
+➜ ~ l7-tools --update
+[1] Upgrade System (Y/n): n
+[2] Remove config skeleton
+[3] Clone repo
+[4] Pull repo
+[5] Install update
+[FINISH] Update pro-musl done
+{{< /highlight >}}
+
+Jika muncul `[FAILED]` maka jalankan fiksasi dengan:
+
+{{< highlight bash >}}
+l7-tools --fix-lite-musl    # untuk pengguna lite musl.
+l7-tools --fix-lite-glibc   # untuk pengguna lite glibc.
+l7-tools --fix-pro-musl     # untuk pengguna pro musl.
+l7-tools --fix-pro-glibc    # untuk pengguna pro glibc.
+{{< /highlight >}}
+
 ### Restart
 
-Bila perlu restart apabila ada pembaruan kernel. Selesai. Mudah ya kan ^^
+Jika ada pembaruan kernel maka sebaiknya direstart. Selesai. Mudah ya kan ^^
 
 _Barakallahu fiikum._

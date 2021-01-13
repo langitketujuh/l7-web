@@ -1,0 +1,778 @@
+#!/usr/bin/env bash
+
+title="LangitKetujuh Export"
+name=$(basename "$0")
+installdir=$(which basename)
+inkscapedir=$(which inkscape)
+version="1.3"
+web="https://langitketujuh.id"
+license="GNU GPLV3+"
+srgb="/usr/share/color/icc/colord/sRGB.icc"
+chemical_proof="/usr/share/color/icc/krita/cmyk.icm"
+swop2006_coated3v2="/usr/share/color/icc/idealliance/SWOP2006_Coated3v2.icc"
+japancolor2001coated="/usr/share/color/icc/adobe/cmyk/JapanColor2001Coated.icc"
+uswebcoatedswop="/usr/share/color/icc/adobe/cmyk/USWebCoatedSWOP.icc"
+
+usage()
+{
+ echo -e "\n\033[1;36m $title $version\033[0m"
+ echo -e "\e[3m Yet Another CLI Exporter\e[0m"
+ echo -e "\e[3m Fork from inkporter-cli\e[0m"
+ echo
+    cat <<- EOF
+ website  : $web
+ license  : $license
+ 
+ usage    : $name [file.svg] [id]
+ 
+ option   : -i,--install  # install depedency color profile
+            -h,--help     # show this help
+            -v,--version  # show $name version
+
+ feature  : * deep per inch (DPI)
+            * support depth 16-bit for PNG and TIF
+            * colorspace RGB/CMYK PDF for PDF vektor
+            * support color profile CMYK for JPG, TIF, PDF raster:
+                RGB   : Default - srgb
+                CMYK  : Krita - chemical proof
+                CMYK  : Generic - swop2006 coated3v2
+                CMYK  : Corel - japan color 2001 coated
+                CMYK  : Adobe - u.s. web coated (swop) v2
+            * easy merge PDF
+ 
+EOF
+}
+
+for arg in "$@"; do
+    case $arg in
+        -i|--install)
+            if xbps-install --version > /tmp/checkers >/dev/null 2>&1;
+              then
+              echo -e "\033[1;36m[1] Install depedencies > LangitKetujuh\033[0m"
+              sudo xbps-install -Sy inkscape ghostscript ImageMagick krita libwebp
+              elif dnf --version > /tmp/checkers >/dev/null 2>&1;
+                then
+                echo -e "\033[1;36m[1] Install depedencies > Fedora\033[0m"
+                sudo dnf install inkscape ghostscript ImageMagick krita libwebp
+              elif pacman --version > /tmp/checkers >/dev/null 2>&1;
+                then
+                echo -e "\033[1;36m[1] Install depedencies > Archlinux\033[0m"
+                sudo pacman -S inkscape ghostscript ImageMagick krita libwebp
+              elif apt --version > /tmp/checkers >/dev/null 2>&1;
+                then
+                echo -e "\033[1;36m[1] Install depedencies > Debian\033[0m"
+                sudo apt -y update; sudo apt install inkscape ghostscript imagemagick krita libwebp
+              elif zypper --version > /tmp/checkers >/dev/null 2>&1;
+                then
+                echo -e "\033[1;36m[1] Install depedencies > openSUSE\033[0m"
+                sudo zypper install inkscape ghostscript ImageMagick krita libwebp
+              else
+                echo -e "\033[1;36m[1] Install depedencies > What your os?\033[0m"
+              fi
+            l7-tools --adobe-icc
+            l7-tools --idea-icc
+            exit 0
+            ;;
+        -d|--deps)
+            echo -e "\033[1;33minkscape version: \033[0m"
+            if inkscape ---version | grep "Inkscape 1.*" ;then
+                echo " "; else
+                echo
+                echo "$name version: v$version"
+                echo "only for inkscape 1.x!";
+            fi
+            echo -e "\033[1;33mkrita version: \033[0m"
+            krita ---version
+            echo
+            echo -e "\033[1;33mImageMagick version: \033[0m"
+            magick ---version | grep Version:
+            echo
+            echo -e "\033[1;33mghostscript version: \033[0m"
+            gs ---version
+            echo
+            echo -e "\033[1;33mlib version: \033[0m"
+            cwebp --version
+            echo
+            exit 0
+            ;;
+        -h|--help)
+            usage
+            exit 0
+            ;;
+        -v|---version)
+            echo -e "\033[1;33m $name\033[0m version $version"
+            exit 0
+    esac
+done
+
+source=$1
+idpattern=$2
+PS3='Number: '
+options=("PNG" "JPG" "TIF" "PDF" "SVG" "EPS" "WEBP" "Cancel")
+clear
+echo -e "\n\033[1;36m$title v$version \033[0m"
+echo -e "\e[3mYet Another CLI Exporter\e[0m"
+echo
+select opt in "${options[@]}"
+do
+    case $opt in
+        "PNG")
+            if inkscape --version > /tmp/checkers >/dev/null 2>&1; then
+              echo >/dev/null 2>&1
+              else
+                echo -e "\033[1;33m[FAILED]\033[0m inkscape not installed!";
+              exit;
+              fi
+            if magick --version | grep . > /tmp/checkers >/dev/null 2>&1; then
+              echo >/dev/null 2>&1
+              else
+              echo -e "\033[1;33m[FAILED]\033[0m ImageMagick not installed!";
+              exit;
+              fi
+            echo -e "EXPORT: \033[1;36mPNG\033[0m"
+            read -e -p "DPI (72/96/300): " -i "96" dpi
+              if [ $dpi -gt 300 ]; then
+                echo -e "\033[1;33m[FAILED]\033[0m $dpi DPI is not recommended."
+                exit
+              fi
+            echo -e "DPI: \033[1;33m$dpi\033[0m"
+            read -e -p "Depth (8/16-bit): " -i "8" depth
+              if [ $depth -eq 8 ]; then
+                echo -e "Depth: \033[1;33m 8-bit \033[0m"
+                elif [ $depth -eq 16 ]; then
+                echo -e "Depth: \033[1;33m 16-bit \033[0m"
+                else
+                echo -e "\033[1;33m[FAILED]\033[0m "$icc-bit" is not support."
+                exit
+              fi
+            read -e -p "Folder Output: " -i "PNG" directory
+            mkdir -p $directory/.temp
+            for id in $(inkscape -S $source | grep $idpattern | cut -d "," -f 1)
+            do
+                inkscape -j -i $id -o "$directory/.temp/$id.png" $source -d $dpi >/dev/null 2>&1
+            done
+            cd $directory/.temp
+            for i in *.png; do
+                convert "$i"  -quality 100 -colorspace sRGB -depth $depth -profile $srgb "../${i%.*}-$depth-bit-$dpi-dpi.png";
+            done
+            cd .. && rm -r .temp
+            cd ..
+            echo -e "\033[1;36m[FINISH]\033[0m Job done."
+            echo
+            break
+            ;;
+        "JPG")
+            if inkscape --version > /tmp/checkers >/dev/null 2>&1; then
+              echo >/dev/null 2>&1
+              else
+              echo -e "\033[1;33m[FAILED]\033[0m inkscape not installed!";
+              exit;
+              fi
+            if krita --version > /tmp/checkers >/dev/null 2>&1; then
+              echo >/dev/null 2>&1
+              else
+              echo -e "\033[1;33m[FAILED]\033[0m krita not installed!";
+              exit;
+              fi
+            if magick --version > /tmp/checkers >/dev/null 2>&1; then
+              echo >/dev/null 2>&1
+              else
+              echo -e "\033[1;33m[FAILED]\033[0m ImageMagick not installed!";
+              exit;
+              fi
+            if ls -lh /usr/share/color/icc/adobe/cmyk | grep icc > /tmp/checkers >/dev/null 2>&1; then
+              echo >/dev/null 2>&1
+              else
+              echo -e "\033[1;33m[FAILED]\033[0m Adobe ICC not installed!";
+              exit;
+              fi
+            if ls -lh /usr/share/color/icc/idealliance | grep icc > /tmp/checkers >/dev/null 2>&1; then
+              echo >/dev/null 2>&1
+              else
+              echo -e "\033[1;33m[FAILED]\033[0m Idealliance ICC not installed!";
+              exit;
+              fi
+            echo -e "EXPORT: \033[1;36mJPG\033[0m"
+            read -e -p "DPI (72/96/300): " -i "96" dpi
+              if [ $dpi -gt 300 ]; then
+                echo -e "\033[1;33m[FAILED]\033[0m $dpi DPI is not recommended."
+                exit
+              fi
+            echo -e "DPI: \033[1;33m$dpi\033[0m"
+            echo -e "Color Profile"
+            echo -e "  \033[1;33m[1] RGB  > Default\033[0m  (sRGB)"
+            echo -e "  \033[1;33m[2] CMYK > Krita\033[0m    (Chemical proof)"
+            echo -e "  \033[1;33m[3] CMYK > Generic\033[0m  (SWOP2006 Coated3v2)"
+            echo -e "  \033[1;33m[4] CMYK > Corel\033[0m    (Japan Color 2001 Coated)"
+            echo -e "  \033[1;33m[5] CMYK > Adobe\033[0m    (U.S. Web Coated (SWOP) v2)"
+            read -e -p "Number Profile: " icc
+            if [ $icc -eq 1 ]; then
+              echo -e "Color Profile: \033[1;33mRGB  > Default\033[0m (sRGB)"
+              elif [ $icc -eq 2 ]; then
+              echo -e "Color Profile: \033[1;33mCMYK > Krita\033[0m (Chemical proof)"
+              elif [ $icc -eq 3 ]; then
+              echo -e "Color Profile: \033[1;33mCMYK > Generic\033[0m (SWOP2006 Coated3v2)"
+              elif [ $icc -eq 4 ]; then
+              echo -e "Color Profile: \033[1;33mCMYK > Corel\033[0m (Japan Color 2001 Coated)"
+              elif [ $icc -eq 5 ]; then
+              echo -e "Color Profile: \033[1;33mCMYK > Adobe\033[0m (U.S. Web Coated (SWOP) v2)"
+              else
+              echo -e "\033[1;33m[FAILED]\033[0m "$icc" is not support."
+              exit
+            fi
+            read -e -p "Folder Output: " -i "JPG" directory
+            echo -e "Background"
+            echo -e "  \033[1;33m[1]\033[0m White"
+            echo -e "  \033[1;33m[2]\033[0m Black"
+            read -e -p "Background: " -i "1" bgcolor
+            if [ $bgcolor -eq 1 ]; then
+              echo -e "Background: \033[1;33mWhite\033[0m"
+              bgcolor="white"
+              elif [ $bgcolor -eq 2 ]; then
+              echo -e "Background: \033[1;33mBlack\033[0m"
+              bgcolor="black"
+              else
+              echo -e "\033[1;33m[FAILED]\033[0m "$bgcolor" is not support."
+              exit
+            fi
+            mkdir -p $directory/.temp
+            for id in $(inkscape -S $source | grep $idpattern | cut -d "," -f 1)
+            do
+                inkscape -j -i $id -o "$directory/.temp/$id.png" $source -d $dpi >/dev/null 2>&1
+            done
+            cd $directory/.temp
+            if [ $icc -eq 1 ]; then
+              profilename="srgb-default"
+              for i in *.png; do
+                convert "$i"  -background $bgcolor -flatten -quality 100 -colorspace sRGB -depth 8 -profile $srgb "../${i%.*}-$profilename-$dpi-dpi.jpg";
+              done
+              elif [ $icc -eq 2 ]; then
+                profilename="cmyk-krita"
+                for i in *.png; do
+                  convert "$i"  -background $bgcolor -flatten -quality 100 -colorspace CMYK -depth 8 -profile $chemical_proof "../${i%.*}-$profilename-$dpi-dpi.jpg";
+                done
+              elif [ $icc -eq 3 ]; then
+                profilename="cmyk-generic"
+                for i in *.png; do
+                  convert "$i"  -background $bgcolor -flatten -quality 100 -colorspace CMYK -depth 8 -profile $swop2006_coated3v2 "../${i%.*}-$profilename-$dpi-dpi.jpg";
+                done
+              elif [ $icc -eq 4 ]; then
+                profilename="cmyk-corel"
+                for i in *.png; do
+                  convert "$i"  -background $bgcolor -flatten -quality 100 -colorspace CMYK -depth 8 -profile $japancolor2001coated "../${i%.*}-$profilename-$dpi-dpi.jpg";
+                done
+              elif [ $icc -eq 5 ]; then
+                profilename="cmyk-adobe"
+                for i in *.png; do
+                  convert "$i"  -background $bgcolor -flatten -quality 100 -colorspace CMYK -depth 8 -profile $uswebcoatedswop "../${i%.*}-$profilename-$dpi-dpi.jpg";
+                done
+              fi
+            cd .. && rm -r .temp
+            cd ..
+            echo -e "\033[1;36m[FINISH]\033[0m Job done."
+            echo
+            break
+            ;;
+        "TIF")
+            if inkscape --version > /tmp/checkers >/dev/null 2>&1; then
+              echo >/dev/null 2>&1
+              else
+              echo -e "\033[1;33m[FAILED]\033[0m inkscape not installed!";
+              exit;
+              fi
+            if krita --version > /tmp/checkers >/dev/null 2>&1; then
+              echo >/dev/null 2>&1
+              else
+              echo -e "\033[1;33m[FAILED]\033[0m krita not installed!";
+              exit;
+              fi
+            if magick --version > /tmp/checkers >/dev/null 2>&1; then
+              echo >/dev/null 2>&1
+              else
+              echo -e "\033[1;33m[FAILED]\033[0m ImageMagick not installed!";
+              exit;
+              fi
+            if ls -lh /usr/share/color/icc/adobe/cmyk | grep icc > /tmp/checkers >/dev/null 2>&1; then
+              echo >/dev/null 2>&1
+              else
+              echo -e "\033[1;33m[FAILED]\033[0m Adobe ICC not installed!";
+              exit;
+              fi
+            if ls -lh /usr/share/color/icc/idealliance | grep icc > /tmp/checkers >/dev/null 2>&1; then
+              echo >/dev/null 2>&1
+              else
+              echo -e "\033[1;33m[FAILED]\033[0m Idealliance ICC not installed!";
+              exit;
+              fi
+            echo -e "EXPORT: \033[1;36mTIF\033[0m"
+            read -e -p "DPI (72/96/300): " -i "96" dpi
+              if [ $dpi -gt 300 ]; then
+                echo -e "\033[1;33m[FAILED]\033[0m $dpi DPI is not recommended."
+                exit
+              fi
+            echo -e "DPI: \033[1;33m$dpi\033[0m"
+            read -e -p "Depth (8/16-bit): " -i "8" depth
+              if [ $depth -eq 8 ]; then
+                echo -e "Depth: \033[1;33m 8-bit \033[0m"
+                elif [ $depth -eq 16 ]; then
+                echo -e "Depth: \033[1;33m 16-bit \033[0m"
+                else
+                echo -e "\033[1;33m[FAILED]\033[0m "$icc-bit" is not support."
+                exit
+              fi
+            echo -e "Color Profile"
+            echo -e "  \033[1;33m[1] RGB  > Default\033[0m  (sRGB)"
+            echo -e "  \033[1;33m[2] CMYK > Krita\033[0m    (Chemical proof)"
+            echo -e "  \033[1;33m[3] CMYK > Generic\033[0m  (SWOP2006 Coated3v2)"
+            echo -e "  \033[1;33m[4] CMYK > Corel\033[0m    (Japan Color 2001 Coated)"
+            echo -e "  \033[1;33m[5] CMYK > Adobe\033[0m    (U.S. Web Coated (SWOP) v2)"
+            read -e -p "Number Profile: " icc
+            if [ $icc -eq 1 ]; then
+              echo -e "Color Profile: \033[1;33mRGB  > Default\033[0m (sRGB)"
+              elif [ $icc -eq 2 ]; then
+              echo -e "Color Profile: \033[1;33mCMYK > Krita\033[0m (Chemical proof)"
+              elif [ $icc -eq 3 ]; then
+              echo -e "Color Profile: \033[1;33mCMYK > Generic\033[0m (SWOP2006 Coated3v2)"
+              elif [ $icc -eq 4 ]; then
+              echo -e "Color Profile: \033[1;33mCMYK > Corel\033[0m (Japan Color 2001 Coated)"
+              elif [ $icc -eq 5 ]; then
+              echo -e "Color Profile: \033[1;33mCMYK > Adobe\033[0m (U.S. Web Coated (SWOP) v2)"
+              else
+              echo -e "\033[1;33m[FAILED]\033[0m "$icc" is not support."
+              exit
+            fi
+            read -e -p "Folder Output: " -i "TIF" directory
+            echo -e "Background"
+            echo -e "  \033[1;33m[1]\033[0m White"
+            echo -e "  \033[1;33m[2]\033[0m Black"
+            read -e -p "Background: " -i "1" bgcolor
+            if [ $bgcolor -eq 1 ]; then
+              echo -e "Background: \033[1;33mWhite\033[0m"
+              bgcolor="white"
+              elif [ $bgcolor -eq 2 ]; then
+              echo -e "Background: \033[1;33mBlack\033[0m"
+              bgcolor="black"
+              else
+              echo -e "\033[1;33m[FAILED]\033[0m "$bgcolor" is not support."
+              exit
+            fi
+            mkdir -p $directory/.temp
+            for id in $(inkscape -S $source | grep $idpattern | cut -d "," -f 1)
+            do
+                inkscape -j -i $id -o "$directory/.temp/$id.png" $source -d $dpi >/dev/null 2>&1
+            done
+            cd $directory/.temp
+            if [ $icc -eq 1 ]; then
+              profilename="srgb-default"
+              for i in *.png; do
+                convert "$i"  -background $bgcolor -flatten -quality 100 -colorspace sRGB -depth $depth -profile $srgb "../${i%.*}-$profilename-$depth-bit-$dpi-dpi.tif";
+              done
+              elif [ $icc -eq 2 ]; then
+                profilename="cmyk-krita"
+                for i in *.png; do
+                  convert "$i"  -background $bgcolor -flatten -quality 100 -colorspace CMYK -depth $depth -profile $chemical_proof "../${i%.*}-$profilename-$depth-bit-$dpi-dpi.tif";
+                done
+              elif [ $icc -eq 3 ]; then
+                profilename="cmyk-generic"
+                for i in *.png; do
+                  convert "$i"  -background $bgcolor -flatten -quality 100 -colorspace CMYK -depth $depth -profile $swop2006_coated3v2 "../${i%.*}-$profilename-$depth-bit-$dpi-dpi.tif";
+                done
+              elif [ $icc -eq 4 ]; then
+                profilename="cmyk-corel"
+                for i in *.png; do
+                  convert "$i"  -background $bgcolor -flatten -quality 100 -colorspace CMYK -depth $depth -profile $japancolor2001coated "../${i%.*}-$profilename-$depth-bit-$dpi-dpi.tif";
+                done
+              elif [ $icc -eq 5 ]; then
+                profilename="cmyk-adobe"
+                for i in *.png; do
+                  convert "$i"  -background $bgcolor -flatten -quality 100 -colorspace CMYK -depth $depth -profile $uswebcoatedswop "../${i%.*}-$profilename-$depth-bit-$dpi-dpi.tif";
+                done
+              else
+                echo -e "\033[1;33m[FAILED]\033[0m Color Profile is not support."
+              fi
+            cd .. && rm -r .temp
+            cd ..
+            echo -e "\033[1;36m[FINISH]\033[0m Job done."
+            echo
+            break
+            ;;
+        "PDF")
+            if inkscape --version > /tmp/checkers >/dev/null 2>&1; then
+              echo >/dev/null 2>&1
+              else
+              echo -e "\033[1;33m[FAILED]\033[0m inkscape not installed!";
+              exit;
+              fi
+            if krita --version > /tmp/checkers >/dev/null 2>&1; then
+              echo >/dev/null 2>&1
+              else
+              echo -e "\033[1;33m[FAILED]\033[0m krita not installed!";
+              exit;
+              fi
+            if magick --version > /tmp/checkers >/dev/null 2>&1; then
+              echo >/dev/null 2>&1
+              else
+              echo -e "\033[1;33m[FAILED]\033[0m ImageMagick not installed!";
+              exit;
+              fi
+            if gs --version > /tmp/checkers >/dev/null 2>&1; then
+              echo >/dev/null 2>&1
+              else
+              echo -e "\033[1;33m[FAILED]\033[0m ghostscript not installed!";
+              exit;
+              fi
+            if ls -lh /usr/share/color/icc/adobe/cmyk | grep icc > /tmp/checkers >/dev/null 2>&1; then
+              echo >/dev/null 2>&1
+              else
+              echo -e "\033[1;33m[FAILED]\033[0m Adobe ICC not installed!";
+              exit;
+              fi
+            if ls -lh /usr/share/color/icc/idealliance | grep icc > /tmp/checkers >/dev/null 2>&1; then
+              echo >/dev/null 2>&1
+              else
+              echo -e "\033[1;33m[FAILED]\033[0m Idealliance ICC not installed!";
+              exit;
+              fi
+            echo -e "EXPORT: \033[1;36mPDF\033[0m"
+            echo -e "Output"
+            echo -e "  \033[1;33m[1] Vector\033[0m  (RGB/CMYK)"
+            echo -e "  \033[1;33m[2] Raster\033[0m  (CMYK Only. Support Color Profile)"
+            read -e -p "Number: " output
+            if [ $output -eq 1 ]; then
+              echo -e "Convert to: \033[1;33mVector\033[0m"
+              echo -e "Colorspace"
+              echo -e "  \033[1;33m[1] RGB\033[0m"
+              echo -e "  \033[1;33m[2] CMYK\033[0m"
+              read -e -p "Number: " color
+              if [ $color -gt 2 ]; then
+                echo -e "\033[1;33m[FAILED]\033[0m $color not support."
+                exit
+              fi
+              elif [ $output -eq 2 ]; then
+                echo -e "Convert to: \033[1;33mRaster\033[0m"
+                read -e -p "DPI (72/96/300): " -i "96" dpi
+                  if [ $dpi -gt 300 ]; then
+                    echo -e "\033[1;33m[FAILED]\033[0m $dpi DPI is not recommended."
+                    exit
+                  fi
+                echo -e "DPI: \033[1;33m$dpi\033[0m"
+                echo -e "Color Profile"
+                echo -e "  \033[1;33m[1] RGB  > Default\033[0m  (sRGB)"
+                echo -e "  \033[1;33m[2] CMYK > Krita\033[0m    (Chemical proof)"
+                echo -e "  \033[1;33m[3] CMYK > Generic\033[0m  (SWOP2006 Coated3v2)"
+                echo -e "  \033[1;33m[4] CMYK > Corel\033[0m    (Japan Color 2001 Coated)"
+                echo -e "  \033[1;33m[5] CMYK > Adobe\033[0m    (U.S. Web Coated (SWOP) v2)"
+                read -e -p "Number Profile: " icc
+                if [ $icc -eq 1 ]; then
+                  echo -e "Color Profile: \033[1;33mRGB  > Default\033[0m (sRGB)"
+                  elif [ $icc -eq 2 ]; then
+                  echo -e "Color Profile: \033[1;33mCMYK > Krita\033[0m (Chemical proof)"
+                  elif [ $icc -eq 3 ]; then
+                  echo -e "Color Profile: \033[1;33mCMYK > Generic\033[0m (SWOP2006 Coated3v2)"
+                  elif [ $icc -eq 4 ]; then
+                  echo -e "Color Profile: \033[1;33mCMYK > Corel\033[0m (Japan Color 2001 Coated)"
+                  elif [ $icc -eq 5 ]; then
+                  echo -e "Color Profile: \033[1;33mCMYK > Adobe\033[0m (U.S. Web Coated (SWOP) v2)"
+                  else
+                  echo -e "\033[1;33m[FAILED]\033[0m "$icc" is not support."
+                  exit
+                fi
+            else
+              echo -e "\033[1;33m[FAILED]\033[0m "$output" is not support."
+              exit
+            fi
+            read -e -p "Folder Output: " -i "PDF" directory
+            read -e -p "Merge PDF (y/N): " merge
+              if [[ $merge =~ ^[Yy]$ ]]; then
+                echo -e "Merge PDF: \033[1;33mYes\033[0m"
+                else
+                echo -e "Merge PDF: \033[1;33mNo\033[0m"
+                merge="n"
+              fi
+            mkdir -p $directory/.temp
+            #convert vector
+            if [ $output -eq 1 ]; then
+              for id in $(inkscape -S $source | grep $idpattern | cut -d "," -f 1)
+              do
+                  inkscape -i $id -l -o "$directory/.temp/$id.svg" $source --export-id-only >/dev/null 2>&1
+              done
+              cd $directory/.temp
+              if [ $color -eq 1 ]; then
+                profilename="colorspace-srgb"
+                for i in *.svg; do cat "$i" | inkscape --pipe -C -o "${i%.*}-vector-$profilename.pdf" >/dev/null 2>&1
+                done
+                # merge
+                if [ $merge == 'y' ]; then
+                  mkdir -p merge
+                  mv *-vector-$profilename.pdf merge/
+                  gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=../$directory-merge-vector-$profilename.pdf merge/*.pdf;
+                else
+                  mv *-vector-$profilename.pdf ../
+                fi
+              elif [ $color -eq 2 ]; then
+                profilename="colorspace-cmyk"
+                for i in *.svg; do cat "$i" | inkscape --pipe -C -o "${i%.*}.pdf" >/dev/null 2>&1
+                done
+                rm *.svg
+                for i in *.pdf; do gs -q -dSAFER -dBATCH -dNOPAUSE -dNOCACHE -sDEVICE=pdfwrite -sColorConversionStrategy=CMYK -dProcessColorModel=/DeviceCMYK -sOutputFile="${i%.*}-vector-$profilename.pdf" "$i"
+                    sleep 1
+                done
+                # merge
+                if [ $merge == 'y' ]; then
+                  mkdir -p merge
+                  mv *-vector-$profilename.pdf merge/
+                  gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=../$directory-merge-vector-$profilename.pdf merge/*.pdf;
+                else
+                  mv *-vector-$profilename.pdf ../
+                fi
+              else
+                echo -e "\033[1;33m[FAILED]\033[0m Can not convert."
+                exit
+              fi
+            # convert raster
+            elif [ $output -eq 2 ]; then
+              if [ $icc -eq 1 ]; then
+                if [ $merge == 'y' ]; then
+                  profilename="srgb-default"
+                  for id in $(inkscape -S $source | grep $idpattern | cut -d "," -f 1)
+                  do
+                      inkscape -i $id -l -o "$directory/.temp/$id.png" $source -d $dpi >/dev/null 2>&1
+                  done
+                  cd $directory/.temp
+                  for i in *.png; do
+                      convert "$i" -quality 100 -colorspace sRGB -depth 8 -profile $srgb "${i%.*}-raster.pdf";
+                  done
+                  mkdir -p merge
+                  mv *.pdf merge
+                  cd merge
+                  # convert merge
+                  gs -q -dSAFER -dBATCH -dNOPAUSE -dNOCACHE -sDEVICE=pdfwrite -sOutputFile=../../$directory-merge-raster-$profilename-$dpi-dpi.pdf *.pdf;
+                  cd ..
+                else
+                  profilename="srgb-default"
+                  for id in $(inkscape -S $source | grep $idpattern | cut -d "," -f 1)
+                  do
+                      inkscape -i $id -l -o "$directory/.temp/$id.png" $source -d $dpi >/dev/null 2>&1
+                  done
+                  cd $directory/.temp
+                  for i in *.png; do
+                      convert "$i" -quality 100 -colorspace sRGB -depth 8 -profile $srgb "../${i%.*}-raster-$profilename-$dpi-dpi.pdf";
+                  done
+                fi
+              elif [ $icc -eq 2 ]; then
+                if [ $merge == 'y' ]; then
+                  profilename="cmyk-krita"
+                  for id in $(inkscape -S $source | grep $idpattern | cut -d "," -f 1)
+                  do
+                      inkscape -i $id -l -o "$directory/.temp/$id.png" $source -d $dpi >/dev/null 2>&1
+                  done
+                  cd $directory/.temp
+                  for i in *.png; do
+                      convert "$i" -quality 100 -colorspace CMYK -depth 8 -profile $chemical_proof "${i%.*}-raster.pdf";
+                  done
+                  mkdir -p merge
+                  mv *.pdf merge
+                  cd merge
+                  # convert merge
+                  gs -q -dSAFER -dBATCH -dNOPAUSE -dNOCACHE -sDEVICE=pdfwrite -sOutputFile=../../$directory-merge-raster-$profilename-$dpi-dpi.pdf *.pdf;
+                  cd ..
+                else
+                  profilename="cmyk-krita"
+                  for id in $(inkscape -S $source | grep $idpattern | cut -d "," -f 1)
+                  do
+                      inkscape -i $id -l -o "$directory/.temp/$id.png" $source -d $dpi >/dev/null 2>&1
+                  done
+                  cd $directory/.temp
+                  for i in *.png; do
+                      convert "$i" -quality 100 -colorspace CMYK -depth 8 -profile $chemical_proof "../${i%.*}-raster-$profilename-$dpi-dpi.pdf";
+                  done
+                fi
+              elif [ $icc -eq 3 ]; then
+                if [ $merge == 'y' ]; then
+                  profilename="cmyk-generic"
+                  for id in $(inkscape -S $source | grep $idpattern | cut -d "," -f 1)
+                  do
+                      inkscape -i $id -l -o "$directory/.temp/$id.png" $source -d $dpi >/dev/null 2>&1
+                  done
+                  cd $directory/.temp
+                  for i in *.png; do
+                      convert "$i" -quality 100 -colorspace CMYK -depth 8 -profile $swop2006_coated3v2 "${i%.*}-raster.pdf";
+                  done
+                  mkdir -p merge
+                  mv *.pdf merge
+                  cd merge
+                  # convert merge
+                  gs -q -dSAFER -dBATCH -dNOPAUSE -dNOCACHE -sDEVICE=pdfwrite -sOutputFile=../../$directory-merge-raster-$profilename-$dpi-dpi.pdf *.pdf;
+                  cd ..
+                else
+                  profilename="cmyk-generic"
+                  for id in $(inkscape -S $source | grep $idpattern | cut -d "," -f 1)
+                  do
+                      inkscape -i $id -l -o "$directory/.temp/$id.png" $source -d $dpi >/dev/null 2>&1
+                  done
+                  cd $directory/.temp
+                  for i in *.png; do
+                      convert "$i" -quality 100 -colorspace CMYK -depth 8 -profile $swop2006_coated3v2 "../${i%.*}-raster-$profilename-$dpi-dpi.pdf";
+                  done
+                fi
+              elif [ $icc -eq 4 ]; then
+                if [ $merge == 'y' ]; then
+                  profilename="cmyk-corel"
+                  for id in $(inkscape -S $source | grep $idpattern | cut -d "," -f 1)
+                  do
+                      inkscape -i $id -l -o "$directory/.temp/$id.png" $source -d $dpi >/dev/null 2>&1
+                  done
+                  cd $directory/.temp
+                  for i in *.png; do
+                      convert "$i" -quality 100 -colorspace CMYK -depth 8 -profile $japancolor2001coated "${i%.*}-raster.pdf";
+                  done
+                  mkdir -p merge
+                  mv *.pdf merge
+                  cd merge
+                  # convert merge
+                  gs -q -dSAFER -dBATCH -dNOPAUSE -dNOCACHE -sDEVICE=pdfwrite -sOutputFile=../../$directory-merge-raster-$profilename-$dpi-dpi.pdf *.pdf;
+                  cd ..
+                else
+                  profilename="cmyk-corel"
+                  for id in $(inkscape -S $source | grep $idpattern | cut -d "," -f 1)
+                  do
+                      inkscape -i $id -l -o "$directory/.temp/$id.png" $source -d $dpi >/dev/null 2>&1
+                  done
+                  cd $directory/.temp
+                  for i in *.png; do
+                      convert "$i" -quality 100 -colorspace CMYK -depth 8 -profile $japancolor2001coated "../${i%.*}-raster-$profilename-$dpi-dpi.pdf";
+                  done
+                fi
+              elif [ $icc -eq 5 ]; then
+                if [ $merge == 'y' ]; then
+                  profilename="cmyk-adobe"
+                  for id in $(inkscape -S $source | grep $idpattern | cut -d "," -f 1)
+                  do
+                      inkscape -i $id -l -o "$directory/.temp/$id.png" $source -d $dpi >/dev/null 2>&1
+                  done
+                  cd $directory/.temp
+                  for i in *.png; do
+                      convert "$i" -quality 100 -colorspace CMYK -depth 8 -profile $uswebcoatedswop "${i%.*}-raster.pdf";
+                  done
+                  mkdir -p merge
+                  mv *.pdf merge
+                  cd merge
+                  # convert merge
+                  gs -q -dSAFER -dBATCH -dNOPAUSE -dNOCACHE -sDEVICE=pdfwrite -sOutputFile=../../$directory-merge-raster-$profilename-$dpi-dpi.pdf *.pdf;
+                  cd ..
+                else
+                  profilename="cmyk-adobe"
+                  for id in $(inkscape -S $source | grep $idpattern | cut -d "," -f 1)
+                  do
+                      inkscape -i $id -l -o "$directory/.temp/$id.png" $source -d $dpi >/dev/null 2>&1
+                  done
+                  cd $directory/.temp
+                  for i in *.png; do
+                      convert "$i" -quality 100 -colorspace CMYK -depth 8 -profile $uswebcoatedswop "../${i%.*}-raster-$profilename-$dpi-dpi.pdf";
+                  done
+                fi
+              else
+                echo -e "\033[1;33m[FAILED]\033[0m Color Profile is not support."
+                exit
+              fi
+            else
+              echo -e "\033[1;33m[FAILED]\033[0m Can not convert."
+              exit
+            fi
+            cd .. && rm -r .temp
+            cd ..
+            echo -e "\033[1;36m[FINISH]\033[0m Job done."
+            echo
+            break
+            ;;
+        "SVG")
+            if inkscape --version > /tmp/checkers >/dev/null 2>&1; then
+              echo >/dev/null 2>&1
+              else
+              echo -e "\033[1;33m[FAILED]\033[0m inkscape not installed!";
+              exit;
+              fi
+            echo -e "EXPORT: \033[1;36mSVG\033[0m"
+            read -e -p "Folder Output: " -i "SVG" directory
+            mkdir -p $directory
+            for id in $(inkscape -S $source | grep $idpattern | cut -d "," -f 1)
+            do
+                inkscape -i $id -l -o "$directory/$id.svg" $source --export-id-only &>> /tmp/$name-svg.log
+                sleep 1
+            done
+            echo -e "\033[1;36m[FINISH]\033[0m Job done."
+            echo
+            break
+            ;;
+        "EPS")
+            if inkscape --version > /tmp/checkers >/dev/null 2>&1; then
+              echo >/dev/null 2>&1
+              else
+              echo -e "\033[1;33m[FAILED]\033[0m inkscape not installed!";
+              exit;
+              fi
+            if gs --version > /tmp/checkers >/dev/null 2>&1; then
+              echo >/dev/null 2>&1
+              else
+              echo -e "\033[1;33m[FAILED]\033[0m ghostscript not installed!";
+              exit;
+              fi
+            echo -e "EXPORT: \033[1;36mEPS\033[0m"
+            read -e -p "Folder Output: " -i "EPS" directory
+            mkdir -p $directory/.temp
+            for id in $(inkscape -S $source | grep $idpattern | cut -d "," -f 1)
+            do
+                inkscape -i $id -l -o "$directory/.temp/$id.svg" $source --export-id-only >/dev/null 2>&1
+            done
+            cd $directory/.temp
+            for i in *.svg; do inkscape -C --export-ignore-filters -T --export-ps-level=3 -o "../${i%.*}.eps" "$i"  >/dev/null 2>&1;
+            done
+            cd .. && rm -r .temp
+            cd ..
+            echo -e "\033[1;36m[FINISH]\033[0m Job done."
+            echo
+            break
+            ;;
+        "WEBP")
+            if inkscape --version > /tmp/checkers >/dev/null 2>&1; then
+              echo >/dev/null 2>&1
+              else
+              echo -e "\033[1;33m[FAILED]\033[0m inkscape not installed!";
+              exit;
+              fi
+            if cwebp -version > /tmp/checkers >/dev/null 2>&1; then
+              echo >/dev/null 2>&1
+              else
+              echo -e "\033[1;33m[FAILED]\033[0m libwebp not installed!";
+              exit;
+              fi
+            echo -e "EXPORT: \033[1;36mWEBP\033[0m"
+            read -e -p "DPI (72/96/300): " -i "96" dpi
+              if [ $dpi -gt 300 ]; then
+                echo -e "\033[1;33m[FAILED]\033[0m $dpi DPI is not recommended."
+                exit
+              fi
+            echo -e "DPI: \033[1;33m$dpi\033[0m"
+            read -e -p "Folder Output: " -i "WEBP" directory
+            mkdir -p $directory/.temp
+            for id in $(inkscape -S $source | grep $idpattern | cut -d "," -f 1)
+            do
+                inkscape -j -i $id -o "$directory/.temp/$id.png" $source -d $dpi >/dev/null 2>&1
+            done
+            cd $directory/.temp
+            for i in *.png; do
+                cwebp -quiet "$i" -o "../${i%.*}-$dpi-dpi.webp";
+            done
+            cd .. && rm -r .temp
+            echo -e "\033[1;36m[FINISH]\033[0m Job done."
+            echo
+            break
+            ;;
+        "Cancel")
+            clear
+            echo -e "\033[1;33mEXIT!.\033[0m"
+            exit
+            ;;
+        *) echo -e "\033[1;33m[FAILED]\033[0m" $REPLY. Try again.;;
+    esac
+done;
