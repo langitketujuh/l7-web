@@ -43,7 +43,7 @@ Pastikan versi `l7-tools` Anda versi diatas `1.3`
 l7-tools --version
 {{< /highlight >}}
 
-Jika belum versi diatas `1.3` maka update dahlu sistem anda dengan cara ini. [>> KLIK <<<](/blog/upgrade-langitketujuh-os-ke-versi-terbaru).
+Jika belum versi diatas `1.3` maka update dahlu sistem anda dengan cara ini. [>> KLIK <<](/blog/upgrade-langitketujuh-os-ke-versi-terbaru).
 
 Kemudian update.
 
