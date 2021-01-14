@@ -9,9 +9,9 @@ opengraph:
 draft: false
 
 litemusl:
-  name : "Lite MUSL"
-  price: "Gratis"
-  price_per : ""
+  name : "LITE (Gratis)"
+  type: "musl"
+  type_ver : "v0.8"
   info : "Terbaik untuk Rumahan"
   services:
   - "Tersedia Codec Audio dan Video."
@@ -23,12 +23,12 @@ litemusl:
   button:
     enable : true
     label : "Unduh"
-    link : "https://osdn.net/dl/langitketujuh/langitketujuh-lite-0.7-live-x86_64-musl-5.9.13_1-3go7obp.iso"
+    link : "https://osdn.net/dl/langitketujuh/langitketujuh-lite-0.8-live-x86_64-musl-5.9.16_1-rm9op19.iso"
     
 liteglibc:
-  name : "Lite GLIBC"
-  price: "Gratis"
-  price_per : ""
+  name : "LITE (Gratis)"
+  type: "glibc"
+  type_ver : "v0.8"
   info : "Terbaik untuk Dukungan Nonfree"
   services:
   - "Tersedia Codec Audio dan Video."
@@ -41,8 +41,8 @@ liteglibc:
   - "**[+] Dukungan Aplikasi Nonfree.**"
   button:
     enable : true
-    label : "Segera Hadir"
-    link : "#"
+    label : "Unduh"
+    link : "https://osdn.net/dl/langitketujuh/langitketujuh-lite-0.8-live-x86_64-5.9.16_1-z7r374q.iso"
 
 call_to_action:
   enable : true

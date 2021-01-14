@@ -16,7 +16,7 @@
         <div class="card border-0 shadow-lg">
           <div class="card-body text-center py-5">
             <h3 class="mb-4">{{ .name | markdownify }}</h3>
-            <span class="price">{{ .price }}</span><span>{{ .price_per }}</span>
+            <span class="price">{{ .type }}</span><span>{{ .type_ver }}</span>
             <p class="lead">{{ .info | markdownify }}</p>
             <ul class="list-unstyled mb-5">
               {{ range .services }}
@@ -37,7 +37,7 @@
         <div class="card shadow">
           <div class="card-body text-center py-5">
             <h3 class="mb-4">{{ .name | markdownify }}</h3>
-            <span class="price">{{ .price }}</span><span>{{ .price_per }}</span>
+            <span class="price">{{ .type }}</span><span>{{ .type_ver }}</span>
             <p class="lead">{{ .info | markdownify }}</p>
             <ul class="list-unstyled mb-5">
               {{ range .services }}
@@ -46,7 +46,7 @@
             </ul>
             {{ if .button.enable }}
             {{ with .button }}
-            <a href="{{ .link | absURL }}" class="btn btn-outline-primary">{{ .label }}</a>
+            <a href="{{ .link | absURL }}" class="btn btn-outline-primary" target="_blank" >{{ .label }}</a>
             {{ end }}
             {{ end }}
           </div>

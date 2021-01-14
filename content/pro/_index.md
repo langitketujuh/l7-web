@@ -9,9 +9,9 @@ opengraph:
 draft: false
 
 promusl:
-  name : "Pro MUSL"
-  price: "Donasi"
-  price_per : ""
+  name : "PRO (Donasi)"
+  type: "musl"
+  type_ver : "v0.8"
   info : "Terbaik untuk Professional"
   services:
   - "**[+] Fitur Lite Musl.**"
@@ -32,9 +32,9 @@ promusl:
     link : "pro-musl"
 
 proglibc:
-  name : "Pro GLIBC"
-  price: "Donasi"
-  price_per : ""
+  name : "PRO (Donasi)"
+  type: "glibc"
+  type_ver : "v0.8"
   info : "Terbaik untuk Dukungan Nonfree"
   services:
   - "**[+] Fitur Lite Glibc.**"
