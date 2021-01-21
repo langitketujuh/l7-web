@@ -19,7 +19,7 @@ call_to_action:
     link : "https://t.me/langitketujuhCS"
 ---
 
-**Fitur** | **Lite - Musl** | **Lite - Glibc** | **Pro - Musl** | **Pro - Glibc**
+**Fitur** | **Lite Musl** | **Lite Glibc** | **Pro Musl** | **Pro Glibc**
 :--- | :---: | :---: | :---: | :---:
 Dukungan instalasi oleh tenaga ahli. | - | -  | **√** | **√**
 Dukungan codec Audio dan Video. | **√** | **√** | **√** | **√**
@@ -48,7 +48,6 @@ Dukungan Wine windows | - | **√** | -  | **√**
 
 **Keterangan:**
 
-- M = Musl. G = Glibc
 - Aplikasi Nonfree seperti driver gpu Nvidia, Spotify, Steam, Skype, Printer Canon, Pycharm, Mendeley tidak mendukung musl. Tetapi bisa dipasang melalui flatpak.
 - Musl hanya mendukung Wine windows 64 bit saja, sedangkan Glibc mendukung 32 dan 64 bit.
 - [*] Akses Update ISO terbaru untuk donatur yang telah memberikan 5 bintang keatas.
