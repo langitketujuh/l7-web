@@ -30,7 +30,7 @@
 title="LangitKetujuh Tools"
 name=$(basename "$0")
 installdir=$(which basename)
-version="1.3"
+version="1.4"
 license="BSD 2-Clause"
 type=$(lsb_release -c | cut -f 2)
 musl=$(xbps-query -v -L | grep musl | rev | cut -c17)
@@ -163,6 +163,8 @@ for arg in "$@"; do
               git pull >/dev/null 2>&1
               echo -e "\033[1;36m[5]\033[0m\033[0m Install update"
               sudo cp -rf * /
+              echo -e "\033[1;36m[6]\033[0m\033[0m Update grup distributor"
+              sudo sed -i /etc/default/grub -res'#^(GRUB_DISTRIBUTOR).*#GRUB_DISTRIBUTOR="LangitKetujuh"#'
               echo -e "\033[1;36m[FINISH]\033[0m Update $type done"
             elif [ $type = 'lite-glibc' ];
               then
@@ -176,6 +178,8 @@ for arg in "$@"; do
               git pull >/dev/null 2>&1
               echo -e "\033[1;36m[5]\033[0m Install update"
               sudo cp -rf * /
+              echo -e "\033[1;36m[6]\033[0m\033[0m Update grup distributor"
+              sudo sed -i /etc/default/grub -res'#^(GRUB_DISTRIBUTOR).*#GRUB_DISTRIBUTOR="LangitKetujuh"#'
               echo -e "\033[1;36m[FINISH]\033[0m Update $type done"
             elif [ $type = 'pro-musl' ];
               then
@@ -189,6 +193,8 @@ for arg in "$@"; do
               git pull >/dev/null 2>&1
               echo -e "\033[1;36m[5]\033[0m Install update"
               sudo cp -rf * /
+              echo -e "\033[1;36m[6]\033[0m\033[0m Update grup distributor"
+              sudo sed -i /etc/default/grub -res'#^(GRUB_DISTRIBUTOR).*#GRUB_DISTRIBUTOR="LangitKetujuh"#'
               echo -e "\033[1;36m[FINISH]\033[0m Update $type done"
             elif [ $type = 'pro-glibc' ];
               then
@@ -202,6 +208,8 @@ for arg in "$@"; do
               git pull >/dev/null 2>&1
               echo -e "\033[1;36m[5]\033[0m Install update"
               sudo cp -rf * /
+              echo -e "\033[1;36m[6]\033[0m\033[0m Update grup distributor"
+              sudo sed -i /etc/default/grub -res'#^(GRUB_DISTRIBUTOR).*#GRUB_DISTRIBUTOR="LangitKetujuh"#'
               echo -e "\033[1;36m[FINISH]\033[0m Update $type done"
             else
               echo -e "\033[1;36m[FAILED]\033[0m. Please see \033[1;33ml7-tools --help"

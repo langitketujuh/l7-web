@@ -4,9 +4,10 @@ title="LangitKetujuh Export"
 name=$(basename "$0")
 installdir=$(which basename)
 inkscapedir=$(which inkscape)
-version="1.3"
+version="1.4"
 web="https://langitketujuh.id"
 license="GNU GPLV3+"
+tmp="$HOME/.cache"
 srgb="/usr/share/color/icc/colord/sRGB.icc"
 chemical_proof="/usr/share/color/icc/krita/cmyk.icm"
 swop2006_coated3v2="/usr/share/color/icc/idealliance/SWOP2006_Coated3v2.icc"
@@ -48,29 +49,72 @@ for arg in "$@"; do
         -i|--install)
             if xbps-install --version > /tmp/checkers >/dev/null 2>&1;
               then
-              echo -e "\033[1;36m[1] Install depedencies > LangitKetujuh\033[0m"
+              echo -e "\033[1;36m[1]\033[0m Install depedencies > LangitKetujuh"
               sudo xbps-install -Sy inkscape ghostscript ImageMagick krita libwebp
               elif dnf --version > /tmp/checkers >/dev/null 2>&1;
                 then
-                echo -e "\033[1;36m[1] Install depedencies > Fedora\033[0m"
+                echo -e "\033[1;36m[1]\033[0m Install depedencies > Fedora"
                 sudo dnf install inkscape ghostscript ImageMagick krita libwebp
               elif pacman --version > /tmp/checkers >/dev/null 2>&1;
                 then
-                echo -e "\033[1;36m[1] Install depedencies > Archlinux\033[0m"
+                echo -e "\033[1;36m[1]\033[0m Install depedencies > Archlinux"
                 sudo pacman -S inkscape ghostscript ImageMagick krita libwebp
               elif apt --version > /tmp/checkers >/dev/null 2>&1;
                 then
-                echo -e "\033[1;36m[1] Install depedencies > Debian\033[0m"
+                echo -e "\033[1;36m[1]\033[0m Install depedencies > Debian"
                 sudo apt -y update; sudo apt install inkscape ghostscript imagemagick krita libwebp
               elif zypper --version > /tmp/checkers >/dev/null 2>&1;
                 then
-                echo -e "\033[1;36m[1] Install depedencies > openSUSE\033[0m"
+                echo -e "\033[1;36m[1]\033[0m Install depedencies > openSUSE"
                 sudo zypper install inkscape ghostscript ImageMagick krita libwebp
               else
-                echo -e "\033[1;36m[1] Install depedencies > What your os?\033[0m"
+                echo -e "\033[1;36m[1]\033[0m Install depedencies > What your os?"
               fi
-            l7-tools --adobe-icc
-            l7-tools --idea-icc
+              echo -e "\033[1;36m[2]\033[0m Install Adobe ICC"
+              echo -e "[+] Preparing new dir $tmp"
+              mkdir $tmp/adobe-icc >/dev/null 2>&1
+              cd $tmp/adobe-icc
+              echo -e "[+] Download Adobe ICC Profiles"
+              wget -c https://download.adobe.com/pub/adobe/iccprofiles/mac/AdobeICCProfilesCS4Mac_end-user.zip >/dev/null 2>&1
+              echo -e "[+] Unzip"
+              unzip -o -q AdobeICCProfilesCS4Mac_end-user.zip >/dev/null 2>&1
+              echo -e "[+] Installing"
+              sudo install -D -m644 -t /usr/share/color/icc/adobe/rgb */RGB/*.icc
+              sudo install -D -m644 -t /usr/share/color/icc/adobe/cmyk */CMYK/*.icc
+              sudo install -D -m644 -t /usr/share/doc/adobe */*.pdf
+              if ls -lh /usr/share/color/icc/adobe/cmyk | grep icc > /tmp/checkers >/dev/null 2>&1; then
+                echo -e "\033[1;36m[FINISH]\033[0m Adobe ICC installed"
+                else
+                echo -e "\033[1;33m[FAILED]\033[0m Adobe ICC not installed!"
+                exit;
+                fi
+              echo -e "\033[1;36m[3]\033[0m Install IDEAlliance ICC"
+              echo -e "[+] Preparing new dir $tmp"
+              mkdir $tmp/idea-icc >/dev/null 2>&1
+              cd $tmp/idea-icc
+              echo -e "[+] Download IDEAlliance ICC Profiles"
+              wget -c http://www.color.org/registry/profiles/JapanColor2011Coated.icc >/dev/null 2>&1
+              wget -c http://www.color.org/registry/profiles/CGATS21_CRPC7.icc >/dev/null 2>&1
+              wget -c http://www.color.org/registry/profiles/CGATS21_CRPC6.icc >/dev/null 2>&1
+              wget -c http://www.color.org/registry/profiles/GRACoL2013_CRPC6.icc >/dev/null 2>&1
+              wget -c http://www.color.org/registry/profiles/GRACoL2006_Coated1v2.icc >/dev/null 2>&1
+              wget -c http://www.color.org/registry/profiles/CGATS21_CRPC5.icc >/dev/null 2>&1
+              wget -c http://www.color.org/registry/profiles/SWOP2013C3_CRPC5.icc >/dev/null 2>&1
+              wget -c http://www.color.org/registry/profiles/SWOP2006_Coated3v2.icc >/dev/null 2>&1
+              wget -c http://www.color.org/registry/profiles/CGATS21_CRPC4.icc >/dev/null 2>&1
+              wget -c http://www.color.org/registry/profiles/CGATS21_CRPC3.icc >/dev/null 2>&1
+              wget -c http://www.color.org/registry/profiles/GRACoL2013UNC_CRPC3.icc >/dev/null 2>&1
+              wget -c http://www.color.org/registry/profiles/SWOP2006_Coated5v2.icc >/dev/null 2>&1
+              wget -c http://www.color.org/registry/profiles/CGATS21_CRPC2.icc >/dev/null 2>&1
+              wget -c http://www.color.org/registry/profiles/CGATS21_CRPC1.icc >/dev/null 2>&1
+              echo -e "[+] Installing"
+              sudo install -D -m644 -t /usr/share/color/icc/idealliance *.icc
+              if ls -lh /usr/share/color/icc/idealliance | grep icc > /tmp/checkers >/dev/null 2>&1; then
+                echo -e "\033[1;36m[FINISH]\033[0m IDEAlliance ICC installed"
+                else
+                echo -e "\033[1;33m[FAILED]\033[0m IDEAlliance ICC not installed!"
+                exit;
+                fi
             exit 0
             ;;
         -d|--deps)
@@ -113,22 +157,62 @@ clear
 echo -e "\n\033[1;36m$title v$version \033[0m"
 echo -e "\e[3mYet Another CLI Exporter\e[0m"
 echo
+
+# check depedencies
+if inkscape --version > /tmp/checkers >/dev/null 2>&1; then
+  echo >/dev/null 2>&1
+  else
+  echo -e "\033[1;33m[FAILED]\033[0m inkscape not installed!";
+  echo
+  exit;
+  fi
+if krita --version > /tmp/checkers >/dev/null 2>&1; then
+  echo >/dev/null 2>&1
+  else
+  echo -e "\033[1;33m[FAILED]\033[0m krita not installed!";
+  echo
+  exit;
+  fi
+if magick --version > /tmp/checkers >/dev/null 2>&1; then
+  echo >/dev/null 2>&1
+  else
+  echo -e "\033[1;33m[FAILED]\033[0m ImageMagick not installed!";
+  echo
+  exit;
+  fi
+if gs --version > /tmp/checkers >/dev/null 2>&1; then
+  echo >/dev/null 2>&1
+  else
+  echo -e "\033[1;33m[FAILED]\033[0m ghostscript not installed!";
+  echo
+  exit;
+  fi
+if cwebp -version > /tmp/checkers >/dev/null 2>&1; then
+  echo >/dev/null 2>&1
+  else
+  echo -e "\033[1;33m[FAILED]\033[0m libwebp not installed!";
+  echo
+  exit;
+  fi
+if ls -lh /usr/share/color/icc/adobe/cmyk > /tmp/checkers >/dev/null 2>&1; then
+  echo >/dev/null 2>&1
+  else
+  echo -e "\033[1;33m[FAILED]\033[0m Adobe ICC not installed!";
+  echo
+  exit;
+  fi
+if ls -lh /usr/share/color/icc/idealliance > /tmp/checkers >/dev/null 2>&1; then
+  echo >/dev/null 2>&1
+  else
+  echo -e "\033[1;33m[FAILED]\033[0m Idealliance ICC not installed!";
+  echo
+  exit;
+  fi
+
 select opt in "${options[@]}"
 do
     case $opt in
         "PNG")
-            if inkscape --version > /tmp/checkers >/dev/null 2>&1; then
-              echo >/dev/null 2>&1
-              else
-                echo -e "\033[1;33m[FAILED]\033[0m inkscape not installed!";
-              exit;
-              fi
-            if magick --version | grep . > /tmp/checkers >/dev/null 2>&1; then
-              echo >/dev/null 2>&1
-              else
-              echo -e "\033[1;33m[FAILED]\033[0m ImageMagick not installed!";
-              exit;
-              fi
             echo -e "EXPORT: \033[1;36mPNG\033[0m"
             read -e -p "DPI (72/96/300): " -i "96" dpi
               if [ $dpi -gt 300 ]; then
@@ -162,36 +246,6 @@ do
             break
             ;;
         "JPG")
-            if inkscape --version > /tmp/checkers >/dev/null 2>&1; then
-              echo >/dev/null 2>&1
-              else
-              echo -e "\033[1;33m[FAILED]\033[0m inkscape not installed!";
-              exit;
-              fi
-            if krita --version > /tmp/checkers >/dev/null 2>&1; then
-              echo >/dev/null 2>&1
-              else
-              echo -e "\033[1;33m[FAILED]\033[0m krita not installed!";
-              exit;
-              fi
-            if magick --version > /tmp/checkers >/dev/null 2>&1; then
-              echo >/dev/null 2>&1
-              else
-              echo -e "\033[1;33m[FAILED]\033[0m ImageMagick not installed!";
-              exit;
-              fi
-            if ls -lh /usr/share/color/icc/adobe/cmyk | grep icc > /tmp/checkers >/dev/null 2>&1; then
-              echo >/dev/null 2>&1
-              else
-              echo -e "\033[1;33m[FAILED]\033[0m Adobe ICC not installed!";
-              exit;
-              fi
-            if ls -lh /usr/share/color/icc/idealliance | grep icc > /tmp/checkers >/dev/null 2>&1; then
-              echo >/dev/null 2>&1
-              else
-              echo -e "\033[1;33m[FAILED]\033[0m Idealliance ICC not installed!";
-              exit;
-              fi
             echo -e "EXPORT: \033[1;36mJPG\033[0m"
             read -e -p "DPI (72/96/300): " -i "96" dpi
               if [ $dpi -gt 300 ]; then
@@ -274,36 +328,6 @@ do
             break
             ;;
         "TIF")
-            if inkscape --version > /tmp/checkers >/dev/null 2>&1; then
-              echo >/dev/null 2>&1
-              else
-              echo -e "\033[1;33m[FAILED]\033[0m inkscape not installed!";
-              exit;
-              fi
-            if krita --version > /tmp/checkers >/dev/null 2>&1; then
-              echo >/dev/null 2>&1
-              else
-              echo -e "\033[1;33m[FAILED]\033[0m krita not installed!";
-              exit;
-              fi
-            if magick --version > /tmp/checkers >/dev/null 2>&1; then
-              echo >/dev/null 2>&1
-              else
-              echo -e "\033[1;33m[FAILED]\033[0m ImageMagick not installed!";
-              exit;
-              fi
-            if ls -lh /usr/share/color/icc/adobe/cmyk | grep icc > /tmp/checkers >/dev/null 2>&1; then
-              echo >/dev/null 2>&1
-              else
-              echo -e "\033[1;33m[FAILED]\033[0m Adobe ICC not installed!";
-              exit;
-              fi
-            if ls -lh /usr/share/color/icc/idealliance | grep icc > /tmp/checkers >/dev/null 2>&1; then
-              echo >/dev/null 2>&1
-              else
-              echo -e "\033[1;33m[FAILED]\033[0m Idealliance ICC not installed!";
-              exit;
-              fi
             echo -e "EXPORT: \033[1;36mTIF\033[0m"
             read -e -p "DPI (72/96/300): " -i "96" dpi
               if [ $dpi -gt 300 ]; then
@@ -397,42 +421,6 @@ do
             break
             ;;
         "PDF")
-            if inkscape --version > /tmp/checkers >/dev/null 2>&1; then
-              echo >/dev/null 2>&1
-              else
-              echo -e "\033[1;33m[FAILED]\033[0m inkscape not installed!";
-              exit;
-              fi
-            if krita --version > /tmp/checkers >/dev/null 2>&1; then
-              echo >/dev/null 2>&1
-              else
-              echo -e "\033[1;33m[FAILED]\033[0m krita not installed!";
-              exit;
-              fi
-            if magick --version > /tmp/checkers >/dev/null 2>&1; then
-              echo >/dev/null 2>&1
-              else
-              echo -e "\033[1;33m[FAILED]\033[0m ImageMagick not installed!";
-              exit;
-              fi
-            if gs --version > /tmp/checkers >/dev/null 2>&1; then
-              echo >/dev/null 2>&1
-              else
-              echo -e "\033[1;33m[FAILED]\033[0m ghostscript not installed!";
-              exit;
-              fi
-            if ls -lh /usr/share/color/icc/adobe/cmyk | grep icc > /tmp/checkers >/dev/null 2>&1; then
-              echo >/dev/null 2>&1
-              else
-              echo -e "\033[1;33m[FAILED]\033[0m Adobe ICC not installed!";
-              exit;
-              fi
-            if ls -lh /usr/share/color/icc/idealliance | grep icc > /tmp/checkers >/dev/null 2>&1; then
-              echo >/dev/null 2>&1
-              else
-              echo -e "\033[1;33m[FAILED]\033[0m Idealliance ICC not installed!";
-              exit;
-              fi
             echo -e "EXPORT: \033[1;36mPDF\033[0m"
             echo -e "Output"
             echo -e "  \033[1;33m[1] Vector\033[0m  (RGB/CMYK)"
@@ -686,12 +674,6 @@ do
             break
             ;;
         "SVG")
-            if inkscape --version > /tmp/checkers >/dev/null 2>&1; then
-              echo >/dev/null 2>&1
-              else
-              echo -e "\033[1;33m[FAILED]\033[0m inkscape not installed!";
-              exit;
-              fi
             echo -e "EXPORT: \033[1;36mSVG\033[0m"
             read -e -p "Folder Output: " -i "SVG" directory
             mkdir -p $directory
@@ -705,18 +687,6 @@ do
             break
             ;;
         "EPS")
-            if inkscape --version > /tmp/checkers >/dev/null 2>&1; then
-              echo >/dev/null 2>&1
-              else
-              echo -e "\033[1;33m[FAILED]\033[0m inkscape not installed!";
-              exit;
-              fi
-            if gs --version > /tmp/checkers >/dev/null 2>&1; then
-              echo >/dev/null 2>&1
-              else
-              echo -e "\033[1;33m[FAILED]\033[0m ghostscript not installed!";
-              exit;
-              fi
             echo -e "EXPORT: \033[1;36mEPS\033[0m"
             read -e -p "Folder Output: " -i "EPS" directory
             mkdir -p $directory/.temp
@@ -734,18 +704,6 @@ do
             break
             ;;
         "WEBP")
-            if inkscape --version > /tmp/checkers >/dev/null 2>&1; then
-              echo >/dev/null 2>&1
-              else
-              echo -e "\033[1;33m[FAILED]\033[0m inkscape not installed!";
-              exit;
-              fi
-            if cwebp -version > /tmp/checkers >/dev/null 2>&1; then
-              echo >/dev/null 2>&1
-              else
-              echo -e "\033[1;33m[FAILED]\033[0m libwebp not installed!";
-              exit;
-              fi
             echo -e "EXPORT: \033[1;36mWEBP\033[0m"
             read -e -p "DPI (72/96/300): " -i "96" dpi
               if [ $dpi -gt 300 ]; then
