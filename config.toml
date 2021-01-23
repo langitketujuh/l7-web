@@ -1,7 +1,7 @@
 # DEFAULT
 
 baseURL = "https://langitketujuh.id/"
-title = "LangitKetujuh OS | Pilihan Tepat untuk Desainer dan Pengguna Desktop"
+title = "LangitKetujuh OS"
 languageName = "Id"
 languageCode = "en-US"
 # post pagination
@@ -166,14 +166,19 @@ parent = "cuplikan"
 weight = 9
 
 [[menu.main]]
+name = "Panduan"
+URL = "https://panduan.langitketujuh.id"
+weight = 6
+
+[[menu.main]]
 name = "Kabari"
 URL = "kabari"
-weight = 6
+weight = 7
 
 [[menu.main]]
 name = "FAQ"
 URL = "faq"
-weight = 7
+weight = 8
 
 # profil
 [[menu.profil]]
