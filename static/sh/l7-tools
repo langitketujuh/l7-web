@@ -141,15 +141,12 @@ for arg in "$@"; do
               fi
             ;;
         --update|-u)
-            read -e -p $'\e[1;36m[1]\e[0m Upgrade System (Y/n): ' upgrade
-            if [[ $upgrade =~ ^[Yy]$ ]]; then
-              echo  >/dev/null 2>&1
+            read -e -p $'\e[1;36m[1]\e[0m Update system (Y/n): ' update
+            if [[ $update =~ ^[Yy]$ ]]; then
+              echo -e "[*] Update: \033[1;36m[Yes]\033[0m"
               sudo xbps-install -Suy
-              elif [[ $upgrade =~ ^[Nn]$ ]]; then
-              echo  >/dev/null 2>&1
               else
-              echo -e "\033[1;33m[FAILED]\033[0m Type \033[1;33mY\033[0m/\033[1;33mn\033[0m"
-              exit
+              echo -e "[-] Update: \033[1;33m[No]\033[0m"
             fi
             if [ $type = 'lite-musl' ];
               then
@@ -163,7 +160,7 @@ for arg in "$@"; do
               git pull >/dev/null 2>&1
               echo -e "\033[1;36m[5]\033[0m\033[0m Install update"
               sudo cp -rf * /
-              echo -e "\033[1;36m[6]\033[0m\033[0m Update grup distributor"
+              echo -e "\033[1;36m[6]\033[0m\033[0m Update grub distributor"
               sudo sed -i /etc/default/grub -res'#^(GRUB_DISTRIBUTOR).*#GRUB_DISTRIBUTOR="LangitKetujuh"#'
               echo -e "\033[1;36m[FINISH]\033[0m Update $type done"
             elif [ $type = 'lite-glibc' ];
