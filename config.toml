@@ -226,7 +226,7 @@ weight = 4
   logo_footer = "gambar/logo-l7.svg"
   logo_width_footer = "90px"
   author = "LangitKetujuh ID"
-  opengraphimage = "gambar/thumbnail.webp"
+  opengraphimage = "gambar/thumbnail.jpg"
   description = "Distribusi GNU/Linux untuk desainer, ilustrator, animator, publisher, fotografer, dan game desainer. Menggunakan musl libc, rolling rilis, runit, dan KDE lingkungan desktop. "
 
 # FOOTER

@@ -3,9 +3,9 @@ title: "Unduh PRO Glibc"
 subtitle: ""
 # meta description
 description: "Terbaik untuk dukungan perangkat lunak nonfree (propietary)"
-image: gambar/thumbnail.webp
+image: gambar/thumbnail.jpg
 opengraph:
-  image: gambar/thumbnail.webp
+  image: gambar/thumbnail.jpg
 draft: false
 ---
 

@@ -3,9 +3,9 @@ title: "Saran dan Kritikan!"
 subtitle: ""
 # meta description
 description: "Terima kasih telah memilih LangitKetujuh OS. Mohon luangkan waktunya sekitar 5 menit untuk mengisi halaman feedback demi pengembangan kami selanjutnya. ^^"
-image: gambar/thumbnail.webp
+image: gambar/thumbnail.jpg
 opengraph:
-  image: gambar/thumbnail.webp
+  image: gambar/thumbnail.jpg
 draft: false
 ---
 

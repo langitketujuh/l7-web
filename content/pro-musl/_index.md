@@ -3,9 +3,9 @@ title: "Unduh PRO Musl"
 subtitle: ""
 # meta description
 description: "Terbaik untuk kebutuhan profesional dan efisiensi."
-image: gambar/thumbnail.webp
+image: gambar/thumbnail.jpg
 opengraph:
-  image: gambar/thumbnail.webp
+  image: gambar/thumbnail.jpg
 draft: false
 ---
 

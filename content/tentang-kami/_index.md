@@ -3,9 +3,9 @@ title: "Tentang Kami"
 subtitle: ""
 # meta description
 description: "Tim LangitKetujuh beserta jajarannya."
-image: gambar/thumbnail.webp
+image: gambar/thumbnail.jpg
 opengraph:
-  image: gambar/thumbnail.webp
+  image: gambar/thumbnail.jpg
 draft: false
 
 call_to_action:

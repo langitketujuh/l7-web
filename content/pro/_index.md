@@ -3,9 +3,9 @@ title: "Unduh Edisi Pro"
 subtitle: ""
 # meta description
 description: "Edisi Pro untuk kebutuhan profesional."
-image: gambar/thumbnail.webp
+image: gambar/thumbnail.jpg
 opengraph:
-  image: gambar/thumbnail.webp
+  image: gambar/thumbnail.jpg
 draft: false
 
 promusl:

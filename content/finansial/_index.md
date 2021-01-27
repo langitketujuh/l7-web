@@ -3,9 +3,9 @@ title: "Laporan Finansial"
 subtitle: ""
 # meta description
 description: "Jazaakumullahu khairan katsiran kepada para donatur atas donasi terbaiknya."
-image: gambar/thumbnail.webp
+image: gambar/thumbnail.jpg
 opengraph:
-  image: gambar/thumbnail.webp
+  image: gambar/thumbnail.jpg
 draft: false
 
 call_to_action:

@@ -3,9 +3,9 @@ title: "Unduh Edisi Lite"
 subtitle: ""
 # meta description
 description: "Edisi LITE untuk kebutuhan sederhana."
-image: gambar/thumbnail.webp
+image: gambar/thumbnail.jpg
 opengraph:
-  image: gambar/thumbnail.webp
+  image: gambar/thumbnail.jpg
 draft: false
 
 litemusl:

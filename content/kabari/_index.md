@@ -3,9 +3,9 @@ title: "Kabari Kami!"
 subtitle: ""
 # meta description
 description: "Hubungi kami jika ada saran, kritikan, dan memberikan pelaporan kutu. Atau sekedar menyapa kami :)"
-image: gambar/thumbnail.webp
+image: gambar/thumbnail.jpg
 opengraph:
-  image: gambar/thumbnail.webp
+  image: gambar/thumbnail.jpg
 draft: false
 ---
 

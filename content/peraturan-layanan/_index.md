@@ -3,9 +3,9 @@ title: "Peraturan Layanan"
 subtitle: ""
 # meta description
 description: "Hak dan kewajiban tim LangitKetujuh dan Anda."
-image: gambar/thumbnail.webp
+image: gambar/thumbnail.jpg
 opengraph:
-  image: gambar/thumbnail.webp
+  image: gambar/thumbnail.jpg
 draft: true
 ---
 

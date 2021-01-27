@@ -3,9 +3,9 @@ title: "Terima Kasih"
 subtitle: ""
 # meta description
 description: "Unduh PRO untuk kebutuhan profesional."
-image: gambar/thumbnail.webp
+image: gambar/thumbnail.jpg
 opengraph:
-  image: gambar/thumbnail.webp
+  image: gambar/thumbnail.jpg
 draft: false
 
 call_to_action:
