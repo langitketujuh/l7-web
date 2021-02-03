@@ -2,7 +2,7 @@
 banner:
   title : "Pilihan Tepat untuk Desainer<br>dan Pengguna Desktop"
   image : "gambar/banner-min.svg"
-  content : "Distribusi GNU/Linux dengan Musl berdasar pada VoidLinux. Menggunakan KDE lingkungan desktop, update stabil rolling rilis, dan sumber daya yang efisien."
+  content : "Distribusi GNU/Linux dengan Musl berdasar pada VoidLinux. Menggunakan KDE lingkungan desktop, update stabil rilis bergulir dan sumber daya yang efisien."
   button:
     enable : true
     label : "Fitur"
@@ -26,7 +26,7 @@ feature:
     # feature item loop
     - name : "Xbps paket manajemen"
       icon : "ti-package"
-      content : "Paket manajer yang ringan dan cepat. Serta dukungan perangkat lunak yang stabil dan terbarukan (Rolling Release)."
+      content : "Paket manajer yang ringan dan cepat. Serta dukungan perangkat lunak yang stabil dan terbarukan (Rilis bergulir)."
 
     # feature item loop
     - name : "KDE Lingkungan Destop"

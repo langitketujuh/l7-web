@@ -21,7 +21,7 @@ Dukungan instalasi oleh tenaga ahli. | - | **√** | **√**
 :--- | :---: | :---: | :---:
 Tersedia Musl Libc. | - | **√** | -
 Non-SystemD. | - | **√** | **√**
-Aplikasi Terbaru (Rolling rilis). | - | **√** | **√**
+Aplikasi Terbaru (Rilis bergulir). | - | **√** | **√**
 Dukungan Aplikasi Appimage | **√** | - | **√**
 Dukungan Nvidia Propietary driver | **√** | - | **√**
 Dukungan Aplikasi Nonfree  | **√** |- | **√**
