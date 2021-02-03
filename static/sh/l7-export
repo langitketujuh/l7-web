@@ -4,7 +4,7 @@ title="LangitKetujuh Export"
 name=$(basename "$0")
 installdir=$(which basename)
 inkscapedir=$(which inkscape)
-version="1.4"
+version="1.5"
 web="https://langitketujuh.id"
 license="GNU GPLV3+"
 tmp="$HOME/.cache"
@@ -21,25 +21,26 @@ usage()
  echo -e "\e[3m Fork from inkporter-cli\e[0m"
  echo
     cat <<- EOF
- website  : $web
- license  : $license
+ Website  : $web
+ License  : $license
  
- usage    : $name [file.svg] [id]
+ Usage    : $name [file.svg] [id]
  
- option   : -i,--install  # install depedency color profile
+ Option   : -i,--install  # install depedency color profile
             -h,--help     # show this help
             -v,--version  # show $name version
 
- feature  : * deep per inch (DPI)
-            * support depth 16-bit for PNG and TIF
-            * colorspace RGB/CMYK PDF for PDF vektor
-            * support color profile CMYK for JPG, TIF, PDF raster:
+ Feature  : * File output: PNG, JPG, TIF, PDF, SVG, EPS, AI, PSD, & WEBP.
+            * Deep per inch (DPI).
+            * Depth 16-bit.
+            * Colorspace RGB/CMYK.
+            * Embed color profile CMYK for jpg, tif, psd, and pdf raster.
                 RGB   : Default - srgb
-                CMYK  : Krita - chemical proof
+                CMYK  : Krita   - chemical proof
                 CMYK  : Generic - swop2006 coated3v2
-                CMYK  : Corel - japan color 2001 coated
-                CMYK  : Adobe - u.s. web coated (swop) v2
-            * easy merge PDF
+                CMYK  : Corel   - japan color 2001 coated
+                CMYK  : Adobe   - u.s. web coated (swop) v2
+            * Merge pdf
  
 EOF
 }
@@ -49,93 +50,92 @@ for arg in "$@"; do
         -i|--install)
             if xbps-install --version > /tmp/checkers >/dev/null 2>&1;
               then
-              echo -e "\033[1;36m[1]\033[0m Install depedencies > LangitKetujuh"
-              sudo xbps-install -Sy inkscape ghostscript ImageMagick krita libwebp
+              echo -e "\033[1;36m[1]\033[0m Install depedencies > XBPS distro"
+              sudo xbps-install -S inkscape ghostscript ImageMagick libwebp-tools
               elif dnf --version > /tmp/checkers >/dev/null 2>&1;
                 then
-                echo -e "\033[1;36m[1]\033[0m Install depedencies > Fedora"
-                sudo dnf install inkscape ghostscript ImageMagick krita libwebp
+                echo -e "\033[1;36m[1]\033[0m Install depedencies > RPM distro"
+                sudo yum install inkscape ghostscript ImageMagick libwebp-tools
               elif pacman --version > /tmp/checkers >/dev/null 2>&1;
                 then
-                echo -e "\033[1;36m[1]\033[0m Install depedencies > Archlinux"
-                sudo pacman -S inkscape ghostscript ImageMagick krita libwebp
+                echo -e "\033[1;36m[1]\033[0m Install depedencies > Pacman distro"
+                sudo pacman -S inkscape ghostscript ImageMagick libwebp
               elif apt --version > /tmp/checkers >/dev/null 2>&1;
                 then
-                echo -e "\033[1;36m[1]\033[0m Install depedencies > Debian"
-                sudo apt -y update; sudo apt install inkscape ghostscript imagemagick krita libwebp
+                echo -e "\033[1;36m[1]\033[0m Install depedencies > APT distro"
+                sudo apt -y update; sudo apt install inkscape ghostscript imagemagick webp
               elif zypper --version > /tmp/checkers >/dev/null 2>&1;
                 then
-                echo -e "\033[1;36m[1]\033[0m Install depedencies > openSUSE"
-                sudo zypper install inkscape ghostscript ImageMagick krita libwebp
+                echo -e "\033[1;36m[1]\033[0m Install depedencies > Zypper distro"
+                sudo zypper install inkscape ghostscript ImageMagick libwebp-tools
               else
                 echo -e "\033[1;36m[1]\033[0m Install depedencies > What your os?"
               fi
               echo -e "\033[1;36m[2]\033[0m Install Adobe ICC"
-              echo -e "[+] Preparing new dir $tmp"
+              echo -e "[*] Preparing new dir $tmp"
               mkdir $tmp/adobe-icc >/dev/null 2>&1
               cd $tmp/adobe-icc
-              echo -e "[+] Download Adobe ICC Profiles"
+              echo -e "[*] Download Adobe ICC Profiles"
               wget -c https://download.adobe.com/pub/adobe/iccprofiles/mac/AdobeICCProfilesCS4Mac_end-user.zip >/dev/null 2>&1
-              echo -e "[+] Unzip"
+              echo -e "[*] Unzip"
               unzip -o -q AdobeICCProfilesCS4Mac_end-user.zip >/dev/null 2>&1
-              echo -e "[+] Installing"
+              echo -e "[*] Installing"
               sudo install -D -m644 -t /usr/share/color/icc/adobe/rgb */RGB/*.icc
               sudo install -D -m644 -t /usr/share/color/icc/adobe/cmyk */CMYK/*.icc
               sudo install -D -m644 -t /usr/share/doc/adobe */*.pdf
-              if ls -lh /usr/share/color/icc/adobe/cmyk | grep icc > /tmp/checkers >/dev/null 2>&1; then
-                echo -e "\033[1;36m[FINISH]\033[0m Adobe ICC installed"
+              if ls -lh /usr/share/color/icc/adobe/cmyk  > /tmp/checkers >/dev/null 2>&1; then
+                echo -e "[*] Adobe ICC is already installed"
                 else
-                echo -e "\033[1;33m[FAILED]\033[0m Adobe ICC not installed!"
+                echo -e "[ ] Adobe ICC is not already installed!"
                 exit;
                 fi
-              echo -e "\033[1;36m[3]\033[0m Install IDEAlliance ICC"
+              echo -e "\033[1;36m[3]\033[0m Install Krita CMYK ICM"
+              echo -e "[*] Preparing new dir $tmp"
+              mkdir $tmp/krita-icc >/dev/null 2>&1
+              cd $tmp/krita-icc
+              echo -e "[*] Download Krita CMYK ICM Profiles"
+              wget -c https://github.com/KDE/krita/raw/master/krita/data/profiles/cmyk.icm >/dev/null 2>&1
+              echo -e "[*] Installing"
+              sudo install -D -m644 -t /usr/share/color/icc/krita *.icm
+              if ls -lh /usr/share/color/icc/krita | grep icm > /tmp/checkers >/dev/null 2>&1; then
+                echo -e "[*] Krita CMYK ICM is already installed"
+                else
+                echo -e "[ ] Krita CMYK ICM is not already installed!"
+                exit;
+                fi
+              echo -e "\033[1;36m[4]\033[0m Install IDEAlliance ICC"
               echo -e "[+] Preparing new dir $tmp"
               mkdir $tmp/idea-icc >/dev/null 2>&1
               cd $tmp/idea-icc
-              echo -e "[+] Download IDEAlliance ICC Profiles"
-              wget -c http://www.color.org/registry/profiles/JapanColor2011Coated.icc >/dev/null 2>&1
-              wget -c http://www.color.org/registry/profiles/CGATS21_CRPC7.icc >/dev/null 2>&1
-              wget -c http://www.color.org/registry/profiles/CGATS21_CRPC6.icc >/dev/null 2>&1
-              wget -c http://www.color.org/registry/profiles/GRACoL2013_CRPC6.icc >/dev/null 2>&1
-              wget -c http://www.color.org/registry/profiles/GRACoL2006_Coated1v2.icc >/dev/null 2>&1
-              wget -c http://www.color.org/registry/profiles/CGATS21_CRPC5.icc >/dev/null 2>&1
-              wget -c http://www.color.org/registry/profiles/SWOP2013C3_CRPC5.icc >/dev/null 2>&1
+              echo -e "[*] Download SWOP2006_Coated3v2 ICC Profiles"
               wget -c http://www.color.org/registry/profiles/SWOP2006_Coated3v2.icc >/dev/null 2>&1
-              wget -c http://www.color.org/registry/profiles/CGATS21_CRPC4.icc >/dev/null 2>&1
-              wget -c http://www.color.org/registry/profiles/CGATS21_CRPC3.icc >/dev/null 2>&1
-              wget -c http://www.color.org/registry/profiles/GRACoL2013UNC_CRPC3.icc >/dev/null 2>&1
-              wget -c http://www.color.org/registry/profiles/SWOP2006_Coated5v2.icc >/dev/null 2>&1
-              wget -c http://www.color.org/registry/profiles/CGATS21_CRPC2.icc >/dev/null 2>&1
-              wget -c http://www.color.org/registry/profiles/CGATS21_CRPC1.icc >/dev/null 2>&1
-              echo -e "[+] Installing"
+              echo -e "[*] Installing"
               sudo install -D -m644 -t /usr/share/color/icc/idealliance *.icc
               if ls -lh /usr/share/color/icc/idealliance | grep icc > /tmp/checkers >/dev/null 2>&1; then
-                echo -e "\033[1;36m[FINISH]\033[0m IDEAlliance ICC installed"
+                echo -e "[*] IDEAlliance ICC is already installed"
                 else
-                echo -e "\033[1;33m[FAILED]\033[0m IDEAlliance ICC not installed!"
+                echo -e "[ ] IDEAlliance ICC is not already installed!"
                 exit;
                 fi
             exit 0
             ;;
         -d|--deps)
             echo -e "\033[1;33minkscape version: \033[0m"
-            if inkscape ---version | grep "Inkscape 1.*" ;then
-                echo " "; else
+            if inkscape --version | grep "Inkscape 1.*" ;then
+                echo >/dev/null 2>&1; else
                 echo
                 echo "$name version: v$version"
                 echo "only for inkscape 1.x!";
             fi
-            echo -e "\033[1;33mkrita version: \033[0m"
-            krita ---version
             echo
-            echo -e "\033[1;33mImageMagick version: \033[0m"
-            magick ---version | grep Version:
+            echo -e "\033[1;33mConvert ImageMagick version: \033[0m"
+            convert -version | grep Version:
             echo
             echo -e "\033[1;33mghostscript version: \033[0m"
-            gs ---version
+            gs --version
             echo
-            echo -e "\033[1;33mlib version: \033[0m"
-            cwebp --version
+            echo -e "\033[1;33mwebp version: \033[0m"
+            cwebp -version
             echo
             exit 0
             ;;
@@ -143,7 +143,7 @@ for arg in "$@"; do
             usage
             exit 0
             ;;
-        -v|---version)
+        -v|--version)
             echo -e "\033[1;33m $name\033[0m version $version"
             exit 0
     esac
@@ -152,9 +152,9 @@ done
 source=$1
 idpattern=$2
 PS3='Number: '
-options=("PNG" "JPG" "TIF" "PDF" "SVG" "EPS" "WEBP" "Cancel")
+options=("PNG" "JPG" "TIF" "PDF" "SVG" "EPS" "AI" "PSD" "WEBP" "Cancel")
 clear
-echo -e "\n\033[1;36m$title v$version \033[0m"
+echo -e "\033[1;36m$title v$version \033[0m"
 echo -e "\e[3mYet Another CLI Exporter\e[0m"
 echo
 
@@ -162,49 +162,49 @@ echo
 if inkscape --version > /tmp/checkers >/dev/null 2>&1; then
   echo >/dev/null 2>&1
   else
-  echo -e "\033[1;33m[FAILED]\033[0m inkscape not installed!";
+  echo -e "\033[1;33m[FAILED]\033[0m inkscape is not already installed. Please run \033[1;33ml7-export --install\033[0m";
   echo
   exit;
   fi
-if krita --version > /tmp/checkers >/dev/null 2>&1; then
+if ls $chemical_proof > /tmp/checkers >/dev/null 2>&1; then
   echo >/dev/null 2>&1
   else
-  echo -e "\033[1;33m[FAILED]\033[0m krita not installed!";
+  echo -e "\033[1;33m[FAILED]\033[0m Krita cmyk icm is not already installed. Please run \033[1;33ml7-export --install\033[0m";
   echo
   exit;
   fi
-if magick --version > /tmp/checkers >/dev/null 2>&1; then
+if convert -version > /tmp/checkers >/dev/null 2>&1; then
   echo >/dev/null 2>&1
   else
-  echo -e "\033[1;33m[FAILED]\033[0m ImageMagick not installed!";
+  echo -e "\033[1;33m[FAILED]\033[0m ImageMagick is not already installed. Please run \033[1;33ml7-export --install\033[0m";
   echo
   exit;
   fi
 if gs --version > /tmp/checkers >/dev/null 2>&1; then
   echo >/dev/null 2>&1
   else
-  echo -e "\033[1;33m[FAILED]\033[0m ghostscript not installed!";
+  echo -e "\033[1;33m[FAILED]\033[0m ghostscript is not already installed. Please run \033[1;33ml7-export --install\033[0m";
   echo
   exit;
   fi
 if cwebp -version > /tmp/checkers >/dev/null 2>&1; then
   echo >/dev/null 2>&1
   else
-  echo -e "\033[1;33m[FAILED]\033[0m libwebp not installed!";
+  echo -e "\033[1;33m[FAILED]\033[0m webp, libwebp or libwebp-tools is not already installed. Please run \033[1;33ml7-export --install\033[0m";
   echo
   exit;
   fi
 if ls -lh /usr/share/color/icc/adobe/cmyk > /tmp/checkers >/dev/null 2>&1; then
   echo >/dev/null 2>&1
   else
-  echo -e "\033[1;33m[FAILED]\033[0m Adobe ICC not installed!";
+  echo -e "\033[1;33m[FAILED]\033[0m Adobe ICC is not already installed. Please run \033[1;33ml7-export --install\033[0m";
   echo
   exit;
   fi
 if ls -lh /usr/share/color/icc/idealliance > /tmp/checkers >/dev/null 2>&1; then
   echo >/dev/null 2>&1
   else
-  echo -e "\033[1;33m[FAILED]\033[0m Idealliance ICC not installed!";
+  echo -e "\033[1;33m[FAILED]\033[0m Idealliance ICC is not already installed. Please run \033[1;33ml7-export --install\033[0m";
   echo
   exit;
   fi
@@ -222,9 +222,9 @@ do
             echo -e "DPI: \033[1;33m$dpi\033[0m"
             read -e -p "Depth (8/16-bit): " -i "8" depth
               if [ $depth -eq 8 ]; then
-                echo -e "Depth: \033[1;33m 8-bit \033[0m"
+                echo -e "Depth: \033[1;33m8-bit\033[0m"
                 elif [ $depth -eq 16 ]; then
-                echo -e "Depth: \033[1;33m 16-bit \033[0m"
+                echo -e "Depth: \033[1;33m16-bit\033[0m"
                 else
                 echo -e "\033[1;33m[FAILED]\033[0m "$icc-bit" is not support."
                 exit
@@ -242,7 +242,6 @@ do
             cd .. && rm -r .temp
             cd ..
             echo -e "\033[1;36m[FINISH]\033[0m Job done."
-            echo
             break
             ;;
         "JPG")
@@ -324,7 +323,6 @@ do
             cd .. && rm -r .temp
             cd ..
             echo -e "\033[1;36m[FINISH]\033[0m Job done."
-            echo
             break
             ;;
         "TIF")
@@ -337,9 +335,9 @@ do
             echo -e "DPI: \033[1;33m$dpi\033[0m"
             read -e -p "Depth (8/16-bit): " -i "8" depth
               if [ $depth -eq 8 ]; then
-                echo -e "Depth: \033[1;33m 8-bit \033[0m"
+                echo -e "Depth: \033[1;33m8-bit\033[0m"
                 elif [ $depth -eq 16 ]; then
-                echo -e "Depth: \033[1;33m 16-bit \033[0m"
+                echo -e "Depth: \033[1;33m16-bit\033[0m"
                 else
                 echo -e "\033[1;33m[FAILED]\033[0m "$icc-bit" is not support."
                 exit
@@ -417,7 +415,6 @@ do
             cd .. && rm -r .temp
             cd ..
             echo -e "\033[1;36m[FINISH]\033[0m Job done."
-            echo
             break
             ;;
         "PDF")
@@ -670,7 +667,6 @@ do
             cd .. && rm -r .temp
             cd ..
             echo -e "\033[1;36m[FINISH]\033[0m Job done."
-            echo
             break
             ;;
         "SVG")
@@ -683,11 +679,21 @@ do
                 sleep 1
             done
             echo -e "\033[1;36m[FINISH]\033[0m Job done."
-            echo
             break
             ;;
         "EPS")
             echo -e "EXPORT: \033[1;36mEPS\033[0m"
+            echo -e "Colorspace"
+            echo -e "  \033[1;33m[1] RGB\033[0m"
+            echo -e "  \033[1;33m[2] CMYK\033[0m"
+            read -e -p "Number: " color
+            if [ $color -gt 2 ]; then
+              echo -e "\033[1;33m[FAILED]\033[0m $color not support."
+              exit
+              elif [ $color -lt 1 ]; then
+              echo -e "\033[1;33m[FAILED]\033[0m $color not support."
+              exit
+            fi
             read -e -p "Folder Output: " -i "EPS" directory
             mkdir -p $directory/.temp
             for id in $(inkscape -S $source | grep $idpattern | cut -d "," -f 1)
@@ -695,12 +701,126 @@ do
                 inkscape -i $id -l -o "$directory/.temp/$id.svg" $source --export-id-only >/dev/null 2>&1
             done
             cd $directory/.temp
-            for i in *.svg; do inkscape -C --export-ignore-filters -T --export-ps-level=3 -o "../${i%.*}.eps" "$i"  >/dev/null 2>&1;
-            done
+            #srgb
+            if [ $color -eq 1 ]; then
+              profilename="colorspace-srgb"
+              for i in *.svg; do cat "$i" | inkscape --pipe -C -o "${i%.*}.pdf" >/dev/null 2>&1
+              done
+              rm *.svg
+              for i in *.pdf; do gs -q -dSAFER -dBATCH -dNOPAUSE -dNOCACHE -sDEVICE=pdfwrite -sOutputFile="../${i%.*}-$profilename.eps" "$i"
+	      done
+              #cmyk
+              elif [ $color -eq 2 ]; then
+                profilename="colorspace-cmyk"
+                for i in *.svg; do cat "$i" | inkscape --pipe -C -o "${i%.*}.pdf" >/dev/null 2>&1
+                done
+                rm *.svg
+                for i in *.pdf; do gs -q -dSAFER -dBATCH -dNOPAUSE -dNOCACHE -sDEVICE=pdfwrite -sColorConversionStrategy=CMYK -dProcessColorModel=/DeviceCMYK -sOutputFile="../${i%.*}-$profilename.eps" "$i"
+                done
+            fi
             cd .. && rm -r .temp
             cd ..
-            echo -e "\033[1;36m[FINISH]\033[0m Job done."
-            echo
+            echo -e "\033[1;36m[FINISH]\033[0m Job done"
+            break
+            ;;
+        "AI")
+            echo -e "EXPORT: \033[1;36mAI\033[0m"
+            echo -e "Colorspace"
+            echo -e "  \033[1;33m[1] RGB\033[0m"
+            echo -e "  \033[1;33m[2] CMYK\033[0m"
+            read -e -p "Number: " color
+            if [ $color -gt 2 ]; then
+              echo -e "\033[1;33m[FAILED]\033[0m $color not support."
+              exit
+              elif [ $color -lt 1 ]; then
+              echo -e "\033[1;33m[FAILED]\033[0m $color not support."
+              exit
+            fi
+            read -e -p "Folder Output: " -i "AI" directory
+            mkdir -p $directory/.temp
+            for id in $(inkscape -S $source | grep $idpattern | cut -d "," -f 1)
+            do
+                inkscape -i $id -l -o "$directory/.temp/$id.svg" $source --export-id-only >/dev/null 2>&1
+            done
+            cd $directory/.temp
+            #srgb
+            if [ $color -eq 1 ]; then
+              profilename="colorspace-srgb"
+              for i in *.svg; do cat "$i" | inkscape --pipe -C -o "${i%.*}.pdf" >/dev/null 2>&1
+              done
+              rm *.svg
+              for i in *.pdf; do gs -q -dSAFER -dBATCH -dNOPAUSE -dNOCACHE -sDEVICE=pdfwrite -sOutputFile="../${i%.*}-$profilename.ai" "$i"
+              done
+              #cmyk
+              elif [ $color -eq 2 ]; then
+                profilename="colorspace-cmyk"
+                for i in *.svg; do cat "$i" | inkscape --pipe -C -o "${i%.*}.pdf" >/dev/null 2>&1
+                done
+                rm *.svg
+                for i in *.pdf; do gs -q -dSAFER -dBATCH -dNOPAUSE -dNOCACHE -sDEVICE=pdfwrite -sColorConversionStrategy=CMYK -dProcessColorModel=/DeviceCMYK -sOutputFile="../${i%.*}-$profilename.ai" "$i"
+                done
+            fi
+            cd .. && rm -r .temp
+            cd ..
+            echo -e "\033[1;36m[FINISH]\033[0m Job done"
+            break
+            ;;
+        "PSD")
+            echo -e "EXPORT: \033[1;36mPSD\033[0m"
+            echo -e "Colorspace"
+            echo -e "  \033[1;33m[1] RGB\033[0m"
+            echo -e "  \033[1;33m[2] CMYK\033[0m"
+            read -e -p "Number: " color
+            if [ $color -gt 2 ]; then
+              echo -e "\033[1;33m[FAILED]\033[0m $color not support."
+              exit
+            fi
+            read -e -p "Depth (8/16-bit): " -i "8" depth
+              if [ $depth -eq 8 ]; then
+                echo -e "Depth: \033[1;33m8-bit\033[0m"
+                elif [ $depth -eq 16 ]; then
+                echo -e "Depth: \033[1;33m16-bit\033[0m"
+                else
+                echo -e "\033[1;33m[FAILED]\033[0m "$depth-bit" is not support."
+                exit
+              fi
+            read -e -p "Folder Output: " -i "PSD" directory
+            mkdir -p $directory/.temp
+            for id in $(inkscape -S $source | grep $idpattern | cut -d "," -f 1)
+            do
+                inkscape -i $id -l -o "$directory/.temp/$id.svg" $source --export-id-only >/dev/null 2>&1
+            done
+            cd $directory/.temp
+            #srgb
+            if [ $color -eq 1 ]; then
+              profilename="colorspace-srgb"
+              for i in *.svg; do cat "$i" | inkscape --pipe -C -o "${i%.*}.pdf" >/dev/null 2>&1
+              done
+              rm *.svg
+              if [ $depth -eq 16 ]; then
+              device=psdrgb16
+              else
+              device=psdrgb
+              fi
+              for i in *.pdf; do gs -q -dSAFER -dBATCH -dNOPAUSE -dNOCACHE -sDEVICE=$device -sOutputFile="../${i%.*}-$profilename-$depth-bit.psd" "$i"
+              done
+              #cmyk
+              elif [ $color -eq 2 ]; then
+                profilename="colorspace-cmyk"
+                for i in *.svg; do cat "$i" | inkscape --pipe -C -o "${i%.*}.pdf" >/dev/null 2>&1
+                done
+                rm *.svg
+                if [ $depth -eq 16 ]; then
+                device=psdcmyk16
+                else
+                device=psdcmyk
+                fi
+                for i in *.pdf; do gs -q -dSAFER -dBATCH -dNOPAUSE -dNOCACHE -sDEVICE=$device -sColorConversionStrategy=CMYK -dProcessColorModel=/DeviceCMYK -sOutputFile="../${i%.*}-$profilename-$depth-bit.psd" "$i"
+                done
+            fi
+            cd .. && rm -r .temp
+            cd ..
+            echo -e "\033[1;36m[FINISH]\033[0m Job done"
             break
             ;;
         "WEBP")
@@ -723,7 +843,6 @@ do
             done
             cd .. && rm -r .temp
             echo -e "\033[1;36m[FINISH]\033[0m Job done."
-            echo
             break
             ;;
         "Cancel")
