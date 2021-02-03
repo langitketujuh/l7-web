@@ -2,7 +2,7 @@
 banner:
   title : "Pilihan Tepat untuk Desainer<br>dan Pengguna Desktop"
   image : "gambar/banner-min.svg"
-  content : "Distribusi GNU/Linux dengan Musl berdasar pada VoidLinux. Menggunakan KDE lingkungan desktop, pembaruan  stabil rilis bergulir dan sumber daya yang efisien."
+  content : "Distribusi GNU/Linux dengan Musl berdasar pada VoidLinux. Menggunakan KDE lingkungan desktop, pembaruan stabil rilis bergulir dan sumber daya yang efisien."
   button:
     enable : true
     label : "Fitur"
