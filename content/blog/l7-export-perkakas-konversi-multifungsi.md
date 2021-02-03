@@ -30,7 +30,7 @@ Fitur lainnya seperti mengekspor PDF ke vektor dan raster dengan dukungan profil
 Fitur:
 
 * Mendukung ekspor DPI (raster).
-* Mendukung 16-bit untuk PNG dan TIF
+* Mendukung keluaran berkas png, jpg, svg, eps, pdf, ai, dan webp.
 * Ekspor PDF Vektor dengan colorspace RGB dan CMYK.
 * Ekspor JPG, TIF, PDF Raster dengan Profil warna CMYK Adobe, Idealliance, Corel, dan Krita.
 * Menggabungkan PDF (Merge).
@@ -43,9 +43,7 @@ Pastikan versi `l7-tools` Anda versi diatas `1.3`
 l7-tools --version
 {{< /highlight >}}
 
-Jika belum versi diatas `1.3` maka update dahlu sistem anda dengan cara ini. [>> KLIK <<](/blog/upgrade-langitketujuh-os-ke-versi-terbaru).
-
-Kemudian update.
+Jika belum versi diatas `1.3` maka perbarui dahalu sistem anda dengan cara ini. [>> KLIK <<](/blog/pembaruan-langitketujuh-os).
 
 {{< highlight bash >}}
 l7-tools --update

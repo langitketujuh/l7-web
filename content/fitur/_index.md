@@ -40,7 +40,7 @@ Rawtherapee pengolah foto raw. | - | -  | **√** | **√**
 Plugin GMIC Qt Gimp dan Krita. | - | -  | **√** | **√**
 Produksi Audio dengan Ardour & Cadence. | - | -  | **√** | **√**
 Google Fonts untuk proyek komersil. | - | -  | **√** | **√**
-Akses Update ISO terbaru [*] | -  | - | **√**  | **√**
+Akses ISO terbaru [*] | -  | - | **√**  | **√**
 Dukungan Aplikasi Appimage | - | **√** | -   | **√**
 Dukungan Nvidia Propietary driver | - | **√** | -   | **√**
 Dukungan Aplikasi Nonfree  | - | **√** | -   | **√**
@@ -50,4 +50,4 @@ Dukungan Wine windows | - | **√** | -  | **√**
 
 - Aplikasi Nonfree seperti driver gpu Nvidia, Spotify, Steam, Skype, Printer Canon, Pycharm, Mendeley tidak mendukung musl. Tetapi bisa dipasang melalui flatpak.
 - Musl hanya mendukung Wine windows 64 bit saja, sedangkan Glibc mendukung 32 dan 64 bit.
-- [*] Akses Update ISO terbaru untuk donatur yang telah memberikan 5 bintang keatas.
+- [*] Akses ISO terbaru untuk donatur yang telah memberikan 5 bintang keatas.
