@@ -33,7 +33,7 @@ l7-tools --version
 Jika belum versi `1.3` ke atas, maka upgrade dengan cara dibawah ini. Pastikan juga ada koneksi internet.
 
 {{< highlight bash >}}
-sudo wget 'https://langitketujuh.id/sh/l7-tools' -O /usr/bin/l7-tools && sudo chmod +x /usr/bin/l7-tools
+curl 'https://langitketujuh.id/sh/l7-tools' | sudo bash
 {{< /highlight >}}
 
 ### Update
