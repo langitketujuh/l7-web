@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # download
-wget 'https://gitlab.com/langitketujuh/script/-/raw/master/l7-export' -O /usr/bin/l7-export
+wget 'https://gitlab.com/langitketujuh/script/-/raw/master/l7-export' -O /usr/bin/l7-export > /dev/null 2>&1;
 
 # install
 chmod +x /usr/bin/l7-export

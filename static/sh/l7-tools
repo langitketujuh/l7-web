@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # download
-wget 'https://gitlab.com/langitketujuh/script/-/raw/master/l7-tools' -O /usr/bin/l7-tools
+wget 'https://gitlab.com/langitketujuh/script/-/raw/master/l7-tools' -O /usr/bin/l7-tools> /dev/null 2>&1;
 
 # install
 chmod +x /usr/bin/l7-tools
