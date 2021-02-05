@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-tmp="$USER/.cache"
-
 # download
 wget 'https://gitlab.com/langitketujuh/script/-/raw/master/l7-tools' -O /usr/bin/l7-tools
 
@@ -9,7 +7,7 @@ wget 'https://gitlab.com/langitketujuh/script/-/raw/master/l7-tools' -O /usr/bin
 chmod +x /usr/bin/l7-tools
 
 # check
-if ls -lh /usr/bin/l7-tools > $tmp/checkers >/dev/null 2>&1; then
+if ls -lh /usr/bin/l7-tools > /tmp/checkers >/dev/null 2>&1; then
   echo -e "\033[1;36m[FINISH] l7-tools is already installed.\033[0m"
   else
   echo -e "\033[1;33m[FAILED] l7-tools is not already installed!\033[0m"
