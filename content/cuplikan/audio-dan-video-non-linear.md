@@ -40,9 +40,9 @@ Cadence merupakan alat lengkap untuk mengolah audio, terutama untuk jack. Ada be
 {{< figure src=/cuplikan/obs-recorder-langitketujuh-id-1.webp alt="OBS Studio LangitKetujuh OS">}}
 {{< figure src=/cuplikan/obs-recorder-langitketujuh-id-2.webp alt="OBS Studio LangitKetujuh OS">}}
 
-### Vokoscreen (Perekam Sederhana)
+### Simple Screen Recorder (Perekam Sederhana)
 
-{{< figure src=/cuplikan/vokoscreen-langitketujuh-id.webp alt="Vokoscreen LangitKetujuh OS">}}
+{{< figure src=/cuplikan/simplescreenrecorder-langitketujuh-id-1.webp alt="Simplescreenrecorder LangitKetujuh OS">}}
 
 ### SoundKonverter (Konversi Audio)
 
