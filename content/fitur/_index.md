@@ -25,6 +25,8 @@ Dukungan instalasi oleh tenaga ahli. | - | -  | **√** | **√**
 Dukungan codec Audio dan Video. | **√** | **√** | **√** | **√**
 Libreoffice paket aplikasi perkantoran. | **√** | **√** | **√** | **√**
 Deteksi Printer HP dan Epson. | **√** | **√** | **√** | **√**
+Kalibrasi warna dengan DisplayCAL. | **√** | **√** | **√** | **√**
+Kalibrasi kecerahan otomatis dengan Clight. | **√** | **√** | **√** | **√**
 Gimp manipulasi foto. | **√** | **√** | **√** | **√**
 Inkscape pengolah vektor. | **√** | **√** | **√** | **√**
 Audacity pengolah audio. | - | -  | **√** | **√**
@@ -38,7 +40,7 @@ Synfigstudio animasi 2D. | - | -  | **√** | **√**
 Digikam manajemen foto. | - | -  | **√** | **√**
 Rawtherapee pengolah foto raw. | - | -  | **√** | **√**
 Plugin GMIC Qt Gimp dan Krita. | - | -  | **√** | **√**
-Produksi Audio dengan Ardour & Cadence. | - | -  | **√** | **√**
+Produksi Audio dengan Ardour. | - | -  | **√** | **√**
 Google Fonts untuk proyek komersil. | - | -  | **√** | **√**
 Akses ISO terbaru [*] | -  | - | **√**  | **√**
 Dukungan Aplikasi Appimage | - | **√** | -   | **√**
