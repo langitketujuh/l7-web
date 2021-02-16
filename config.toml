@@ -222,9 +222,9 @@ weight = 4
 
 [params]
   logo = "gambar/logo-l7.svg"
-  logo_width = "100px"
+  logo_width = "70px"
   logo_footer = "gambar/logo-l7.svg"
-  logo_width_footer = "90px"
+  logo_width_footer = "60px"
   author = "LangitKetujuh ID"
   opengraphimage = "gambar/thumbnail.jpg"
   description = "Distribusi GNU/Linux untuk desainer, ilustrator, animator, publisher, fotografer, dan game desainer. Menggunakan musl libc, rilis bergulir, runit, dan KDE lingkungan desktop."
