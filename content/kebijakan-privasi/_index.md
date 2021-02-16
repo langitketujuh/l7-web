@@ -26,6 +26,6 @@ Sebagai pengguna atau pemakai sistem operasi LangitKetujuh.
 * Kami hanya melayani untuk memasang langitketujuh OS, bukan memasang sistem operasi selain langitketujuh OS.
 * Kami tidak menerima untuk mengembalikan OS terdahulu. Baik itu windows, osx, GNU/Linux, BSD, dan jenis OS lainnya.
 * Kami hanya menggunakan partisi fat32 untuk partisi boot (`/boot` atau `/boot/efi`), xfs untuk sistem root (`/`) dan ext4 untuk partisi pengguna (`/home`).
-* Kami menyimpan data pengguna pro, data tersebut berupa: nama lengkap, surel (email), akun telegram, nomor telefon dan whatsapp aktif.
+* Kami menyimpan data pengguna pro, data tersebut berupa: nama lengkap, surel (email) dan akun telegram.
 * Data pengguna digunakan untuk memudahkan panggilan untuk bantuan instalasi dan seputar masalah sistem operasi.
 * Kami tidak menggunakan data pengguna untuk keperluan marketing.
