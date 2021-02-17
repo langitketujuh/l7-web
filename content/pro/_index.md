@@ -11,7 +11,7 @@ draft: false
 promusl:
   name : "PRO (Donasi)"
   type: "musl"
-  type_ver : "v0.8"
+  type_ver : "v0.9"
   info : "Terbaik untuk Professional"
   services:
   - "**[+] Fitur Lite Musl.**"
@@ -34,7 +34,7 @@ promusl:
 proglibc:
   name : "PRO (Donasi)"
   type: "glibc"
-  type_ver : "v0.8"
+  type_ver : "v0.9"
   info : "Terbaik untuk Dukungan Nonfree"
   services:
   - "**[+] Fitur Lite Glibc.**"
