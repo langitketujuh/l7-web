@@ -11,7 +11,7 @@ draft: false
 litemusl:
   name : "LITE (Gratis)"
   type: "musl"
-  type_ver : "v0.8"
+  type_ver : "v0.9"
   info : "Terbaik untuk Rumahan"
   services:
   - "Tersedia Codec Audio dan Video."
@@ -24,12 +24,12 @@ litemusl:
   button:
     enable : true
     label : "Unduh"
-    link : "https://osdn.net/dl/langitketujuh/langitketujuh-lite-0.8-live-x86_64-musl-5.9.16_1-rm9op19.iso"
+    link : "https://osdn.net/dl/langitketujuh/langitketujuh-0.9-lite-live-x86_64-musl-5.10.16_1-mxb6bf2.iso"
     
 liteglibc:
   name : "LITE (Gratis)"
   type: "glibc"
-  type_ver : "v0.8"
+  type_ver : "v0.9"
   info : "Terbaik untuk Dukungan Nonfree"
   services:
   - "Tersedia Codec Audio dan Video."
@@ -44,7 +44,7 @@ liteglibc:
   button:
     enable : true
     label : "Unduh"
-    link : "https://osdn.net/dl/langitketujuh/langitketujuh-lite-0.8-live-x86_64-5.9.16_1-z7r374q.iso"
+    link : "https://osdn.net/dl/langitketujuh/langitketujuh-0.9-lite-live-x86_64-5.10.16_1-l0tqrke.iso"
 
 call_to_action:
   enable : true
