@@ -40,6 +40,6 @@ Karena developer L7 juga desainer, pengajar desain grafis, freelancer, dan memil
 
 ### Siapa Para Tim?
 
-1. Hervy Qurrotul Ainur Rozi (Developer & Desainer)
-
-2. (Selanjutnya adalah bisa jadi Anda)
+* Hervy Qurrotul Ainur Rozi (Developer & Desainer)
+* Ihsan Syauqi Adn (Teknisi & Pendukung layanan)
+* (Selanjutnya bisa jadi Anda)
