@@ -17,7 +17,7 @@ Kami sebagai tim LangitKetujuh ID dan pemilik situs https://langitketujuh.id yan
 
 Pengguna merupakan individu/lembaga yang menggunakan dan/atau sudah memasang sistem operasi LangitKetujuh.
 
-### Prioritas dan Batasan pengguna
+### Prioritas dan batasan pengguna
 
   * Pengguna pro yang telah berdonasi memiliki prioritas utama.
   * Pengguna telah mengetahui kebutuhan perangkat lunak baik secara personal atau perusahaan.
