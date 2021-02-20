@@ -6,29 +6,32 @@ description: "Hak dan kewajiban tim LangitKetujuh dan Anda."
 image: gambar/thumbnail.jpg
 opengraph:
   image: gambar/thumbnail.jpg
-draft: true
+draft: false
 ---
 
-#### Responsibility of Contributors
+### Kami
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed 
+Kami sebagai tim LangitKetujuh ID dan pemilik situs https://langitketujuh.id yang memperkenalkan sistem operasi dan produk yang dibuat dengan FLOSS (Free/Libre Open Source Software). LangitKetujuh ID memperhatikan privasi Anda dengan sangat serius. Kebijakan privasi ini menggambarkan informasi pribadi yang kami kumpulkan dan bagaimana kami menggunakannya data tersebut.
 
-pretium, aliquam sit. Praesent elementum magna amet, tincidunt eros, nibh in leo. Malesuada purus, lacus, at aliquam suspendisse tempus. Quis tempus amet, velit nascetur sollicitudin. At sollicitudin eget amet in. Eu velit nascetur sollicitudin erhdfvssfvrgss eget viverra nec elementum. Lacus, facilisis tristique lectus in.
+### Pengguna
 
-#### Gathering of Personal Information
+Pengguna merupakan individu/lembaga yang menggunakan dan/atau sudah memasang sistem operasi LangitKetujuh.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+### Prioritas dan Batasan pengguna
 
-#### Protection of  Personal- Information
+  * Pengguna pro yang telah berdonasi memiliki prioritas utama.
+  * Pengguna telah mengetahui kebutuhan perangkat lunak baik secara personal atau perusahaan.
+  * Pengguna telah mengetahui glibc dan setuju menggunakan bila memilihnya.
+  * Pengguna telah mengetahui musl dan setuju menggunakan bila memilihnya.
+  * Pengguna telah mengetahui musl dan menggunakan nouveau driver sebagai alternatif kartu grafis NVIDIA. Pengguna setuju menggunakan bila memilihnya.
+  * Pertanyaan yang diajukan oleh pengguna lite dan pro hanya untuk yang berhubungan dengan langitketujuh OS dan seputar desain grafis.
+  * Pengguna telah bersedia untuk memasang LangitKetujuh OS dengan single boot.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. 
+### Teknis layanan pemasangan sistem operasi
 
-Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat 
-
-#### Privacy Policy Changes
-
-1. Sll the Themefisher items are designed to be with the latest , We check all
-2. comments that threaten or harm the reputation of any person or organization
-3. personal information including, but  limited to, email addresses, telephone numbers
-4. Any Update come in The technology  Customer will get automatic  Notification.
+  * Kami TIDAK menerima untuk pemasangan dual boot, triple boot, quarter boot, dan seterusnya.
+  * Kami TIDAK menerima untuk mengembalikan OS terdahulu. Baik itu windows, osx, GNU/Linux, BSD, dan jenis OS lainnya.
+  * Kami TIDAK bertanggung jawab atas kehilangan data dan sistem operasi terdahulu.
+  * Kami hanya menerima instalasi untuk satu perangkat dan satu pemasangan saja.
+  * Kami hanya melayani untuk memasang LangitKetujuh OS, bukan memasang sistem operasi selain LangitKetujuh OS.
+  * Kami hanya menggunakan partisi fat32 untuk partisi boot (`/boot` atau `/boot/efi`), xfs untuk sistem root (`/`) dan ext4 untuk partisi pengguna (`/home`).
