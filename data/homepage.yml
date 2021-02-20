@@ -110,14 +110,14 @@ service:
         label : "Fitur lebih lanjut"
         link : "fitur"
 
-    #- title : "LibreOffice perlengkapan perkantoran"
-      #images:
-      #- "gambar/service-game-maker.webp"
-      #content : "."
-      #button:
-        #enable : false
-        #label : "Fitur lebih lanjut"
-        #link : "fitur"
+    - title : "LibreOffice perlengkapan perkantoran"
+      images:
+      - "gambar/service-office.webp"
+      content : "LibreOffice merupakan paket perangkat lunak bebas untuk perlengkapan perkantoran yang lengkap. Libreoffice writer membuat booklet, makalah, skripsi, disertasi, dan tesis. LibreOffice Impress untuk Presentasi. LibreOffice Calc untuk laporan perhitungan. Bahkan mampu membuat database sendiri dengan LibreOffice base."
+      button:
+        enable : false
+        label : "Fitur lebih lanjut"
+        link : "fitur"
 
     #- title : "KDE Plasma lingkungan desktop"
       #images:
