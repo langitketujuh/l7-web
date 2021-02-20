@@ -18,7 +18,7 @@ Kdenlive merupakan salah satu pengolah video terbaik berbasis GNU/linux. Kdenliv
 
 ### Audacity (Audio Editor)
 
-Audacity merupakan salah satu aplikasi pemberi efek suara, mengoreksi berkas suara tertentu, atau sekedar menambahkan berbagai efek yang disediakan._
+Audacity merupakan salah satu aplikasi pemberi efek suara, mengoreksi berkas suara tertentu, atau sekedar menambahkan berbagai efek yang disediakan.
 
 {{< figure src=/cuplikan/audacity-langitketujuh-id-1.webp alt="Audacity LangitKetujuh OS">}}
 {{< figure src=/cuplikan/audacity-langitketujuh-id-2.webp alt="Audacity LangitKetujuh OS">}}
@@ -28,12 +28,6 @@ Audacity merupakan salah satu aplikasi pemberi efek suara, mengoreksi berkas sua
 {{< figure src=/cuplikan/ardour-langitketujuh-id-1.webp alt="Ardour LangitKetujuh OS">}}
 {{< figure src=/cuplikan/ardour-langitketujuh-id-2.webp alt="Ardour LangitKetujuh OS">}}
 {{< figure src=/cuplikan/ardour-langitketujuh-id-3.webp alt="Ardour LangitKetujuh OS">}}
-
-### Cadence (Produksi Audio)
-
-Cadence merupakan alat lengkap untuk mengolah audio, terutama untuk jack. Ada beberapa aplkasi lain yang disebut alat cadence, seperti Catarina, Catia, dan Claudia.
-
-{{< figure src=/cuplikan/cadence-langitketujuh-id.webp alt="Cadence LangitKetujuh OS">}}
 
 ### OBS Studio (Perekam Profesional)
 

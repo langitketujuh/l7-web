@@ -17,6 +17,8 @@ Perangkat lunak Scribus dirancang untuk kebutuhan tata letak, huruf dan mempersi
 
 {{< figure src=/cuplikan/scribus-langitketujuh-id-1.webp alt="Scribus LangitKetujuh OS">}}
 {{< figure src=/cuplikan/scribus-langitketujuh-id-2.webp alt="Scribus LangitKetujuh OS">}}
+{{< figure src=/cuplikan/scribus-langitketujuh-id-3.webp alt="Scribus LangitKetujuh OS">}}
+{{< figure src=/cuplikan/scribus-langitketujuh-id-4.webp alt="Scribus LangitKetujuh OS">}}
 
 ### LibreOffice Draw (PDF Editor)
 

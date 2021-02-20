@@ -1,5 +1,5 @@
 ---
-title: "Ilustrasi dan Digital Painting"
+title: "Ilustrasi dan Lukis Digital"
 date: 2020-12-12T23:23:23+07:00
 image: cuplikan/ilustrasi-dan-digital-painting.webp
 opengraph:

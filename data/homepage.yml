@@ -47,20 +47,89 @@ feature:
 service:
   enable : true
   service_item:
-    - title : "Distribusi khusus desainer, animator, fotografer, dan game kreator"
+    - title : "Ilustrasi dan lukis digital"
       images:
       - "gambar/service-illustration.webp"
-      - "gambar/service-animation.webp"
-      - "gambar/service-font-maker.webp"
-      - "gambar/service-game-maker.webp"
-      - "gambar/service-photography.webp"
-      - "gambar/service-audio-video.webp"
-      content : "LangitKetujuh Pro terdapat berbagai aplikasi penunjang kubutuhan desainer, seperti aplikasi vektor, animasi 2D/3D, digital painting, fotografi, dan pengembang game. Serta sudah dimasukkannya google fonts yang bebas digunakan untuk proyek komersil. Distribusi ini patut dicoba."
+      content : "LangitKetujuh OS terdapat aplikasi aplikasi Inkscape untuk pengolah vektor, GIMP pengolah raster dan Krita untuk lukis digital. Selain itu terdapat plugin GMIC sebagai framework pemroses gambar."
       button:
         enable : false
         label : "Fitur lebih lanjut"
         link : "fitur"
 
+    - title : "Animasi 2D/3D penuh fitur"
+      images:
+      - "gambar/service-animation.webp"
+      content : "Kreasi animasi 2D dan 3D dapat menggunakan Blender3D. Animasi vektor menggunakan Synfig Studio dan OpenToonz animasi frame per frame yang kaya fitur namun mudah digunakan secara bersamaan."
+      button:
+        enable : false
+        label : "Fitur lebih lanjut"
+        link : "fitur"
+
+    - title : "Font kreator dan Google Fonts"
+      images:
+      - "gambar/service-font-maker.webp"
+      content : "Lebih dari 1200+ font dari Google Fonts (pro) sudah terpasang dan dapat digunakan untuk keperluan ilustrasi, branding, projek desain UI secara bebas. Serta terdapat FontForge untuk membuat font dengan berbagai typeface."
+      button:
+        enable : false
+        label : "Fitur lebih lanjut"
+        link : "fitur"
+
+    - title : "Mesin game 2D/3D multiplatform"
+      images:
+      - "gambar/service-game-maker.webp"
+      content : "Godot multi platform pembuat game 2D dan 3D. Menyediakan banyak tools umum yang komprehensif dan dapat mengeksport ke beberapa platform desktop (Windows, Linux, MacOS), platform mobile (Android dan IOS) dan berbasis web (Html5)."
+      button:
+        enable : false
+        label : "Fitur lebih lanjut"
+        link : "fitur"
+
+    - title : "Penerbitan desktop dan desain tata letak"
+      images:
+      - "gambar/service-desktop-publishing.webp"
+      content : "Scribus sebagai aplikasi penerbitan desktop utama. Dirancang untuk tata letak, penyusunan huruf dan persiapan pengaturan gambar berkualitas profesional. Scribus juga dapat membuat presentasi dan bentuk PDF animasi dan interaktif."
+      button:
+        enable : false
+        label : "Fitur lebih lanjut"
+        link : "fitur"
+
+    - title : "Fotografi dan manajemen gambar"
+      images:
+      - "gambar/service-photography.webp"
+      content : "RawTherapee didesain khusus untuk berkas RAW yang kompatibel dengan format kamera DSLR (seperti NEF dan DNG), JPG dan TIFF. Digikam untuk mengatur seluruh koleksi gambar, membuat album dengan berbagai macam penanda, menjalankan pencarian lanjutan berbagai detail (tag, tanggal, lokasi, EXIF, IPTC, XMP, dsb) dan membuat katalog video."
+      button:
+        enable : false
+        label : "Fitur lebih lanjut"
+        link : "fitur"
+
+    - title : "Audio dan Video non-linear editing"
+      images:
+      - "gambar/service-audio-video.webp"
+      content : "Terdapat pengolah video terbaik dengan fitur yang melimpah. Audacity sebagai aplikasi efek suara dan mengoreksi berkas suara tertentu. OBS Studio sebagai perekam yang kaya fitur. SSR perekam yang ringan dan minimalis. Dan SoundKonverter sebagai konversi format berkas audio."
+      button:
+        enable : false
+        label : "Fitur lebih lanjut"
+        link : "fitur"
+
+    #- title : "LibreOffice perlengkapan perkantoran"
+      #images:
+      #- "gambar/service-game-maker.webp"
+      #content : "."
+      #button:
+        #enable : false
+        #label : "Fitur lebih lanjut"
+        #link : "fitur"
+
+    #- title : "KDE Plasma lingkungan desktop"
+      #images:
+      #- "gambar/service-game-maker.webp"
+      #content : "KDE Plasma menawarkan kemudahan dalam tampilannya, menyesuaikan kebutuhan Anda dengan aman, perlindungan privasi, menjadi kreatif dan produktif di tempat kerja. Serta menggunakan perangkat lunak sumber terbuka bebas dan terbaik."
+      #button:
+        #enable : false
+        #label : "Fitur lebih lanjut"
+        #link : "fitur"
+
+    #----------------------------------------------------------
+    
     #- title : "Dukungan performa lebih baik dengan runit init"
       #images:
       #- "gambar/service-b1.svg"
@@ -78,15 +147,6 @@ service:
         #enable : false
         #label : "Fitur lebih lanjut"
         #link : "musl"
-
-    #- title : "KDE lingkungan destop yang sederhana"
-      #images:
-      #- "gambar/service-d1.svg"
-      #content : "KDE Plasma menawarkan kemudahan dalam tampilannya, menyesuaikan kebutuhan Anda dengan aman, perlindungan privasi, menjadi kreatif dan produktif di tempat kerja. Serta menggunakan perangkat lunak sumber terbuka bebas yang terbaik."
-      #button:
-        #enable : false
-        #label : "Fitur lebih lanjut"
-        #link : "plasma"
 
 ################### Screenshot ########################
 screenshot:

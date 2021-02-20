@@ -103,9 +103,9 @@ identifier = "cuplikan"
 weight = 5
 
 [[menu.main]]
-name = "Ilustrasi dan Digital painting"
-identifier = "ilustrasi-dan-digital-painting"
-URL = "cuplikan/ilustrasi-dan-digital-painting"
+name = "Ilustrasi dan Lukis Digital"
+identifier = "ilustrasi-dan-lukis-digital"
+URL = "cuplikan/ilustrasi-dan-lukis-digital"
 parent = "cuplikan"
 weight = 1
 
@@ -233,7 +233,7 @@ weight = 4
 
 footer_content = "Pilihan Tepat untuk Desainer dan Pengguna Desktop"
 # copyright
-copyright = "2020 [LangitKetujuh ID](https://gitlab.com/langitketujuh). 2020 [VoidLinux kontributor](https://github.com/orgs/void-linux/people). Hak Cipta 2008-2018 [Juan RP](https://gitlab.com/xtraeme) dan kontributor. [Linux®](https://www.linuxfoundation.org/programs/legal/trademark/attribution) telah didaftarkan dengan merek dagang dari Linus Torvalds. [KDE® and the K Desktop Environment® logo](https://kde.org/media/images/trademark_kde_gear_black_logo.png) telah didaftarkan dengan branding [KDE e.V](https://ev.kde.org/). Template oleh [Themefisher](https://themefisher.com/). Dikembangkan oleh [Gethugothemes](https://gethugothemes.com/). Ilustrasi oleh [Hervy Qurrotul](mailto:hervyqa@pm.me)."
+copyright = "2021 [LangitKetujuh ID](https://gitlab.com/langitketujuh). 2020 [VoidLinux kontributor](https://github.com/orgs/void-linux/people). Hak Cipta 2008-2018 [Juan RP](https://gitlab.com/xtraeme) dan kontributor. [Linux®](https://www.linuxfoundation.org/programs/legal/trademark/attribution) telah didaftarkan dengan merek dagang dari Linus Torvalds. [KDE® and the K Desktop Environment® logo](https://kde.org/media/images/trademark_kde_gear_black_logo.png) telah didaftarkan dengan branding [KDE e.V](https://ev.kde.org/). Template oleh [Themefisher](https://themefisher.com/). Dikembangkan oleh [Gethugothemes](https://gethugothemes.com/). Ilustrasi oleh [Hervy Qurrotul](mailto:hervyqa@pm.me)."
 
 # PRELOADER
 
