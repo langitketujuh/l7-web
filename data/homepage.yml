@@ -41,7 +41,7 @@ feature:
     # feature item loop
     - name : "Dukungan instalasi (pro)"
       icon : "ti-headphone-alt"
-      content : "Anda akan dibantu untuk memasang OS hingga selesai oleh tenaga ahli. Hubungi kami melalui telegram, whatsapp atau surel."
+      content : "Anda akan dibantu untuk memasang OS hingga selesai oleh tenaga ahli. Hubungi kami melalui telegram atau surel."
 
 ######################### Service #####################
 service:
