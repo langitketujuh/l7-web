@@ -226,9 +226,9 @@ weight = 5
 # PARAMETER
 
 [params]
-  logo = "gambar/logo-l7.svg"
+  logo = "gambar/logo.webp"
   logo_width = "70px"
-  logo_footer = "gambar/logo-l7.svg"
+  logo_footer = "gambar/logo.webp"
   logo_width_footer = "60px"
   author = "LangitKetujuh ID"
   opengraphimage = "gambar/thumbnail.jpg"
