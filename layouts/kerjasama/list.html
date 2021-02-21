@@ -78,7 +78,10 @@
           <div class="form-group row">
             <label class="col-sm-4 col-form-label">Website (opsional):</label>
             <div class="col-sm-8 input-group">
-              <input type="text" class="form-control" id="website-institusi" name="website-institusi" placeholder="">
+              <div class="input-group-prepend">
+                  <span class="input-group-text" id="website-institusi">https://</span>
+              </div>
+              <input type="text" class="form-control" id="website-institusi" name="website-institusi" aria-label="website-institusi" aria-describedby="inputWebsiteInstitusi" placeholder="">
             </div>
           </div>
           <h4 class="my-3">Kerjasama</h4>
@@ -87,6 +90,7 @@
             <div class="col-sm-8 input-group">
               <select class="custom-select" id="jenis-kerjasama" name="jenis-kerjasama[]" required="true">
                 <option selected id="media-partner" value="media-partner">Media Partner</option>
+                <option id="kolaborasi" value="kolaborasi">Kolaborasi</option>
                 <option id="sponsorship" value="sponsorship">Sponsorship</option>
               </select>
             </div>
@@ -121,7 +125,7 @@
           <div class="form-group row mt-3">
             <label class="col-sm-4 col-form-label">Paket Benefit 1:</label>
             <div class="col-sm-8 input-group">
-            <textarea name="paket-benefit-1" id="paket-benefit-1" class="form-control" placeholder=""></textarea>
+            <textarea name="paket-benefit-1" id="paket-benefit-1" class="form-control" placeholder=""required="true"></textarea>
             </div>
           </div>
           <div class="form-group row mt-3">
@@ -153,7 +157,7 @@
             <label class="col-sm-4 col-form-label">Facebook:</label>
             <div class="col-sm-8 input-group">
               <div class="input-group-prepend">
-                  <span class="input-group-text" id="facebook">facebook.com/</span>
+                  <span class="input-group-text" id="facebook">fb.com/</span>
               </div>
               <input type="text" class="form-control" id="facebook" name="facebook" aria-label="facebook" aria-describedby="inputFacebook" placeholder="">
             </div>
@@ -162,7 +166,7 @@
             <label class="col-sm-4 col-form-label">Instagram:</label>
             <div class="col-sm-8 input-group">
               <div class="input-group-prepend">
-                  <span class="input-group-text" id="instagram">instagram.com/</span>
+                  <span class="input-group-text" id="instagram">@</span>
               </div>
               <input type="text" class="form-control" id="instagram" name="instagram" aria-label="instagram" aria-describedby="inputInstagram" placeholder="">
             </div>
@@ -171,7 +175,7 @@
             <label class="col-sm-4 col-form-label">Twitter:</label>
             <div class="col-sm-8 input-group">
               <div class="input-group-prepend">
-                  <span class="input-group-text" id="twitter">twitter.com/</span>
+                  <span class="input-group-text" id="twitter">@</span>
               </div>
               <input type="text" class="form-control" id="twitter" name="twitter" aria-label="twitter" aria-describedby="inputTwitter" placeholder="">
             </div>
