@@ -10,7 +10,7 @@ draft: false
 ---
 
 ### Butuh bantuan?
-Terima kasih telah memberikan kritik dan saran kepada tim Langitketujuh OS. Anda juga dapat menyapa tim L7 melalui aplikasi telegram dibawah ini. Syukran.
+Terima kasih telah memberikan kritik dan saran kepada tim Langitketujuh OS. Anda juga dapat menyapa tim L7 melalui aplikasi telegram dengan tautan dibawah ini. Syukran.
 
 * **Layanan: [@langitketujuhCS](https://t.me/langitketujuhCS)**
 * **Kanal: [@langitketujuhID](https://t.me/langitketujuhID)**
