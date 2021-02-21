@@ -19,6 +19,6 @@ call_to_action:
     link : "/blog"
 ---
 
-Anda sudah mengisi formulir halaman Kerjasama.
+Anda sudah mengisi formulir halaman Kerjasama. Kami akan mengevalusi dan mengabari segera. ^^
 
 _Syukran wa jazaakumullahu khairan katsiran._
