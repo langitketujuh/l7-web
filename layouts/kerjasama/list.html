@@ -1,0 +1,201 @@
+{{ define "main" }}
+
+<section class="section bg-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 mb-4 mb-lg-0">
+        <form name="kerjasama" netlify-honeypot="bot-field" method="POST" data-netlify="true">
+          <h4 class="mt-3" >Institusi</h4>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Nama Institusi:</label>
+            <div class="col-sm-8 input-group">
+              <input type="text" class="form-control" id="nama-institusi" name="nama-institusi" placeholder="" required="true">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Atas Nama:</label>
+            <div class="col-sm-8 input-group">
+              <input type="text" class="form-control" id="atas-nama" name="atas-nama" placeholder="" required="true">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Jenis Institusi:</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" id="jenis-institusi" name="jenis-institusi[]" required="true">
+                <option selected id="komunitas" value="komunitas">Komunitas</option>
+                <option id="studio" value="studio">Studio</option>
+                <option id="univesitas" value="universitas">Universitas</option>
+                <option id="organisasi" value="organisasi">Organisasi</option>
+                <option id="umkm" value="umkm">UMKM (Usaha Mikro Kecil Menengah)</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-4 col-form-label">Bergerak dalam bidang:</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" id="bergerak-dalam-bidang" name="bergerak-dalam-bidang[]" required="true">
+                <option selected id="konten-kreator" value="konten-kreator">Konten Kreator</option>
+                <option id="aktifis-free-dakwah" value="aktifis-dakwah">Aktifis Dakwah</option>
+                <option id="aktifis-free-software" value="aktifis-free-software">Aktifis Free Software</option>
+                <option id="e-course" value="e-course">E-Course</option>
+                <option id="branding-desain" value="branding-desain">Branding Desain</option>
+                <option id="pendidikan" value="pendidikan">Pendidikan</option>
+                <option id="fotografer" value="fotografer">Fotografer</option>
+                <option id="font-kreator" value="font-kreator">Font Kreator</option>
+                <option id="game-kreator" value="game-kreator">Game Kreator</option>
+                <option id="ilustrasi-komik" value="ilustrasi-komik">Ilustrasi Komik</option>
+                <option id="ilustrasi-buku-anak" value="ilustrasi-buku-anak">Ilustrasi Buku Anak</option>
+                <option id="industri" value="industri">Industri</option>
+                <option id="infrastruktur" value="infrastruktur">Infrastruktur</option>
+                <option id="logistik" value="logistik">Logistik</option>
+                <option id="lingkungan-hidup" value="lingkungan-hidup">Lingkungan Hidup</option>
+                <option id="logo-desain" value="logo-desain">Logo Desain</option>
+                <option id="percetakan" value="percetakan">Percetakan</option>
+                <option id="penerjemahan" value="penerjemahan">Penerjemahan</option>
+                <option id="software-house" value="software-house">Software House</option>
+              </select>
+            </div>
+          </div>
+          <h4 class="my-3" >Kontak</h4>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Email Institusi:</label>
+            <div class="col-sm-8 input-group">
+              <input type="text" class="form-control" id="email-institusi" name="email-institusi" placeholder="" required="true">
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-4 col-form-label">Nomer Telefon/HP:</label>
+            <div class="col-sm-8 input-group">
+              <input type="number" class="form-control" id="nomer-telp" name="nomer-telp" placeholder="" required="true">
+            </div>
+          </div>
+          <h4 class="my-3">Kerjasama</h4>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Jenis Kerjasama:</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" id="jenis-kerjasama" name="jenis-kerjasama[]" required="true">
+                <option selected id="media-partner" value="media-partner">Media Partner</option>
+                <option id="sponsorship" value="sponsorship">Sponsorship</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Durasi: <br>(disepakati dari tanggal persetujuan)</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" id="durasi-kerjasama" name="durasi-kerjasama[]" required="true">
+                <option selected id="1-tahun" value="1-tahun">1 Tahun</option>
+                <option id="2-tahun" value="2-tahun">2 Tahun</option>
+                <option id="3-tahun" value="3-tahun">3 Tahun</option>
+                <option id="kondisional" value="kondisinal">Kondisional</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-4 col-form-label">Tujuan dan Minat Bekerjasama:</label>
+            <div class="col-sm-8 input-group">
+            <textarea name="tujuan-kerjasama" id="tujuan-kerjasama" class="form-control" placeholder="Alasan Bermitra"></textarea>
+            </div>
+          </div>
+          <h4 class="my-3" >Benefit</h4>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Tautan Benefit (opsional):</label>
+            <div class="col-sm-8 input-group">
+              <div class="input-group-prepend">
+                  <span class="input-group-text" id="tautan-benefit">https://</span>
+              </div>
+              <input type="text" class="form-control" id="tautan-benefit" name="tautan-benefit" aria-label="tautan-benefit" aria-describedby="inputTautanBenefit" placeholder="">
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-4 col-form-label">Paket Benefit 1:</label>
+            <div class="col-sm-8 input-group">
+            <textarea name="paket-benefit-1" id="paket-benefit-1" class="form-control" placeholder=""></textarea>
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-4 col-form-label">Paket Benefit 2 (opsional):</label>
+            <div class="col-sm-8 input-group">
+            <textarea name="paket-benefit-2" id="paket-benefit-2" class="form-control" placeholder=""></textarea>
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-4 col-form-label">Paket Benefit 3 (opsional):</label>
+            <div class="col-sm-8 input-group">
+            <textarea name="paket-benefit-3" id="paket-benefit-3" class="form-control" placeholder=""></textarea>
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-4 col-form-label">Paket Benefit 4 (opsional):</label>
+            <div class="col-sm-8 input-group">
+            <textarea name="paket-benefit-4" id="paket-benefit-4" class="form-control" placeholder=""></textarea>
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-4 col-form-label">Paket Benefit 5 (opsional):</label>
+            <div class="col-sm-8 input-group">
+            <textarea name="paket-benefit-5" id="paket-benefit-5" class="form-control" placeholder=""></textarea>
+            </div>
+          </div>
+          <h4 class="my-3" >Sosial Media</h4>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Facebook:</label>
+            <div class="col-sm-8 input-group">
+              <div class="input-group-prepend">
+                  <span class="input-group-text" id="facebook">facebook.com/</span>
+              </div>
+              <input type="text" class="form-control" id="facebook" name="facebook" aria-label="facebook" aria-describedby="inputFacebook" placeholder="">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Instagram:</label>
+            <div class="col-sm-8 input-group">
+              <div class="input-group-prepend">
+                  <span class="input-group-text" id="instagram">instagram.com/</span>
+              </div>
+              <input type="text" class="form-control" id="instagram" name="instagram" aria-label="instagram" aria-describedby="inputInstagram" placeholder="">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Twitter:</label>
+            <div class="col-sm-8 input-group">
+              <div class="input-group-prepend">
+                  <span class="input-group-text" id="twitter">twitter.com/</span>
+              </div>
+              <input type="text" class="form-control" id="twitter" name="twitter" aria-label="twitter" aria-describedby="inputTwitter" placeholder="">
+            </div>
+          </div>
+          <div class="form-group row mt-3 mb-5">
+            <label class="col-sm-4 col-form-label">Telegram:</label>
+            <div class="col-sm-8 input-group">
+              <div class="input-group-prepend">
+                  <span class="input-group-text" id="telegram">@</span>
+              </div>
+              <input type="text" class="form-control" id="telegram" name="telegram" aria-label="telegram" aria-describedby="inputTelegram" placeholder="" required="true">
+            </div>
+          </div>
+          <div class="form-group mb-3">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck"  name="data" value="ya, saya setuju" required="true">
+                <label class="form-check-label" for="gridCheck">
+                Saya telah menyetujui dan mematuhi <a href="/peraturan-layanan">peraturan layanan</a> & <a href="/kebijakan-privasi">kebijakan privasi</a>.
+                </label>
+              </div>
+          </div>
+        <div>
+        <button type="submit" value="send" class="btn btn-primary">Kirim</button>
+        </div>
+        </form>
+      </div>
+      
+      <div class="col-lg-5 content">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- call to action -->
+
+<!-- /call to action -->
+
+{{ end }}
