@@ -1,0 +1,32 @@
+---
+title: "Validator EPS8: Fitur Baru L7-Export"
+date: 2021-03-11T12:08:20+07:00
+image: blog/validator-eps8-fitur-baru-l7-export.webp
+opengraph:
+  image: blog/validator-eps8-fitur-baru-l7-export.webp
+# post type (regular/featured)
+type: "regular"
+description: ""
+author: "LangitKetujuh ID"
+categories:
+  - exporter
+tag:
+  - inkscape
+draft: false
+---
+
+Bismillah.
+
+Validator EPS8 merupakan salah satu fitur untuk menyeleksi objek yang ada didalam berkas `.svg`. Tujuannya untuk mengetahui objek mana saja yang tidak didukung sepenuhnya oleh EPS8. Misalnya menemukan stroke yang belum dikonversi, objek transparan, bergradien, blur, filter efek, dan objek yang belum terkonversi sebagai path (tapak). Sehingga Anda tidak perlu khawatir lagi hasil ekspornya menjadi raster/bitmap.
+
+Sebenarnya EPS8 sendiri tidak mendukung mendukung transparansi dan efek blur sehingga fitur validator untuk EPS8 ini sangat dibutuhkan untuk mikrostoker.
+
+Penasaran dengan cara kerjanya? Simak video demonstrasi berikut ini.
+
+{{< video validator-eps8-fitur-baru-l7-export.mp4 >}}
+
+Pada demonstrasi tersebut ada dua berkas, valid.svg dan nonvalid.svg. Yang dimana valid svg bersih dari objek yang bukan path, aman dari blur, aman dari gradasi dan transparan. Sedangkan nonvalid.svg berisi objek yang sebaliknya, tidak aman. 
+
+Berkas `.svg` yang telah dikatakan "Safe" maka akan dilanjutkan untuk ekspor ke Marketplace. Jika ada beberapa objek tidak lolos/valid maka revisi dahulu dengan menemukan setiap properti objek. Gunakan CTRL+F untuk mencari propertinya.
+
+_Barakallahu fiikum._
