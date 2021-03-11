@@ -19,7 +19,7 @@ Bismillah.
 
 Validator EPS8 merupakan salah satu fitur untuk menyeleksi objek yang ada didalam berkas `.svg`. Tujuannya untuk mengetahui objek mana saja yang tidak didukung sepenuhnya oleh EPS8. Misalnya menemukan stroke yang belum dikonversi, objek transparan, bergradien, blur, filter efek, dan objek yang belum terkonversi sebagai path (tapak). Sehingga Anda tidak perlu khawatir lagi hasil ekspornya menjadi raster/bitmap.
 
-Sebenarnya EPS8 sendiri tidak mendukung mendukung transparansi dan efek blur sehingga fitur validator untuk EPS8 ini sangat dibutuhkan untuk mikrostoker.
+Sebenarnya EPS8 sendiri tidak mendukung transparansi dan efek blur sehingga fitur validator untuk EPS8 ini sangat dibutuhkan untuk mikrostoker.
 
 Penasaran dengan cara kerjanya? Simak video demonstrasi berikut ini.
 
