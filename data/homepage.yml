@@ -16,7 +16,7 @@ feature:
     # feature item loop
     - name : "Musl libc"
       icon : "ti-bolt"
-      content : "Libc modern yang mengutamakan efisiensi sumber daya. Render audio/video dan kompil aplikasi semakin cepat."
+      content : "Libc modern yang mengutamakan efisiensi sumber daya. Render audio/video dan kompil semakin cepat."
 
     # feature item loop
     - name : "Runit init"
@@ -36,7 +36,7 @@ feature:
     # feature item loop
     - name : "Perlengkapan Desain (pro)"
       icon : "ti-palette"
-      content : "Perangkat lunak untuk ilustrasi, animasi, digital painting, fotografi, dan game kreator. Google fonts sudah masuk di dalamnya."
+      content : "Perangkat lunak untuk ilustrasi, animasi, painting, fotografi, dan game kreator. Google fonts termasuk di dalamnya."
 
     # feature item loop
     - name : "Dukungan instalasi (pro)"

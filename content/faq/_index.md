@@ -46,7 +46,7 @@ Tidak bisa langsung, karena aplikasi nonfree kebanyakan dibangun menggunakan gli
 Tidak bisa, karena aplikasi Appimage kebanyakan dibangun menggunakan glibc. Appimage hanya bisa dijalankan di Glibc. Anda bisa melihat perbedaan fitur Langitketujuh di [halaman fitur](/fitur).
 {{</ faq >}}
 
-{{< faq "Apakah saya boleh mengandakan dan membagikan berkas `.iso` ke rekan dan teman saya?" >}}
+{{< faq "Apakah saya boleh menggandakan dan membagikan berkas `.iso` ke rekan dan teman saya?" >}}
 Ya boleh. Asalkan tidak mengupload iso ke website/media lain. Sebab, berkas `.iso` akan diperbarui jika ada pembaruan.
 {{</ faq >}}
 
