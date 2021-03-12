@@ -8,29 +8,6 @@ opengraph:
   image: gambar/thumbnail.jpg
 draft: false
 
-promusl:
-  name : "PRO (Donasi)"
-  type: "musl"
-  type_ver : "v0.9"
-  info : "Terbaik untuk Professional"
-  services:
-  - "**[+] Fitur Lite Musl.**"
-  - "**[+] Dukungan Instalasi.**"
-  - "Plugin GMIC-Qt."
-  - "Software Fotografi."
-  - "Software Video Editor."
-  - "Software Digital Painting."
-  - "Software Audio Production."
-  - "Software Desain Animasi 2D/3D."
-  - "Software Game Kreator 2D/3D."
-  - "Fonta Google untuk proyek komersil."
-  - "Dukungan Wine 64-bit."
-  - "**[+] Dukungan Musl libc (Lebih Efisien).**"
-  button:
-    enable : true
-    label : "Pilih"
-    link : "pro-musl"
-
 proglibc:
   name : "PRO (Donasi)"
   type: "glibc"
@@ -55,6 +32,29 @@ proglibc:
     enable : true
     label : "Pilih"
     link : "pro-glibc"
+
+promusl:
+  name : "PRO (Donasi)"
+  type: "musl"
+  type_ver : "v0.9"
+  info : "Terbaik untuk Professional"
+  services:
+  - "**[+] Fitur Lite Musl.**"
+  - "**[+] Dukungan Instalasi.**"
+  - "Plugin GMIC-Qt."
+  - "Software Fotografi."
+  - "Software Video Editor."
+  - "Software Digital Painting."
+  - "Software Audio Production."
+  - "Software Desain Animasi 2D/3D."
+  - "Software Game Kreator 2D/3D."
+  - "Fonta Google untuk proyek komersil."
+  - "Dukungan Wine 64-bit."
+  - "**[+] Dukungan Musl libc (Lebih Efisien).**"
+  button:
+    enable : true
+    label : "Pilih"
+    link : "pro-musl"
 
 call_to_action:
   enable : true

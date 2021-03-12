@@ -8,24 +8,6 @@ opengraph:
   image: gambar/thumbnail.jpg
 draft: false
 
-litemusl:
-  name : "LITE (Gratis)"
-  type: "musl"
-  type_ver : "v0.9"
-  info : "Terbaik untuk Rumahan"
-  services:
-  - "Tersedia Codec Audio dan Video."
-  - "Libreoffice Paket Aplikasi Perkantoran."
-  - "Software Desain Vector dan Raster."
-  - "Kalibrasi DisplayCAL dan Clight."
-  - "Deteksi HP dan Epson Printer."
-  - "Dukungan Wine 64-bit."
-  - "**[+] Dukungan Musl libc (Lebih Efisien).**"
-  button:
-    enable : true
-    label : "Unduh"
-    link : "https://osdn.net/dl/langitketujuh/langitketujuh-0.9-lite-live-x86_64-musl-5.10.16_1-mxb6bf2.iso"
-    
 liteglibc:
   name : "LITE (Gratis)"
   type: "glibc"
@@ -45,6 +27,24 @@ liteglibc:
     enable : true
     label : "Unduh"
     link : "https://osdn.net/dl/langitketujuh/langitketujuh-0.9-lite-live-x86_64-5.10.16_1-l0tqrke.iso"
+
+litemusl:
+  name : "LITE (Gratis)"
+  type: "musl"
+  type_ver : "v0.9"
+  info : "Terbaik untuk Rumahan"
+  services:
+  - "Tersedia Codec Audio dan Video."
+  - "Libreoffice Paket Aplikasi Perkantoran."
+  - "Software Desain Vector dan Raster."
+  - "Kalibrasi DisplayCAL dan Clight."
+  - "Deteksi HP dan Epson Printer."
+  - "Dukungan Wine 64-bit."
+  - "**[+] Dukungan Musl libc (Lebih Efisien).**"
+  button:
+    enable : true
+    label : "Unduh"
+    link : "https://osdn.net/dl/langitketujuh/langitketujuh-0.9-lite-live-x86_64-musl-5.10.16_1-mxb6bf2.iso"
 
 call_to_action:
   enable : true

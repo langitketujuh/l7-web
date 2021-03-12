@@ -12,7 +12,7 @@
   <div class="container pricing-container">
     <div class="row justify-content-center align-items-center">
       <div class="col-lg-5 col-recommended">
-        {{ with .Params.LiteMusl }}
+        {{ with .Params.LiteGlibc }}
         <div class="card border-0 shadow-lg">
           <div class="card-body text-center py-5">
             <h3 class="mb-4">{{ .name | markdownify }}</h3>
@@ -33,7 +33,7 @@
         {{ end }}
       </div>
       <div class="col-lg-5 mb-5 mb-lg-0 px-3 pl-3 px-lg-0">
-        {{ with .Params.LiteGlibc }}
+        {{ with .Params.LiteMusl }}
         <div class="card shadow">
           <div class="card-body text-center py-5">
             <h3 class="mb-4">{{ .name | markdownify }}</h3>
