@@ -1,7 +1,7 @@
 ---
 title: "Adversus is a web-based dialer and practical CRM solution"
 date: 2020-04-18T10:07:21+06:00
-image: "gambar/blog/post-1.webp"
+image: "media/media/blog/post-1.webp"
 # post type (regular/featured)
 type: "featured"
 description: "This is meta description"
@@ -15,7 +15,7 @@ include_toc: true
 draft: true
 
 opengraph:
-  image: "gambar/post-1.jpg"
+  image: "media/post-1.jpg"
 ---
 
 #### Heading example
@@ -169,7 +169,7 @@ Markdown | Less | Pretty
 
 ##### Image
 
-![image](../../gambar/blog/post-6.webp)
+![image](../../media/media/blog/post-6.webp)
 
 <hr>
 

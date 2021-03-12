@@ -1,9 +1,9 @@
 ---
 title: "Tips Optimalkan Font di Langitketujuh dan Voidlinux"
 date: 2020-12-21T10:26:46+07:00
-image: blog/tips-optimalkan-font-di-langitketujuh-dan-voidlinux.webp
+image: media/blog/tips-optimalkan-font-di-langitketujuh-dan-voidlinux.webp
 opengraph:
-  image: blog/tips-optimalkan-font-di-langitketujuh-dan-voidlinux.webp
+  image: media/blog/tips-optimalkan-font-di-langitketujuh-dan-voidlinux.webp
 # post type (regular/featured)
 type: "regular"
 description: ""
@@ -42,19 +42,19 @@ Tujuannya untuk mengurangi Preview render ketika membuka perangkat lunak grafis.
 
 Pertama, buka "Font Management".
 
-{{< figure src=/blog/font-manager-open.webp alt="Font Management Open">}}
+{{< figure src=/media/blog/font-manager-open.webp alt="Font Management Open">}}
 
 Seleksi font yang akan dinonaktifkan. Gunakan Shift untuk memilih banyak font. Misalnya menonaktifkan semua font Noto, kecuali Noto sans dan Noto serif. Lalu klik kanan, pilih "Disable".
 
-{{< figure src=/blog/font-manager-selection.webp alt="Font Management Selection">}}
+{{< figure src=/media/blog/font-manager-selection.webp alt="Font Management Selection">}}
 
 Pilih "Disable" lagi.
 
-{{< figure src=/blog/font-manager-disable.webp alt="Font Management Disable">}}
+{{< figure src=/media/blog/font-manager-disable.webp alt="Font Management Disable">}}
 
 Maka font yang terpilih tadi akan di nonaktifkan yang ditandai dengan warna merah.
 
-{{< figure src=/blog/font-manager-non-active.webp alt="Font Management Non Active">}}
+{{< figure src=/media/blog/font-manager-non-active.webp alt="Font Management Non Active">}}
 
 ### Menggunakan Docker Text di Inkscape
 
@@ -64,7 +64,7 @@ Kelebihan dari font preview yaitu bisa langsung memilih font yang diinginkan, na
 
 Berbeda dengan doker teks and font. Pintasannya **Ctrl+Shift+T** . Render preview fontnya secara bergantian (satu-satu), sehingga lebih cepat untuk mengatur font yang diinginkan.
 
-{{< figure src=/blog/inkscape-better-font-choice.webp alt="Dock text for Inkscape">}}
+{{< figure src=/media/blog/inkscape-better-font-choice.webp alt="Dock text for Inkscape">}}
 
 Demikian tips untuk mengoptimalkan render font di Langitketujuh dan Voidlinux.
 

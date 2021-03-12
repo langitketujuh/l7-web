@@ -23,7 +23,7 @@
       content="{{ .Page.Params.Opengraph.Image | absURL }}">
 {{- else if eq .Page.Params.Type "post" }}
 <meta property="og:image"
-      content="{{ "gambar/thumbnail.jpg" | absURL }}">
+      content="{{ "media/beranda/thumbnail.jpg" | absURL }}">
 {{- else if .Site.Params.Opengraphimage }}
 <meta property="og:image"
       content="{{ .Site.Params.Opengraphimage | absURL }}">

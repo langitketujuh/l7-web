@@ -1,7 +1,7 @@
 ####################### Banner #########################
 banner:
   title : "Pilihan Tepat untuk Desainer<br>dan Pengguna Desktop"
-  image : "gambar/banner-min.svg"
+  image : "media/beranda/banner-min.svg"
   content : "Distribusi GNU/Linux dengan Musl berdasar pada VoidLinux. Menggunakan KDE lingkungan desktop, pembaruan stabil rilis bergulir dan sumber daya yang efisien."
   button:
     enable : true
@@ -49,7 +49,7 @@ service:
   service_item:
     - title : "Ilustrasi dan lukis digital"
       images:
-      - "gambar/service-illustration.webp"
+      - "media/beranda/service-illustration.webp"
       content : "LangitKetujuh OS terdapat aplikasi aplikasi Inkscape untuk pengolah vektor, GIMP pengolah raster dan Krita untuk lukis digital. Selain itu terdapat plugin GMIC sebagai framework pemroses gambar."
       button:
         enable : false
@@ -58,7 +58,7 @@ service:
 
     - title : "Animasi 2D/3D penuh fitur"
       images:
-      - "gambar/service-animation.webp"
+      - "media/beranda/service-animation.webp"
       content : "Kreasi animasi 2D dan 3D dapat menggunakan Blender3D. Animasi vektor menggunakan Synfig Studio dan OpenToonz animasi frame per frame yang kaya fitur namun mudah digunakan secara bersamaan."
       button:
         enable : false
@@ -67,7 +67,7 @@ service:
 
     - title : "Font kreator dan Google Fonts"
       images:
-      - "gambar/service-font-maker.webp"
+      - "media/beranda/service-font-maker.webp"
       content : "Lebih dari 1200+ font dari Google Fonts (pro) sudah terpasang dan dapat digunakan untuk keperluan ilustrasi, branding, projek desain UI secara bebas. Serta terdapat FontForge untuk membuat font dengan berbagai typeface."
       button:
         enable : false
@@ -76,7 +76,7 @@ service:
 
     - title : "Mesin game 2D/3D multiplatform"
       images:
-      - "gambar/service-game-maker.webp"
+      - "media/beranda/service-game-maker.webp"
       content : "Godot multi platform pembuat game 2D dan 3D. Menyediakan banyak tools umum yang komprehensif dan dapat mengeksport ke beberapa platform desktop (Windows, Linux, MacOS), platform mobile (Android dan IOS) dan berbasis web (Html5)."
       button:
         enable : false
@@ -85,7 +85,7 @@ service:
 
     - title : "Penerbitan desktop dan desain tata letak"
       images:
-      - "gambar/service-desktop-publishing.webp"
+      - "media/beranda/service-desktop-publishing.webp"
       content : "Scribus sebagai aplikasi penerbitan desktop utama. Dirancang untuk tata letak, penyusunan huruf dan persiapan pengaturan gambar berkualitas profesional. Scribus juga dapat membuat presentasi dan bentuk PDF animasi dan interaktif."
       button:
         enable : false
@@ -94,7 +94,7 @@ service:
 
     - title : "Fotografi dan manajemen gambar"
       images:
-      - "gambar/service-photography.webp"
+      - "media/beranda/service-photography.webp"
       content : "RawTherapee didesain khusus untuk berkas RAW yang kompatibel dengan format kamera DSLR (seperti NEF dan DNG), JPG dan TIFF. Digikam untuk mengatur seluruh koleksi gambar, membuat album dengan berbagai macam penanda, menjalankan pencarian lanjutan berbagai detail (tag, tanggal, lokasi, EXIF, IPTC, XMP, dsb) dan membuat katalog video."
       button:
         enable : false
@@ -103,7 +103,7 @@ service:
 
     - title : "Audio dan Video non-linear editing"
       images:
-      - "gambar/service-audio-video.webp"
+      - "media/beranda/service-audio-video.webp"
       content : "Terdapat pengolah video terbaik dengan fitur yang melimpah. Audacity sebagai aplikasi efek suara dan mengoreksi berkas suara tertentu. OBS Studio sebagai perekam yang kaya fitur. SSR perekam yang ringan dan minimalis. Dan SoundKonverter sebagai konversi format berkas audio."
       button:
         enable : false
@@ -112,7 +112,7 @@ service:
 
     - title : "LibreOffice perlengkapan perkantoran"
       images:
-      - "gambar/service-office.webp"
+      - "media/beranda/service-office.webp"
       content : "LibreOffice merupakan paket perangkat lunak bebas untuk perlengkapan perkantoran yang lengkap. Libreoffice writer membuat booklet, makalah, skripsi, disertasi, dan tesis. LibreOffice Impress untuk Presentasi. LibreOffice Calc untuk laporan perhitungan. Bahkan mampu membuat database sendiri dengan LibreOffice base."
       button:
         enable : false
@@ -121,7 +121,7 @@ service:
 
     #- title : "KDE Plasma lingkungan desktop"
       #images:
-      #- "gambar/service-game-maker.webp"
+      #- "media/beranda/service-game-maker.webp"
       #content : "KDE Plasma menawarkan kemudahan dalam tampilannya, menyesuaikan kebutuhan Anda dengan aman, perlindungan privasi, menjadi kreatif dan produktif di tempat kerja. Serta menggunakan perangkat lunak sumber terbuka bebas dan terbaik."
       #button:
         #enable : false
@@ -132,7 +132,7 @@ service:
     
     #- title : "Dukungan performa lebih baik dengan runit init"
       #images:
-      #- "gambar/service-b1.svg"
+      #- "media/beranda/service-b1.svg"
       #content : "Runit lebih sederhana dan berukuran kecil, runit juga dapat menggantikan sysvinit sebagai pid1. Secara konsep runit membangun struktur depedensi yang fleksibel dan sistem terdistribusi, atau mempercepat perubahan runlevel paralel dengan cepat (termasuk boot awal)."
       #button:
         #enable : false
@@ -141,7 +141,7 @@ service:
 
     #- title : "Lebih efisien dengan musl libc"
       #images:
-      #- "gambar/service-c1.svg"
+      #- "media/beranda/service-c1.svg"
       #content : "Efisiensi musl tidak tertandingi dalam implementasi libc Linux. Dirancang dari bawah ke atas untuk tautan statis. musl juga menampilkan implementasi post-NPTL, implementasi POSIX pertama untuk Linux, dan yang pertama ditujukan untuk kesesuaian dan ketahanan yang lengkap."
       #button:
         #enable : false
@@ -152,17 +152,17 @@ service:
 screenshot:
   enable : false
   title : "Ciptakan pengalaman Free Software <br> bersama LangitKetujuh GNU/Linux"
-  image : "gambar/screenshot.svg"
+  image : "media/beranda/screenshot.svg"
 
 ##################### Call to action #####################
 call_to_action:
   enable : true
   title : "Siap menjadi Profesional"
-  image : "gambar/pro-min.svg"
+  image : "media/beranda/pro-min.svg"
   content : "Kami telah mengoptimasi pemilihan sistem yang lebih baik dan menyesuaikan aplikasi sesuai kebutuhan spesifik. LangitKetujuh GNU/Linux akan membantu Anda menjadi desainer yang tangguh dengan perangkat lunak terbuka."
   button:
     enable : true
     label : "Unduh Pro"
     link : "pro"
 
-image : "gambar/thumbnail.jpg"
+image : "media/beranda/thumbnail.jpg"

@@ -3,15 +3,15 @@ title: "Fitur Lite dan Pro"
 subtitle: ""
 # meta description
 description: "Perbandingan antara fitur lite dan pro. Lite untuk kebutuhan sederhana, sedangkan pro untuk kebutuhan profesional."
-image: gambar/thumbnail.jpg
+image: media/beranda/thumbnail.jpg
 opengraph:
-  image: gambar/thumbnail.jpg
+  image: media/beranda/thumbnail.jpg
 draft: false
 
 call_to_action:
   enable : true
   title : "Butuh Bantuan?"
-  image : "gambar/faq-min.svg"
+  image : "media/beranda/faq-min.svg"
   content : "Silakan hubungi kami di telegram. Balasan akan di respon 1x3 jam."
   button:
     enable : true

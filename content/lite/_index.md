@@ -3,9 +3,9 @@ title: "Unduh Edisi Lite"
 subtitle: ""
 # meta description
 description: "Edisi LITE untuk kebutuhan sederhana."
-image: gambar/thumbnail.jpg
+image: media/beranda/thumbnail.jpg
 opengraph:
-  image: gambar/thumbnail.jpg
+  image: media/beranda/thumbnail.jpg
 draft: false
 
 liteglibc:
@@ -49,7 +49,7 @@ litemusl:
 call_to_action:
   enable : true
   title : "Perbedaan Fitur?"
-  image : "gambar/faq-min.svg"
+  image : "media/beranda/faq-min.svg"
   content : "Masih bingung? Bandingkan perbedaan fitur Lite dan Pro disini."
   button:
     enable : true

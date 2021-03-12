@@ -1,9 +1,9 @@
 ---
 title: "Pembaruan Langitketujuh OS"
 date: 2020-12-12T19:18:27+07:00
-image: "blog/pembaruan-langitketujuh-os.webp"
+image: "media/blog/pembaruan-langitketujuh-os.webp"
 opengraph:
-  image: "blog/pembaruan-langitketujuh-os.webp.webp"
+  image: "media/blog/pembaruan-langitketujuh-os.webp.webp"
 # post type (regular/featured)
 type: "featured"
 description: "Menggunakan L7-tools. Apa itu?"

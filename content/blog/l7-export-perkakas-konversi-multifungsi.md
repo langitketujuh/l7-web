@@ -1,9 +1,9 @@
 ---
 title: "L7-Export: Perkakas Konversi Multifungsi"
 date: 2021-01-13T17:40:36+07:00
-image: blog/l7-export-perkakas-konversi-multifungsi.webp
+image: media/blog/l7-export-perkakas-konversi-multifungsi.webp
 opengraph:
-  image: blog/l7-export-perkakas-konversi-multifungsi.webp
+  image: media/blog/l7-export-perkakas-konversi-multifungsi.webp
 # post type (regular/featured)
 type: "regular"
 description: ""
@@ -43,7 +43,7 @@ Pastikan versi `l7-tools` Anda versi diatas `1.3`
 l7-tools --version
 {{< /highlight >}}
 
-Jika belum versi diatas `1.3` maka perbarui dahalu sistem anda dengan cara ini. [>> KLIK <<](/blog/pembaruan-langitketujuh-os).
+Jika belum versi diatas `1.3` maka perbarui dahalu sistem anda dengan cara ini. [>> KLIK <<](/media/blog/pembaruan-langitketujuh-os).
 
 {{< highlight bash >}}
 l7-tools --update

@@ -1,9 +1,9 @@
 ---
 title: "Komparasi Ubuntu Studio dengan LangitKetujuh Pro"
 date: 2020-12-12T23:23:22+07:00
-image: komparasi/vs-ubuntu-studio.webp
+image: media/komparasi/vs-ubuntu-studio.webp
 opengraph:
-  image: komparasi/vs-ubuntu-studio.webp
+  image: media/komparasi/vs-ubuntu-studio.webp
 description: "Kelebihan dan kekurangan Ubuntu Studio dengan LangitKetujuh Pro."
 author: "LangitKetujuh ID"
 draft: false

@@ -1,9 +1,9 @@
 ---
 title: "Komparasi Fedora Design Suite dengan LangitKetujuh Pro"
 date: 2020-12-12T23:23:22+07:00
-image: komparasi/vs-fedora-design-suite.webp
+image: media/komparasi/vs-fedora-design-suite.webp
 opengraph:
-  image: komparasi/vs-fedora-design-suite.webp
+  image: media/komparasi/vs-fedora-design-suite.webp
 description: "Kelebihan dan kekurangan  Fedora Design Suite dengan LangitKetujuh Pro."
 author: "LangitKetujuh ID"
 draft: false

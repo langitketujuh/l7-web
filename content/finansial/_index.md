@@ -3,15 +3,15 @@ title: "Laporan Finansial"
 subtitle: ""
 # meta description
 description: "Jazaakumullahu khairan katsiran kepada para donatur atas donasi terbaiknya."
-image: gambar/thumbnail.jpg
+image: media/beranda/thumbnail.jpg
 opengraph:
-  image: gambar/thumbnail.jpg
+  image: media/beranda/thumbnail.jpg
 draft: false
 
 call_to_action:
   enable : true
   title : "Butuh Bantuan?"
-  image : "gambar/faq-min.svg"
+  image : "media/beranda/faq-min.svg"
   content : "Silakan kontak kami di telegram. Balasan akan di respon 1x3 jam."
   button:
     enable : true

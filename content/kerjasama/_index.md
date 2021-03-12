@@ -3,9 +3,9 @@ title: "Kerjasama"
 subtitle: ""
 # meta description
 description: "Formulir Kerjasama"
-image: gambar/thumbnail.jpg
+image: media/beranda/thumbnail.jpg
 opengraph:
-  image: gambar/thumbnail.jpg
+  image: media/beranda/thumbnail.jpg
 draft: false
 ---
 

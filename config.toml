@@ -226,12 +226,12 @@ weight = 5
 # PARAMETER
 
 [params]
-  logo = "gambar/logo.webp"
+  logo = "media/beranda/logo.webp"
   logo_width = "70px"
-  logo_footer = "gambar/logo.webp"
+  logo_footer = "media/beranda/logo.webp"
   logo_width_footer = "60px"
   author = "LangitKetujuh ID"
-  opengraphimage = "gambar/thumbnail.jpg"
+  opengraphimage = "media/beranda/thumbnail.jpg"
   description = "Distribusi GNU/Linux untuk desainer, ilustrator, animator, publisher, fotografer, dan game desainer. Menggunakan musl libc, rilis bergulir, runit, dan KDE lingkungan desktop."
 
 # FOOTER
@@ -244,7 +244,7 @@ copyright = "2021 [LangitKetujuh ID](https://gitlab.com/langitketujuh). 2020 [Vo
 
 [params.preloader]
 enable = true
-preloader = "gambar/preloader.svg" # use jpg, png, svg or gif format.
+preloader = "media/beranda/preloader.svg" # use jpg, png, svg or gif format.
 
 # Navigation buttons
 [params.navigation_button]
