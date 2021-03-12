@@ -1,24 +1,22 @@
 ---
-title: "Tips Optimalkan Font di Langitketujuh dan Voidlinux"
-date: 2020-12-21T10:26:46+07:00
+title: Tips Optimalkan Font di Langitketujuh dan Voidlinux
+date: 2020-12-21T03:26:46+00:00
 image: media/blog/tips-optimalkan-font-di-langitketujuh-dan-voidlinux.webp
 opengraph:
   image: media/blog/tips-optimalkan-font-di-langitketujuh-dan-voidlinux.webp
-# post type (regular/featured)
-type: "regular"
-description: ""
-author: "LangitKetujuh ID"
+type: regular
+description: ''
+author: LangitKetujuh ID
 categories:
-  - software
-  - pattern
-  - mockup
+- software
+- pattern
+- mockup
 tag:
-  - inkscape
-  - gimp
-  - krita
-draft: false
----
+- inkscape
+- gimp
+- krita
 
+---
 Ada beberapa cara untuk mempercepat rendering font, diantaranya dengan menonaktifkan bitmap font dan font yang jarang dipakai. 2 tips ini sudah cukup untuk mengoptimalkan font. Namun ada tips lain untuk menggunakan preview font di inkscape agar tidak lag. Yuk kita simak langkah-langkahnya.
 
 ### Menonaktifkan Bitmap Font
@@ -27,14 +25,11 @@ Cara ini agar sistem menggunakan font vektor secara bawaan. Biasanya bitmap font
 
 Buka konsole, lalu ketik perintah ini:
 
-```
-sudo ln -s /usr/share/fontconfig/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d/
-```
+    sudo ln -s /usr/share/fontconfig/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d/
+
 Kemudian Gererate ulang cache font
 
-```
-sudo xbps-reconfigure -v -f fontconfig
-```
+    sudo xbps-reconfigure -v -f fontconfig
 
 ### Menonaktifkan Font yang jarang dipakai
 
