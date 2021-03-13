@@ -11,10 +11,9 @@ liteglibc:
   type_ver: v0.9
   info: Terbaik untuk Kompatibel Hardware
   services:
-  - "**[+] Dukungan Aplikasi Nonfree.**"
-  - "**[+] Dukungan Aplikasi Nvidia Propietary.**"
-  - "**[+] Dukungan Wine 64/32-bit.**"
+  - "**[+] Dukungan Aplikasi & Driver Nonfree.**"
   - "**[+] Dukungan Aplikasi Appimage.**"
+  - "**[+] Dukungan Wine 64/32-bit.**"
   - Tersedia Codec Audio dan Video.
   - Libreoffice Paket Aplikasi Perkantoran.
   - Software Desain Vector dan Raster.
