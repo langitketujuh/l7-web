@@ -5,23 +5,43 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content/sk-feedback
-  label: Sk feedback
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/404
-  label: '404'
-  create: all
-  match: "**/*"
-- type: directory
   path: content/blog
   label: Blog
   create: all
   match: "**/*"
 - type: directory
+  path: content/lite
+  label: Lite
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/pro
+  label: Pro
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/pro-glibc
+  label: Pro glibc
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/pro-musl
+  label: Pro musl
+  create: all
+  match: "**/*"
+- type: directory
   path: content/cuplikan
   label: Cuplikan
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/peraturan-layanan
+  label: Peraturan layanan
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/kebijakan-privasi
+  label: Kebijakan privasi
   create: all
   match: "**/*"
 - type: directory
@@ -50,11 +70,6 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/kebijakan-privasi
-  label: Kebijakan privasi
-  create: all
-  match: "**/*"
-- type: directory
   path: content/kerjasama
   label: Kerjasama
   create: all
@@ -65,28 +80,8 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/lite
-  label: Lite
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/peraturan-layanan
-  label: Peraturan layanan
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/pro-glibc
-  label: Pro glibc
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/pro-musl
-  label: Pro musl
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/pro
-  label: Pro
+  path: content/sk-pro
+  label: Sk pro
   create: all
   match: "**/*"
 - type: directory
@@ -95,8 +90,8 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/sk-pro
-  label: Sk pro
+  path: content/sk-feedback
+  label: Sk feedback
   create: all
   match: "**/*"
 - type: directory
@@ -109,6 +104,11 @@ sections:
   label: Pages
   create: all
   match: "*"
+- type: directory
+  path: content/404
+  label: '404'
+  create: all
+  match: "**/*"
 upload_dir: static/media
 public_path: "/media"
 front_matter_path: ''
