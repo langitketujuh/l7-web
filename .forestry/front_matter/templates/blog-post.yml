@@ -10,6 +10,8 @@ fields:
 - type: datetime
   name: date
   label: date
+  config:
+    required: true
 - type: file
   name: image
   label: image
@@ -23,17 +25,59 @@ fields:
 - type: text
   name: type
   label: type
+  config:
+    required: true
+  default: regular
+  description: Type blog post (regular/featured)
 - type: text
   name: description
   label: description
+  config:
+    required: true
 - type: text
   name: author
   label: author
+  default: LangitKetujuh ID
+  config:
+    required: true
 - type: list
   name: categories
   label: categories
   config:
-    use_select: false
+    use_select: true
+    source:
+      type: simple
+    options:
+    - inkscape
+    - export
+    - krita
+    - blender
+    - godot
+    - fontforge
+    - audacity
+    - ardour
+    - floss
+    - linux
+    - wine
+    - gimp
+    - opentoonz
+    - synfigstudio
+    - googlefonts
+    - scribus
+    - rawtherapee
+    - digikam
+    - kdenlive
+    - obs
+    - vokoscreen
+    - soundkonverter
+    - libreoffice
+    - template
+    - lite
+    - pro
+    - trakteerid
+    - donasi
+    - cli
+    - gui
 - type: list
   name: tag
   label: tag
