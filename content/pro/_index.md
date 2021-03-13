@@ -32,7 +32,7 @@ promusl:
   name: PRO (Donasi)
   type: musl
   type_ver: v0.9
-  info: Terbaik untuk Professional
+  info: Terbaik untuk Efisiensi Daya
   services:
   - "**[+] Fitur Lite Musl.**"
   - "**[+] Dukungan Musl libc (Lebih Efisien).**"
