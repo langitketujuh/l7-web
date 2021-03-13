@@ -1,0 +1,35 @@
+---
+label: Blog Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: image
+  label: image
+- type: field_group
+  name: opengraph
+  label: opengraph
+  fields:
+  - type: file
+    name: image
+    label: image
+- type: text
+  name: type
+  label: type
+- type: text
+  name: description
+  label: description
+- type: text
+  name: author
+  label: author
+- type: list
+  name: categories
+  label: categories
+- type: list
+  name: tag
+  label: tag
