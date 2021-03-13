@@ -28,7 +28,7 @@ litemusl:
   name: LITE (Gratis)
   type: musl
   type_ver: v0.9
-  info: Terbaik untuk Rumahan
+  info: Terbaik untuk Efisiensi Daya
   services:
   - Tersedia Codec Audio dan Video.
   - Libreoffice Paket Aplikasi Perkantoran.
