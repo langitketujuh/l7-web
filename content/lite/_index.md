@@ -9,7 +9,7 @@ liteglibc:
   name: LITE (Gratis)
   type: glibc
   type_ver: v0.9
-  info: Terbaik Untuk Kompatibel Hardware
+  info: Terbaik untuk Kompatibel Hardware
   services:
   - Tersedia Codec Audio dan Video.
   - Libreoffice Paket Aplikasi Perkantoran.
