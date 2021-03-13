@@ -30,13 +30,13 @@ litemusl:
   type_ver: v0.9
   info: Terbaik untuk Efisiensi Daya
   services:
+  - "**[+] Dukungan Musl libc (Lebih Efisien).**"
   - Tersedia Codec Audio dan Video.
   - Libreoffice Paket Aplikasi Perkantoran.
   - Software Desain Vector dan Raster.
   - Kalibrasi DisplayCAL dan Clight.
   - Deteksi HP dan Epson Printer.
   - Dukungan Wine 64-bit.
-  - "**[+] Dukungan Musl libc (Lebih Efisien).**"
   button:
     enable: true
     label: Unduh
