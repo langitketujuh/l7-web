@@ -28,7 +28,7 @@ fields:
   label: description
 - type: text
   name: author
-  label: LangitKetujuh ID
+  label: author
 - type: list
   name: categories
   label: categories
