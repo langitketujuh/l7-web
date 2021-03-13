@@ -12,18 +12,18 @@ proglibc:
   info: Terbaik untuk Kompatibel Hardware
   services:
   - "**[+] Fitur Lite Glibc.**"
-  - "**[+] Dukungan Instalasi.**"
   - "**[+] Dukungan Aplikasi & Driver Nonfree.**"
   - "**[+] Dukungan Aplikasi Appimage.**"
   - "**[+] Dukungan Wine 64/32-bit.**"
-  - Plugin GMIC-Qt.
-  - Software Fotografi.
-  - Software Video Editor.
-  - Software Digital Painting.
-  - Software Audio Production.
+  - "**[+] Dukungan Instalasi.**"
+  - Fonta Google untuk proyek komersil.
   - Software Desain Animasi 2D/3D.
   - Software Game Kreator 2D/3D.
-  - Fonta Google untuk proyek komersil.
+  - Software Audio Production.
+  - Software Digital Painting.
+  - Software Video Editor.
+  - Software Fotografi.
+  - Plugin GMIC-Qt.
   button:
     enable: true
     label: Pilih
@@ -35,17 +35,17 @@ promusl:
   info: Terbaik untuk Professional
   services:
   - "**[+] Fitur Lite Musl.**"
+  - "**[+] Dukungan Musl libc (Lebih Efisien).**"
+  - "**[+] Dukungan Wine 64-bit.**"
   - "**[+] Dukungan Instalasi.**"
-  - Plugin GMIC-Qt.
-  - Software Fotografi.
-  - Software Video Editor.
-  - Software Digital Painting.
-  - Software Audio Production.
+  - Fonta Google untuk proyek komersil.
   - Software Desain Animasi 2D/3D.
   - Software Game Kreator 2D/3D.
-  - Fonta Google untuk proyek komersil.
-  - Dukungan Wine 64-bit.
-  - "**[+] Dukungan Musl libc (Lebih Efisien).**"
+  - Software Audio Production.
+  - Software Digital Painting.
+  - Software Video Editor.
+  - Software Fotografi.
+  - Plugin GMIC-Qt.
   button:
     enable: true
     label: Pilih
