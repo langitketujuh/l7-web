@@ -30,7 +30,7 @@ litemusl:
   info: Terbaik untuk Efisiensi Daya
   services:
   - "**[+] Dukungan Musl libc (Lebih Efisien).**"
-  - Dukungan Wine 64-bit.
+  - "**[+] Dukungan Wine 64-bit.**"
   - Tersedia Codec Audio dan Video.
   - Libreoffice Paket Aplikasi Perkantoran.
   - Software Desain Vector dan Raster.
