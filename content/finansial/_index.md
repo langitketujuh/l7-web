@@ -19,20 +19,37 @@ call_to_action:
     link : "https://t.me/langitketujuhCS"
 ---
 
-## Total: Rp 414.979
+## Total Donasi: Rp1,242,970.50
 
-### Desember 2020
-
-**Donatur** | **Transfer** | **Jumlah (Rp)** 
-:--- | :--- | ---: 
-Hamba Allah | Trakteer | 9.835
-Wardatul Jannah | Trakteer | 100.000
-Prawita | Trakteer | 49.000
-Habib | Trakteer | 50.000
-Muhamad Nur Halim | Trakteer | 110.000
-Yunus Ahmad | Trakteer | 98.350
-Dimas Nirwan | Trakteer | 9.835
-Yahya Sofyan| Trakteer | 9.800
-| | **Total** | **436,820**
-| | PPN 5% | - 21,841
-| | **Diterima** | **414.979**
+| **Tanggal**		| **Donatur**		| **Bintang**	| **Kredit (Rp)** 
+|:---			| :---			| :---:		| ---: 
+|10/11/2020 14:39 	| Seseorang		| 1		| Rp9,835.00
+|12/11/2020 16:56 	| wardatul jannah	| 10		| Rp100,000.00
+|16/11/2020 05:55 	| prawita		| 5		| Rp49,000.00
+|24/11/2020 08:02 	| Habib			| 5		| Rp50,000.00
+|25/11/2020 17:15 	| Muhamad Nur Halim	| 11		| Rp110,000.00
+|08/12/2020 13:03 	| Yunus Ahmad		| 10		| Rp98,350.00
+|19/12/2020 19:51 	| dimasnirwan		| 1		| Rp9,835.00
+|22/12/2020 09:04 	| Yahya Sofyan		| 1		| Rp9,800.00
+|28/12/2020 20:32 	| yogi			| 4		| Rp40,000.00
+|06/01/2021 13:46 	| Adam R P		| 5		| Rp49,175.00
+|10/01/2021 18:01 	| Seseorang		| 5		| Rp50,000.00
+|12/01/2021 12:56 	| Dias Fahmi		| 1		| Rp9,800.00
+|13/01/2021 19:28 	| Seseorang		| 5		| Rp49,000.00
+|14/01/2021 06:50 	| Seseorang		| 10		| Rp98,000.00
+|15/01/2021 14:39 	| Seseorang		| 5		| Rp50,000.00
+|18/01/2021 08:04 	| Awal Syarman		| 5		| Rp49,175.00
+|19/01/2021 17:34 	| Seseorang		| 7		| Rp70,000.00
+|22/01/2021 08:34 	| Yunus ahmad		| 5		| Rp49,000.00
+|02/02/2021 16:03 	| Mohammad Qowaidul Umam| 5		| Rp50,000.00
+|05/02/2021 16:16 	| Rikki Ahmad Ibrahim	| 5		| Rp49,175.00
+|10/02/2021 09:43 	| Ihsan Syauqi Adn	| 1		| Rp9,835.00
+|12/02/2021 10:21 	| Seseorang		| 3		| Rp30,000.00
+|15/02/2021 06:02 	| Seseorang		| 1		| Rp9,835.00
+|18/02/2021 10:14 	| Hamba Allah		| 3		| Rp30,000.00
+|11/03/2021 13:51 	| Abu Zaid Tutorial	| 5		| Rp50,000.00
+|11/03/2021 14:55 	| Hamba Allah		| 5		| Rp50,000.00
+|11/03/2021 18:56 	| Seseorang		| 5		| Rp49,175.00
+|13/03/2021 04:44 	| Seseorang		| 3		| Rp29,400.00
+|			|			|**- PPN 5%**	| **Rp65,419.50**
+|			|			|**Total**	| **Rp1,242,970.50**
