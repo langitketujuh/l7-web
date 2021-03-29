@@ -40,7 +40,7 @@ Container codec merupakan video format. Ibaratnya sebagai pembungkus codec video
   * Video codec: `vp8`, `vp9`
   * Audio codec: `vorbis`
   * Output: `.webm`
-  * Dikembangkan oleh Google. Container lebih ringan. Menggunakan format terbuka dan bebas paten (Cc-by-sa, Bsd). Ramah dengan browser modern.
+  * Dikembangkan oleh Google. Container lebih ringan. Menggunakan format terbuka dan bebas paten (CC-BY-SA, Bsd). Ramah dengan browser modern.
 
 #### 4. OGG
   * Video codec: `theora`
@@ -102,6 +102,8 @@ Jadi bagaimana pengaturannya? Penulis akan mendemontrasikan dengan kondisi yang 
 
 **Kondisi 1: "Membuat video dengan kualitas terbaik, ringan, ramah browser dan bebas paten. Sehingga dipilihlan container WebM 60fps."**
 
+Pertama konfigurasi input profile dahulu.
+
 {{< figure src=/media/blog/ssr-1.png alt="SimpleScreenRecorder LangitKetujuh OS">}}
 
 * Record the entire screen: ceklis
@@ -111,6 +113,8 @@ Jadi bagaimana pengaturannya? Penulis akan mendemontrasikan dengan kondisi yang 
 
 Anda juga bisa membuat input profil tertentu dengan klik "New". Lalu berikan nama profil, misalnya "60 FPS +Audio".
 
+Klik continue. Kemudian konfigurasi bagian output profile.
+
 {{< figure src=/media/blog/ssr-2.png alt="SimpleScreenRecorder LangitKetujuh OS">}}
 
 * Container: WebM
@@ -119,7 +123,11 @@ Anda juga bisa membuat input profil tertentu dengan klik "New". Lalu berikan nam
 
 Anda juga bisa membuat output profil tertentu dengan klik "New". Lalu berikan nama profil, misalnya "WEBM".
 
+Sebenarnya tidak terlalu sulit kalau sudah paham dukungan setiap container.
+
 **Kondisi 2: "Membuat video dengan kualitas sedang, digunakan untuk kebutuhan sosial media. Sehingga dipilihlan container MPEG-4 (mp4) 24fps."**
+
+Konfigurasi input profile.
 
 {{< figure src=/media/blog/ssr-3.png alt="SimpleScreenRecorder LangitKetujuh OS">}}
 
@@ -129,6 +137,8 @@ Anda juga bisa membuat output profil tertentu dengan klik "New". Lalu berikan na
 * Record Audio: ceklis (opsional)
 
 Input profil: "24 FPS +Audio".
+
+Klik continue. Kemudian konfigurasi output profile.
 
 {{< figure src=/media/blog/ssr-4.png alt="SimpleScreenRecorder LangitKetujuh OS">}}
 
@@ -141,6 +151,8 @@ Output profil: "MP4".
 Lantas kapan menggunakan container Matroska (mkv)? Matroska digunakan seperti saat menggunakan container Mp4 (kondisi 2) dan menginginkan fitur berhenti sejenak (pause) saat perekaman. Matroska sendiri mendukung konversi format, sehingga ukuran videonya cukup besar jika dibandingkan dengan container lain.
 
 Jadi.. menggunakan MPEG-4 sudah cukup. Tapi menggunakan WebM lebih baik lagi.
+
+Yap selesai. Mudah bukan..
 
 ## Kesimpulan
 
