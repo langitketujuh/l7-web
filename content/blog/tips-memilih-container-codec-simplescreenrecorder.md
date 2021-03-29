@@ -1,9 +1,9 @@
 ---
-title: "Tips Memilih Container Codec di SimpleScreenRecorder"
+title: "Tips Memilih Container Codec SimpleScreenRecorder"
 date: 2021-03-29T05:29:44+07:00
-image: media/blog/tips-memilih-container-codec-di-simplescreenrecorder.webp
+image: media/blog/tips-memilih-container-codec-simplescreenrecorder.png
 opengraph:
-  image: media/blog/tips-memilih-container-codec-di-simplescreenrecorder.webp
+  image: media/blog/tips-memilih-container-codec-simplescreenrecorder.png
 # post type (regular/featured)
 type: "regular"
 description: "Pembahasan ini akan dibagi menjadi 2 bagian. Bagian 1: Tips Memilih Container Codec. Bagian 2: Pengaturan perekam desktop SSR di LangitKetujuh GNU/Linux"

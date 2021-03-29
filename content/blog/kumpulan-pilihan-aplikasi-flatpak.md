@@ -1,9 +1,9 @@
 ---
 title: "Kumpulan Pilihan Aplikasi Flatpak"
 date: 2020-12-26T11:26:59+07:00
-image: media/blog/kumpulan-pilihan-aplikasi-flatpak.webp
+image: media/blog/kumpulan-pilihan-aplikasi-flatpak.png
 opengraph:
-  image: media/blog/kumpulan-pilihan-aplikasi-flatpak.webp
+  image: media/blog/kumpulan-pilihan-aplikasi-flatpak.png
 # post type (regular/featured)
 type: "regular"
 description: "Flatpak merupakan installer universal untuk Semua distro Linux. Secara bawaan Flatpak sudah terpasang di LangitKetujuh OS."

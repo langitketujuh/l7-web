@@ -1,9 +1,9 @@
 ---
 title: "Daftar Dokumentasi Free Software Khusus Desain (Lengkap)"
 date: 2020-12-12T22:09:20+07:00
-image: media/blog/daftar-dokumentasi-free-software-khusus-desain-lengkap.webp
+image: media/blog/daftar-dokumentasi-free-software-khusus-desain-lengkap.png
 opengraph:
-  image: media/blog/daftar-dokumentasi-free-software-khusus-desain-lengkap.webp
+  image: media/blog/daftar-dokumentasi-free-software-khusus-desain-lengkap.png
 # post type (regular/featured)
 type: "regular"
 description: "Daftar dokumentasi perangkat lunak bebas, baik resmi dan tidak resmi yang patut dicoba."

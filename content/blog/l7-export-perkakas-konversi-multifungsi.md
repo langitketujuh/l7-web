@@ -1,9 +1,9 @@
 ---
 title: "L7-Export: Perkakas Konversi Multifungsi"
 date: 2021-01-13T17:40:36+07:00
-image: media/blog/l7-export-perkakas-konversi-multifungsi.webp
+image: media/blog/l7-export-perkakas-konversi-multifungsi.png
 opengraph:
-  image: media/blog/l7-export-perkakas-konversi-multifungsi.webp
+  image: media/blog/l7-export-perkakas-konversi-multifungsi.png
 # post type (regular/featured)
 type: "regular"
 description: ""

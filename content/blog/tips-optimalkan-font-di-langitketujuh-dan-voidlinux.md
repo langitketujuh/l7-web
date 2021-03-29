@@ -1,9 +1,9 @@
 ---
 title: Tips Optimalkan Font di Langitketujuh dan Voidlinux
 date: 2020-12-21T03:26:46+00:00
-image: media/blog/tips-optimalkan-font-di-langitketujuh-dan-voidlinux.webp
+image: media/blog/tips-optimalkan-font-di-langitketujuh-dan-voidlinux.png
 opengraph:
-  image: media/blog/tips-optimalkan-font-di-langitketujuh-dan-voidlinux.webp
+  image: media/blog/tips-optimalkan-font-di-langitketujuh-dan-voidlinux.png
 type: regular
 description: ''
 author: LangitKetujuh ID
