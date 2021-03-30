@@ -8,7 +8,7 @@ opengraph:
 liteglibc:
   name: LITE (Gratis)
   type: glibc
-  type_ver: v0.9
+  type_ver: v.20210328
   info: Terbaik untuk Kompatibel Hardware
   services:
   - "**[+] Dukungan Aplikasi & Driver Nonfree.**"
@@ -22,11 +22,11 @@ liteglibc:
   button:
     enable: true
     label: Unduh
-    link: https://osdn.net/dl/langitketujuh/langitketujuh-0.9-lite-live-x86_64-5.10.16_1-l0tqrke.iso
+    link: https://osdn.net/dl/langitketujuh/langitketujuh-lite-x86_64-20210328-6nahvyn.iso
 litemusl:
   name: LITE (Gratis)
   type: musl
-  type_ver: v0.9
+  type_ver: v.20210328
   info: Terbaik untuk Efisiensi Daya
   services:
   - "**[+] Dukungan Musl libc (Lebih Efisien).**"
@@ -39,7 +39,7 @@ litemusl:
   button:
     enable: true
     label: Unduh
-    link: https://osdn.net/dl/langitketujuh/langitketujuh-0.9-lite-live-x86_64-musl-5.10.16_1-mxb6bf2.iso
+    link: https://osdn.net/dl/langitketujuh/langitketujuh-lite-x86_64-musl-20210328-luqh6b1.iso
 call_to_action:
   enable: true
   title: Perbedaan Fitur?
