@@ -2,7 +2,7 @@
 title: "Kerjasama"
 subtitle: ""
 # meta description
-description: "Formulir Kerjasama untuk media partner, kolaborator dan sponsorhip."
+description: "Formulir Kerjasama untuk media partner, kolaborator dan sponsorship."
 image: media/beranda/thumbnail.jpg
 opengraph:
   image: media/beranda/thumbnail.jpg
