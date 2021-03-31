@@ -17,6 +17,7 @@ proglibc:
   - "**[+] Dukungan Wine 64/32-bit.**"
   - "**[+] Dukungan Instalasi.**"
   - Fonta Google untuk proyek komersil.
+  - Kalibrasi DisplayCAL dan Clight.
   - Software Desain Animasi 2D/3D.
   - Software Game Kreator 2D/3D.
   - Software Audio Production.
@@ -38,6 +39,7 @@ promusl:
   - "**[+] Dukungan Musl libc (Lebih Efisien).**"
   - "**[+] Dukungan Wine 64-bit.**"
   - "**[+] Dukungan Instalasi.**"
+  - Kalibrasi DisplayCAL dan Clight.
   - Fonta Google untuk proyek komersil.
   - Software Desain Animasi 2D/3D.
   - Software Game Kreator 2D/3D.
