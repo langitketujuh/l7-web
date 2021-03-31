@@ -17,7 +17,6 @@ liteglibc:
   - Tersedia Codec Audio dan Video.
   - Libreoffice Paket Aplikasi Perkantoran.
   - Software Desain Vector dan Raster.
-  - Kalibrasi DisplayCAL dan Clight.
   - Deteksi HP dan Epson Printer.
   button:
     enable: true
@@ -34,7 +33,6 @@ litemusl:
   - Tersedia Codec Audio dan Video.
   - Libreoffice Paket Aplikasi Perkantoran.
   - Software Desain Vector dan Raster.
-  - Kalibrasi DisplayCAL dan Clight.
   - Deteksi HP dan Epson Printer.
   button:
     enable: true
