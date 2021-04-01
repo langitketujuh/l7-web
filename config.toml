@@ -232,7 +232,7 @@ weight = 5
   logo_width_footer = "60px"
   author = "LangitKetujuh ID"
   opengraphimage = "media/beranda/thumbnail.jpg"
-  description = "Distribusi GNU/Linux untuk desainer, ilustrator, animator, publisher, fotografer, dan game desainer. Menggunakan musl libc, rilis bergulir, runit, dan KDE lingkungan desktop."
+  description = "Distribusi GNU/Linux untuk desainer, ilustrator, animator, publisher, fotografer, font kreator dan game desainer. Menggunakan glibc & musl libc, rilis bergulir, runit init dan KDE lingkungan desktop."
 
 # FOOTER
 
