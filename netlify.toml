@@ -55,11 +55,11 @@ HUGO_ENABLEGITINFO = "true"
   status = 301
   force = true
 
-[[redirects]]
-  from = "https://langitketujuh.id/donasi"
-  to = "https://trakteer.id/langitketujuh.id/"
-  status = 301
-  force = true
+#[[redirects]]
+  #from = "https://langitketujuh.id/donasi"
+  #to = "https://trakteer.id/langitketujuh.id/"
+  #status = 301
+  #force = true
 
 [[redirects]]
   from = "/*"

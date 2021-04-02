@@ -15,19 +15,19 @@ LangitKetujuh OS mengikuti pembaruan dari voidlinux dengan repsitori tunggal [Al
 {{</ faq >}}
 
 {{< faq "Apakah saya perlu donasi dahulu?" >}}
-Tidak harus. Jika mendaftar edisi Pro, kami menyeselesaikan dahulu dukungan instalasinya. Kemudian Anda bisa memberikan donasi sesuai banyaknya bintang pelayanan kami.
+Tidak harus. Jika mendaftar edisi Pro, kami menyeselesaikan dahulu dukungan instalasinya. Kemudian Anda bisa memberikan donasi sesuai kualitas pelayanan kami.
 {{</ faq >}}
 
 {{< faq "Berapa donasi yang harus dibayar?" >}}
-Donasi minimal 1 Bintang. Setiap Bintang bernilai Rp 10.000. Anda bisa memberikan banyak bintang sesuai kualitas pelayanan kami. Asalkan ikhlas, berkah dan tidak merugikan kedua belah pihak. Anda dapat memberikan donasi terbaik sesuai kemampuan Anda, tidak ada beban yang kami berikan. Dan tentunya kami sebagai tim pengembang hanyalah mencari keberkahan dalam membuat produk sistem operasi ini. Donasi bisa Anda berikan di tautan [Trakteer.id](https://trakteer.id/langitketujuh.id) ini.
+Anda dapat memberikan donasi sesuai kualitas pelayanan kami. Asalkan ikhlas, berkah dan tidak merugikan kedua belah pihak. Donasi yang diberikan sesuai kemampuan Anda dan tidak ada beban. Tentunya kami sebagai tim pengembang projek hanyalah mencari keberkahan dalam membuat produk sistem operasi ini. **Donasi diatas Rp +50.000** akan kami masukkan kedalam kanal khusus update iso terbaru dan dukungan prioritas. 
 {{</ faq >}}
 
 {{< faq "Apakah Saya setelah donasi mendapatkan `.ISO` terbaru?" >}}
-Ya Anda akan mendapatkan akses berkas `ISO` terbaru dengan mendonasikan minimal 5 Bintang. Donasi bisa Anda berikan di tautan [Trakteer.ID ini](https://trakteer.id/langitketujuh.id).
+Ya Anda akan mendapatkan akses berkas `ISO` terbaru dengan mendonasikan minimal 5 Bintang. Donasi bisa Anda berikan di [Link Donasi](/donasi).
 {{</ faq >}}
 
-{{< faq "Layanan donasi Trakteer.id?" >}}
-Kami menggunakan layanan pihak ketiga [Trakteer.id](https://trakteer.id/langitketujuh.id) untuk kemudahkan transfer donasi. Pengiriman donasi bisa melalui aplikasi GOPay, OVO, Dana, LinkAja dan transfer bank lokal. Anda dapat memberikan donasi bintang sesuai pelayanan kami di [Trakteer.id](https://trakteer.id/langitketujuh.id). Donasi bintang mulai dari Rp 10.000 dan kelipatannya.
+{{< faq "Layanan donasi Scan QR Code?" >}}
+Kami menggunakan layanan pihak [Qris ID](https://qris.id) dengan NMID ID1021067117882 dari InterActive untuk kemudahkan transfer donasi. Pengiriman donasi bisa melalui aplikasi E-Wallet seperti GOPay, OVO, Dana, LinkAja dan aplikasi Mobile Banking lainnya.
 {{</ faq >}}
 
 {{< faq "Saya memerlukan bantuan tentang masalah teknis?" >}}
