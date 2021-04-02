@@ -1,8 +1,8 @@
 ---
-title: "Donasi"
+title: "Donasi Yuk!"
 subtitle: ""
 # meta description
-description: "Yuk donasi"
+description: "Dukung terus projek kami agar selalu bermanfaat yaa.."
 image: media/beranda/thumbnail.jpg
 opengraph:
   image: media/beranda/thumbnail.jpg
