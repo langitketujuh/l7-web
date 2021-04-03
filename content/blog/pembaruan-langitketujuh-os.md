@@ -41,7 +41,7 @@ curl 'https://langitketujuh.id/sh/l7-tools' | sudo bash
 Setelah memasang L7-tools, kemudian jalankan update.
 
 {{< highlight bash >}}
-l7-tools --update
+sudo l7-tools --update
 {{< /highlight >}}
 
 pilih `y` lalu enter, tunggu sampai selesai. Atau pilih `n` untuk melewati update.
