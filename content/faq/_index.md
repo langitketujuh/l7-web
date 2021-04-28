@@ -31,15 +31,15 @@ Kami menggunakan layanan pihak [Qris ID](https://qris.id) dengan NMID ID10210671
 {{</ faq >}}
 
 {{< faq "Saya memerlukan bantuan tentang masalah teknis?" >}}
-Anda cukup menghubungi tim [Layanan LangitKetujuh OS](https://t.me/langitketujuhCS). Jika menggunakan versi Lite tidak ada bantuan khusus tentang masalah teknis dan dukungan instalasi. Anda bisa melihat perbedaan fitur Langitketujuh di [halaman fitur](/fitur).
+Anda cukup menghubungi tim [Layanan LangitKetujuh OS](https://t.me/LangitKetujuh_bot). Jika menggunakan versi Lite tidak ada bantuan khusus tentang masalah teknis dan dukungan instalasi. Anda bisa melihat perbedaan fitur Langitketujuh di [halaman fitur](/fitur).
 {{</ faq >}}
 
 {{< faq "Apakah ada dokumentasi dan bantuan instalasi?" >}}
-Dokumentasi hampir sama [dokumentasi Voidlinux](https://docs.voidlinux.org/). Jika Anda mengunakan versi PRO, Anda dapat menghubungi tim [Layanan LangitKetujuh OS](https://t.me/langitketujuhCS) untuk bantuan teknis.
+Dokumentasi hampir sama [dokumentasi Voidlinux](https://docs.voidlinux.org/). Jika Anda mengunakan versi PRO, Anda dapat menghubungi tim [Layanan LangitKetujuh OS](https://t.me/LangitKetujuh_bot) untuk bantuan teknis.
 {{</ faq >}}
 
 {{< faq "Apakah musl tidak bisa menjalankan aplikasi Nonfree?" >}}
-Tidak bisa langsung, karena aplikasi nonfree kebanyakan dibangun menggunakan glibc. Tetapi LangitKetujuh Musl mendukung aplikasi nonfree menggunakan flatpak seperti Zoom, Microsoft Teams, Spotify, Skype dan lain-lain. Selengkapnya kunjungi [Flathub](https://flathub.org) untuk memasang aplikasi nonfree. Jika ada kesulitan Anda bisa menghubungi tim [Layanan LangitKetujuh OS](https://t.me/langitketujuhCS).
+Tidak bisa langsung, karena aplikasi nonfree kebanyakan dibangun menggunakan glibc. Tetapi LangitKetujuh Musl mendukung aplikasi nonfree menggunakan flatpak seperti Zoom, Microsoft Teams, Spotify, Skype dan lain-lain. Selengkapnya kunjungi [Flathub](https://flathub.org) untuk memasang aplikasi nonfree. Jika ada kesulitan Anda bisa menghubungi tim [Layanan LangitKetujuh OS](https://t.me/LangitKetujuh_bot).
 {{</ faq >}}
 
 {{< faq "Apakah musl tidak bisa menjalankan aplikasi Appimage?" >}}

@@ -67,6 +67,6 @@ l7-export desain.svg id
 
 Jalankan parameter ekspor sesuai keinginan. Selesai.
 
-Temukan tips lainnya di kanal telegram kami [@LangitKetujuhID](https://t.me/LangitKetujuhID) atau sekedar menyapa kami di [@LangitKetujuhCS](https://t.me/LangitKetujuhCS). Dan jangan lupa untuk dukung kami dengan donasi ya, agar projek ini selalu hidup dan bermanfaat. ^^
+Temukan tips lainnya di kanal telegram kami [@LangitKetujuhID](https://t.me/LangitKetujuhID) atau sekedar menyapa kami di [@LangitKetujuh_bot](https://t.me/LangitKetujuh_bot). Dan jangan lupa untuk dukung kami dengan donasi ya, agar projek ini selalu hidup dan bermanfaat. ^^
 
 _Jazaakumullahu khairan katshiran._

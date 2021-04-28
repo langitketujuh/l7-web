@@ -13,6 +13,6 @@ draft: false
 Terima kasih, Anda telah memberikan saran dan kritikan kepada tim Langitketujuh ID.
 Syukran.
 
-* **Layanan: [@langitketujuhCS](https://t.me/langitketujuhCS)**
+* **Layanan: [@LangitKetujuh_bot](https://t.me/LangitKetujuh_bot)**
 * **Kanal: [@langitketujuhID](https://t.me/langitketujuhID)**
 * **Surel: [langitketujuh.id@pm.me](mailto:langitketujuh.id@pm.me)**

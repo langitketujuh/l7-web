@@ -16,7 +16,7 @@ call_to_action:
   button:
     enable : true
     label : "Kabari via Telegram"
-    link : "https://t.me/langitketujuhCS"
+    link : "https://t.me/LangitKetujuh_bot"
 ---
 
 **Fitur** | **Lite Musl** | **Lite Glibc** | **Pro Musl** | **Pro Glibc**
