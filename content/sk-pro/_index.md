@@ -20,6 +20,6 @@ call_to_action:
 ---
 
 Anda sudah mengisi formulir.
-Kami akan segera menghubungi Anda via Telegram/E-mail.
+Kami akan mengirim tautan unduhan melalui E-mail.
 
 _Syukran wa jazaakumullahu khairan katsiran._
