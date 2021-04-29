@@ -6,7 +6,7 @@ description: "Jazaakumullahu khairan katsiran kepada para donatur atas donasi te
 image: media/beranda/thumbnail.jpg
 opengraph:
   image: media/beranda/thumbnail.jpg
-draft: false
+draft: true
 
 call_to_action:
   enable : true

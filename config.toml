@@ -198,30 +198,30 @@ URL = "/"
 weight = 1
 
 # dukungan
-[[menu.dukungan]]
-name = "Finansial"
-URL = "finansial"
-weight = 1
+#[[menu.dukungan]]
+#name = "Finansial"
+#URL = "finansial"
+#weight = 1
 
 [[menu.dukungan]]
 name = "Feedback"
 URL = "feedback"
-weight = 2
+weight = 1
 
 [[menu.dukungan]]
 name = "Kerjasama"
 URL = "kerjasama"
-weight = 3
+weight = 2
 
 [[menu.dukungan]]
 name = "Peraturan layanan"
 URL = "peraturan-layanan"
-weight = 4
+weight = 3
 
 [[menu.dukungan]]
 name = "Kebijakan Privasi"
 URL = "kebijakan-privasi"
-weight = 5
+weight = 4
 
 # PARAMETER
 
