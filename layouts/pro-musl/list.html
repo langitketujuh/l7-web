@@ -14,7 +14,7 @@
       <div class="col-lg-7 mb-4 mb-lg-0">
         <form name="profesional" netlify-honeypot="bot-field" action="/sk-pro" method="POST" data-netlify="true">
           <input type="text" class="form-control mb-3" id="nama" name="nama" placeholder="Nama Lengkap" required="true">
-          <input type="email" class="form-control mb-3" id="surel" name="surel" placeholder="Email Anda" required="true">
+          <input type="email" class="form-control mb-3" id="surel" name="surel" placeholder="Email Asli Anda" required="true">
           <div class="input-group mb-3">
             <div class="input-group-prepend">
                 <span class="input-group-text" id="telegram">@</span>
@@ -30,16 +30,33 @@
               <option id="pro-glibc" value="GLIBC">Glibc (Lebih Kompatibel)</option>
             </select>
           </div>
-          <div class="input-group mb-5">
+          <div class="input-group mb-3">
             <div class="input-group-prepend">
               <label class="input-group-text" for="inputGpu">Kartu Grafis</label>
             </div>
             <select class="custom-select" id="gpu" name="gpu[]" required="true">
               <option selected id="intel-amd" value="Intel/AMD">Intel/AMD</option>
-              <option id="nvidia" value="Nvidia">Nvidia (Nouveau driver)</option>
+              <option id="nvidia" value="Nvidia">Nvidia</option>
             </select>
           </div>
-          <div class="form-group mb-3">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label class="input-group-text" for="inputDonasi">Jumlah Donasi</label>
+            </div>
+            <select class="custom-select" id="donasi" name="donasi[]" required="true">
+              <option selected id="107000" value="107000">Diatas Rp107.000* (+Dukungan Instalasi)</option>
+              <option id="57000" value="MUSL">Mulai dari Rp57.000 (Tanpa Dukungan)</option>
+            </select>
+          </div>
+          <div class="form-row mb-3">
+            <a href="/donasi" target="_blank" class="col-md-3 btn btn-outline-primary mr-2 mb-3">Link Donasi</a>
+            <label class="col-md-2 mb-3">Upload Bukti Donasi:</label>
+            <input class="col-md-5 mb-3" type="file" id="bukti_donasi" name="bukti_donasi" required="true"/>
+          </div>
+          <div class="mb-3">
+            <label>* Donasi dapat dikembalikan jika pemasangan tidak berhasil atau kami salurkan ke <a href="https://smart171.org/" target="_blank" >@smart171</a> dengan potongan Rp7000.</label>
+          </div>
+          <div class="form-group mb-5">
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="gridCheck"  name="data" value="ya, saya setuju" required="true">
                 <label class="form-check-label" for="gridCheck">
