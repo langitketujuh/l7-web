@@ -17,6 +17,14 @@ Kami sebagai tim LangitKetujuh ID dan pemilik situs https://langitketujuh.id yan
 
 Pengguna merupakan individu/lembaga yang menggunakan dan/atau sudah memasang sistem operasi LangitKetujuh.
 
+### Perihal Donasi
+
+Pengguna profesional dengan dukungan layanan memberikan donasi mulai dari Rp107.000,00 apabila pemasangan tidak berhasil, maka donasi bisa dikembalikan. Atau kami salurkan ke smart171.org dengan potongan sebesar Rp7000.
+
+Pengguna profesional yang memberikan donasi mulai dari Rp57.000,00 apabila pemasangan tidak berhasil, maka donasi akan menjadi milik LangitKetujuh ID dan tidak bisa dikembalikan, namun donasi akan tetap diberikan dengan jumlah 20% dari total donasi.
+
+Donasi 20% dari total akan kami salurkan ke https://smart171.org untuk kebutuhan Yatim di Gaza.
+
 ### Prioritas dan batasan pengguna
 
   * Pengguna pro yang telah berdonasi memiliki prioritas utama.
@@ -32,6 +40,6 @@ Pengguna merupakan individu/lembaga yang menggunakan dan/atau sudah memasang sis
   * Kami TIDAK menerima untuk pemasangan dual boot, triple boot, quarter boot, dan seterusnya.
   * Kami TIDAK menerima untuk mengembalikan OS terdahulu. Baik itu windows, osx, GNU/Linux, BSD, dan jenis OS lainnya.
   * Kami TIDAK bertanggung jawab atas kehilangan data dan sistem operasi terdahulu.
-  * Kami hanya menerima instalasi untuk satu perangkat dan satu pemasangan saja.
+  * Kami hanya menerima instalasi untuk satu perangkat dan **satu pemasangan saja**.
   * Kami hanya melayani untuk memasang LangitKetujuh OS, bukan memasang sistem operasi selain LangitKetujuh OS.
   * Kami hanya menggunakan partisi fat32 untuk partisi boot (`/boot` atau `/boot/efi`), xfs untuk sistem root (`/`) dan ext4 untuk partisi pengguna (`/home`).
