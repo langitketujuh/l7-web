@@ -5,8 +5,8 @@ banner:
   content : "Distribusi GNU/Linux dengan Glibc dan Musl berdasar pada VoidLinux. Menggunakan runit init, KDE lingkungan desktop, pembaruan stabil rilis bergulir dan sumber daya yang efisien."
   button:
     enable : true
-    label : "Fitur"
-    link : "fitur"
+    label : "Unduh Pro"
+    link : "pro"
 
 ##################### Feature ##########################
 feature:
@@ -162,7 +162,7 @@ call_to_action:
   content : "Kami telah mengoptimasi pemilihan sistem yang lebih baik dan menyesuaikan aplikasi sesuai kebutuhan spesifik. LangitKetujuh GNU/Linux akan membantu Anda menjadi desainer yang tangguh dengan perangkat lunak terbuka."
   button:
     enable : true
-    label : "Unduh Pro"
-    link : "pro"
+    label : "Fitur"
+    link : "fitur"
 
 image : "media/beranda/thumbnail.jpg"
