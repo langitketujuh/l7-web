@@ -42,14 +42,16 @@ Plugin GMIC Qt Gimp dan Krita. | - | -  | **√** | **√**
 Produksi Audio dengan Ardour. | - | -  | **√** | **√**
 Kalibrasi warna dengan DisplayCAL. | - | - | **√** | **√**
 Google Fonts untuk proyek komersil. | - | -  | **√** | **√**
-Akses ISO terbaru [*] | -  | - | **√**  | **√**
+Akses ISO terbaru [^1] | -  | - | **√**  | **√**
 Dukungan Aplikasi Appimage | - | **√** | -   | **√**
 Dukungan Nvidia Propietary driver | - | **√** | -   | **√**
-Dukungan Aplikasi Nonfree  | - | **√** | -   | **√**
-Dukungan Wine windows | - | **√** | -  | **√**
+Dukungan Aplikasi Nonfree [^2]  | - | **√** | -   | **√**
+Dukungan Wine windows [^3] | - | **√** | -  | **√**
 
-**Keterangan:**
+*Catatan:*
 
-- Aplikasi Nonfree seperti driver gpu Nvidia, Spotify, Steam, Skype, Printer Canon, Pycharm, Mendeley tidak mendukung musl (hanya tersedia di versi glibc saja). Tetapi aplikasi tersebut di edisi musl bisa dipasang melalui flatpak.
-- Musl hanya mendukung Wine windows 64 bit saja, sedangkan Glibc mendukung 32 dan 64 bit.
-- [*] Akses ISO terbaru untuk donatur projek.
+[^1] Akses ISO terbaru untuk [pengguna profesional](../pro/).
+
+[^2] Aplikasi Nonfree seperti driver gpu Nvidia, Spotify, Steam, Skype, Printer Canon, Pycharm, Mendeley tidak mendukung musl (hanya tersedia di versi glibc saja). Tetapi aplikasi tersebut di edisi musl bisa dipasang melalui flatpak.
+
+[^3] Musl hanya mendukung Wine windows 64 bit saja, sedangkan Glibc mendukung 32 dan 64 bit.
