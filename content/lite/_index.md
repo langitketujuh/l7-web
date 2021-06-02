@@ -18,6 +18,7 @@ liteglibc:
   - Libreoffice Paket Aplikasi Perkantoran.
   - Software Desain Vector dan Raster.
   - Deteksi HP dan Epson Printer.
+  - Hanya diperuntukkan prosesor 64bit.
   button:
     enable: true
     label: Unduh
@@ -34,6 +35,7 @@ litemusl:
   - Libreoffice Paket Aplikasi Perkantoran.
   - Software Desain Vector dan Raster.
   - Deteksi HP dan Epson Printer.
+  - Hanya diperuntukkan prosesor 64bit.
   button:
     enable: true
     label: Unduh
