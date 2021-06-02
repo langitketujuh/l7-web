@@ -25,6 +25,7 @@ proglibc:
   - Software Video Editor.
   - Software Fotografi.
   - Plugin GMIC-Qt.
+  - Hanya diperuntukkan prosesor 64bit.
   button:
     enable: true
     label: Pilih
