@@ -1,17 +1,16 @@
 ---
-title: "Pertanyaan dan Jawaban"
-subtitle: ""
-# meta description
-description: "Beberapa pertanyaan dan penjelasannya. Bisa jadi, apa yang Anda maksud ada disini."
+title: Pertanyaan dan Jawaban
+subtitle: ''
+description: Beberapa pertanyaan dan penjelasannya. Bisa jadi, apa yang Anda maksud
+  ada disini.
 image: media/beranda/thumbnail.jpg
 opengraph:
   image: media/beranda/thumbnail.jpg
-draft: false
----
 
-{{< faq "Apakah saya perlu donasi dahulu?" >}}
-Jika Anda menggunakan [edisi lite](/lite) maka Anda bisa mendapatkannya secara gratis. Sedangkan untuk LangitKetujuh OS Profesional dengan layanan instalasi secara penuh, Anda bisa mendonasikan mulai dari +Rp107.000. Donasi dapat dikembalikan apabila pemasangan tidak berhasil, atau kami salurkan donasi tersebut ke [lazismu.org](https://lazismu.org/) dan [smart171.org](https://smart171.org) untuk mengirimkan bantuan dan kebutuhan Yatim di Gaza.
-{{</ faq >}}
+---
+{{< faq "Apakah bisa berjalan di prosesor 32 bit?" >}} Tidak. Untuk saat ini, kami baru membangun LangitKetujuh OS untuk prosesor 64 bit saja. {{</ faq >}}
+
+{{< faq "Apakah saya perlu donasi dahulu?" >}} Jika Anda menggunakan [edisi lite](/lite) maka Anda bisa mendapatkannya secara gratis. Sedangkan untuk LangitKetujuh OS Profesional dengan layanan instalasi secara penuh, Anda bisa mendonasikan mulai dari +Rp107.000. Donasi dapat dikembalikan apabila pemasangan tidak berhasil, atau kami salurkan donasi tersebut ke [lazismu.org](https://lazismu.org/) dan [smart171.org](https://smart171.org) untuk mengirimkan bantuan dan kebutuhan Yatim di Gaza. {{</ faq >}}
 
 {{< faq "Berapa donasi yang harus dibayar?" >}}
 Anda dapat memberikan [donasi](/donasi) sesuai kualitas pelayanan kami. Asalkan ikhlas, berkah dan tidak merugikan kedua belah pihak. [Donasi](/donasi) yang diberikan sesuai kemampuan Anda dan tidak ada beban. Tentunya kami sebagai tim pengembang projek hanyalah mencari keberkahan dalam membuat produk sistem operasi ini.
@@ -48,4 +47,3 @@ Ya bisa. Musl hanya mendukung aplikasi windows 64-bit saja, sedangkan Glibc mend
 {{< faq "Apakah pembaruannya bebas?" >}}
 LangitKetujuh OS mengikuti pembaruan dari voidlinux dengan repsitori tunggal [Alpha De Repo](https://alpha.de.repo.voidlinux.org). Pembaruan bebas dan menggunakan siklus roling rilis agar aplikasinya tetap versi yang terbaru. Cara untuk memperbarui sistem yaitu buka konsole lalu ketik `update` kemudian tekan Enter. Proses pembaruan akan berjalan dengan semestinya.
 {{</ faq >}}
-
