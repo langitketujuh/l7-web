@@ -8,7 +8,7 @@ opengraph:
   image: media/beranda/thumbnail.jpg
 
 ---
-{{< faq "Apakah bisa berjalan di prosesor 32 bit?" >}} Tidak. Untuk saat ini, kami baru membangun LangitKetujuh OS untuk prosesor 64 bit saja. {{</ faq >}}
+{{< faq "Apakah bisa berjalan di prosesor 32 bit?" >}} Tidak. Untuk saat ini, kami baru membangun LangitKetujuh OS untuk prosesor 64 bit saja. Mengikuti perkembangan teknologi yang mulai meninggalkan prosesor 32 bit.{{</ faq >}}
 
 {{< faq "Apakah saya perlu donasi dahulu?" >}} Jika Anda menggunakan [edisi lite](/lite) maka Anda bisa mendapatkannya secara gratis. Sedangkan untuk LangitKetujuh OS Profesional dengan layanan instalasi secara penuh, Anda bisa mendonasikan mulai dari +Rp107.000. Donasi dapat dikembalikan apabila pemasangan tidak berhasil, atau kami salurkan donasi tersebut ke [lazismu.org](https://lazismu.org/) dan [smart171.org](https://smart171.org) untuk mengirimkan bantuan dan kebutuhan Yatim di Gaza. {{</ faq >}}
 
