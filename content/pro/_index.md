@@ -8,7 +8,7 @@ opengraph:
 proglibc:
   name: PRO (Donasi)
   type: glibc
-  type_ver: v20210328
+  type_ver: 20210602
   info: Terbaik untuk Kompatibel Hardware
   services:
   - "**[+] Fitur Lite Glibc.**"
@@ -33,7 +33,7 @@ proglibc:
 promusl:
   name: PRO (Donasi)
   type: musl
-  type_ver: v20210328
+  type_ver: 20210602
   info: Terbaik untuk Efisiensi Daya
   services:
   - "**[+] Fitur Lite Musl.**"
