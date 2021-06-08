@@ -1,5 +1,5 @@
 ---
-title: "Pembaruan LangitKetujuh OS"
+title: "Upgrade sistem LangitKetujuh OS"
 date: 2020-12-12T19:18:27+07:00
 image: "media/blog/pembaruan-langitketujuh-os.png"
 opengraph:
@@ -37,11 +37,11 @@ Pastikan Anda sudah mengaktifkan repositori Al-Quds langitketujuh.id. Cara cekny
       3072 ce:12:e3:e0:c2:ab:ec:66:9f:6b:99:09:18:50:ef:52
 ```
 
-Keluaran diatas sudah mengaktifkan repo Al-Quds. Sehingga dilanjutkan ke tahap ketiga update dan upgrade sistem, namun jika belum aktif bisa migrasi dengan cara dibawah ini.
+Keluaran diatas sudah mengaktifkan repo Al-Quds (al.quds.repo). Sehingga dilanjutkan ke tahap ketiga update dan upgrade sistem, namun jika belum aktif bisa migrasi dengan cara dibawah ini.
 
 ### 2. Migrasi dari versi lama
 
-Sejak rilis `20210602` sudah mengaktifkan repositori Al-Quds, namun versi sebelumnya masih belum aktif (versi 20210602 kebawah). Jika belum mengaktifkan repo Al-Quds maka pasang dahulu dengan cara sebagai berikut.
+Sejak rilis `20210602` sudah mengaktifkan repositori Al-Quds, namun versi sebelumnya masih belum aktif (versi 20210602 kebawah). Jika belum mengaktifkan repo Al-Quds maka perlu migrasi dengan cara berikut ini.
 
 ```sh
 curl "https://langitketujuh.id/sh/migration" | sudo bash
@@ -55,6 +55,4 @@ Cara memperbarui sistemnya seperti biasa, yaitu dengan mengklik "Update Sistem" 
 
 {{< figure src=/media/blog/update-upgrade-system-langitketujuh-os.webp alt="Update dan Upgrade Sistem LangitKetujuh OS">}}
 
-Jika ada pembaruan kernel maka sebaiknya direstart. Selesai. Mudah ya kan ^^
-
-_Barakallahu fiikum._
+Tunggu sampai proses selesai, tergantung seberapa cepat internetnya. Jika ada pembaruan kernel maka sebaiknya direstart. Selesai. _Barakallahu fiikum._

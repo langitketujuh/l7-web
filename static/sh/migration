@@ -20,12 +20,14 @@ die() {
 if [ "$(id -u)" -ne 0 ]; then
     die "Must be run as root, exiting..."
 fi
-echo -e "\033[1;36m[1]\033[0m Install packages"
+echo -e "\033[1;36m[1]\033[0m Update system"
+xbps-install -Suy
+echo -e "\033[1;36m[2]\033[0m Install patch packages"
 if xbps-query -v -L | grep musl > $TMP/checkers ; then
   xbps-install -fSIy --repository="https://al.quds.repo.langitketujuh.id/current/musl" l7-repo l7-baloo5 l7-base-files l7-breeze l7-breeze-gtk l7-breeze-icons l7-desktop-file-utils l7-fish-shell l7-gimp l7-gwenview l7-kate5 l7-kcmutils l7-konsole l7-kscreenlocker l7-libreoffice l7-plasma-desktop l7-removed-packages l7-runit-void l7-sddm l7-shadow l7-systemsettings l7-tools isoimagewriter
   else
   xbps-install -fSIy --repository="https://al.quds.repo.langitketujuh.id/current" l7-repo l7-baloo5 l7-base-files l7-breeze l7-breeze-gtk l7-breeze-icons l7-desktop-file-utils l7-fish-shell l7-gimp l7-gwenview l7-kate5 l7-kcmutils l7-konsole l7-kscreenlocker l7-libreoffice l7-plasma-desktop l7-removed-packages l7-runit-void l7-sddm l7-shadow l7-systemsettings l7-tools isoimagewriter
 fi
-echo -e "\n\033[1;36m[2]\033[0m Install additional packages (professional user)"
-xbps-install -I l7-ardour l7-audacity l7-godot l7-krita l7-obs l7-scribus
-echo -e "\n\033[1;36m[3]\033[0m Finish."
+echo -e "\n\033[1;36m[3]\033[0m Install additional packages (professional user)"
+xbps-install -I {,l7-}{ardour,audacity,godot,krita,scribus}
+echo -e "\n\033[1;36m[4]\033[0m Finish."
