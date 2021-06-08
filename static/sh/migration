@@ -19,9 +19,6 @@ die() {
 # Check for root permissions.
 if [ "$(id -u)" -ne 0 ]; then
     die "Must be run as root, exiting..."
-    else
-    echo
-    echo "Password:"
 fi
 echo -e "\033[1;36m[1]\033[0m Install packages"
 if xbps-query -v -L | grep musl > $TMP/checkers ; then
