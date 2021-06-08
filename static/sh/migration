@@ -20,12 +20,14 @@ die() {
 if [ "$(id -u)" -ne 0 ]; then
     die "Must be run as root, exiting..."
 fi
-echo -e "\n\033[1;36m[1]\033[0m Install patch packages"
+echo -e "\n\033[1;36m[1]\033[0m Update system"
+xbps-install -Suy
+echo -e "\n\033[1;36m[2]\033[0m Install patch packages"
 if xbps-query -v -L | grep musl > $TMP/checkers ; then
-  xbps-install -fSIy --repository="https://al.quds.repo.langitketujuh.id/current/musl" l7-{export,repo,tools} {,l7-}{baloo5,base-files,breeze,breeze-gtk,breeze-icons,desktop-file-utils,fish-shell,gimp,gwenview,kate5,kcmutils,konsole,kscreenlocker,libreoffice,plasma-desktop,removed-packages,runit-void,sddm,shadow,systemsettings} isoimagewriter
+  xbps-install -fSIy --repository="https://al.quds.repo.langitketujuh.id/current/musl" l7-{export,repo,tools,runit-void} {,l7-}{baloo5,base-files,breeze,breeze-gtk,breeze-icons,desktop-file-utils,fish-shell,gimp,gwenview,kate5,kcmutils,konsole,kscreenlocker,libreoffice,plasma-desktop,removed-packages,sddm,shadow,systemsettings} isoimagewriter
   else
   xbps-install -fSIy --repository="https://al.quds.repo.langitketujuh.id/current" l7-{export,repo,tools} {,l7-}{baloo5,base-files,breeze,breeze-gtk,breeze-icons,desktop-file-utils,fish-shell,gimp,gwenview,kate5,kcmutils,konsole,kscreenlocker,libreoffice,plasma-desktop,removed-packages,runit-void,sddm,shadow,systemsettings} isoimagewriter
 fi
-echo -e "\n\033[1;36m[2]\033[0m Install additional packages (professional user)"
+echo -e "\n\033[1;36m[3]\033[0m Install additional packages (professional user)"
 xbps-install -I {,l7-}{ardour,audacity,godot,krita,scribus}
-echo -e "\n\033[1;36m[3]\033[0m Finish."
+echo -e "\n\033[1;36m[4]\033[0m Finish."
