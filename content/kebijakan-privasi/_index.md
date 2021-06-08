@@ -23,7 +23,7 @@ Server web kami menggunakan layanan CI/CD [Netlify](https://netlify.com) untuk m
 
   ##### Formulir
 
-  Kami mengumpulkan data dengan layanan CI/CD [Netlify](https://netlify.com) yang ditampilkan di halaman formulir [pro-musl](/pro-musl), [pro-glibc](/pro-glibc), [kabari](/kabari), [feedback](/feedback), [kerjasama](/kerjasama) dan juga alamat IP pengunjung dan string agen pengguna browser untuk membantu deteksi spam.
+  Kami mengumpulkan data dengan layanan CI/CD [Netlify](https://netlify.com) yang ditampilkan di halaman formulir [pro-musl](../pro-musl), [pro-glibc](../pro-glibc), [kabari](../kabari), [feedback](../feedback), [kerjasama](../kerjasama) dan juga alamat IP pengunjung dan string agen pengguna browser untuk membantu deteksi spam.
 
   Kami menyimpan data formulir pengguna Pro berupa: Nama lengkap, Surel (email) dan Akun telegram. Hal ini bertujuan untuk memudahkan panggilan bantuan instalasi dan seputar masalah sistem operasi.
 
@@ -63,7 +63,7 @@ Situs ini adalah bagian dari jaringan situs yang melindungi terhadap serangan br
 
 ### Informasi kontak
 
-Jika Anda memiliki pertanyaan tentang kebijakan privasi langitketujuh.id maka Anda dapat menghubungi kami melalui halaman [Kabari](/kabari) yang disediakan atau menghubungi melalui email langsung di [langitketujuh.id@pm.me](mailto:langitketujuh.id@pm.me).
+Jika Anda memiliki pertanyaan tentang kebijakan privasi langitketujuh.id maka Anda dapat menghubungi kami melalui halaman [Kabari](../kabari) yang disediakan atau menghubungi melalui email langsung di [langitketujuh.id@pm.me](mailto:langitketujuh.id@pm.me).
 
 ### Bagaimana kami melindungi data Anda
 
