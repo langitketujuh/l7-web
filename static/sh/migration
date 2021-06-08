@@ -20,6 +20,8 @@ die() {
 # Check for root permissions.
 if [ "$(id -u)" -ne 0 ]; then
     die "Must be run as root, exiting..."
+    else
+    echo "Password:"
 fi
 
 echo -e "\033[1;36m[1]\033[0m Install packages"
@@ -36,7 +38,7 @@ if [[ $PRO =~ ^[Yy]$ ]]; then
   echo -e "[*] Yes, wait a minutes."
   xbps-install -Iy l7-ardour l7-audacity l7-godot l7-krita l7-obs l7-scribus
   else
-  echo -e "[*] Skip install."
+  echo -e "[*] Skip packages."
 fi
 
 echo -e "\n\033[1;36m[3]\033[0m Finish."
