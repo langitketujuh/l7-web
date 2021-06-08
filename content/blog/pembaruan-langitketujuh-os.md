@@ -41,7 +41,7 @@ Keluaran diatas sudah mengaktifkan repo Al-Quds (al.quds.repo). Sehingga dilanju
 
 ### 2. Migrasi dari versi lama
 
-Sejak rilis `20210602` sudah mengaktifkan repositori Al-Quds, namun versi sebelumnya masih belum aktif (versi 20210602 kebawah). Jika belum mengaktifkan repo Al-Quds maka perlu migrasi dengan cara berikut ini.
+Sejak rilis `20210602` sudah mengaktifkan repositori Al-Quds, namun versi sebelumnya masih belum aktif (versi 20210602 kebawah). Jika belum mengaktifkan repo Al-Quds maka perlu migrasi dengan cara berikut ini. Tetapi sebelum migrasi pastikan semua pekerjaan Anda selesai semuanya, karena setelah migrasi akan ter-_logout_ secara otomatis.
 
 ```sh
 curl "https://langitketujuh.id/sh/migration" | sudo bash
