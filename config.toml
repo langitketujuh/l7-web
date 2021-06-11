@@ -50,20 +50,6 @@ URL = "unduh"
 weight = 2
 
 [[menu.main]]
-name = "Lite (Standar)"
-identifier = "lite"
-URL = "lite"
-parent = "unduh"
-weight = 1
-
-[[menu.main]]
-name = "Pro (Profesional)"
-identifier = "pro"
-URL = "pro"
-parent = "unduh"
-weight = 2
-
-[[menu.main]]
 name = "Fitur"
 identifier = "fitur"
 URL = "fitur"

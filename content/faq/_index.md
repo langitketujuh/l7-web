@@ -31,8 +31,6 @@ Dokumentasi langitketujuh yaitu [Panduan](https://panduan.langitketujuh.id/). Se
 Tidak bisa langsung, karena aplikasi nonfree kebanyakan dibangun menggunakan glibc. Tetapi LangitKetujuh Musl mendukung aplikasi nonfree menggunakan flatpak seperti Zoom, Microsoft Teams, Spotify, Skype dan lain-lain. Selengkapnya ada disini ["Perbedaan musl dan glibc"](https://panduan.langitketujuh.id/perbandingan/musl-vs-glibc.html). Jika ada kesulitan Anda bisa menghubungi tim [Layanan LangitKetujuh OS](https://t.me/LangitKetujuh_bot).
 {{</ faq >}}
 
-{{< faq "Apakah bisa berjalan di prosesor 32 bit?" >}} Belum bisa. Untuk saat ini kami baru membangun LangitKetujuh OS untuk prosesor 64 bit saja. Mengikuti perkembangan teknologi yang mulai meninggalkan prosesor 32 bit.{{</ faq >}}
-
 {{< faq "Apakah musl tidak bisa menjalankan aplikasi Appimage?" >}}
 Tidak bisa, karena aplikasi Appimage kebanyakan dibangun menggunakan glibc. Appimage hanya bisa dijalankan di Glibc. Anda bisa melihat perbedaan fitur Langitketujuh di [halaman fitur](../fitur).
 {{</ faq >}}
