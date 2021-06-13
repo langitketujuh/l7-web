@@ -16,8 +16,8 @@ litemusl:
   button:
     enable: true
     label: Unduh
-    link: #
-    checksum: https://
+    link: https://osdn.net/projects/langitketujuh/downloads/75261/langitketujuh-lite-x86_64-musl-20210602-xcic15k.iso/
+    checksum: /checksum/langitketujuh-lite-x86_64-musl-20210602-xcic15k.iso.sha256
 liteglibc:
   name: glibc
   type: Lite
@@ -28,8 +28,8 @@ liteglibc:
   button:
     enable: true
     label: Unduh
-    link: https://
-    checksum: https://
+    link: https://osdn.net/projects/langitketujuh/downloads/75261/langitketujuh-lite-x86_64-20210602-wehcpg7.iso/
+    checksum: /checksum/langitketujuh-lite-x86_64-20210602-wehcpg7.iso.sha256
 liteglibc32:
   name: glibc
   type: Lite
@@ -56,7 +56,7 @@ promusl:
     enable: true
     label: Donasi
     link: pro-musl
-    checksum: https://
+    checksum: /checksum/langitketujuh-pro-x86_64-musl-20210602-jqy4uzp.iso.sha256
 proglibc:
   name: glibc
   type: Pro
@@ -70,7 +70,7 @@ proglibc:
     enable: true
     label: Donasi
     link: pro-glibc
-    checksum: https://
+    checksum: /checksum/langitketujuh-pro-x86_64-20210602-4utvpv2.iso.sha256
 proglibc32:
   name: glibc
   type: Pro
@@ -83,7 +83,7 @@ proglibc32:
   button:
     enable: true
     label: Donasi
-    link: pro-glibc32
+    link: https://
     checksum: https://
 
 call_to_action:

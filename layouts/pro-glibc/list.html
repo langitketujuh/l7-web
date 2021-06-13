@@ -12,7 +12,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-7 mb-4 mb-lg-0">
-        <form name="PRO Glibc 64-bit" netlify-honeypot="bot-field" action="/sk-pro" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+        <form name="profesional" netlify-honeypot="bot-field" action="/sk-pro" method="POST" data-netlify-recaptcha="true" data-netlify="true">
           <input type="text" class="form-control mb-3" id="nama" name="nama" placeholder="Nama Lengkap" required="true">
           <input type="email" class="form-control mb-3" id="surel" name="surel" placeholder="Email Asli Anda" required="true">
           <div class="input-group mb-3">
@@ -20,6 +20,14 @@
                 <span class="input-group-text" id="telegram">@</span>
             </div>
             <input type="text" class="form-control" id="telegram" name="telegram" aria-label="telegram" aria-describedby="inputTelegram" placeholder="Telegram" required="true">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label class="input-group-text" for="inputProfesional">PRO</label>
+            </div>
+            <select class="custom-select" id="profesional" name="profesional[]" required="true">
+              <option selected id="pro-musl" value="GLIBC-64BIT">Glibc 64-bit (Kompatibel Driver Nonfree)</option>
+            </select>
           </div>
           <div class="input-group mb-3">
             <div class="input-group-prepend">
@@ -36,7 +44,7 @@
             </div>
             <select class="custom-select" id="donasi" name="donasi[]" required="true">
               <option selected id="107000" value="107000">Diatas Rp107.000* (+Dukungan Instalasi)</option>
-              <option id="57000" value="MUSL">Mulai dari Rp57.000 (Tanpa Dukungan)</option>
+              <option id="57000" value="57000">Mulai dari Rp57.000 (Tanpa Dukungan)</option>
             </select>
           </div>
           <div class="form-row mb-3">
