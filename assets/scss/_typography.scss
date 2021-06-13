@@ -1,11 +1,11 @@
 /*  typography */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
 
 body {
   line-height: 1.2;
   font-family: $primary-font;
   -webkit-font-smoothing: antialiased;
-  font-size: 16px;
+  font-size: 1.125rem;
   color: $text-color;
 }
 
@@ -36,7 +36,7 @@ h6 {
 
 h1,
 .h1 {
-  font-size: 48px;
+  font-size: calc(1.875rem + 1.5vw);
 
   @include tablet {
     font-size: 40px;

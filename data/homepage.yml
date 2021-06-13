@@ -21,7 +21,7 @@ feature:
     # feature item loop
     - name : "Runit init"
       icon : "ti-dashboard"
-      content : "Keamanan lebih baik. menggunakan runit karena PID1 harus sederhana, minimalis, dan stabil. Tentunya bebas dari SystemD."
+      content : "Keamanan lebih baik dengan runit karena PID1 harus sederhana, minimalis, stabil dan bebas dari SystemD."
 
     # feature item loop
     - name : "Xbps paket manajemen"
@@ -36,7 +36,7 @@ feature:
     # feature item loop
     - name : "Perlengkapan Desain (pro)"
       icon : "ti-palette"
-      content : "Perangkat lunak untuk ilustrasi, animasi, painting, fotografi, dan game kreator. Google fonts termasuk di dalamnya."
+      content : "Perangkat lunak untuk ilustrasi, animasi, painting, fotografi, font dan game kreator. Google fonts termasuk di dalamnya."
 
     # feature item loop
     - name : "Dukungan instalasi (pro)"
@@ -77,7 +77,7 @@ service:
     - title : "Mesin game 2D/3D multiplatform"
       images:
       - "media/beranda/service-game-maker.webp"
-      content : "Godot multi platform pembuat game 2D dan 3D. Menyediakan banyak tools umum yang komprehensif dan dapat mengeksport ke beberapa platform desktop (Windows, Linux, MacOS), platform mobile (Android dan IOS) dan berbasis web (Html5)."
+      content : "Godot multi platform pembuat game 2D/3D. Menyediakan banyak tools yang komprehensif dan dapat mengeksport ke platform desktop (Windows, Linux & MacOS), platform mobile (Android & IOS) dan web (Html5)."
       button:
         enable : false
         label : "Fitur lebih lanjut"
@@ -86,7 +86,7 @@ service:
     - title : "Penerbitan desktop dan desain tata letak"
       images:
       - "media/beranda/service-desktop-publishing.webp"
-      content : "Scribus sebagai aplikasi penerbitan desktop utama. Dirancang untuk tata letak, penyusunan huruf dan persiapan pengaturan gambar berkualitas profesional. Scribus juga dapat membuat presentasi dan bentuk PDF animasi dan interaktif."
+      content : "Scribus sebagai aplikasi penerbitan desktop utama. Dirancang untuk tata letak, penyusunan huruf dan persiapan pengaturan gambar berkualitas profesional."
       button:
         enable : false
         label : "Fitur lebih lanjut"
@@ -95,7 +95,7 @@ service:
     - title : "Fotografi dan manajemen gambar"
       images:
       - "media/beranda/service-photography.webp"
-      content : "RawTherapee didesain khusus untuk berkas RAW yang kompatibel dengan format kamera DSLR (seperti NEF dan DNG), JPG dan TIFF. Digikam untuk mengatur seluruh koleksi gambar, membuat album dengan berbagai macam penanda, menjalankan pencarian lanjutan berbagai detail (tag, tanggal, lokasi, EXIF, IPTC, XMP, dsb) dan membuat katalog video."
+      content : "RawTherapee didesain khusus untuk berkas RAW yang kompatibel dengan format kamera DSLR, JPG dan TIFF. Digikam untuk mengatur seluruh koleksi gambar, membuat album dan membuat katalog."
       button:
         enable : false
         label : "Fitur lebih lanjut"
@@ -104,7 +104,7 @@ service:
     - title : "Audio dan Video non-linear editing"
       images:
       - "media/beranda/service-audio-video.webp"
-      content : "Terdapat pengolah video terbaik dengan fitur yang melimpah. Audacity sebagai aplikasi efek suara dan mengoreksi berkas suara tertentu. OBS Studio sebagai perekam yang kaya fitur. SSR perekam yang ringan dan minimalis. Dan SoundKonverter sebagai konversi format berkas audio."
+      content : "Audacity sebagai aplikasi pengoreksi suara tertentu. OBS Studio sebagai perekam desktop. SSR perekam yang minimalis. SoundKonverter sebagai konverter audio."
       button:
         enable : false
         label : "Fitur lebih lanjut"
@@ -113,7 +113,7 @@ service:
     - title : "LibreOffice perlengkapan perkantoran"
       images:
       - "media/beranda/service-office.webp"
-      content : "LibreOffice merupakan paket perangkat lunak bebas untuk perlengkapan perkantoran yang lengkap. Libreoffice writer membuat booklet, makalah, skripsi, disertasi, dan tesis. LibreOffice Impress untuk Presentasi. LibreOffice Calc untuk laporan perhitungan. Bahkan mampu membuat database sendiri dengan LibreOffice base."
+      content : "LibreOffice merupakan paket perangkat lunak bebas untuk perlengkapan perkantoran yang lengkap. Seperti membuat booklet, skripsi, disertasi. Presentasi dan pelaporan perhitungan dengan database."
       button:
         enable : false
         label : "Fitur lebih lanjut"
