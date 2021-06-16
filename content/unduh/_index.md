@@ -16,8 +16,8 @@ litemusl:
   button:
     enable: true
     label: Unduh
-    link: https://osdn.net/projects/langitketujuh/downloads/75261/langitketujuh-lite-x86_64-musl-20210602-xcic15k.iso/
-    checksum: /checksum/langitketujuh-lite-x86_64-musl-20210602-xcic15k.iso.sha256
+    link: https://osdn.net/projects/langitketujuh/downloads/75313/langitketujuh-lite-x86_64-musl-20210616.iso
+    checksum: checksum/langitketujuh-lite-x86_64-musl-20210616.iso.sha256
 liteglibc:
   name: glibc
   type: Lite
@@ -28,8 +28,8 @@ liteglibc:
   button:
     enable: true
     label: Unduh
-    link: https://osdn.net/projects/langitketujuh/downloads/75261/langitketujuh-lite-x86_64-20210602-wehcpg7.iso/
-    checksum: /checksum/langitketujuh-lite-x86_64-20210602-wehcpg7.iso.sha256
+    link: https://osdn.net/projects/langitketujuh/downloads/75313/langitketujuh-lite-x86_64-20210616.iso
+    checksum: checksum/langitketujuh-lite-x86_64-20210616.iso.sha256
 liteglibc32:
   name: glibc
   type: Lite
@@ -40,8 +40,8 @@ liteglibc32:
   button:
     enable: true
     label: Unduh
-    link: https://
-    checksum: https://
+    link: https://osdn.net/projects/langitketujuh/downloads/75313/langitketujuh-lite-i686-20210616.iso
+    checksum: checksum/langitketujuh-lite-i686-20210616.iso.sha256
 
 promusl:
   name: musl
@@ -56,7 +56,7 @@ promusl:
     enable: true
     label: Donasi
     link: pro-musl
-    checksum: /checksum/langitketujuh-pro-x86_64-musl-20210602-jqy4uzp.iso.sha256
+    checksum: checksum/langitketujuh-pro-x86_64-musl-20210616.iso.sha256
 proglibc:
   name: glibc
   type: Pro
@@ -70,7 +70,7 @@ proglibc:
     enable: true
     label: Donasi
     link: pro-glibc
-    checksum: /checksum/langitketujuh-pro-x86_64-20210602-4utvpv2.iso.sha256
+    checksum: checksum/langitketujuh-pro-x86_64-20210616.iso.sha256
 proglibc32:
   name: glibc
   type: Pro
@@ -83,8 +83,8 @@ proglibc32:
   button:
     enable: true
     label: Donasi
-    link: https://
-    checksum: https://
+    link: pro-glibc32
+    checksum: checksum/langitketujuh-pro-i686-20210616.iso.sha256
 
 call_to_action:
   enable: true

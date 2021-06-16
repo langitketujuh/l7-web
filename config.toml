@@ -36,30 +36,35 @@ link = "plugins/drag/drag.min.js"
 
 # NAVIGASI
 
-# menu utama
-[[menu.main]]
-name = "Blog"
-identifier = "blog"
-URL = "blog"
-weight = 1
-
 [[menu.main]]
 name = "Unduh"
 identifier = "unduh"
 URL = "unduh"
-weight = 2
+weight = 1
 
 [[menu.main]]
 name = "Fitur"
 identifier = "fitur"
 URL = "fitur"
+weight = 2
+
+[[menu.main]]
+name = "Panduan"
+URL = "https://panduan.langitketujuh.id"
 weight = 3
+
+# menu utama
+[[menu.main]]
+name = "Blog"
+identifier = "blog"
+URL = "blog"
+weight = 4
 
 [[menu.main]]
 name = "Komparasi"
 identifier = "komparasi"
 URL = "komparasi"
-weight = 4
+weight = 5
 
 [[menu.main]]
 name = "Vs Ubuntu Studio"
@@ -86,7 +91,7 @@ weight = 3
 name = "Cuplikan"
 URL = "cuplikan"
 identifier = "cuplikan"
-weight = 5
+weight = 6
 
 [[menu.main]]
 name = "Ilustrasi dan Lukis Digital"
@@ -150,11 +155,6 @@ identifier = "produktifitas-dasar"
 URL = "cuplikan/produktifitas-dasar"
 parent = "cuplikan"
 weight = 9
-
-[[menu.main]]
-name = "Panduan"
-URL = "https://panduan.langitketujuh.id"
-weight = 6
 
 [[menu.main]]
 name = "Kabari"

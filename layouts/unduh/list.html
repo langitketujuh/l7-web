@@ -60,7 +60,7 @@
         <div class="card shadow">
           <div class="card-body text-center py-5">
             <h3 class="mb-4">{{ .name | markdownify }}</h3>
-            <span class="price"><s>{{ .type }}</s></span><span>{{ .type_ver }}</span>
+            <span class="price">{{ .type }}</span><span>{{ .type_ver }}</span>
             <p class="lead">{{ .info | markdownify }}</p>
             <ul class="list-unstyled mb-5 px-3">
               {{ range .services }}
@@ -133,7 +133,7 @@
         <div class="card shadow">
           <div class="card-body text-center py-5">
             <h3 class="mb-4">{{ .name | markdownify }}</h3>
-            <span class="price"><s>{{ .type }}</s></span><span>{{ .type_ver }}</span>
+            <span class="price">{{ .type }}</span><span>{{ .type_ver }}</span>
             <p class="lead">{{ .info | markdownify }}</p>
             <ul class="list-unstyled mb-5 px-3">
               {{ range .services }}

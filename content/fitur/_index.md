@@ -24,28 +24,33 @@ call_to_action:
 Dukungan instalasi oleh tenaga ahli. | - | **√**
 Dukungan codec Audio dan Video. | **√** | **√**
 Libreoffice paket aplikasi perkantoran. | **√** | **√**
+KDE-Connect Sinkron perangkat. | **√** | **√**
 Deteksi Printer HP dan Epson. | **√** | **√**
-Gimp manipulasi foto. | **√** | **√**
 Inkscape pengolah vektor. | **√** | **√**
+Gimp manipulasi foto. | **√** | **√**
 Audacity pengolah audio. | - | **√**
 Blender animasi 2D/3D. | - | **√**
 Fontforge pembuat font. | - | **√**
 Freecad 3D parametric. | - | **√**
 Godot pembuat game. | - | **√**
-Kdenlive pengolah video. | - | **√**
-Krita digital painting. | - | **√**
 LibreCAD 2D CAD. | - | **√**
-Scribus publisher. | - | **√**
-Synfigstudio animasi 2D. | - | **√**
+Key-mon Monitor. | - | **√**
+Scribus Publisher. | - | **√**
+Krita digital painting. | - | **√**
 Digikam manajemen foto. | - | **√**
+Kdenlive pengolah video. | - | **√**
+Converseen konverter gambar. | - | **√**
+OpenToonz Animasi Raster 2D. | - | **√**
+Produksi Audio dengan Ardour. | - | **√**
+Synfigstudio Animasi Vector 2D. | - | **√**
 Rawtherapee pengolah foto raw. | - | **√**
 Plugin GMIC Qt Gimp dan Krita. | - | **√**
-Produksi Audio dengan Ardour. | - | **√**
 Kalibrasi warna dengan DisplayCAL. | - | **√**
+OBS Perekam desktop dan streaming. | - | **√**
 Google Fonts untuk proyek komersil. | - | **√**
 Akses ISO terbaru [^1] | -  | **√**
 
-**Fitur** | **Glibc** | **Musl**
+**Fitur** | **Musl** | **Glibc**
 :--- | :---: | :---:
 Dukungan Aplikasi Appimage | - | **√**
 Dukungan Nvidia Propietary driver | - | **√**
