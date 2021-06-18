@@ -36,7 +36,7 @@
 
         {{ if site.Params.navigation_button.enable }}
         {{ with site.Params.navigation_button }}
-        <a href="{{ .link | absURL }}" class="btn btn-sm btn-primary mt-4">{{ .label }}</a>
+        <a href="{{ .link | absURL }}" class="btn btn-sm btn-primary">{{ .label }}</a>
         {{ end }}
         {{ end }}
       </div>

@@ -1,10 +1,11 @@
 ---
-title: Unduh LangitKetujuh OS
-subtitle: ''
+title: Unduh L7 Sekarang
+subtitle: 'Penuhi kebutuhan desainmu dengan LangitKetujuh OS'
 description: Penuhi kebutuhan desainmu dengan LangitKetujuh OS.
 image: media/beranda/thumbnail.jpg
 opengraph:
   image: media/beranda/thumbnail.jpg
+version: 20210616
 
 litemusl:
   name: musl
@@ -88,12 +89,12 @@ proglibc32:
 
 call_to_action:
   enable: true
-  title: Perbedaan Fitur?
+  title: Perbedaan Fitur
   image: media/beranda/faq-min.svg
-  content: Masih bingung? Bandingkan perbedaan fitur Lite dan Pro disini.
+  content: Masih bingung? Coba bandingkan perbedaan fitur Lite dan Pro disini.
   button:
     enable: true
-    label: Bandingkan!
+    label: Bandingkan
     link: fitur
 
 ---

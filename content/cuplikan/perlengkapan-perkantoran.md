@@ -1,9 +1,9 @@
 ---
 title: "Aneka Perlengkapan Perkantoran"
 date: 2020-12-12T23:23:16+07:00
-image: media/cuplikan/perlengkapan-perkantoran.webp
+image: media/cuplikan/perlengkapan-perkantoran.jpg
 opengraph:
-  image: media/cuplikan/perlengkapan-perkantoran.webp
+  image: media/cuplikan/perlengkapan-perkantoran.jpg
 description: "Daftar cuplikan perangkat lunak Aneka Produktifitas Keseharian di LangitKetujuh OS"
 author: "LangitKetujuh ID"
 draft: false
@@ -13,38 +13,38 @@ LibreOffice merupakan paket perangkat lunak bebas untuk perlengkapan perkantoran
 
 {{< figure src=/media/cuplikan/libreoffice-langitketujuh-id-2.webp alt="LibreOffice Draw LangitKetujuh OS">}}
 
-### LibreOffice Writer
+## LibreOffice Writer
 
 LibreOffice Writer digunakan untuk penulisan doumen berbasis teks. Seperti membuat makalah, laporan, dan sebagainya.
 
 {{< figure src=/media/cuplikan/libreoffice-langitketujuh-id-3.webp alt="LibreOffice Draw LangitKetujuh OS">}}
 {{< figure src=/media/cuplikan/libreoffice-langitketujuh-id-4.webp alt="LibreOffice Draw LangitKetujuh OS">}}
 
-### LibreOffice Calc
+## LibreOffice Calc
 
 Perangkat lunak ini digunakan untuk membuat dokumen berbasis angka.
 
 {{< figure src=/media/cuplikan/libreoffice-langitketujuh-id-5.webp alt="LibreOffice Draw LangitKetujuh OS">}}
 
-### LibreOffice Impress
+## LibreOffice Impress
 
 Membuat dokumen untuk kebutuhan presentasi.
 
 {{< figure src=/media/cuplikan/libreoffice-langitketujuh-id-6.webp alt="LibreOffice Draw LangitKetujuh OS">}}
 
-### LibreOffice Draw
+## LibreOffice Draw
 
 Membuat dokumen untuk kebutuhan gambar berbasis vektor. LibreOffice Draw juga mampu dijadikan sebagai Penyunting PDF yang handal.
 
 {{< figure src=/media/cuplikan/libreoffice-langitketujuh-id-7.webp alt="LibreOffice Draw LangitKetujuh OS">}}
 
-### LibreOffice Math
+## LibreOffice Math
 
 Membuat teks formula matematika dengan mudah dilakukan dengan LibreOffice Formula.
 
 {{< figure src=/media/cuplikan/libreoffice-langitketujuh-id-8.webp alt="LibreOffice Draw LangitKetujuh OS">}}
 
-### LibreOffice Base
+## LibreOffice Base
 
 Membuat bibliografi, data perpustakaan, data penjualan mudah dibuat dengan LibreOffice Base. Jika mau menanamkan database bisa menggunakan Fiebird3 sebagai database utamanya.
 
@@ -53,7 +53,7 @@ Membuat bibliografi, data perpustakaan, data penjualan mudah dibuat dengan Libre
 {{< figure src=/media/cuplikan/libreoffice-langitketujuh-id-11.webp alt="LibreOffice Draw LangitKetujuh OS">}}
 {{< figure src=/media/cuplikan/libreoffice-langitketujuh-id-12.webp alt="LibreOffice Draw LangitKetujuh OS">}}
 
-### Okular (Pembuka PDF)
+## Okular (Pembuka PDF)
 
 Okular merupakan pembuka PDF yang ringan dan bebas. Okular juga berada dibawah naungan organisasi non-profit KDE e.V.
 

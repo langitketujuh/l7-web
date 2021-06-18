@@ -1,12 +1,6 @@
 {{ define "main" }}
 
-<section class="section pb-0">
-  <div class="container text-center">
-    {{ with .Params.subtitle }}
-    <p>{{ . | markdownify }}</p>
-    {{ end }}
-  </div>
-</section>
+{{ partial "page-header.html" . }}
 
 <section class="section">
   <div class="container pricing-container">

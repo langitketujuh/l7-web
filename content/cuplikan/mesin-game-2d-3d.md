@@ -1,9 +1,9 @@
 ---
 title: "Mesin Game 2D/3D"
 date: 2020-12-12T23:23:20+07:00
-image: media/cuplikan/mesin-game-2d-3d.webp
+image: media/cuplikan/mesin-game-multi-platform-2d-3d.jpg
 opengraph:
-  image: media/cuplikan/mesin-game-2d-3d.webp
+  image: media/cuplikan/mesin-game-multi-platform-2d-3d.jpg
 description: "Daftar cuplikan perangkat lunak Multi Platform Kreator 2D/3D Mesin Game di LangitKetujuh OS"
 author: "LangitKetujuh ID"
 draft: false
@@ -17,15 +17,15 @@ Fitur Multi Platform dapat mengeksport ke beberapa platform desktop seperti Wind
 {{< figure src=/media/cuplikan/godot-langitketujuh-id-1.webp alt="Godot LangitKetujuh OS">}}
 {{< figure src=/media/cuplikan/godot-langitketujuh-id-2.webp alt="Godot LangitKetujuh OS">}}
 
-### Godot 2D Demo
+## Godot 2D Demo
 
-Berikut ini cuplikan salah satu demo 2D scenes dari Godot.
+Cuplikan salah satu demo 2D scenes dari Godot.
 
 {{< figure src=/media/cuplikan/godot-langitketujuh-id-3.webp alt="Godot LangitKetujuh OS">}}
 {{< figure src=/media/cuplikan/godot-langitketujuh-id-4.webp alt="Godot LangitKetujuh OS">}}
 {{< figure src=/media/cuplikan/godot-langitketujuh-id-5.webp alt="Godot LangitKetujuh OS">}}
 
-### Godot 3D Third Person Shooter Demo
+## Godot 3D Third Person Shooter Demo
 
 Dengan Godot juga mampu membuat game 3D yang detail.
 

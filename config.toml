@@ -36,6 +36,7 @@ link = "plugins/drag/drag.min.js"
 
 # NAVIGASI
 
+# menu utama
 [[menu.main]]
 name = "Unduh"
 identifier = "unduh"
@@ -49,15 +50,14 @@ URL = "fitur"
 weight = 2
 
 [[menu.main]]
-name = "Panduan"
-URL = "https://panduan.langitketujuh.id"
-weight = 3
-
-# menu utama
-[[menu.main]]
 name = "Blog"
 identifier = "blog"
 URL = "blog"
+weight = 3
+
+[[menu.main]]
+name = "Panduan"
+URL = "https://panduan.langitketujuh.id"
 weight = 4
 
 [[menu.main]]
@@ -143,18 +143,25 @@ parent = "cuplikan"
 weight = 7
 
 [[menu.main]]
+name = "CAD dan menggambar mekanik"
+identifier = "cad-dan-menggambar-mekanik"
+URL = "cuplikan/cad-dan-menggambar-mekanik"
+parent = "cuplikan"
+weight = 8
+
+[[menu.main]]
 name = "Perlengkapan Perkantoran"
 identifier = "perlengkapan-perkantoran"
 URL = "cuplikan/perlengkapan-perkantoran"
 parent = "cuplikan"
-weight = 8
+weight = 9
 
 [[menu.main]]
 name = "Produktifitas Dasar"
 identifier = "produktifitas-dasar"
 URL = "cuplikan/produktifitas-dasar"
 parent = "cuplikan"
-weight = 9
+weight = 10
 
 [[menu.main]]
 name = "Kabari"

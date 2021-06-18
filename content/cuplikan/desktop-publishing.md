@@ -1,15 +1,15 @@
 ---
 title: "Desktop Publishing"
 date: 2020-12-12T23:23:18+07:00
-image: media/cuplikan/desktop-publishing.webp
+image: media/cuplikan/open-source-desktop-publishing.jpg
 opengraph:
-  image: media/cuplikan/desktop-publishing.webp
+  image: media/cuplikan/open-source-desktop-publishing.jpg
 description: "Daftar cuplikan perangkat lunak Open Source Desktop Publishing di LangitKetujuh OS"
 author: "LangitKetujuh ID"
 draft: false
 ---
 
-### Scribus (Desktop Publishing)
+## Scribus (Desktop Publishing)
 
 Scribus adalah penerbitan aplikasi (DTP) desktop, dirilis di bawah GNU General Public License sebagai perangkat lunak bebas.
 
@@ -20,7 +20,7 @@ Perangkat lunak Scribus dirancang untuk kebutuhan tata letak, huruf dan mempersi
 {{< figure src=/media/cuplikan/scribus-langitketujuh-id-3.webp alt="Scribus LangitKetujuh OS">}}
 {{< figure src=/media/cuplikan/scribus-langitketujuh-id-4.webp alt="Scribus LangitKetujuh OS">}}
 
-### LibreOffice Draw (PDF Editor)
+## LibreOffice Draw (PDF Editor)
 
 LibreOffice Draw merupakan komponen aplikasi LibreOffice yang berfungsi untuk membuat dan memanipulasi data gambar digital 2 dimensi. Bentuk gambar vektor standar seperti garis, lingkaran, kotak, persegi, segitiga, busur dan bangun geometri lainnya dapat dibuat dengan mudah dan cepat.
 

@@ -1,6 +1,6 @@
 ---
-title: "Fitur Lite dan Pro"
-subtitle: ""
+title: "Fitur OS"
+subtitle: Edisi Pro untuk kebutuhan profesional. Pilih sesuai kebutuhan!
 # meta description
 description: "Perbandingan antara fitur lite dan pro. Lite untuk kebutuhan sederhana, sedangkan pro untuk kebutuhan profesional."
 image: media/beranda/thumbnail.jpg
@@ -12,7 +12,7 @@ call_to_action:
   enable : true
   title : "Butuh Bantuan?"
   image : "media/beranda/faq-min.svg"
-  content : "Silakan hubungi kami di telegram. Balasan akan di respon 1x3 jam."
+  content : "Silakan hubungi kami di telegram. Balasan akan direspon 1x3 jam."
   button:
     enable : true
     label : "Kabari via Telegram"

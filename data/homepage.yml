@@ -31,7 +31,7 @@ feature:
     # feature item loop
     - name : "KDE Lingkungan Destop"
       icon : "ti-desktop"
-      content : "Lingkungan destop yang ringan, mudah, dan handal. Didukung dengan KDE aplikasi seperti Falkon dan KDE Connect."
+      content : "Lingkungan destop yang ringan, mudah, dan handal. Didukung dengan aplikasi KDE seperti Elisa dan KDE Connect."
 
     # feature item loop
     - name : "Perlengkapan Desain (pro)"
@@ -52,72 +52,81 @@ service:
       - "media/beranda/service-illustration.webp"
       content : "LangitKetujuh OS terdapat aplikasi aplikasi Inkscape untuk pengolah vektor, GIMP pengolah raster dan Krita untuk lukis digital. Selain itu terdapat plugin GMIC sebagai framework pemroses gambar."
       button:
-        enable : false
-        label : "Fitur lebih lanjut"
-        link : "fitur"
+        enable : true
+        label : "Lebih detail"
+        link : "cuplikan/ilustrasi-dan-lukis-digital"
 
     - title : "Animasi 2D/3D penuh fitur"
       images:
       - "media/beranda/service-animation.webp"
       content : "Kreasi animasi 2D dan 3D dapat menggunakan Blender3D. Animasi vektor menggunakan Synfig Studio dan OpenToonz animasi frame per frame yang kaya fitur namun mudah digunakan secara bersamaan."
       button:
-        enable : false
-        label : "Fitur lebih lanjut"
-        link : "fitur"
+        enable : true
+        label : "Lebih detail"
+        link : "cuplikan/animasi-2d-3d-penuh-fitur"
 
     - title : "Font kreator dan Google Fonts"
       images:
       - "media/beranda/service-font-maker.webp"
       content : "Lebih dari 1200+ font dari Google Fonts (pro) sudah terpasang dan dapat digunakan untuk keperluan ilustrasi, branding, projek desain UI secara bebas. Serta terdapat FontForge untuk membuat font dengan berbagai typeface."
       button:
-        enable : false
-        label : "Fitur lebih lanjut"
-        link : "fitur"
+        enable : true
+        label : "Lebih detail"
+        link : "cuplikan/font-kreator-dan-google-fonts"
 
     - title : "Mesin game 2D/3D multiplatform"
       images:
       - "media/beranda/service-game-maker.webp"
       content : "Godot multi platform pembuat game 2D/3D. Menyediakan banyak tools yang komprehensif dan dapat mengeksport ke platform desktop (Windows, Linux & MacOS), platform mobile (Android & IOS) dan web (Html5)."
       button:
-        enable : false
-        label : "Fitur lebih lanjut"
-        link : "fitur"
+        enable : true
+        label : "Lebih detail"
+        link : "cuplikan/mesin-game-2d-3d"
 
     - title : "Penerbitan desktop dan desain tata letak"
       images:
       - "media/beranda/service-desktop-publishing.webp"
       content : "Scribus sebagai aplikasi penerbitan desktop utama. Dirancang untuk tata letak, penyusunan huruf dan persiapan pengaturan gambar berkualitas profesional."
       button:
-        enable : false
-        label : "Fitur lebih lanjut"
-        link : "fitur"
+        enable : true
+        label : "Lebih detail"
+        link : "cuplikan/desktop-publishing"
 
     - title : "Fotografi dan manajemen gambar"
       images:
       - "media/beranda/service-photography.webp"
       content : "RawTherapee didesain khusus untuk berkas RAW yang kompatibel dengan format kamera DSLR, JPG dan TIFF. Digikam untuk mengatur seluruh koleksi gambar, membuat album dan membuat katalog."
       button:
-        enable : false
-        label : "Fitur lebih lanjut"
-        link : "fitur"
+        enable : true
+        label : "Lebih detail"
+        link : "cuplikan/fotografi-dan-manajemen-gambar"
 
     - title : "Audio dan Video non-linear editing"
       images:
       - "media/beranda/service-audio-video.webp"
       content : "Audacity sebagai aplikasi pengoreksi suara tertentu. OBS Studio sebagai perekam desktop. SSR perekam yang minimalis. SoundKonverter sebagai konverter audio."
       button:
-        enable : false
-        label : "Fitur lebih lanjut"
-        link : "fitur"
+        enable : true
+        label : "Lebih detail"
+        link : "cuplikan/audio-dan-video-non-linear"
+
+    - title : "CAD dan menggambar mekanik"
+      images:
+      - "media/beranda/service-cad-mechanic.webp"
+      content : "FreeCAD program khusus 3D dengan sistem parametrik. LibreCAD sebagai perancang gambar teknis (CAD) kompleks untuk gambar 2D."
+      button:
+        enable : true
+        label : "Lebih detail"
+        link : "cuplikan/cad-dan-menggambar-mekanik"
 
     - title : "LibreOffice perlengkapan perkantoran"
       images:
       - "media/beranda/service-office.webp"
       content : "LibreOffice merupakan paket perangkat lunak bebas untuk perlengkapan perkantoran yang lengkap. Seperti membuat booklet, skripsi, disertasi. Presentasi dan pelaporan perhitungan dengan database."
       button:
-        enable : false
-        label : "Fitur lebih lanjut"
-        link : "fitur"
+        enable : true
+        label : "Lebih detail"
+        link : "cuplikan/perlengkapan-perkantoran"
 
     #- title : "KDE Plasma lingkungan desktop"
       #images:
@@ -162,7 +171,7 @@ call_to_action:
   content : "Kami telah mengoptimasi pemilihan sistem yang lebih baik dan menyesuaikan aplikasi sesuai kebutuhan spesifik. LangitKetujuh GNU/Linux akan membantu Anda menjadi desainer yang tangguh dengan perangkat lunak terbuka."
   button:
     enable : true
-    label : "Fitur"
+    label : "Fitur OS"
     link : "fitur"
 
 image : "media/beranda/thumbnail.jpg"

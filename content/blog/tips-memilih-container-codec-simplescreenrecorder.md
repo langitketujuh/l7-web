@@ -1,5 +1,5 @@
 ---
-title: "Tips Memilih Container Codec SimpleScreenRecorder"
+title: "Tips Memilih Container Codec SSR"
 date: 2021-03-29T05:29:44+07:00
 image: media/blog/tips-memilih-container-codec-simplescreenrecorder.png
 opengraph:
