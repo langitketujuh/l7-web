@@ -1,25 +1,21 @@
 ---
-title: "Tentang Kami"
-subtitle: ""
-# meta description
-description: "Tim LangitKetujuh beserta jajarannya."
+title: Tentang Kami
+subtitle: ''
+description: Tim LangitKetujuh beserta jajarannya.
 image: media/beranda/thumbnail.jpg
 opengraph:
   image: media/beranda/thumbnail.jpg
-draft: false
-
 call_to_action:
-  enable : true
-  title : "Butuh Bantuan?"
-  image : "media/beranda/faq-min.svg"
-  content : "Silakan kontak kami di telegram. Balasan akan direspon 1x3 jam."
+  enable: true
+  title: Butuh Bantuan?
+  image: media/beranda/faq-min.svg
+  content: Silakan kontak kami di telegram. Balasan akan direspon 1x3 jam.
   button:
-    enable : true
-    label : "Kabari via Telegram"
-    link : "https://t.me/LangitKetujuh_bot"
+    enable: true
+    label: Kabari via Telegram
+    link: https://t.me/LangitKetujuh_bot
+
 ---
-
-
 ### Inspirasi?
 
 Amar ma'ruf nahi munkar. Mengajak kepada kebaikan, mencegah keburukan (kejahatan).
@@ -42,4 +38,5 @@ Karena developer L7 juga desainer, pengajar desain grafis, freelancer, dan memil
 
 * Hervy Qurrotul Ainur Rozi (Developer & Desainer)
 * Ihsan Syauqi Adn (Administrasi & Pendukung layanan)
+* Jauzaa Wahyu Prabaswara (Pendukung layanan)
 * (Selanjutnya bisa jadi Anda)
