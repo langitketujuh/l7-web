@@ -184,6 +184,16 @@ name = "Kode Sumber"
 URL = "https://gitlab.com/langitketujuh"
 weight = 2
 
+[[menu.profil]]
+name = "Peraturan layanan"
+URL = "peraturan-layanan"
+weight = 3
+
+[[menu.profil]]
+name = "Kebijakan Privasi"
+URL = "kebijakan-privasi"
+weight = 4
+
 # produk 
 [[menu.produk]]
 name = "LangitKetujuh OS"
@@ -197,24 +207,19 @@ weight = 1
 #weight = 1
 
 [[menu.dukungan]]
+name = "Komunitas"
+URL = "komunitas"
+weight = 1
+
+[[menu.dukungan]]
 name = "Feedback"
 URL = "feedback"
-weight = 1
+weight = 2
 
 [[menu.dukungan]]
 name = "Kerjasama"
 URL = "kerjasama"
-weight = 2
-
-[[menu.dukungan]]
-name = "Peraturan layanan"
-URL = "peraturan-layanan"
 weight = 3
-
-[[menu.dukungan]]
-name = "Kebijakan Privasi"
-URL = "kebijakan-privasi"
-weight = 4
 
 # PARAMETER
 
