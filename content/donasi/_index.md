@@ -15,7 +15,7 @@ call_to_action:
   content : "Mendukung donasi dengan QRIS, Mobile Banking, E-Wallet seperti OVO, GoPay, LinkAja, DANA, Shopee Pay, WeChat Pay, Jenius dan E-wallet lainnya. (NMID: ID1021067117882)"
   button:
     enable : true
-    label : "Beritahu kami via Telegram"
+    label : "Kabari via Telegram"
     link : "https://t.me/langitketujuhCS"
 ---
 
