@@ -20,6 +20,6 @@ call_to_action:
 ---
 
 Anda sudah mengisi formulir.
-Kami akan mengirim tautan unduhan melalui E-mail.
+Kami akan mengirim tautan unduhan melalui E-mail pada jam kerja (08.00-17.00).
 
 _Syukran wa jazaakumullahu khairan katsiran._
