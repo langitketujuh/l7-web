@@ -53,8 +53,7 @@ Akses ISO terbaru [^1] | -  | **√**
 **Fitur** | **Musl** | **Glibc**
 :--- | :---: | :---:
 Dukungan Aplikasi Appimage | - | **√**
-Dukungan Nvidia Propietary driver | - | **√**
-Dukungan Aplikasi Nonfree [^2]  | - | **√**
+Dukungan Aplikasi dan Driver Propietary [^2] | - | **√**
 Dukungan Wine windows [^3] | - | **√**
 
 *Catatan:*

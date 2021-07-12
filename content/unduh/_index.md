@@ -13,7 +13,7 @@ litemusl:
   type_ver:
   info: 64-bit
   services:
-  - Lebih ringan dan efisien dengan musl.
+  - Lebih ringan dan efisien dengan musl libc.
   button:
     enable: true
     label: Unduh
@@ -25,7 +25,7 @@ liteglibc:
   type_ver:
   info: 64-bit
   services:
-  - Mendukung driver nonfree.
+  - Mendukung aplikasi & driver nonfree.
   button:
     enable: true
     label: Unduh
@@ -37,7 +37,7 @@ liteglibc32:
   type_ver:
   info: 32-bit
   services:
-  - Mendukung driver nonfree dan hardware lama.
+  - Aplikasi & driver nonfree dan hardware lama.
   button:
     enable: true
     label: Unduh
@@ -51,7 +51,7 @@ promusl:
   info: 64-bit
   services:
   - Dukungan instalasi.
-  - Lebih ringan dan efisien dengan musl.
+  - Lebih ringan dan efisien dengan musl libc.
   - Perangkat lunak desain grafis lengkap.
   button:
     enable: true
@@ -65,7 +65,7 @@ proglibc:
   info: 64-bit
   services:
   - Dukungan instalasi.
-  - Mendukung driver nonfree.
+  - Mendukung aplikasi & driver nonfree.
   - Perangkat lunak desain grafis lengkap.
   button:
     enable: true
@@ -79,7 +79,7 @@ proglibc32:
   info: 32-bit
   services:
   - Dukungan instalasi.
-  - Driver nonfree dan hardware lama.
+  - Aplikasi & driver nonfree dan hardware lama.
   - Perangkat lunak desain grafis lengkap.
   button:
     enable: true

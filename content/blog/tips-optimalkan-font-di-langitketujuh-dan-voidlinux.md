@@ -25,11 +25,15 @@ Cara ini agar sistem menggunakan font vektor secara bawaan. Biasanya bitmap font
 
 Buka konsole, lalu ketik perintah ini:
 
-    sudo ln -s /usr/share/fontconfig/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d/
+```sh
+sudo ln -s /usr/share/fontconfig/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d/
+```
 
 Kemudian Gererate ulang cache font
 
-    sudo xbps-reconfigure -v -f fontconfig
+```sh
+sudo xbps-reconfigure -v -f fontconfig
+```
 
 ### Menonaktifkan Font yang jarang dipakai
 
