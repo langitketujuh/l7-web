@@ -5,7 +5,7 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         <div class="mb-5">
-          <h3 class="display-3">{{ .Title | markdownify }}</h3>
+          <h1>{{ .Title | markdownify }}</h1>
         </div>
         <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100 rounded mb-5">
         <div class="content">{{.Content}}</div>
