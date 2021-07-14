@@ -33,6 +33,8 @@ cd web
 hugo server
 ```
 
+Buka di browser dengan alamat `localhost:1313`
+
 ## Membangun html
 
 ```bash
