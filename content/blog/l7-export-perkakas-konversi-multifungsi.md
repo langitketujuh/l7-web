@@ -37,13 +37,13 @@ Fitur:
 
 ### Pemasangan
 
-Pastikan versi `l7-tools` Anda versi diatas `1.3`
+Pastikan versi `l7-tools` Anda versi diatas `1.13`
 
 {{< highlight bash >}}
 l7-tools --version
 {{< /highlight >}}
 
-Jika belum versi diatas `1.3` maka perbarui dahalu sistem anda dengan cara ini. [>> KLIK <<](../pembaruan-langitketujuh-os).
+Jika belum versi diatas `1.13` maka perbarui dahalu sistem anda dengan cara mengikuti panduan ini. [>> KLIK <<](../pembaruan-langitketujuh-os).
 
 {{< highlight bash >}}
 l7-tools --update
