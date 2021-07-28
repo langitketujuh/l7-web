@@ -42,7 +42,7 @@ Memanggil nama seseorang secara langsung lebih baik dari pada memanggil dengan s
 
 ### Ketika bertanya usahakan memberikan informasi yang jelas.
 
-Jika Anda mengalami kesulitan dan ingin mengajukan pertanyaan gunakanlah gambar cuplikan (screenshot) yang jelas, tidak miring dan sebisa mungkin jangan gunakan gambar foto kamera. Serta berikan informasi yang lengkap seperti menyantumkan spesifikasi mesin, kendala yang dihadapi, kondisi sebelum dan sesudah terjadi agar anggota lainnya dapat memberikan solusi dengan tepat.
+Jika Anda mengalami kesulitan dan ingin mengajukan pertanyaan gunakanlah gambar cuplikan (screenshot) yang jelas, tidak miring dan sebisa mungkin jangan gunakan foto kamera. Serta berikan informasi yang lengkap seperti menyantumkan spesifikasi mesin, kendala yang dihadapi, kondisi sebelum dan sesudah terjadi agar anggota lainnya dapat memberikan solusi dengan tepat.
 
 ### Sopan dalam berbahasa.
 Gunakan bahasa yang mudah dimengerti dan tidak menyinggung perasaan orang lain. Tidak perlu meyingkat kata, sebab sesama anggota akan menilai Anda dari tutur kata dan bahasa.
