@@ -1,6 +1,6 @@
 ---
 title: Unduh L7 Sekarang
-subtitle: 'Penuhi kebutuhan desainmu dengan LangitKetujuh OS'
+subtitle: 'Penuhi kebutuhan desainmu dengan LangitKetujuh OS. Total unduhan 4k lebih. Yuk coba!'
 description: Penuhi kebutuhan desainmu dengan LangitKetujuh OS.
 image: media/beranda/thumbnail.jpg
 opengraph:
