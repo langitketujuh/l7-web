@@ -26,17 +26,17 @@ Diambil dari peristiwa Isra' Miraj. Perjalanan Rasulullah dari Al Masjidil Haram
 
 Alasan kedua, nama LangitKetujuh ini diambil karena jarang ada projek free software yang menggunakan nama tempat yang islami dan istimewa, sehingga developer bertambah yakin dengan nama tersebut. Kita sebut saja L7, kepanjangan dari LangitKetujuh.
 
-### Mengapa KDE?
+### Mengapa KDE Plasma?
 
 Berbagai aplikasi desain kebanyakan terbuat dari QT. Seperti krita, kdenlive, scribus, fontforge, synfigstudio, opentoonz. Namun aplikasi desain gtk juga ada seperti Inkscape dan Gimp. Terlebih lagi tampilan UI KDE lebih familiar oleh pengguna awam.
 
-### Mengapa untuk desainer saja?
+### Sistem Operasi Multimedia?
 
-Karena developer L7 juga desainer, pengajar desain grafis, freelancer, dan memiliki bakat di desain grafis. Meskipun demikian, L7 terdapat versi Lite yang digunakan untuk kebutuhan umum dan awam.
+LangitKetujuh digunakan untuk kebutuhan multimedia. Sebab pengembang LangitKetujuh juga desainer, pengajar, freelancer, dan memiliki bakat di desain grafis. Meskipun demikian, LangitKetujuh terdapat versi Lite yang digunakan untuk kebutuhan umum dan awam.
 
 ### Siapa Para Tim?
 
-* Hervy Qurrotul Ainur Rozi (Developer & Desainer)
-* Ihsan Syauqi Adn (Administrasi & Pendukung layanan)
-* Jauzaa Wahyu Prabaswara (Pendukung layanan)
-* (Selanjutnya bisa jadi Anda)
+* [Hervy Qurrotul Ainur Rozi (Developer, Maintainer, & Desainer)](https://t.me/hervyqa)
+* [Ihsan Syauqi Adn (Administrasi & Pendukung layanan)](https://t.me/ihsansyauqiadn)
+* [Jauzaa Wahyu Prabaswara (Pendukung layanan)](https://t.me/JauzaaPrabaswara)
+* [_Selanjutnya bisa jadi Anda, mau bergabung_?](https://panduan.langitketujuh.id/tim.html#mau-bergabung)
