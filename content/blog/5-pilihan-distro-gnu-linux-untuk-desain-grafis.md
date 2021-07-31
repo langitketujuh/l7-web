@@ -38,7 +38,7 @@ Penggunaannya lebih mudah daripada distro induknya (ubuntu). Anda bisa mencoba L
 
 {{< figure src=/media/blog/fedora-design-suite.webp alt="Fedora Design Suite - LangitKetujuh OS">}}
 
-**Fedora** menawarkan varian spin untuk keperluan multimedia yaitu **Fedora design suite**. Fedora design suite sudah menyertakan aplikasi GIMP, Inkscape, Blender, Darktable, Krita, Scribus, dan Pitivi. Fedora masih menggunakan systemd sehingga akan menggunakan RAM lebih banyak ketimbang runit init, ditambah dengan lingkungan desktop GNOME akan lebih banyak menggunakan RAM.
+**Fedora** menawarkan varian khusus untuk keperluan multimedia yaitu **Fedora design suite**. Fedora design suite sudah menyertakan aplikasi GIMP, Inkscape, Blender, Darktable, Krita, Scribus, dan Pitivi. Fedora masih menggunakan systemd sehingga akan menggunakan RAM lebih banyak ketimbang runit init, ditambah dengan lingkungan desktop GNOME akan lebih banyak menggunakan RAM.
 
 Anda bisa memasang Fedora design suite dengan cara unduh pada tautan dibawah ini.
 
@@ -84,7 +84,9 @@ Anda bisa menghemat waktu dan tenaga saat instalasi LangitKetujuh karena tenaga 
 
 ## Easter Egg
 
-Game terasa kurang jika tidak ada easter egg, begitu juga dengan tulisan ini. Saya sudah menggunakan GNU/Linux dari tahun 2014 (sudah sekitar 8 tahun sejak tulisan ini dibuat). Distro yang sudah saya gunakan lama adalah Ubuntu Studio dan Linux Mint, overall dua distro itu sudah menjadi pilihan utama saya dalam memasang OS di komputer. Awal 2021 saya diperkenalkan dengan LangitKetujuh, bagi saya distro ini adalah distro yang dapat mendefinisikan kata efisiensi. Karena distro LangitKetujuh memberikan pengalaman yang baru bagi pengguna seperti penggunakan fish shell yang dapat menyingkat suatu perintah, instalasi yang dibantu oleh tenaga ahli secara jarak jauh (remote), dan juga panduan lengkap yang dikhususkan untuk desainer grafis tanpa menghilangkan tata cara penggunaan distro tersebut. Cocok sekali bagi seorang desainer grafis atau lembaga studio.
+Game terasa kurang jika tidak ada easter egg, begitu juga dengan tulisan ini. Saya sudah menggunakan GNU/Linux dari tahun 2014 (sudah sekitar 8 tahun sejak tulisan ini dibuat). Distro yang sudah saya gunakan lama adalah Ubuntu Studio dan Linux Mint, overall dua distro itu sudah menjadi pilihan utama saya dalam memasang OS di komputer.
+
+Awal 2021 saya diperkenalkan dengan LangitKetujuh, bagi saya distro ini adalah distro yang dapat mendefinisikan kata efisiensi. Karena distro LangitKetujuh memberikan pengalaman yang baru bagi pengguna seperti penggunakan fish shell yang dapat menyingkat suatu perintah, instalasi yang dibantu oleh tenaga ahli secara jarak jauh (remote), dan juga panduan lengkap yang dikhususkan untuk desainer grafis tanpa menghilangkan tata cara penggunaan distro tersebut. Cocok sekali bagi seorang desainer, lembaga ataupun studio.
 
 Barakallahu fiikum.
 
