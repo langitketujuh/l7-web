@@ -56,3 +56,7 @@ Cara memperbarui sistemnya seperti biasa, yaitu dengan mengklik "Update Sistem" 
 {{< figure src=/media/blog/update-upgrade-system-langitketujuh-os.webp alt="Update dan Upgrade Sistem LangitKetujuh OS">}}
 
 Tunggu sampai proses selesai, tergantung seberapa cepat internetnya. Jika ada pembaruan kernel maka sebaiknya direstart. Selesai. _Barakallahu fiikum._
+
+> **Ditulis oleh**: [Hervy Qurrotul Ainur Rozi](https://t.me/hervyqa).
+>
+> **Editor**: Tim Reviewer LangitKetujuh

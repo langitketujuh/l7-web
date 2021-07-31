@@ -34,3 +34,7 @@ Setelah aman dan lolos semua pastikan ukuran setiap objek sesuai dengan ukuran y
 Yuk update sistem LangitKetujuh OS agar mendapat L7-export versi terbaru. Kalau bukan pengguna LangitKetujuh OS tapi ingin mencoba bagaimana? silahkan merujuk ke tautan berikut ini https://panduan.langitketujuh.id/aplikasi/l7-export/
 
 _Barakallahu fiikum._
+
+> **Ditulis oleh**: [Hervy Qurrotul Ainur Rozi](https://t.me/hervyqa).
+>
+> **Editor**: Tim Reviewer LangitKetujuh

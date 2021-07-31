@@ -175,3 +175,7 @@ _Barakallahu fiikum._
 * Perbandingan codec audio - https://en.wikipedia.org/wiki/Comparison_of_audio_coding_formats
 * Format facebook - https://www.facebook.com/help/218673814818907?helpref=uf_permalink
 * Format youtube - https://support.google.com/youtube/answer/4603579?hl=en
+
+> **Ditulis oleh**: [Hervy Qurrotul Ainur Rozi](https://t.me/hervyqa).
+>
+> **Editor**: Tim Reviewer LangitKetujuh

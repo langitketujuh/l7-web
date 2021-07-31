@@ -68,3 +68,7 @@ Berbeda dengan doker teks and font. Pintasannya **Ctrl+Shift+T** . Render previe
 Demikian tips untuk mengoptimalkan render font di Langitketujuh dan Voidlinux.
 
 _Barakallahu fiikum._
+
+> **Ditulis oleh**: [Hervy Qurrotul Ainur Rozi](https://t.me/hervyqa).
+>
+> **Editor**: Tim Reviewer LangitKetujuh

@@ -100,3 +100,7 @@ l7-export namaberkas.svg namaID
 Temukan tips lainnya di kanal telegram kami [@LangitKetujuhID](https://t.me/LangitKetujuhID) atau sekedar menyapa kami di [@LangitKetujuh_bot](https://t.me/LangitKetujuh_bot). Dan jangan lupa untuk dukung kami dengan donasi ya, agar projek ini selalu hidup dan bermanfaat. ^^
 
 _Jazaakumullahu khairan katshiran._
+
+> **Ditulis oleh**: [Hervy Qurrotul Ainur Rozi](https://t.me/hervyqa).
+>
+> **Editor**: Tim Reviewer LangitKetujuh

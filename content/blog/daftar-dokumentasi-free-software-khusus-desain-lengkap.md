@@ -136,3 +136,7 @@ Menelaskan secara lengkap, namun dalam satu halaman penuh. Jadi sedikit kurang n
 Perlu diketahui, dokumentasi resmi adalah panduan sempurna bagi pemula untuk belajar dasar. Banyak detail-detail yang tidak diketahui oleh banyak orang yang padahal sudah jelas ada disana semua. Belajar dari dokumentasi ini juga penting, karena investasi waktu lebih sedikit dari pada belajar melalui video tutorial. Meskipun video tutorial memang mempunyai kelebihan sendiri terkait bisa memvisualisasikan secara langsung.
 
 _Barakallahu fiikum._
+
+> **Ditulis oleh**: [Hervy Qurrotul Ainur Rozi](https://t.me/hervyqa).
+>
+> **Editor**: Tim Reviewer LangitKetujuh
