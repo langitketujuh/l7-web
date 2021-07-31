@@ -5,7 +5,7 @@ image: "media/blog/pembaruan-langitketujuh-os.png"
 opengraph:
   image: "media/blog/pembaruan-langitketujuh-os.webp.png"
 # post type (regular/featured)
-type: "featured"
+type: "regular"
 description: "Cara upgrade sistem langitketujuh os?"
 author: "LangitKetujuh ID"
 categories:
