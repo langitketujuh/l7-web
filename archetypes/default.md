@@ -1,9 +1,9 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-image: media/blog/{{ .File.BaseFileName }}.webp
+image: media/blog/{{ .File.BaseFileName }}.png
 opengraph:
-  image: media/blog/{{ .File.BaseFileName }}.webp
+  image: media/blog/{{ .File.BaseFileName }}.png
 # post type (regular/featured)
 type: "regular"
 description: ""

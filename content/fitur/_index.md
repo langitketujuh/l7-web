@@ -22,29 +22,32 @@ call_to_action:
 **Fitur** | **Lite** | **Pro**
 :--- | :---: | :---:
 Dukungan instalasi oleh tenaga ahli. | - | **√**
-Dukungan codec Audio dan Video. | **√** | **√**
 Libreoffice paket aplikasi perkantoran. | **√** | **√**
-KDE-Connect Sinkron perangkat. | **√** | **√**
+Dukungan codec Audio dan Video. | **√** | **√**
+KDE-Connect sinkron perangkat. | **√** | **√**
 Deteksi Printer HP dan Epson. | **√** | **√**
+V4l2loopback Virtual kamera. | **√** | **√**
 Inkscape pengolah vektor. | **√** | **√**
 Gimp manipulasi foto. | **√** | **√**
 Audacity pengolah audio. | - | **√**
-Blender animasi 2D/3D. | - | **√**
 Fontforge pembuat font. | - | **√**
+Blender animasi 2D/3D. | - | **√**
 Freecad 3D parametric. | - | **√**
 Godot pembuat game. | - | **√**
 LibreCAD 2D CAD. | - | **√**
-Key-mon Monitor. | - | **√**
 Scribus Publisher. | - | **√**
 Krita digital painting. | - | **√**
 Digikam manajemen foto. | - | **√**
 Kdenlive pengolah video. | - | **√**
+HandBrake Media transkoder. | - | **√**
 Converseen konverter gambar. | - | **√**
 OpenToonz Animasi Raster 2D. | - | **√**
+Screenkey Screencast monitor. | - | **√**
+PulseEffects ekualiser audio. | - | **√**
 Produksi Audio dengan Ardour. | - | **√**
-Synfigstudio Animasi Vector 2D. | - | **√**
 Rawtherapee pengolah foto raw. | - | **√**
 Plugin GMIC Qt Gimp dan Krita. | - | **√**
+Synfigstudio Animasi Vector 2D. | - | **√**
 Kalibrasi warna dengan DisplayCAL. | - | **√**
 OBS Perekam desktop dan streaming. | - | **√**
 Google Fonts untuk proyek komersil. | - | **√**

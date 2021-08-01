@@ -1,12 +1,12 @@
 ---
 title: "5 Pilihan Distro GNU/Linux untuk Desain Grafis"
 date: 2021-07-31T05:44:25+07:00
-image: media/blog/5-pilihan-distro-gnu-linux-untuk-desain-grafis.webp
+image: media/blog/5-pilihan-distro-gnu-linux-untuk-desain-grafis.png
 opengraph:
-  image: media/blog/5-pilihan-distro-gnu-linux-untuk-desain-grafis.webp
+  image: media/blog/5-pilihan-distro-gnu-linux-untuk-desain-grafis.png
 # post type (regular/featured)
 type: "regular"
-description: "Memilih distro bagi sebagian orang adalah hal yang sangat penting karena dengan memilih distro yang tepat tentunya akan memberikan pengalaman baik dalam menggunakan distro tersebut."
+description: "Memilih distro linux bagi sebagian orang adalah hal yang sangat penting karena dengan memilih distro yang tepat tentunya akan memberikan pengalaman baik dalam menggunakan distro tersebut."
 author: "LangitKetujuh ID"
 categories:
   - sistem-operasi
