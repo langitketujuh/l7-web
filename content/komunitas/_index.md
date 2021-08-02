@@ -40,9 +40,15 @@ Nama yang digunakan bebas apa saja, misalnya "Fatimah Az-Zahra". Dan menambahkan
 
 Memanggil nama seseorang secara langsung lebih baik dari pada memanggil dengan sapaan mastah, suhu, ngab, dan panggilan yang kurang baik lainnya. Cukup panggil bang, pak, bu, mas, mbak, uda, uni. Panggilan tersebut sopan dan lebih baik.
 
-### Ketika bertanya usahakan memberikan informasi yang jelas.
+### Etika mengajukan pertanyaan.
 
-Jika Anda mengalami kesulitan dan ingin mengajukan pertanyaan gunakanlah gambar cuplikan (screenshot) yang jelas, tidak miring dan sebisa mungkin jangan gunakan foto kamera. Serta berikan informasi yang lengkap seperti menyantumkan spesifikasi mesin, kendala yang dihadapi, kondisi sebelum dan sesudah terjadi agar anggota lainnya dapat memberikan solusi dengan tepat.
+Awali dengan salam dan permisi ketika mengajukan pertanyaan, sebab lebih sopan dan menghargai sesama anggota grup.
+
+Gunakan #tag untuk menambahkan kategori permasalahan Anda, misalnya #inkscape #gimp #kdenlive dsb. Ini akan membantu anggota grup lain jika mengalami permasalahan yang sama.
+
+Gunakanlah gambar cuplikan (screenshot) yang jelas, tidak miring dan sebisa mungkin jangan gunakan foto kamera. Serta berikan informasi yang lengkap seperti menyantumkan spesifikasi mesin, kendala yang dihadapi, kondisi sebelum dan sesudah terjadi agar anggota lainnya dapat memberikan solusi dengan tepat.
+
+Jangan menghapus pesan secara sengaja jika tidak ada yang salah ketik. Ini menimbulkan kerancuan komunikasi antar anggota. Jika melakukannya, Anda akan dinilai buruk dalam beretika.
 
 ### Sopan dalam berbahasa.
 Gunakan bahasa yang mudah dimengerti dan tidak menyinggung perasaan orang lain. Tidak perlu meyingkat kata, sebab sesama anggota akan menilai Anda dari tutur kata dan bahasa.
