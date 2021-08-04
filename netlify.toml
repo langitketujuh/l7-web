@@ -43,21 +43,15 @@ HUGO_ENABLEGITINFO = "true"
   [headers.values]
     Cache-Control = "public, max-age=31536000"
 
-[[redirects]]
-  from = "https://langitketujuh.netlify.app/*"
-  to = "https://langitketujuh.id/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "http://langitketujuh.netlify.app/*"
-  to = "https://langitketujuh.id/:splat"
-  status = 301
-  force = true
+#[[redirects]]
+  #from = "https://langitketujuh.netlify.app/*"
+  #to = "https://langitketujuh.id/:splat"
+  #status = 301
+  #force = true
 
 #[[redirects]]
-  #from = "https://langitketujuh.id/donasi"
-  #to = "https://trakteer.id/langitketujuh.id/"
+  #from = "http://langitketujuh.netlify.app/*"
+  #to = "https://langitketujuh.id/:splat"
   #status = 301
   #force = true
 
