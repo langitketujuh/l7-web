@@ -5,7 +5,7 @@ banner:
   content : "Distribusi GNU/Linux dengan Glibc dan Musl berdasar pada VoidLinux. Menggunakan runit init, KDE lingkungan desktop, pembaruan stabil rilis bergulir dan sumber daya yang efisien."
   button:
     enable : true
-    label : "Unduh OS 📀"
+    label : "Unduh OS"
     link : "unduh"
 
 ##################### Feature ##########################

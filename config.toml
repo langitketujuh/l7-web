@@ -38,7 +38,7 @@ link = "plugins/drag/drag.min.js"
 
 # menu utama
 [[menu.main]]
-name = "Unduh"
+name = "Unduh ⚡"
 identifier = "unduh"
 URL = "unduh"
 weight = 1
