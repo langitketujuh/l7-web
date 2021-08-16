@@ -55,7 +55,7 @@ promusl:
   - Perangkat lunak desain grafis lengkap.
   button:
     enable: true
-    label: Donasi
+    label: Donasi ✨
     link: pro-musl
     checksum: checksum/langitketujuh-pro-x86_64-musl-20210616.iso.sha256
 proglibc:
@@ -69,7 +69,7 @@ proglibc:
   - Perangkat lunak desain grafis lengkap.
   button:
     enable: true
-    label: Donasi
+    label: Donasi ✨
     link: pro-glibc
     checksum: checksum/langitketujuh-pro-x86_64-20210616.iso.sha256
 proglibc32:
@@ -83,18 +83,18 @@ proglibc32:
   - Perangkat lunak desain grafis lengkap.
   button:
     enable: true
-    label: Donasi
+    label: Donasi ✨
     link: pro-glibc32
     checksum: checksum/langitketujuh-pro-i686-20210616.iso.sha256
 
 call_to_action:
   enable: true
-  title: Perbedaan Fitur
+  title: Dokumentasi 🧑🏻‍💻
   image: media/beranda/faq-min.svg
-  content: Masih bingung? Coba bandingkan perbedaan fitur Lite dan Pro disini.
+  content: Gunakanlah Ventoy sebagai pembuat USB bootable. Dan baca panduan ini agar Anda berhasil memasang LangitKetujuh OS versi Lite, atau Anda bisa menggunakan versi **PRO** untuk mendapatkan layanan instalasi.
   button:
     enable: true
-    label: Bandingkan
-    link: fitur
+    label: Panduan memasang
+    link: https://panduan.langitketujuh.id/
 
 ---
