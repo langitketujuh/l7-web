@@ -40,6 +40,6 @@ Donasi 20% dari total akan kami salurkan ke https://smart171.org untuk kebutuhan
   * Kami TIDAK menerima untuk pemasangan dual boot, triple boot, quarter boot, dan seterusnya.
   * Kami TIDAK menerima untuk mengembalikan OS terdahulu. Baik itu windows, osx, GNU/Linux, BSD, dan jenis OS lainnya.
   * Kami TIDAK bertanggung jawab atas kehilangan data dan sistem operasi terdahulu.
-  * Kami hanya menerima instalasi untuk satu perangkat dan **dua pemasangan saja**.
+  * Kami hanya menerima instalasi untuk satu perangkat dengan **dua kali pemasangan saja**.
   * Kami hanya melayani untuk memasang LangitKetujuh OS, bukan memasang sistem operasi selain LangitKetujuh OS.
   * Kami hanya menggunakan partisi fat32 untuk partisi boot (`/boot` atau `/boot/efi`), xfs untuk sistem root (`/`) dan ext4 untuk partisi pengguna (`/home`).
