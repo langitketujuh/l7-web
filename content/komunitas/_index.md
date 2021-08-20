@@ -13,7 +13,7 @@ call_to_action:
   button:
     enable: true
     label: Kabari via Telegram
-    link: https://t.me/langitKetujuhcs
+    link: https://t.me/langitKetujuh_bot
 
 ---
 
