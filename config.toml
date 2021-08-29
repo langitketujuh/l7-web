@@ -229,6 +229,7 @@ weight = 3
   logo_footer = "media/beranda/logo.webp"
   logo_width_footer = "60px"
   author = "LangitKetujuh ID"
+  image = "media/beranda/thumbnail.jpg"
   opengraphimage = "media/beranda/thumbnail.jpg"
   description = "Distribusi GNU/Linux untuk desainer, ilustrator, animator, publisher, fotografer, font kreator dan game desainer. Menggunakan glibc & musl libc, rilis bergulir, runit init dan KDE lingkungan desktop."
 
