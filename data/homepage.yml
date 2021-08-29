@@ -157,6 +157,54 @@ service:
         #label : "Fitur lebih lanjut"
         #link : "musl"
 
+################### Reviews ########################
+testimonial:
+  enable : true
+  title : "Apa Kata Mereka?"
+  testimonial_item :
+
+  - quote : >
+      Alhamdulillah saya pakai OS ini sudah mau 5 bulan. OS yg powerfull untuk Desainer, full support dari CS, rendering cepat, font sudah terinstall free komersil, sudah ada tool export untuk Inkscape yg sudah sangat lengkap dan banyak lagi keunggulan lainnya. Berkah dan sukses selalu LangitKetujuh.
+    icon : "ti-quote-right"
+    clientThumb : media/klien/muhammad-nur-halim.webp
+    clientName  : Muhamad Nur Halim
+    clientDesignation: Hands on, Freelancer.
+
+  - quote : >
+      Menurut kami mereka telah mengupayakan distro linux yang well crafted dan layak mendapatkan apresiasi. Bahkan saat ini kami sedang mempertimbangkan dengan serius untuk mengadopsi LangitKetujuh OS sebagai distro utama kami ditahun 2022 mendatang.
+    icon : "ti-quote-right"
+    clientThumb : media/klien/setia-budi.webp
+    clientName  : Setia Budi
+    clientDesignation: Indonesia Belajar, FLOSS Youtuber.
+
+  - quote : >
+      Belum lama pakai, namun sudah terasa performanya ringan dan cepat. Tentunya tidak perlu banyak install aplikasi yang harus diunduh dan dipasang, karena sudah tersedia siap pakai. Semoga sukses dan maju lagi berkah dengan FOSS atas izin Allāh Tabāraka wa Ta'ālā Jazākumullāhu khayran.
+    icon : "ti-quote-right"
+    clientThumb : media/klien/dimas-nirwan.webp
+    clientName  : Dimas B. Nirwandhani
+    clientDesignation: DIMM Komputer, PC Builder.
+
+  - quote : >
+      MasyaAllah super. Memang cocok banget untuk Desainer OS LangitKetujuh ini. Semoga Allah senantiasa berikan keberkahan dan kemudahan untuk mengembangkan OS ini & serta menjadi ladang dakwah Islam. Aamiin.. Sukses buat LangitKetujuh beserta Tim Pengembang.
+    icon : "ti-quote-right"
+    clientThumb : media/klien/azis-haditama.webp
+    clientName  : Azis Haditama
+    clientDesignation: Imar Graphic, Freelancer.
+
+  #- quote : >
+      #Apik! OS paling fungsional untuk urusan multimedia. Memory dan CPU usage yang bisa super efisien, baik ketika baru dihidupkan maupun sudah melakukan banyak program. Saya suka semua aspek LangitKetujuh OS ini, termasuk bootingnya yang cepat. AJIB!!
+    #icon : "ti-quote-right"
+    #clientThumb : media/klien/.webp
+    #clientName  : M. Rahmat Ramadhan
+    #clientDesignation: Mahasiswa
+
+  #- quote : >
+      #Belum mencobanya tapi dari segi komunitas baik sekali 😁 pelayanan bagus, memberikan arahan yang baik sekali, admin ramah sekali.
+    #icon : "ti-quote-right"
+    #clientThumb : media/klien/.webp
+    #clientName  : Muhamad Nur Halim
+    #clientDesignation: CEO, Company Name
+
 ################### Screenshot ########################
 screenshot:
   enable : false

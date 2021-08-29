@@ -120,6 +120,46 @@
 {{ end }}
 <!-- /screenshot -->
 
+<!-- testimonial -->
+{{ if site.Data.homepage.testimonial.enable }}
+{{ with site.Data.homepage.testimonial }}
+  <section class="testimonial section bg-light" id="testimonial">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="section-title">{{ .title | markdownify }}</h2>
+        </div>
+        <div class="col-lg-12">
+          {{ "<!-- testimonial wrapper -->" | safeHTML }}
+          <div class="testimonial-slider">
+            {{ range .testimonial_item }}
+            {{ "<!-- testimonial single -->" | safeHTML }}
+            <div class="item text-center">
+              <i class="{{.icon}} mb-3"></i>
+              {{ "<!-- client quote -->" | safeHTML }}
+              <div class="client-details">
+                <p>{{ .quote }}</p>
+              </div>
+              {{ "<!-- client photo -->" | safeHTML }}
+              <div class="client-thumb">
+                <img src="{{ .clientThumb | absURL }}" class="img-fluid" alt="client-image">
+              </div>
+              <div class="client-meta">
+                <h4>{{ .clientName }}</h4>
+                <span>{{ .clientDesignation }}</span>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ "<!-- End Section -->" | safeHTML }}
+  {{ end }}
+{{ end }}
+<!-- /testimonial -->
+
 <!-- call to action -->
 {{ if site.Data.homepage.call_to_action.enable }}
 {{ with site.Data.homepage.call_to_action }}

@@ -359,3 +359,44 @@ a.post-title {
 .lead{
   font-weight: bold;
 }
+
+// testimonial
+.testimonial {
+  position: relative;
+}
+
+.testimonial .item i {
+  color: $text-color-dark;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.testimonial .item .client-details {
+  padding-bottom: 30px;
+}
+
+.testimonial .item .client-details p {
+  color: $text-color-dark;
+  font-weight: 200;
+  padding: 0 10%;
+}
+
+.testimonial .item .client-meta {
+  margin-top: 8px;
+  color: $text-color-dark;
+}
+
+.testimonial .item .client-meta h4 {
+  margin-bottom: 4px;
+}
+
+.testimonial .item .client-meta span {
+  font-size: 12px;
+}
+
+.testimonial .item .client-thumb img {
+  display: inline-block;
+  border-radius: 100%;
+  width: 90px;
+  height: auto;
+}

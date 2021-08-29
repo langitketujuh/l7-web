@@ -13,44 +13,44 @@
     <div class="row">
       <div class="col-lg-7 mb-4 mb-lg-0">
         <form name="profesional" netlify-honeypot="bot-field" action="/sk-pro" method="POST" data-netlify-recaptcha="true" data-netlify="true">
-          <input type="text" class="form-control mb-3" id="nama" name="nama" placeholder="Nama Lengkap" required="true">
-          <input type="email" class="form-control mb-3" id="surel" name="surel" placeholder="Email Asli Anda" required="true">
+          <input type="text" class="form-control mb-3" name="nama" placeholder="Nama Lengkap" required="true">
+          <input type="email" class="form-control mb-3" name="surel" placeholder="Email Asli Anda" required="true">
           <div class="input-group mb-3">
             <div class="input-group-prepend">
-                <span class="input-group-text" id="telegram">@</span>
+                <span class="input-group-text">@</span>
             </div>
-            <input type="text" class="form-control" id="telegram" name="telegram" aria-label="telegram" aria-describedby="inputTelegram" placeholder="Telegram" required="true">
+            <input type="text" class="form-control" name="telegram" aria-label="telegram" aria-describedby="inputTelegram" placeholder="Telegram" required="true">
           </div>
           <div class="input-group mb-3">
             <div class="input-group-prepend">
               <label class="input-group-text" for="inputProfesional">PRO</label>
             </div>
-            <select class="custom-select" id="profesional" name="profesional[]" required="true">
-              <option selected id="pro-musl" value="GLIBC-32BIT">Glibc 32-bit (Kompatibel Hardware Lama)</option>
+            <select class="custom-select" name="profesional[]" required="true">
+              <option selected value="GLIBC-32BIT">Glibc 32-bit (Kompatibel Hardware Lama)</option>
             </select>
           </div>
           <div class="input-group mb-3">
             <div class="input-group-prepend">
               <label class="input-group-text" for="inputGpu">Kartu Grafis</label>
             </div>
-            <select class="custom-select" id="gpu" name="gpu[]" required="true">
-              <option selected id="intel-amd" value="Intel/AMD">Intel/AMD</option>
-              <option id="nvidia" value="Nvidia">Nvidia</option>
+            <select class="custom-select" name="gpu[]" required="true">
+              <option selected value="Intel/AMD">Intel/AMD</option>
+              <option value="Nvidia">Nvidia</option>
             </select>
           </div>
           <div class="input-group mb-3">
             <div class="input-group-prepend">
               <label class="input-group-text" for="inputDonasi">Jumlah Donasi</label>
             </div>
-            <select class="custom-select" id="donasi" name="donasi[]" required="true">
-              <option selected id="107000" value="107000">Diatas Rp107.000* (+Dukungan Instalasi)</option>
-              <option id="57000" value="57000">Mulai dari Rp57.000 (Tanpa Dukungan)</option>
+            <select class="custom-select" name="donasi[]" required="true">
+              <option selected value="107000">Diatas Rp107.000* (+Dukungan Instalasi)</option>
+              <option value="57000">Mulai dari Rp57.000 (Tanpa Dukungan)</option>
             </select>
           </div>
           <div class="form-row mb-3">
             <a href="/donasi" target="_blank" class="col-md-3 btn btn-outline-primary mr-2 mb-3">Link Donasi</a>
             <label class="col-md-2 mb-3">Upload Bukti Donasi:</label>
-            <input class="col-md-5 mb-3" type="file" id="bukti_donasi" name="bukti_donasi" required="true"/>
+            <input class="col-md-5 mb-3" type="file" name="bukti_donasi" required="true"/>
           </div>
           <div class="mb-3">
             <label><i>(Donasi dapat dikembalikan jika pemasangan tidak berhasil atau kami salurkan ke <a href="https://smart171.org/" target="_blank" >@smart171</a> dengan potongan Rp7000.)</i></label>
