@@ -7,7 +7,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: $text-color-dark;
+  color: $text-color;
 
   &:hover {
     color: $primary-color;
@@ -19,5 +19,22 @@
 
   @include desktop {
     padding: 10px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .navbar-light .navbar-nav .nav-link {
+    color: $text-color-dark;
+
+    &:hover {
+      color: $primary-color-dark;
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .card {
+    background-color: $body-color-dark;
+    border:1px solid rgba(0,0,0,.0);
   }
 }

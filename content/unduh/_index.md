@@ -1,5 +1,5 @@
 ---
-title: Unduh L7 Sekarang
+title: Unduh
 subtitle: 'Penuhi kebutuhan desainmu dengan LangitKetujuh OS. Total unduhan 4k lebih. Yuk coba!'
 description: Penuhi kebutuhan desainmu dengan LangitKetujuh OS.
 image: media/beranda/thumbnail.jpg
@@ -89,7 +89,7 @@ proglibc32:
 
 call_to_action:
   enable: true
-  title: Dokumentasi 🧑🏻‍💻
+  title: Dokumentasi
   image: media/beranda/faq-min.svg
   content: Gunakanlah Ventoy sebagai pembuat USB bootable. Dan baca panduan ini agar Anda berhasil memasang LangitKetujuh OS versi Lite, atau Anda bisa menggunakan versi **PRO** untuk mendapatkan layanan instalasi.
   button:

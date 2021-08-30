@@ -20,15 +20,31 @@
   }
 }
 
+@media (prefers-color-scheme: dark) {
+  .feature-card {
+    background-color: $black;
+
+    i {
+      color: $primary-color-dark;
+    }
+  }
+}
+
 .footer-list a {
-  display: block;
-  padding: 5px 0;
-  font-size: 16px;
   color: $text-color;
-  margin: 8px 0;
 
   &:hover {
     color: $primary-color;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .footer-list a {
+    color: $text-color-dark;
+
+    &:hover {
+      color: $primary-color-dark;
+    }
   }
 }
 
@@ -48,6 +64,24 @@
   }
 }
 
+@media (prefers-color-scheme: dark) {
+  .social-icons a {
+    color: $primary-color-dark;
+    text-align: center;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    border: 1px solid $primary-color-dark;
+    border-radius: 50%;
+    display: block;
+
+    &:hover {
+      color: $white;
+      background-color: $primary-color-dark;
+    }
+  }
+}
+
 // blog post
 a.post-title {
   color: $text-color-dark;
@@ -55,6 +89,16 @@ a.post-title {
 
   &:hover {
     color: $primary-color;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  a.post-title {
+    color: $text-color-dark;
+
+    &:hover {
+      color: $primary-color-dark;
+    }
   }
 }
 
@@ -127,7 +171,10 @@ a.post-title {
     width: 100%;
     max-width: 100%;
     margin-bottom: 1rem;
-    border: 1px solid $border-color;
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+    box-shadow: 0 12px 24px -6px rgba(45,67,121,.30) !important;
   }
 
   table td,
@@ -135,18 +182,21 @@ a.post-title {
     padding: .75rem;
     vertical-align: top;
     margin-bottom: 0;
+    table-layout: fixed;
+    overflow: hidden;
+    word-wrap: break-word;
   }
 
   th,
   td {
     &:not(:last-of-type) {
-      border-right: 1px solid $border-color;
+      //border-right: 1px solid $border-color;
     }
   }
 
   th {
     background: $white;
-    font-weight: 500;
+    font-weight: 700;
   }
 
   thead {
@@ -154,7 +204,7 @@ a.post-title {
     margin-bottom: 0;
 
     tr {
-      border-bottom: 1px solid $border-color;
+      //border-bottom: 1px solid $border-color;
     }
   }
 
@@ -266,6 +316,103 @@ a.post-title {
   }
 }
 
+@media (prefers-color-scheme: dark) {
+  .content {
+
+    a {
+      color: $text-color-dark;
+      border-bottom: 1px dotted $border-color-dark;
+
+      &:hover {
+        color: $primary-color-dark;
+      }
+    }
+
+    ul {
+      li {
+        &::before {
+          background: $primary-color-dark;
+        }
+      }
+    }
+
+    table {
+      box-shadow: 0 12px 34px -6px rgba(68,102,182,.30) !important;
+    }
+
+    th,
+    td {
+      &:not(:last-of-type) {
+        border-right: 1px solid $border-color-dark;
+      }
+    }
+
+    th {
+      background: $border-color-dark;
+    }
+
+    thead {
+      background: $black;
+
+      tr {
+        border-bottom: 1px solid $border-color-dark;
+      }
+    }
+
+    tbody {
+      background-color: transparent;
+    }
+
+    .notices p::before {
+      color: $black;
+    }
+
+    .notices.note p {
+      border-top: 30px solid #6ab0de;
+      background: $black;
+    }
+
+    .notices.note p::after {
+      color: $black;
+    }
+
+
+    .notices.tip p {
+      border-top: 30px solid #78C578;
+      background: $black;
+    }
+
+    .notices.tip p::after {
+      color: $black;
+    }
+
+    .notices.info p {
+      border-top: 30px solid #F0B37E;
+      background: $black;
+    }
+
+    .notices.info p::after {
+      color: $black;
+    }
+
+
+    .notices.warning p {
+      border-top: 30px solid #E06F6C;
+      background: $black;
+    }
+
+    .notices.warning p::after {
+      color: $black;
+    }
+
+
+    blockquote {
+      color: $text-color-dark;
+      border-left: 2px solid $primary-color-dark;
+      background: $black;
+    }
+  }
+}
 
 // pagination
 .pagination {
@@ -312,6 +459,28 @@ a.post-title {
   }
 }
 
+@media (prefers-color-scheme: dark) {
+  .pagination {
+    .page-item {
+      .page-link {
+        color: $text-color-dark;
+
+        &:hover {
+          background: $primary-color-dark;
+          color: $black;
+        }
+      }
+
+      &.active {
+        .page-link {
+          background: $primary-color-dark;
+          color: $black;
+        }
+      }
+    }
+  }
+}
+
 .slick-dots {
   text-align: center;
   margin-top: 20px;
@@ -340,6 +509,23 @@ a.post-title {
   }
 }
 
+@media (prefers-color-scheme: dark) {
+  .slick-dots {
+    li {
+
+      &.slick-active {
+        button {
+          background-color: $primary-color-dark;
+        }
+      }
+
+      button {
+        border: 1px solid $primary-color-dark;
+      }
+    }
+  }
+}
+
 // pricing table
 .col-recommended {
   margin: -2rem -1.5rem;
@@ -360,13 +546,20 @@ a.post-title {
   font-weight: bold;
 }
 
+@media (prefers-color-scheme: dark) {
+  .price{
+    font-size: 50px;
+    color: $text-color-dark;
+  }
+}
+
 // testimonial
 .testimonial {
   position: relative;
 }
 
 .testimonial .item i {
-  color: $text-color-dark;
+  color: $text-color;
   display: inline-block;
 }
 
@@ -375,14 +568,14 @@ a.post-title {
 }
 
 .testimonial .item .client-details p {
-  color: $text-color-dark;
+  color: $text-color;
   font-weight: 200;
   padding: 0 10%;
 }
 
 .testimonial .item .client-meta {
   margin-top: 8px;
-  color: $text-color-dark;
+  color: $text-color;
 }
 
 .testimonial .item .client-meta h4 {
@@ -398,4 +591,18 @@ a.post-title {
   border-radius: 100%;
   width: 90px;
   height: auto;
+}
+
+@media (prefers-color-scheme: dark) {
+  .testimonial .item i {
+    color: $text-color-dark;
+  }
+
+  .testimonial .item .client-details p {
+    color: $text-color-dark;
+  }
+
+  .testimonial .item .client-meta {
+    color: $text-color-dark;
+  }
 }

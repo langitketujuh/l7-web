@@ -21,6 +21,30 @@ body::-webkit-scrollbar-thumb {
   outline: 2px solid #fff;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: $body-color-dark;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color:darken($color: $primary-color, $amount: 10);
+    color: $white;
+  }
+
+  body::-webkit-scrollbar {
+    width: .5rem;
+  }
+
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: $primary-color;
+    outline: 2px solid #fff;
+  }
+}
 
 /* preloader */
 
@@ -68,6 +92,16 @@ a:hover {
   color: $border-color;
 }
 
+@media (prefers-color-scheme: dark) {
+  .preloader {
+    background-color: $body-color-dark;
+  }
+
+  a:hover {
+    color: $border-color;
+  }
+}
+
 .slick-slide {
   outline: 0;
 }
@@ -91,6 +125,12 @@ a:hover {
   border-color: $border-color !important;
 }
 
+@media (prefers-color-scheme: dark) {
+  .border-default {
+    border-color: $border-color-dark !important;
+  }
+}
+
 /* overlay */
 
 .overlay {
@@ -108,16 +148,42 @@ a:hover {
   }
 }
 
+@media (prefers-color-scheme: dark) {
+  .overlay {
+   &::before {
+    background-color: $white;
+   }
+  }
+}
+
 .bg-primary {
-  background-color: $primary-color !important;
+  background-color: $primary-color-dark !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .bg-primary {
+    background-color: $primary-color-dark !important;
+  }
 }
 
 .bg-light {
   background-color: $light !important;
 }
 
+@media (prefers-color-scheme: dark) {
+  .bg-light {
+    background-color: $dark !important;
+  }
+}
+
 .text-primary {
   color: $primary-color !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .text-primary {
+    color: $primary-color-dark !important;
+  }
 }
 
 .rounded-lg{
@@ -126,6 +192,15 @@ a:hover {
 
 .shadow{
   box-shadow: 0 12px 24px -6px rgba(45,67,121,.10) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .shadow{
+    box-shadow: 0 12px 34px -6px rgba(68,102,182,.30) !important;
+  }
+  .shadow-lg {
+    box-shadow:0 1rem 3rem rgba(68,102,182,.50)!important;
+  }
 }
 
 // form control
@@ -139,6 +214,18 @@ a:hover {
 
   &::placeholder {
     color: $text-color;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .form-control {
+    &:focus {
+      border-color: $primary-color-dark;
+    }
+
+    &::placeholder {
+      color: $text-color-dark;
+    }
   }
 }
 
@@ -169,5 +256,15 @@ textarea.form-control {
     text-align: center;
     left: -30px;
     top: 3px;
+  }
+}
+
+
+@media (prefers-color-scheme: dark) {
+  .check-mark{
+    &::before{
+      color: $black;
+      background-color: $primary-color-dark;
+    }
   }
 }
