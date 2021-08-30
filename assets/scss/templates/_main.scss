@@ -317,6 +317,13 @@ a.post-title {
 }
 
 @media (prefers-color-scheme: dark) {
+
+  a {
+    color: $primary-color-dark;
+    background-color: transparent;
+
+  }
+
   .content {
 
     a {
@@ -604,5 +611,24 @@ a.post-title {
 
   .testimonial .item .client-meta {
     color: $text-color-dark;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  input[type=text],
+  input[type=email],
+  input[type=password],
+  input[type=checkbox],
+  input[type=number] {
+    background-color: $dark;
+    border: 1px solid $border-color-dark;
+  }
+
+  .input-group-text,
+  .custom-select,
+  .form-control {
+    color: $text-color-dark;
+    background-color: $dark;
+    border: 1px solid $border-color-dark;
   }
 }
