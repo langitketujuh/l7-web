@@ -129,6 +129,14 @@
     ]
   });
 
+	// dropdownAnimation
+	function dropdownAnimation() {
+		$('.header-nav').find('.dropdown-menu').each(function (idx, item) {
+			$(this).height($(this).height());
+		});
+	}
+	dropdownAnimation();
+
   // Shuffle js filter and masonry
   var containerEl = document.querySelector('.shuffle-wrapper');
   if (containerEl) {

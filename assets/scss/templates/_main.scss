@@ -84,7 +84,7 @@
 
 // blog post
 a.post-title {
-  color: $text-color-dark;
+  color: $text-color;
   display: block;
 
   &:hover {
@@ -179,7 +179,7 @@ a.post-title {
 
   table td,
   table th {
-    padding: .75rem;
+    padding: 1.3rem;
     vertical-align: top;
     margin-bottom: 0;
     table-layout: fixed;
