@@ -622,6 +622,10 @@ a.post-title {
   input[type=number] {
     background-color: $dark;
     border: 1px solid $border-color-dark;
+
+    &:focus {
+    background-color: $dark;
+    }
   }
 
   .input-group-text,
@@ -630,5 +634,10 @@ a.post-title {
     color: $text-color-dark;
     background-color: $dark;
     border: 1px solid $border-color-dark;
+
+    &:focus {
+    color: $text-color-dark;
+    background-color: $dark;
+    }
   }
 }
