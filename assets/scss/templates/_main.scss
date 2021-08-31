@@ -641,3 +641,10 @@ a.post-title {
     }
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  img.sponsor,
+  .partner {
+    filter: invert(100%) grayscale(100%) brightness(2.5);
+  }
+}

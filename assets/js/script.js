@@ -33,6 +33,13 @@
     autoplay: true,
     autoplaySpeed: 5000,
     responsive: [{
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
         breakpoint: 600,
         settings: {
           slidesToShow: 1,
@@ -108,7 +115,7 @@
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1
         }
       },

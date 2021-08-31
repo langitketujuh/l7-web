@@ -1,9 +1,9 @@
 ---
 title: "Upgrade sistem LangitKetujuh OS"
 date: 2020-12-12T19:18:27+07:00
-image: "media/blog/pembaruan-langitketujuh-os.png"
+image: "media/blog/pembaruan-langitketujuh-os.jpg"
 opengraph:
-  image: "media/blog/pembaruan-langitketujuh-os.webp.png"
+  image: "media/blog/pembaruan-langitketujuh-os.webp.jpg"
 # post type (regular/featured)
 type: "regular"
 description: "Cara upgrade sistem langitketujuh os?"

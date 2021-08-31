@@ -1,9 +1,9 @@
 ---
 title: "Tips Memilih Container Codec SSR"
 date: 2021-03-29T05:29:44+07:00
-image: media/blog/tips-memilih-container-codec-simplescreenrecorder.png
+image: media/blog/tips-memilih-container-codec-simplescreenrecorder.jpg
 opengraph:
-  image: media/blog/tips-memilih-container-codec-simplescreenrecorder.png
+  image: media/blog/tips-memilih-container-codec-simplescreenrecorder.jpg
 # post type (regular/featured)
 type: "regular"
 description: "Pembahasan ini akan dibagi menjadi 2 bagian. Bagian 1: Tips Memilih Container Codec. Bagian 2: Pengaturan perekam desktop SSR di LangitKetujuh GNU/Linux"

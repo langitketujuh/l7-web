@@ -171,9 +171,9 @@
     <div class="sponsor-logo-slider d-flex align-items-center mx-auto">
       {{ range site.Data.homepage.sponsor_logo_slider.item }}
       {{ if and ( ne .URL "" ) ( ne .URL "#" ) }}
-      <a href="{{ .URL | safeURL }}" class="text-center d-block outline-0 p-4 mx-auto"><img class="d-unset img-fluid mx-auto" src="{{.logo | absURL}}" alt="sponsor-logo"></a>
+      <a href="{{ .URL | safeURL }}" class="text-center d-block outline-0 p-4 mx-auto"><img class="d-unset img-fluid mx-auto sponsor" src="{{.logo | absURL}}" alt="sponsor-logo"></a>
       {{ else }}
-      <span class="text-center d-block outline-0 p-4 mx-auto"><img class="d-unset img-fluid mx-auto" src="{{.logo | absURL}}" alt="sponsor-logo"></span>
+      <span class="text-center d-block outline-0 p-4 mx-auto"><img class="d-unset img-fluid mx-auto sponsor" src="{{.logo | absURL}}" alt="sponsor-logo"></span>
       {{ end }}
       {{ end }}
     </div>
@@ -194,9 +194,9 @@
     <div class="client-logo-slider d-flex align-items-center mx-auto">
       {{ range site.Data.homepage.clients_logo_slider.item }}
       {{ if and ( ne .URL "" ) ( ne .URL "#" ) }}
-      <a href="{{ .URL | safeURL }}" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid mx-auto" src="{{.logo | absURL}}" alt="media-partner-logo"></a>
+      <a href="{{ .URL | safeURL }}" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid mx-auto partner" src="{{.logo | absURL}}" alt="media-partner-logo"></a>
       {{ else }}
-      <span class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid mx-auto" src="{{.logo | absURL}}" alt="media-partner-logo"></span>
+      <span class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid mx-auto partner" src="{{.logo | absURL}}" alt="media-partner-logo"></span>
       {{ end }}
       {{ end }}
     </div>

@@ -1,9 +1,9 @@
 ---
 title: "Validator EPS8: Fitur Baru L7-Export"
 date: 2021-03-11T12:08:20+07:00
-image: media/blog/validator-eps8-fitur-baru-l7-export.png
+image: media/blog/validator-eps8-fitur-baru-l7-export.jpg
 opengraph:
-  image: media/blog/validator-eps8-fitur-baru-l7-export.png
+  image: media/blog/validator-eps8-fitur-baru-l7-export.jpg
 # post type (regular/featured)
 type: "regular"
 description: ""
