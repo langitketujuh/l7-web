@@ -50,37 +50,21 @@
     margin: 0;
   }
 
-  .info-whatsapp,
-  .info-telegram {
+  .info-avatar {
     position: relative;
   }
 
-  .info-whatsapp img,
-  .info-telegram img {
+  .info-avatar img {
     border-radius: 100%;
     width: 50px;
     float: left;
     margin: 0 10px 0 0;
   }
 
-  .info-whatsapp:before {
-    content: "\f232";
+  .info-avatar:before {
     z-index: 1;
     font-family: $icon-font;
     background: #23ab23;
-    color: $white;
-    padding: 3px 5px;
-    border-radius: 100%;
-    position: absolute;
-    top: 30px;
-    left: 30px;
-  }
-
-  .info-telegram:before {
-    content: "\f3fe";
-    z-index: 1;
-    font-family: $icon-font;
-    background: #23aaea;
     color: $white;
     padding: 3px 5px;
     border-radius: 100%;
@@ -149,6 +133,7 @@
   textarea#chat-input {
     border: none;
     font-family: $primary-font;
+    font-size: 14.2px;
     width: 100%;
     height: 20px;
     outline: none;
@@ -157,9 +142,10 @@
 
   a#send-it {
     color: #555;
-    width: 50px;
+    width: 60px;
     margin: -5px 0 0 5px;
     font-weight: 700;
+    font-size: 14.2px;
     padding: 8px;
     background: #eee;
     border-radius: 10px;
