@@ -13,5 +13,6 @@ $light: #f1f3f7;
 $dark: #1a1d1e;
 
 // Font Variables
-$primary-font: 'Open Sans', sans-serif;
-$icon-font: 'themify';
+$fa-font-path: "webfonts";
+$primary-font: 'Open Sans', sans-serif, 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+$icon-font: 'Font Awesome 5 Free', 'Font Awesome 5 Brands', 'themify-icons' ;

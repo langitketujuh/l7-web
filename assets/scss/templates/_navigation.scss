@@ -80,9 +80,12 @@
     }
   }
 }
+  .navbar-light .navbar-toggler {
+    color: $text-color;
+  }
 
-.navbar-light .navbar-nav .show .nav-link {
-  color: $text-color;
+  .navbar-light .navbar-nav .show .nav-link {
+    color: $text-color;
   }
 
   .navbar-light .navbar-nav .nav-link {

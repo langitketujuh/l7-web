@@ -19,6 +19,12 @@ VERSION:	Version Number
 
 @import 'common';
 
+@import 'livechat';
+
 @import 'templates/navigation.scss';
 
 @import 'templates/main.scss';
+
+@import "scss/fontawesome.scss";
+
+@import "scss/solid.scss";

@@ -51,9 +51,9 @@
 .social-icons a {
   color: $primary-color;
   text-align: center;
-  height: 35px;
-  width: 35px;
-  line-height: 35px;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
   border: 1px solid $primary-color;
   border-radius: 50%;
   display: block;
@@ -67,13 +67,7 @@
 @media (prefers-color-scheme: dark) {
   .social-icons a {
     color: $primary-color-dark;
-    text-align: center;
-    height: 35px;
-    width: 35px;
-    line-height: 35px;
     border: 1px solid $primary-color-dark;
-    border-radius: 50%;
-    display: block;
 
     &:hover {
       color: $white;

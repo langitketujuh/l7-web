@@ -255,12 +255,12 @@ link = "donasi"
 
 [[params.social]]
 title = "instagram"
-icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
+icon = "fa-instagram" # themify icon : https://themify.me/themify-icons
 link = "https://instagram.com/langitketujuh.id"
 
 [[params.social]]
 title = "facebook"
-icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+icon = "fa-facebook" # themify icon : https://themify.me/themify-icons
 link = "https://facebook.com/langitketujuh.id"
 
 #[[params.social]]
