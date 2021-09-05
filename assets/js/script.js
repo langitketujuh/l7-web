@@ -1,20 +1,16 @@
 (function ($) {
   'use strict';
 
-  // Preloader js    
   $(window).on('load', function () {
     $('.preloader').fadeOut(100);
   });
   
-  // Accordions
   $('.collapse').on('shown.bs.collapse', function () {
     $(this).parent().find('.ti-angle-right').removeClass('ti-angle-right').addClass('ti-angle-down');
   }).on('hidden.bs.collapse', function () {
     $(this).parent().find('.ti-angle-down').removeClass('ti-angle-down').addClass('ti-angle-right');
   });
 
-  
-	//slider
   $('.slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -23,8 +19,6 @@
     arrows: false
   });
 
-
-  // testimoni
   $('.testimonial-slider').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -56,7 +50,6 @@
     ]
   });
 
-  // sponsor logo slider
   $('.sponsor-logo-slider').slick({
     infinite: true,
     slidesToShow: 1,
@@ -96,7 +89,6 @@
     ]
   });
 
-  // clients logo slider
   $('.client-logo-slider').slick({
     infinite: true,
     slidesToShow: 3,
@@ -136,15 +128,13 @@
     ]
   });
 
-	// dropdownAnimation
-	function dropdownAnimation() {
-		$('.header-nav').find('.dropdown-menu').each(function (idx, item) {
-			$(this).height($(this).height());
-		});
-	}
-	dropdownAnimation();
+  function dropdownAnimation() {
+    $('.header-nav').find('.dropdown-menu').each(function (idx, item) {
+      $(this).height($(this).height());
+    });
+  }
+  dropdownAnimation();
 
-  // Shuffle js filter and masonry
   var containerEl = document.querySelector('.shuffle-wrapper');
   if (containerEl) {
     var Shuffle = window.Shuffle;
@@ -161,7 +151,6 @@
     });
   }
 
-  /* Live Chat */
   $(document).on("click", "#send-it", function () {
     var a = document.getElementById("chat-input");
     if ("" != a.value) {
