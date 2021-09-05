@@ -184,17 +184,17 @@ a.post-title {
   th,
   td {
     &:not(:last-of-type) {
-      //border-right: 1px solid $border-color;
+      border-right: 1px solid $light;
     }
   }
 
   th {
-    background: $white;
+    background: $light;
     font-weight: 700;
   }
 
   thead {
-    background: $white;
+    background: $light;
     margin-bottom: 0;
 
     tr {
@@ -344,19 +344,19 @@ a.post-title {
     th,
     td {
       &:not(:last-of-type) {
-        border-right: 1px solid $border-color-dark;
+        border-right: 1px solid $black;
       }
     }
 
     th {
-      background: $border-color-dark;
+      background: $black;
     }
 
     thead {
       background: $black;
 
       tr {
-        border-bottom: 1px solid $border-color-dark;
+        border-bottom: 1px solid $black;
       }
     }
 
