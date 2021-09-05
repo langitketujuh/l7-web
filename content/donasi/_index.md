@@ -11,7 +11,7 @@ draft: false
 call_to_action:
   enable : true
   title : "Scan QR Code ini!"
-  image : "media/beranda/qrcode-langitketujuh-donasi.jpg"
+  image : "media/beranda/qrcode-langitketujuh-donasi.webp"
   content : "Mendukung donasi dengan QRIS, Mobile Banking, E-Wallet seperti OVO, GoPay, LinkAja, DANA, Shopee Pay, WeChat Pay, Jenius dan E-wallet lainnya. (NMID: ID1021067117882)"
   button:
     enable : true

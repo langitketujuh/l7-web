@@ -90,7 +90,7 @@ proglibc32:
 call_to_action:
   enable: true
   title: Dokumentasi
-  image: media/beranda/faq-min.svg
+  image: media/beranda/footer-help.webp
   content: Gunakanlah Ventoy sebagai pembuat USB bootable. Dan baca panduan ini agar Anda berhasil memasang LangitKetujuh OS versi Lite, atau Anda bisa menggunakan versi **PRO** untuk mendapatkan layanan instalasi.
   button:
     enable: true

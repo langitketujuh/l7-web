@@ -11,7 +11,7 @@ draft: false
 call_to_action:
   enable : true
   title : "Artikel Menarik!"
-  image : "media/beranda/pro-min.svg"
+  image : "media/beranda/footer-pro.webp"
   content : "Yuk ikuti konten kreatif dari kami."
   button:
     enable : true

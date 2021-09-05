@@ -215,7 +215,7 @@ screenshot:
 call_to_action:
   enable : true
   title : "Siap menjadi Profesional"
-  image : "media/beranda/pro-min.svg"
+  image : "media/beranda/footer-pro.webp"
   content : "Kami telah mengoptimasi pemilihan sistem yang lebih baik dan menyesuaikan aplikasi sesuai kebutuhan spesifik. LangitKetujuh GNU/Linux akan membantu Anda menjadi desainer yang tangguh dengan perangkat lunak terbuka."
   button:
     enable : true
@@ -228,13 +228,13 @@ sponsor_logo_slider:
   enable : true
   title : "Disponsori oleh:"
   item:
-    - logo : "media/dukungan/somedigit.svg"
+    - logo : "media/dukungan/somedigit.webp"
       URL : "#"
-    - logo : "media/dukungan/somedigit.svg"
+    - logo : "media/dukungan/somedigit.webp"
       URL : "#"
-    - logo : "media/dukungan/somedigit.svg"
+    - logo : "media/dukungan/somedigit.webp"
       URL : "#"
-    - logo : "media/dukungan/somedigit.svg"
+    - logo : "media/dukungan/somedigit.webp"
       URL : "#"
 
 ################### Partner ########################
@@ -243,15 +243,15 @@ clients_logo_slider:
   enable : true
   title : "Mitra Media & Komunitas:"
   item:
-    - logo : "media/dukungan/abu-zaid.svg"
+    - logo : "media/dukungan/abu-zaid.webp"
       URL : "https://www.youtube.com/channel/UCMLux3D4kfAtHATlUMSHYAw/videos"
-    - logo : "media/dukungan/vectara.svg"
+    - logo : "media/dukungan/vectara.webp"
       URL : "https://vectara.id/"
-    - logo : "media/dukungan/bisaweb.site.svg"
+    - logo : "media/dukungan/bisaweb.site.webp"
       URL : "#"
-    - logo : "media/dukungan/abu-zaid.svg"
+    - logo : "media/dukungan/abu-zaid.webp"
       URL : "https://www.youtube.com/channel/UCMLux3D4kfAtHATlUMSHYAw/videos"
-    - logo : "media/dukungan/vectara.svg"
+    - logo : "media/dukungan/vectara.webp"
       URL : "https://vectara.id/"
-    - logo : "media/dukungan/bisaweb.site.svg"
+    - logo : "media/dukungan/bisaweb.site.webp"
       URL : "#"

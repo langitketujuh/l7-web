@@ -242,7 +242,7 @@ copyright = "2021 [Hervy Qurrotul A. R.](mailto:hervyqa@pm.me) dan [LangitKetuju
 # PRELOADER
 
 [params.preloader]
-enable = true
+enable = false
 preloader = "media/beranda/preloader.svg" # use jpg, png, svg or gif format.
 
 # Navigation buttons
