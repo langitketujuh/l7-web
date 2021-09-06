@@ -244,8 +244,7 @@ textarea.form-control {
   padding-left: 0px;
   &::before{
     position: absolute;
-    content: "\e64c";
-    font-family: $icon-font;
+    content: "+";
     color: $white;
     height: 25px;
     width: 25px;
