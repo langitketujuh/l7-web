@@ -201,7 +201,7 @@
   $(document).on("click", ".close-chat", function () {
     $("#whatsapp-chat").addClass("hide").removeClass("show");
   }),
-  $(document).on("click", ".blantershow-chat", function () {
+  $(document).on("click", ".show-chat", function () {
     $("#whatsapp-chat").addClass("show").removeClass("hide");
   });
 

@@ -1,0 +1,11 @@
+enable : true
+title : "Disponsori oleh:"
+item:
+  - logo : "media/dukungan/somedigit.webp"
+    URL : "#"
+  - logo : "media/dukungan/somedigit.webp"
+    URL : "#"
+  - logo : "media/dukungan/somedigit.webp"
+    URL : "#"
+  - logo : "media/dukungan/somedigit.webp"
+    URL : "#"

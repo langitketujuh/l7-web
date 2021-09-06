@@ -4,15 +4,10 @@ baseURL = "https://langitketujuh.id/"
 title = "LangitKetujuh OS"
 languageName = "Id"
 languageCode = "en-US"
-# post pagination
 paginate = "9"
-# post excerpt
 summaryLength = "17"
-# disqus short name
 disqusShortname = "" # get your shortname form here : https://disqus.com
-# google analytics
 googleAnalytics = "" # example : UA-123-45
-# unsafe html
 [markup.goldmark.renderer]
 unsafe = true
 
@@ -23,10 +18,6 @@ link = "plugins/bootstrap/bootstrap.min.css"
 link = "plugins/themify-icons/themify-icons.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
-[[params.plugins.css]]
-link = "plugins/lightbox2/css/lightbox.min.css"
-[[params.plugins.css]]
-link = "plugins/themefisher-font/style.css"
 
 # JS Plugins
 [[params.plugins.js]]
@@ -37,12 +28,16 @@ link = "plugins/bootstrap/bootstrap.min.js"
 link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
 link = "plugins/drag/drag.min.js"
-[[params.plugins.js]]
-link = "plugins/lightbox2/js/lightbox.min.js"
-[[params.plugins.js]]
-link = "plugins/mixitup/mixitup.min.js"
-[[params.plugins.js]]
-link = "plugins/filterzr/jquery.filterizr.min.js"
+
+# For portfolio section
+#[[params.plugins.css]]
+#link = "plugins/lightbox2/css/lightbox.min.css"
+#[[params.plugins.js]]
+#link = "plugins/lightbox2/js/lightbox.min.js"
+#[[params.plugins.js]]
+#link = "plugins/mixitup/mixitup.min.js"
+#[[params.plugins.js]]
+#link = "plugins/filterzr/jquery.filterizr.min.js"
 
 # NAVIGASI
 
@@ -296,7 +291,6 @@ weight = 3
 # FOOTER
 
 footer_content = "Pilihan Tepat untuk Desainer dan Pengguna Desktop"
-# copyright
 copyright = "2021 [Hervy Qurrotul A. R.](mailto:hervyqa@pm.me) dan [LangitKetujuh kontributor](https://gitlab.com/langitketujuh). 2020 [VoidLinux kontributor](https://github.com/orgs/void-linux/people) dan 2008-2018 [Juan RP](https://gitlab.com/xtraeme). [Linux®](https://www.linuxfoundation.org/programs/legal/trademark/attribution) telah didaftarkan dengan merek dagang dari Linus Torvalds. [KDE® and the K Desktop Environment® logo](https://kde.org/media/images/trademark_kde_gear_black_logo.png) telah didaftarkan dengan branding [KDE e.V](https://ev.kde.org/). Template oleh [Themefisher](https://themefisher.com/). Dikembangkan oleh [Gethugothemes](https://gethugothemes.com/)."
 
 # PRELOADER
@@ -305,7 +299,7 @@ copyright = "2021 [Hervy Qurrotul A. R.](mailto:hervyqa@pm.me) dan [LangitKetuju
 enable = false
 preloader = "media/beranda/preloader.svg" # use jpg, png, svg or gif format.
 
-# Navigation buttons
+# NAVIGATION BUTTONS
 [params.navigation_button]
 enable = true
 label = "Donasi ✨"
