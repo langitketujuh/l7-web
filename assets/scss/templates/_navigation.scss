@@ -3,8 +3,13 @@
   color: $text-color;
 
   .nav-link {
-    font-weight: 500;
+    font-weight: 700;
+
+    &:hover {
+      color: $text-color;
+    }
   }
+
 }
 
 .dropdown-menu {
@@ -28,8 +33,7 @@
   .dropdown-item {
     padding: 12px 12px;
     margin: 5px 5px;
-    font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     color: $text-color;
     border-radius: 6px;
 
@@ -55,6 +59,12 @@
 @media (prefers-color-scheme: dark) {
   .nav-item {
     color: $text-color-dark;
+
+    .nav-link {
+      &:hover {
+        color: $text-color-dark;
+      }
+    }
   }
 
   .dropdown-menu {
