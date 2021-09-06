@@ -23,6 +23,10 @@ link = "plugins/bootstrap/bootstrap.min.css"
 link = "plugins/themify-icons/themify-icons.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/lightbox2/css/lightbox.min.css"
+[[params.plugins.css]]
+link = "plugins/themefisher-font/style.css"
 
 # JS Plugins
 [[params.plugins.js]]
@@ -33,38 +37,91 @@ link = "plugins/bootstrap/bootstrap.min.js"
 link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
 link = "plugins/drag/drag.min.js"
+[[params.plugins.js]]
+link = "plugins/lightbox2/js/lightbox.min.js"
+[[params.plugins.js]]
+link = "plugins/mixitup/mixitup.min.js"
+[[params.plugins.js]]
+link = "plugins/filterzr/jquery.filterizr.min.js"
 
 # NAVIGASI
 
-# menu utama
+# studio
+#[[menu.main]]
+#name = "Studio"
+#identifier = "studio"
+#URL = "studio"
+#weight = 1
+
+#[[menu.main]]
+#name = "Logo Desain"
+#identifier = "logo-desain"
+#URL = "studio/logo-desain"
+#parent = "studio"
+#weight = 1
+
+#[[menu.main]]
+#name = "Identitas Branding"
+#identifier = "identitas-branding"
+#URL = "studio/identitas-branding"
+#parent = "studio"
+#weight = 2
+
+#[[menu.main]]
+#name = "Desain Kemasan"
+#identifier = "desain-kemasan"
+#URL = "studio/desain-kemasan"
+#parent = "studio"
+#weight = 3
+
+#[[menu.main]]
+#name = "Sosial Media Desain"
+#identifier = "sosial-media-desain"
+#URL = "studio/sosial-media-desain"
+#parent = "studio"
+#weight = 4
+
+# os
 [[menu.main]]
-name = "Unduh ⚡"
+name = "OS"
+identifier = "os"
+URL = "os"
+weight = 2
+
+[[menu.main]]
+name = "Unduh OS"
 identifier = "unduh"
-URL = "unduh"
+URL = "os/unduh"
+parent = "os"
 weight = 1
 
 [[menu.main]]
-name = "Fitur"
+name = "Fitur OS"
 identifier = "fitur"
-URL = "fitur"
+URL = "os/fitur"
+parent = "os"
 weight = 2
 
+[[menu.main]]
+name = "Panduan Memasang"
+URL = "https://panduan.langitketujuh.id"
+identifier = "panduan"
+parent = "os"
+weight = 3
+
+# blog
 [[menu.main]]
 name = "Blog"
 identifier = "blog"
 URL = "blog"
 weight = 3
 
-[[menu.main]]
-name = "Panduan 💡"
-URL = "https://panduan.langitketujuh.id"
-weight = 4
-
+# komparasi
 [[menu.main]]
 name = "Komparasi"
 identifier = "komparasi"
 URL = "komparasi"
-weight = 5
+weight = 4
 
 [[menu.main]]
 name = "Vs Ubuntu Studio"
@@ -87,11 +144,12 @@ URL = "komparasi/vs-manjaro-x-design-suite"
 parent = "komparasi"
 weight = 3
 
+# cuplikan
 [[menu.main]]
 name = "Cuplikan"
 URL = "cuplikan"
 identifier = "cuplikan"
-weight = 6
+weight = 5
 
 [[menu.main]]
 name = "Ilustrasi dan Lukis Digital"
@@ -163,15 +221,17 @@ URL = "cuplikan/produktifitas-dasar"
 parent = "cuplikan"
 weight = 10
 
+# kabari
 [[menu.main]]
 name = "Kabari"
 URL = "kabari"
-weight = 7
+weight = 6
 
+# faq
 [[menu.main]]
 name = "FAQ"
 URL = "faq"
-weight = 8
+weight = 7
 
 # profil
 [[menu.profil]]

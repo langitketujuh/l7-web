@@ -6,6 +6,7 @@ image: media/beranda/thumbnail.jpg
 opengraph:
   image: media/beranda/thumbnail.jpg
 version: 20210616
+type: "os/unduh"
 
 litemusl:
   name: musl
@@ -56,7 +57,7 @@ promusl:
   button:
     enable: true
     label: Donasi ✨
-    link: pro-musl
+    link: os/pro-musl
     checksum: checksum/langitketujuh-pro-x86_64-musl-20210616.iso.sha256
 proglibc:
   name: glibc
@@ -70,7 +71,7 @@ proglibc:
   button:
     enable: true
     label: Donasi ✨
-    link: pro-glibc
+    link: os/pro-glibc
     checksum: checksum/langitketujuh-pro-x86_64-20210616.iso.sha256
 proglibc32:
   name: glibc
@@ -84,7 +85,7 @@ proglibc32:
   button:
     enable: true
     label: Donasi ✨
-    link: pro-glibc32
+    link: os/pro-glibc32
     checksum: checksum/langitketujuh-pro-i686-20210616.iso.sha256
 
 call_to_action:

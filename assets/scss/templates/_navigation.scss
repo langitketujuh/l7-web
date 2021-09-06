@@ -53,6 +53,10 @@
 }
 
 @media (prefers-color-scheme: dark) {
+  .nav-item {
+    color: $text-color-dark;
+  }
+
   .dropdown-menu {
     background-color: $dark;
     border: 1px solid $dark;
@@ -97,7 +101,7 @@
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding: 20px;
+  padding: 15px;
 
   @include desktop {
     padding: 10px;

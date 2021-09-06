@@ -19,6 +19,20 @@
     arrows: false
   });
 
+  $('.play-icon i').click(function () {
+    var video = '<iframe allowfullscreen src="' + $(this).attr('data-video') + '"></iframe>';
+    $(this).replaceWith(video);
+  });
+
+  setTimeout(function () {
+    var filterizd = $('.filtr-container').filterizr({});
+    //Active changer
+    $('.filtr-control').on('click', function () {
+      $('.filtr-control').removeClass("active");
+      $(this).addClass("active");
+    });
+  }, 500);
+
   $('.testimonial-slider').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
