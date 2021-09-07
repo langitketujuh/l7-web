@@ -10,8 +10,4 @@ draft: false
 ---
 
 ### Butuh bantuan?
-Terima kasih telah mengisi formulir kerjasama kepada tim Langitketujuh OS. Anda juga dapat menghubungi tim L7 melalui aplikasi telegram dengan tautan dibawah ini. Syukran.
-
-* Layanan: [@LangitKetujuh_bot](https://t.me/LangitKetujuh_bot)
-* Kanal: [@langitketujuhID](https://t.me/langitketujuhID)
-* Surel: [langitketujuh.id@pm.me](mailto:langitketujuh.id@pm.me)
+Terima kasih telah memberikan kritik dan saran kepada tim Langitketujuh OS. Anda juga dapat menyapa tim L7 melalui "Layanan dan Bantuan" dibawah ini. Syukran.

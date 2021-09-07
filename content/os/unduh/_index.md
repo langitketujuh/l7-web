@@ -1,12 +1,12 @@
 ---
 title: Unduh
 subtitle: 'Penuhi kebutuhan desainmu dengan LangitKetujuh OS. Total unduhan 4k lebih. Yuk coba!'
+type: "os/unduh"
 description: Penuhi kebutuhan desainmu dengan LangitKetujuh OS.
 image: media/beranda/thumbnail.jpg
 opengraph:
   image: media/beranda/thumbnail.jpg
 version: 20210616
-type: "os/unduh"
 
 litemusl:
   name: musl

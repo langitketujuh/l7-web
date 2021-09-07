@@ -2,6 +2,7 @@
 title: "Fitur OS"
 subtitle: Edisi Pro untuk kebutuhan profesional. Pilih sesuai kebutuhan!
 # meta description
+type: "os/fitur"
 description: "Perbandingan antara fitur lite dan pro. Lite untuk kebutuhan sederhana, sedangkan pro untuk kebutuhan profesional."
 image: media/beranda/thumbnail.jpg
 opengraph:
@@ -10,13 +11,14 @@ draft: false
 
 call_to_action:
   enable : true
-  title : "Butuh Bantuan?"
-  image : "media/beranda/footer-help.webp"
-  content : "Silakan hubungi kami di telegram. Balasan akan direspon 1x3 jam."
+  title : Butuh Bantuan?
+  image : media/beranda/footer-help.webp
+  content : Klik "Layanan dan Bantuan" agar dapat menghubungi kami via WhatsApp atau Telegram. Balasan akan direspon 1x3 jam.
   button:
-    enable : true
-    label : "Kabari via Telegram"
-    link : "https://t.me/LangitKetujuh_bot"
+    enable : false
+    label : Kabari Kami
+    link : https://t.me/langitKetujuhcs
+
 ---
 
 **Fitur** | **Lite** | **Pro**

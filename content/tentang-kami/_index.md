@@ -9,10 +9,10 @@ call_to_action:
   enable: true
   title: Butuh Bantuan?
   image: media/beranda/footer-help.webp
-  content: Silakan kontak kami di telegram. Balasan akan direspon 1x3 jam.
+  content : 'Klik "Layanan dan Bantuan" agar dapat menghubungi kami via WhatsApp atau Telegram. Balasan akan direspon 1x3 jam.'
   button:
     enable: true
-    label: Kabari via Telegram
+    label: Kabari Kami
     link: https://t.me/LangitKetujuh_bot
 
 ---

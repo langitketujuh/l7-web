@@ -16,7 +16,7 @@ call_to_action:
   button:
     enable : true
     label : "Kabari Kami"
-    link : "https://t.me/langitketujuh_bot"
+    link : "https://web.whatsapp.com/send?phone=6282131146131&text=Assalamu'alaikum LangitKetujuh. Saya mau konfirmasi donasi atas nama: "
 ---
 
 ### Motivasi kami yaitu berbagi dan memudahkan Anda untuk selalu berkarya.
