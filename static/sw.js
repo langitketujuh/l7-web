@@ -1,10 +1,18 @@
 const CACHE_VERSION = 1;
 
 const BASE_CACHE_FILES = [
+    // page cache
+    '/',
+    '/os/unduh/',
+    '/os/fitur/',
+    '/kabari/',
+    '/faq/',
+    '/blog/',
+    // asset
     '/scss/style.min.css',
     '/js/script.min.js',
-    '/search.json',
     '/manifest.json',
+    // ico
     '/favicon.png',
 ];
 
@@ -41,7 +49,8 @@ const MAX_TTL = {
 
 const CACHE_BLACKLIST = [
     (str) => {
-       return !str.startsWith('http://localhost') && !str.startsWith('https://langitketujuh.id');
+       return !str.startsWith('https://langitketujuh.id');
+       // return !str.startsWith('https://langitketujuh.id');
     },
 ];
 

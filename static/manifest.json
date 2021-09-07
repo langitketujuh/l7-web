@@ -1,6 +1,7 @@
 {
-  "name": "LangitKetujuh ID",
+  "name": "LangitKetujuh OS",
   "short_name": "langitketujuh",
+  "description": "Pilihan Tepat untuk Desainer dan Pengguna Desktop.",
   "icons": [{
     "src": "/media/icons/icon-128x128.png",
     "sizes": "128x128",
