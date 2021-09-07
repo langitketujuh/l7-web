@@ -11,4 +11,4 @@ draft: false
 ---
 
 ### Konfirmasi PRO Glibc 64-bit!
-Setelah mengirimkan form, kami akan mengirim tautan LangitKetujuh Profesional melalui surel (email) dalam kurun waktu 1x3 Jam. Apabila tidak ada konfirmasi hubungi layanan "Perlu Bantuan" dibawah ini untuk balasan lebih cepat. Syukran.
+Setelah mengirimkan form, kami akan mengirim tautan LangitKetujuh Profesional melalui surel (email) dalam kurun waktu 1x3 Jam. Apabila tidak ada konfirmasi hubungi "Layanan & Bantuan" dibawah ini untuk balasan lebih cepat. Syukran.

@@ -13,7 +13,7 @@ call_to_action:
   enable : true
   title : Butuh Bantuan?
   image : media/beranda/footer-help.webp
-  content : Klik "Layanan dan Bantuan" agar dapat menghubungi kami via WhatsApp atau Telegram. Balasan akan direspon 1x3 jam.
+  content : Klik "Layanan & Bantuan" agar dapat menghubungi kami via WhatsApp atau Telegram. Balasan akan direspon 1x3 jam.
   button:
     enable : false
     label : Kabari Kami

@@ -10,4 +10,4 @@ draft: false
 ---
 
 ### Butuh bantuan?
-Terima kasih telah memberikan kritik dan saran kepada tim Langitketujuh OS. Anda juga dapat menyapa tim L7 melalui "Layanan dan Bantuan" dibawah ini. Syukran.
+Terima kasih telah memberikan kritik dan saran kepada tim Langitketujuh OS. Anda juga dapat menyapa tim L7 melalui "Layanan & Bantuan" dibawah ini. Syukran.
