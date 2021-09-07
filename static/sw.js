@@ -13,7 +13,7 @@ const BASE_CACHE_FILES = [
     '/js/script.min.js',
     '/manifest.json',
     // ico
-    '/favicon.png',
+    '/media/icons/favicon.ico',
 ];
 
 const OFFLINE_CACHE_FILES = [
