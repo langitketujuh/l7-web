@@ -18,8 +18,8 @@ link = "plugins/bootstrap/bootstrap.min.css"
 link = "plugins/themify-icons/themify-icons.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
-[[params.plugins.css]]
-link = "plugins/lightbox2/css/lightbox.min.css"
+#[[params.plugins.css]]
+#link = "plugins/lightbox2/css/lightbox.min.css"
 
 # JS Plugins
 [[params.plugins.js]]
@@ -31,11 +31,11 @@ link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
 link = "plugins/drag/drag.min.js"
 [[params.plugins.js]]
-link = "plugins/lightbox2/js/lightbox.min.js"
-[[params.plugins.js]]
-link = "plugins/mixitup/mixitup.min.js"
-[[params.plugins.js]]
-link = "plugins/filterzr/jquery.filterizr.min.js"
+#link = "plugins/lightbox2/js/lightbox.min.js"
+#[[params.plugins.js]]
+#link = "plugins/mixitup/mixitup.min.js"
+#[[params.plugins.js]]
+#link = "plugins/filterzr/jquery.filterizr.min.js"
 
 # NAVIGASI
 
