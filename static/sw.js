@@ -17,10 +17,24 @@ const BASE_CACHE_FILES = [
     '/komunitas/',
     '/feedback/',
     '/kerjasama/',
-    // asset
+    // css
     '/scss/style.min.css',
+    '/plugins/bootstrap/bootstrap.min.css',
+    '/plugins/slick/slick.css',
+    '/plugins/themify-icons/themify-icons.css',
+    // js
     '/js/script.min.js',
+    '/plugins/bootstrap/bootstrap.min.js',
+    '/plugins/jQuery/jquery.min.js',
+    '/plugins/drag/drag.min.js',
+    '/plugins/slick/slick.min.js',
+    // asset
     '/manifest.json',
+    // fonts
+    '/fonts/opensans-bold-latin.woff2',
+    '/fonts/opensans-reguler-latin-ext.woff2',
+    '/fonts/opensans-reguler-latin.woff2',
+    '/plugins/themify-icons/fonts/themify.woff',
     // ico
     '/media/icons/favicon.ico',
 ];
@@ -29,6 +43,10 @@ const OFFLINE_CACHE_FILES = [
     '/scss/style.min.css',
     '/js/script.min.js',
     '/offline/index.html',
+    // fonts
+    '/fonts/opensans-bold-latin.woff2',
+    '/fonts/opensans-reguler-latin-ext.woff2',
+    '/fonts/opensans-reguler-latin.woff2',
 ];
 
 const NOT_FOUND_CACHE_FILES = [
