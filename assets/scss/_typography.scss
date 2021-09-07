@@ -1,5 +1,13 @@
 /*  typography */
 
+@font-face {
+  font-family: $primary-font;
+  font-display: swap;
+  src: url('fonts/opensans-reguler-latin.woff2') format('woff2'), /*Regular*/
+       url('fonts/opensans-reguler-latin-ext.woff2') format('woff2'), /*Light*/
+       url('fonts/opensans-bold-latin.woff2') format('woff2'); /*Bold*/
+}
+
 body {
   line-height: 1.2;
   font-family: $primary-font;

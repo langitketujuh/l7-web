@@ -18,30 +18,30 @@ filtermenu :
 item   :
   - title : Judul 1
     caption : Caption Judul 1
-    image : images/portfolio/portfolio-1.webp
+    image : media/portfolio/portfolio-1.webp
     category  : kategori1,kategori3
 
   - title : Judul 2
     caption : Caption Judul 2
-    image : images/portfolio/portfolio-2.webp
+    image : media/portfolio/portfolio-2.webp
     category  : kategori1,kategori3
 
   - title : Judul 3
     caption : Caption Judul 3
-    image : images/portfolio/portfolio-3.webp
+    image : media/portfolio/portfolio-3.webp
     category  : kategori1,kategori3
 
   - title : Judul 4
     caption : Caption Judul 4
-    image : images/portfolio/portfolio-4.webp
+    image : media/portfolio/portfolio-4.webp
     category  : kategori2,kategori4
 
   - title : Judul 5
     caption : Caption Judul 5
-    image : images/portfolio/portfolio-5.webp
+    image : media/portfolio/portfolio-5.webp
     category  : kategori2,kategori4
 
   - title : Judul 6
     caption : Caption Judul 6
-    image : images/portfolio/portfolio-6.webp
+    image : media/portfolio/portfolio-6.webp
     category  : kategori2
