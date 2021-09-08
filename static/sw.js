@@ -20,9 +20,6 @@ const BASE_CACHE_FILES = [
     '/komunitas/',
     '/feedback/',
     '/kerjasama/',
-    '/sk-feedback/',
-    '/sk-kerjasama/',
-    '/sk-pro/',
     // css
     '/scss/style.min.css',
     '/plugins/bootstrap/bootstrap.min.css',
