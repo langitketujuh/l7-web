@@ -1,5 +1,5 @@
 ---
-title: "Unduh PRO Glibc"
+title: "Unduh PRO i686"
 subtitle: ""
 # meta description
 type: "os/unduh/pro/i686"
@@ -10,5 +10,5 @@ opengraph:
 draft: false
 ---
 
-### Konfirmasi PRO Glibc 32-bit!
+### Konfirmasi PRO i686
 Setelah mengirimkan form, kami akan mengirim tautan LangitKetujuh Profesional melalui surel (email) dalam kurun waktu 1x3 Jam. Apabila tidak ada konfirmasi hubungi "Layanan & Bantuan" dibawah ini untuk balasan lebih cepat. Syukran.
