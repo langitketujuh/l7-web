@@ -34,6 +34,7 @@ const BASE_CACHE_FILES = [
     '/plugins/jQuery/jquery.min.js',
     '/plugins/drag/drag.min.js',
     '/plugins/slick/slick.min.js',
+    '/plugins/back-to-top/vanilla-back-to-top.min.js',
     // asset
     '/manifest.json',
     // fonts
