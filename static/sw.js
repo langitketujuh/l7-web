@@ -12,6 +12,12 @@ const BASE_CACHE_FILES = [
     '/kabari/',
     '/faq/',
     '/donasi/',
+    '/tentang-kami/',
+    '/kebijakan-privasi/',
+    '/peraturan-layanan/',
+    '/komunitas/',
+    '/feedback/',
+    '/kerjasama/',
     // css
     '/scss/style.min.css',
     '/plugins/bootstrap/bootstrap.min.css',
@@ -39,10 +45,6 @@ const OFFLINE_CACHE_FILES = [
     '/scss/style.min.css',
     '/js/script.min.js',
     '/offline/index.html',
-    // fonts
-    '/fonts/opensans-bold-latin.woff2',
-    '/fonts/opensans-reguler-latin-ext.woff2',
-    '/fonts/opensans-reguler-latin.woff2',
 ];
 
 const NOT_FOUND_CACHE_FILES = [
