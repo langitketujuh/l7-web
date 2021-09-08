@@ -2,7 +2,7 @@
 title: "Unduh PRO Glibc"
 subtitle: ""
 # meta description
-type: "os/pro-glibc"
+type: "os/unduh/pro/x86_64"
 description: "Terbaik untuk dukungan perangkat lunak nonfree (propietary)"
 image: media/beranda/thumbnail.jpg
 opengraph:

@@ -57,7 +57,7 @@ promusl:
   button:
     enable: true
     label: Donasi ✨
-    link: os/pro-musl
+    link: "os/unduh/pro/x86_64-musl"
     checksum: checksum/langitketujuh-pro-x86_64-musl-20210616.iso.sha256
 proglibc:
   name:
@@ -71,7 +71,7 @@ proglibc:
   button:
     enable: true
     label: Donasi ✨
-    link: os/pro-glibc
+    link: "os/unduh/pro/x86_64"
     checksum: checksum/langitketujuh-pro-x86_64-20210616.iso.sha256
 proglibc32:
   name:
@@ -85,7 +85,7 @@ proglibc32:
   button:
     enable: true
     label: Donasi ✨
-    link: os/pro-glibc32
+    link: "os/unduh/pro/i686"
     checksum: checksum/langitketujuh-pro-i686-20210616.iso.sha256
 
 call_to_action:

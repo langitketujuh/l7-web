@@ -4,9 +4,9 @@ const BASE_CACHE_FILES = [
     // page cache
     '/',
     '/os/unduh/',
-    '/os/unduh/pro-musl/',
-    '/os/unduh/pro-glibc/',
-    '/os/unduh/pro-glibc32/',
+    '/os/unduh/pro/x86_64-musl/',
+    '/os/unduh/pro/x86_64/',
+    '/os/unduh/pro/i686/',
     '/os/fitur/',
     '/blog/',
     '/kabari/',
