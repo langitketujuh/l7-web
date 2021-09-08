@@ -771,3 +771,15 @@ a.post-title {
     color: $dark;
   }
 }
+
+// back-to-top
+#back-to-top {
+  right: 30px;
+  box-shadow: 0 12px 24px -6px rgba(45,67,121,.30) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  #back-to-top {
+  box-shadow: 0 12px 34px -6px rgba(68,102,182,.3) !important;
+  }
+}
