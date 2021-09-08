@@ -30,6 +30,8 @@ link = "plugins/bootstrap/bootstrap.min.js"
 link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
 link = "plugins/drag/drag.min.js"
+[[params.plugins.js]]
+link = "plugins/back-to-top/vanilla-back-to-top.min.js"
 #[[params.plugins.js]]
 #link = "plugins/lightbox2/js/lightbox.min.js"
 #[[params.plugins.js]]
