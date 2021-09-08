@@ -780,6 +780,7 @@ a.post-title {
 
 @media (prefers-color-scheme: dark) {
   #back-to-top {
-  box-shadow: 0 12px 34px -6px rgba(68,102,182,.3) !important;
+    right: 30px;
+    box-shadow: 0 12px 34px -6px rgba(68,102,182,.3) !important;
   }
 }
