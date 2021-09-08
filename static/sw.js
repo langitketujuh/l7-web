@@ -39,6 +39,24 @@ const BASE_CACHE_FILES = [
     '/plugins/themify-icons/fonts/themify.woff',
     // ico
     '/media/icons/favicon.ico',
+    // media beranda
+    '/media/beranda/banner-min.webp',
+    '/media/beranda/footer-help.webp',
+    '/media/beranda/footer-pro.webp',
+    '/media/beranda/logo.webp',
+    '/media/beranda/preloader.svg',
+    '/media/beranda/qrcode-langitketujuh-donasi.webp',
+    '/media/beranda/screenshot.svg',
+    '/media/beranda/service-animation.webp',
+    '/media/beranda/service-audio-video.webp',
+    '/media/beranda/service-cad-mechanic.webp',
+    '/media/beranda/service-desktop-publishing.webp',
+    '/media/beranda/service-font-maker.webp',
+    '/media/beranda/service-game-maker.webp',
+    '/media/beranda/service-illustration.webp',
+    '/media/beranda/service-office.webp',
+    '/media/beranda/service-photography.webp',
+    '/media/beranda/thumbnail.jpg',
 ];
 
 const OFFLINE_CACHE_FILES = [
