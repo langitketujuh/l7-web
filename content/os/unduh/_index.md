@@ -9,10 +9,10 @@ opengraph:
 version: 20210616
 
 litemusl:
-  name: musl
+  name:
   type: Lite
   type_ver:
-  info: 64-bit
+  info: x86_64-musl
   services:
   - Lebih ringan dan efisien dengan musl libc.
   button:
@@ -21,10 +21,10 @@ litemusl:
     link: https://osdn.net/projects/langitketujuh/downloads/75313/langitketujuh-lite-x86_64-musl-20210616.iso
     checksum: checksum/langitketujuh-lite-x86_64-musl-20210616.iso.sha256
 liteglibc:
-  name: glibc
+  name:
   type: Lite
   type_ver:
-  info: 64-bit
+  info: x86_64
   services:
   - Mendukung aplikasi & driver nonfree.
   button:
@@ -33,10 +33,10 @@ liteglibc:
     link: https://osdn.net/projects/langitketujuh/downloads/75313/langitketujuh-lite-x86_64-20210616.iso
     checksum: checksum/langitketujuh-lite-x86_64-20210616.iso.sha256
 liteglibc32:
-  name: glibc
+  name:
   type: Lite
   type_ver:
-  info: 32-bit
+  info: i686
   services:
   - Aplikasi & driver nonfree dan hardware lama.
   button:
@@ -46,10 +46,10 @@ liteglibc32:
     checksum: checksum/langitketujuh-lite-i686-20210616.iso.sha256
 
 promusl:
-  name: musl
+  name:
   type: Pro
   type_ver:
-  info: 64-bit
+  info: x86_64-musl
   services:
   - Dukungan instalasi.
   - Lebih ringan dan efisien dengan musl libc.
@@ -60,10 +60,10 @@ promusl:
     link: os/pro-musl
     checksum: checksum/langitketujuh-pro-x86_64-musl-20210616.iso.sha256
 proglibc:
-  name: glibc
+  name:
   type: Pro
   type_ver:
-  info: 64-bit
+  info: x86_64
   services:
   - Dukungan instalasi.
   - Mendukung aplikasi & driver nonfree.
@@ -74,10 +74,10 @@ proglibc:
     link: os/pro-glibc
     checksum: checksum/langitketujuh-pro-x86_64-20210616.iso.sha256
 proglibc32:
-  name: glibc
+  name:
   type: Pro
   type_ver:
-  info: 32-bit
+  info: i686
   services:
   - Dukungan instalasi.
   - Aplikasi & driver nonfree dan hardware lama.
