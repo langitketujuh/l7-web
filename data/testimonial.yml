@@ -9,12 +9,12 @@ testimonial_item :
   clientName  : Muhamad Nur Halim
   clientDesignation: Hands on, Freelancer.
 
-- quote : >
-    Menurut kami mereka telah mengupayakan distro linux yang well crafted dan layak mendapatkan apresiasi. Bahkan saat ini kami sedang mempertimbangkan dengan serius untuk mengadopsi LangitKetujuh OS sebagai distro utama kami ditahun 2022 mendatang.
-  icon : "ti-quote-left"
-  clientThumb : media/klien/setia-budi.webp
-  clientName  : Setia Budi
-  clientDesignation: Indonesia Belajar, FLOSS Youtuber.
+#- quote : >
+    #Menurut kami mereka telah mengupayakan distro linux yang well crafted dan layak mendapatkan apresiasi. Bahkan saat ini kami sedang mempertimbangkan dengan serius untuk mengadopsi LangitKetujuh OS sebagai distro utama kami ditahun 2022 mendatang.
+  #icon : "ti-quote-left"
+  #clientThumb : media/klien/setia-budi.webp
+  #clientName  : Setia Budi
+  #clientDesignation: Indonesia Belajar, FLOSS Youtuber.
 
 - quote : >
     Belum lama pakai, namun sudah terasa performanya ringan dan cepat. Tentunya tidak perlu banyak install aplikasi yang harus diunduh dan dipasang, karena sudah tersedia siap pakai. Semoga sukses dan maju lagi berkah dengan FOSS atas izin Allāh Tabāraka wa Ta'ālā Jazākumullāhu khayran.

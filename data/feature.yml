@@ -20,7 +20,7 @@ feature_item:
 
   - name : "Perlengkapan Desain (pro)"
     icon : "ti-palette"
-    content : "Perangkat lunak untuk ilustrasi, animasi, painting, fotografi, font dan game kreator. Google fonts termasuk di dalamnya."
+    content : "Perangkat lunak untuk ilustrasi, animasi, painting, fotografi, font dan game kreator. Google fonts sudah termasuk."
 
   - name : "Dukungan instalasi (pro)"
     icon : "ti-headphone-alt"
