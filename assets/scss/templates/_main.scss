@@ -168,7 +168,7 @@ a.post-title {
     border-collapse: collapse;
     border-radius: 1em;
     overflow: hidden;
-    box-shadow: 0 12px 24px -6px rgba(45,67,121,.30) !important;
+    box-shadow: 0 12px 24px -6px rgba(37,99,235,.30) !important;
   }
 
   table td,
@@ -184,12 +184,12 @@ a.post-title {
   th,
   td {
     &:not(:last-of-type) {
-      border-right: 1px solid $light;
+      border-right: 1px solid $grey;
     }
   }
 
   th {
-    background: $light;
+    background: $grey;
     font-weight: 700;
   }
 
@@ -338,7 +338,7 @@ a.post-title {
     }
 
     table {
-      box-shadow: 0 12px 34px -6px rgba(68,102,182,.30) !important;
+      box-shadow: 0 12px 34px -6px rgba(59, 130, 246,.30) !important;
     }
 
     th,
@@ -539,7 +539,7 @@ a.post-title {
 
 .price{
   font-size: 50px;
-  color: $text-color-dark;
+  color: $text-color;
 }
 
 
@@ -775,12 +775,12 @@ a.post-title {
 // back-to-top
 #back-to-top {
   right: 30px;
-  box-shadow: 0 12px 24px -6px rgba(45,67,121,.30) !important;
+  box-shadow: 0 12px 24px -6px rgba(37,99,235,.30) !important;
 }
 
 @media (prefers-color-scheme: dark) {
   #back-to-top {
     right: 30px;
-    box-shadow: 0 12px 34px -6px rgba(68,102,182,.3) !important;
+    box-shadow: 0 12px 34px -6px rgba(59, 130, 246,.3) !important;
   }
 }

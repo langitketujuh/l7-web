@@ -1,6 +1,6 @@
 ---
 title: Unduh
-subtitle: 'Penuhi kebutuhan desainmu dengan LangitKetujuh OS. Total unduhan 4k lebih. Yuk coba!'
+subtitle: 'Penuhi kebutuhan desainmu dengan LangitKetujuh OS. Total unduhan sudah 5k lebih. Yuk coba!'
 type: "os/unduh"
 description: Penuhi kebutuhan desainmu dengan LangitKetujuh OS.
 image: media/beranda/thumbnail.jpg

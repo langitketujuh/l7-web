@@ -5,7 +5,7 @@
     background: $white;
     width: 350px;
     border-radius: 10px;
-    box-shadow: 0 12px 24px -6px rgba(45,67,121,.30) !important;
+    box-shadow: 0 12px 24px -6px rgba(37,99,235,.30) !important;
     bottom: 90px;
     right: 30px;
     overflow: hidden;
@@ -24,7 +24,7 @@
     right: 30px;
     padding: 10px 20px;
     border-radius: 30px;
-    box-shadow: 0 12px 24px -6px rgba(45,67,121,.30) !important;
+    box-shadow: 0 12px 24px -6px rgba(37,99,235,.30) !important;
   }
 
   a.show-chat i {
@@ -226,13 +226,13 @@
     /* Live chat */
     #whatsapp-chat {
       background: $dark;
-      box-shadow: 0 12px 34px -6px rgba(68,102,182,.30) !important;
+      box-shadow: 0 12px 34px -6px rgba(59, 130, 246,.30) !important;
     }
 
     a.show-chat {
       background: $primary-color;
       color: $white;
-      box-shadow: 0 12px 34px -6px rgba(68,102,182,.30) !important;
+      box-shadow: 0 12px 34px -6px rgba(59, 130, 246,.30) !important;
     }
 
     .header-chat {

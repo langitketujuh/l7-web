@@ -197,15 +197,15 @@ a:hover {
 }
 
 .shadow{
-  box-shadow: 0 12px 24px -6px rgba(45,67,121,.10) !important;
+  box-shadow: 0 12px 24px -6px rgba(37,99,235,.10) !important;
 }
 
 @media (prefers-color-scheme: dark) {
   .shadow{
-    box-shadow: 0 12px 34px -6px rgba(68,102,182,.30) !important;
+    box-shadow: 0 12px 34px -6px rgba(59, 130, 246,.30) !important;
   }
   .shadow-lg {
-    box-shadow:0 1rem 3rem rgba(68,102,182,.50)!important;
+    box-shadow:0 1rem 3rem rgba(59, 130, 246,.50)!important;
   }
 }
 
