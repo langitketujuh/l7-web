@@ -281,6 +281,11 @@ name = "Roadmap"
 URL = "os/roadmap"
 weight = 4
 
+[[menu.dukungan]]
+name = "Berbagi Link"
+URL = "link"
+weight = 5
+
 # PARAMETER
 
 [params]
@@ -307,7 +312,7 @@ preloader = "media/beranda/preloader.svg" # use jpg, png, svg or gif format.
 # NAVIGATION BUTTONS
 [params.navigation_button]
 enable = true
-label = "Donasi ✨"
+label = "Donasi"
 link = "donasi"
 
 # SOSIAL MEDIA

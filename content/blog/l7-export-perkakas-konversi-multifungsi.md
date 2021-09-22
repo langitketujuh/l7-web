@@ -5,7 +5,7 @@ image: media/blog/l7-export-perkakas-konversi-multifungsi.jpg
 opengraph:
   image: media/blog/l7-export-perkakas-konversi-multifungsi.jpg
 # post type (regular/featured)
-type: "featured"
+type: "regular"
 description: ""
 author: "LangitKetujuh ID"
 categories:

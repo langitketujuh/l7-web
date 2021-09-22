@@ -6,7 +6,7 @@ description: Penuhi kebutuhan desainmu dengan LangitKetujuh OS.
 image: media/beranda/thumbnail.jpg
 opengraph:
   image: media/beranda/thumbnail.jpg
-version: 20210616
+version: 20210921
 
 litemusl:
   name:
@@ -18,8 +18,8 @@ litemusl:
   button:
     enable: true
     label: Unduh
-    link: https://osdn.net/projects/langitketujuh/downloads/75313/langitketujuh-lite-x86_64-musl-20210616.iso
-    checksum: checksum/langitketujuh-lite-x86_64-musl-20210616.iso.sha256
+    link: https://al.quds.repo.langitketujuh.id/iso/langitketujuh-lite-x86_64-musl-20210921.iso
+    checksum: https://al.quds.repo.langitketujuh.id/iso/langitketujuh-lite-x86_64-musl-20210921.iso.sha256
 liteglibc:
   name:
   type: Lite
@@ -30,8 +30,8 @@ liteglibc:
   button:
     enable: true
     label: Unduh
-    link: https://osdn.net/projects/langitketujuh/downloads/75313/langitketujuh-lite-x86_64-20210616.iso
-    checksum: checksum/langitketujuh-lite-x86_64-20210616.iso.sha256
+    link: https://al.quds.repo.langitketujuh.id/iso/langitketujuh-lite-x86_64-20210921.iso
+    checksum: https://al.quds.repo.langitketujuh.id/iso/langitketujuh-lite-x86_64-20210921.iso.sha256
 liteglibc32:
   name:
   type: Lite
@@ -42,8 +42,8 @@ liteglibc32:
   button:
     enable: true
     label: Unduh
-    link: https://osdn.net/projects/langitketujuh/downloads/75313/langitketujuh-lite-i686-20210616.iso
-    checksum: checksum/langitketujuh-lite-i686-20210616.iso.sha256
+    link: https://al.quds.repo.langitketujuh.id/iso/langitketujuh-lite-i686-20210921.iso
+    checksum: https://al.quds.repo.langitketujuh.id/iso/langitketujuh-lite-i686-20210921.iso.sha256
 
 promusl:
   name:
@@ -56,9 +56,9 @@ promusl:
   - Perangkat lunak desain grafis lengkap.
   button:
     enable: true
-    label: Donasi ✨
+    label: Donasi
     link: "os/unduh/pro/x86_64-musl"
-    checksum: checksum/langitketujuh-pro-x86_64-musl-20210616.iso.sha256
+    checksum: https://al.quds.repo.langitketujuh.id/iso/langitketujuh-pro-x86_64-musl-20210616.iso.sha256
 proglibc:
   name:
   type: Pro
@@ -70,9 +70,9 @@ proglibc:
   - Perangkat lunak desain grafis lengkap.
   button:
     enable: true
-    label: Donasi ✨
+    label: Donasi
     link: "os/unduh/pro/x86_64"
-    checksum: checksum/langitketujuh-pro-x86_64-20210616.iso.sha256
+    checksum: https://al.quds.repo.langitketujuh.id/iso/langitketujuh-pro-x86_64-20210616.iso.sha256
 proglibc32:
   name:
   type: Pro
@@ -84,9 +84,9 @@ proglibc32:
   - Perangkat lunak desain grafis lengkap.
   button:
     enable: true
-    label: Donasi ✨
+    label: Donasi
     link: "os/unduh/pro/i686"
-    checksum: checksum/langitketujuh-pro-i686-20210616.iso.sha256
+    checksum: https://al.quds.repo.langitketujuh.id/iso/langitketujuh-pro-i686-20210616.iso.sha256
 
 call_to_action:
   enable: true

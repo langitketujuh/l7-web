@@ -2,6 +2,12 @@
 
 {{ partial "page-header.html" . }}
 
+<section class="section pb-0">
+  <div class="container text-center">
+    <p>Rilis versi: <b>{{ .Params.version | markdownify }}</b></p>
+  </div>
+</section>
+
 <section class="section">
   <div class="container pricing-container">
     <div class="row justify-content-center align-items-center">
