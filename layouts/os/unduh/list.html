@@ -6,6 +6,14 @@
   <div class="container text-center">
     <p>Rilis versi: <b>{{ .Params.version | markdownify }}</b></p>
   </div>
+  <div class="col-lg-5 mx-auto mb-lg-0 px-3 pl-3 px-lg-0">
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      <strong>Hai Sahabat L7</strong>, Server kami dalam mode perbaikan nih. Sementara tidak dapat diunduh berkas iso-nya. Do'akan cepat pulih yaa :)
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+  </div>
 </section>
 
 <section class="section">
@@ -123,7 +131,7 @@
             {{ if .button.enable }}
             {{ with .button }}
             <a href="{{ .link | absURL }}" class="btn btn-outline-primary text-uppercase">{{ .label }}</a>
-            <p><a href="{{ .checksum | absURL }}" class="btn btn-link btn-sm mt-2" download>sha256sum</a></p>
+            <!--<p><a href="{{ .checksum | absURL }}" class="btn btn-link btn-sm mt-2" download>sha256sum</a></p>-->
             {{ end }}
             {{ end }}
           </div>
@@ -151,7 +159,7 @@
             {{ if .button.enable }}
             {{ with .button }}
             <a href="{{ .link | absURL }}" class="btn btn-primary text-uppercase">{{ .label }}</a>
-            <p><a href="{{ .checksum | absURL }}" class="btn btn-link btn-sm mt-2" download>sha256sum</a></p>
+            <!--<p><a href="{{ .checksum | absURL }}" class="btn btn-link btn-sm mt-2" download>sha256sum</a></p>-->
             {{ end }}
             {{ end }}
           </div>
@@ -179,7 +187,7 @@
             {{ if .button.enable }}
             {{ with .button }}
             <a href="{{ .link | absURL }}" class="btn btn-outline-primary text-uppercase">{{ .label }}</a>
-            <p><a href="{{ .checksum | absURL }}" class="btn btn-link btn-sm mt-2" download>sha256sum</a></p>
+            <!--<p><a href="{{ .checksum | absURL }}" class="btn btn-link btn-sm mt-2" download>sha256sum</a></p>-->
             {{ end }}
             {{ end }}
           </div>
