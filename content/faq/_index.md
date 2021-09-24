@@ -16,7 +16,7 @@ Anda dapat memberikan [donasi](../donasi) sesuai kualitas pelayanan kami. Asalka
 Anda bisa [berdonasi](../donasi) dengan munggunakan Scan QR Code Qris. Kami menggunakan layanan pihak [Qris ID](https://qris.id) dengan NMID ID1021067117882 dari InterActive untuk kemudahkan transfer donasi. Pengiriman donasi bisa melalui aplikasi E-Wallet seperti GOPay, OVO, Dana, LinkAja dan aplikasi Mobile Banking lainnya.
 {{</ faq >}}
 
-{{< faq "Apakah saya perlu donasi dahulu?" >}} Jika Anda menggunakan [edisi lite](../lite) maka Anda bisa mendapatkannya secara gratis. Sedangkan untuk LangitKetujuh OS Profesional dengan layanan instalasi secara penuh, Anda harus mendonasikan mulai dari +Rp107.000. Donasi dapat dikembalikan apabila pemasangan tidak berhasil atau kami salurkan donasi tersebut ke [lazismu.org](https://lazismu.org/) dan [smart171.org](https://smart171.org) untuk mengirimkan bantuan dan kebutuhan Yatim di Gaza. {{</ faq >}}
+{{< faq "Apakah saya perlu membeli dahulu?" >}} Jika Anda menggunakan [edisi lite](../lite) maka Anda bisa mendapatkannya secara gratis. Sedangkan untuk LangitKetujuh OS Profesional dengan layanan instalasi secara penuh, Anda harus membeli Rp107.000. Anda juga dapat mendonasikan jika ada rezeki lebih. pembelian dapat dikembalikan apabila pemasangan tidak berhasil atau kami salurkan langsung ke [lazismu.org](https://lazismu.org/) dan [smart171.org](https://smart171.org) untuk mengirimkan bantuan dan kebutuhan Yatim di Gaza. {{</ faq >}}
 
 
 {{< faq "Saya memerlukan bantuan tentang masalah teknis?" >}}

@@ -1,8 +1,8 @@
 ---
-title: "Donasi Yuk!"
+title: "Pembayaran"
 subtitle: ""
 # meta description
-description: "Dukung terus projek kami agar selalu bermanfaat yaa.."
+description: "Pembayaran projek LangitKetujuh OS.."
 image: media/beranda/thumbnail.jpg
 opengraph:
   image: media/beranda/thumbnail.jpg
@@ -16,10 +16,10 @@ call_to_action:
   button:
     enable : true
     label : "Kabari Kami"
-    link : "https://wa.me/6282131146131?text=Assalamu'alaikum%20LangitKetujuh.%0ASaya%20mau%20konfirmasi%20donasi%20atas%20nama:%20"
+    link : "https://wa.me/6282131146131?text=Assalamu'alaikum%20LangitKetujuh.%0ASaya%20mau%20konfirmasi%20pembayaran%20atas%20nama:%20"
 ---
 
 ### Motivasi kami yaitu berbagi dan memudahkan Anda untuk selalu berkarya.
 
-Pembelian dan pembayaran donasi bebas sesuai kemampuan dan ridho dari pengguna. Anda dapat memberikan donasi sesuai kualitas pelayanan kami, asalkan ikhlas, berkah dan tidak merugikan kedua belah pihak. Donasi yang diberikan sesuai kemampuan Anda dan tidak ada beban. Tentunya kami sebagai tim pengembang projek hanyalah mencari keberkahan dalam membuat produk sistem operasi ini.
+Pastikan pembelian ini sesuai kemampuan. Kakak juga dapat memberikan lebih sesuai kualitas pelayanan kami. Asalkan ikhlas, berkah dan tidak merugikan kedua belah pihak. Sebagai tim pengembang projek, kami hanyalah mencari keberkahan dalam membuat produk sistem operasi ini.
 Jazaakumullahu khairan katsiran. 🙏
