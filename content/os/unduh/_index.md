@@ -56,7 +56,7 @@ promusl:
   - Perangkat lunak desain grafis lengkap.
   button:
     enable: true
-    label: Donasi
+    label: Beli & Unduh
     link: "os/unduh/pro/x86_64-musl"
     checksum: https://al.quds.repo.langitketujuh.id/iso/langitketujuh-pro-x86_64-musl-20210616.iso.sha256
 proglibc:
@@ -70,7 +70,7 @@ proglibc:
   - Perangkat lunak desain grafis lengkap.
   button:
     enable: true
-    label: Donasi
+    label: Beli & Unduh
     link: "os/unduh/pro/x86_64"
     checksum: https://al.quds.repo.langitketujuh.id/iso/langitketujuh-pro-x86_64-20210616.iso.sha256
 proglibc32:
@@ -84,7 +84,7 @@ proglibc32:
   - Perangkat lunak desain grafis lengkap.
   button:
     enable: true
-    label: Donasi
+    label: Beli & Unduh
     link: "os/unduh/pro/i686"
     checksum: https://al.quds.repo.langitketujuh.id/iso/langitketujuh-pro-i686-20210616.iso.sha256
 
