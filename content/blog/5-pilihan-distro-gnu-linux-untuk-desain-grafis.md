@@ -52,7 +52,7 @@ Anda bisa memasang Fedora design suite dengan cara unduh pada tautan dibawah ini
 
 Ubuntu untuk saat ini masih menggunakan systemd, jadi bagi Anda yang memiliki RAM pas-pasan harus agak bersabar karena mengingat systemd belum seefisien runit init dalam hal penggunaan RAM.
 
-Anda bisa memasang Ubuntu studio dengan klik tautan dibawah ini.
+Anda bisa memasang Ubuntu Studio dengan klik tautan dibawah ini.
 
 [**>> Unduh Ubuntu studio**](https://ubuntustudio.org/download/)
 
