@@ -17,7 +17,7 @@ tag:
 - krita
 
 ---
-Ada beberapa cara untuk mempercepat rendering font, diantaranya dengan menonaktifkan bitmap font dan font yang jarang dipakai. 2 tips ini sudah cukup untuk mengoptimalkan font. Namun ada tips lain untuk menggunakan preview font di inkscape agar tidak lag. Yuk kita simak langkah-langkahnya.
+Ada beberapa cara untuk mempercepat rendering font, diantaranya dengan menonaktifkan bitmap font dan font yang jarang dipakai. Dua tips ini sudah cukup untuk mengoptimalkan font. Namun ada tips lain untuk menggunakan preview font di inkscape agar tidak lag. Yuk kita simak langkah-langkahnya.
 
 ### Menonaktifkan Bitmap Font
 
