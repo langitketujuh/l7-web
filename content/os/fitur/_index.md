@@ -45,7 +45,6 @@ HandBrake Media transkoder. | - | **√**
 Converseen konverter gambar. | - | **√**
 OpenToonz Animasi Raster 2D. | - | **√**
 Screenkey Screencast monitor. | - | **√**
-PulseEffects ekualiser audio. | - | **√**
 Produksi Audio dengan Ardour. | - | **√**
 Rawtherapee pengolah foto raw. | - | **√**
 Plugin GMIC Qt Gimp dan Krita. | - | **√**
