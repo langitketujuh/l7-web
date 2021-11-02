@@ -21,19 +21,32 @@ call_to_action:
 
 ---
 
-## Versi 20210921
+## 20210122 (Pengembangan)
 **Jadwal** | **Status** | **Tanggal**
 :--- | :---: | :---
-Development | Sudah | 30 Juni - 5 September 2021
-Uji Coba Tak Stabil | Sudah | 5 - 11 September 2021
-Uji Coba Stabil| Proses | 12 - 18 September 2021
-Upload Berkas ISO | Belum | 19 - 20 September 2021
-**Rilis** | Belum | **21 September 2021**
+Pengembangan | Proses | 22 September 2021 - 5 Januari 2022
+Uji coba tak stabil | Belum | 11 Desember 2021 - 11 Januari 2022
+Uji coba stabil| Belum | 12 - 18 Januari 2022
+Upload berkas iso | Belum | 19 - 20 Januari 2022
+**Rilis** | Belum | **21 Januari 2022**
 
 ### Catatan Rilis
-<!--**Fitur** | **Status** | **Catatan**
-:--- | :---: | :---:
-Dukungan instalasi oleh tenaga ahli. | - | **√**-->
+* Menambahkan paket grup `l7-pkg-compile`, `l7-pkg-compress`, `l7-pkg-wine`.
+* Peningkatan enkripsi signature 4096 repodata `al.quds.repo`.
+* Grup pengguna dikeluarkan dari grup `bluetooth` dan `_pipewire`.
+* (Development) Menambahkan `LMMS` Produksi suara.
+* (Development) Menambahkan Wallpaper baru.
+
+## 20210921 (Stabil)
+**Jadwal** | **Status** | **Tanggal**
+:--- | :---: | :---
+Pengembangan | Sudah | 30 Juni - 5 September 2021
+Uji coba tak stabil | Sudah | 5 - 11 September 2021
+Uji coba stabil| Sudah | 12 - 18 September 2021
+Upload berkas iso | Sudah | 19 - 20 September 2021
+**Rilis** | Sudah | **21 September 2021**
+
+### Catatan Rilis
 * Menggunakan kernel `linux5.13`.
 * Menggunakan KDE Plasma `5.22.5`.
 * Mengganti Wallpaper, Global tema, SDDM, Lockscreen, Animasi splash boot.
