@@ -41,6 +41,7 @@ Scribus Publisher. | - | **√**
 Krita digital painting. | - | **√**
 Digikam manajemen foto. | - | **√**
 Kdenlive pengolah video. | - | **√**
+LMMS Produksi suara efek. | - | **√**
 HandBrake Media transkoder. | - | **√**
 Converseen konverter gambar. | - | **√**
 OpenToonz Animasi Raster 2D. | - | **√**
@@ -52,18 +53,20 @@ Synfigstudio Animasi Vector 2D. | - | **√**
 Kalibrasi warna dengan DisplayCAL. | - | **√**
 OBS Perekam desktop dan streaming. | - | **√**
 Google Fonts untuk proyek komersil. | - | **√**
-Akses ISO terbaru [^1] | -  | **√**
+Akses ISO terbaru _[*1]_ | -  | **√**
 
-**Fitur** | **Musl** | **Glibc**
-:--- | :---: | :---:
-Dukungan Aplikasi Appimage | - | **√**
-Dukungan Aplikasi dan Driver Propietary [^2] | - | **√**
-Dukungan Wine windows [^3] | - | **√**
+**Fitur** | **x86_64-musl** | **x86_64** | **i686**
+:--- | :---: | :---: | :---:
+Dukungan Aplikasi Appimage _[*2]_ | - | **√** | **√**
+Dukungan Aplikasi dan Driver Propietary _[*3]_ | - | **√** | **√**
+Dukungan Wine windows _[*4]_ | **√** | **√** | **√** |
 
 *Catatan:*
 
-[^1] Akses ISO terbaru untuk [pengguna profesional](../pro/).
+[*1] Akses ISO terbaru untuk [pengguna profesional](../pro/).
 
-[^2] Aplikasi Nonfree seperti driver gpu Nvidia, Spotify, Steam, Skype, Printer Canon, Pycharm, Mendeley tidak mendukung musl (hanya tersedia di versi glibc saja). Tetapi aplikasi tidak bebas tersebut di edisi musl bisa dipasang melalui flatpak.
+[*2] Tergantung dari penyedia aplikasinya, tidak semua aplikasi AppImage menyediakan versi arsitektur 32bit (`i686`). Umumnya hanya mendukung 64bit (`x86_64`) saja.
 
-[^3] Musl hanya mendukung Wine windows 64 bit saja, sedangkan Glibc mendukung 32 dan 64 bit.
+[*3] Aplikasi tidak bebas (Nonfree) seperti driver gpu Nvidia, Spotify, Steam, Skype, Printer Canon, Pycharm, Mendeley tidak mendukung di arsitektur `x86_64-musl` dan hanya tersedia di versi `x86_64` saja. Namun di `x86_64-musl` aplikasi tidak bebas tersebut masih bisa dipasang melalui Flatpak.
+
+[*4] `x86_64-musl` hanya mendukung wine windows 64bit dan `i686` hanya mendukung 32bit. Sedangkan `x86_64` mendukung keduanya (32bit dan 64bit).
