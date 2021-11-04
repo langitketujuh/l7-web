@@ -21,7 +21,7 @@ call_to_action:
 
 ---
 
-**Fitur** | **Lite** | **Pro**
+Fitur | Lite | Pro
 :--- | :---: | :---:
 Dukungan instalasi oleh tenaga ahli. | - | **√**
 Libreoffice paket aplikasi perkantoran. | **√** | **√**
@@ -29,6 +29,7 @@ Dukungan codec Audio dan Video. | **√** | **√**
 KDE-Connect sinkron perangkat. | **√** | **√**
 Deteksi Printer HP dan Epson. | **√** | **√**
 V4l2loopback Virtual kamera. | **√** | **√**
+PipeWire Audio Server. | **√** | **√**
 Inkscape pengolah vektor. | **√** | **√**
 Gimp manipulasi foto. | **√** | **√**
 Audacity pengolah audio. | - | **√**
@@ -41,7 +42,7 @@ Scribus Publisher. | - | **√**
 Krita digital painting. | - | **√**
 Digikam manajemen foto. | - | **√**
 Kdenlive pengolah video. | - | **√**
-LMMS Produksi suara efek. | - | **√**
+LMMS produksi suara efek. | - | **√**
 HandBrake Media transkoder. | - | **√**
 Converseen konverter gambar. | - | **√**
 OpenToonz Animasi Raster 2D. | - | **√**
@@ -55,7 +56,7 @@ OBS Perekam desktop dan streaming. | - | **√**
 Google Fonts untuk proyek komersil. | - | **√**
 Akses ISO terbaru _[*1]_ | -  | **√**
 
-**Fitur** | **x86_64-musl** | **x86_64** | **i686**
+Fitur | x86_64-musl | x86_64 | i686
 :--- | :---: | :---: | :---:
 Dukungan Aplikasi Appimage _[*2]_ | - | **√** | **√**
 Dukungan Aplikasi dan Driver Propietary _[*3]_ | - | **√** | **√**
