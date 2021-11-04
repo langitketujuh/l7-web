@@ -64,6 +64,6 @@ Dukungan Wine windows [^3] | - | **√**
 
 [^1] Akses ISO terbaru untuk [pengguna profesional](../pro/).
 
-[^2] Aplikasi Nonfree seperti driver gpu Nvidia, Spotify, Steam, Skype, Printer Canon, Pycharm, Mendeley tidak mendukung musl (hanya tersedia di versi glibc saja). Tetapi aplikasi tersebut di edisi musl bisa dipasang melalui vpsm dan flatpak.
+[^2] Aplikasi Nonfree seperti driver gpu Nvidia, Spotify, Steam, Skype, Printer Canon, Pycharm, Mendeley tidak mendukung musl (hanya tersedia di versi glibc saja). Tetapi aplikasi tidak bebas tersebut di edisi musl bisa dipasang melalui flatpak.
 
 [^3] Musl hanya mendukung Wine windows 64 bit saja, sedangkan Glibc mendukung 32 dan 64 bit.
