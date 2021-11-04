@@ -31,11 +31,13 @@ Upload berkas iso | Belum | 19 - 20 Januari 2022
 **Rilis** | Belum | **21 Januari 2022**
 
 ### Catatan Rilis
-* Menambahkan paket grup `l7-pkg-compile l7-pkg-compress l7-pkg-wine`.
+* Menambahkan paket grup `l7-pkg-codec l7-pkg-compiler l7-pkg-compress l7-pkg-kde l7-pkg-kde-apps l7-pkg-rust l7-pkg-wine l7-pkg-xorg`.
+* Menambahkan vulkan `Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers libspa-vulkan mesa-vulkan-overlay-layer vkBasalt vkd3d amdvlk nv-codec-headers`.
+* Menambahkan compiler `automake bison fakeroot flex gdb libtool m4 patch pkg-config qemu-user-static scons yasm pkgconf gcc-objc++ xorgproto llvm clang icu cmake python3-pip`
 * Peningkatan enkripsi signature 4096 repodata `al.quds.repo`.
 * Grup pengguna dikeluarkan dari grup `bluetooth` dan `_pipewire`.
+* Menambahkan Audio Production edisi Profesional: `lmms freepats cmt alsa-plugins-jack zita-ajbridge zita-alsa-pcmi zita-at1 zita-njbridge zita-resampler alsa-plugins-samplerate calf fftw rubberband librubberband ladspa-bs2b speex speexdsp mda-lv2 soundfont-fluid`.
 * (Development) Menambahkan 3-5 Wallpaper baru.
-* (Development) Menambahkan Audio Production edisi Profesional: `Carla lmms freepats cmt alsa-plugins-jack zita-ajbridge zita-alsa-pcmi zita-at1 zita-njbridge zita-resampler alsa-plugins-samplerate calf fftw rubberband librubberband ladspa-bs2b speex speexdsp mda-lv2 soundfont-fluid`.
 
 ## 20210921 (Stabil)
 **Jadwal** | **Status** | **Tanggal**
