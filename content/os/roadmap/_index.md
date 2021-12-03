@@ -25,15 +25,19 @@ call_to_action:
 **Jadwal** | **Status** | **Tanggal**
 :--- | :---: | :---
 Pengembangan | Proses | 22 September 2021 - 5 Januari 2022
-Uji coba tak stabil | Belum | 11 Desember 2021 - 11 Januari 2022
+Uji coba tak stabil | Proses | 11 Desember 2021 - 11 Januari 2022
 Uji coba stabil| Belum | 12 - 18 Januari 2022
 Upload berkas iso | Belum | 19 - 20 Januari 2022
 **Rilis** | Belum | **21 Januari 2022**
 
 ### Catatan Rilis
-* Menambahkan paket grup `l7-pkg-codec l7-pkg-compiler l7-pkg-compress l7-pkg-kde l7-pkg-kde-apps l7-pkg-rust l7-pkg-wine l7-pkg-xorg`.
+* Menambahkan paket grup `l7-pkg-codec l7-pkg-compiler l7-pkg-compress l7-pkg-kde l7-pkg-kde-apps l7-pkg-rust l7-pkg-wine l7-pkg-xorg`
+* Menambahkan depedensi bluetooth untuk pipewire `bluez-alsa`.
+* Menambahkan font `liberation-fonts-ttf` dan `font-sil-scheherazade`
+* Menambahkan virtual keyboard display manager `qt5-virtualkeyboard`.
+* Menambahkan alter mkv `mkvtoolnix-gui`.
 * Menambahkan vulkan `Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers libspa-vulkan mesa-vulkan-overlay-layer vkBasalt vkd3d amdvlk nv-codec-headers`.
-* Menambahkan compiler `automake bison fakeroot flex gdb libtool m4 patch pkg-config qemu-user-static scons yasm pkgconf gcc-objc++ xorgproto llvm clang icu cmake python3-pip`
+* ~~Menambahkan compiler `automake bison fakeroot flex gdb libtool m4 patch pkg-config qemu-user-static scons yasm pkgconf gcc-objc++ xorgproto llvm clang icu cmake python3-pip`~~
 * Peningkatan enkripsi signature 4096 repodata `al.quds.repo`.
 * Grup pengguna dikeluarkan dari grup `bluetooth` dan `_pipewire`.
 * Menambahkan Audio Production edisi Profesional: `lmms freepats cmt alsa-plugins-jack zita-ajbridge zita-alsa-pcmi zita-at1 zita-njbridge zita-resampler alsa-plugins-samplerate calf fftw rubberband librubberband ladspa-bs2b speex speexdsp mda-lv2 soundfont-fluid`.
