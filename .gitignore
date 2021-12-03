@@ -11,3 +11,4 @@ yarn-error.log
 builds
 package-lock.json
 *.kate-swp
+*.lock
