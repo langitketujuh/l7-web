@@ -36,6 +36,7 @@ Upload berkas iso | Belum | 19 - 20 Januari 2022
 * Menambahkan font `liberation-fonts-ttf` dan `font-sil-scheherazade`
 * Menambahkan virtual keyboard display manager `qt5-virtualkeyboard`.
 * Menambahkan alter mkv `mkvtoolnix-gui`.
+* Menambahkan firmware `linux-firmware linux-firmware-qualcomm`.
 * Menambahkan vulkan `Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers libspa-vulkan mesa-vulkan-overlay-layer vkBasalt vkd3d amdvlk nv-codec-headers`.
 * ~~Menambahkan compiler `automake bison fakeroot flex gdb libtool m4 patch pkg-config qemu-user-static scons yasm pkgconf gcc-objc++ xorgproto llvm clang icu cmake python3-pip`~~
 * Peningkatan enkripsi signature 4096 repodata `al.quds.repo`.
