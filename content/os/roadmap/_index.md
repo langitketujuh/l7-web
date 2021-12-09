@@ -21,7 +21,7 @@ call_to_action:
 
 ---
 
-## 20210122 (Pengembangan)
+## 20210122 (dev)
 **Jadwal** | **Status** | **Tanggal**
 :--- | :---: | :---
 Pengembangan | Proses | 22 September 2021 - 5 Januari 2022
@@ -45,7 +45,7 @@ Upload berkas iso | Belum | 19 - 20 Januari 2022
 * (Development) Menambahkan 3-5 Wallpaper baru.
 * ~~Menambahkan compiler `automake bison fakeroot flex gdb libtool m4 patch pkg-config qemu-user-static scons yasm pkgconf gcc-objc++ xorgproto llvm clang icu cmake python3-pip`~~
 
-## 20210921 (Stabil)
+## 20210921 (stabil)
 **Jadwal** | **Status** | **Tanggal**
 :--- | :---: | :---
 Pengembangan | Sudah | 30 Juni - 5 September 2021
