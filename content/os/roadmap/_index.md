@@ -37,12 +37,13 @@ Upload berkas iso | Belum | 19 - 20 Januari 2022
 * Menambahkan virtual keyboard display manager `qt5-virtualkeyboard`.
 * Menambahkan alter mkv `mkvtoolnix-gui`.
 * Menambahkan firmware `linux-firmware linux-firmware-qualcomm`.
+* Menambahkan pen tablet driver `digimend-kernel-drivers`.
 * Menambahkan vulkan `Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers libspa-vulkan mesa-vulkan-overlay-layer vkBasalt vkd3d amdvlk nv-codec-headers`.
-* ~~Menambahkan compiler `automake bison fakeroot flex gdb libtool m4 patch pkg-config qemu-user-static scons yasm pkgconf gcc-objc++ xorgproto llvm clang icu cmake python3-pip`~~
 * Peningkatan enkripsi signature 4096 repodata `al.quds.repo`.
 * Grup pengguna dikeluarkan dari grup `bluetooth` dan `_pipewire`.
 * Menambahkan Audio Production edisi Profesional: `lmms freepats cmt alsa-plugins-jack zita-ajbridge zita-alsa-pcmi zita-at1 zita-njbridge zita-resampler alsa-plugins-samplerate calf fftw rubberband librubberband ladspa-bs2b speex speexdsp mda-lv2 soundfont-fluid`.
 * (Development) Menambahkan 3-5 Wallpaper baru.
+* ~~Menambahkan compiler `automake bison fakeroot flex gdb libtool m4 patch pkg-config qemu-user-static scons yasm pkgconf gcc-objc++ xorgproto llvm clang icu cmake python3-pip`~~
 
 ## 20210921 (Stabil)
 **Jadwal** | **Status** | **Tanggal**
