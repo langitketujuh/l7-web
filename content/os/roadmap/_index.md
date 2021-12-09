@@ -37,6 +37,7 @@ Upload berkas iso | Belum | 19 - 20 Januari 2022
 * Menambahkan pen tablet driver `digimend-kernel-drivers`.
 * Menambahkan depedensi bluetooth untuk pipewire `bluez-alsa`.
 * Peningkatan enkripsi signature 4096 repodata `al.quds.repo`.
+* Menambahkan pembuat enkripsi `gnupg2-scdaemon kgpg keepassxc`.
 * Menambahkan firmware `linux-firmware linux-firmware-qualcomm`.
 * Grup pengguna dikeluarkan dari grup `bluetooth` dan `_pipewire`.
 * Menambahkan font `liberation-fonts-ttf` dan `font-sil-scheherazade`.
