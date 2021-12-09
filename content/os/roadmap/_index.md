@@ -31,31 +31,31 @@ Upload berkas iso | Belum | 19 - 20 Januari 2022
 **Rilis** | Belum | **21 Januari 2022**
 
 ### Catatan Rilis
-* Menggunakan kernel `linux5.15.6`
-* Menggunakan KDE Plasma `5.23.4`
+* Menggunakan kernel `linux5.15.6`.
+* Menggunakan KDE Plasma `5.23.4`.
 * Menambahkan alter mkv `mkvtoolnix-gui`.
 * Menambahkan pen tablet driver `digimend-kernel-drivers`.
 * Menambahkan depedensi bluetooth untuk pipewire `bluez-alsa`.
-* Menambahkan wifi usb driver `rtl8812au-dkms rtl8822bu-dkms`.
 * Peningkatan enkripsi signature 4096 repodata `al.quds.repo`.
 * Menambahkan firmware `linux-firmware linux-firmware-qualcomm`.
 * Grup pengguna dikeluarkan dari grup `bluetooth` dan `_pipewire`.
-* Menambahkan font `liberation-fonts-ttf` dan `font-sil-scheherazade`
+* Menambahkan font `liberation-fonts-ttf` dan `font-sil-scheherazade`.
 * Menambahkan virtual keyboard display manager `qt5-virtualkeyboard`.
 * Menambahkan paket grup `l7-pkg-codec l7-pkg-compiler l7-pkg-compress l7-pkg-kde l7-pkg-kde-apps l7-pkg-rust l7-pkg-wine l7-pkg-xorg`.
 * Menambahkan vulkan `Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers libspa-vulkan mesa-vulkan-overlay-layer vkBasalt vkd3d amdvlk nv-codec-headers`.
 * Menambahkan Audio Production edisi Profesional: `lmms freepats cmt alsa-plugins-jack zita-ajbridge zita-alsa-pcmi zita-at1 zita-njbridge zita-resampler alsa-plugins-samplerate calf fftw rubberband librubberband ladspa-bs2b speex speexdsp mda-lv2 soundfont-fluid`.
 * Menambahkan 3-5 Wallpaper baru (proses).
-* ~~Menambahkan compiler `automake bison fakeroot flex gdb libtool m4 patch pkg-config qemu-user-static scons yasm pkgconf gcc-objc++ xorgproto llvm clang icu cmake python3-pip`~~
+* ~~Menambahkan wifi usb driver `rtl8812au-dkms rtl8822bu-dkms`.~~ (gagal dalam pemasangan modul DKMS)
+* ~~Menambahkan compiler `automake bison fakeroot flex gdb libtool m4 patch pkg-config qemu-user-static scons yasm pkgconf gcc-objc++ xorgproto llvm clang icu cmake python3-pip`.~~ (ukuran iso semakin membengkak ±6GiB)
 
 ## 20210921 (stabil)
 **Jadwal** | **Status** | **Tanggal**
 :--- | :---: | :---
-Pengembangan | Sudah | 30 Juni - 5 September 2021
-Uji coba tak stabil | Sudah | 5 - 11 September 2021
-Uji coba stabil| Sudah | 12 - 18 September 2021
-Upload berkas iso | Sudah | 19 - 20 September 2021
-**Rilis** | Sudah | **21 September 2021**
+Pengembangan | Selesai | 30 Juni - 5 September 2021
+Uji coba tak stabil | Selesai | 5 - 11 September 2021
+Uji coba stabil| Selesai | 12 - 18 September 2021
+Upload berkas iso | Selesai | 19 - 20 September 2021
+**Rilis** | Selesai | **21 September 2021**
 
 ### Catatan Rilis
 * Menggunakan kernel `linux5.13`.
@@ -100,10 +100,10 @@ Upload berkas iso | Sudah | 19 - 20 September 2021
 ## Versi 20210602
 **Jadwal** | **Status** | **Tanggal**
 :--- | :---: | :---
-Development | Sudah | 03 Maret - 15 Agustus 2021
-Uji Coba Tak Stabil | Sudah | 16 - 22 Agustus 2021
-Uji Coba Stabil| Sudah | 23 - 29 Agustus 2021
-Upload Berkas ISO | Sudah | 30 Agustus - 01 Juni 2021
+Development | Selesai | 03 Maret - 15 Agustus 2021
+Uji Coba Tak Stabil | Selesai | 16 - 22 Agustus 2021
+Uji Coba Stabil| Selesai | 23 - 29 Agustus 2021
+Upload Berkas ISO | Selesai | 30 Agustus - 01 Juni 2021
 **Rilis** | Sudah| **02 Juni 2021**
 
 ### Catatan Rilis
