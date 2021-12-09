@@ -98,11 +98,18 @@ parent = "os"
 weight = 2
 
 [[menu.main]]
+name = "RoadMap"
+identifier = "roadmap"
+URL = "os/roadmap"
+parent = "os"
+weight = 3
+
+[[menu.main]]
 name = "Panduan Memasang"
 URL = "https://panduan.langitketujuh.id"
 identifier = "panduan"
 parent = "os"
-weight = 3
+weight = 4
 
 # blog
 [[menu.main]]
