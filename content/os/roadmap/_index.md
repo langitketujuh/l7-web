@@ -33,18 +33,19 @@ Upload berkas iso | Belum | 19 - 20 Januari 2022
 ### Catatan Rilis
 * Menggunakan KDE Plasma `5.23.4`.
 * Menggunakan kernel `linux5.15.7`.
-* Menambahkan alter mkv `mkvtoolnix-gui`.
+* Mengganti `sudo` ke `doas` (OpenDoas). [_Panduan_](https://panduan.langitketujuh.id/aplikasi/opendoas.html).
+* Menambahkan alter mkv pro: `mkvtoolnix-gui`.
 * Peningkatan enkripsi signature 4096 repodata `al.quds.repo`.
 * Menambahkan pen tablet driver `digimend-kernel-drivers`.
 * Menambahkan depedensi bluetooth untuk pipewire `bluez-alsa`.
 * Grup pengguna dikeluarkan dari grup `bluetooth` dan `_pipewire`.
 * Menambahkan virtual keyboard display manager `qt5-virtualkeyboard`.
-* Menambahkan firmware `linux-firmware linux-firmware-qualcomm`.
 * Menambahkan font `liberation-fonts-ttf` dan `font-sil-scheherazade`.
+* Menambahkan dukungan firmware qualqomm`linux-firmware linux-firmware-qualcomm`.
 * Menambahkan pengamanan data dan enkripsi `gnupg2-scdaemon kgpg keepassxc l7-keepassxc`.
 * Menambahkan paket grup `l7-pkg-codec l7-pkg-compiler l7-pkg-compress l7-pkg-kde l7-pkg-kde-apps l7-pkg-rust l7-pkg-wine l7-pkg-xorg`.
-* Menambahkan vulkan `Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers libspa-vulkan mesa-vulkan-overlay-layer vkBasalt vkd3d amdvlk nv-codec-headers`.
-* Menambahkan Audio Production edisi Profesional `lmms freepats cmt alsa-plugins-jack zita-ajbridge zita-alsa-pcmi zita-at1 zita-njbridge zita-resampler alsa-plugins-samplerate calf fftw rubberband librubberband ladspa-bs2b speex speexdsp mda-lv2 soundfont-fluid`.
+* Menambahkan dukungan akselerasi grafis dengan vulkan: `Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers libspa-vulkan mesa-vulkan-overlay-layer vkBasalt vkd3d amdvlk nv-codec-headers`.
+* Menambahkan Audio Production edisi pro: `lmms freepats cmt alsa-plugins-jack zita-ajbridge zita-alsa-pcmi zita-at1 zita-njbridge zita-resampler alsa-plugins-samplerate calf fftw rubberband librubberband ladspa-bs2b speex speexdsp mda-lv2 soundfont-fluid`.
 * Menambahkan 3-5 Wallpaper baru (proses).
 * ~~Menambahkan wifi usb driver `rtl8812au-dkms rtl8822bu-dkms`.~~ (gagal dalam pemasangan modul DKMS)
 * ~~Menambahkan compiler `automake bison fakeroot flex gdb libtool m4 patch pkg-config qemu-user-static scons yasm pkgconf gcc-objc++ xorgproto llvm clang icu cmake python3-pip`.~~ (ukuran iso semakin membengkak ±6GiB)
