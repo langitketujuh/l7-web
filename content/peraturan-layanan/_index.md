@@ -17,13 +17,11 @@ Kami sebagai tim LangitKetujuh ID dan pemilik situs https://langitketujuh.id yan
 
 Pengguna merupakan individu/lembaga yang menggunakan dan/atau sudah memasang sistem operasi LangitKetujuh.
 
-### Perihal Donasi
+### Donasi, pembelian dan pengembalian
 
-Pengguna profesional dengan dukungan layanan memberikan donasi mulai dari Rp107.000,00 apabila pemasangan tidak berhasil, maka donasi bisa dikembalikan. Atau kami salurkan ke smart171.org dengan potongan sebesar Rp7000.
+Pengguna profesional dengan dukungan layanan memberikan pembelian mulai dari Rp107.000,00 apabila pemasangan tidak berhasil, maka bisa dikembalikan. Atau kami salurkan ke lazismu.org dengan potongan sebesar Rp7000.
 
-Pengguna profesional yang memberikan donasi mulai dari Rp57.000,00 apabila pemasangan tidak berhasil, maka donasi akan menjadi milik LangitKetujuh ID dan tidak bisa dikembalikan, namun donasi akan tetap diberikan dengan jumlah 20% dari total donasi.
-
-Donasi 20% dari total akan kami salurkan ke https://smart171.org untuk kebutuhan Yatim di Gaza.
+Pengguna profesional yang membeli mulai dari Rp57.000,00 apabila pemasangan tidak berhasil, maka uang akan menjadi milik LangitKetujuh ID dan tidak bisa dikembalikan, namun akan digabungkan ke donasi dan tetap diberikan dengan jumlah 20% dari total donasi. Donasi 20% dari total akan kami salurkan ke https://lazismu.org sebagai lembaga zakat nasional.
 
 ### Prioritas dan batasan pengguna
 
@@ -33,13 +31,14 @@ Donasi 20% dari total akan kami salurkan ke https://smart171.org untuk kebutuhan
   * Pengguna telah mengetahui musl dan setuju menggunakan bila memilihnya.
   * Pengguna telah mengetahui musl dan menggunakan nouveau driver sebagai alternatif kartu grafis NVIDIA. Pengguna setuju menggunakan bila memilihnya.
   * Pertanyaan yang diajukan oleh pengguna lite dan pro hanya untuk yang berhubungan dengan langitketujuh OS dan seputar desain grafis.
-  * Pengguna telah bersedia untuk memasang LangitKetujuh OS dengan single boot.
 
 ### Teknis layanan pemasangan sistem operasi
 
-  * Kami TIDAK menerima untuk pemasangan dual boot, triple boot, quarter boot, dan seterusnya.
+  * Kami hanya melayani untuk memasang LangitKetujuh OS, bukan memasang sistem operasi selain LangitKetujuh OS.
+  * Kami menerima pemasangan dual boot dan triple boot, tetapi kami tidak bertanggung jawab jika ada kelalaian atau kesalahan pengoperasian dalam sistem operasi selain LangitKetujuh.
   * Kami TIDAK menerima untuk mengembalikan OS terdahulu. Baik itu windows, osx, GNU/Linux, BSD, dan jenis OS lainnya.
   * Kami TIDAK bertanggung jawab atas kehilangan data dan sistem operasi terdahulu.
   * Kami hanya menerima instalasi untuk satu perangkat dengan **dua kali pemasangan saja**.
-  * Kami hanya melayani untuk memasang LangitKetujuh OS, bukan memasang sistem operasi selain LangitKetujuh OS.
-  * Kami hanya menggunakan partisi fat32 untuk partisi boot (`/boot` atau `/boot/efi`), xfs untuk sistem root (`/`) dan ext4 untuk partisi pengguna (`/home`).
+  * Kami hanya menggunakan partisi vfat untuk partisi boot (`/boot` atau `/boot/efi`), xfs/f2fs untuk sistem root (`/`) dan ext4/f2fs untuk partisi pengguna (`/home`).
+
+> Peraturan layanan ini bisa berubah-rubah tanpa ada pemberitahuan sebelumnya.
