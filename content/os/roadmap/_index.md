@@ -32,7 +32,7 @@ Upload berkas iso | Belum | 19 - 20 Januari 2022
 
 ### Catatan Rilis
 * Menggunakan KDE Plasma `5.23.4`.
-* Menggunakan kernel `linux5.15.7`.
+* Menggunakan kernel `linux5.15`.
 * Mengganti `sudo` ke `doas` (OpenDoas). [_Panduan_](https://panduan.langitketujuh.id/aplikasi/opendoas.html).
 * Menambahkan alter mkv pro: `mkvtoolnix-gui`.
 * Peningkatan enkripsi signature 4096 repodata `al.quds.repo`.
