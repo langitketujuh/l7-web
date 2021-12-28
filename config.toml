@@ -289,8 +289,8 @@ URL = "os/roadmap"
 weight = 4
 
 [[menu.dukungan]]
-name = "Berbagi Link"
-URL = "link"
+name = "Tautan Bio"
+URL = "https://link.langitketujuh.id"
 weight = 5
 
 # PARAMETER
