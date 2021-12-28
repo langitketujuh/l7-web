@@ -35,6 +35,7 @@ Upload berkas iso | Belum | 19 - 20 Januari 2022
 * Menggunakan kernel `linux5.15`.
 * Mengganti `sudo` ke `doas` (OpenDoas). [_Panduan_](https://panduan.langitketujuh.id/aplikasi/opendoas.html).
 * Menambahkan alter mkv pro: `mkvtoolnix-gui`.
+* Menambahkan pengambil warna `kcolorchooser`.
 * Menambahkan konfigurasi tambahan `l7-inkscape`.
 * Peningkatan enkripsi signature 4096 repodata `al.quds.repo`.
 * Menambahkan pen tablet driver `digimend-kernel-drivers`.
