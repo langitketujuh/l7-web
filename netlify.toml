@@ -71,6 +71,12 @@ HUGO_ENABLEGITINFO = "true"
   force = true
 
 [[redirects]]
+  from = "https://langitketujuh.id/link"
+  to = "https://link.langitketujuh.id"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/*"
   to = "/404/"
   status = 404
