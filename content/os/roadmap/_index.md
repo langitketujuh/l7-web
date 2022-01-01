@@ -35,19 +35,19 @@ Upload berkas iso | Belum | 19 - 20 Januari 2022
 * Menggunakan kernel `linux5.15`.
 * Mengganti `sudo` ke `doas` (OpenDoas). [_Panduan_](https://panduan.langitketujuh.id/aplikasi/opendoas.html).
 * Menambahkan alter mkv pro: `mkvtoolnix-gui`.
-* Menambahkan pengambil warna `kcolorchooser`.
+* Menambahkan pengambil warna: `kcolorchooser`.
 * Peningkatan enkripsi signature 4096 repodata `al.quds.repo`.
-* Menambahkan pen tablet driver `digimend-kernel-drivers`.
 * Menambahkan depedensi bluetooth untuk pipewire `bluez-alsa`.
 * Grup pengguna dikeluarkan dari grup `bluetooth` dan `_pipewire`.
-* Menambahkan Audio Production: `lmms freepats soundfont-fluid`.
-* Menambahkan konfigurasi tambahan `l7-inkscape l7-v4l2loopback`.
-* Menambahkan virtual keyboard display manager `qt5-virtualkeyboard`.
-* Menambahkan font `liberation-fonts-ttf` dan `font-sil-scheherazade`.
-* Menambahkan dukungan firmware qualqomm`linux-firmware linux-firmware-qualcomm`.
-* Menambahkan pengamanan data dan enkripsi `gnupg2-scdaemon kgpg keepassxc l7-keepassxc`.
-* Menambahkan perkakas baru `hddtemp ipmitool bind-utils tree freeipmi wmctrl lm_sensors`.
-* Menambahkan paket grup `l7-pkg-codec l7-pkg-compiler l7-pkg-compress l7-pkg-kde l7-pkg-kde-apps l7-pkg-rust l7-pkg-wine l7-pkg-xorg`.
+* Menambahkan pen tablet driver: `digimend-kernel-drivers`. [_Panduan_](https://panduan.langitketujuh.id/driver/pen-tablet.html).
+* Menambahkan konfigurasi tambahan: `l7-inkscape l7-v4l2loopback`.
+* Menambahkan virtual keyboard display manager: `qt5-virtualkeyboard`.
+* Menambahkan Audio Production pro: `lmms freepats soundfont-fluid`.
+* Menambahkan font baru: `liberation-fonts-ttf font-sil-scheherazade`.
+* Menambahkan dukungan firmware qualqomm: `linux-firmware linux-firmware-qualcomm`.
+* Menambahkan pengamanan data dan enkripsi: `gnupg2-scdaemon kgpg keepassxc l7-keepassxc`.
+* Menambahkan perkakas baru: `hddtemp ipmitool bind-utils tree freeipmi wmctrl lm_sensors`.
+* Menambahkan paket grup: `l7-pkg-codec l7-pkg-compiler l7-pkg-compress l7-pkg-kde l7-pkg-kde-apps l7-pkg-rust l7-pkg-wine l7-pkg-xorg`.
 * Menambahkan dukungan akselerasi grafis dengan vulkan: `Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers libspa-vulkan mesa-vulkan-overlay-layer vkBasalt vkd3d amdvlk nv-codec-headers`.
 * Menambahkan 3-5 Wallpaper baru (proses).
 
