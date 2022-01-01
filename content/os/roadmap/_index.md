@@ -46,6 +46,7 @@ Upload berkas iso | Belum | 19 - 20 Januari 2022
 * Menambahkan font `liberation-fonts-ttf` dan `font-sil-scheherazade`.
 * Menambahkan dukungan firmware qualqomm`linux-firmware linux-firmware-qualcomm`.
 * Menambahkan pengamanan data dan enkripsi `gnupg2-scdaemon kgpg keepassxc l7-keepassxc`.
+* Menambahkan perkakas baru `hddtemp ipmitool bind-utils tree freeipmi wmctrl lm_sensors`.
 * Menambahkan paket grup `l7-pkg-codec l7-pkg-compiler l7-pkg-compress l7-pkg-kde l7-pkg-kde-apps l7-pkg-rust l7-pkg-wine l7-pkg-xorg`.
 * Menambahkan dukungan akselerasi grafis dengan vulkan: `Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers libspa-vulkan mesa-vulkan-overlay-layer vkBasalt vkd3d amdvlk nv-codec-headers`.
 * Menambahkan 3-5 Wallpaper baru (proses).
