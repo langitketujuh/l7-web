@@ -14,7 +14,7 @@ if [ "$(id -u)" -ne 0 ]; then
 fi
 
 # download
-wget 'https://gitlab.com/langitketujuh/template/-/raw/master/srcpkgs/l7-export/files/l7-export' -O /usr/bin/l7-export ;
+wget 'https://gitlab.com/langitketujuh/l7-export/-/raw/main/l7-export' -O /usr/bin/l7-export ;
 
 # install
 chmod +x /usr/bin/l7-export

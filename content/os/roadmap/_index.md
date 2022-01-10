@@ -31,8 +31,8 @@ Upload berkas iso | Belum | 19 - 20 Januari 2022
 **Rilis** | Belum | **21 Januari 2022**
 
 ### Catatan Rilis
-* Menggunakan KDE Plasma `5.23.4`.
 * Menggunakan kernel `linux5.15`.
+* Menggunakan KDE Plasma `5.23.4`.
 * Mengganti `sudo` ke `doas` (OpenDoas). [_Panduan_](https://panduan.langitketujuh.id/aplikasi/opendoas.html).
 * Menambahkan alter mkv pro: `mkvtoolnix-gui`.
 * Menambahkan pengambil warna: `kcolorchooser`.
@@ -49,7 +49,9 @@ Upload berkas iso | Belum | 19 - 20 Januari 2022
 * Menambahkan perkakas baru: `hddtemp ipmitool bind-utils tree freeipmi wmctrl lm_sensors testdisk`.
 * Menambahkan paket grup: `l7-pkg-codec l7-pkg-compiler l7-pkg-compress l7-pkg-kde l7-pkg-kde-apps l7-pkg-rust l7-pkg-wine l7-pkg-xorg`.
 * Menambahkan dukungan akselerasi grafis dengan vulkan: `Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers libspa-vulkan mesa-vulkan-overlay-layer vkBasalt vkd3d amdvlk nv-codec-headers`.
-* Menambahkan 3-5 Wallpaper baru (proses).
+* Tersedia paket baru: `typecatcher pdfarranger inkscape-eps-export inkscape-generate-palette inkscape-inx-pathops inkscape-multicalendar inkscape-nextgenerator`.
+* [Pending] Menambahkan 3-5 Wallpaper baru.
+* [Pending] Inkscape 1.2+.
 
 ## 20210921 (stabil)
 **Jadwal** | **Status** | **Tanggal**
