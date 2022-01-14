@@ -14,7 +14,7 @@ if [ "$(id -u)" -ne 0 ]; then
 fi
 
 # download
-wget 'https://gitlab.com/langitketujuh/script/-/raw/master/l7-tools' -O /usr/bin/l7-tools ;
+wget 'https://gitlab.com/langitketujuh/l7-tools/-/raw/main/l7-tools' -O /usr/bin/l7-tools ;
 
 # install
 chmod +x /usr/bin/l7-tools
