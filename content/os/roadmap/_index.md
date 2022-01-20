@@ -24,11 +24,11 @@ call_to_action:
 ## 20220121 (dev)
 **Jadwal** | **Status** | **Tanggal**
 :--- | :---: | :---
-Pengembangan | Proses | 22 September 2021 - 5 Januari 2022
-Uji coba tak stabil | Proses | 11 Desember 2021 - 11 Januari 2022
-Uji coba stabil| Belum | 12 - 18 Januari 2022
-Upload berkas iso | Belum | 19 - 20 Januari 2022
-**Rilis** | Belum | **21 Januari 2022**
+Pengembangan | Sudah | 22 September 2021 - 20 Januari 2022
+Uji coba tak stabil | Sudah | 1 Januari - 20 Januari 2022
+Uji coba stabil| Belum | 20 - 28 Januari 2022
+Upload berkas iso | Belum | 29 - 30 Januari 2022
+**Rilis** | Belum | **31 Januari 2022**
 
 ### Catatan Rilis
 * Menggunakan kernel `linux5.15`.
@@ -38,7 +38,6 @@ Upload berkas iso | Belum | 19 - 20 Januari 2022
 * Menambahkan pengambil warna: `kcolorchooser`.
 * Peningkatan enkripsi signature 4096 repodata `al.quds.repo`.
 * Menambahkan depedensi bluetooth untuk pipewire `bluez-alsa`.
-* Grup pengguna dikeluarkan dari grup `bluetooth` dan `_pipewire`.
 * Menambahkan pen tablet driver: `digimend-kernel-drivers`. [_Panduan_](https://panduan.langitketujuh.id/driver/pen-tablet.html).
 * Menambahkan konfigurasi tambahan: `l7-inkscape l7-v4l2loopback`.
 * Menambahkan virtual keyboard display manager: `qt5-virtualkeyboard`.
@@ -50,6 +49,7 @@ Upload berkas iso | Belum | 19 - 20 Januari 2022
 * Menambahkan paket grup: `l7-pkg-codec l7-pkg-compiler l7-pkg-compress l7-pkg-kde l7-pkg-kde-apps l7-pkg-rust l7-pkg-wine l7-pkg-xorg`.
 * Menambahkan dukungan akselerasi grafis dengan vulkan: `Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers libspa-vulkan mesa-vulkan-overlay-layer vkBasalt vkd3d amdvlk nv-codec-headers`.
 * Tersedia paket baru: `typecatcher pdfarranger inkscape-generate-palette inkscape-inx-pathops inkscape-multicalendar inkscape-nextgenerator`.
+* Restrukturisasi panduan `l7-docs`.
 * [Pending] Menambahkan 3-5 Wallpaper baru.
 * [Pending] Inkscape 1.2+.
 
