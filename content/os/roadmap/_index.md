@@ -21,7 +21,7 @@ call_to_action:
 
 ---
 
-## 20220121 (dev)
+## 20220131 (dev)
 **Jadwal** | **Status** | **Tanggal**
 :--- | :---: | :---
 Pengembangan | Sudah | 22 September 2021 - 20 Januari 2022
