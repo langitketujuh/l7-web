@@ -19,7 +19,7 @@ litemusl:
     enable: true
     label: Unduh
     link: https://al.quds.repo.langitketujuh.id/iso/langitketujuh-lite-x86_64-musl-20210921.iso
-    checksum: https://al.quds.repo.langitketujuh.id/iso/langitketujuh-lite-x86_64-musl-20210921.iso.sha256
+    checksum: #
 liteglibc:
   name:
   type: Lite
@@ -31,7 +31,7 @@ liteglibc:
     enable: true
     label: Unduh
     link: https://al.quds.repo.langitketujuh.id/iso/langitketujuh-lite-x86_64-20210921.iso
-    checksum: https://al.quds.repo.langitketujuh.id/iso/langitketujuh-lite-x86_64-20210921.iso.sha256
+    checksum: #
 liteglibc32:
   name:
   type: Lite
@@ -43,11 +43,11 @@ liteglibc32:
     enable: true
     label: Unduh
     link: https://al.quds.repo.langitketujuh.id/iso/langitketujuh-lite-i686-20210921.iso
-    checksum: https://al.quds.repo.langitketujuh.id/iso/langitketujuh-lite-i686-20210921.iso.sha256
+    checksum: #
 
-promusl:
+studiomusl:
   name:
-  type: Pro
+  type: Studio
   type_ver:
   info: x86_64-musl
   services:
@@ -57,11 +57,11 @@ promusl:
   button:
     enable: true
     label: Beli & Unduh
-    link: "os/unduh/pro/x86_64-musl"
-    checksum: https://al.quds.repo.langitketujuh.id/iso/langitketujuh-pro-x86_64-musl-20210616.iso.sha256
-proglibc:
+    link: "os/unduh/studio/x86_64-musl"
+    checksum: #
+studioglibc:
   name:
-  type: Pro
+  type: Studio
   type_ver:
   info: x86_64
   services:
@@ -71,11 +71,11 @@ proglibc:
   button:
     enable: true
     label: Beli & Unduh
-    link: "os/unduh/pro/x86_64"
-    checksum: https://al.quds.repo.langitketujuh.id/iso/langitketujuh-pro-x86_64-20210616.iso.sha256
-proglibc32:
+    link: "os/unduh/studio/x86_64"
+    checksum: #
+studioglibc32:
   name:
-  type: Pro
+  type: Studio
   type_ver:
   info: i686
   services:
@@ -85,14 +85,14 @@ proglibc32:
   button:
     enable: true
     label: Beli & Unduh
-    link: "os/unduh/pro/i686"
-    checksum: https://al.quds.repo.langitketujuh.id/iso/langitketujuh-pro-i686-20210616.iso.sha256
+    link: "os/unduh/studio/i686"
+    checksum: #
 
 call_to_action:
   enable: true
   title: Dokumentasi
   image: media/beranda/footer-help.webp
-  content: Gunakanlah Ventoy sebagai pembuat USB bootable. Dan baca panduan ini agar Anda berhasil memasang LangitKetujuh OS versi Lite, atau Anda bisa menggunakan versi **PRO** untuk mendapatkan layanan instalasi.
+  content: Gunakanlah Ventoy sebagai pembuat USB bootable. Dan baca panduan ini agar Anda berhasil memasang LangitKetujuh OS versi Lite, atau Anda bisa menggunakan versi **Studio** untuk mendapatkan layanan instalasi.
   button:
     enable: true
     label: Panduan memasang

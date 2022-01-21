@@ -11,7 +11,7 @@ draft: false
 
 ## Start Menu
 
-Tampilan start menu dari LangitKetujuh PRO yang lengkap untuk kebutuhan desain.
+Tampilan start menu dari LangitKetujuh Edisi Studio yang lengkap untuk kebutuhan desain.
 
 {{< figure src=/media/cuplikan/start-menu-langitketujuh-id.webp alt="Start Menu LangitKetujuh OS">}}
 

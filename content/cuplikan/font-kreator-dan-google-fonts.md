@@ -13,7 +13,7 @@ draft: false
 
 FontForge adalah aplikasi gratis yang digunakan untuk membuat, mengedit, dan mengonversi berbagai format font. Mendukung format font populer, seperti font TrueType, Bitmap, dan PostScript.
 
-FontForge Editor tersedia untuk Windows, OS X, dan Linux. Tentunya di LangitKetujuh OS PRO, FontForge sudah terpasang otomatis.
+FontForge Editor tersedia untuk Windows, OS X, dan Linux. Tentunya di LangitKetujuh OS Edisi Studio, FontForge sudah terpasang otomatis.
 
 {{< figure src=/media/cuplikan/fontforge-langitketujuh-id-1.webp alt="FontForge LangitKetujuh OS">}}
 {{< figure src=/media/cuplikan/fontforge-langitketujuh-id-2.webp alt="FontForge LangitKetujuh OS">}}

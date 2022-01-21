@@ -1,6 +1,6 @@
 ---
 title: "Fitur OS"
-subtitle: Edisi Pro untuk kebutuhan profesional. Pilih sesuai kebutuhan!
+subtitle: Edisi Studio untuk kebutuhan profesional. Pilih sesuai kebutuhan!
 # meta description
 type: "os/fitur"
 description: "Perbandingan antara fitur lite dan pro. Lite untuk kebutuhan sederhana, sedangkan pro untuk kebutuhan profesional."
@@ -21,40 +21,40 @@ call_to_action:
 
 ---
 
-Fitur | Lite | Pro
+Fitur | Lite | Studio
 :--- | :---: | :---:
 Dukungan instalasi oleh tenaga ahli. | - | **√**
-Libreoffice paket aplikasi perkantoran. | **√** | **√**
-Dukungan codec Audio dan Video. | **√** | **√**
-KDE-Connect sinkron perangkat. | **√** | **√**
 Deteksi Printer HP dan Epson. | **√** | **√**
-V4l2loopback Virtual kamera. | **√** | **√**
-PipeWire Audio Server. | **√** | **√**
-Inkscape pengolah vektor. | **√** | **√**
+Dukungan codec Audio dan Video. | **√** | **√**
 Gimp manipulasi foto. | **√** | **√**
+Inkscape pengolah vektor. | **√** | **√**
+KDE-Connect sinkron perangkat. | **√** | **√**
+Libreoffice paket aplikasi perkantoran. | **√** | **√**
+PipeWire Audio Server. | **√** | **√**
+V4l2loopback Virtual kamera. | **√** | **√**
+Akses ISO terbaru _[*1]_ | -  | **√**
 Audacity pengolah audio. | - | **√**
-Fontforge pembuat font. | - | **√**
 Blender animasi 2D/3D. | - | **√**
+Converseen konverter gambar. | - | **√**
+Digikam manajemen foto. | - | **√**
+Fontforge pembuat font. | - | **√**
 Freecad 3D parametric. | - | **√**
 Godot pembuat game. | - | **√**
-LibreCAD 2D CAD. | - | **√**
-Scribus Publisher. | - | **√**
-Krita digital painting. | - | **√**
-Digikam manajemen foto. | - | **√**
-Kdenlive pengolah video. | - | **√**
-LMMS produksi suara efek. | - | **√**
+Google Fonts untuk proyek komersil. | - | **√**
 HandBrake Media transkoder. | - | **√**
-Converseen konverter gambar. | - | **√**
+Kalibrasi warna dengan DisplayCAL. | - | **√**
+Kdenlive pengolah video. | - | **√**
+Krita digital painting. | - | **√**
+LMMS produksi suara efek. | - | **√**
+LibreCAD 2D CAD. | - | **√**
+OBS Perekam desktop dan streaming. | - | **√**
 OpenToonz Animasi Raster 2D. | - | **√**
-Screenkey Screencast monitor. | - | **√**
+Plugin GMIC Qt Gimp dan Krita. | - | **√**
 Produksi Audio dengan Ardour. | - | **√**
 Rawtherapee pengolah foto raw. | - | **√**
-Plugin GMIC Qt Gimp dan Krita. | - | **√**
+Screenkey Screencast monitor. | - | **√**
+Scribus Publisher. | - | **√**
 Synfigstudio Animasi Vector 2D. | - | **√**
-Kalibrasi warna dengan DisplayCAL. | - | **√**
-OBS Perekam desktop dan streaming. | - | **√**
-Google Fonts untuk proyek komersil. | - | **√**
-Akses ISO terbaru _[*1]_ | -  | **√**
 
 Fitur | x86_64-musl | x86_64 | i686
 :--- | :---: | :---: | :---:
@@ -64,7 +64,7 @@ Dukungan Wine windows _[*4]_ | **√** | **√** | **√** |
 
 *Catatan:*
 
-[*1] Akses ISO terbaru untuk [pengguna profesional](../pro/).
+[*1] Akses ISO terbaru untuk [pengguna studio](../pro/).
 
 [*2] Tergantung dari penyedia aplikasinya, tidak semua aplikasi AppImage menyediakan versi arsitektur 32bit (`i686`). Umumnya hanya mendukung 64bit (`x86_64`) saja.
 

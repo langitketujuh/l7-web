@@ -2,7 +2,7 @@
 title: "Terima Kasih"
 subtitle: ""
 # meta description
-description: "Unduh PRO untuk kebutuhan profesional."
+description: "Unduh Edisi Studio untuk kebutuhan profesional."
 image: media/beranda/thumbnail.jpg
 opengraph:
   image: media/beranda/thumbnail.jpg

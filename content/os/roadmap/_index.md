@@ -33,6 +33,7 @@ Upload berkas iso | Belum | 29 - 30 Januari 2022
 ### Catatan Rilis
 * Menggunakan kernel `linux5.15`.
 * Menggunakan KDE Plasma `5.23.4`.
+* Nama edisi `Pro` menjadi `Studio`.
 * Mengganti `sudo` ke `doas` (OpenDoas). [_Panduan_](https://panduan.langitketujuh.id/aplikasi/opendoas.html).
 * Menambahkan alter mkv pro: `mkvtoolnix-gui`.
 * Menambahkan pengambil warna: `kcolorchooser`.

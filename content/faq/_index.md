@@ -24,7 +24,7 @@ Anda bisa menggunakan [Layanan LangitKetujuh OS](https://t.me/LangitKetujuh_bot)
 {{</ faq >}}
 
 {{< faq "Apakah ada dokumentasi dan bantuan instalasi?" >}}
-Dokumentasi langitketujuh yaitu [Panduan](https://panduan.langitketujuh.id/). Selengkapnya bisa mengunjungi [dokumentasi Voidlinux](https://docs.voidlinux.org/). Jika Anda mengunakan versi PRO, Anda dapat menghubungi tim [Layanan LangitKetujuh OS](https://t.me/LangitKetujuh_bot) untuk bantuan teknis.
+Dokumentasi langitketujuh yaitu [Panduan](https://panduan.langitketujuh.id/). Selengkapnya bisa mengunjungi [dokumentasi Voidlinux](https://docs.voidlinux.org/). Jika Anda mengunakan versi Edisi Studio, Anda dapat menghubungi tim [Layanan LangitKetujuh OS](https://t.me/LangitKetujuh_bot) untuk bantuan teknis.
 {{</ faq >}}
 
 {{< faq "Apakah musl tidak bisa menjalankan aplikasi Nonfree?" >}}
