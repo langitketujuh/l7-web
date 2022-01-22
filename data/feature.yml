@@ -10,18 +10,18 @@ feature_item:
     icon : "ti-dashboard"
     content : "Keamanan lebih baik dengan runit karena PID1 harus sederhana, minimalis, stabil dan bebas dari SystemD."
 
-  - name : "Xbps paket manajemen"
+  - name : "XBPS"
     icon : "ti-package"
     content : "Paket manajer yang ringan dan cepat. Serta dukungan perangkat lunak yang stabil dan terbarukan (Rilis bergulir)."
 
-  - name : "KDE Lingkungan Destop"
+  - name : "KDE Plasma"
     icon : "ti-desktop"
     content : "Lingkungan destop yang ringan, mudah, dan handal. Didukung dengan aplikasi KDE seperti Elisa dan KDE Connect."
 
-  - name : "Perlengkapan Desain (pro)"
+  - name : "Perlengkapan Desain"
     icon : "ti-palette"
-    content : "Perangkat lunak untuk ilustrasi, animasi, painting, fotografi, font dan game kreator. Google fonts sudah termasuk."
+    content : "Perangkat lunak untuk ilustrasi, animasi, fotografi, font dan game kreator. Google fonts sudah termasuk. (*studio)"
 
-  - name : "Dukungan instalasi (pro)"
+  - name : "Dukungan Instalasi"
     icon : "ti-headphone-alt"
-    content : "Anda akan dibantu untuk memasang OS hingga selesai oleh tenaga ahli. Hubungi kami melalui telegram atau surel."
+    content : "Layanan untuk memasang OS hingga selesai oleh tenaga ahli. Hubungi kami melalui telegram atau surel. (*studio)"
