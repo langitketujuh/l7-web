@@ -1,5 +1,5 @@
 ---
-title: Profesional
+title: Edisi Studio
 subtitle: ''
 description: Yuk unduh LangitKetujuh OS sekarang.
 image: media/beranda/thumbnail.jpg

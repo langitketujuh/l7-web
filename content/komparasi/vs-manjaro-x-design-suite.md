@@ -1,9 +1,9 @@
 ---
 title: "Komparasi Manjaro-X Design Suite"
 date: 2020-12-12T23:23:22+07:00
-image: media/komparasi/vs-manjaro-x-design-suite.webp
+image: media/komparasi/vs-manjaro-x-design-suite.png
 opengraph:
-  image: media/komparasi/vs-manjaro-x-design-suite.webp
+  image: media/komparasi/vs-manjaro-x-design-suite.png
 description: "Kelebihan dan kekurangan Manjaro-X Design Suite dengan LangitKetujuh Studio"
 author: "LangitKetujuh ID"
 draft: false

@@ -1,9 +1,9 @@
 ---
 title: "Komparasi Ubuntu Studio"
 date: 2020-12-12T23:23:22+07:00
-image: media/komparasi/vs-ubuntu-studio.webp
+image: media/komparasi/vs-ubuntu-studio.png
 opengraph:
-  image: media/komparasi/vs-ubuntu-studio.webp
+  image: media/komparasi/vs-ubuntu-studio.png
 description: "Kelebihan dan kekurangan Ubuntu Studio dengan LangitKetujuh Studio."
 author: "LangitKetujuh ID"
 draft: false

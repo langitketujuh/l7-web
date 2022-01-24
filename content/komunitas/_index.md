@@ -60,7 +60,7 @@ Sebagai anggota tidak diperkenankan untuk mengirim promosi, seperti promosi acar
 Komunitas ini dibuat agar pembahasan sesuai dengan wadahnya, namun jika yang dibahas keluar dari topik disarankan tidak memposting atau membahasnya. Keluar dari topik yaitu apapun bahasan diluar LangitKetujuh OS dan Desain grafis.
 
 ### Instalasi.
-Jika Anda membutuhkan jasa instalasi dikarenakan gagal atau belum pernah menggunakan distro linux sebelumnya, maka sebaiknya menggunakan edisi Profesional agar kami tim LangitKetujuh bisa membantu instalasi secara remote (online jarak jauh).
+Jika Anda membutuhkan jasa instalasi dikarenakan gagal atau belum pernah menggunakan distro linux sebelumnya, maka sebaiknya menggunakan edisi Studio agar kami tim LangitKetujuh bisa membantu instalasi secara remote (online jarak jauh).
 
 ### Pelanggaran berkomunitas.
 Jika ada yang melanggar panduan berkomunitas seperti melakukan perundungan dan memicu perpecahan, maka Admin/moderator akan menghapus akses berkomentar dan mengeluarkan dari komunitas. Admin berhak menghapus postingan yang dirasa tidak layak ataupun menyalahi peraturan.
