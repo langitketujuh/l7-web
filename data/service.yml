@@ -21,7 +21,7 @@ service_item:
   - title : "Font kreator dan Google Fonts"
     images:
     - "media/beranda/service-font-maker.webp"
-    content : "Lebih dari 1200+ font dari Google Fonts (pro) sudah terpasang dan dapat digunakan untuk keperluan ilustrasi, branding, projek desain UI secara bebas. Serta terdapat FontForge untuk membuat font dengan berbagai typeface."
+    content : "Lebih dari 1200+ font dari Google Fonts (studio) sudah terpasang dan dapat digunakan untuk keperluan ilustrasi, branding, projek desain UI secara bebas. Serta terdapat FontForge untuk membuat font dengan berbagai typeface."
     button:
       enable : true
       label : "Lebih detail"

@@ -64,7 +64,7 @@ Dukungan Wine windows _[*4]_ | **√** | **√** | **√** |
 
 *Catatan:*
 
-[*1] Akses ISO terbaru untuk [pengguna studio](../pro/).
+[*1] Akses ISO terbaru untuk [pengguna studio](../studio/).
 
 [*2] Tergantung dari penyedia aplikasinya, tidak semua aplikasi AppImage menyediakan versi arsitektur 32bit (`i686`). Umumnya hanya mendukung 64bit (`x86_64`) saja.
 

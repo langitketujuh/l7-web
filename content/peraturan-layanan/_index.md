@@ -25,7 +25,7 @@ Pengguna profesional yang membeli mulai dari Rp57.000,00 apabila pemasangan tida
 
 ### Prioritas dan batasan pengguna
 
-  * Pengguna pro yang telah berdonasi memiliki prioritas utama.
+  * Pengguna studio yang telah berdonasi memiliki prioritas utama.
   * Pengguna telah mengetahui kebutuhan perangkat lunak baik secara personal atau perusahaan.
   * Pengguna telah mengetahui glibc dan setuju menggunakan bila memilihnya.
   * Pengguna telah mengetahui musl dan setuju menggunakan bila memilihnya.

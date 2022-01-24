@@ -76,7 +76,7 @@ LangitKetujuh juga sudah memasangkan font dari google yang sudah bisa digunakan 
 
 Pemakaian RAM yang efisien pun dipikirkan oleh Mas Hervy sehingga distro ini menggunakan runit init ketimbang systemd. Agar desainer grafis tidak direpotkan dengan upgrade OS, maka LangitKetujuh memilih rolling release ketimbang point release agar saat upgrade tidak perlu penyesuaian lagi.
 
-Tampilan LangitKetujuh pun disesuaikan sedemikian rupa dengan lingkugan desktop KDE Plasma sehingga memudahkan Anda yang ingin migrasi dari Windows. Anda bisa segera memasang LangitKetujuh versi lite atau pro (sekaligus dibantu untuk memasangkan sistem operasi via remote oleh Tim LangitKetujuh) dengan klik tautan dibawah ini.
+Tampilan LangitKetujuh pun disesuaikan sedemikian rupa dengan lingkugan desktop KDE Plasma sehingga memudahkan Anda yang ingin migrasi dari Windows. Anda bisa segera memasang LangitKetujuh versi lite atau studio (sekaligus dibantu untuk memasangkan sistem operasi via remote oleh Tim LangitKetujuh) dengan klik tautan dibawah ini.
 
 [**>> Unduh LangitKetujuh**](https://langitketujuh.id/unduh/)
 
