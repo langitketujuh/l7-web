@@ -23,9 +23,9 @@ call_to_action:
 
 | Fitur                                   | Lite  | Studio |
 | :-------------------------------------- | :---: | :----: |
+| Dukungan instalasi oleh tenaga ahli.    |   -   | **√**  |
 | Deteksi Printer HP dan Epson.           | **√** | **√**  |
 | Dukungan codec Audio dan Video.         | **√** | **√**  |
-| Dukungan instalasi oleh tenaga ahli.    |   -   | **√**  |
 | Gimp manipulasi foto.                   | **√** | **√**  |
 | Inkscape pengolah vektor.               | **√** | **√**  |
 | KDE-Connect sinkron perangkat.          | **√** | **√**  |
