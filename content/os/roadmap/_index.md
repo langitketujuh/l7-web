@@ -22,13 +22,13 @@ call_to_action:
 ---
 
 ## 20220131 (dev)
-**Jadwal** | **Status** | **Tanggal**
-:--- | :---: | :---
-Pengembangan | Sudah | 22 September 2021 - 20 Januari 2022
-Uji coba tak stabil | Sudah | 1 Januari - 20 Januari 2022
-Uji coba stabil| Belum | 20 - 28 Januari 2022
-Upload berkas iso | Belum | 29 - 30 Januari 2022
-**Rilis** | Belum | **31 Januari 2022**
+| **Jadwal**          | **Status** | **Tanggal**                         |
+| :------------------ | :--------: | :---------------------------------- |
+| Pengembangan        |   Sudah    | 22 September 2021 - 20 Januari 2022 |
+| Uji coba tak stabil |   Sudah    | 1 Januari - 20 Januari 2022         |
+| Uji coba stabil     |   Belum    | 20 - 28 Januari 2022                |
+| Upload berkas iso   |   Belum    | 29 - 30 Januari 2022                |
+| **Rilis**           |   Belum    | **31 Januari 2022**                 |
 
 ### Catatan Rilis
 * Menggunakan kernel `linux5.15`.
@@ -55,13 +55,13 @@ Upload berkas iso | Belum | 29 - 30 Januari 2022
 * [Pending] Inkscape 1.2+.
 
 ## 20210921 (stabil)
-**Jadwal** | **Status** | **Tanggal**
-:--- | :---: | :---
-Pengembangan | Selesai | 30 Juni - 5 September 2021
-Uji coba tak stabil | Selesai | 5 - 11 September 2021
-Uji coba stabil| Selesai | 12 - 18 September 2021
-Upload berkas iso | Selesai | 19 - 20 September 2021
-**Rilis** | Selesai | **21 September 2021**
+| **Jadwal**          | **Status** | **Tanggal**                |
+| :------------------ | :--------: | :------------------------- |
+| Pengembangan        |  Selesai   | 30 Juni - 5 September 2021 |
+| Uji coba tak stabil |  Selesai   | 5 - 11 September 2021      |
+| Uji coba stabil     |  Selesai   | 12 - 18 September 2021     |
+| Upload berkas iso   |  Selesai   | 19 - 20 September 2021     |
+| **Rilis**           |  Selesai   | **21 September 2021**      |
 
 ### Catatan Rilis
 * Menggunakan kernel `linux5.13`.
@@ -104,13 +104,13 @@ Upload berkas iso | Selesai | 19 - 20 September 2021
 * Web: Rebranding warna palet dan logo favicon.
 
 ## Versi 20210602
-**Jadwal** | **Status** | **Tanggal**
-:--- | :---: | :---
-Development | Selesai | 03 Maret - 15 Agustus 2021
-Uji Coba Tak Stabil | Selesai | 16 - 22 Agustus 2021
-Uji Coba Stabil| Selesai | 23 - 29 Agustus 2021
-Upload Berkas ISO | Selesai | 30 Agustus - 01 Juni 2021
-**Rilis** | Sudah| **02 Juni 2021**
+| **Jadwal**          | **Status** | **Tanggal**                |
+| :------------------ | :--------: | :------------------------- |
+| Development         |  Selesai   | 03 Maret - 15 Agustus 2021 |
+| Uji Coba Tak Stabil |  Selesai   | 16 - 22 Agustus 2021       |
+| Uji Coba Stabil     |  Selesai   | 23 - 29 Agustus 2021       |
+| Upload Berkas ISO   |  Selesai   | 30 Agustus - 01 Juni 2021  |
+| **Rilis**           |   Sudah    | **02 Juni 2021**           |
 
 ### Catatan Rilis
 
