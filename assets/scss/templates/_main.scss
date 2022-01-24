@@ -464,6 +464,7 @@ a.post-title {
   .pagination {
     .page-item {
       .page-link {
+        background: $dark;
         color: $text-color-dark;
 
         &:hover {
