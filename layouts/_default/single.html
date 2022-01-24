@@ -10,7 +10,9 @@
         <div class="mb-5 mt-4">
           <h2>{{ .Title | markdownify }}</h2>
         </div>
-        <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100 rounded mb-5">
+        <div class="mb-5 mt-4">
+          <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100 rounded mb-5">
+        </div>
         <div class="content">{{.Content}}</div>
         <!-- comments -->
         {{ if site.DisqusShortname }}

@@ -16,23 +16,5 @@ Fitur Multi Platform dapat mengeksport ke beberapa platform desktop seperti Wind
 
 {{< figure src=/media/cuplikan/godot-langitketujuh-id-1.webp alt="Godot LangitKetujuh OS">}}
 {{< figure src=/media/cuplikan/godot-langitketujuh-id-2.webp alt="Godot LangitKetujuh OS">}}
-
-## Godot 2D Demo
-
-Cuplikan salah satu demo 2D scenes dari Godot.
-
 {{< figure src=/media/cuplikan/godot-langitketujuh-id-3.webp alt="Godot LangitKetujuh OS">}}
 {{< figure src=/media/cuplikan/godot-langitketujuh-id-4.webp alt="Godot LangitKetujuh OS">}}
-{{< figure src=/media/cuplikan/godot-langitketujuh-id-5.webp alt="Godot LangitKetujuh OS">}}
-
-## Godot 3D Third Person Shooter Demo
-
-Dengan Godot juga mampu membuat game 3D yang detail.
-
-{{< figure src=/media/cuplikan/godot-langitketujuh-id-6.webp alt="Godot LangitKetujuh OS">}}
-{{< figure src=/media/cuplikan/godot-langitketujuh-id-7.webp alt="Godot LangitKetujuh OS">}}
-{{< figure src=/media/cuplikan/godot-langitketujuh-id-8.webp alt="Godot LangitKetujuh OS">}}
-{{< figure src=/media/cuplikan/godot-langitketujuh-id-9.webp alt="Godot LangitKetujuh OS">}}
-{{< figure src=/media/cuplikan/godot-langitketujuh-id-10.webp alt="Godot LangitKetujuh OS">}}
-{{< figure src=/media/cuplikan/godot-langitketujuh-id-11.webp alt="Godot LangitKetujuh OS">}}
-{{< figure src=/media/cuplikan/godot-langitketujuh-id-12.webp alt="Godot LangitKetujuh OS">}}

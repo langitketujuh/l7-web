@@ -9,7 +9,7 @@ author: "LangitKetujuh ID"
 draft: false
 ---
 
-## Inkscape (Vektor editor)
+## Inkscape
 
 Inkscape merupakan perangkat lunak pengolah vektor, digunakan untuk membuat logo, ilustrasi, pattern dan lain-lain.
 
@@ -17,15 +17,14 @@ Inkscape merupakan perangkat lunak pengolah vektor, digunakan untuk membuat logo
 
 {{< figure src=/media/cuplikan/inkscape-langitketujuh-id-2.webp alt="Inkscape Workspace LangitKetujuh OS">}}
 
-## Krita (Lukis digital)
+## Krita
 
 Krita adalah perangkat lunak bebas dan sumber terbuka untuk editor grafis raster, yang dirancang terutama untuk menggambar, melukis dan animasi.
 
 {{< figure src=/media/cuplikan/krita-langitketujuh-id-1.webp alt="Krita LangitKetujuh OS">}}
 {{< figure src=/media/cuplikan/krita-langitketujuh-id-2.webp alt="Krita LangitKetujuh OS">}}
-{{< figure src=/media/cuplikan/krita-langitketujuh-id-3.webp alt="Krita LangitKetujuh OS">}}
 
-## Gimp (Manipulasi Foto)
+## Gimp
 
 Gimp sebagai raster foto editor, pembuat kover buku dan majalah.
 
@@ -33,14 +32,8 @@ Gimp sebagai raster foto editor, pembuat kover buku dan majalah.
 {{< figure src=/media/cuplikan/gimp-langitketujuh-id-1.webp alt="Gimp LangitKetujuh OS">}}
 {{< figure src=/media/cuplikan/gimp-langitketujuh-id-2.webp alt="Gimp LangitKetujuh OS">}}
 
-## GMIC QT (Plugin Gimp dan Krita)
+## GMIC QT
 
 GMIC merupakan plugin tambahan untuk memberikan efek pada foto. GMIC plugin juga tersedia untuk gimp dan krita.
 
-Tampilan GMIC Gimp:
-
-{{< figure src=/media/cuplikan/gmic-gimp-langitketujuh-id.webp alt="GMIC Gimp LangitKetujuh OS">}}
-
-Tampilan GMIC Krita:
-
-{{< figure src=/media/cuplikan/gmic-krita-langitketujuh-id.webp alt="GMIC Krita LangitKetujuh OS">}}
+{{< figure src=/media/cuplikan/gmic-langitketujuh-id.webp alt="GMIC Krita LangitKetujuh OS">}}

@@ -216,13 +216,6 @@ URL = "cuplikan/perlengkapan-perkantoran"
 parent = "cuplikan"
 weight = 9
 
-[[menu.main]]
-name = "Produktifitas Dasar"
-identifier = "produktifitas-dasar"
-URL = "cuplikan/produktifitas-dasar"
-parent = "cuplikan"
-weight = 10
-
 # kabari
 [[menu.main]]
 name = "Kabari"

@@ -9,37 +9,27 @@ author: "LangitKetujuh ID"
 draft: false
 ---
 
-## Kdenlive (Video editor)
+## Kdenlive
 
 Kdenlive merupakan salah satu pengolah video terbaik berbasis GNU/linux. Kdenlive didukung oleh KDE dengan fitur yang melimpah.
 
 {{< figure src=/media/cuplikan/kdenlive-langitketujuh-id-1.webp alt="Kdenlive LangitKetujuh OS">}}
 {{< figure src=/media/cuplikan/kdenlive-langitketujuh-id-2.webp alt="Kdenlive LangitKetujuh OS">}}
 
-## Audacity (Audio Editor)
+## Audacity
 
 Audacity merupakan salah satu aplikasi pemberi efek suara, mengoreksi berkas suara tertentu, atau sekedar menambahkan berbagai efek yang disediakan.
 
 {{< figure src=/media/cuplikan/audacity-langitketujuh-id-1.webp alt="Audacity LangitKetujuh OS">}}
-{{< figure src=/media/cuplikan/audacity-langitketujuh-id-2.webp alt="Audacity LangitKetujuh OS">}}
 
-## Ardour (DAW)
+## Ardour
 
 {{< figure src=/media/cuplikan/ardour-langitketujuh-id-1.webp alt="Ardour LangitKetujuh OS">}}
-{{< figure src=/media/cuplikan/ardour-langitketujuh-id-2.webp alt="Ardour LangitKetujuh OS">}}
-{{< figure src=/media/cuplikan/ardour-langitketujuh-id-3.webp alt="Ardour LangitKetujuh OS">}}
 
-## OBS Studio (Perekam Profesional)
+## OBS Studio
 
 {{< figure src=/media/cuplikan/obs-recorder-langitketujuh-id-1.webp alt="OBS Studio LangitKetujuh OS">}}
-{{< figure src=/media/cuplikan/obs-recorder-langitketujuh-id-2.webp alt="OBS Studio LangitKetujuh OS">}}
 
-## Simple Screen Recorder (Perekam Sederhana)
+## Simple Screen Recorder
 
 {{< figure src=/media/cuplikan/simplescreenrecorder-langitketujuh-id-1.webp alt="Simplescreenrecorder LangitKetujuh OS">}}
-
-## SoundKonverter (Konversi Audio)
-
-{{< figure src=/media/cuplikan/soundkonverter-langitketujuh-id-1.webp alt="SoundKonverter LangitKetujuh OS">}}
-{{< figure src=/media/cuplikan/soundkonverter-langitketujuh-id-2.webp alt="SoundKonverter LangitKetujuh OS">}}
-{{< figure src=/media/cuplikan/soundkonverter-langitketujuh-id-3.webp alt="SoundKonverter LangitKetujuh OS">}}

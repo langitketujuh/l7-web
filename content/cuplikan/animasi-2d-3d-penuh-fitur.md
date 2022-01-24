@@ -9,20 +9,21 @@ author: "LangitKetujuh ID"
 draft: false
 ---
 
-## Blender (Animasi 3D)
+## Blender
 
 Blender 3D sebagai perangkat lunak animasi 3D dan 2D.
 
 {{< figure src=/media/cuplikan/blender-3d-langitketujuh-id-1.webp alt="Blender 3D LangitKetujuh OS">}}
+{{< figure src=/media/cuplikan/blender-3d-langitketujuh-id-2.webp alt="Blender 3D LangitKetujuh OS">}}
 
-## Synfigstudio (Animasi 2D vektor dan raster)
+## Synfigstudio
 
 SynfigStudio merupakan pembuat animasi dari vektor dan bitmap, tanpa membuat animasi frame by frame.
 
 {{< figure src=/media/cuplikan/synfigstudio-langitketujuh-id-1.webp alt="Synfigstudio LangitKetujuh OS">}}
 {{< figure src=/media/cuplikan/synfigstudio-langitketujuh-id-2.webp alt="Synfigstudio LangitKetujuh OS">}}
 
-## Opentoonz (Animasi 2D Raster)
+## Opentoonz
 
 {{< figure src=/media/cuplikan/opentoonz-langitketujuh-id-1.webp alt="Opentoonz LangitKetujuh OS">}}
 {{< figure src=/media/cuplikan/opentoonz-langitketujuh-id-2.webp alt="Opentoonz LangitKetujuh OS">}}

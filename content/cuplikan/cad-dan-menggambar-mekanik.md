@@ -17,7 +17,6 @@ Aplikasi FreeCAD biasanya digunakan oleh desainer produk dan teknik mesin yang m
 
 {{< figure src=/media/cuplikan/freecad-langitketujuh-id-1.webp alt="FreeCAD LangitKetujuh OS">}}
 {{< figure src=/media/cuplikan/freecad-langitketujuh-id-2.webp alt="FreeCAD LangitKetujuh OS">}}
-{{< figure src=/media/cuplikan/freecad-langitketujuh-id-3.webp alt="FreeCAD LangitKetujuh OS">}}
 
 ## LibreCAD
 
