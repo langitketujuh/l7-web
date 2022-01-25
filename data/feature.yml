@@ -2,21 +2,33 @@ enable : true
 title : "Handal dan Terbaru"
 feature_item:
 
+  - name : "XBPS"
+    icon : "ti-package"
+    content : "Paket manajer yang ringan dan cepat. Serta dukungan perangkat lunak yang stabil dan terbarukan (Rilis bergulir)."
+
   - name : "Musl libc"
     icon : "ti-bolt"
-    content : "Libc modern yang mengutamakan efisiensi sumber daya. Render audio/video dan kompil semakin cepat."
+    content : "Pustaka C modern yang mengutamakan efisiensi sumber daya. Proses render dan kompilasi semakin cepat."
 
   - name : "Runit init"
     icon : "ti-dashboard"
     content : "Keamanan lebih baik dengan runit karena PID1 harus sederhana, minimalis, stabil dan bebas dari SystemD."
 
-  - name : "XBPS"
-    icon : "ti-package"
-    content : "Paket manajer yang ringan dan cepat. Serta dukungan perangkat lunak yang stabil dan terbarukan (Rilis bergulir)."
-
   - name : "KDE Plasma"
     icon : "ti-desktop"
     content : "Lingkungan destop yang ringan, mudah, dan handal. Didukung dengan aplikasi KDE seperti Elisa dan KDE Connect."
+
+  - name : "Vulkan API"
+    icon : "ti-infinite"
+    content : "Vulkan menarketkan performa tinggi untuk 3D grafis dengan penggunaan CPU dan GPU yang lebih seimbang."
+
+  - name : "Pipewire"
+    icon : "ti-headphone"
+    content : "Pemutaran multimedia dengan minimal latensi dan dukungan aplikasi berbasis PulseAudio, JACK, ALSA dan GStreamer."
+
+  - name : "ZRAM"
+    icon : "ti-pulse"
+    content : "RAM virtual terkompresi dengan tingkat I/O disk yang rendah dan penambahan ruang memori 25% lebih dari RAM fisik."
 
   - name : "Perlengkapan Desain"
     icon : "ti-palette"

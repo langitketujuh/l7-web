@@ -3,7 +3,7 @@ service_item:
   - title : "Ilustrasi dan lukis digital"
     images:
     - "media/beranda/service-illustration.webp"
-    content : "LangitKetujuh OS terdapat aplikasi aplikasi Inkscape untuk pengolah vektor, GIMP pengolah raster dan Krita untuk lukis digital. Selain itu terdapat plugin GMIC sebagai framework pemroses gambar."
+    content : "LangitKetujuh OS terdapat aplikasi Inkscape untuk pengolah vektor, GIMP pengolah raster dan Krita untuk lukis digital. Selain itu terdapat plugin GMIC-QT sebagai framework pemroses gambar."
     button:
       enable : true
       label : "Lebih detail"
@@ -81,6 +81,8 @@ service_item:
       label : "Lebih detail"
       link : "cuplikan/perlengkapan-perkantoran"
 
+  #----------------------------------------------------------
+
   #- title : "KDE Plasma lingkungan desktop"
     #images:
     #- "media/beranda/service-game-maker.webp"
@@ -89,8 +91,6 @@ service_item:
       #enable : false
       #label : "Fitur lebih lanjut"
       #link : "fitur"
-
-  #----------------------------------------------------------
 
   #- title : "Dukungan performa lebih baik dengan runit init"
     #images:
