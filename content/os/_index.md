@@ -14,5 +14,4 @@ call_to_action:
     enable: true
     label: "Kabari Kami"
     link: "https://wa.me/6282131146131?text=Assalamu'alaikum%20LangitKetujuh.%0A"
-
 ---

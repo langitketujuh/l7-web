@@ -1,5 +1,5 @@
 ---
-title: Unduh
+title: Unduh Iso
 subtitle: 'Penuhi kebutuhan desainmu dengan LangitKetujuh OS. Total unduhan sudah 5k lebih. Yuk coba!'
 type: "os/unduh"
 description: Penuhi kebutuhan desainmu dengan LangitKetujuh OS.
@@ -87,6 +87,11 @@ studioglibc32:
     label: Beli & Unduh
     link: "os/unduh/studio/i686"
     checksum: #
+
+checksum:
+  enable: true
+  label: "Verifikasi Berkas"
+  link: "/os/verifikasi"
 
 call_to_action:
   enable: true
