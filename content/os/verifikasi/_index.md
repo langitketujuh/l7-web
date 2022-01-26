@@ -21,11 +21,11 @@ call_to_action:
 
 Sebelum Anda membuat bootable, disarankan untuk melakukan verifikasi berkas. Tujuannya untuk mengetahui berkas iso yang telah diunduh sudah aman atau tidak.
 
-| **SHA256SUM** | **Nama Berkas**                               |
-| :------------ | :-------------------------------------------- |
-| `-`           | langitketujuh-lite-i686-20220131.iso          |
-| `-`           | langitketujuh-lite-x86_64-20220131.iso        |
-| `-`           | langitketujuh-lite-x86_64-musl-20220131.iso   |
-| `-`           | langitketujuh-studio-i686-20220131.iso        |
-| `-`           | langitketujuh-studio-x86_64-20220131.iso      |
-| `-`           | langitketujuh-studio-x86_64-musl-20220131.iso |
+| **SHA256** | **Nama Berkas**                               |
+| :--------- | :-------------------------------------------- |
+| `-`        | langitketujuh-lite-i686-20220131.iso          |
+| `-`        | langitketujuh-lite-x86_64-20220131.iso        |
+| `-`        | langitketujuh-lite-x86_64-musl-20220131.iso   |
+| `-`        | langitketujuh-studio-i686-20220131.iso        |
+| `-`        | langitketujuh-studio-x86_64-20220131.iso      |
+| `-`        | langitketujuh-studio-x86_64-musl-20220131.iso |
