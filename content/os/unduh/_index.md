@@ -88,11 +88,6 @@ studioglibc32:
     link: "os/unduh/studio/i686"
     checksum: #
 
-checksum:
-  enable: true
-  label: "Verifikasi Berkas"
-  link: "/os/verifikasi"
-
 call_to_action:
   enable: true
   title: Dokumentasi

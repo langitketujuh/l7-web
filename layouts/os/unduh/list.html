@@ -109,22 +109,6 @@
   </div>
 </section>
 
-<!-- sha256sum -->
-{{ if .Params.checksum.enable }}
-{{ with .Params.checksum }}
-<div class="container">
-  <div class="row">
-    <div class="col-lg-8 mx-auto mb-2">
-      <div class="text-center">
-        <a href="{{ .link | absURL }}" class="btn btn-dark">{{ .label }}</a>
-      </div>
-    </div>
-  </div>
-</div>
-{{ end }}
-{{ end }}
-<!-- /sha256sum -->
-
 <section class="section">
   <div class="container pricing-container">
     <div class="row justify-content-center align-items-center">
