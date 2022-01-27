@@ -1,5 +1,5 @@
 ---
-title: "Unduh Edisi Studio i686"
+title: "Studio i686"
 subtitle: ""
 # meta description
 type: "os/unduh/studio/i686"
@@ -10,7 +10,7 @@ opengraph:
 draft: false
 call_to_action:
   enable: true
-  title: Sudah Mendaftar?
+  title: Pernah Mendaftar?
   image: media/beranda/footer-help.webp
   content: Email hilang? Sudah pernah mendaftar? Klik tautan dibawah ini agar kami mengirim ulang ke email yang sudah terdaftar sebelumnya.
   button:

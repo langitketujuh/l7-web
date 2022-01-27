@@ -6,10 +6,10 @@
       <div class="col mx-auto">
         <div class="section-title text-center">
           {{ with .title }}
-            <h2>{{ . }}</h2>
+          <h2>{{ . }}</h2>
           {{ end }}
           {{ with .subtitle }}
-            <p>{{ . }}</p>
+          <p>{{ . }}</p>
           {{ end }}
         </div>
       </div>
@@ -24,19 +24,19 @@
     </div>
     <div class="filtr-container">
       {{ range .item }}
-        <div class="col-6 col-md-4 padding-0 filtr-item p-0" data-category="{{.category}}">
-          <div class="portfolio-block">
-            <img class="img-fluid" href="{{ .image | absURL }}" src="{{ .image | absURL }}" alt="portfolio-image">
-            <div class="caption">
-              <a class="search-icon" href="{{ .image | absURL }}" data-lightbox="image-1" data-title="{{ .caption }}">
-                <i class="ti-zoom-in"></i>
-              </a>
-              <h4>
-                <a href="{{ .image | absURL }}" data-lightbox="image-1" data-title="{{ .caption }}">{{ .title }}</a>
-              </h4>
-            </div>
+      <div class="col-6 col-md-4 padding-0 filtr-item p-0" data-category="{{.category}}">
+        <div class="portfolio-block">
+          <img class="img-fluid" href="{{ .image | absURL }}" src="{{ .image | absURL }}" alt="portfolio-image">
+          <div class="caption">
+            <a class="search-icon" href="{{ .image | absURL }}" data-lightbox="image-1" data-title="{{ .caption }}">
+              <i class="ti-zoom-in"></i>
+            </a>
+            <h4>
+              <a href="{{ .image | absURL }}" data-lightbox="image-1" data-title="{{ .caption }}">{{ .title }}</a>
+            </h4>
           </div>
         </div>
+      </div>
       {{ end }}
     </div>
   </div>

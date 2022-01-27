@@ -4,7 +4,7 @@
   $(window).on('load', function () {
     $('.preloader').fadeOut(100);
   });
-  
+
   $('.collapse').on('shown.bs.collapse', function () {
     $(this).parent().find('.ti-angle-right').removeClass('ti-angle-right').addClass('ti-angle-down');
   }).on('hidden.bs.collapse', function () {
@@ -19,18 +19,18 @@
     arrows: false
   });
 
-//   $('.play-icon i').click(function () {
-//     var video = '<iframe allowfullscreen src="' + $(this).attr('data-video') + '"></iframe>';
-//     $(this).replaceWith(video);
-//   });
-//
-//   setTimeout(function () {
-//     var filterizd = $('.filtr-container').filterizr({});
-//     $('.filtr-control').on('click', function () {
-//       $('.filtr-control').removeClass("active");
-//       $(this).addClass("active");
-//     });
-//   }, 500);
+  //   $('.play-icon i').click(function () {
+  //     var video = '<iframe allowfullscreen src="' + $(this).attr('data-video') + '"></iframe>';
+  //     $(this).replaceWith(video);
+  //   });
+  //
+  //   setTimeout(function () {
+  //     var filterizd = $('.filtr-container').filterizr({});
+  //     $('.filtr-control').on('click', function () {
+  //       $('.filtr-control').removeClass("active");
+  //       $(this).addClass("active");
+  //     });
+  //   }, 500);
 
   $('.testimonial-slider').slick({
     slidesToShow: 3,
@@ -40,26 +40,26 @@
     autoplay: true,
     autoplaySpeed: 5000,
     responsive: [{
-        breakpoint: 800,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
       }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
     ]
   });
 
@@ -72,33 +72,33 @@
     dots: false,
     arrows: false,
     responsive: [{
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 400,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
       }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 400,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
     ]
   });
 
@@ -111,33 +111,33 @@
     dots: false,
     arrows: false,
     responsive: [{
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 400,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1
       }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 400,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
     ]
   });
 
@@ -182,26 +182,26 @@
       window.open(g, "_blank");
     }
   }),
-  $(document).on("click", ".informasi", function () {
-    (document.getElementById("get-number").innerHTML = $(this)
-      .children(".my-number")
-      .text()),
-      $(".start-chat,.get-new").addClass("show").removeClass("hide"),
-      $(".home-chat,.head-home").addClass("hide").removeClass("show"),
-      (document.getElementById("get-nama").innerHTML = $(this)
-        .children(".info-chat")
-        .children(".chat-nama")
+    $(document).on("click", ".informasi", function () {
+      (document.getElementById("get-number").innerHTML = $(this)
+        .children(".my-number")
         .text()),
-      (document.getElementById("get-label").innerHTML = $(this)
-        .children(".info-chat")
-        .children(".chat-label")
-        .text());
-  }),
-  $(document).on("click", ".close-chat", function () {
-    $("#whatsapp-chat").addClass("hide").removeClass("show");
-  }),
-  $(document).on("click", ".show-chat", function () {
-    $("#whatsapp-chat").addClass("show").removeClass("hide");
-  });
+        $(".start-chat,.get-new").addClass("show").removeClass("hide"),
+        $(".home-chat,.head-home").addClass("hide").removeClass("show"),
+        (document.getElementById("get-nama").innerHTML = $(this)
+          .children(".info-chat")
+          .children(".chat-nama")
+          .text()),
+        (document.getElementById("get-label").innerHTML = $(this)
+          .children(".info-chat")
+          .children(".chat-label")
+          .text());
+    }),
+    $(document).on("click", ".close-chat", function () {
+      $("#whatsapp-chat").addClass("hide").removeClass("show");
+    }),
+    $(document).on("click", ".show-chat", function () {
+      $("#whatsapp-chat").addClass("show").removeClass("hide");
+    });
 
 })(jQuery);

@@ -4,12 +4,12 @@ body {
 }
 
 ::selection {
-  background-color:darken($color: $primary-color, $amount: 10);
+  background-color: darken($color: $primary-color, $amount: 10);
   color: $white;
 }
 
 body::-webkit-scrollbar {
-  width: .5rem;
+  width: 0.5rem;
 }
 
 body::-webkit-scrollbar-track {
@@ -28,12 +28,12 @@ body::-webkit-scrollbar-thumb {
   }
 
   ::selection {
-    background-color:darken($color: $primary-color, $amount: 10);
+    background-color: darken($color: $primary-color, $amount: 10);
     color: $white;
   }
 
   body::-webkit-scrollbar {
-    width: .5rem;
+    width: 0.5rem;
   }
 
   body::-webkit-scrollbar-track {
@@ -48,7 +48,7 @@ body::-webkit-scrollbar-thumb {
 
 @media (prefers-color-scheme: dark) {
   hr {
-  border-top: 1px solid rgba(255,255,255,.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
   }
 }
 
@@ -87,7 +87,7 @@ a,
 button,
 select {
   cursor: pointer;
-  transition: .2s ease;
+  transition: 0.2s ease;
 
   &:focus {
     outline: 0;
@@ -144,21 +144,21 @@ a:hover {
 
   &::before {
     position: absolute;
-    content: '';
+    content: "";
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
     background-color: $black;
-    opacity: .5;
+    opacity: 0.5;
   }
 }
 
 @media (prefers-color-scheme: dark) {
   .overlay {
-   &::before {
-    background-color: $white;
-   }
+    &::before {
+      background-color: $white;
+    }
   }
 }
 
@@ -192,20 +192,20 @@ a:hover {
   }
 }
 
-.rounded-lg{
+.rounded-lg {
   border-radius: 10px !important;
 }
 
-.shadow{
-  box-shadow: 0 12px 24px -6px rgba(37,99,235,.10) !important;
+.shadow {
+  box-shadow: 0 12px 24px -6px rgba(37, 99, 235, 0.1) !important;
 }
 
 @media (prefers-color-scheme: dark) {
-  .shadow{
-    box-shadow: 0 12px 34px -6px rgba(59, 130, 246,.30) !important;
+  .shadow {
+    box-shadow: 0 12px 34px -6px rgba(59, 130, 246, 0.3) !important;
   }
   .shadow-lg {
-    box-shadow:0 1rem 3rem rgba(59, 130, 246,.50)!important;
+    box-shadow: 0 1rem 3rem rgba(59, 130, 246, 0.5) !important;
   }
 }
 
@@ -233,22 +233,27 @@ a:hover {
       color: $text-color-dark;
     }
   }
+  .form-control:disabled,
+  .form-control[readonly] {
+    background-color: $dark;
+    opacity: 1;
+  }
 }
 
 textarea.form-control {
   height: 100px !important;
 }
 
-.list-unstyled{
-  li{
+.list-unstyled {
+  li {
     margin-bottom: 10px;
   }
 }
 
-.check-mark{
+.check-mark {
   position: relative;
   padding-left: 0px;
-  &::before{
+  &::before {
     position: absolute;
     content: "+";
     color: $white;
@@ -264,10 +269,9 @@ textarea.form-control {
   }
 }
 
-
 @media (prefers-color-scheme: dark) {
-  .check-mark{
-    &::before{
+  .check-mark {
+    &::before {
       color: $black;
       background-color: $primary-color-dark;
     }

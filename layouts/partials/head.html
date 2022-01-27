@@ -1,9 +1,9 @@
-  {{- $favicon := "media/icons/favicon.ico" -}}
-  {{- $icon16 := "media/icons/icon-16x16.png" -}}
-  {{- $icon32 := "media/icons/icon-32x32.png" -}}
-  {{- $icon144 := "media/icons/icon-144x144.png" -}}
-  {{- $icon152 := "media/icons/icon-152x152.png" -}}
-  {{- $icon192 := "media/icons/icon-192x192.png" -}}
+{{- $favicon := "media/icons/favicon.ico" -}}
+{{- $icon16 := "media/icons/icon-16x16.png" -}}
+{{- $icon32 := "media/icons/icon-32x32.png" -}}
+{{- $icon144 := "media/icons/icon-144x144.png" -}}
+{{- $icon152 := "media/icons/icon-152x152.png" -}}
+{{- $icon192 := "media/icons/icon-192x192.png" -}}
 
 <head>
   <meta charset="utf-8">
@@ -20,20 +20,17 @@
   <meta name="theme-color" content="#ffffff">
   {{ hugo.Generator }}
 
-  {{ "<!-- mobile responsive meta -->" | safeHTML }}
-  <meta name="description" content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
-  {{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+  <meta name="description"
+    content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  {{ with site.Params.author }}
+  <meta name="author" content="{{ . }}">{{ end }}
 
-  {{ "<!-- plugins -->" | safeHTML }}
   {{ range site.Params.plugins.css }}
   <link rel="stylesheet" href="{{ .link | absURL }}">
   {{ end }}
 
-  {{ "<!-- Main Stylesheet -->" | safeHTML }}
   {{ $style := resources.Get "scss/style.scss" | toCSS | minify }}
-  <link href="{{ $style.Permalink }}" rel="stylesheet" media="screen"/>
-
-  {{ "<!--Favicon-->" | safeHTML }}
+  <link href="{{ $style.Permalink }}" rel="stylesheet" media="screen" />
 
   <meta name="msapplication-TileImage" content="{{ $icon144 | relURL }}">
   <link rel="icon" href="{{ $favicon | relURL }}">
@@ -46,5 +43,5 @@
 
   {{- partial "opengraph.html" . -}}
   {{ template "_internal/twitter_cards.html" . }}
-  
+
 </head>

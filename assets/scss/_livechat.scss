@@ -5,7 +5,7 @@
     background: $white;
     width: 350px;
     border-radius: 10px;
-    box-shadow: 0 12px 24px -6px rgba(37,99,235,.30) !important;
+    box-shadow: 0 12px 24px -6px rgba(37, 99, 235, 0.3) !important;
     bottom: 90px;
     right: 30px;
     overflow: hidden;
@@ -24,7 +24,7 @@
     right: 30px;
     padding: 10px 20px;
     border-radius: 30px;
-    box-shadow: 0 12px 24px -6px rgba(37,99,235,.30) !important;
+    box-shadow: 0 12px 24px -6px rgba(37, 99, 235, 0.3) !important;
   }
 
   a.show-chat i {
@@ -83,7 +83,7 @@
 
   a.informasi:hover {
     background: $white;
-    }
+  }
 
   a.informasi-static {
     padding: 20px;
@@ -93,20 +93,20 @@
 
   a.informasi-static:hover {
     background: $white;
-    }
+  }
 
   .info-chat span {
-      display: block;
+    display: block;
   }
 
   #get-label,
-    span.chat-label {
+  span.chat-label {
     font-size: 12px;
     color: #888;
   }
 
   #get-nama,
-    span.chat-nama {
+  span.chat-nama {
     margin: 5px 0 0;
     font-size: 15px;
     font-weight: 700;
@@ -116,7 +116,7 @@
   #get-label,
   #get-nama {
     color: #fff;
-    }
+  }
 
   span.my-number {
     display: none;
@@ -184,26 +184,26 @@
   }
 
   @keyframes showhide {
-  from {
-    transform: scale(0.5);
-    opacity: 0;
-  }
+    from {
+      transform: scale(0.5);
+      opacity: 0;
+    }
   }
 
   @keyframes showchat {
-  from {
-    transform: scale(0);
-    opacity: 0;
-  }
+    from {
+      transform: scale(0);
+      opacity: 0;
+    }
   }
 
   @media screen and (max-width: 480px) {
-  #whatsapp-chat {
-    width: auto;
-    left: 5%;
-    right: 5%;
-    font-size: 80%;
-  }
+    #whatsapp-chat {
+      width: auto;
+      left: 5%;
+      right: 5%;
+      font-size: 80%;
+    }
   }
 
   .hide {
@@ -226,13 +226,13 @@
     /* Live chat */
     #whatsapp-chat {
       background: $dark;
-      box-shadow: 0 12px 34px -6px rgba(59, 130, 246,.30) !important;
+      box-shadow: 0 12px 34px -6px rgba(59, 130, 246, 0.3) !important;
     }
 
     a.show-chat {
       background: $primary-color;
       color: $white;
-      box-shadow: 0 12px 34px -6px rgba(59, 130, 246,.30) !important;
+      box-shadow: 0 12px 34px -6px rgba(59, 130, 246, 0.3) !important;
     }
 
     .header-chat {
@@ -261,26 +261,26 @@
 
     a.informasi:hover {
       background: $black;
-      }
+    }
 
     a.informasi-static:hover {
       background: $black;
-      }
+    }
 
     #get-label,
-      span.chat-label {
+    span.chat-label {
       color: $text-color-dark;
     }
 
     #get-nama,
-      span.chat-nama {
+    span.chat-nama {
       color: $text-color-dark;
     }
 
     #get-label,
     #get-nama {
       color: $white;
-      }
+    }
 
     .livechat-msg {
       color: $text-color-dark;

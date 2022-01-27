@@ -1,8 +1,8 @@
-enable : true
-title : "Siap menjadi Profesional"
-image : "media/beranda/footer-pro.webp"
-content : "Kami telah mengoptimasi pemilihan sistem yang lebih baik dan menyesuaikan aplikasi sesuai kebutuhan spesifik. LangitKetujuh GNU/Linux akan membantu Anda menjadi desainer yang tangguh dengan perangkat lunak terbuka."
+enable: true
+title: "Siap menjadi Profesional"
+image: "media/beranda/footer-pro.webp"
+content: "Kami telah mengoptimasi pemilihan sistem yang lebih baik dan menyesuaikan aplikasi sesuai kebutuhan spesifik. LangitKetujuh GNU/Linux akan membantu Anda menjadi desainer yang tangguh dengan perangkat lunak terbuka."
 button:
-  enable : true
-  label : "Fitur OS"
-  link : "os/fitur"
+  enable: true
+  label: "Fitur OS"
+  link: "os/fitur"

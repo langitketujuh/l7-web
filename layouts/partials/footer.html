@@ -26,9 +26,10 @@
         </ul>
       </div>
       <div class="col-md-3 col-sm-6 mb-5">
-        <a class="d-block mb-3" href="{{ site.BaseURL }}"><img width="{{site.Params.logo_width_footer}}"  class="img-fluid" src="{{ site.Params.logo_footer | absURL }}" alt="{{ site.Title }}"></a>
+        <a class="d-block mb-3" href="{{ site.BaseURL }}"><img width="{{site.Params.logo_width_footer}}"
+            class="img-fluid" src="{{ site.Params.logo_footer | absURL }}" alt="{{ site.Title }}"></a>
         <p class="mb-4">{{ site.Params.footer_content | markdownify }}</p>
-        
+
         <ul class="list-inline social-icons">
           {{ range site.Params.social }}
           <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
@@ -42,51 +43,49 @@
   </div>
 </footer>
 
-{{ "<!-- JS Plugins -->" | safeHTML }}
 {{ range site.Params.plugins.js}}
 <script src="{{ .link | absURL }}"></script>
 {{ end }}
 
-{{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
 
 <script>
-if('serviceWorker' in navigator) {
+  if ('serviceWorker' in navigator) {
     const PREFETCH = true;
-    const PREFETCH_LINK_RELS = ['index','next', 'prev', 'prefetch'];
+    const PREFETCH_LINK_RELS = ['index', 'next', 'prev', 'prefetch'];
     function prefetchCache() {
-        if(navigator.serviceWorker.controller) {
-            let links = document.querySelectorAll(
-                PREFETCH_LINK_RELS.map((rel) => {
-                    return 'link[rel='+rel+']';
-                }).join(',')
-            );
-            if(links.length > 0) {
-                Array.from(links)
-                    .map((link) => {
-                        let href = link.getAttribute('href');
-                        navigator.serviceWorker.controller.postMessage({
-                            action : 'cache',
-                            url : href,
-                        });
-                    });
-            }
+      if (navigator.serviceWorker.controller) {
+        let links = document.querySelectorAll(
+          PREFETCH_LINK_RELS.map((rel) => {
+            return 'link[rel=' + rel + ']';
+          }).join(',')
+        );
+        if (links.length > 0) {
+          Array.from(links)
+            .map((link) => {
+              let href = link.getAttribute('href');
+              navigator.serviceWorker.controller.postMessage({
+                action: 'cache',
+                url: href,
+              });
+            });
         }
+      }
     }
 
     navigator.serviceWorker
-        .register('/sw.js', { scope: '/' })
-        .then(() => {
-            console.log('Service Worker Registered');
-        });
+      .register('/sw.js', { scope: '/' })
+      .then(() => {
+        console.log('Service Worker Registered');
+      });
 
     navigator.serviceWorker
-        .ready
-        .then(() => {
-            if(PREFETCH) {
-                prefetchCache();
-            }
-        });
-}
+      .ready
+      .then(() => {
+        if (PREFETCH) {
+          prefetchCache();
+        }
+      });
+  }
 </script>

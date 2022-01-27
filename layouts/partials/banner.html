@@ -8,10 +8,12 @@
         <p class="mb-4">{{ .content | markdownify }}</p>
         {{ if .button.enable }}
         {{ with .button }}
-        <div><a href="{{ .link | safeURL }}" class="btn btn-primary"><span class="ti-target"></span> {{ .label }}</a></div>
+        <div><a href="{{ .link | safeURL }}" class="btn btn-primary"><span class="ti-target"></span> {{ .label }}</a>
+        </div>
         {{ end }}
         {{ end }}
-        {{with .image}}<img src="{{ . | absURL }}" class="img-fluid mt-5" alt="Tampilan LangitKetujuh OS" width="750px">{{end}}
+        {{with .image}}<img src="{{ . | absURL }}" class="img-fluid mt-5" alt="Tampilan LangitKetujuh OS"
+          width="750px">{{end}}
       </div>
     </div>
   </div>

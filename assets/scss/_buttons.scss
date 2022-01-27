@@ -9,7 +9,7 @@
   border: 0;
   position: relative;
   z-index: 1;
-  transition: .2s ease;
+  transition: 0.2s ease;
   white-space: nowrap;
 
   &::before {
@@ -72,7 +72,7 @@
     border-color: $primary-color !important;
     color: $primary-color;
   }
-  &::before{
+  &::before {
     border-color: $primary-color;
   }
 }
@@ -83,7 +83,7 @@
   i {
     font-size: 12px;
     margin-left: 5px;
-    transition: .2s ease;
+    transition: 0.2s ease;
   }
 
   &:active,
@@ -100,7 +100,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-/* Button style */
+  /* Button style */
 
   .btn-primary {
     background-color: $primary-color;
@@ -129,7 +129,7 @@
       border-color: $primary-color !important;
       color: $primary-color;
     }
-    &::before{
+    &::before {
       border-color: $primary-color;
     }
   }
@@ -144,5 +144,4 @@
       color: $primary-color;
     }
   }
-
 }

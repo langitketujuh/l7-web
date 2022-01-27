@@ -10,7 +10,7 @@ opengraph:
 draft: false
 call_to_action:
   enable: true
-  title: Sudah Mendaftar?
+  title: Pernah Mendaftar?
   image: media/beranda/footer-help.webp
   content: Email hilang? Sudah pernah mendaftar?<br> Klik tautan dibawah ini agar kami mengirim ulang ke email yang sudah terdaftar sebelumnya.
   button:

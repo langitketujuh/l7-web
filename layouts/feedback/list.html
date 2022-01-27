@@ -7,15 +7,18 @@
     <div class="row">
       <div class="col-lg-7 mb-4 mb-lg-0">
         <form name="feedback" netlify-honeypot="bot-field" action="/sk-feedback" method="POST" data-netlify="true">
-          <input type="text" class="form-control mb-3" name="nama" placeholder="Boleh tahu nama lengkap Anda?" required="true">
+          <input type="text" class="form-control mb-3" name="nama" placeholder="Boleh tahu nama lengkap Anda?"
+            required="true">
           <input type="email" class="form-control mb-3" name="surel" placeholder="Punya Email aktif?" required="true">
           <div class="input-group mb-3">
             <div class="input-group-prepend">
-                <span class="input-group-text">@</span>
+              <span class="input-group-text">@</span>
             </div>
-            <input type="text" class="form-control" name="telegram" aria-label="telegram" aria-describedby="inputTelegram" placeholder="Punya akun Telegram?" required="true">
+            <input type="text" class="form-control" name="telegram" aria-label="telegram"
+              aria-describedby="inputTelegram" placeholder="Punya akun Telegram?" required="true">
           </div>
-          <input type="text" class="form-control mb-3" name="asal" placeholder="Asal Studio/Lembaga/Institusi/Owner" required="true">
+          <input type="text" class="form-control mb-3" name="asal" placeholder="Asal Studio/Lembaga/Institusi/Owner"
+            required="true">
 
           <div class="form-group row">
             <label class="col-sm-4 col-form-label">Jenis Institusi</label>
@@ -65,9 +68,11 @@
           </div>
           <hr>
           <div>
-          <p> Sedikit gambaran, LangitKetujuh OS merupakan sistem operasi berbasis voidlinux dengan kelengkapan aplikasi desain grafis yang uptodate dan tersedia font aset. Sekali pasang, dapat semua.</p>
-          <p> Sebagai pengguna sistem operasi ini, bagaimana kesan pertama Anda dengan LangitKetujuh OS dan sudah berapa lama menggunakannya? </p>
-          <textarea name="kesan-pertama" class="form-control mb-3" placeholder=""></textarea>
+            <p> Sedikit gambaran, LangitKetujuh OS merupakan sistem operasi berbasis voidlinux dengan kelengkapan
+              aplikasi desain grafis yang uptodate dan tersedia font aset. Sekali pasang, dapat semua.</p>
+            <p> Sebagai pengguna sistem operasi ini, bagaimana kesan pertama Anda dengan LangitKetujuh OS dan sudah
+              berapa lama menggunakannya? </p>
+            <textarea name="kesan-pertama" class="form-control mb-3" placeholder=""></textarea>
           </div>
           <p> Adakah fitur aplikasi atau depedensi yang perlu ditambahkan untuk versi selanjutnya? </p>
           <textarea name="fitur-baru" class="form-control mb-3" placeholder=""></textarea>
@@ -79,22 +84,25 @@
           <textarea name="ketidaksukaan" class="form-control mb-3" placeholder=""></textarea>
           <p> Adakah saran untuk Layanan Hallo baik di Telegram dan Email agar lebih baik lagi? </p>
           <textarea name="layanan-cs" class="form-control mb-3" placeholder=""></textarea>
-          <p> Saat ini Komunitas LangitKetujuh OS sudah terbentuk. Jika dibandingkan dengan Layanan CS manakah yang terbaik?</p>
+          <p> Saat ini Komunitas LangitKetujuh OS sudah terbentuk. Jika dibandingkan dengan Layanan CS manakah yang
+            terbaik?</p>
           <textarea name="komunitas" class="form-control mb-5" placeholder=""></textarea>
           <div class="form-group mb-3">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck"  name="data" value="ya, saya setuju" required="true">
-                <label class="form-check-label" for="gridCheck">
-                Saya telah menyetujui dan mematuhi <a href="/peraturan-layanan">peraturan layanan</a> & <a href="/kebijakan-privasi">kebijakan privasi</a>.
-                </label>
-              </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck" name="data" value="ya, saya setuju"
+                required="true">
+              <label class="form-check-label" for="gridCheck">
+                Saya telah menyetujui dan mematuhi <a href="/peraturan-layanan">peraturan layanan</a> & <a
+                  href="/kebijakan-privasi">kebijakan privasi</a>.
+              </label>
+            </div>
           </div>
           <div class="mb-5">
             <div data-netlify-recaptcha="true"></div>
           </div>
-        <div>
-        <button type="submit" value="send" class="btn btn-primary">Kirim</button>
-        </div>
+          <div>
+            <button type="submit" value="send" class="btn btn-primary">Kirim</button>
+          </div>
         </form>
       </div>
       <div class="col-lg-5 content">

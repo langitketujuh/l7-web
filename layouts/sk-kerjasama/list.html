@@ -11,7 +11,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto">
-        <div class="content text-center">{{.Content}}</div>        
+        <div class="content text-center">{{.Content}}</div>
       </div>
     </div>
   </div>
@@ -31,7 +31,7 @@
         {{with .content }}<p class="mb-4">{{ . | markdownify }}</p>{{ end }}
         {{ if .button.enable }}
         {{ with .button }}
-        <a href="{{ .link | absURL }}" class="btn btn-primary" >{{ .label }}</a>
+        <a href="{{ .link | absURL }}" class="btn btn-primary">{{ .label }}</a>
         {{ end }}
         {{ end }}
       </div>

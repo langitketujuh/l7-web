@@ -8,9 +8,12 @@
     <div class="client-logo-slider d-flex align-items-center mx-auto">
       {{ range site.Data.clients_logo_slider.item }}
       {{ if and ( ne .URL "" ) ( ne .URL "#" ) }}
-      <a href="{{ .URL | safeURL }}" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid mx-auto partner" src="{{.logo | absURL}}" alt="Media Partner dan Komunitas LangitKetujuh OS" height="80px"></a>
+      <a href="{{ .URL | safeURL }}" class="text-center d-block outline-0 p-4"><img
+          class="d-unset img-fluid mx-auto partner" src="{{.logo | absURL}}"
+          alt="Media Partner dan Komunitas LangitKetujuh OS" height="80px"></a>
       {{ else }}
-      <span class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid mx-auto partner" src="{{.logo | absURL}}" alt="Media Partner dan Komunitas LangitKetujuh OS" height="80px"></span>
+      <span class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid mx-auto partner"
+          src="{{.logo | absURL}}" alt="Media Partner dan Komunitas LangitKetujuh OS" height="80px"></span>
       {{ end }}
       {{ end }}
     </div>
