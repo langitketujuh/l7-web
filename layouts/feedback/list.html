@@ -1,25 +1,25 @@
 {{ define "main" }}
 
-{{ partial "page-header.html" . }}
-
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-7 mb-4 mb-lg-0">
+      <div class="col-lg-8 mx-auto">
+        <div class="mb-5 mt-4 text-center">
+          <h2>{{ .Title | markdownify }}</h2>
+        </div>
         <form name="feedback" netlify-honeypot="bot-field" action="/sk-feedback" method="POST" data-netlify="true">
-          <input type="text" class="form-control mb-3" name="nama" placeholder="Boleh tahu nama lengkap Anda?"
+          <input type="text" class="form-control mb-3" name="nama" placeholder="Nama lengkap"
             required="true">
-          <input type="email" class="form-control mb-3" name="surel" placeholder="Punya Email aktif?" required="true">
+          <input type="email" class="form-control mb-3" name="surel" placeholder="Email aktif" required="true">
           <div class="input-group mb-3">
             <div class="input-group-prepend">
               <span class="input-group-text">@</span>
             </div>
             <input type="text" class="form-control" name="telegram" aria-label="telegram"
-              aria-describedby="inputTelegram" placeholder="Punya akun Telegram?" required="true">
+              aria-describedby="inputTelegram" placeholder="Akun Telegram" required="true">
           </div>
-          <input type="text" class="form-control mb-3" name="asal" placeholder="Asal Studio/Lembaga/Institusi/Owner"
+          <input type="text" class="form-control mb-3" name="asal" placeholder="Nama Institusi"
             required="true">
-
           <div class="form-group row">
             <label class="col-sm-4 col-form-label">Jenis Institusi</label>
             <div class="col-sm-8 input-group">
@@ -69,12 +69,12 @@
           <hr>
           <div>
             <p> Sedikit gambaran, LangitKetujuh OS merupakan sistem operasi berbasis voidlinux dengan kelengkapan
-              aplikasi desain grafis yang uptodate dan tersedia font aset. Sekali pasang, dapat semua.</p>
+              perangkat lunak desain grafis yang uptodate dan tersedia font aset. Sekali pasang, dapat semua.</p>
             <p> Sebagai pengguna sistem operasi ini, bagaimana kesan pertama Anda dengan LangitKetujuh OS dan sudah
               berapa lama menggunakannya? </p>
             <textarea name="kesan-pertama" class="form-control mb-3" placeholder=""></textarea>
           </div>
-          <p> Adakah fitur aplikasi atau depedensi yang perlu ditambahkan untuk versi selanjutnya? </p>
+          <p> Adakah fitur perangkat lunak atau depedensi yang perlu ditambahkan untuk versi selanjutnya? </p>
           <textarea name="fitur-baru" class="form-control mb-3" placeholder=""></textarea>
           <p> Bagaimana performa LangitKetujuh OS. Ringan, biasa saja atau berat dalam kondisi tertentu? </p>
           <textarea name="performa-sistem" class="form-control mb-3" placeholder=""></textarea>
@@ -82,7 +82,7 @@
           <textarea name="kesalahan-bug" class="form-control mb-3" placeholder=""></textarea>
           <p> Apa yang Anda tidak sukai dari LangitKetujuh OS? </p>
           <textarea name="ketidaksukaan" class="form-control mb-3" placeholder=""></textarea>
-          <p> Adakah saran untuk Layanan Hallo baik di Telegram dan Email agar lebih baik lagi? </p>
+          <p> Adakah saran untuk layanan di WhatsApps, Telegram dan Email agar lebih baik lagi? </p>
           <textarea name="layanan-cs" class="form-control mb-3" placeholder=""></textarea>
           <p> Saat ini Komunitas LangitKetujuh OS sudah terbentuk. Jika dibandingkan dengan Layanan CS manakah yang
             terbaik?</p>
@@ -100,20 +100,16 @@
           <div class="mb-5">
             <div data-netlify-recaptcha="true"></div>
           </div>
-          <div>
-            <button type="submit" value="send" class="btn btn-primary">Kirim</button>
+          <div class="text-center">
+            <button type="submit" value="send" class="btn btn-primary">Kirim saran</button>
           </div>
         </form>
       </div>
-      <div class="col-lg-5 content">
-        {{ .Content }}
-      </div>
     </div>
+  </div>
   </div>
 </section>
 
-<!-- call to action -->
-
-<!-- /call to action -->
+{{ partial "screenshot.html" . }}
 
 {{ end }}
