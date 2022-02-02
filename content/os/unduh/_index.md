@@ -18,8 +18,7 @@ litemusl:
   button:
     enable: true
     label: Unduh
-    link: https://al.quds.repo.langitketujuh.id/iso/langitketujuh-lite-x86_64-musl-20210921.iso
-    checksum: #
+    link: "#"
 liteglibc:
   name:
   type: Lite
@@ -30,8 +29,7 @@ liteglibc:
   button:
     enable: true
     label: Unduh
-    link: https://al.quds.repo.langitketujuh.id/iso/langitketujuh-lite-x86_64-20210921.iso
-    checksum: #
+    link: "#"
 liteglibc32:
   name:
   type: Lite
@@ -42,8 +40,7 @@ liteglibc32:
   button:
     enable: true
     label: Unduh
-    link: https://al.quds.repo.langitketujuh.id/iso/langitketujuh-lite-i686-20210921.iso
-    checksum: #
+    link: "#"
 
 studiomusl:
   name:
@@ -57,8 +54,8 @@ studiomusl:
   button:
     enable: true
     label: Beli & Unduh
-    link: "os/unduh/studio/x86_64-musl"
-    checksum: #
+    link: "#"
+    #link: "os/unduh/studio/x86_64-musl"
 studioglibc:
   name:
   type: Studio
@@ -71,8 +68,8 @@ studioglibc:
   button:
     enable: true
     label: Beli & Unduh
-    link: "os/unduh/studio/x86_64"
-    checksum: #
+    link: "#"
+    #link: "os/unduh/studio/x86_64"
 studioglibc32:
   name:
   type: Studio
@@ -85,8 +82,8 @@ studioglibc32:
   button:
     enable: true
     label: Beli & Unduh
-    link: "os/unduh/studio/i686"
-    checksum: #
+    link: "#"
+    #link: "os/unduh/studio/i686"
 
 call_to_action:
   enable: true
