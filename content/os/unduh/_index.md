@@ -18,7 +18,7 @@ litemusl:
   button:
     enable: true
     label: Unduh
-    link: "#"
+    link: "os/unduh/"
 liteglibc:
   name:
   type: Lite
@@ -29,7 +29,7 @@ liteglibc:
   button:
     enable: true
     label: Unduh
-    link: "#"
+    link: "os/unduh/"
 liteglibc32:
   name:
   type: Lite
@@ -40,7 +40,7 @@ liteglibc32:
   button:
     enable: true
     label: Unduh
-    link: "#"
+    link: "os/unduh/"
 
 studiomusl:
   name:
@@ -54,7 +54,7 @@ studiomusl:
   button:
     enable: true
     label: Beli & Unduh
-    link: "#"
+    link: "os/unduh/"
     #link: "os/unduh/studio/x86_64-musl"
 studioglibc:
   name:
@@ -68,7 +68,7 @@ studioglibc:
   button:
     enable: true
     label: Beli & Unduh
-    link: "#"
+    link: "os/unduh/"
     #link: "os/unduh/studio/x86_64"
 studioglibc32:
   name:
@@ -82,7 +82,7 @@ studioglibc32:
   button:
     enable: true
     label: Beli & Unduh
-    link: "#"
+    link: "os/unduh/"
     #link: "os/unduh/studio/i686"
 
 call_to_action:

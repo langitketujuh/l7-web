@@ -21,14 +21,14 @@ call_to_action:
 
 ---
 
-## 20220131 (dev)
+## Dev
 | **Jadwal**          | **Status** | **Tanggal**                         |
 | :------------------ | :--------: | :---------------------------------- |
 | Pengembangan        |   Sudah    | 22 September 2021 - 20 Januari 2022 |
 | Uji coba tak stabil |   Sudah    | 1 Januari - 20 Januari 2022         |
-| Uji coba stabil     |   Belum    | 20 - 28 Januari 2022                |
-| Upload berkas iso   |   Belum    | 29 - 30 Januari 2022                |
-| **Rilis**           |   Belum    | **31 Januari 2022**                 |
+| Uji coba stabil     |   Sudah    | 20 Januari - Februari 2022          |
+| Upload berkas iso   |   Belum    | -                                   |
+| **Rilis**           |   Belum    | -                                   |
 
 ### Catatan Rilis
 * Menggunakan kernel `linux5.15`.
