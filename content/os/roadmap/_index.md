@@ -40,12 +40,12 @@ call_to_action:
 * Peningkatan enkripsi signature 4096 repodata `al.quds.repo`.
 * Menambahkan depedensi bluetooth untuk pipewire `bluez-alsa`.
 * Menambahkan pen tablet driver: `digimend-kernel-drivers`. [_Panduan_](https://panduan.langitketujuh.id/driver/pen-tablet.html).
-* Menambahkan konfigurasi tambahan: `l7-inkscape l7-v4l2loopback`.
+* Menambahkan pengamanan data dan enkripsi: `gnupg2-scdaemon kgpg`.
 * Menambahkan virtual keyboard display manager: `qt5-virtualkeyboard`.
 * Menambahkan Audio Production pro: `lmms freepats soundfont-fluid`.
 * Menambahkan font baru: `liberation-fonts-ttf font-sil-scheherazade`.
 * Menambahkan dukungan firmware qualqomm: `linux-firmware linux-firmware-qualcomm`.
-* Menambahkan pengamanan data dan enkripsi: `gnupg2-scdaemon kgpg keepassxc l7-keepassxc`.
+* Menambahkan konfigurasi tambahan: `l7-inkscape l7-opentoonz l7-ssr l7-v4l2loopback`.
 * Menambahkan perkakas baru: `hddtemp ipmitool bind-utils tree freeipmi wmctrl lm_sensors testdisk`.
 * Menambahkan paket grup: `l7-pkg-codec l7-pkg-compiler l7-pkg-compress l7-pkg-kde l7-pkg-kde-apps l7-pkg-rust l7-pkg-wine l7-pkg-xorg`.
 * Menambahkan dukungan akselerasi grafis dengan vulkan: `Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers libspa-vulkan mesa-vulkan-overlay-layer vkBasalt vkd3d amdvlk nv-codec-headers`.
