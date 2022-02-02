@@ -52,6 +52,8 @@ call_to_action:
 * Tersedia paket baru: `typecatcher pdfarranger inkscape-generate-palette inkscape-inx-pathops inkscape-multicalendar inkscape-nextgenerator`.
 * Restrukturisasi panduan `l7-docs`.
 * [Pending] Menambahkan 3-5 Wallpaper baru.
+* [Pending] Pipewire bug sleep.
+* [Pending] Blender 3.0.1.
 * [Pending] Inkscape 1.2+.
 
 ## 20210921 (stabil)
@@ -110,7 +112,7 @@ call_to_action:
 | Uji Coba Tak Stabil |  Selesai   | 16 - 22 Agustus 2021       |
 | Uji Coba Stabil     |  Selesai   | 23 - 29 Agustus 2021       |
 | Upload Berkas ISO   |  Selesai   | 30 Agustus - 01 Juni 2021  |
-| **Rilis**           |   Sudah    | **02 Juni 2021**           |
+| **Rilis**           |  Selesai   | **02 Juni 2021**           |
 
 ### Catatan Rilis
 
