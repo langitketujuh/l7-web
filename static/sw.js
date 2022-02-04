@@ -7,6 +7,7 @@ const BASE_CACHE_FILES = [
     '/os/unduh/studio/x86_64-musl/',
     '/os/unduh/studio/x86_64/',
     '/os/unduh/studio/i686/',
+    '/os/kirim-ulang/',
     '/os/fitur/',
     '/blog/',
     '/kabari/',
