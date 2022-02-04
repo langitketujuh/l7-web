@@ -40,7 +40,7 @@ const BASE_CACHE_FILES = [
     // ico
     '/media/icons/favicon.ico',
     // media beranda
-    '/media/beranda/banner-min.webp',
+    '/media/beranda/banner.webp',
     '/media/beranda/footer-help.webp',
     '/media/beranda/footer-pro.webp',
     '/media/beranda/logo.webp',
