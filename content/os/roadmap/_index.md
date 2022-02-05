@@ -52,7 +52,8 @@ call_to_action:
 * Tersedia paket baru: `typecatcher pdfarranger inkscape-generate-palette inkscape-inx-pathops inkscape-multicalendar inkscape-nextgenerator`.
 * Restrukturisasi panduan `l7-docs`.
 * Menambahkan gambar wallpaper baru setiap rilis.
-* [Pending] [Pipewire 0.3.45](https://github.com/void-linux/void-packages/pull/35300).
+* [Fix] [Pipewire 0.3.45](https://github.com/void-linux/void-packages/pull/35300).
+* [Pending] [Scribus 1.5.8](https://github.com/void-linux/void-packages/pull/35356).
 * [Pending] Blender 3.0.1.
 * [Pending] Inkscape 1.2.
 
