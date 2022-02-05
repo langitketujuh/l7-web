@@ -53,6 +53,7 @@ call_to_action:
 * Restrukturisasi panduan `l7-docs`.
 * Menambahkan gambar wallpaper baru setiap rilis.
 * [Fix] [Pipewire 0.3.45](https://github.com/void-linux/void-packages/pull/35300).
+* [Fix] [MKVToolNix bug](https://github.com/void-linux/void-packages/pull/35353).
 * [Pending] [Scribus 1.5.8](https://github.com/void-linux/void-packages/pull/35356).
 * [Pending] Blender 3.0.1.
 * [Pending] Inkscape 1.2.
