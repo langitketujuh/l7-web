@@ -51,10 +51,10 @@ call_to_action:
 * Menambahkan dukungan akselerasi grafis dengan vulkan: `Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers libspa-vulkan mesa-vulkan-overlay-layer vkBasalt vkd3d amdvlk nv-codec-headers`.
 * Tersedia paket baru: `typecatcher pdfarranger inkscape-generate-palette inkscape-inx-pathops inkscape-multicalendar inkscape-nextgenerator`.
 * Restrukturisasi panduan `l7-docs`.
-* [Pending] Menambahkan 3-5 Wallpaper baru.
-* [Pending] Pipewire bug sleep.
+* Menambahkan gambar wallpaper baru setiap rilis.
+* [Pending] [Pipewire 0.3.45](https://github.com/void-linux/void-packages/pull/35300).
 * [Pending] Blender 3.0.1.
-* [Pending] Inkscape 1.2+.
+* [Pending] Inkscape 1.2.
 
 ## 20210921 (stabil)
 | **Jadwal**          | **Status** | **Tanggal**                |
