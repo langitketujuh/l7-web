@@ -31,12 +31,16 @@ call_to_action:
 | **Rilis**           |   Belum    | -                                   |
 
 ### Catatan Rilis
-* Menggunakan kernel `linux5.15`.
-* Menggunakan KDE Plasma `5.23.4`.
 * Nama edisi `Pro` menjadi `Studio`.
+* Menggunakan kernel `linux5.15`.
+* Restrukturisasi panduan `l7-docs`.
+* Menggunakan KDE Plasma `5.23.4`.
 * Mengganti `sudo` ke `doas` (OpenDoas). [_Panduan_](https://panduan.langitketujuh.id/aplikasi/opendoas.html).
-* Menambahkan alter mkv pro: `mkvtoolnix-gui`.
+* Menambahkan gui paket manajemen: `octoxbps`.
+* Menambahkan gambar wallpaper baru setiap rilis.
 * Menambahkan pengambil warna: `kcolorchooser`.
+* Menambahkan editor catatan dan sketsa: `xournalpp`.
+* Menambahkan alter mkv pro: `mkvtoolnix-gui mediainfo`.
 * Peningkatan enkripsi signature 4096 repodata `al.quds.repo`.
 * Menambahkan depedensi bluetooth untuk pipewire `bluez-alsa`.
 * Menambahkan pen tablet driver: `digimend-kernel-drivers`. [_Panduan_](https://panduan.langitketujuh.id/driver/pen-tablet.html).
@@ -44,17 +48,12 @@ call_to_action:
 * Menambahkan virtual keyboard display manager: `qt5-virtualkeyboard`.
 * Menambahkan Audio Production pro: `lmms freepats soundfont-fluid`.
 * Menambahkan font baru: `liberation-fonts-ttf font-sil-scheherazade`.
+* Menambahkan perkakas baru: `hddtemp bind-utils tree wmctrl lm_sensors testdisk`.
 * Menambahkan dukungan firmware qualqomm: `linux-firmware linux-firmware-qualcomm`.
 * Menambahkan konfigurasi tambahan: `l7-inkscape l7-opentoonz l7-ssr l7-v4l2loopback`.
-* Menambahkan perkakas baru: `hddtemp ipmitool bind-utils tree freeipmi wmctrl lm_sensors testdisk`.
 * Menambahkan paket grup: `l7-pkg-codec l7-pkg-compiler l7-pkg-compress l7-pkg-kde l7-pkg-kde-apps l7-pkg-rust l7-pkg-wine l7-pkg-xorg`.
-* Menambahkan dukungan akselerasi grafis dengan vulkan: `Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers libspa-vulkan mesa-vulkan-overlay-layer vkBasalt vkd3d amdvlk nv-codec-headers`.
 * Tersedia paket baru: `typecatcher pdfarranger inkscape-generate-palette inkscape-inx-pathops inkscape-multicalendar inkscape-nextgenerator`.
-* Restrukturisasi panduan `l7-docs`.
-* Menambahkan gambar wallpaper baru setiap rilis.
-* [Fix] [Pipewire 0.3.45](https://github.com/void-linux/void-packages/pull/35300).
-* [Fix] [MKVToolNix bug](https://github.com/void-linux/void-packages/pull/35353).
-* [Pending] [Scribus 1.5.8](https://github.com/void-linux/void-packages/pull/35356).
+* Menambahkan dukungan akselerasi grafis dengan vulkan (amd): `Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers libspa-vulkan mesa-vulkan-overlay-layer vkBasalt vkd3d amdvlk`.
 * [Pending] Blender 3.0.1.
 * [Pending] Inkscape 1.2.
 
