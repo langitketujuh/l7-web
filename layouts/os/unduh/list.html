@@ -7,14 +7,14 @@
     <p>Rilis versi: <b>{{ .Params.version | markdownify }}</b></p>
   </div>
     <!--{{ partial "info-release.html" . }} -->
-    {{ partial "info-maintenance.html" . }}
+    <!--{{ partial "info-maintenance.html" . }}-->
 </section>
 
 <section class="section">
   <div class="container pricing-container">
     <div class="row justify-content-center align-items-center">
       <div class="col-lg-3 mb-5 mb-lg-0 px-3 pl-3 px-lg-0">
-        {{ with .Params.LiteMusl }}
+        {{ with .Params.LiteGlibc32 }}
         <div class="card shadow">
           <div class="card-body text-center py-5">
             <!--<h3 class="mb-4">{{ .name | markdownify }}</h3>-->
@@ -68,7 +68,7 @@
         {{ end }}
       </div>
       <div class="col-lg-3 mb-5 mb-lg-0 px-3 pl-3 px-lg-0">
-        {{ with .Params.LiteGlibc32 }}
+        {{ with .Params.LiteMusl }}
         <div class="card shadow">
           <div class="card-body text-center py-5">
             <!--<h3 class="mb-4">{{ .name | markdownify }}</h3>-->
@@ -102,14 +102,14 @@
   <div class="container pricing-container">
     <div class="row justify-content-center align-items-center">
       <div class="col-lg-4 mb-5 mb-lg-0 px-3 pl-3 px-lg-0">
-        {{ with .Params.StudioMusl }}
+        {{ with .Params.StudioGlibc32 }}
         <div class="card shadow">
           <div class="card-body text-center py-5">
             <!--<h3 class="mb-4">{{ .name | markdownify }}</h3>-->
             <span class="price">{{ .type }}</span><span>{{ .type_ver }}</span>
             <p class="lead">{{ .info | markdownify }}</p>
             <hr>
-            <ul class="list-unstyled mb-5 px-3">
+            <ul class="list-unstyled mb-5 px-5">
               {{ range .services }}
               <li>
                 <span>
@@ -156,14 +156,14 @@
         {{ end }}
       </div>
       <div class="col-lg-4 mb-5 mb-lg-0 px-3 pl-3 px-lg-0">
-        {{ with .Params.StudioGlibc32 }}
+        {{ with .Params.StudioMusl }}
         <div class="card shadow">
           <div class="card-body text-center py-5">
             <!--<h3 class="mb-4">{{ .name | markdownify }}</h3>-->
             <span class="price">{{ .type }}</span><span>{{ .type_ver }}</span>
             <p class="lead">{{ .info | markdownify }}</p>
             <hr>
-            <ul class="list-unstyled mb-5 px-5">
+            <ul class="list-unstyled mb-5 px-3">
               {{ range .services }}
               <li>
                 <span>
