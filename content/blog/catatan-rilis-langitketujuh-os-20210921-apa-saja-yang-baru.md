@@ -1,5 +1,5 @@
 ---
-title: "Catatan Rilis Langitketujuh OS 20210921. Apa Saja Yang Baru?"
+title: "Catatan rilis Langitketujuh OS 20210921, apa saja yang baru?"
 date: 2021-09-22T06:44:56+07:00
 image: media/blog/catatan-rilis-langitketujuh-os-20210921-apa-saja-yang-baru.jpg
 opengraph:
@@ -16,7 +16,7 @@ tag:
   - inkscape
   - gimp
   - krita
-draft: true
+draft: false
 ---
 
 Selama beberapa bulan pengembangan iso LangitKetujuh OS akhirnya terlaksana juga. Dengan versi rilis `20210921` yang membawa perubahan yang signifikan. Perubahan tersebut meliputi paket aplikasi baru, depedensi tambahan, audio server, website, branding, ikon favicon, dan server repositori.

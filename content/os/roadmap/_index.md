@@ -21,20 +21,20 @@ call_to_action:
 
 ---
 
-## Dev
+## 20220211 (stabil)
 | **Jadwal**          | **Status** | **Tanggal**                         |
 | :------------------ | :--------: | :---------------------------------- |
 | Pengembangan        |   Sudah    | 22 September 2021 - 20 Januari 2022 |
-| Uji coba tak stabil |   Sudah    | 1 Januari - 20 Januari 2022         |
-| Uji coba stabil     |   Sudah    | 20 Januari - Februari 2022          |
-| Upload berkas iso   |   Belum    | -                                   |
-| **Rilis**           |   Belum    | -                                   |
+| Uji coba tak stabil |   Sudah    | 1 Januari - 31 Januari 2022         |
+| Uji coba stabil     |   Sudah    | 1 - 10 Februari 2022                |
+| Upload berkas iso   |   Sudah    | 11 Februari 2022                    |
+| **Rilis**           |   Sudah    | **12 Februari 2022**                |
 
 ### Catatan Rilis
 * Nama edisi `Pro` menjadi `Studio`.
-* Menggunakan kernel `linux5.15`.
 * Restrukturisasi panduan `l7-docs`.
 * Menggunakan KDE Plasma `5.23.4`.
+* Menggunakan kernel `linux5.15.22`.
 * Mengganti `sudo` ke `doas` (OpenDoas). [_Panduan_](https://panduan.langitketujuh.id/aplikasi/opendoas.html).
 * Menambahkan gui paket manajemen: `octoxbps`.
 * Menambahkan gambar wallpaper baru setiap rilis.
@@ -54,10 +54,10 @@ call_to_action:
 * Menambahkan paket grup: `l7-pkg-codec l7-pkg-compiler l7-pkg-compress l7-pkg-kde l7-pkg-kde-apps l7-pkg-rust l7-pkg-wine l7-pkg-xorg`.
 * Tersedia paket baru: `typecatcher pdfarranger inkscape-generate-palette inkscape-inx-pathops inkscape-multicalendar inkscape-nextgenerator`.
 * Menambahkan dukungan akselerasi grafis dengan vulkan (amd): `Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers libspa-vulkan mesa-vulkan-overlay-layer vkBasalt vkd3d amdvlk`.
-* [Pending] Blender 3.0.1.
-* [Pending] Inkscape 1.2.
+* ~~[Pending] Blender 3.0.1~~.
+* ~~[Pending] Inkscape 1.2~~.
 
-## 20210921 (stabil)
+## 20210921
 | **Jadwal**          | **Status** | **Tanggal**                |
 | :------------------ | :--------: | :------------------------- |
 | Pengembangan        |  Selesai   | 30 Juni - 5 September 2021 |
