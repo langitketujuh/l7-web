@@ -27,7 +27,7 @@ Pengguna dapat melihat perbedaan setiap edisi di [halaman panduan](https://pandu
 
 ### Halaman panduan
 
-Perubahan di halaman panduan beberapa tautan mungkin akan berubah, sebab 70% telah dirubah alamat setiap tautannya agar lebih terstruktur lagi. Beberapa tambahan lain yaitu menambahkan daftar perangkat lunak multimedia untuk dijelaskan semudah mungkin untuk dibaca oleh pengguna awam. Seperti misi kami sebelumnya yang tidak hanya membuat sistem operasi saja, tetapi mengenalkan juga macam-macam perangkat lunak bebas sebagai solusi untuk penunjang kebutuhan multimedia.
+Perubahan di halaman panduan beberapa tautan mungkin akan berubah, sebab 70% konten telah dirubah alamat tautannya agar lebih terstruktur lagi. Beberapa tambahan lain yaitu menambahkan daftar perangkat lunak multimedia untuk dijelaskan semudah mungkin bagi pengguna awam. Kami tidak hanya membuat sistem operasi saja, tetapi mengenalkan juga macam-macam perangkat lunak bebas sebagai solusi untuk penunjang kebutuhan multimedia dan tetap produktif.
 
 {{< figure src=/media/blog/aplikasi-panduan-offline-langitketujuh.webp alt="Dokumentasi-offline LangitKetujuh OS">}}
 
@@ -41,7 +41,7 @@ Beberapa perangkat lunak di edisi studio yang ditambahkan antara lain:
 
 Beberapa paket baru yang tersedia di repositori:
 
-- `typecatcher` untuk memasang google font secara terpisah.
+- `typecatcher` memasang google font secara terpisah.
 - `pdfarranger` mengolah halaman pdf.
 - `inkscape-generate-palette` ekstensi untuk palet warna.
 - `inkscape-inx-pathops` ekstensi untuk multi path proses.
@@ -50,7 +50,7 @@ Beberapa paket baru yang tersedia di repositori:
 
 ### Dukungan Vulkan untuk AMD
 
-Teknologi [Vulkan](https://panduan.langitketujuh.id/konfigurasi/driver/grafis/vulkan.html) yang dimana mengoptimalkan tampilan visual grafis OpenGL. Beberapa ujicoba yang kami lakukan sebelumnya dengan AMD Stoney low-end, dengan memasang vulkan meningkatkan performa dan skor nilai bencmark dari `glmark` memiliki skor lebih tinggi dari pada yang sebelumnya tidak memasang vulkan.
+Teknologi [Vulkan](https://panduan.langitketujuh.id/konfigurasi/driver/grafis/vulkan.html) yang dimana mengoptimalkan tampilan visual grafis OpenGL. Beberapa uji coba yang kami lakukan sebelumnya dengan AMD Stoney low-end, dengan memasang vulkan meningkatkan performa dan skor nilai benchmark dari `glmark` memiliki skor lebih tinggi dari pada yang sebelumnya tidak memasang vulkan.
 
 |   Sebelum memasang   |   Sesudah memasang   |
 | :------------------: | :------------------: |
@@ -58,15 +58,15 @@ Teknologi [Vulkan](https://panduan.langitketujuh.id/konfigurasi/driver/grafis/vu
 
 ### Opendoas alternatif sudo
 
-Pada dasarnya `doas` memiliki fungsi yang sama dengan `sudo` namun lebih mudah untuk dikonfigurasi. Tetapi `sudo` masih bisa digunakan seperti biasanya. Jika ingin merubah autokomplit `doas` di `fish-shell` bisa di perbarui sistem dahulu lalu ikuti petunjuk di panduan [OpenDoas](https://panduan.langitketujuh.id/konfigurasi/administrator/opendoas.html).
+Pada dasarnya `doas` memiliki fungsi yang sama dengan `sudo` namun lebih mudah untuk dikonfigurasi. Tetapi `sudo` masih bisa digunakan seperti biasanya. Jika ingin merubah autokomplit `doas` di `fish-shell` bisa mengikuti halaman panduan [OpenDoas](https://panduan.langitketujuh.id/konfigurasi/administrator/opendoas.html).
 
 ### Dukungan pen tablet
 
-Kami telah memaketkan `digimend-kernel-drivers` agar mendukung perangkat keras lainnya seperti Huion, KYE, Polostar, UC-Logic, UGTizer, Ugee, ViewSonic, Waltop, XP-Pen, dan Yiynova. [Digimend driver](https://panduan.langitketujuh.id/konfigurasi/driver/pen-tablet/digimend.html) sudah terpasang otomatis untuk versi rilis saat ini.
+Kami telah memaketkan `digimend-kernel-drivers` agar mendukung perangkat keras pen tablet lainnya seperti Huion, KYE, Polostar, UC-Logic, UGTizer, Ugee, ViewSonic, Waltop, XP-Pen, dan Yiynova. [Digimend driver](https://panduan.langitketujuh.id/konfigurasi/driver/pen-tablet/digimend.html) sudah terpasang secara otomatis untuk versi rilis saat ini.
 
 ### Wallpaper
 
-Kami berusaha membuat gambar wallpaper baru disetiap rilisnya dan menggunakan svg wallpaper (bukan gambar jpg/png) agar lebih jernih dan ukurannya ringan. Tentunya dibuat dengan [Inkscape](https://panduan.langitketujuh.id/aplikasi/grafis/inkscape). Tetapi ada batasan tertentu dalam pembuatan wallpaper itu sendiri, tidak boleh adanya filter (blur, glow, dll), clip, path effect. Hal ini menjadi tantangan sendiri untuk tim desain grafis dan wallpaper akan bertambah disetiap rilisnya.
+Kami berusaha membuat gambar wallpaper baru disetiap rilisnya dan menggunakan svg wallpaper (bukan gambar jpg/png) agar lebih jernih dan ukurannya lebih ringan. Tentunya dibuat dengan [Inkscape](https://panduan.langitketujuh.id/aplikasi/grafis/inkscape). Tetapi ada batasan tertentu dalam pembuatan wallpaper itu sendiri, tidak boleh menggunakan filter (blur, glow, dll), clip, path effect. Hal ini menjadi tantangan tersendiri bagi pengembang.
 
 {{< figure src=/media/blog/wallpaper-langitketujuh.webp alt="Wallpaper LangitKetujuh OS">}}
 
@@ -74,7 +74,7 @@ Kami berusaha membuat gambar wallpaper baru disetiap rilisnya dan menggunakan sv
 
 ### Pengaturan tambahan
 
-LangitKetujuh telah membuat pengaturan tambahan untuk beberapa perangkat lunak yang umum digunakan untuk multimedia. Seperti inkscape, gimp, krita, blender, dsb. Tujuannya agar pengguna tidak mengatur lagi pengaturan khusus yang sifatnya dasar.
+LangitKetujuh telah membuat pengaturan tambahan untuk beberapa perangkat lunak yang umum digunakan di bidang multimedia. Seperti inkscape, gimp, krita, blender, dsb. Tujuannya agar pengguna tidak mengatur lagi pengaturan khusus yang sifatnya dasar.
 
 Pengaturan tambahan Inkscape:
 - Menggunakan latar belakang gelap transparan (dark-check).
