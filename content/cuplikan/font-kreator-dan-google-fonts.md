@@ -19,4 +19,4 @@ FontForge Editor tersedia untuk Windows, OS X, dan Linux. Tentunya di LangitKetu
 
 ## Google Fonts
 
-Google font merupakan font yang berlisensi OFL (Open Font License) yang mengutamakan performa untuk memuat font di browser. Biasanya digunakan oleh web desainer, ui/ix, dan tipografi ilustrator. Di LangitKetujuh Pro sudah terinstall Google Fonts dengan jumlah sekitar 1200+ font.
+Google font merupakan font yang berlisensi OFL (Open Font License) yang mengutamakan performa untuk memuat font di browser. Biasanya digunakan oleh web desainer, ui/ix, dan tipografi ilustrator. Di LangitKetujuh studio sudah terinstall Google Fonts dengan jumlah sekitar 1200+ font.

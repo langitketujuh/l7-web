@@ -3,7 +3,7 @@ title: "Fitur OS"
 subtitle: Edisi Studio untuk kebutuhan profesional. Pilih sesuai kebutuhan!
 # meta description
 type: "os/fitur"
-description: "Perbandingan antara fitur lite dan pro. Lite untuk kebutuhan sederhana, sedangkan pro untuk kebutuhan profesional."
+description: "Perbandingan antara fitur lite dan studio. Edisi lite untuk kebutuhan umum, sedangkan edisi studio untuk kebutuhan profesional."
 image: media/beranda/thumbnail.jpg
 opengraph:
   image: media/beranda/thumbnail.jpg

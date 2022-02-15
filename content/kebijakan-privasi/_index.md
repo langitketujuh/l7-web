@@ -25,7 +25,7 @@ Server web kami menggunakan layanan CI/CD [Netlify](https://netlify.com) untuk m
 
   Kami mengumpulkan data dengan layanan CI/CD [Netlify](https://netlify.com) yang ditampilkan di halaman formulir [pro-musl](../pro-musl), [pro-glibc](../pro-glibc), [kabari](../kabari), [feedback](../feedback), [kerjasama](../kerjasama) dan juga alamat IP pengunjung dan string agen pengguna browser untuk membantu deteksi spam.
 
-  Kami menyimpan data formulir pengguna Pro berupa: Nama lengkap, Surel (email) dan Akun telegram. Hal ini bertujuan untuk memudahkan panggilan bantuan instalasi dan seputar masalah sistem operasi.
+  Kami menyimpan data formulir pengguna studio berupa: Nama lengkap, Surel (email) dan Akun telegram. Hal ini bertujuan untuk memudahkan panggilan bantuan instalasi dan seputar masalah sistem operasi.
 
   ##### Komentar
 
