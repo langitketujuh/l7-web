@@ -274,24 +274,29 @@ URL = "komunitas"
 weight = 1
 
 [[menu.dukungan]]
+name = "Para pendukung"
+URL = "pendukung"
+weight = 2
+
+[[menu.dukungan]]
 name = "Feedback"
 URL = "feedback"
-weight = 2
+weight = 3
 
 [[menu.dukungan]]
 name = "Kerjasama"
 URL = "kerjasama"
-weight = 3
+weight = 4
 
 [[menu.dukungan]]
 name = "Roadmap"
 URL = "os/roadmap"
-weight = 4
+weight = 5
 
 [[menu.dukungan]]
 name = "Tautan Bio"
 URL = "https://link.langitketujuh.id"
-weight = 5
+weight = 6
 
 # PARAMETER
 
