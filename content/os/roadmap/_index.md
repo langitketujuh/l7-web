@@ -21,6 +21,37 @@ call_to_action:
 
 ---
 
+## Pengembangan
+| **Jadwal**          | **Status** | **Tanggal**                         |
+| :------------------ | :--------: | :---------------------------------- |
+| Pengembangan        |   Proses   | Mulai 12 Februari 2022 |
+| Uji coba tak stabil |   Proses   | Mulai 12 Februari 2022 |
+| Uji coba stabil     |   Proses   | Mulai 12 Februari 2022 |
+| Upload berkas iso   |   Belum    | Belum ditentukan |
+| **Rilis**           |   Belum    | Belum ditentukan |
+
+### Catatan Rilis
+
+- Menggunakan sesi `waylandplasma` secara bawaan (sebelumnya menggunakan `X11`). Banyak benefit yang ditawarkan dari wayland khususnya latensi yang rendah dan manajemen protokol grafis yang lebih baik.
+- Dikarenakan menggunakan sesi wayland, beberapa perangkat lunak yang belum kompatibel dengan wayland akan dihapus. Seperti Hugin panorama, `ssr`, `kcm-wacomtablet`, dan `flameshoot`. Perekam desktop kami sarankan menggunakan OBS studio karena telah mendukung wayland. Pengguna pen tablet wacom tidak akan menemui pengaturan tablet di pengaturan sistem, tetapi masih bisa digunakan dengan `libwacom` secara bawaan.
+- Beberapa aplikasi ditambahkan untuk kebutuhan audio production: `Carla`, `cadence`, `calf`, `qjackctl`. Terutama digunakan untuk podcast secara profesional dengan jack audio connection kit.
+- Penambahan depedensi `opencv` untuk kdenlive agar dapat menggunakan fitur tracker motion.
+- Penambahan depedensi `rnnoise` untuk anti noise di OBS Studio dan `abGate` lv2 di Carla.
+- Fish-shell sudah tidak menggunakan singkatan (abbreviation) lagi. Sekarang menggunakan fungsi. Sehingga perintah fungsi `get`, `remove`, `update`, `upgrade`, `list`, `repo`, `info` sudah bisa langsung digunakan. Beberapa perintah direvisi, seperti `update` diganti ke `upgrade`, `sync` diganti ke `update`, `repolist` diganti ke `repo`. Fungsi tersebut juga mendukung di bash-shell. Bahkan bisa dijalankan di pengguna root.
+- Fix suara untuk multiuser. Pipewire sebelumnya hanya bisa diakses oleh grup `wheel` (pengguna dengan akses administrator). Sekarang pengguna standar (tanpa akses administrator) bisa mengaktifkan suara dengan pipewire.
+- Fix theme wayland. Beberapa aplikasi gtk tidak mendukung tema bawaan qt di wayland, sekarang sudah menggunakan tema yang general.
+- Penghapusan aplikasi KDE yang jarang digunakan. Seperti: `kget`, `kgpg`, `krdc`, dan `krfb`.
+- Penghapusan `font-sil-alkalami`, `font-sil-awami-nastaliq`, `font-sil-harmattan`, `font-sil-lateef`, `font-sil-scheherazade`, `noto-fonts-cjk`, `noto-fonts-emoji`. Sebab font ini hanyalah pilihan.
+- Penghapusan depedensi yang tidak diperlukan dan yang tidak terikat sebagai depedensi.
+- Installer sudah ada di menu dan sudah mendukung `btrfs` untuk mountpoint @subvolume `/`.
+- Ukuran iso lebih ringan, edisi studio dari 5.3GB menjadi 4.8GB.
+
+### Pending
+
+- Blender 3.1+ dari repo voidlinux.
+- Inkscape 2.1+ dari repo voidlinux.
+- FreeCAD 0.20 dari upstream dan repo voidlinux agar mendukung wayland.
+
 ## 20220211 (stabil)
 | **Jadwal**          | **Status** | **Tanggal**                         |
 | :------------------ | :--------: | :---------------------------------- |
