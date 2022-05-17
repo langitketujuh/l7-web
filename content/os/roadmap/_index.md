@@ -32,20 +32,22 @@ call_to_action:
 
 ### Catatan Rilis
 
-- Tetap menggunakan `plasma` X11 (perencanaan menggunakan wayland sebagai sesi utama dibatalkan, tetapi tidak menutup kemungkinan rilis selanjutnya menggunakan wayland sebagai sesi utama). ~~Menggunakan sesi `waylandplasma` secara bawaan (sebelumnya menggunakan `X11`). Banyak benefit yang ditawarkan dari wayland khususnya latensi yang rendah dan manajemen protokol grafis yang lebih baik.~~
-- Agar mengoptimalkan penggunaan sesi wayland meskipun saat ini masih menggunakan X11, beberapa perangkat lunak yang belum kompatibel dengan wayland akan dihapus. Seperti Hugin panorama, `ssr`, `kcm-wacomtablet`, dan `flameshoot`. Perekam desktop kami sarankan menggunakan OBS studio karena telah mendukung wayland. Pengguna pen tablet wacom tidak akan menemui pengaturan tablet di pengaturan sistem, tetapi masih bisa digunakan dengan `libwacom` secara bawaan.
+- Menggunakan sesi `wayland` secara bawaan (sebelumnya menggunakan `plasma` X11). Banyak benefit yang ditawarkan dari wayland khususnya latensi yang rendah dan manajemen protokol grafis yang lebih baik.
+- Agar mengoptimalkan penggunaan sesi wayland, beberapa perangkat lunak yang belum kompatibel dengan wayland akan dihapus. Seperti Hugin panorama, `ssr`, `kcm-wacomtablet`, dan `flameshoot`. Perekam desktop kami sarankan menggunakan OBS studio karena telah mendukung wayland. Pengguna pen tablet wacom tidak akan menemui pengaturan tablet di pengaturan sistem, tetapi masih bisa digunakan dengan `libwacom` secara bawaan.
 - Beberapa aplikasi ditambahkan untuk kebutuhan audio production: `Carla`, `cadence`, `calf`, `qjackctl`. Terutama digunakan untuk podcast secara profesional dengan jack audio connection kit.
+- Pipewire menggunakan `wireplumber` sebagai media sesi utama. Sebelumnya menggunakan `pipewire-media-session`.
 - Fish-shell sudah tidak menggunakan singkatan (abbreviation) lagi. Sekarang menggunakan fungsi. Sehingga perintah fungsi `get`, `remove`, `update`, `upgrade`, `list`, `repo`, `info` sudah bisa langsung digunakan. Beberapa perintah direvisi, seperti `update` diganti ke `upgrade`, `sync` diganti ke `update`, `repolist` diganti ke `repo`. Fungsi tersebut juga mendukung di bash-shell. Bahkan bisa dijalankan di pengguna root.
 - Fix suara untuk multiuser. Pipewire sebelumnya hanya bisa diakses oleh grup `wheel` (pengguna dengan akses administrator). Sekarang pengguna standar (tanpa akses administrator) bisa mengaktifkan suara dengan pipewire.
 - Fix theme wayland. Beberapa aplikasi gtk tidak mendukung tema bawaan qt di wayland, sekarang sudah menggunakan tema yang general.
 - Penggantian `vlc` menjadi `dragon-player`. Alasan utamanya lebih ringan, fitur standar dan tentunya mendukung wayland.
-- Penambahan `kmail` sebagai klien email, tentunya akan meningkatkan produktifitas pengguna sebab hampir semua orang memerlukan email.
+- Penambahan `kmail` sebagai klien email, perangkat lunak ini akan meningkatkan produktifitas pengguna sebab hampir semua orang memerlukan email.
 - Penambahan `akregator` sebagai klien berlanggan berita dari situs.
 - Penambahan depedensi `opencv` untuk kdenlive agar dapat menggunakan fitur tracker motion.
 - Penambahan depedensi `rnnoise` untuk anti noise di OBS Studio dan `abGate` lv2 di Carla.
 - Penghapusan `font-sil-alkalami`, `font-sil-awami-nastaliq`, `font-sil-harmattan`, `font-sil-lateef`, `font-sil-scheherazade`, `noto-fonts-cjk`, `noto-fonts-emoji`. Sebab font ini hanyalah pilihan.
 - Penghapusan aplikasi KDE yang jarang digunakan. Seperti: `kget`, `kgpg`, `krdc`, dan `krfb`.
 - Penghapusan depedensi yang tidak diperlukan dan yang tidak terikat sebagai depedensi.
+- Penghapusan dukungan FluidR3 Soundfont `soundfont-fluid`.
 - Installer sudah ada di menu dan sudah mendukung `btrfs` untuk mountpoint @subvolume `/`.
 
 ### Pending
