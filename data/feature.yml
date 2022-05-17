@@ -1,6 +1,10 @@
 enable: true
 title: "Handal dan Terbaru"
 feature_item:
+  - name: "Wayland"
+    icon: "ti-infinite"
+    content: "Protokol komunikasi yang lebih sederhana, modern dan aman. Menjadi sesi utama dan pengganti X11 display server."
+
   - name: "XBPS"
     icon: "ti-package"
     content: "Paket manajer yang ringan dan cepat. Serta dukungan perangkat lunak yang stabil dan terbarukan (Rilis bergulir)."
@@ -18,12 +22,16 @@ feature_item:
     content: "Lingkungan destop yang ringan, mudah, dan handal. Didukung dengan aplikasi KDE seperti Elisa dan KDE Connect."
 
   - name: "Vulkan API"
-    icon: "ti-infinite"
+    icon: "ti-game"
     content: "Vulkan menarketkan performa tinggi untuk 3D grafis dengan penggunaan CPU dan GPU yang lebih seimbang."
 
-  - name: "Pipewire"
+  - name: "PipeWire"
     icon: "ti-headphone"
     content: "Pemutaran multimedia dengan minimal latensi dan dukungan aplikasi berbasis PulseAudio, JACK, ALSA dan GStreamer."
+
+  - name: "WirePlumber"
+    icon: "ti-panel"
+    content: "Media sesi modular untuk PipeWire dan pustaka tingkat tinggi berbasis GObject yang membungkus API PipeWire."
 
   - name: "ZRAM"
     icon: "ti-pulse"
