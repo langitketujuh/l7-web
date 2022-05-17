@@ -57,7 +57,7 @@ service_item:
   - title: "Audio dan Video non-linear editing"
     images:
       - "media/beranda/service-audio-video.webp"
-    content: "Audacity sebagai aplikasi pengoreksi suara tertentu. OBS Studio sebagai perekam desktop. SSR perekam yang minimalis. SoundKonverter sebagai konverter audio."
+    content: "Audacity sebagai aplikasi pengoreksi suara tertentu. OBS Studio sebagai perekam desktop. SoundKonverter sebagai konverter audio. Dukungan Jack dengan Cadence dan Carla."
     button:
       enable: true
       label: "Lebih detail"
@@ -80,32 +80,3 @@ service_item:
       enable: true
       label: "Lebih detail"
       link: "cuplikan/perlengkapan-perkantoran"
-
-  #----------------------------------------------------------
-
-  #- title : "KDE Plasma lingkungan desktop"
-  #images:
-  #- "media/beranda/service-game-maker.webp"
-  #content : "KDE Plasma menawarkan kemudahan dalam tampilannya, menyesuaikan kebutuhan Anda dengan aman, perlindungan privasi, menjadi kreatif dan produktif di tempat kerja. Serta menggunakan perangkat lunak sumber terbuka bebas dan terbaik."
-  #button:
-  #enable : false
-  #label : "Fitur lebih lanjut"
-  #link : "fitur"
-
-  #- title : "Dukungan performa lebih baik dengan runit init"
-  #images:
-  #- "media/beranda/service-b1.svg"
-  #content : "Runit lebih sederhana dan berukuran kecil, runit juga dapat menggantikan sysvinit sebagai pid1. Secara konsep runit membangun struktur depedensi yang fleksibel dan sistem terdistribusi, atau mempercepat perubahan runlevel paralel dengan cepat (termasuk boot awal)."
-  #button:
-  #enable : false
-  #label : "Fitur lebih lanjut"
-  #link : "runit"
-
-  #- title : "Lebih efisien dengan musl libc"
-  #images:
-  #- "media/beranda/service-c1.svg"
-  #content : "Efisiensi musl tidak tertandingi dalam implementasi libc Linux. Dirancang dari bawah ke atas untuk tautan statis. musl juga menampilkan implementasi post-NPTL, implementasi POSIX pertama untuk Linux, dan yang pertama ditujukan untuk kesesuaian dan ketahanan yang lengkap."
-  #button:
-  #enable : false
-  #label : "Fitur lebih lanjut"
-  #link : "musl"
