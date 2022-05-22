@@ -34,7 +34,8 @@
             </div>
             <div class="col-md-4">
               <label>Unggah bukti:</a></label>
-              <input type="file" id="bukti_donasi" name="bukti_donasi" placeholder="Unggah berkas" required="true" />
+              <input id="max_id" type="hidden" name="MAX_FILE_SIZE" value="500000" />
+              <input onchange="upload_check()" type="file" accept="image/x-png, image/gif, image/jpeg" accept="image/x-png, image/gif, image/jpeg" id="bukti_donasi" name="bukti_donasi" placeholder="Unggah berkas" required="true" />
             </div>
           </div>
           <div class="mb-3">
