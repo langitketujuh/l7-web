@@ -39,15 +39,18 @@ call_to_action:
 - Fish-shell sudah tidak menggunakan singkatan (abbreviation) lagi. Sekarang menggunakan fungsi. Sehingga perintah fungsi `get`, `remove`, `update`, `upgrade`, `list`, `repo`, `info` sudah bisa langsung digunakan. Beberapa perintah direvisi, seperti `update` diganti ke `upgrade`, `sync` diganti ke `update`, `repolist` diganti ke `repo`. Fungsi tersebut juga mendukung di bash-shell. Bahkan bisa dijalankan di pengguna root.
 - Fix suara untuk multiuser. Pipewire sebelumnya hanya bisa diakses oleh grup `wheel` (pengguna dengan akses administrator). Sekarang pengguna standar (tanpa akses administrator) bisa mengaktifkan suara dengan pipewire.
 - Fix theme wayland. Beberapa aplikasi gtk tidak mendukung tema bawaan qt di wayland, sekarang sudah menggunakan tema yang general.
+- Menambahkan Goxel 3D voxel editor (`goxel`). Goxel kompatibel dengan blender dan godot `gitf` format, sehingga memudahkan untuk lintas software.
 - Penggantian `vlc` menjadi `dragon-player`. Alasan utamanya lebih ringan, fitur standar dan tentunya mendukung wayland.
-- Penambahan `kmail` sebagai klien email, perangkat lunak ini akan meningkatkan produktifitas pengguna sebab hampir semua orang memerlukan email.
-- Penambahan `akregator` sebagai klien berlanggan berita dari situs.
-- Penambahan depedensi `opencv` untuk kdenlive agar dapat menggunakan fitur tracker motion.
-- Penambahan depedensi `rnnoise` untuk anti noise di OBS Studio dan `abGate` lv2 di Carla.
-- Penghapusan `font-sil-alkalami`, `font-sil-awami-nastaliq`, `font-sil-harmattan`, `font-sil-lateef`, `font-sil-scheherazade`, `noto-fonts-cjk`, `noto-fonts-emoji`. Sebab font ini hanyalah pilihan.
-- Penghapusan aplikasi KDE yang jarang digunakan. Seperti: `kget`, `kgpg`, `krdc`, dan `krfb`.
-- Penghapusan depedensi yang tidak diperlukan dan yang tidak terikat sebagai depedensi.
-- Penghapusan dukungan FluidR3 Soundfont `soundfont-fluid`.
+- Menambahkan `bottom` (`btm`) sebagai cli monitor sistem manager.
+- Menambahkan `kmail` sebagai klien email, perangkat lunak ini akan meningkatkan produktifitas pengguna sebab hampir semua orang memerlukan email.
+- Menambahkan `akregator` sebagai klien berlanggan berita dari situs.
+- Menambahkan depedensi `opencv` untuk kdenlive agar dapat menggunakan fitur tracker motion.
+- Menambahkan depedensi `rnnoise` untuk anti noise di OBS Studio dan `abGate` lv2 di Carla.
+- Menghapus `font-sil-alkalami`, `font-sil-awami-nastaliq`, `font-sil-harmattan`, `font-sil-lateef`, `font-sil-scheherazade`, `noto-fonts-cjk`, `noto-fonts-emoji`. Sebab font ini hanyalah pilihan.
+- Menghapus `displayGUI` karena belum mendukung profil warna di wayland.
+- Menghapus aplikasi KDE yang jarang digunakan. Seperti: `kget`.
+- Menghapus depedensi yang tidak diperlukan dan yang tidak terikat sebagai depedensi.
+- Menghapus dukungan FluidR3 Soundfont `soundfont-fluid`.
 - Installer sudah ada di menu dan sudah mendukung `btrfs` untuk mountpoint @subvolume `/`.
 
 ### Pending
