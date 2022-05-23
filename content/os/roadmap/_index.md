@@ -33,14 +33,14 @@ call_to_action:
 ### Catatan Rilis
 
 - Menggunakan sesi `wayland` secara bawaan (sebelumnya menggunakan `plasma` X11). Banyak benefit yang ditawarkan dari wayland khususnya latensi yang rendah dan manajemen protokol grafis yang lebih baik.
-- Agar mengoptimalkan penggunaan sesi wayland, beberapa perangkat lunak yang belum kompatibel dengan wayland akan dihapus. Seperti Hugin panorama, `ssr`, `kcm-wacomtablet`, dan `flameshoot`. Perekam desktop kami sarankan menggunakan OBS studio karena telah mendukung wayland. Pengguna pen tablet wacom tidak akan menemui pengaturan tablet di pengaturan sistem, tetapi masih bisa digunakan dengan `libwacom` secara bawaan.
+- Agar mengoptimalkan penggunaan sesi wayland, beberapa perangkat lunak yang belum kompatibel dengan wayland akan dihapus. Seperti `hugin`, `dispcalGUI`, `ssr`, `kcm-wacomtablet`, dan `flameshoot`. Perekam desktop kami sarankan menggunakan OBS studio karena telah mendukung wayland. Pengguna pen tablet wacom tidak akan menemui pengaturan tablet di pengaturan sistem, tetapi masih bisa digunakan dengan `libwacom` secara bawaan.
 - Beberapa aplikasi ditambahkan untuk kebutuhan audio production: `Carla`, `cadence`, `calf`, `qjackctl`. Terutama digunakan untuk podcast secara profesional dengan jack audio connection kit.
 - Pipewire menggunakan `wireplumber` sebagai media sesi utama. Sebelumnya menggunakan `pipewire-media-session`.
 - Fish-shell sudah tidak menggunakan singkatan (abbreviation) lagi. Sekarang menggunakan fungsi. Sehingga perintah fungsi `get`, `remove`, `update`, `upgrade`, `list`, `repo`, `info` sudah bisa langsung digunakan. Beberapa perintah direvisi, seperti `update` diganti ke `upgrade`, `sync` diganti ke `update`, `repolist` diganti ke `repo`. Fungsi tersebut juga mendukung di bash-shell. Bahkan bisa dijalankan di pengguna root.
 - Fix suara untuk multiuser. Pipewire sebelumnya hanya bisa diakses oleh grup `wheel` (pengguna dengan akses administrator). Sekarang pengguna standar (tanpa akses administrator) bisa mengaktifkan suara dengan pipewire.
 - Fix theme wayland. Beberapa aplikasi gtk tidak mendukung tema bawaan qt di wayland, sekarang sudah menggunakan tema yang general.
 - Menambahkan Goxel 3D voxel editor (`goxel`). Goxel kompatibel dengan blender dan godot dengan format `gitf`, yang mana `gitf` merupakan ekstensi format 3D yang terbuka sehingga memudahkan untuk lintas software.
-- Menambahkan fitur `plasma-vault` beserta dukungan enkripsi `cryfs`, `encfs`, dan `gocryptfs`. Plasma vault berguna untuk menyimpan berkas dan data pengguna sensitif dan rahasia. Plasma vault sudah terkonfigurasi bersama widget systray di bagian panel.
+- Menambahkan fitur `plasma-vault` beserta dukungan enkripsi `cryfs`, `encfs`, dan `gocryptfs`. Plasma vault berguna untuk menyimpan berkas yang bersifat rahasia dan penting. Plasma vault sudah terkonfigurasi bersama widget systray di bagian panel.
 - Penggantian `vlc` menjadi `dragon-player`. Alasan utamanya lebih ringan, fitur standar dan tentunya mendukung wayland.
 - Menambahkan `bottom` (`btm`) sebagai cli monitor sistem manager.
 - Menambahkan `kmail` sebagai klien email, perangkat lunak ini akan meningkatkan produktifitas pengguna sebab hampir semua orang memerlukan email.
@@ -48,7 +48,6 @@ call_to_action:
 - Menambahkan depedensi `opencv` untuk kdenlive agar dapat menggunakan fitur tracker motion.
 - Menambahkan depedensi `rnnoise` untuk anti noise di OBS Studio dan `abGate` lv2 di Carla.
 - Menghapus `font-sil-alkalami`, `font-sil-awami-nastaliq`, `font-sil-harmattan`, `font-sil-lateef`, `font-sil-scheherazade`, `noto-fonts-cjk`, `noto-fonts-emoji`. Sebab font ini hanyalah pilihan.
-- Menghapus `displayGUI` karena belum mendukung profil warna di wayland.
 - Menghapus aplikasi KDE yang jarang digunakan. Seperti: `kget`.
 - Menghapus depedensi yang tidak diperlukan dan yang tidak terikat sebagai depedensi.
 - Menghapus dukungan FluidR3 Soundfont `soundfont-fluid`.
@@ -57,8 +56,9 @@ call_to_action:
 ### Pending
 
 - Blender 3.1+ dari repo voidlinux.
-- Inkscape 2.1+ dari repo voidlinux.
-- FreeCAD 0.20 dari upstream dan repo voidlinux agar mendukung wayland.
+- Inkscape 1.2+ dari repo voidlinux.
+- Goxel 0.10.8+ dari repo voidlinux.
+- FreeCAD 0.20+ dari upstream dan repo voidlinux agar mendukung wayland.
 
 ## 20220211 (stabil)
 | **Jadwal**          | **Status** | **Tanggal**                         |
