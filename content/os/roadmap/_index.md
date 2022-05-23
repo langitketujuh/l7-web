@@ -39,7 +39,8 @@ call_to_action:
 - Fish-shell sudah tidak menggunakan singkatan (abbreviation) lagi. Sekarang menggunakan fungsi. Sehingga perintah fungsi `get`, `remove`, `update`, `upgrade`, `list`, `repo`, `info` sudah bisa langsung digunakan. Beberapa perintah direvisi, seperti `update` diganti ke `upgrade`, `sync` diganti ke `update`, `repolist` diganti ke `repo`. Fungsi tersebut juga mendukung di bash-shell. Bahkan bisa dijalankan di pengguna root.
 - Fix suara untuk multiuser. Pipewire sebelumnya hanya bisa diakses oleh grup `wheel` (pengguna dengan akses administrator). Sekarang pengguna standar (tanpa akses administrator) bisa mengaktifkan suara dengan pipewire.
 - Fix theme wayland. Beberapa aplikasi gtk tidak mendukung tema bawaan qt di wayland, sekarang sudah menggunakan tema yang general.
-- Menambahkan Goxel 3D voxel editor (`goxel`). Goxel kompatibel dengan blender dan godot `gitf` format, sehingga memudahkan untuk lintas software.
+- Menambahkan Goxel 3D voxel editor (`goxel`). Goxel kompatibel dengan blender dan godot dengan format `gitf`, yang mana `gitf` merupakan ekstensi format 3D yang terbuka sehingga memudahkan untuk lintas software.
+- Menambahkan fitur `plasma-vault` beserta dukungan enkripsi `cryfs`, `encfs`, dan `gocryptfs`. Plasma vault berguna untuk menyimpan berkas dan data pengguna sensitif dan rahasia. Plasma vault sudah terkonfigurasi bersama widget systray di bagian panel.
 - Penggantian `vlc` menjadi `dragon-player`. Alasan utamanya lebih ringan, fitur standar dan tentunya mendukung wayland.
 - Menambahkan `bottom` (`btm`) sebagai cli monitor sistem manager.
 - Menambahkan `kmail` sebagai klien email, perangkat lunak ini akan meningkatkan produktifitas pengguna sebab hampir semua orang memerlukan email.
