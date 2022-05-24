@@ -12,7 +12,7 @@ liteglibc32:
   name:
   type: Lite
   type_ver:
-  info: i686
+  info: i686 (32bit)
   services:
   - Aplikasi & driver nonfree dan hardware lama.
   button:
@@ -23,7 +23,7 @@ liteglibc:
   name:
   type: Lite
   type_ver:
-  info: x86_64
+  info: x86_64 (64bit)
   services:
   - Mendukung aplikasi & driver nonfree.
   button:
@@ -34,7 +34,7 @@ litemusl:
   name:
   type: Lite
   type_ver:
-  info: x86_64-musl
+  info: x86_64-musl (64bit)
   services:
   - Lebih ringan dan efisien dengan musl libc.
   button:
@@ -46,7 +46,7 @@ studioglibc32:
   name:
   type: Studio
   type_ver:
-  info: i686
+  info: i686 (32bit)
   services:
   - Dukungan instalasi.
   - Aplikasi & driver nonfree dan hardware lama.
@@ -59,7 +59,7 @@ studioglibc:
   name:
   type: Studio
   type_ver:
-  info: x86_64
+  info: x86_64 (64bit)
   services:
   - Dukungan instalasi.
   - Mendukung aplikasi & driver nonfree.
@@ -72,7 +72,7 @@ studiomusl:
   name:
   type: Studio
   type_ver:
-  info: x86_64-musl
+  info: x86_64-musl (64bit)
   services:
   - Dukungan instalasi.
   - Lebih ringan dan efisien dengan musl libc.
