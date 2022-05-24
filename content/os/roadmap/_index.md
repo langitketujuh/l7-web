@@ -34,7 +34,7 @@ call_to_action:
 
 - Menggunakan sesi `wayland` secara bawaan (sebelumnya menggunakan `plasma` X11). Banyak benefit yang ditawarkan dari wayland khususnya latensi yang rendah dan manajemen protokol grafis yang lebih baik.
 - Agar mengoptimalkan penggunaan sesi wayland, beberapa perangkat lunak yang belum kompatibel dengan wayland akan dihapus. Seperti `hugin`, `dispcalGUI`, `ssr`, `kcm-wacomtablet`, dan `flameshoot`. Perekam desktop kami sarankan menggunakan OBS studio karena telah mendukung wayland. Pengguna pen tablet wacom tidak akan menemui pengaturan tablet di pengaturan sistem, tetapi masih bisa digunakan dengan `libwacom` secara bawaan.
-- Beberapa aplikasi ditambahkan untuk kebutuhan audio production: `Carla`, `cadence`, `calf`, `qjackctl`. Terutama digunakan untuk podcast secara profesional dengan jack audio connection kit.
+- Beberapa aplikasi ditambahkan untuk kebutuhan audio production: `Carla`, `cadence`, dan `calf`. Terutama digunakan untuk podcast secara profesional dengan jack audio connection kit.
 - Pipewire menggunakan `wireplumber` sebagai media sesi utama. Sebelumnya menggunakan `pipewire-media-session`.
 - Fish-shell sudah tidak menggunakan singkatan (abbreviation) lagi. Sekarang menggunakan fungsi. Sehingga perintah fungsi `get`, `remove`, `update`, `upgrade`, `list`, `repo`, `info` sudah bisa langsung digunakan. Beberapa perintah direvisi, seperti `update` diganti ke `upgrade`, `sync` diganti ke `update`, `repolist` diganti ke `repo`. Fungsi tersebut juga mendukung di bash-shell. Bahkan bisa dijalankan di pengguna root.
 - Fix suara untuk multiuser. Pipewire sebelumnya hanya bisa diakses oleh grup `wheel` (pengguna dengan akses administrator). Sekarang pengguna standar (tanpa akses administrator) bisa mengaktifkan suara dengan pipewire.
@@ -46,7 +46,8 @@ call_to_action:
 - Menambahkan `kmail` sebagai klien email, perangkat lunak ini akan meningkatkan produktifitas pengguna sebab hampir semua orang memerlukan email.
 - Menambahkan `akregator` sebagai klien berlanggan berita dari situs.
 - Menambahkan depedensi `opencv` untuk kdenlive agar dapat menggunakan fitur tracker motion.
-- Menambahkan depedensi `rnnoise` untuk anti noise di OBS Studio dan `abGate` lv2 di Carla.
+- Menambahkan depedensi `rnnoise` untuk anti noise di OBS Studio.
+- Menambahkan audio plugin LV2 untuk Carla `abGate`, `invada-studio-plugins`, `invada-studio-plugins-lv2`, `swh-lv2`, dan `x42-plugins`.
 - Menghapus `font-sil-alkalami`, `font-sil-awami-nastaliq`, `font-sil-harmattan`, `font-sil-lateef`, `font-sil-scheherazade`, `noto-fonts-cjk`, `noto-fonts-emoji`. Sebab font ini hanyalah pilihan.
 - Menghapus aplikasi KDE yang jarang digunakan. Seperti: `kget`.
 - Menghapus depedensi yang tidak diperlukan dan yang tidak terikat sebagai depedensi.
