@@ -1,9 +1,13 @@
 enable: true
 title: "Handal dan Terbaru"
 feature_item:
+  - name: "KDE Plasma"
+    icon: "ti-desktop"
+    content: "Lingkungan destop yang ringan, mudah, dan handal. Didukung dengan aplikasi KDE seperti Elisa dan KDE Connect."
+
   - name: "Wayland"
     icon: "ti-infinite"
-    content: "Protokol komunikasi yang lebih sederhana, modern dan aman. Menjadi sesi utama dan pengganti X11 display server."
+    content: "Protokol komunikasi yang lebih sederhana, modern dan aman. Sesi utama display server dan pengganti X11."
 
   - name: "XBPS"
     icon: "ti-package"
@@ -16,10 +20,6 @@ feature_item:
   - name: "Runit init"
     icon: "ti-dashboard"
     content: "Keamanan lebih baik dengan runit karena PID1 harus sederhana, minimalis, stabil dan bebas dari SystemD."
-
-  - name: "KDE Plasma"
-    icon: "ti-desktop"
-    content: "Lingkungan destop yang ringan, mudah, dan handal. Didukung dengan aplikasi KDE seperti Elisa dan KDE Connect."
 
   - name: "Vulkan API"
     icon: "ti-game"
