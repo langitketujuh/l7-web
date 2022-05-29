@@ -1,5 +1,5 @@
 enable: true
-title: "Handal dan Terbaru"
+title: "Profesional. Produktif."
 feature_item:
   - name: "KDE Plasma"
     icon: "ti-desktop"
@@ -29,13 +29,17 @@ feature_item:
     icon: "ti-headphone"
     content: "Pemutaran multimedia dengan minimal latensi dan dukungan aplikasi berbasis PulseAudio, JACK, ALSA dan GStreamer."
 
-  - name: "WirePlumber"
-    icon: "ti-panel"
-    content: "Media sesi modular untuk PipeWire dan pustaka tingkat tinggi berbasis GObject yang membungkus API PipeWire."
-
   - name: "ZRAM"
     icon: "ti-pulse"
     content: "RAM virtual terkompresi dengan tingkat I/O disk yang rendah dan penambahan ruang memori 25% lebih dari RAM fisik."
+
+  - name: "Plasma Vault"
+    icon: "ti-shield"
+    content: "Solusi enkripsi yang terintegrasi dengan plasma untuk menyimpan direktori berkas rahasia dengan berbagai format."
+
+  - name: "Komunitas"
+    icon: "ti-comments-smiley"
+    content: "Berbagi inspirasi, gotong royong dan bertujuan untuk mensosialisasikan perangkat lunak terbuka."
 
   - name: "Perlengkapan Desain"
     icon: "ti-palette"
