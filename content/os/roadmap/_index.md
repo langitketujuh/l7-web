@@ -41,14 +41,13 @@ call_to_action:
 - Fix theme wayland. Beberapa aplikasi gtk tidak mendukung tema bawaan qt di wayland, sekarang sudah menggunakan tema yang general.
 - Menambahkan Goxel 3D voxel editor (`goxel`). Goxel kompatibel dengan blender dan godot dengan format `gitf`, yang mana `gitf` merupakan ekstensi format 3D yang terbuka sehingga memudahkan untuk lintas software.
 - Menambahkan fitur `plasma-vault` beserta dukungan enkripsi `cryfs`, `encfs`, dan `gocryptfs`. Plasma vault berguna untuk menyimpan berkas yang bersifat rahasia dan penting. Plasma vault sudah terkonfigurasi bersama widget systray di bagian panel.
-- Penggantian `vlc` menjadi `dragon-player`. Alasan utamanya lebih ringan, fitur standar dan tentunya mendukung wayland.
 - Menambahkan `bottom` (`btm`) sebagai cli monitor sistem manager.
 - Menambahkan `kmail` sebagai klien email, perangkat lunak ini akan meningkatkan produktifitas pengguna sebab hampir semua orang memerlukan email.
 - Menambahkan `akregator` sebagai klien berlanggan berita dari situs.
 - Menambahkan depedensi `opencv` untuk kdenlive agar dapat menggunakan fitur tracker motion.
 - Menambahkan depedensi `rnnoise` untuk anti noise di OBS Studio.
 - Menambahkan audio plugin LV2 untuk Carla `abGate`, `invada-studio-plugins`, `invada-studio-plugins-lv2`, `swh-lv2`, dan `x42-plugins`.
-- Menghapus `font-sil-alkalami`, `font-sil-awami-nastaliq`, `font-sil-harmattan`, `font-sil-lateef`, `font-sil-scheherazade`, `noto-fonts-cjk`, `noto-fonts-emoji`. Sebab font ini hanyalah pilihan.
+- Menghapus `font-sil-alkalami`, `font-sil-awami-nastaliq`, `font-sil-harmattan`, `font-sil-lateef`, `font-sil-scheherazade`, dan `noto-fonts-cjk`. Sebab font ini hanyalah pilihan.
 - Menghapus aplikasi KDE yang jarang digunakan. Seperti: `kget`.
 - Menghapus depedensi yang tidak diperlukan dan yang tidak terikat sebagai depedensi.
 - Menghapus dukungan FluidR3 Soundfont `soundfont-fluid`.
