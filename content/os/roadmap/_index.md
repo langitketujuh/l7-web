@@ -34,20 +34,22 @@ call_to_action:
 
 - Menggunakan sesi `wayland` secara bawaan (sebelumnya menggunakan `plasma` X11). Banyak benefit yang ditawarkan dari wayland khususnya latensi yang rendah dan manajemen protokol grafis yang lebih baik.
 - Agar mengoptimalkan penggunaan sesi wayland, beberapa perangkat lunak yang belum kompatibel dengan wayland akan dihapus. Seperti `hugin`, `dispcalGUI`, `ssr`, `kcm-wacomtablet`, dan `flameshoot`. Perekam desktop kami sarankan menggunakan OBS studio karena telah mendukung wayland. Pengguna pen tablet wacom tidak akan menemui pengaturan tablet di pengaturan sistem, tetapi masih bisa digunakan dengan `libwacom` secara bawaan.
-- Beberapa aplikasi ditambahkan untuk kebutuhan audio production: `Carla`, `cadence`, dan `calf`. Terutama digunakan untuk podcast secara profesional dengan jack audio connection kit.
+- Beberapa aplikasi ditambahkan untuk kebutuhan audio production: `Carla`, `cadence`, `calf` dan `jack_recorder`. Terutama digunakan untuk podcast secara profesional dengan JACK audio connection kit.
 - Fish-shell sudah tidak menggunakan singkatan (abbreviation) lagi. Sekarang menggunakan fungsi. Sehingga perintah fungsi `get`, `remove`, `update`, `upgrade`, `list`, `repo`, `info` sudah bisa langsung digunakan. Beberapa perintah direvisi, seperti `update` diganti ke `upgrade`, `sync` diganti ke `update`, `repolist` diganti ke `repo`. Fungsi tersebut juga mendukung di bash-shell. Bahkan bisa dijalankan di pengguna root.
-- Fix suara untuk multiuser. Pipewire sebelumnya hanya bisa diakses oleh grup `wheel` (pengguna dengan akses administrator). Sekarang pengguna standar (tanpa akses administrator) bisa mengaktifkan suara dengan pipewire.
+- Fix suara untuk pengguna non admin (standar). Pipewire sebelumnya hanya bisa diakses oleh grup `wheel` (pengguna dengan akses administrator). Sekarang pengguna standar (tanpa akses administrator) bisa mengaktifkan suara dengan pipewire.
 - Fix theme wayland. Beberapa aplikasi gtk tidak mendukung tema bawaan qt di wayland, sekarang sudah menggunakan tema yang general.
+- Fix performa start menu. Menambahkan `l7-krunner` dan engaktifkan plugin plasma search yang diperlukan saja sehingga mempercepat delay start menu ketika ditekan.
 - Menambahkan Goxel 3D voxel editor (`goxel`). Goxel kompatibel dengan blender dan godot dengan format `gitf`, yang mana `gitf` merupakan ekstensi format 3D yang terbuka sehingga memudahkan untuk lintas software.
 - Menambahkan fitur `plasma-vault` beserta dukungan enkripsi `cryfs`, `encfs`, dan `gocryptfs`. Plasma vault berguna untuk menyimpan berkas yang bersifat rahasia dan penting. Plasma vault sudah terkonfigurasi bersama widget systray di bagian panel.
-- Menambahkan `bottom` (`btm`) sebagai cli monitor sistem manager.
 - Menambahkan `kmail` sebagai klien email, perangkat lunak ini akan meningkatkan produktifitas pengguna sebab hampir semua orang memerlukan email.
+- Menambahkan `skanpage` sebagai pengganti dari skanlite serta dapat melakukan scanning dengan banyak halaman.
 - Menambahkan `akregator` sebagai klien berlanggan berita dari situs.
+- Menambahkan `htop` sebagai cli monitor sistem manager.
 - Menambahkan depedensi `opencv` untuk kdenlive agar dapat menggunakan fitur tracker motion.
 - Menambahkan depedensi `rnnoise` untuk anti noise di OBS Studio.
 - Menambahkan audio plugin LV2 untuk Carla `abGate`, `invada-studio-plugins`, `invada-studio-plugins-lv2`, `swh-lv2`, dan `x42-plugins`.
 - Menghapus `font-sil-alkalami`, `font-sil-awami-nastaliq`, `font-sil-harmattan`, `font-sil-lateef`, `font-sil-scheherazade`, dan `noto-fonts-cjk`. Sebab font ini hanyalah pilihan.
-- Menghapus aplikasi KDE yang jarang digunakan. Seperti: `kget`.
+- Menghapus `kget` download manager yang masih ditemui bug yang belum terselesaikan.
 - Menghapus depedensi yang tidak diperlukan dan yang tidak terikat sebagai depedensi.
 - Menghapus dukungan FluidR3 Soundfont `soundfont-fluid`.
 - Installer sudah ada di menu dan sudah mendukung `btrfs` untuk mountpoint @subvolume `/`.
