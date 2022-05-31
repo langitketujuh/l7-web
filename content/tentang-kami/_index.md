@@ -36,7 +36,6 @@ LangitKetujuh digunakan untuk kebutuhan multimedia. Sebab pengembang LangitKetuj
 
 ### Siapa Para Tim?
 
-* [Hervy Qurrotul Ainur Rozi (Developer, Maintainer, & Desainer)](https://t.me/hervyqa)
-* [Ihsan Syauqi Adn (Administrasi & Pendukung layanan)](https://t.me/ihsansyauqiadn)
-* [Jauzaa Wahyu Prabaswara (Pendukung layanan)](https://t.me/JauzaaPrabaswara)
-* [_Selanjutnya bisa jadi Anda, mau bergabung_?](https://panduan.langitketujuh.id/tim.html#mau-bergabung)
+* [Hervy Qurrotul Ainur Rozi](https://t.me/hervyqa) (Developer, Maintainer, & Desainer)
+* [Ihsan Syauqi Adn](https://t.me/ihsansyauqiadn) (Administrasi & Pendukung layanan)
+* [Jauzaa Wahyu Prabaswara](https://t.me/JauzaaPrabaswara) (Pendukung layanan)
