@@ -30,32 +30,39 @@ call_to_action:
 | Upload berkas iso   |   Belum    | Belum ditentukan |
 | **Rilis**           |   Belum    | Belum ditentukan |
 
-### Catatan Rilis
-
+### Improvisasi
 - Menggunakan sesi `wayland` secara bawaan (sebelumnya menggunakan `plasma` X11). Banyak benefit yang ditawarkan dari wayland khususnya latensi yang rendah dan manajemen protokol grafis yang lebih baik.
-- Agar mengoptimalkan penggunaan sesi wayland, beberapa perangkat lunak yang belum kompatibel dengan wayland akan dihapus. Seperti `hugin`, `dispcalGUI`, `ssr`, `kcm-wacomtablet`, dan `flameshoot`. Perekam desktop kami sarankan menggunakan OBS studio karena telah mendukung wayland. Pengguna pen tablet wacom tidak akan menemui pengaturan tablet di pengaturan sistem, tetapi masih bisa digunakan dengan `libwacom` secara bawaan.
-- Beberapa aplikasi ditambahkan untuk kebutuhan audio production: `Carla`, `cadence`, `calf` dan `jack_recorder`. Terutama digunakan untuk podcast secara profesional dengan JACK audio connection kit.
+- Agar mengoptimalkan penggunaan sesi wayland, beberapa perangkat lunak yang belum kompatibel dengan wayland akan dihapus. Seperti `ssr`, `kcm-wacomtablet`, dan `flameshoot`. Perekam desktop kami sarankan menggunakan OBS studio karena telah mendukung wayland. Pengguna pen tablet wacom tidak akan menemui pengaturan tablet di pengaturan sistem, tetapi masih bisa digunakan dengan `libwacom` secara bawaan.
 - Fish-shell sudah tidak menggunakan singkatan (abbreviation) lagi. Sekarang menggunakan fungsi. Sehingga perintah fungsi `get`, `remove`, `update`, `upgrade`, `list`, `repo`, `info` sudah bisa langsung digunakan. Beberapa perintah direvisi, seperti `update` diganti ke `upgrade`, `sync` diganti ke `update`, `repolist` diganti ke `repo`. Fungsi tersebut juga mendukung di bash-shell. Bahkan bisa dijalankan di pengguna root.
-- Fix suara untuk pengguna non admin (standar). Pipewire sebelumnya hanya bisa diakses oleh grup `wheel` (pengguna dengan akses administrator). Sekarang pengguna standar (tanpa akses administrator) bisa mengaktifkan suara dengan pipewire.
-- Fix theme wayland. Beberapa aplikasi gtk tidak mendukung tema bawaan qt di wayland, sekarang sudah menggunakan tema yang general.
-- Fix performa start menu. Menambahkan `l7-krunner` dan engaktifkan plugin plasma search yang diperlukan saja sehingga mempercepat delay start menu ketika ditekan.
-- Menambahkan Goxel 3D voxel editor (`goxel`). Goxel kompatibel dengan blender dan godot dengan format `gitf`, yang mana `gitf` merupakan ekstensi format 3D yang terbuka sehingga memudahkan untuk lintas software.
 - Menambahkan fitur `plasma-vault` beserta dukungan enkripsi `cryfs`, `encfs`, dan `gocryptfs`. Plasma vault berguna untuk menyimpan berkas yang bersifat rahasia dan penting. Plasma vault sudah terkonfigurasi bersama widget systray di bagian panel.
+- Ikon desktop installer (Install to Disk) sudah ada di menu. Installer juga sudah mendukung `btrfs` untuk mountpoint @subvolume `/`.
+- Menambahkan `akregator` sebagai klien berlanggan berita dari situs. Kami memasukkan beberapa feed dari proyek open source sehingga pengguna lebih update terhadap berita saat ini.
 - Menambahkan `kmail` sebagai klien email, perangkat lunak ini akan meningkatkan produktifitas pengguna sebab hampir semua orang memerlukan email.
 - Menambahkan `skanpage` sebagai pengganti dari skanlite serta dapat melakukan scanning dengan banyak halaman.
-- Menambahkan `akregator` sebagai klien berlanggan berita dari situs.
 - Menambahkan `htop` sebagai cli monitor sistem manager.
-- Menambahkan depedensi `opencv` untuk kdenlive agar dapat menggunakan fitur tracker motion.
-- Menambahkan depedensi `rnnoise` untuk anti noise di OBS Studio.
+- Menghapus `font-sil-alkalami`, `font-sil-awami-nastaliq`, `font-sil-harmattan`, `font-sil-lateef`, `font-sil-scheherazade`, dan `noto-fonts-cjk`. Font noto cjk terlalu besar ukurannya.
+- Menghapus `void-repo-nonfree`, sehingga LangitKetujuh hanya menggunakan [2 server](https://panduan.langitketujuh.id/konfigurasi/server.html) saja dan lebih cepat saat sinkronisasi repo data.
+- Menghapus `kget` download manager, karena yang masih ditemui bug yang belum terselesaikan ketika redirect nama berkas unduhan.
+
+### Pembenahan
+- Fix suara untuk pengguna non admin (standar). Pipewire sebelumnya hanya bisa diakses oleh grup `wheel` (pengguna dengan akses administrator). Sekarang pengguna standar (tanpa akses administrator) bisa mengaktifkan suara dengan pipewire.
+- Fix tema aplikasi di sesi wayland. Beberapa aplikasi gtk tidak mendukung tema bawaan qt di wayland, sekarang sudah menggunakan tema yang general.
+- Fix performa start menu. Menambahkan `l7-krunner` dan mengaktifkan plugin plasma search yang diperlukan saja. Tidak perlu ada `indexing files` sehingga mempercepat delay start menu saat melakukan pencarian.
+
+### Studio
+- Beberapa aplikasi ditambahkan untuk kebutuhan audio production: `Carla`, `cadence`, `calf` dan `jack_recorder`. Terutama digunakan untuk podcast secara profesional dengan JACK audio connection kit.
+- Menambahkan Goxel 3D voxel editor (`goxel`). Goxel kompatibel dengan blender dan godot dengan format `gitf`, yang mana `gitf` merupakan ekstensi format 3D yang terbuka sehingga memudahkan untuk lintas software.
 - Menambahkan audio plugin LV2 untuk Carla `abGate`, `invada-studio-plugins`, `invada-studio-plugins-lv2`, `swh-lv2`, dan `x42-plugins`.
-- Menghapus `font-sil-alkalami`, `font-sil-awami-nastaliq`, `font-sil-harmattan`, `font-sil-lateef`, `font-sil-scheherazade`, dan `noto-fonts-cjk`. Sebab font ini hanyalah pilihan.
-- Menghapus `kget` download manager yang masih ditemui bug yang belum terselesaikan.
-- Menghapus depedensi yang tidak diperlukan dan yang tidak terikat sebagai depedensi.
+- Menambahkan depedensi `opencv` untuk Kdenlive agar dapat menggunakan fitur tracker motion.
+- Menambahkan depedensi `rnnoise` untuk anti noise di OBS Studio.
+- Menghapus `hugin`, `screenkey` dan `dispcalGUI`, dikarenakan masih belum mendukung dengan wayland.
 - Menghapus dukungan FluidR3 Soundfont `soundfont-fluid`.
-- Installer sudah ada di menu dan sudah mendukung `btrfs` untuk mountpoint @subvolume `/`.
+
+### Lain-lain
+- Dikarenakan menggunakan wayland ada beberapa fitur yang belum mendukung. Seperti share screen menggunakan zoom dan jitsi, baik native maupun flatpak. Tetapi screen share berhasil melalui web browser Firefox.
+- Tap to click tidak langsung bekerja di wayland, sehingga perlu [mengkonfigurasi touchpad](https://panduan.langitketujuh.id/konfigurasi/kde/pengaturan-sistem.html#mengaktifkan-tap-to-click) di pengaturan sistem.
 
 ### Pending
-
 - Blender 3.1+ dari repo voidlinux.
 - Inkscape 1.2+ dari repo voidlinux.
 - Goxel 0.10.8+ dari repo voidlinux.
