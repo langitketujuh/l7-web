@@ -21,7 +21,7 @@ call_to_action:
 
 ### Motivasi kami
 
-Berbagi dan memudahkan Anda untuk selalu berkarya. LangitKetujuh OS berusaha untuk fokus ke produktifitas pengguna sehingga tidak perlu memasang aplikasi satu persatu dan melakukan konfigurasi khusus yang sifatnya mendasar. Sekali pasang dan lupakan, sesedarhana itu.
+Berbagi dan memudahkan Anda untuk selalu berkarya. LangitKetujuh OS berusaha untuk fokus ke produktifitas pengguna sehingga tidak perlu memasang aplikasi satu persatu dan melakukan konfigurasi khusus yang sifatnya mendasar. Sekali pasang dan lupakan, sesederhana itu.
 
 ### Proses pengembangan
 
