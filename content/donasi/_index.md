@@ -19,7 +19,14 @@ call_to_action:
     link : "https://wa.me/6282131146131?text=Assalamu'alaikum%20LangitKetujuh.%0ASaya%20mau%20konfirmasi%20donasi%20atas%20nama:%20"
 ---
 
-### Motivasi kami yaitu berbagi dan memudahkan Anda untuk selalu berkarya.
+### Motivasi kami
 
-Pembelian dan pembayaran donasi bebas sesuai kemampuan dan ridho dari pengguna. Anda dapat memberikan donasi sesuai kualitas pelayanan kami, asalkan ikhlas, berkah dan tidak merugikan kedua belah pihak. Donasi yang diberikan sesuai kemampuan Anda dan tidak ada beban. Tentunya kami sebagai tim pengembang projek hanyalah mencari keberkahan dalam membuat produk sistem operasi ini.
-Jazaakumullahu khairan katsiran. 🙏
+Berbagi dan memudahkan Anda untuk selalu berkarya. LangitKetujuh OS berusaha untuk fokus ke produktifitas pengguna sehingga tidak perlu memasang aplikasi satu persatu dan melakukan konfigurasi khusus yang sifatnya mendasar. Sekali pasang dan lupakan, sesedarhana itu.
+
+### Proses pengembangan
+
+Setiap pembaruan, maintenen, konfigurasi, kami selalu prioritaskan untuk pengguna. Tidak jarang waktu kami difokuskan untuk membangun sistem operasi ini. Seperti memecahkan masalah, kompilasi berjam-jam, uji coba berhari-hari dan sebagainya. Meskipun dalam kondisi dan perangkat yang terbatas.
+
+### Kontribusi
+
+Kami berharap pengguna LangitKetujuh bisa memberikan kontribusi berupa membagikan pengalamannya ke sosial media, memberikan saran ke [kode sumber](https://gitlab.com/langitketujuh) atau memberikan bantuan donasi. Tentunya kami sebagai tim pengembang projek hanyalah mencari keberkahan dalam membuat produk sistem operasi ini.
