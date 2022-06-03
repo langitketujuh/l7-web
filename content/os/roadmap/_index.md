@@ -48,6 +48,7 @@ call_to_action:
 - Fix suara untuk pengguna non admin (standar). Pipewire sebelumnya hanya bisa diakses oleh grup `wheel` (pengguna dengan akses administrator). Sekarang pengguna standar (tanpa akses administrator) bisa mengaktifkan suara dengan pipewire.
 - Fix tema aplikasi di sesi wayland. Beberapa aplikasi gtk tidak mendukung tema bawaan qt di wayland, sekarang sudah menggunakan tema yang general.
 - Fix performa start menu. Menambahkan `l7-krunner` dan mengaktifkan plugin plasma search yang diperlukan saja. Tidak perlu ada `indexing files` sehingga mempercepat delay start menu saat melakukan pencarian.
+- Fix `langitketujuh-install` ketika gagal membuat akun pengguna. Ini terjadi karena pengguna gagal memasang os tetapi tidak direboot.
 - Fix menu aplikasi dengan `flatpak`. Sekarang otomatis terdeteksi dengan `fish-shell`.
 
 ### Studio
