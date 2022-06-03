@@ -36,18 +36,19 @@ call_to_action:
 - Fish-shell sudah tidak menggunakan singkatan (abbreviation) lagi. Sekarang menggunakan fungsi. Sehingga perintah fungsi `get`, `remove`, `update`, `upgrade`, `list`, `repo`, `info` sudah bisa langsung digunakan. Beberapa perintah direvisi, seperti `update` diganti ke `upgrade`, `sync` diganti ke `update`, `repolist` diganti ke `repo`. Fungsi tersebut juga mendukung di bash-shell. Bahkan bisa dijalankan di pengguna root.
 - Menambahkan fitur `plasma-vault` beserta dukungan enkripsi `cryfs`, `encfs`, dan `gocryptfs`. Plasma vault berguna untuk menyimpan berkas yang bersifat rahasia dan penting. Plasma vault sudah terkonfigurasi bersama widget systray di bagian panel.
 - Ikon desktop installer (Install to Disk) sudah ada di menu. Installer juga sudah mendukung `btrfs` untuk mountpoint @subvolume `/`.
-- Menambahkan `akregator` sebagai klien berlanggan berita dari situs. Kami memasukkan beberapa feed dari proyek open source sehingga pengguna lebih update terhadap berita saat ini.
-- Menambahkan `kmail` sebagai klien email, perangkat lunak ini akan meningkatkan produktifitas pengguna sebab hampir semua orang memerlukan email.
 - Menambahkan `skanpage` sebagai pengganti dari skanlite serta dapat melakukan scanning dengan banyak halaman.
 - Menambahkan `htop` sebagai cli monitor sistem manager.
 - Menghapus `font-sil-alkalami`, `font-sil-awami-nastaliq`, `font-sil-harmattan`, `font-sil-lateef`, `font-sil-scheherazade`, dan `noto-fonts-cjk`. Font noto cjk terlalu besar ukurannya.
 - Menghapus `void-repo-nonfree`, sehingga LangitKetujuh hanya menggunakan [2 server](https://panduan.langitketujuh.id/konfigurasi/server.html) saja dan lebih cepat saat sinkronisasi repo data.
 - Menghapus `kget` download manager, karena yang masih ditemui bug yang belum terselesaikan ketika redirect nama berkas unduhan.
+- Menghapus widget memori dan cpu di panel. Alasannya untuk menghemat 100-300mb pemakaian memori di mesin dengan spesifikasi rendah.
+- Secara bawaan hanya mengaktifkan 21 servis runit agar lebih ringan dan minimalis.
 
 ### Pembenahan
 - Fix suara untuk pengguna non admin (standar). Pipewire sebelumnya hanya bisa diakses oleh grup `wheel` (pengguna dengan akses administrator). Sekarang pengguna standar (tanpa akses administrator) bisa mengaktifkan suara dengan pipewire.
 - Fix tema aplikasi di sesi wayland. Beberapa aplikasi gtk tidak mendukung tema bawaan qt di wayland, sekarang sudah menggunakan tema yang general.
 - Fix performa start menu. Menambahkan `l7-krunner` dan mengaktifkan plugin plasma search yang diperlukan saja. Tidak perlu ada `indexing files` sehingga mempercepat delay start menu saat melakukan pencarian.
+- Fix menu aplikasi dengan `flatpak`. Sekarang otomatis terdeteksi dengan `fish-shell`.
 
 ### Studio
 - Beberapa aplikasi ditambahkan untuk kebutuhan audio production: `Carla`, `cadence`, `calf` dan `jack_recorder`. Terutama digunakan untuk podcast secara profesional dengan JACK audio connection kit.
