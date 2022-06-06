@@ -39,10 +39,11 @@ call_to_action:
 - Menambahkan `skanpage` sebagai pengganti dari skanlite serta dapat melakukan scanning dengan banyak halaman.
 - Menambahkan `htop` sebagai cli monitor sistem manager.
 - Menghapus `font-sil-alkalami`, `font-sil-awami-nastaliq`, `font-sil-harmattan`, `font-sil-lateef`, `font-sil-scheherazade`, dan `noto-fonts-cjk`. Font noto cjk terlalu besar ukurannya.
-- Menghapus `void-repo-nonfree`, sehingga LangitKetujuh hanya menggunakan [2 server](https://panduan.langitketujuh.id/konfigurasi/server.html) saja dan lebih cepat saat sinkronisasi repo data.
+- Menghapus `void-repo-nonfree`, sehingga LangitKetujuh hanya menggunakan [2 server] saja dan lebih cepat saat sinkronisasi repo data.
 - Menghapus `kget` download manager, karena yang masih ditemui bug yang belum terselesaikan ketika redirect nama berkas unduhan.
 - Menghapus widget memori dan cpu di panel. Alasannya untuk menghemat 100-300mb pemakaian memori di mesin dengan spesifikasi rendah.
-- Secara bawaan hanya mengaktifkan 21 servis runit agar lebih ringan dan minimalis.
+- Secara bawaan hanya mengaktifkan 20 servis runit agar lebih ringan dan minimalis.
+- Perbaikan dan penambahan halaman Panduan [sesi desktop], [pulseaudio], [cadence], [carla], [goxel] .
 
 ### Pembenahan
 - Fix suara untuk pengguna non admin (standar). Pipewire sebelumnya hanya bisa diakses oleh grup `wheel` (pengguna dengan akses administrator). Sekarang pengguna standar (tanpa akses administrator) bisa mengaktifkan suara dengan pipewire.
@@ -62,13 +63,23 @@ call_to_action:
 
 ### Lain-lain
 - Dikarenakan menggunakan wayland ada beberapa fitur yang belum mendukung. Seperti share screen menggunakan zoom dan jitsi, baik native maupun flatpak. Tetapi screen share berhasil melalui web browser Firefox.
-- Tap to click tidak langsung bekerja di wayland, sehingga perlu [mengkonfigurasi touchpad](https://panduan.langitketujuh.id/konfigurasi/kde/pengaturan-sistem.html#mengaktifkan-tap-to-click) di pengaturan sistem.
+- Tap to click tidak langsung bekerja di wayland, sehingga perlu [mengkonfigurasi touchpad] di pengaturan sistem.
 
 ### Pending
 - Blender 3.1+ dari repo voidlinux.
 - Inkscape 1.2+ dari repo voidlinux.
 - Goxel 0.10.8+ dari repo voidlinux.
 - FreeCAD 0.20+ dari upstream dan repo voidlinux agar mendukung wayland.
+
+[Pulseaudio]:https://panduan.langitketujuh.id/konfigurasi/multimedia/pulseaudio.html
+[mengkonfigurasi touchpad]:https://panduan.langitketujuh.id/konfigurasi/kde/pengaturan-sistem.html#mengaktifkan-tap-to-click
+[sesi desktop]:https://panduan.langitketujuh.id/konfigurasi/kde/sesi-desktop.html
+[2 server]:https://panduan.langitketujuh.id/konfigurasi/server.html
+[carla]:https://panduan.langitketujuh.id/aplikasi/audio/carla.html
+[cadence]:https://panduan.langitketujuh.id/aplikasi/audio/cadence.html
+[goxel]:https://panduan.langitketujuh.id/aplikasi/animasi/goxel.html
+
+***
 
 ## 20220211 (stabil)
 | **Jadwal**          | **Status** | **Tanggal**                         |
@@ -105,6 +116,8 @@ call_to_action:
 * Menambahkan dukungan akselerasi grafis dengan vulkan (amd): `Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers libspa-vulkan mesa-vulkan-overlay-layer vkBasalt vkd3d amdvlk`.
 * ~~[Pending] Blender 3.0.1~~.
 * ~~[Pending] Inkscape 1.2~~.
+
+***
 
 ## 20210921
 | **Jadwal**          | **Status** | **Tanggal**                |
@@ -154,6 +167,8 @@ call_to_action:
 * Web: Tombol untuk menuju ke atas (Scroll to top).
 * Web: Live Chat WhatsApp dan Telegram Layanan L7.
 * Web: Rebranding warna palet dan logo favicon.
+
+***
 
 ## Versi 20210602
 | **Jadwal**          | **Status** | **Tanggal**                |
