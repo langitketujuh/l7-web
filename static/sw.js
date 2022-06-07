@@ -12,52 +12,13 @@ const BASE_CACHE_FILES = [
     '/blog/',
     '/kabari/',
     '/faq/',
-    '/donasi/',
+    '/kontribusi/',
     '/tentang-kami/',
     '/kebijakan-privasi/',
     '/peraturan-layanan/',
     '/komunitas/',
     '/feedback/',
     '/kerjasama/',
-    // css
-    '/scss/style.min.css',
-    '/plugins/bootstrap/bootstrap.min.css',
-    '/plugins/slick/slick.css',
-    '/plugins/themify-icons/themify-icons.css',
-    // js
-    '/js/script.min.js',
-    '/plugins/bootstrap/bootstrap.min.js',
-    '/plugins/jQuery/jquery.min.js',
-    '/plugins/drag/drag.min.js',
-    '/plugins/slick/slick.min.js',
-    '/plugins/back-to-top/vanilla-back-to-top.min.js',
-    // asset
-    '/manifest.json',
-    // fonts
-    '/fonts/opensans-bold-latin.woff2',
-    '/fonts/opensans-reguler-latin-ext.woff2',
-    '/fonts/opensans-reguler-latin.woff2',
-    '/plugins/themify-icons/fonts/themify.woff',
-    // ico
-    '/media/icons/favicon.ico',
-    // media beranda
-    '/media/beranda/banner.webp',
-    '/media/beranda/footer-help.webp',
-    '/media/beranda/footer-pro.webp',
-    '/media/beranda/logo.webp',
-    '/media/beranda/preloader.svg',
-    '/media/beranda/qrcode-langitketujuh-donasi.webp',
-    '/media/beranda/screenshot.svg',
-    '/media/beranda/service-animation.webp',
-    '/media/beranda/service-audio-video.webp',
-    '/media/beranda/service-cad-mechanic.webp',
-    '/media/beranda/service-desktop-publishing.webp',
-    '/media/beranda/service-font-maker.webp',
-    '/media/beranda/service-game-maker.webp',
-    '/media/beranda/service-illustration.webp',
-    '/media/beranda/service-office.webp',
-    '/media/beranda/service-photography.webp',
-    '/media/beranda/thumbnail.jpg',
 ];
 
 const OFFLINE_CACHE_FILES = [
