@@ -11,12 +11,15 @@ draft: false
 
 # Para Pendukung 🚀
 
-- **Aldhi Mandiri (Solusi Media Digital)**.
-- **Setia Budi (Indonesia Belajar)**.
-- **Bara Panular Tantra**.
-- **Adi Setiawan**.
-- **Hendra Abu Zaid (Abu Zaid Tutorial)**.
-- **Endi Suwandi (Bisa Website)**.
+Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitKetujuh_ telah memberikan dedikasi, loyalitas serta kontribusinya ke LangitKetujuh OS. Semoga Allah SWT memberikan balasan yang terbaik. _Jazaakumullahu akhsanal jaza_.
+
+- **Aldhi Mandiri (Solusi Media Digital)** yang memberikan infrastruktur LangitKetujuh OS.
+- **Setia Budi (Indonesia Belajar)** yang telah mengulas LangitKetujuh OS dengan sangat rapi dan detail beserta cara pemasangannya.
+- **Bara Panular Tantra** yang telah menyokong bantuan dan pengembangan LangitKetujuh OS.
+- **Adi Setiawan** yang telah mengulas LangitKetujuh OS berkali-kali di kanal youtube mulai dari versi awal hingga saat ini.
+- **Hendra Abu Zaid (Abu Zaid Tutorial)** yang telah mengajak menggunakan LangitKetujuh OS di komunitas.
+- **Annisa Aulia Rasyidah** yang telah menyokong, memberikan saran dan umpan balik l7-export hingga mencapai versi yang stabil.
+- **Endi Suwandi (Bisa Website)** yang telah bekerja sama selama ini.
 - Abdul Jalil.
 - Abinya Sufyan.
 - Abu Aqeelah.
@@ -44,7 +47,6 @@ draft: false
 - Andrian.
 - Andy Hidayat.
 - Angga Saputra.
-- Annisa Aulia Rasyidah.
 - Ansori.
 - Anton Prafanto.
 - Apriandhy Fauzi Kahar.
