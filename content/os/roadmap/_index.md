@@ -69,10 +69,12 @@ call_to_action:
 - Tap to click tidak langsung bekerja di wayland, sehingga perlu [mengkonfigurasi touchpad] di pengaturan sistem.
 
 ### Pending
-- Blender 3.1+ dari repo voidlinux.
-- Inkscape 1.2+ dari repo voidlinux.
-- Goxel 0.10.8+ dari repo voidlinux.
-- FreeCAD 0.20+ dari upstream dan repo voidlinux agar mendukung wayland.
+- Blender 3.1+ dari repo voidlinux. [#draft](https://github.com/void-linux/void-packages/pull/35794)
+- Inkscape 1.2+ dari repo voidlinux. [#test_error](https://github.com/void-linux/void-packages/pull/35454)
+- Goxel 0.10.8+ dari repo voidlinux. [#bug](https://github.com/guillaumechereau/goxel/commit/bede0f5256956b8bcddae7070bcf927d765e95c0)
+- ~~Krita 5.0.8+ dari repo voidlinux. [#bug](https://github.com/void-linux/void-packages/pull/37387)~~
+- FreeCAD 0.20+ dari upstream dan repo voidlinux agar mendukung wayland. [#bug](https://github.com/FreeCAD/FreeCAD/issues/6068)
+- KDE plasma 5.25 dari upstream dan repo voidlinux.
 
 [Pulseaudio]:https://panduan.langitketujuh.id/konfigurasi/multimedia/pulseaudio.html
 [mengkonfigurasi touchpad]:https://panduan.langitketujuh.id/konfigurasi/kde/pengaturan-sistem.html#mengaktifkan-tap-to-click
