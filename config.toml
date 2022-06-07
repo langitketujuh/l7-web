@@ -112,25 +112,24 @@ parent = "os"
 weight = 4
 
 [[menu.main]]
-name = "Panduan Memasang"
+name = "Panduan"
 URL = "https://panduan.langitketujuh.id"
 identifier = "panduan"
-parent = "os"
-weight = 5
+weight = 3
 
 # blog
 [[menu.main]]
 name = "Blog"
 identifier = "blog"
 URL = "blog"
-weight = 3
+weight = 4
 
 # komparasi
 [[menu.main]]
 name = "Komparasi"
 identifier = "komparasi"
 URL = "komparasi"
-weight = 4
+weight = 5
 
 [[menu.main]]
 name = "Vs Ubuntu Studio"
@@ -158,7 +157,7 @@ weight = 3
 name = "Cuplikan"
 URL = "cuplikan"
 identifier = "cuplikan"
-weight = 5
+weight = 6
 
 [[menu.main]]
 name = "Ilustrasi dan Lukis Digital"
@@ -223,17 +222,23 @@ URL = "cuplikan/perlengkapan-perkantoran"
 parent = "cuplikan"
 weight = 9
 
+# sponsor
+[[menu.main]]
+name = "Pendukung"
+URL = "pendukung"
+weight = 7
+
 # kabari
 [[menu.main]]
 name = "Kabari"
 URL = "kabari"
-weight = 6
+weight = 8
 
 # faq
 [[menu.main]]
 name = "FAQ"
 URL = "faq"
-weight = 7
+weight = 9
 
 # profil
 [[menu.profil]]
@@ -274,19 +279,14 @@ URL = "komunitas"
 weight = 1
 
 [[menu.dukungan]]
-name = "Para pendukung"
-URL = "pendukung"
-weight = 2
-
-[[menu.dukungan]]
 name = "Feedback"
 URL = "feedback"
-weight = 3
+weight = 2
 
 [[menu.dukungan]]
 name = "Kerjasama"
 URL = "kerjasama"
-weight = 4
+weight = 3
 
 [[menu.dukungan]]
 name = "Roadmap"
@@ -324,8 +324,8 @@ preloader = "media/beranda/preloader.svg" # use jpg, png, svg or gif format.
 # NAVIGATION BUTTONS
 [params.navigation_button]
 enable = true
-label = "Donasi"
-link = "donasi"
+label = "Kontribusi"
+link = "kontribusi"
 
 # SOSIAL MEDIA
 

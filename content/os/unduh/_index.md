@@ -83,13 +83,13 @@ studiomusl:
     link: "os/unduh/studio/x86_64-musl"
 
 call_to_action:
-  enable: true
-  title: Dokumentasi
-  image: media/beranda/footer-help.webp
-  content: Gunakanlah Ventoy sebagai pembuat USB bootable. Dan baca panduan ini agar Anda berhasil memasang LangitKetujuh OS versi Lite, atau Anda bisa menggunakan versi **Studio** untuk mendapatkan layanan instalasi.
+  enable : true
+  title : "Dukung Kami Yuk!"
+  image : "media/beranda/qrcode-langitketujuh-donasi.webp"
+  content : "Mendukung pembayaran dengan QRIS, Mobile Banking, E-Wallet seperti OVO, GoPay, LinkAja, DANA, Shopee Pay, WeChat Pay, Jenius dan E-wallet lainnya. (NMID: ID1021067117882)"
   button:
-    enable: true
-    label: Panduan memasang
-    link: https://panduan.langitketujuh.id/
+    enable : true
+    label : "Kabari Kami"
+    link : "https://wa.me/6282131146131?text=Assalamu'alaikum%20LangitKetujuh.%0ASaya%20mau%20konfirmasi%20donasi%20atas%20nama:%20"
 
 ---
