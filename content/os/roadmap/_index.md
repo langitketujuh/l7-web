@@ -43,7 +43,6 @@ call_to_action:
 
 ### Eliminasi
 - Agar mengoptimalkan penggunaan sesi wayland, beberapa perangkat lunak yang belum kompatibel dengan wayland akan dihapus. Seperti `ssr`, `kcm-wacomtablet`, dan `flameshoot`. Perekam desktop kami sarankan menggunakan OBS studio karena telah mendukung wayland. Pengguna pen tablet wacom tidak akan menemui pengaturan tablet di pengaturan sistem, tetapi masih bisa digunakan dengan `libwacom` secara bawaan.
-- Menghapus `font-sil-alkalami`, `font-sil-awami-nastaliq`, `font-sil-harmattan`, `font-sil-lateef`, `font-sil-scheherazade`, dan `noto-fonts-cjk`. Font noto cjk terlalu besar ukurannya.
 - Menghapus `void-repo-nonfree`, sehingga LangitKetujuh hanya menggunakan [2 server] saja dan lebih cepat saat sinkronisasi repo data.
 - Menghapus `kget` download manager, karena yang masih ditemui bug yang belum terselesaikan ketika redirect nama berkas unduhan.
 - Menghapus widget memori dan cpu di panel. Alasannya untuk menghemat 100-300mb pemakaian memori di mesin dengan spesifikasi rendah.
