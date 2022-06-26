@@ -21,40 +21,45 @@ call_to_action:
 
 ---
 
-| Fitur                                   | Lite  | Studio |
-| :-------------------------------------- | :---: | :----: |
-| Dukungan instalasi oleh tenaga ahli.    |   -   | **√**  |
-| Deteksi Printer HP dan Epson.           | **√** | **√**  |
-| Dukungan codec Audio dan Video.         | **√** | **√**  |
-| Gimp manipulasi foto.                   | **√** | **√**  |
-| Inkscape pengolah vektor.               | **√** | **√**  |
-| KDE-Connect sinkron perangkat.          | **√** | **√**  |
-| Libreoffice paket aplikasi perkantoran. | **√** | **√**  |
-| PipeWire Audio Server.                  | **√** | **√**  |
-| V4l2loopback Virtual kamera.            | **√** | **√**  |
-| Akses ISO terbaru                       |   -   | **√**  |
-| Audacity pengolah audio.                |   -   | **√**  |
-| Blender animasi 2D/3D.                  |   -   | **√**  |
-| Converseen konverter gambar.            |   -   | **√**  |
-| Digikam manajemen foto.                 |   -   | **√**  |
-| Fontforge pembuat font.                 |   -   | **√**  |
-| Freecad 3D parametric.                  |   -   | **√**  |
-| Godot pembuat game.                     |   -   | **√**  |
-| Google Fonts untuk proyek komersil.     |   -   | **√**  |
-| HandBrake Media transkoder.             |   -   | **√**  |
-| Kalibrasi warna dengan DisplayCAL.      |   -   | **√**  |
-| Kdenlive pengolah video.                |   -   | **√**  |
-| Krita digital painting.                 |   -   | **√**  |
-| LibreCAD 2D CAD.                        |   -   | **√**  |
-| LMMS produksi suara efek.               |   -   | **√**  |
-| OBS Perekam desktop dan streaming.      |   -   | **√**  |
-| OpenToonz Animasi Raster 2D.            |   -   | **√**  |
-| Plugin GMIC Qt Gimp dan Krita.          |   -   | **√**  |
-| Produksi Audio dengan Ardour.           |   -   | **√**  |
-| Rawtherapee pengolah foto raw.          |   -   | **√**  |
-| Screenkey Screencast monitor.           |   -   | **√**  |
-| Scribus Publisher.                      |   -   | **√**  |
-| Synfigstudio Animasi Vector 2D.         |   -   | **√**  |
+| Fitur                                    | Lite  | Studio |
+| :--------------------------------------- | :---: | :----: |
+| Dukungan pemasangan oleh tenaga ahli.    |   -   | **√**  |
+| Deteksi Printer HP dan Epson.            | **√** | **√**  |
+| Dukungan codec Audio dan Video.          | **√** | **√**  |
+| Gimp manipulasi foto.                    | **√** | **√**  |
+| Inkscape pengolah vektor.                | **√** | **√**  |
+| KDE-Connect sinkron perangkat.           | **√** | **√**  |
+| Libreoffice perangkat lunak perkantoran. | **√** | **√**  |
+| V4l2loopback Virtual kamera.             | **√** | **√**  |
+| Akses ISO terbaru.                       |   -   | **√**  |
+| Audacity pengolah audio.                 |   -   | **√**  |
+| Blender animasi 2D/3D.                   |   -   | **√**  |
+| Cadence JACK Toolbox.                    |   -   | **√**  |
+| Carla plugin audio host.                 |   -   | **√**  |
+| Converseen konverter gambar.             |   -   | **√**  |
+| Digikam manajemen foto.                  |   -   | **√**  |
+| Fontforge pembuat font.                  |   -   | **√**  |
+| Freecad 3D parametric.                   |   -   | **√**  |
+| Godot pembuat game.                      |   -   | **√**  |
+| Goxel 3D voxel editor.                   |   -   | **√**  |
+| Google Fonts untuk proyek komersil.      |   -   | **√**  |
+| HandBrake Media transkoder.              |   -   | **√**  |
+| Hugin panorama editor.                   |   -   | **√**  |
+| DisplayCAL kalibrasi warna.              |   -   | **√**  |
+| Kdenlive pengolah video.                 |   -   | **√**  |
+| Kid3 audio tagger.                       |   -   | **√**  |
+| Krita digital painting.                  |   -   | **√**  |
+| LibreCAD 2D CAD.                         |   -   | **√**  |
+| LMMS produksi suara efek.                |   -   | **√**  |
+| MKVToolnix editor dan pengolah mkv.      |   -   | **√**  |
+| OBS Perekam desktop dan streaming.       |   -   | **√**  |
+| OpenToonz Animasi Raster 2D.             |   -   | **√**  |
+| GMIC-qt Plugin Gimp dan Krita.           |   -   | **√**  |
+| Produksi Audio dengan Ardour.            |   -   | **√**  |
+| Rawtherapee pengolah foto raw.           |   -   | **√**  |
+| Screenkey Screencast monitor.            |   -   | **√**  |
+| Scribus desain tata letak.               |   -   | **√**  |
+| Synfigstudio Animasi Vector 2D.          |   -   | **√**  |
 
 | Fitur                                   | x86_64-musl | x86_64 | i686  |
 | :-------------------------------------- | :---------: | :----: | :---: |
