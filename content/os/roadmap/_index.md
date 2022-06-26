@@ -31,7 +31,7 @@ call_to_action:
 | **Rilis**           |   Belum    | Belum ditentukan |
 
 ### Improvisasi
-- Menggunakan sesi `wayland` secara bawaan (sebelumnya menggunakan `plasma` X11). Banyak benefit yang ditawarkan dari wayland khususnya latensi yang rendah dan manajemen protokol grafis yang lebih baik.
+- ~~Menggunakan sesi `wayland` secara bawaan (sebelumnya menggunakan `plasma` X11). Banyak benefit yang ditawarkan dari wayland khususnya latensi yang rendah dan manajemen protokol grafis yang lebih baik.~~
 - Fish-shell sudah tidak menggunakan singkatan (abbreviation) lagi. Sekarang menggunakan fungsi. Sehingga perintah fungsi `get`, `remove`, `update`, `upgrade`, `list`, `repo`, `info` sudah bisa langsung digunakan. Beberapa perintah direvisi, seperti `update` diganti ke `upgrade`, `sync` diganti ke `update`, `repolist` diganti ke `repo`. Fungsi tersebut juga mendukung di bash-shell. Bahkan bisa dijalankan di pengguna root.
 - Menambahkan fitur `plasma-vault` beserta dukungan enkripsi `cryfs`, `encfs`, dan `gocryptfs`. Plasma vault berguna untuk menyimpan berkas yang bersifat rahasia dan penting. Plasma vault sudah terkonfigurasi bersama widget systray di bagian panel.
 - Ikon desktop installer (Install to Disk) sudah ada di menu. Installer juga sudah mendukung `btrfs` untuk mountpoint @subvolume `/`.
@@ -42,10 +42,11 @@ call_to_action:
 - Menambahkan `htop` sebagai cli monitor sistem manager.
 
 ### Eliminasi
-- Agar mengoptimalkan penggunaan sesi wayland, beberapa perangkat lunak yang belum kompatibel dengan wayland akan dihapus. Seperti `ssr`, `kcm-wacomtablet`, dan `flameshoot`. Perekam desktop kami sarankan menggunakan OBS studio karena telah mendukung wayland. Pengguna pen tablet wacom tidak akan menemui pengaturan tablet di pengaturan sistem, tetapi masih bisa digunakan dengan `libwacom` secara bawaan.
-- Menghapus `void-repo-nonfree`, sehingga LangitKetujuh hanya menggunakan [2 server] saja dan lebih cepat saat sinkronisasi repo data.
+- Menghapus `void-repo-nonfree`, sehingga LangitKetujuh hanya menggunakan [2 server] saja dan lebih cepat saat sinkronisasi repo data. Untuk pemasangan perangkat lunak yang membutuhkan repo nonfree seperti nvidia, canon, brother, sudah dijelaskan pemasangannya melalui halaman panduan.
 - Menghapus `kget` download manager, karena yang masih ditemui bug yang belum terselesaikan ketika redirect nama berkas unduhan.
 - Menghapus widget memori dan cpu di panel. Alasannya untuk menghemat 100-300mb pemakaian memori di mesin dengan spesifikasi rendah.
+- Menghapus `screenkey`, diganti dengan `key-mon`.
+- ~~Agar mengoptimalkan penggunaan sesi wayland, beberapa perangkat lunak yang belum kompatibel dengan wayland akan dihapus. Seperti `ssr`, `kcm-wacomtablet`, dan `flameshoot`. Perekam desktop kami sarankan menggunakan OBS studio karena telah mendukung wayland. Pengguna pen tablet wacom tidak akan menemui pengaturan tablet di pengaturan sistem, tetapi masih bisa digunakan dengan `libwacom` secara bawaan.~~
 
 ### Pembenahan
 - Fix suara untuk pengguna non admin (standar). Pipewire sebelumnya hanya bisa diakses oleh grup `wheel` (pengguna dengan akses administrator). Sekarang pengguna standar (tanpa akses administrator) bisa mengaktifkan suara dengan pipewire.
@@ -53,6 +54,7 @@ call_to_action:
 - Fix performa start menu. Menambahkan `l7-krunner` dan mengaktifkan plugin plasma search yang diperlukan saja. Tidak perlu ada `indexing files` sehingga mempercepat delay start menu saat melakukan pencarian.
 - Fix `langitketujuh-install` ketika gagal membuat akun pengguna. Ini terjadi karena pengguna gagal memasang os tetapi tidak direboot.
 - Fix menu aplikasi dengan `flatpak`. Sekarang otomatis terdeteksi dengan `fish-shell`.
+- Fix glitch saat perekaman monitor khusus intel gpu, dengan menghapus `xf86-video-intel`.
 
 ### Studio
 - Beberapa aplikasi ditambahkan untuk kebutuhan audio production: `Carla`, `cadence`, `calf` dan `jack_recorder`. Terutama digunakan untuk podcast secara profesional dengan JACK audio connection kit.
@@ -60,8 +62,9 @@ call_to_action:
 - Menambahkan audio plugin LV2 untuk Carla `abGate`, `invada-studio-plugins`, `invada-studio-plugins-lv2`, `swh-lv2`, dan `x42-plugins`.
 - Menambahkan depedensi `opencv` untuk Kdenlive agar dapat menggunakan fitur tracker motion.
 - Menambahkan depedensi `rnnoise` untuk anti noise di OBS Studio.
-- Menghapus `hugin`, `screenkey` dan `dispcalGUI`, dikarenakan masih belum mendukung dengan wayland.
+- Menambahkan `openscad` untuk parametrik CAD 3D.
 - Menghapus dukungan FluidR3 Soundfont `soundfont-fluid`.
+- ~~Menghapus `hugin`, `dispcalGUI`, dikarenakan masih belum mendukung dengan wayland.~~
 
 ### Lain-lain
 - Dikarenakan menggunakan wayland ada beberapa fitur yang belum mendukung. Seperti share screen menggunakan zoom dan jitsi, baik native maupun flatpak. Tetapi screen share berhasil melalui web browser Firefox.
@@ -187,3 +190,5 @@ call_to_action:
 
 * Menambahkan LibreCAD dan Freecad
 * Pembaruan fiksasi `l7-tools` dan `l7-export`
+
+[panduan]:https://panduan.langitketujuh.id

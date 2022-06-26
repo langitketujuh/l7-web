@@ -5,9 +5,9 @@ feature_item:
     icon: "ti-desktop"
     content: "Lingkungan destop yang ringan, mudah, dan handal. Didukung dengan aplikasi KDE seperti Elisa dan KDE Connect."
 
-  - name: "Wayland"
-    icon: "ti-infinite"
-    content: "Protokol komunikasi yang lebih sederhana, modern dan aman. Sesi utama display server dan pengganti X11."
+  #- name: "Wayland"
+    #icon: "ti-infinite"
+    #content: "Protokol komunikasi yang lebih sederhana, modern dan aman. Sesi utama display server dan pengganti X11."
 
   - name: "XBPS"
     icon: "ti-package"
