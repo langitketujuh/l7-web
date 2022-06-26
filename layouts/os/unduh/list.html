@@ -33,7 +33,12 @@
             </ul>
             {{ if .button.enable }}
             {{ with .button }}
-            <a href="{{ .link | absURL }}" class="btn btn-outline-primary text-uppercase">{{ .label }}</a>
+            <a href="{{ .link | absURL }}" class="btn btn-outline-primary text-uppercase mb-3">{{ .label }}</a></br>
+            {{ end }}
+            {{ end }}
+            {{ if .mirror.enable }}
+            {{ with .mirror }}
+            <a href="{{ .link | absURL }}" class="btn btn-sm btn-outline-primary text-uppercase mb-3">{{ .label }}</a>
             {{ end }}
             {{ end }}
           </div>
@@ -60,7 +65,12 @@
             </ul>
             {{ if .button.enable }}
             {{ with .button }}
-            <a href="{{ .link | absURL }}" class="btn btn-primary text-uppercase">{{ .label }}</a>
+            <a href="{{ .link | absURL }}" class="btn btn-primary text-uppercase mb-3">{{ .label }}</a></br>
+            {{ end }}
+            {{ end }}
+            {{ if .mirror.enable }}
+            {{ with .mirror }}
+            <a href="{{ .link | absURL }}" class="btn btn-sm btn-outline-primary text-uppercase mb-3">{{ .label }}</a>
             {{ end }}
             {{ end }}
           </div>
@@ -87,7 +97,12 @@
             </ul>
             {{ if .button.enable }}
             {{ with .button }}
-            <a href="{{ .link | absURL }}" class="btn btn-outline-primary text-uppercase">{{ .label }}</a>
+            <a href="{{ .link | absURL }}" class="btn btn-outline-primary text-uppercase mb-3">{{ .label }}</a></br>
+            {{ end }}
+            {{ end }}
+            {{ if .mirror.enable }}
+            {{ with .mirror }}
+            <a href="{{ .link | absURL }}" class="btn btn-sm btn-outline-primary text-uppercase mb-3">{{ .label }}</a>
             {{ end }}
             {{ end }}
           </div>

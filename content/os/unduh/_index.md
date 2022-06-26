@@ -19,6 +19,10 @@ liteglibc32:
     enable: true
     label: Unduh
     link: "https://al.quds.repo.langitketujuh.id/lite/langitketujuh-lite-i686-20220211.iso"
+  mirror:
+    enable: false
+    label: Mirror
+    link: "os/unduh/"
 liteglibc:
   name:
   type: Lite
@@ -30,6 +34,10 @@ liteglibc:
     enable: true
     label: Unduh
     link: "https://al.quds.repo.langitketujuh.id/lite/langitketujuh-lite-x86_64-20220211.iso"
+  mirror:
+    enable: false
+    label: Mirror
+    link: "os/unduh/"
 litemusl:
   name:
   type: Lite
@@ -41,6 +49,10 @@ litemusl:
     enable: true
     label: Unduh
     link: "https://al.quds.repo.langitketujuh.id/lite/langitketujuh-lite-x86_64-musl-20220211.iso"
+  mirror:
+    enable: false
+    label: Mirror
+    link: "os/unduh/"
 
 studioglibc32:
   name:
