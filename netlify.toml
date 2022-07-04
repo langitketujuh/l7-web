@@ -89,6 +89,12 @@ HUGO_ENABLEGITINFO = "true"
   force = true
 
 [[redirects]]
+  from = "https://langitketujuh.id/community"
+  to = "https://langitketujuh.id/komunitas"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "https://langitketujuh.id/contribute"
   to = "https://langitketujuh.id/kontribusi"
   status = 301
