@@ -35,12 +35,13 @@ call_to_action:
 - Ketika pengguna memasang aplikasi dengan `get`, otomatis akan menyinkronkan dengan repodata terbaru sehingga tidak perlu menjalankan `update` terlebih dahulu.
 - Menambahkan fitur `plasma-vault` beserta dukungan enkripsi `cryfs`, `encfs`, dan `gocryptfs`. Plasma vault berguna untuk menyimpan berkas yang bersifat rahasia dan penting. Plasma vault sudah terkonfigurasi bersama widget systray di bagian panel.
 - Ikon desktop installer (Install to Disk) sudah ada di menu. Installer juga sudah mendukung `btrfs` untuk mountpoint @subvolume `/`.
-- Perbaikan dan penambahan halaman Panduan [sesi desktop], [pulseaudio], [cadence], [carla], [goxel] .
-- Secara bawaan hanya mengaktifkan 20 servis runit agar lebih ringan dan minimalis.
+- Perbaikan dan penambahan halaman Panduan [sesi desktop], [pulseaudio], [cadence], [carla], [goxel], [brother], [canon], [epson], [HP], dan [open printing].
+- Secara bawaan hanya mengaktifkan 20 servis [runit init] agar lebih ringan dan minimalis.
 - Menambahkan `corectrl` untuk mengontrol hardware core cpu dengan mudah.
 - Menambahkan `skanpage` sebagai pengganti dari skanlite serta dapat melakukan scanning dengan banyak halaman.
 - Menambahkan `alsa-plugin-jack` untuk dukungan pustaka jack untuk alsa.
 - Menambahkan `htop` sebagai cli monitor sistem manager.
+- Menambahkan `l7-site` (Homepage, Community, Donate) untuk membuka halaman langitketujuh melalui menu.
 - ~~Menggunakan sesi `wayland` secara bawaan (sebelumnya menggunakan `plasma` X11). Banyak benefit yang ditawarkan dari wayland khususnya latensi yang rendah dan manajemen protokol grafis yang lebih baik.~~
 
 ### Eliminasi
@@ -78,14 +79,6 @@ call_to_action:
 - ~~Krita 5.0.8+ dari repo voidlinux. [#bug](https://github.com/void-linux/void-packages/pull/37387)~~
 - FreeCAD 0.20+ dari upstream dan repo voidlinux agar mendukung wayland. [#bug](https://github.com/FreeCAD/FreeCAD/issues/6068)
 - KDE plasma 5.25 dari upstream dan repo voidlinux.
-
-[Pulseaudio]:https://panduan.langitketujuh.id/konfigurasi/multimedia/pulseaudio.html
-[mengkonfigurasi touchpad]:https://panduan.langitketujuh.id/konfigurasi/kde/pengaturan-sistem.html#mengaktifkan-tap-to-click
-[sesi desktop]:https://panduan.langitketujuh.id/konfigurasi/kde/sesi-desktop.html
-[2 server]:https://panduan.langitketujuh.id/konfigurasi/server.html
-[carla]:https://panduan.langitketujuh.id/aplikasi/audio/carla.html
-[cadence]:https://panduan.langitketujuh.id/aplikasi/audio/cadence.html
-[goxel]:https://panduan.langitketujuh.id/aplikasi/animasi/goxel.html
 
 ***
 
@@ -193,3 +186,17 @@ call_to_action:
 * Pembaruan fiksasi `l7-tools` dan `l7-export`
 
 [panduan]:https://panduan.langitketujuh.id
+[pulseaudio]:https://panduan.langitketujuh.id/konfigurasi/multimedia/pulseaudio.html
+[sesi desktop]:https://panduan.langitketujuh.id/konfigurasi/kde/sesi-desktop.html
+[2 server]:https://panduan.langitketujuh.id/konfigurasi/server.html
+[carla]:https://panduan.langitketujuh.id/aplikasi/audio/carla.html
+[cadence]:https://panduan.langitketujuh.id/aplikasi/audio/cadence.html
+[goxel]:https://panduan.langitketujuh.id/aplikasi/animasi/goxel.html
+[printer]:https://panduan.langitketujuh.id/konfigurasi/driver/printer/index.html
+[brother]:https://panduan.langitketujuh.id/konfigurasi/driver/printer/brother.html
+[canon]:https://panduan.langitketujuh.id/konfigurasi/driver/printer/canon.html
+[epson]:https://panduan.langitketujuh.id/konfigurasi/driver/printer/epson.html
+[HP]:https://panduan.langitketujuh.id/konfigurasi/driver/printer/hp.html
+[open printing]:https://panduan.langitketujuh.id/konfigurasi/driver/printer/open-printing.html
+[runit init]:https://panduan.langitketujuh.id/konfigurasi/layanan/sv.html#daftar-layanan-yang-aktif
+[mengkonfigurasi touchpad]:https://panduan.langitketujuh.id/konfigurasi/kde/pengaturan-sistem.html#mengaktifkan-tap-to-click
