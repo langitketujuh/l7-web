@@ -51,6 +51,7 @@ call_to_action:
 - ~~Agar mengoptimalkan penggunaan sesi wayland, beberapa perangkat lunak yang belum kompatibel dengan wayland akan dihapus. Seperti `ssr`, `kcm-wacomtablet`, dan `flameshoot`. Perekam desktop kami sarankan menggunakan OBS studio karena telah mendukung wayland. Pengguna pen tablet wacom tidak akan menemui pengaturan tablet di pengaturan sistem, tetapi masih bisa digunakan dengan `libwacom` secara bawaan.~~
 
 ### Pembenahan
+- Perubahan nama edisi `lite` menjadi edisi `home`. Perubahan ini dikarenakan `lite` identik dengan nama distro yang ringan ukuran isonya seperti puppylinux, linux lite, tiny core, dsb. Padahal edisi lite sendiri ukuran isonya tidaklah ringan, sekitar 3GiB. Jadi, kami merubahnya sesuai dengan fungsi penggunaan. Edisi `studio` untuk keperluan profesional/studio sedangkan edisi `home` untuk kebutuhan standar/rumahan.
 - Fix suara untuk pengguna non admin (standar). Pipewire sebelumnya hanya bisa diakses oleh grup `wheel` (pengguna dengan akses administrator). Sekarang pengguna standar (tanpa akses administrator) bisa mengaktifkan suara dengan pipewire.
 - Fix tema aplikasi di sesi wayland. Beberapa aplikasi gtk tidak mendukung tema bawaan qt di wayland, sekarang sudah menggunakan tema yang general.
 - Fix performa start menu. Menambahkan `l7-krunner` dan mengaktifkan plugin plasma search yang diperlukan saja. Tidak perlu ada `indexing files` sehingga mempercepat delay start menu saat melakukan pencarian.
