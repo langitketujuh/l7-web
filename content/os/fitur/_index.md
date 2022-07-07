@@ -3,7 +3,7 @@ title: "Fitur OS"
 subtitle: Edisi Studio untuk kebutuhan profesional. Pilih sesuai kebutuhan!
 # meta description
 type: "os/fitur"
-description: "Perbandingan antara fitur lite dan studio. Edisi lite untuk kebutuhan umum, sedangkan edisi studio untuk kebutuhan profesional."
+description: "Perbandingan antara fitur home dan studio. Edisi home untuk kebutuhan umum, sedangkan edisi studio untuk kebutuhan profesional."
 image: media/beranda/thumbnail.jpg
 opengraph:
   image: media/beranda/thumbnail.jpg
@@ -21,7 +21,7 @@ call_to_action:
 
 ---
 
-| Fitur                                    | Lite  | Studio |
+| Fitur                                    | Home  | Studio |
 | :--------------------------------------- | :---: | :----: |
 | Dukungan pemasangan oleh tenaga ahli.    |   -   | **√**  |
 | Deteksi Printer HP dan Epson.            | **√** | **√**  |

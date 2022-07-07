@@ -32,7 +32,7 @@ Berbagai aplikasi desain kebanyakan terbuat dari QT. Seperti krita, kdenlive, sc
 
 ### Sistem Operasi Multimedia?
 
-LangitKetujuh digunakan untuk kebutuhan multimedia. Sebab pengembang LangitKetujuh juga desainer, pengajar, freelancer, dan memiliki bakat di desain grafis. Meskipun demikian, LangitKetujuh terdapat versi Lite yang digunakan untuk kebutuhan umum dan awam.
+LangitKetujuh digunakan untuk kebutuhan multimedia. Sebab pengembang LangitKetujuh juga desainer, pengajar, freelancer, dan memiliki bakat di desain grafis. Meskipun demikian, LangitKetujuh terdapat versi Home yang digunakan untuk kebutuhan umum dan awam.
 
 ### Siapa Para Tim?
 

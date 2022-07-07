@@ -16,11 +16,11 @@ Anda dapat memberikan [donasi](../donasi) sesuai kualitas pelayanan kami. Asalka
 Anda bisa [berdonasi](../donasi) dengan munggunakan Scan QR Code Qris. Kami menggunakan layanan pihak [Qris ID](https://qris.id) dengan NMID ID1021067117882 dari InterActive untuk kemudahkan transfer donasi. Pengiriman donasi bisa melalui aplikasi E-Wallet seperti GOPay, OVO, Dana, LinkAja dan aplikasi Mobile Banking lainnya.
 {{</ faq >}}
 
-{{< faq "Apakah saya perlu membeli dahulu?" >}} Jika Anda menggunakan [edisi lite](https://panduan.langitketujuh.id/perbandingan/edisi.html#lite) maka Anda bisa mendapatkannya secara gratis. Sedangkan untuk LangitKetujuh OS Studio dengan layanan instalasi secara penuh, Anda harus membeli Rp107.000. Anda juga dapat mendonasikan jika ada rezeki lebih. pembelian dapat dikembalikan apabila pemasangan tidak berhasil atau kami salurkan langsung ke [lazismu.org](https://lazismu.org/) dan [smart171.org](https://smart171.org) untuk mengirimkan bantuan dan kebutuhan Yatim di Gaza. {{</ faq >}}
+{{< faq "Apakah saya perlu membeli dahulu?" >}} Jika Anda menggunakan [edisi home](https://panduan.langitketujuh.id/perbandingan/edisi.html#home) maka Anda bisa mendapatkannya secara gratis. Sedangkan untuk LangitKetujuh OS Studio dengan layanan instalasi secara penuh, Anda harus membeli Rp107.000. Anda juga dapat mendonasikan jika ada rezeki lebih. pembelian dapat dikembalikan apabila pemasangan tidak berhasil atau kami salurkan langsung ke [lazismu.org](https://lazismu.org/) dan [smart171.org](https://smart171.org) untuk mengirimkan bantuan dan kebutuhan Yatim di Gaza. {{</ faq >}}
 
 
 {{< faq "Saya memerlukan bantuan tentang masalah teknis?" >}}
-Anda bisa menggunakan [Layanan LangitKetujuh OS](https://t.me/LangitKetujuh_bot) via telegram. Jika menggunakan versi Lite tidak ada bantuan khusus tentang masalah teknis dan dukungan instalasi. Anda bisa melihat perbedaan fitur Langitketujuh di [halaman fitur](../os/fitur).
+Anda bisa menggunakan [Layanan LangitKetujuh OS](https://t.me/LangitKetujuh_bot) via telegram. Jika menggunakan versi Home tidak ada bantuan khusus tentang masalah teknis dan dukungan instalasi. Anda bisa melihat perbedaan fitur Langitketujuh di [halaman fitur](../os/fitur).
 {{</ faq >}}
 
 {{< faq "Apakah ada dokumentasi dan bantuan instalasi?" >}}

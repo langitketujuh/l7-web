@@ -8,9 +8,9 @@ opengraph:
   image: media/beranda/thumbnail.jpg
 version: 20220211
 
-liteglibc32:
+homeglibc32:
   name:
-  type: Lite
+  type: Home
   type_ver:
   info: i686 (32bit)
   services:
@@ -18,14 +18,14 @@ liteglibc32:
   button:
     enable: true
     label: Unduh
-    link: "https://al.quds.repo.langitketujuh.id/lite/langitketujuh-lite-i686-20220211.iso"
+    link: "https://al.quds.repo.langitketujuh.id/home/langitketujuh-home-i686-20220211.iso"
   mirror:
     enable: false
     label: Mirror
     link: "os/unduh/"
-liteglibc:
+homeglibc:
   name:
-  type: Lite
+  type: Home
   type_ver:
   info: x86_64 (64bit)
   services:
@@ -33,14 +33,14 @@ liteglibc:
   button:
     enable: true
     label: Unduh
-    link: "https://al.quds.repo.langitketujuh.id/lite/langitketujuh-lite-x86_64-20220211.iso"
+    link: "https://al.quds.repo.langitketujuh.id/home/langitketujuh-home-x86_64-20220211.iso"
   mirror:
     enable: false
     label: Mirror
     link: "os/unduh/"
-litemusl:
+homemusl:
   name:
-  type: Lite
+  type: Home
   type_ver:
   info: x86_64-musl (64bit)
   services:
@@ -48,7 +48,7 @@ litemusl:
   button:
     enable: true
     label: Unduh
-    link: "https://al.quds.repo.langitketujuh.id/lite/langitketujuh-lite-x86_64-musl-20220211.iso"
+    link: "https://al.quds.repo.langitketujuh.id/home/langitketujuh-home-x86_64-musl-20220211.iso"
   mirror:
     enable: false
     label: Mirror

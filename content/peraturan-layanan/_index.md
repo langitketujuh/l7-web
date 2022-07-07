@@ -30,7 +30,7 @@ Pengguna profesional yang membeli mulai dari Rp57.000,00 apabila pemasangan tida
   * Pengguna telah mengetahui glibc dan setuju menggunakan bila memilihnya.
   * Pengguna telah mengetahui musl dan setuju menggunakan bila memilihnya.
   * Pengguna telah mengetahui musl dan menggunakan nouveau driver sebagai alternatif kartu grafis NVIDIA. Pengguna setuju menggunakan bila memilihnya.
-  * Pertanyaan yang diajukan oleh pengguna lite dan studio hanya untuk yang berhubungan dengan langitketujuh OS dan seputar desain grafis.
+  * Pertanyaan yang diajukan oleh pengguna home dan studio hanya untuk yang berhubungan dengan langitketujuh OS dan seputar desain grafis.
 
 ### Teknis layanan pemasangan sistem operasi
 
