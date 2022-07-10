@@ -6,7 +6,7 @@ description: Penuhi kebutuhan desainmu dengan LangitKetujuh OS.
 image: media/beranda/thumbnail.jpg
 opengraph:
   image: media/beranda/thumbnail.jpg
-version: 20220211
+version: 20220710
 
 homeglibc32:
   name:
@@ -18,8 +18,7 @@ homeglibc32:
   button:
     enable: true
     label: Unduh
-    link: "os/unduh/"
-    #link: "https://al.quds.repo.langitketujuh.id/home/langitketujuh-home-i686-20220211.iso"
+    link: "https://al.quds.repo.langitketujuh.id/home/langitketujuh-home-i686-20220710.iso"
   mirror:
     enable: false
     label: Mirror
@@ -34,8 +33,7 @@ homeglibc:
   button:
     enable: true
     label: Unduh
-    link: "os/unduh/"
-    #link: "https://al.quds.repo.langitketujuh.id/home/langitketujuh-home-x86_64-20220211.iso"
+    link: "https://al.quds.repo.langitketujuh.id/home/langitketujuh-home-x86_64-20220710.iso"
   mirror:
     enable: false
     label: Mirror
@@ -50,8 +48,7 @@ homemusl:
   button:
     enable: true
     label: Unduh
-    link: "os/unduh/"
-    #link: "https://al.quds.repo.langitketujuh.id/home/langitketujuh-home-x86_64-musl-20220211.iso"
+    link: "https://al.quds.repo.langitketujuh.id/home/langitketujuh-home-x86_64-musl-20220710.iso"
   mirror:
     enable: false
     label: Mirror
@@ -70,7 +67,7 @@ studioglibc32:
     enable: true
     label: Beli & Unduh
     link: "os/unduh/"
-    #link: "os/unduh/studio/i686"
+    link: "os/unduh/studio/i686"
 studioglibc:
   name:
   type: Studio
@@ -84,7 +81,7 @@ studioglibc:
     enable: true
     label: Beli & Unduh
     link: "os/unduh/"
-    #link: "os/unduh/studio/x86_64"
+    link: "os/unduh/studio/x86_64"
 studiomusl:
   name:
   type: Studio
@@ -98,7 +95,7 @@ studiomusl:
     enable: true
     label: Beli & Unduh
     link: "os/unduh/"
-    #link: "os/unduh/studio/x86_64-musl"
+    link: "os/unduh/studio/x86_64-musl"
 
 call_to_action:
   enable : true
