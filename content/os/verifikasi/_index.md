@@ -23,9 +23,9 @@ Sebelum Anda membuat bootable, disarankan untuk melakukan verifikasi berkas. Tuj
 
 | **SHA256** | **Nama Berkas**                               |
 | :--------- | :-------------------------------------------- |
-| `351fded63bbc1ade17509f6f9ae29acefcd0ce0916c9681c26f71cabc1d11631`        | langitketujuh-home-i686-20220211.iso          |
-| `a682c827d7e3162409122d0a7eb879757655591af7811b02a49a34cc67276e01`        | langitketujuh-home-x86_64-20220211.iso        |
-| `559d54b3600dca37a410d4799201092ed9584c0b7be00fed01ad64510fba7076`        | langitketujuh-home-x86_64-musl-20220211.iso   |
-| `2a45ccbe351eda1054ebc25fea19a9742985299a1bcf466c35074d8fd52e8b18`        | langitketujuh-studio-i686-20220211.iso        |
-| `26f535dfba15e153fc11041cd3900e3f938b42d833c360bc28aecb264cff325a`        | langitketujuh-studio-x86_64-20220211.iso      |
-| `6219312cdf57a646f08bafd14088dd5825281d63d54fc7e483fa3dcf36902bc3`        | langitketujuh-studio-x86_64-musl-20220211.iso |
+| `b6385ead14a05398145c989e083d6c68e9961f592505d31e150032fe035cc929`        | langitketujuh-home-i686-20220710.iso          |
+| `25bb5632d916bab50e7bffff52180b46c27622b7a455222902520cf6de0cf5f9`        | langitketujuh-home-x86_64-20220710.iso        |
+| `32c139ade33a24dcd6f348de4fd2c493e2904ed0111a450c3824b8ae07bbae54`        | langitketujuh-home-x86_64-musl-20220710.iso   |
+| `1c8558663d4b86b23da2a21347d770e39cfb9beecc23c62438e0cf90006d4b31`        | langitketujuh-studio-i686-20220710.iso        |
+| `d82d5faf91da07aded12d42c0396190323c7cb0ec899881f0bb9e254adb7536b`        | langitketujuh-studio-x86_64-20220710.iso      |
+| `5b006ce1e3821891656f35ef96f07551deb275381eb09a11b147c13bb4487d5e`        | langitketujuh-studio-x86_64-musl-20220710.iso |
