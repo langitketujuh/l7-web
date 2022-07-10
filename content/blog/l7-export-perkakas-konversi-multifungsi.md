@@ -72,21 +72,6 @@ Berikut ini demonstrasi penggunaan validator eps8.
 
 {{< video validator-eps8-fitur-baru-l7-export.mp4 >}}
 
-### Pemasangan
-
-Secara bawaan sudah ada di Langitketujuh OS tinggal menambah color profile saja
-
-```bash
-sudo l7-export --install
-```
-
-Sedangkan untuk linux lain seperti Ubuntu, Debian, openSUSE, Arch, Fedora, Void dan derivatifnya. Jalankan perintah ini
-
-```bash
-sudo curl "https://langitketujuh.id/sh/l7-export" | sudo bash
-sudo l7-export --install
-```
-
 ### Penggunaan
 
 - Berikan ID setiap objek di inkscape
