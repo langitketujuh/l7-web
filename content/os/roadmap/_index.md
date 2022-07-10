@@ -39,6 +39,7 @@ call_to_action:
 - Secara bawaan hanya mengaktifkan 20 servis [runit init] agar lebih ringan dan minimalis.
 - Menambahkan `corectrl` untuk mengontrol hardware core cpu dengan mudah.
 - Menambahkan `skanpage` sebagai pengganti dari skanlite serta dapat melakukan scanning dengan banyak halaman.
+- Menambahkan `kronometer` sebagai pengatur stopwatch sederhana.
 - Menambahkan `alsa-plugin-jack` untuk dukungan pustaka jack untuk alsa.
 - Menambahkan `htop` sebagai cli monitor sistem manager.
 - Menambahkan `l7-site` (Homepage, Community, Donate) untuk membuka halaman langitketujuh melalui menu.
