@@ -87,7 +87,7 @@ Menambahkan openscad untuk parametrik CAD 3D dengan functional programming. Hasi
 
 {{< figure src=/media/blog/openscad.webp alt="OpensCAD LangitKetujuh OS">}}
 
-Perubahan selengkapnya ada dihalaman [roadmap]. Perubahan tersebut memang ada perencanaan untuk menggunakan sesi wayland sebagai sesi desktop utama. Tetapi sejauh pengujian kami, LangitKetujuh masih belum siap untuk menggunakan wayland. Beberapa software masih belum berfungsi dengan baik jika menggunakan wayland seperti `ssr`, `libwacom` yang masih ditemui bug kursor, `kcm-wacom`, `hugin`, `dispcalgui`, dan `screenkey`. Alhasil LangitKetujuh masih tetap menggunakan X11.
+Perubahan selengkapnya ada dihalaman [roadmap]. Perubahan tersebut memang ada perencanaan untuk menggunakan sesi wayland sebagai sesi desktop utama. Tetapi setelah dilakukan beberapa pengujian, LangitKetujuh masih belum siap untuk menggunakan wayland. Beberapa software GUI masih belum berfungsi dengan baik jika menggunakan wayland. Misalnya `ssr` hasil rekam blank, `libwacom` yang masih ditemui bug kursor, `kcm-wacom` yang hanya mendukung x11 saja, `hugin` yang tidak merespon, `dispcalgui`, `screenkey` yang tidak tampil output, dan `pickcolor` yang tidak dapat mengambil sampel warna. Alhasil, LangitKetujuh masih tetap menggunakan X11.
 
 _Barakallahu fiikum._
 
