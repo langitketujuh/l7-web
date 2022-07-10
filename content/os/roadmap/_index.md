@@ -24,11 +24,11 @@ call_to_action:
 ## Pengembangan
 | **Jadwal**          | **Status** | **Tanggal**      |
 | :------------------ | :--------: | :--------------- |
-| Pengembangan        |   Proses   | 12 Februari 2022 |
-| Uji coba tak stabil |   Proses   | 12 Februari 2022 |
-| Uji coba stabil     |   Proses   | 12 Februari 2022 |
-| Upload berkas iso   |   Belum    | 9 Juli 2022      |
-| **Rilis**           |   Belum    | 10 Juli 2022     |
+| Pengembangan        |   Sudah    | 12 Februari 2022 |
+| Uji coba tak stabil |   Sudah    | 12 Februari 2022 |
+| Uji coba stabil     |   Sudah    | 12 Februari 2022 |
+| Upload berkas iso   |   Sudah    | 9 Juli 2022      |
+| **Rilis**           |   Sudah    | 10 Juli 2022     |
 
 ### Improvisasi
 - Fish-shell sudah tidak menggunakan singkatan (abbreviation) lagi. Sekarang menggunakan fungsi. Sehingga perintah fungsi `get`, `remove`, `update`, `upgrade`, `list`, `repo`, `info` sudah bisa langsung digunakan. Beberapa perintah direvisi, seperti `update` diganti ke `upgrade`, `sync` diganti ke `update`, `repolist` diganti ke `repo`. Fungsi tersebut juga mendukung di bash-shell. Bahkan bisa dijalankan di pengguna root.
