@@ -1,0 +1,390 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="mb-5 mt-4 text-center">
+          <h2>{{ .Title | markdownify }}</h2>
+        </div>
+        <form name="survey" netlify-honeypot="bot-field" action="/sk-feedback" method="POST" data-netlify="true">
+          <div>
+            <p>Penilaian ini hanya boleh diisi oleh pengguna yang sudah pernah atau sedang menggunakan sistem operasi langitketujuh. Harapannya kami mendapatkan penilaian dari pengguna LangitKetujuh OS yang sesuai dengan kebenarannya. Cara memberikan penilaian cukup dengan memberikan nilai dari setiap pernyataan antara 1 sampai 10, semakin tinggi nilai maka semakin baik dan begitupun sebaliknya.</p>
+          </div>
+          <hr>
+          <h2>Biodata</h2>
+          <input type="text" class="form-control mb-3" name="nama" placeholder="Nama lengkap" required="true">
+          <input type="email" class="form-control mb-3" name="surel" placeholder="Email aktif" required="true">
+          <div class="form-group row mt-3">
+            <label class="col-sm-8 col-form-label">Sudah pernah menggunakan sistem operasi LangitKetujuh OS?</label>
+            <div class="col-sm-4 input-group">
+              <select class="custom-select" name="soal-0[]" required="true">
+                <option selected value="sudah">Ya, Sudah</option>
+                <option value="belum">Belum</option>
+              </select>
+            </div>
+          </div>
+          <hr>
+          <h2>Survei</h2>
+          <h4>1. Kemudahan</h4>
+          <div class="form-group row mt-3">
+            <label class="col-sm-8 col-form-label">Mudah mengkustomisasi desktop (menu, widget, tema, wallpaper dan panel) agar lebih menarik dan nyaman saat digunakan untuk bekerja.</label>
+            <div class="col-sm-4 input-group">
+              <select class="custom-select" name="soal-1a[]" required="true">
+                <option value="10">10</option>
+                <option value="9">9</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option selected value="-">-</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-8 col-form-label">Mudah untuk menggunakan perintah di konsole seperti get, remove, search, list dan info.</label>
+            <div class="col-sm-4 input-group">
+              <select class="custom-select" name="soal-1b[]" required="true">
+                <option value="10">10</option>
+                <option value="9">9</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option selected value="-">-</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-8 col-form-label">Mudah memperbarui/upgrade sistem, jika gagal sudah ada panduan untuk menyelesaikan masalahnya.</label>
+            <div class="col-sm-4 input-group">
+              <select class="custom-select" name="soal-1c[]" required="true">
+                <option value="10">10</option>
+                <option value="9">9</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option selected value="-">-</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-8 col-form-label">Mudah memasang perangkat lunak terbaru dengan flatpak.</label>
+            <div class="col-sm-4 input-group">
+              <select class="custom-select" name="soal-1d[]" required="true">
+                <option value="10">10</option>
+                <option value="9">9</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option selected value="-">-</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-8 col-form-label">Mudah memasang perangkat lunak pihak ketiga dengan vpsm (x86_64).</label>
+            <div class="col-sm-4 input-group">
+              <select class="custom-select" name="soal-1e[]" required="true">
+                <option value="10">10</option>
+                <option value="9">9</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option selected value="-">-</option>
+              </select>
+            </div>
+          </div>
+          <hr>
+          <h4>2. Performa</h4>
+          <div class="form-group row mt-3">
+            <label class="col-sm-8 col-form-label">Startup booting saat mesin komputer dihidupkan sudah cepat.</label>
+            <div class="col-sm-4 input-group">
+              <select class="custom-select" name="soal-2a[]" required="true">
+                <option value="10">10</option>
+                <option value="9">9</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option selected value="-">-</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-8 col-form-label">Mengkompil, mengekspor atau merender video animasi sudah cepat.</label>
+            <div class="col-sm-4 input-group">
+              <select class="custom-select" name="soal-2b[]" required="true">
+                <option value="10">10</option>
+                <option value="9">9</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option selected value="-">-</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-8 col-form-label">Menjalankan browser dengan firefox sudah cepat.</label>
+            <div class="col-sm-4 input-group">
+              <select class="custom-select" name="soal-2c[]" required="true">
+                <option value="10">10</option>
+                <option value="9">9</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option selected value="-">-</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-8 col-form-label">Menjalankan perangkat lunak perkantoran dengan libreoffice sudah cepat.</label>
+            <div class="col-sm-4 input-group">
+              <select class="custom-select" name="soal-2d[]" required="true">
+                <option value="10">10</option>
+                <option value="9">9</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option selected value="-">-</option>
+              </select>
+            </div>
+          </div>
+          <hr>
+          <h4>3. Kestabilan</h4>
+          <div class="form-group row mt-3">
+            <label class="col-sm-8 col-form-label">Driver GPU bekerja dengan semestinya (khusus Intel dan AMD).</label>
+            <div class="col-sm-4 input-group">
+              <select class="custom-select" name="soal-3a[]" required="true">
+                <option value="10">10</option>
+                <option value="9">9</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option selected value="-">-</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-8 col-form-label">Jaringan LAN dan wifi terdeteksi serta berjalan dengan normal.</label>
+            <div class="col-sm-4 input-group">
+              <select class="custom-select" name="soal-3b[]" required="true">
+                <option value="10">10</option>
+                <option value="9">9</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option selected value="-">-</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-8 col-form-label">Saat menggunakan X11 dan wayland sudah cukup baik.</label>
+            <div class="col-sm-4 input-group">
+              <select class="custom-select" name="soal-3c[]" required="true">
+                <option value="10">10</option>
+                <option value="9">9</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option selected value="-">-</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-8 col-form-label">Perangkat lunak multimedia sudah cukup stabil dan bekerja dengan semestinya.</label>
+            <div class="col-sm-4 input-group">
+              <select class="custom-select" name="soal-3d[]" required="true">
+                <option value="10">10</option>
+                <option value="9">9</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option selected value="-">-</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-8 col-form-label">Dukungan codec audio dan video berjalan dengan baik.</label>
+            <div class="col-sm-4 input-group">
+              <select class="custom-select" name="soal-3e[]" required="true">
+                <option value="10">10</option>
+                <option value="9">9</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option selected value="-">-</option>
+              </select>
+            </div>
+          </div>
+          <hr>
+          <h4>4. Dokumentasi</h4>
+          <div class="form-group row mt-3">
+            <label class="col-sm-8 col-form-label">Dokumentasi di halaman <a href="https://panduan.langitketujuh.id" target="_blank">panduan</a> cukup lengkap dan sudah membantu.</label>
+            <div class="col-sm-4 input-group">
+              <select class="custom-select" name="soal-4a[]" required="true">
+                <option value="10">10</option>
+                <option value="9">9</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option selected value="-">-</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-8 col-form-label">Setiap perintah dan langkah-langkah di panduan mudah untuk diterapkan.</label>
+            <div class="col-sm-4 input-group">
+              <select class="custom-select" name="soal-4b[]" required="true">
+                <option value="10">10</option>
+                <option value="9">9</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option selected value="-">-</option>
+              </select>
+            </div>
+          </div>
+          <hr>
+          <h4>5. Komunitas</h4>
+          <div class="form-group row mt-3">
+            <label class="col-sm-8 col-form-label">Keramahan antar pengguna sistem operasi di komunitas <a href="https://t.me/langitketujuhid" target="_blank">telegram</a> dan <a href="https://www.facebook.com/groups/langitketujuh.group/" target="_blank">facebook</a> sudah cukup baik.</label>
+            <div class="col-sm-4 input-group">
+              <select class="custom-select" name="soal-5a[]" required="true">
+                <option value="10">10</option>
+                <option value="9">9</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option selected value="-">-</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-8 col-form-label">Pengguna ketika mendapatkan masalah mendapatkan respon dengan baik.</label>
+            <div class="col-sm-4 input-group">
+              <select class="custom-select" name="soal-5b[]" required="true">
+                <option value="10">10</option>
+                <option value="9">9</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option selected value="-">-</option>
+              </select>
+            </div>
+          </div>
+          <hr>
+          <p>Apakah ada tanggapan lain yang ingin disampaikan dalam survei ini?</p>
+          <textarea name="tanggapan" class="form-control mb-5" placeholder=""></textarea>
+          <div class="form-group mb-3">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck" name="data" value="ya, saya setuju"
+                required="true">
+              <label class="form-check-label" for="gridCheck">
+                Saya telah menyetujui dan mematuhi <a href="/peraturan-layanan">peraturan layanan</a> & <a
+                  href="/kebijakan-privasi">kebijakan privasi</a>.
+              </label>
+            </div>
+          </div>
+          <div class="mb-5">
+            <div data-netlify-recaptcha="true"></div>
+          </div>
+          <div class="text-center">
+            <button type="submit" value="send" class="btn btn-primary">Kirim saran</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+{{ partial "screenshot.html" . }}
+
+{{ end }}
