@@ -19,6 +19,6 @@ call_to_action:
     link : "/blog"
 ---
 
-Anda sudah mengisi formulir halaman Feedback/Kabari.
+Anda sudah mengisi formulir halaman formulir.
 
 _Syukran wa jazaakumullahu khairan katsiran._
