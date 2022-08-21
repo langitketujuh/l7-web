@@ -20,6 +20,7 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - **Hendra Abu Zaid (Abu Zaid Tutorial)** yang telah mengajak menggunakan LangitKetujuh OS di komunitas.
 - **Annisa Aulia Rasyidah** yang telah menyokong, memberikan saran dan umpan balik l7-export hingga mencapai versi yang stabil.
 - **Endi Suwandi (Bisa Website)** yang telah bekerja sama selama ini.
+- Aan Triono.
 - Abdul Jalil.
 - Abinya Sufyan.
 - Abu Aqeelah.
@@ -27,14 +28,18 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - Acep Rahmat.
 - Adam Rizky Pratama.
 - Ade Deri.
+- Adi Jatnika.
 - Adi.
+- Adie Halifa Muhara.
 - Adillah Ambre.
 - Aditiya.
 - Admaja.
 - Adzka Muhammad Mumtaz.
+- Afif Maulana Malik Ibrahim.
 - Agung Bahtiar.
 - Agus Haryanto Catur Prayitno.
 - Agus Zakariya.
+- Ahmad Hermawan Ertyanto.
 - Ahmad Khoufa Ma'Ashi.
 - Ahmad Yoga.
 - Akip Ridwan.
@@ -47,10 +52,12 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - Andrian.
 - Andy Hidayat.
 - Angga Saputra.
+- Annisa Aulia Rasyidah.
 - Ansori.
 - Anton Prafanto.
 - Apriandhy Fauzi Kahar.
 - Aqlan Fadhil.
+- Arie Prabowo.
 - Arifin.
 - Ariful Sukron.
 - Aris.
@@ -66,7 +73,10 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - Bayu Tri Susilo.
 - Bilal Barnabas.
 - Bima Mulyanto.
+- Bony Prabowo.
+- Budi Irawan.
 - Budi Suzaldi.
+- Buyung.
 - Cecep Wahidin.
 - Chairuddinsyah Harahap.
 - Dadan Mulyana.
@@ -86,12 +96,15 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - Edy Daryapto.
 - Eggi Chanda.
 - Eka Panji Kusuma.
+- Eka Putra.
 - Eko Purwanto.
 - Eman Sulaeman.
 - Ermin Dwi Alita.
 - Esya Firman F.
 - Fahmi8902.
+- Fahrul Ibnu Ahmad.
 - Faisal Rosady.
+- Fajar Dwi Saputro.
 - Fajar Sidik.
 - Faruq M.
 - Fernanda Rizky Sanjaya.
@@ -118,7 +131,6 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - Heri Setiawan.
 - Heriyanto.
 - Hermawan.
-- Hermawan.
 - Herru Pratomo.
 - Heru Santoso.
 - Huda.
@@ -144,6 +156,9 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - Khairul Arief Rahman.
 - Khairullah.
 - Kresna Kusuma Negara.
+- Kustiono.
+- Latif Ahmad Fatih.
+- Latif Sobri Alhamidi.
 - Linuxscoop.
 - M. Iqbal Bustam.
 - M. Naufal Pikri.
@@ -155,6 +170,7 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - Moh. Yanuar Ramadhan.
 - Mohammad Qowaidul Umam.
 - Mohammad Rizki Aiman.
+- Mohammad Shodiq.
 - Moja Mojafat.
 - Monsky.
 - Mr. Smith.
@@ -168,6 +184,7 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - Muhammad Awaludin.
 - Muhammad Farid H.
 - Muhammad Firqi Arianto.
+- Muhammad Hasan.
 - Muhammad Ilham Pradanto.
 - Muhammad Marwan.
 - Muhammad Nurramadhan.
@@ -197,6 +214,8 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - Prawita Mepilianti.
 - Rahmad Arifin.
 - Rakha Ash Shadiq.
+- Rama Dwi Putro.
+- Redinetyas Prakasa.
 - Reska Anita Putri.
 - Rian Firmandes.
 - Ricki Julianto.
@@ -207,16 +226,20 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - Risfan Yani.
 - Risnandar H. Sahido.
 - Risqon Anjahiranda Adiputra.
+- Rizal Krisnawan.
+- Rizki Aprianto.
+- Rizki Dwi Putranto.
 - Rizki Febrianto.
-- Rizki0404.
 - Rizky Arsyansyah Rinjani.
 - Robby Hermawan.
 - Rohmana.
 - Saelani.
 - Sakti Nurrahman.
+- Setiyo Budi.
 - Shahrizan.
 - Sidiq Adi Nugroho.
 - Sigit Dwi Pamungkas.
+- Siti Nur Janah T.H. Romu.
 - Siti Nurmala. S.
 - Siti Roudlotul Jannah.
 - Slamet Supriyanto.
@@ -230,9 +253,9 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - Suyono.
 - Syaikhoni.
 - Syamsur Ramdhan Firdaus.
-- T. Fauzan.
 - Teguh Prihatin.
 - Teguh Ryt12.
+- Teuku Fauzan.
 - Tohir.
 - Tukiyo.
 - Tun Rahmat Reformasi.
@@ -247,8 +270,10 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - Yogi Tri Widodo.
 - Yudi Pratama.
 - Yunus Ahmad.
-- Yusuf Almalik Saputra. Md.
+- Yusuf Almalik Saputra, Md.
 - Yusuf Isna Hanif.
+- Yuukio Fuyu.
+- Zainal Abidin.
 - Zainal.
 - Zakki Mubarak.
 - Zulkarnain Alfan.
