@@ -104,3 +104,9 @@ HUGO_ENABLEGITINFO = "true"
   from = "/*"
   to = "/404/"
   status = 404
+
+[[redirects]]
+  from = "https://langitketujuh.id/pts"
+  to = "https://openbenchmarking.org/result/2207010-NE-2206270NE19"
+  status = 301
+  force = true
