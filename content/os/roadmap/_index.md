@@ -35,11 +35,13 @@ call_to_action:
 
 - Menambahkan `hx` (Helix editor) sebagai cli teks editor utama alternatif `vim`. Tetapi vim masih tetap ada.
 - Menambahkan `qownnotes` (QownNotes) sebagai aplikasi catatan instan yang mendukung markdown.
-- Mengaktifkan kembali repo nonfree, serta mengikutsertakan beberapa printer nonfree.
 - Menambahkan Font Awesome 4 dan 6. Sebelumnya hanya versi 5 saja.
 - Menambahkan `ccc` (CMYK Convert Color) untuk konversi gambar rgb ke cmyk.
 - Menambahkan `kteatime` sebagai pengganti pomodoro metode manajemen waktu.
 - Menambahkan `fastfetch` sebagai alternatif neofetch.
+
+### Pembenahan
+- Mengaktifkan kembali repo nonfree, serta mengikutsertakan beberapa printer nonfree.
 
 ### Eliminasi
 
