@@ -22,6 +22,33 @@ call_to_action:
 ---
 
 ## Pengembangan
+
+| Jadwal              | Status     | Tanggal      |
+| :------------------ | :--------: | :----------  |
+| Pengembangan        |   Proses   | 11 Juli 2022 |
+| Uji coba tak stabil |   Proses   | 15 Juli 2022 |
+| Uji coba stabil     |   Proses   |        -     |
+| Upload berkas iso   |   Belum    |        -     |
+| **Rilis**           |   Belum    |        -     |
+
+### Improvisasi
+
+- Menambahkan `hx` (Helix editor) sebagai cli teks editor utama alternatif `vim`. Tetapi vim masih tetap ada.
+- Menambahkan `qownnotes` (QownNotes) sebagai aplikasi catatan instan yang mendukung markdown.
+- Mengaktifkan kembali repo nonfree, serta mengikutsertakan beberapa printer nonfree.
+- Menambahkan Font Awesome 4 dan 6. Sebelumnya hanya versi 5 saja.
+- Menambahkan `ccc` (CMYK Convert Color) untuk konversi gambar rgb ke cmyk.
+- Menambahkan `kteatime` sebagai pengganti pomodoro metode manajemen waktu.
+- Menambahkan `fastfetch` sebagai alternatif neofetch.
+
+### Eliminasi
+
+- Menghapus edisi `i686` (32bit) beserta iso dan paket depedensi yang ada direpositori.
+
+---
+
+## 20220710 (stabil)
+
 | **Jadwal**          | **Status** | **Tanggal**      |
 | :------------------ | :--------: | :--------------- |
 | Pengembangan        |   Sudah    | 12 Februari 2022 |
