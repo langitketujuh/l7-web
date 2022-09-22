@@ -38,6 +38,7 @@ call_to_action:
 - Menambahkan `kteatime` sebagai pengganti pomodoro metode manajemen waktu.
 - Menambahkan `fastfetch` sebagai alternatif neofetch.
 - Menambahkan `font-awesome` (versi 4) dan `font-awesome6`. Sebelumnya hanya `font-awesome5` saja.
+- Menambahkan `webapp-manager` sebagai pembuat aplikasi web berbasis browser.
 
 ### Pembenahan
 - Mengaktifkan kembali repo nonfree, serta mengikutsertakan beberapa printer nonfree.
