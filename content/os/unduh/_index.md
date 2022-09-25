@@ -18,7 +18,7 @@ homeglibc32:
   button:
     enable: true
     label: Unduh
-    link: "https://al.quds.repo.langitketujuh.id/home/langitketujuh-home-i686-20220710.iso"
+    link: "os/unduh/home/i686"
   mirror:
     enable: false
     label: Mirror
@@ -33,7 +33,7 @@ homeglibc:
   button:
     enable: true
     label: Unduh
-    link: "https://al.quds.repo.langitketujuh.id/home/langitketujuh-home-x86_64-20220710.iso"
+    link: "os/unduh/home/x86_64"
   mirror:
     enable: false
     label: Mirror
@@ -48,7 +48,7 @@ homemusl:
   button:
     enable: true
     label: Unduh
-    link: "https://al.quds.repo.langitketujuh.id/home/langitketujuh-home-x86_64-musl-20220710.iso"
+    link: "os/unduh/home/x86_64-musl"
   mirror:
     enable: false
     label: Mirror
@@ -66,7 +66,6 @@ studioglibc32:
   button:
     enable: true
     label: Beli & Unduh
-    link: "os/unduh/"
     link: "os/unduh/studio/i686"
 studioglibc:
   name:
@@ -80,7 +79,6 @@ studioglibc:
   button:
     enable: true
     label: Beli & Unduh
-    link: "os/unduh/"
     link: "os/unduh/studio/x86_64"
 studiomusl:
   name:
@@ -94,7 +92,6 @@ studiomusl:
   button:
     enable: true
     label: Beli & Unduh
-    link: "os/unduh/"
     link: "os/unduh/studio/x86_64-musl"
 
 call_to_action:
