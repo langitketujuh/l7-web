@@ -25,8 +25,8 @@ Kami percaya bahwa Anda yang masuk ke komunitas merupakan seseorang yang bisa be
 
 Platform yang kami gunakan untuk berkomunitas yaitu Telegram dan Facebook grup.
 
-- Telegram: https://telegram.org/langitketujuh_group
-- Facebok: https://facebook.com/groups/langitketujuh.group
+- Telegram: https://telegram.org/langitketujuh_os
+- Facebok: https://facebook.com/groups/langitketujuh.os
 
 ### Menggunakan foto profil.
 
