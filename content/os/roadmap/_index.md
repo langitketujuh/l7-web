@@ -39,9 +39,12 @@ call_to_action:
 - Menambahkan `fastfetch` sebagai alternatif neofetch.
 - Menambahkan `font-awesome` (versi 4) dan `font-awesome6`. Sebelumnya hanya `font-awesome5` saja.
 - Menambahkan `webapp-manager` sebagai pembuat aplikasi web berbasis browser.
+- Perbaikan halaman edisi home
 
 ### Pembenahan
+
 - Mengaktifkan kembali repo nonfree, serta mengikutsertakan beberapa printer nonfree.
+- Grub mendeteksi otomatis efi dualboot atau lebih setelah memasang OS.
 
 ### Eliminasi
 
