@@ -228,22 +228,41 @@ name = "Pendukung"
 URL = "pendukung"
 weight = 7
 
+# kontak
+[[menu.main]]
+name = "Kontak"
+URL = "kontak"
+identifier = "kontak"
+weight = 8
+
+# profil
+[[menu.main]]
+name = "Profil"
+identifier = "profil"
+URL = "profil"
+parent = "kontak"
+weight = 1
+
 # kabari
 [[menu.main]]
 name = "Kabari"
+identifier = "kabari"
 URL = "kabari"
-weight = 8
+parent = "kontak"
+weight = 2
 
 # faq
 [[menu.main]]
 name = "FAQ"
+identifier = "faq"
 URL = "faq"
-weight = 9
+parent = "kontak"
+weight = 3
 
 # profil
 [[menu.profil]]
-name = "Tentang Kami"
-URL = "tentang-kami"
+name = "Profil"
+URL = "profil"
 weight = 1
 
 [[menu.profil]]

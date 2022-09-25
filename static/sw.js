@@ -13,7 +13,7 @@ const BASE_CACHE_FILES = [
     '/kabari/',
     '/faq/',
     '/kontribusi/',
-    '/tentang-kami/',
+    '/profil/',
     '/kebijakan-privasi/',
     '/peraturan-layanan/',
     '/komunitas/',

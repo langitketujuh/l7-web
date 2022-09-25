@@ -1,5 +1,5 @@
 ---
-title: Tentang Kami
+title: Profil
 subtitle: ''
 description: Tim LangitKetujuh beserta jajarannya.
 image: media/beranda/thumbnail.jpg
