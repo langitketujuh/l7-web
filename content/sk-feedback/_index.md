@@ -20,5 +20,4 @@ call_to_action:
 ---
 
 Anda sudah mengisi formulir halaman formulir.
-
 _Syukran wa jazaakumullahu khairan katsiran._

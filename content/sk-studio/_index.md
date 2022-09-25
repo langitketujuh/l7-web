@@ -19,7 +19,6 @@ call_to_action:
     link : "https://wa.me/6282131146131?text=Assalamu'alaikum%20LangitKetujuh.%0A"
 ---
 
-Anda sudah mengisi formulir.
-Kami akan mengirim tautan unduhan melalui E-mail pada jam kerja (08.00-17.00).
-
+Anda sudah mengisi formulir. Kami akan mengirim tautan unduhan melalui E-mail pada jam kerja (08.00-17.00).
 _Syukran wa jazaakumullahu khairan katsiran._
+
