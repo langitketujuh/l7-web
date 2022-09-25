@@ -26,7 +26,7 @@ telegram:
   button:
     enable : true
     label : "Telegram"
-    link : "https://t.me/langitketujuhCS"
+    link : "https://t.me/langitketujuh_cs"
 
 telegram_channel:
   enable : true
@@ -46,7 +46,7 @@ telegram_community:
   button:
     enable : true
     label : "Telegram Komunitas"
-    link : "https://t.me/langitketujuh_group"
+    link : "https://t.me/langitketujuh_os"
 
 facebook_fanspage:
   enable : true
@@ -66,5 +66,5 @@ facebook_community:
   button:
     enable : true
     label : "Facebook Komunitas"
-    link : "https://facebook.com/groups/langitketujuh.group"
+    link : "https://facebook.com/groups/langitketujuh.os"
 ---
