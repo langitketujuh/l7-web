@@ -44,9 +44,10 @@ call_to_action:
 ### Pembenahan
 
 - Fix grub ketika install grub i686 dengan `target=i686`.
-- ~~Fix grub mendeteksi otomatis efi dualboot atau lebih setelah memasang OS.~~ (draft)
 - Mengaktifkan kembali repo nonfree, serta mengikutsertakan beberapa printer nonfree.
-- Fix set waktu otomatis dengan `openntpd`. Sebelumnya menggunakan `ntp` namun tidak berjalan di `x86_64-musl` karena paket tersebut tidak tersedia.
+- Installer mendeteksi otomatis jenis boot mode (uefi/legacy) dan tipe disk label yang digunakan (gpt/dos).
+- ~~Fix grub mendeteksi otomatis efi dualboot atau lebih setelah memasang OS.~~ (draft)
+- ~~Fix set waktu otomatis dengan `openntpd`. Sebelumnya menggunakan `ntp` namun tidak berjalan di `x86_64-musl` karena paket tersebut tidak tersedia.~~ (cancel)
 
 ### Eliminasi
 
