@@ -39,12 +39,12 @@ call_to_action:
 - Menambahkan `fastfetch` sebagai alternatif neofetch.
 - Menambahkan `font-awesome` (versi 4) dan `font-awesome6`. Sebelumnya hanya `font-awesome5` saja.
 - Menambahkan `webapp-manager` sebagai pembuat aplikasi web berbasis browser.
-- Perbaikan halaman edisi home
+- Perbaikan halaman edisi home.
 
 ### Pembenahan
 
 - Fix grub ketika install grub i686 dengan `target=i686`.
-- Fix grub mendeteksi otomatis efi dualboot atau lebih setelah memasang OS.
+- ~~Fix grub mendeteksi otomatis efi dualboot atau lebih setelah memasang OS.~~ (draft)
 - Mengaktifkan kembali repo nonfree, serta mengikutsertakan beberapa printer nonfree.
 - Fix set waktu otomatis dengan `openntpd`. Sebelumnya menggunakan `ntp` namun tidak berjalan di `x86_64-musl` karena paket tersebut tidak tersedia.
 
