@@ -27,6 +27,7 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - Abu Hafidz.
 - Acep Rahmat.
 - Adam Rizky Pratama.
+- Addin Prasetyo.
 - Ade Deri.
 - Adi Jatnika.
 - Adi.
@@ -107,6 +108,7 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - Fajar Dwi Saputro.
 - Fajar Sidik.
 - Faruq M.
+- Fauzi Ferdiansyah.
 - Fernanda Rizky Sanjaya.
 - Fery Ego Prasetyo.
 - Fitri Nur Azis.
@@ -126,6 +128,7 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - Hanifan Azka.
 - Hartono Wijaya.
 - Hasan Sidik U.
+- Hasapriadi.
 - Hasdin Adi Saputra.
 - Hendra.
 - Heri Setiawan.
@@ -157,6 +160,7 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - Khairullah.
 - Kresna Kusuma Negara.
 - Kustiono.
+- Langgeng Wiono.
 - Latif Ahmad Fatih.
 - Latif Sobri Alhamidi.
 - Linuxscoop.
@@ -166,8 +170,10 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - Marda Annafin Kurniawan.
 - Maryan Chandra Wibowo.
 - Mifta Nur Farid.
+- Moh. Aden Bagus Prasetio.
 - Moh. Fatoni.
 - Moh. Yanuar Ramadhan.
+- Mohamad Bayu Safrin Taliki.
 - Mohammad Qowaidul Umam.
 - Mohammad Rizki Aiman.
 - Mohammad Shodiq.
@@ -179,6 +185,7 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - Muhamad Rizki Ramadan.
 - Muhamad Solichin.
 - Muhammad Abdul Ghofur.
+- Muhammad Akhsan Alimuddin.
 - Muhammad Al Furqon.
 - Muhammad Arif Hidayat.
 - Muhammad Awaludin.
@@ -225,6 +232,7 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - Riky Arya Pratama Nugraha.
 - Risfan Yani.
 - Risnandar H. Sahido.
+- Risnandar.
 - Risqon Anjahiranda Adiputra.
 - Rizal Krisnawan.
 - Rizki Aprianto.
@@ -259,6 +267,8 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - Tohir.
 - Tukiyo.
 - Tun Rahmat Reformasi.
+- Usman Abdullah.
+- Wahyu Widayat.
 - Wahyudin Sitorus.
 - Walfarid Hermawan Limbong.
 - Wanto Nugroho.
