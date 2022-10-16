@@ -23,13 +23,13 @@ call_to_action:
 
 ## Pengembangan
 
-| Jadwal              | Status     | Tanggal      |
-| :------------------ | :--------: | :----------  |
-| Pengembangan        |   Proses   | 11 Juli 2022 |
-| Uji coba tak stabil |   Proses   | 15 Juli 2022 |
-| Uji coba stabil     |   Proses   |        -     |
-| Upload berkas iso   |   Belum    |        -     |
-| **Rilis**           |   Belum    |        -     |
+| Jadwal              | Status     | Tanggal          |
+| :------------------ | :--------: | :--------------- |
+| Pengembangan        |   Proses   | 11 Juli 2022     |
+| Uji coba tak stabil |   Proses   | 15 Juli 2022     |
+| Uji coba stabil     |   Proses   | 13 Oktober 2022  |
+| Upload berkas iso   |   Belum    |        -         |
+| **Rilis**           |   Belum    |        -         |
 
 ### Improvisasi
 
@@ -39,19 +39,30 @@ call_to_action:
 - Menambahkan `fastfetch` sebagai alternatif neofetch.
 - Menambahkan `font-awesome` (versi 4) dan `font-awesome6`. Sebelumnya hanya `font-awesome5` saja.
 - Menambahkan `webapp-manager` sebagai pembuat aplikasi web berbasis browser.
-- Perbaikan halaman edisi home.
+- Menambahkan layout windows-like dan unity di global theme yang mendukung global appmenu.
+- Menambahkan `plasma-onzemenu` dan `plasma-panel-transparency-button` untuk panel layout theme.
+- Menambahkan beberapa addons lainnya di repo seperti `plasma-clearclock`, `plasma-minimalistclock`, `plasma-atmosphere`, `plasma-fokus`, `plasma-dittomenu` dan `plasma-translator`. (pasang manual)
 
 ### Pembenahan
 
+- Perbaikan halaman edisi home.
 - Fix grub ketika install grub i686 dengan `target=i686`.
 - Mengaktifkan kembali repo nonfree, serta mengikutsertakan beberapa printer nonfree.
 - Installer mendeteksi otomatis jenis boot mode (uefi/legacy) dan tipe disk label yang digunakan (gpt/dos).
+- Memisahkan wallpaper lama kedalam paket `l7-plasma-workspace-wallpapers`.
+- Menambahkan `l7-appmenu-gtk3-module` untuk menambahkan modul gtk3 appmenu yang hilang.
+- update documentation and fix typo.
 - ~~Fix grub mendeteksi otomatis efi dualboot atau lebih setelah memasang OS.~~ (draft)
 - ~~Fix set waktu otomatis dengan `openntpd`. Sebelumnya menggunakan `ntp` namun tidak berjalan di `x86_64-musl` karena paket tersebut tidak tersedia.~~ (cancel)
 
 ### Eliminasi
 
 - Menghapus edisi `i686` (32bit) beserta iso dan paket depedensi yang ada direpositori.
+
+
+### Studio
+
+- Menambahkan artyfx plugin.
 
 ---
 
