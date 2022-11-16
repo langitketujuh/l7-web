@@ -15,5 +15,5 @@ download:
   button:
     enable: true
     label: Unduh ISO
-    link: https://al.quds.repo.langitketujuh.id/home/langitketujuh-home-i686-20220710.iso
+    link: https://osdn.net/dl/langitketujuh/langitketujuh-home-i686-20220710.iso
 ---
