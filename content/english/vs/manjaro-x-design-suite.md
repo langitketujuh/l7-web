@@ -9,48 +9,47 @@ author: "LangitKetujuh"
 draft: false
 ---
 
-| **Features**                               | **Manjaro-X** | **L7 Studio** |
-| :-------------------------------------- | :-----------: | :-----------: |
-| Dukungan instalasi oleh tenaga ahli.    |       -       |     **√**     |
-| Aplikasi Terbaru (Rilis bergulir).      |       -       |     **√**     |
-| Audacity pengolah audio.                |       -       |     **√**     |
-| Blender animasi 2D/3D.                  |     **√**     |     **√**     |
-| Calibre publisher.                      |       -       |       -       |
-| Converseen konverter gambar.            |       -       |     **√**     |
-| Darktable manajemen foto.               |     **√**     |       -       |
-| Deteksi Printer Epson.                  |       -       |     **√**     |
-| Deteksi Printer HP.                     |       -       |     **√**     |
-| Digikam manajemen foto.                 |       -       |     **√**     |
-| Dukungan Aplikasi Appimage              |     **√**     |     **√**     |
-| Dukungan Aplikasi Nonfree               |     **√**     |     **√**     |
-| Dukungan codec FFmpeg, Audio dan Video. |     **√**     |     **√**     |
-| Dukungan Nvidia Propietary driver       |     **√**     |     **√**     |
-| Dukungan Wine windows                   |     **√**     |     **√**     |
-| Elisa Pemutar Audio.                    |       -       |     **√**     |
-| Firefox Web Browser.                    |     **√**     |     **√**     |
-| Fontforge pembuat font.                 |     **√**     |     **√**     |
-| Gimp manipulasi foto.                   |     **√**     |     **√**     |
-| Godot mesin game.                       |       -       |     **√**     |
-| Google Fonts untuk proyek komersil.     |       -       |     **√**     |
-| HandBrake Media transkoder.             |       -       |     **√**     |
-| Hugin Panorama.                         |     **√**     |     **√**     |
-| Inkscape pengolah vektor.               |     **√**     |     **√**     |
-| Kdenlive pengolah video.                |       -       |     **√**     |
-| Krita digital painting.                 |     **√**     |     **√**     |
-| LibreOffice Draw                        |     **√**     |     **√**     |
-| LibreOffice Paket Aplikasi Perkantoran. |     **√**     |     **√**     |
-| LMMS produksi suara efek.               |       -       |     **√**     |
-| Non-systemd.                            |       -       |     **√**     |
-| OBS Open Broadcast.                     |     **√**     |     **√**     |
-| Openshot pengolah video.                |     **√**     |       -       |
-| Opentoonz 2D.                           |       -       |     **√**     |
-| Piko Pixel.                             |       -       |       -       |
-| Plugin GMIC Qt Gimp dan Krita.          |       -       |     **√**     |
-| Produksi Audio dengan Ardour DAW.       |     **√**     |     **√**     |
-| Rawtherapee pengolah foto raw.          |       -       |     **√**     |
-| Scribus Desktop Publisher.              |     **√**     |     **√**     |
-| Shotwell manajemen foto.                |       -       |       -       |
-| SoundKonverter audio.                   |       -       |     **√**     |
-| Synfigstudio animasi 2D.                |       -       |     **√**     |
-| Tersedia musl libc.                     |       -       |     **√**     |
-| VLC Pemutar Video.                      |       -       |     **√**     |
+| Feature                             | Manjaro-X | L7 Studio |
+| :----------------------------------------- | :---: | :----: |
+| Installation support by experts.           |   -   | **√**  |
+| HP and Epson printer detection.            |   -   | **√**  |
+| Audio and Video codec support.             | **√** | **√**  |
+| GIMP Photo manipulation.                   | **√** | **√**  |
+| Inkscape vector processing.                | **√** | **√**  |
+| KDE-Connect synchronous device.            |   -   | **√**  |
+| Libreoffice suite.                         | **√** | **√**  |
+| V4l2loopback Virtual camera.               |   -   | **√**  |
+| Audacity audio processing.                 |   -   | **√**  |
+| Blender 2D/3D animation.                   | **√** | **√**  |
+| Cadence JACK Toolbox.                      |   -   | **√**  |
+| Calibre publisher.                         |   -   |   -    |
+| Carla audio hosting plugin.                |   -   | **√**  |
+| Converseen image converter.                |   -   | **√**  |
+| Darktable photo management.                | **√** |   -    |
+| Digikam photo management.                  |   -   | **√**  |
+| Fontforge font maker.                      | **√** | **√**  |
+| Freecad 3d parametric.                     |   -   | **√**  |
+| Game creator Godot.                        |   -   | **√**  |
+| Goxel 3D voxel editor.                     |   -   | **√**  |
+| Google Fonts for commercial projects.      |   -   | **√**  |
+| HandBrake Media transcoder.                |   -   | **√**  |
+| Hugin panoramic editor.                    | **√** | **√**  |
+| DisplayCAL color calibration.              |   -   | **√**  |
+| Kdenlive video processor.                  |   -   | **√**  |
+| Kid3 audio tagger.                         |   -   | **√**  |
+| Krita digital painting.                    | **√** | **√**  |
+| LibreCAD 2D CAD.                           |   -   | **√**  |
+| LMMS sound effects production.             |   -   | **√**  |
+| MKVToolnix mkv editor and processor.       |   -   | **√**  |
+| OBS desktop recorder and streaming.        | **√** | **√**  |
+| OpenToonz 2D Raster Animation.             |   -   | **√**  |
+| Openshot video editor.                     | **√** |   -    |
+| Piko Pixel drawing pixel-art.              |   -   |   -    |
+| GMIC-qt Gimp and Krita Plugins.            |   -   | **√**  |
+| Audio Production with Ardour.              | **√** | **√**  |
+| Rawtherapee raw photo processing.          |   -   | **√**  |
+| Screenkey Screencast Monitor.              |   -   | **√**  |
+| Scribus layout design.                     | **√** | **√**  |
+| Shotwell photo manager.                    |   -   |   -    |
+| Synfigstudio 2D Vector Animation.          |   -   | **√**  |
+| VLC Video player.                          |   -   | **√**  |
