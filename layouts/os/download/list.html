@@ -56,7 +56,7 @@
             <ul class="text-left list-unstyled mb-5 px-3">
               {{ range .services }}
               <li class="mx-4">
-                <span >
+                <span>
                   <i class="fa-solid fa-check"></i>
                 </span>
                 {{ . | markdownify }}
@@ -104,7 +104,7 @@
             </ul>
             {{ if .button.enable }}
             {{ with .button }}
-            <a href="{{ .link | absURL }}" class="btn btn-outline-primary text-uppercase"><i class="fa-solid fa-download"></i> {{ .label }}</a>
+            <a href="{{ .link | absURL }}" class="btn btn-outline-primary text-uppercase mb-3"><i class="fa-solid fa-download"></i> {{ .label }}</a></br>
             {{ end }}
             {{ end }}
           </div>
