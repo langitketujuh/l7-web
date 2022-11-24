@@ -1,5 +1,5 @@
 ---
-title: Pilihan Tepat untuk Desainer dan Pengguna Desktop
+title: The Right Choice for Designers and Desktop Users
 banner:
   title : "Right Choices for Designer<br>and Desktop Users"
   image : "images/banner.webp"

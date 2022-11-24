@@ -44,7 +44,7 @@ other = "USD $13 - With Installation Support (only ID)"
 other = "Payment Link"
 
 [payment-return-label]
-other = "(Payment can be returned if the installation is not successful or we distribute it to the Lazismu Indonesia charity with a discount of USD $3)"
+other = "(Payment can be refund if the installation is not successful or we distribute it to the Lazismu Indonesia charity which is deducted by USD $3)"
 
 [payment-agreement-label]
 other = "I have agreed and comply with the terms of service & privacy policy"

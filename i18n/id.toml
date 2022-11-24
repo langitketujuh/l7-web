@@ -44,7 +44,7 @@ other = "IDR 107.000 - Dengan Dukungan Instalasi"
 other = "Tautan Pembayaran"
 
 [payment-return-label]
-other = "(Pembayaran dapat dikembalikan jika pemasangan tidak berhasil atau kami salurkan ke badan amal Lazismu Indonesia dengan potongan Rp7000)"
+other = "(Pembayaran dapat dikembalikan jika pemasangan tidak berhasil atau kami salurkan ke badan amal Lazismu Indonesia yang dipotong sebesar IDR 7000)"
 
 [payment-agreement-label]
 other = "Saya telah menyetujui dan mematuhi peraturan layanan & kebijakan privasi"
