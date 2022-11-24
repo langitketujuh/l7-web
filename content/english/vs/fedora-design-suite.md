@@ -4,7 +4,7 @@ date: 2020-12-12T23:23:22+07:00
 image: images/vs/fedora-design-suite.png
 opengraph:
   image: images/vs/fedora-design-suite.png
-description: "Kelebihan dan kekurangan  Fedora Design Suite dengan LangitKetujuh Studio."
+description: "Strengths and weaknesses of Fedora Design Suite with LangitKetujuh Studio."
 author: "LangitKetujuh"
 draft: false
 ---
@@ -22,7 +22,7 @@ draft: false
 | Audacity audio processing.                 |   -   | **√**  |
 | Blender 2D/3D animation.                   |   -   | **√**  |
 | Cadence JACK Toolbox.                      |   -   | **√**  |
-| Calibre publisher.                         |   -   |   -    |
+| Calibre E-book management.                 |   -   |   -    |
 | Carla audio hosting plugin.                |   -   | **√**  |
 | Converseen image converter.                |   -   | **√**  |
 | Darktable photo management.                | **√** |   -    |

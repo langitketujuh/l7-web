@@ -9,48 +9,47 @@ author: "LangitKetujuh"
 draft: false
 ---
 
-| **Fitur**                               | **Ubuntu Studio** | **L7 Studio** |
-| :-------------------------------------- | :-----------: | :-----------: |
-| Dukungan instalasi oleh tenaga ahli.    |       -       |     **√**     |
-| Aplikasi Terbaru (Rilis bergulir).      |       -       |     **√**     |
-| Audacity pengolah audio.                |       -       |     **√**     |
-| Blender animasi 2D/3D.                  |     **√**     |     **√**     |
-| Calibre publisher.                      |     **√**     |       -       |
-| Converseen konverter gambar.            |       -       |     **√**     |
-| Darktable manajemen foto.               |     **√**     |       -       |
-| Deteksi Printer Epson.                  |       -       |     **√**     |
-| Deteksi Printer HP.                     |       -       |     **√**     |
-| Digikam manajemen foto.                 |       -       |     **√**     |
-| Dukungan Aplikasi Appimage              |     **√**     |     **√**     |
-| Dukungan Aplikasi Nonfree               |     **√**     |     **√**     |
-| Dukungan codec FFmpeg, Audio dan Video. |       -       |     **√**     |
-| Dukungan Nvidia Propietary driver       |     **√**     |     **√**     |
-| Dukungan Wine windows                   |     **√**     |     **√**     |
-| Elisa Pemutar Audio.                    |       -       |     **√**     |
-| Firefox Web Browser.                    |     **√**     |     **√**     |
-| Fontforge pembuat font.                 |       -       |     **√**     |
-| Gimp manipulasi foto.                   |     **√**     |     **√**     |
-| Godot mesin game.                       |       -       |     **√**     |
-| Google Fonts untuk proyek komersil.     |       -       |     **√**     |
-| HandBrake Media transkoder.             |       -       |     **√**     |
-| Hugin Panorama.                         |     **√**     |     **√**     |
-| Inkscape pengolah vektor.               |     **√**     |     **√**     |
-| Kdenlive pengolah video.                |       -       |     **√**     |
-| Krita digital painting.                 |     **√**     |     **√**     |
-| LibreOffice Draw                        |       -       |     **√**     |
-| LibreOffice Paket Aplikasi Perkantoran. |       -       |     **√**     |
-| LMMS produksi suara efek.               |       -       |     **√**     |
-| Non-systemd.                            |       -       |     **√**     |
-| OBS Open Broadcast.                     |       -       |     **√**     |
-| Openshot pengolah video.                |     **√**     |       -       |
-| Opentoonz 2D.                           |       -       |     **√**     |
-| Piko Pixel.                             |     **√**     |       -       |
-| Plugin GMIC Qt Gimp dan Krita.          |       -       |     **√**     |
-| Produksi Audio dengan Ardour DAW.       |       -       |     **√**     |
-| Rawtherapee pengolah foto raw.          |       -       |     **√**     |
-| Scribus Desktop Publisher.              |     **√**     |     **√**     |
-| Shotwell manajemen foto.                |     **√**     |       -       |
-| SoundKonverter audio.                   |       -       |     **√**     |
-| Synfigstudio animasi 2D.                |       -       |     **√**     |
-| Tersedia musl libc.                     |       -       |     **√**     |
-| VLC Pemutar Video.                      |       -       |     **√**     |
+| Feature                          | Ubuntu Std | L7 Studio |
+| :--------------------------------------- | :---: | :----: |
+| Dukungan pemasangan oleh tenaga ahli.    |   -   | **√**  |
+| Deteksi Printer HP dan Epson.            |   -   | **√**  |
+| Dukungan codec Audio dan Video.          | **√** | **√**  |
+| Gimp manipulasi foto.                    | **√** | **√**  |
+| Inkscape pengolah vektor.                | **√** | **√**  |
+| KDE-Connect sinkron perangkat.           |   -   | **√**  |
+| Libreoffice perangkat lunak perkantoran. | **√** | **√**  |
+| V4l2loopback Virtual kamera.             |   -   | **√**  |
+| Audacity pengolah audio.                 |   -   | **√**  |
+| Blender animasi 2D/3D.                   | **√** | **√**  |
+| Cadence JACK Toolbox.                    |   -   | **√**  |
+| Calibre manajememen ebook.               |   -   |   -    |
+| Carla plugin audio host.                 |   -   | **√**  |
+| Converseen konverter gambar.             |   -   | **√**  |
+| Darktable managemen foto.                | **√** |   -    |
+| Digikam manajemen foto.                  |   -   | **√**  |
+| Fontforge pembuat font.                  | **√** | **√**  |
+| Freecad 3D parametric.                   |   -   | **√**  |
+| Godot pembuat game.                      |   -   | **√**  |
+| Goxel 3D voxel editor.                   |   -   | **√**  |
+| Google Fonts untuk proyek komersil.      |   -   | **√**  |
+| HandBrake Media transkoder.              |   -   | **√**  |
+| Hugin panorama editor.                   | **√** | **√**  |
+| DisplayCAL kalibrasi warna.              |   -   | **√**  |
+| Kdenlive pengolah video.                 |   -   | **√**  |
+| Kid3 audio tagger.                       |   -   | **√**  |
+| Krita digital painting.                  | **√** | **√**  |
+| LibreCAD 2D CAD.                         |   -   | **√**  |
+| LMMS produksi suara efek.                |   -   | **√**  |
+| MKVToolnix editor dan pengolah mkv.      |   -   | **√**  |
+| OBS Perekam desktop dan streaming.       | **√** | **√**  |
+| OpenToonz Animasi Raster 2D.             |   -   | **√**  |
+| Openshoot penyunting video.              | **√** |   -    |
+| Piko Pixel penggambar pixel-art.         |   -   |   -    |
+| GMIC-qt Plugin Gimp dan Krita.           |   -   | **√**  |
+| Produksi Audio dengan Ardour.            | **√** | **√**  |
+| Rawtherapee pengolah foto raw.           |   -   | **√**  |
+| Screenkey Screencast monitor.            |   -   | **√**  |
+| Scribus desain tata letak.               | **√** | **√**  |
+| Shotwell foto manager                    |   -   |   -    |
+| Synfigstudio Animasi Vector 2D.          |   -   | **√**  |
+| VLC pemutar video.                       |   -   | **√**  |
