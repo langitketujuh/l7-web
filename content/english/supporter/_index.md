@@ -43,12 +43,14 @@ We say many thanks to **the Great People** and _Friends of LangitKetujuh_ for th
 - Ahmad Yoga.
 - Akip Ridwan.
 - Alfan Zulkarnain.
+- Ali Sodikin.
 - Amir Nuyman Setyadiredja.
 - Amirudin.
 - Andhika Kresna Murti.
 - Andhika.
 - Andika Irfan.
 - Andrian.
+- Andry Nugroho.
 - Andy Hidayat.
 - Angga Saputra.
 - Annisa Aulia Rasyidah.
@@ -79,6 +81,7 @@ We say many thanks to **the Great People** and _Friends of LangitKetujuh_ for th
 - Cecep Wahidin.
 - Chairuddinsyah Harahap.
 - Dadan Mulyana.
+- Dani Abdullah.
 - Darussalam.
 - Dea Fatikasari.
 - Dede Amung.
@@ -115,6 +118,7 @@ We say many thanks to **the Great People** and _Friends of LangitKetujuh_ for th
 - Fridu Suhendra.
 - Fristiant Nova Anggara.
 - Fujianto.
+- Galih Adi Nugroho.
 - Gelar Winayawidhi Suganda.
 - Gilang Fajar Al-Fatih.
 - Grnx Edger.
@@ -130,6 +134,7 @@ We say many thanks to **the Great People** and _Friends of LangitKetujuh_ for th
 - Hasdin Adi Saputra.
 - Hendra.
 - Heri Setiawan.
+- Heriyanto.
 - Heriyanto.
 - Hermawan.
 - Herru Pratomo.
@@ -147,6 +152,8 @@ We say many thanks to **the Great People** and _Friends of LangitKetujuh_ for th
 - Iqbal Nahaqga Ali Hamdi.
 - Irhamdy A. Patty.
 - Irkham Nazmi Novian.
+- Irwan Alnarus Kautsar.
+- Ishaq.
 - Iwan Siswanto.
 - Januar Adam Prasetiya.
 - Jauzaa Wahyu P.
@@ -162,6 +169,7 @@ We say many thanks to **the Great People** and _Friends of LangitKetujuh_ for th
 - Latif Ahmad Fatih.
 - Latif Sobri Alhamidi.
 - Linuxscoop.
+- M Indra Dwi Cahyono.
 - M. Indra Dwi Cahyono.
 - M. Iqbal Bustam.
 - M. Naufal Pikri.
@@ -180,10 +188,12 @@ We say many thanks to **the Great People** and _Friends of LangitKetujuh_ for th
 - Monsky.
 - Mr. Smith.
 - Muhamad Helmi.
+- Muhamad Mubarok.
 - Muhamad Nur Halim.
 - Muhamad Rizki Ramadan.
 - Muhamad Solichin.
 - Muhammad Abdul Ghofur.
+- Muhammad Akhsan Alimuddin.
 - Muhammad Akhsan Alimuddin.
 - Muhammad Al Furqon.
 - Muhammad Arif Hidayat.
@@ -241,6 +251,7 @@ We say many thanks to **the Great People** and _Friends of LangitKetujuh_ for th
 - Rizky Arsyansyah Rinjani.
 - Robby Hermawan.
 - Rohmana.
+- Ryan Yulianto.
 - Saelani.
 - Sakti Nurrahman.
 - Setiyo Budi.
@@ -258,6 +269,7 @@ We say many thanks to **the Great People** and _Friends of LangitKetujuh_ for th
 - Sugi Priyono.
 - Sugiman.
 - Suhardi.
+- Suhendri.
 - Suyono.
 - Syaikhoni.
 - Syamsur Ramdhan Firdaus.
@@ -277,6 +289,7 @@ We say many thanks to **the Great People** and _Friends of LangitKetujuh_ for th
 - Whito.
 - Wildana Lathif Mahmudi.
 - Yahya Sofyan.
+- Yoga Pratama.
 - Yogi Tri Widodo.
 - Yudi Pratama.
 - Yunus Ahmad.
@@ -284,6 +297,7 @@ We say many thanks to **the Great People** and _Friends of LangitKetujuh_ for th
 - Yusuf Isna Hanif.
 - Yuukio Fuyu.
 - Zainal Abidin.
+- Zainal Riki Darmawan.
 - Zainal.
 - Zakki Mubarak.
 - Zulkarnain Alfan.
