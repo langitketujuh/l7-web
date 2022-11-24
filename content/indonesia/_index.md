@@ -1,7 +1,7 @@
 ---
-title: Pilihan Tepat untuk Desainer dan Pengguna Desktop
+title: Pilihan tepat untuk desainer dan pengguna desktop
 banner:
-  title : "Pilihan Tepat untuk Desainer<br>dan Pengguna Desktop"
+  title : "Pilihan tepat untuk desainer<br>dan pengguna desktop"
   image : "images/banner.webp"
   content : "Distribusi GNU/Linux dengan glibc dan musl berdasar pada VoidLinux. Menggunakan runit init, KDE lingkungan desktop, pembaruan stabil rilis bergulir dan sumber daya yang efisien."
   button:

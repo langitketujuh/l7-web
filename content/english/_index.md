@@ -1,7 +1,7 @@
 ---
-title: The Right Choice for Designers and Desktop Users
+title: The right choice for designers and desktop users
 banner:
-  title : "Right Choices for Designer<br>and Desktop Users"
+  title : "The right choices for designer<br>and desktop users"
   image : "images/banner.webp"
   content : "GNU/Linux distribution with glibc and musl libc based on VoidLinux. Using runit init, KDE desktop environment, stable rolling release and efficient resource."
   button:
