@@ -1,0 +1,87 @@
+@media (prefers-color-scheme: dark) {
+
+  body {
+    background-color: $body-color-dark;
+  }
+
+  ::selection {
+    background-color:darken($color: $primary-color-dark, $amount: 10);
+    color: $black;
+  }
+
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: $primary-color-dark;
+    outline: 2px solid #fff;
+  }
+
+  /* preloader */
+
+  .preloader {
+    background-color: #fff;
+  }
+
+  a:hover {
+    color: $primary-color-dark;
+  }
+
+  .border-default {
+    border-color: $border-color-dark !important;
+  }
+
+  /* overlay */
+
+  .overlay {
+    position: relative;
+
+    &::before {
+      background-color: $white;
+      opacity: .5;
+    }
+  }
+
+  .bg-primary {
+    background-color: $primary-color-dark !important;
+  }
+
+  .bg-light {
+    background-color: $dark !important;
+  }
+
+  .text-primary {
+    color: $primary-color-dark !important;
+  }
+
+  .shadow{
+    box-shadow: 0 12px 34px -6px rgba(59,130,246,.3) !important
+  }
+
+  .shadow-lg {
+    box-shadow:0 1rem 3rem rgba(59,130,246,.5)!important;
+  }
+
+  // form control
+
+  .form-control {
+    &:focus {
+      border-color: $primary-color-dark;
+      box-shadow: none;
+    }
+
+    &::placeholder {
+      color: $text-color-dark;
+    }
+  }
+
+  .check-mark{
+    &::before{
+      color: $primary-color-dark;
+    }
+    svg{
+      color: $primary-color-dark;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="content">{{.Content}}</div>
+        <form name="kirim-ulang" netlify-honeypot="bot-field" action="/success" method="POST"
+        data-netlify-recaptcha="true" data-netlify="true">
+        <input type="text" class="form-control mb-3" name="name" placeholder="{{ i18n `yourname` }}" required="true">
+        <input type="email" class="form-control mb-3" name="email" placeholder="{{ i18n `youremail` }}" required="true">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="inputStudio">{{ i18n `architecture` }}</label>
+          </div>
+          <select class="custom-select" name="arsitektur[]" required="true">
+            <option selected value="x86_64">x86_64</option>
+            <option value="x86_64-musl">x86_64-musl</option>
+          </select>
+        </div>
+        <div class="mb-5">
+          <div data-netlify-recaptcha="true"></div>
+        </div>
+        <div class="text-center">
+          <button type="submit" value="send" class="btn btn-primary">{{ i18n `resend` }}</button>
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

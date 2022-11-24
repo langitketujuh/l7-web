@@ -1,0 +1,234 @@
+# main menu
+[[main]]
+name = "Operating System"
+identifier = "os"
+URL = "os"
+weight = 2
+
+[[main]]
+name = "Download"
+identifier = "download"
+URL = "os/download"
+parent = "os"
+weight = 1
+
+[[main]]
+name = "Guide (id_ID)"
+identifier = "guide"
+URL = "https://panduan.langitketujuh.id"
+parent = "os"
+weight = 2
+
+[[main]]
+name = "Feature"
+identifier = "feature"
+URL = "os/feature"
+parent = "os"
+weight = 3
+
+[[main]]
+name = "Road Map"
+identifier = "roadmap"
+URL = "os/roadmap"
+parent = "os"
+weight = 4
+
+[[main]]
+name = "Verification"
+identifier = "verification"
+URL = "os/verification"
+parent = "os"
+weight = 5
+
+# blog
+[[main]]
+name = "Blog"
+identifier = "blog"
+URL = "blog"
+weight = 4
+
+# vs
+[[main]]
+name = "Compare"
+identifier = "vs"
+URL = "vs"
+weight = 5
+
+[[main]]
+name = "vs Ubuntu Studio"
+identifier = "vs-ubuntu-studio"
+URL = "vs/ubuntu-studio"
+parent = "vs"
+weight = 1
+
+[[main]]
+name = "vs Fedora Design Suite"
+identifier = "vs-fedora-design-suite"
+URL = "vs/fedora-design-suite"
+parent = "vs"
+weight = 2
+
+[[main]]
+name = "vs Manjaro-X Design Suite"
+identifier = "vs-manjaro-x-design-suite"
+URL = "vs/manjaro-x-design-suite"
+parent = "vs"
+weight = 3
+
+# screenshot
+[[main]]
+name = "Screenshot"
+URL = "screenshot"
+identifier = "screenshot"
+weight = 6
+
+[[main]]
+name = "Digital Illustration and Painting"
+identifier = "illustration-and-digital-paint"
+URL = "screenshot/illustration-and-digital-paint"
+parent = "screenshot"
+weight = 1
+
+[[main]]
+name = "Full-Featured 2D/3D Animation"
+identifier = "full-featured-2d-3d-animation"
+URL = "screenshot/full-featured-2d-3d-animation"
+parent = "screenshot"
+weight = 2
+
+[[main]]
+name = "Font Creator and Google Fonts"
+identifier = "font-creator-dan-google-fonts"
+URL = "screenshot/font-creator-dan-google-fonts"
+parent = "screenshot"
+weight = 3
+
+[[main]]
+name = "Game Engine 2D/3D"
+identifier = "game-engine-2d-3d"
+URL = "screenshot/game-engine-2d-3d"
+parent = "screenshot"
+weight = 4
+
+[[main]]
+name = "Layout and Desktop Publishing"
+identifier = "layout-and-desktop-publishing"
+URL = "screenshot/layout-and-desktop-publishing"
+parent = "screenshot"
+weight = 5
+
+[[main]]
+name = "Photography and Image Management"
+identifier = "photography-and-image-management"
+URL = "screenshot/photography-and-image-management"
+parent = "screenshot"
+weight = 6
+
+[[main]]
+name = "Audio and Video Non-linear"
+identifier = "audio-and-video-non-linear"
+URL = "screenshot/audio-and-video-non-linear"
+parent = "screenshot"
+weight = 7
+
+[[main]]
+name = "CAD and mechanical drawing"
+identifier = "cad-and-mechanical-drawing"
+URL = "screenshot/cad-and-mechanical-drawing"
+parent = "screenshot"
+weight = 8
+
+[[main]]
+name = "Professional Office Suite"
+identifier = "professional-office-suite"
+URL = "screenshot/professional-office-suite"
+parent = "screenshot"
+weight = 9
+
+# sponsor
+[[main]]
+name = "Supporter"
+identifier = "supporter"
+URL = "supporter"
+weight = 7
+
+# profile
+[[main]]
+name = "Profile"
+identifier = "profile"
+URL = "profile"
+weight = 8
+
+# contact
+[[main]]
+name = "Contact"
+URL = "profile/contact"
+identifier = "contact"
+parent = "profile"
+weight = 1
+
+# about us
+[[main]]
+name = "About Us"
+identifier = "about-us"
+URL = "profile/about-us"
+parent = "profile"
+weight = 2
+
+# faq
+[[main]]
+name = "FAQ"
+identifier = "faq"
+URL = "faq"
+weight = 9
+
+# profile
+[[footer_left]]
+name = "Profile"
+URL = "profile/contact"
+weight = 1
+
+[[footer_left]]
+name = "Source code"
+URL = "https://gitlab.com/langitketujuh"
+weight = 2
+
+[[footer_left]]
+name = "Terms & Conditions"
+url = "tos"
+weight = 3
+
+[[footer_left]]
+name = "Privacy Policy"
+url = "privacy"
+weight = 4
+
+[[footer_middle]]
+name = "LangitKetujuh"
+URL = "/"
+weight = 1
+
+[[footer_right]]
+name = "Community"
+URL = "community"
+weight = 1
+
+[[footer_right]]
+name = "Feedback"
+URL = "feedback"
+weight = 2
+
+[[footer_right]]
+name = "Cooperation"
+URL = "cooperation"
+weight = 3
+
+[[footer_right]]
+name = "Road Map"
+URL = "os/roadmap"
+weight = 5
+
+[[footer_right]]
+name = "Bio Link"
+URL = "https://link.langitketujuh.id"
+weight = 6

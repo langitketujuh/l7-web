@@ -1,0 +1,231 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <form name="cooperation" netlify-honeypot="bot-field" action="/success" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">{{ i18n `institution-name` }}</label>
+            <div class="col-sm-8 input-group">
+              <input type="text" class="form-control" name="institution-name" placeholder="" required="true">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">{{ i18n `yourname` }}</label>
+            <div class="col-sm-8 input-group">
+              <input type="text" class="form-control" name="name" placeholder="" required="true">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">{{ i18n `youremail` }}</label>
+            <div class="col-sm-8 input-group">
+              <input type="email" class="form-control" name="email" placeholder="" required="true">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">{{ i18n `institution-type` }}</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" name="institution-type[]" required="true">
+                <option selected value="individual">{{ i18n `individual` }}</option>
+                <option value="community">{{ i18n `community` }}</option>
+                <option value="government">{{ i18n `government` }}</option>
+                <option value="organizations">{{ i18n `organizations` }}</option>
+                <option value="school">{{ i18n `school` }}</option>
+                <option value="studio">{{ i18n `studio` }}</option>
+                <option value="small-business">{{ i18n `small-business` }}</option>
+                <option value="university">{{ i18n `university` }}</option>
+                <option value="others">{{ i18n `others` }}</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-4 col-form-label">{{ i18n `engaged` }}</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" name="engaged[]" required="true">
+                <option selected value="content-creator">{{ i18n `content-creator` }}</option>
+                <option value="dakwa-activist">{{ i18n `dakwa-activist` }}</option>
+                <option value="apparel">{{ i18n `apparel` }}</option>
+                <option value="branding-design">{{ i18n `branding-design` }}</option>
+                <option value="comic-illustration">{{ i18n `comic-illustration` }}</option>
+                <option value="e-course">{{ i18n `e-course` }}</option>
+                <option value="education">{{ i18n `education` }}</option>
+                <option value="environment">{{ i18n `environment` }}</option>
+                <option value="font-creator">{{ i18n `font-creator` }}</option>
+                <option value="free-software-activist">{{ i18n `free-software-activist` }}</option>
+                <option value="game-developer">{{ i18n `game-developer` }}</option>
+                <option value="illustration-children-books">{{ i18n `illustration-children-books` }}</option>
+                <option value="industry">{{ i18n `industry` }}</option>
+                <option value="infrastructure">{{ i18n `infrastructure` }}</option>
+                <option value="logistics">{{ i18n `logistics` }}</option>
+                <option value="logo-design">{{ i18n `logo-design` }}</option>
+                <option value="merchandise">{{ i18n `merchandise` }}</option>
+                <option value="photographer">{{ i18n `photographer` }}</option>
+                <option value="printing">{{ i18n `printing` }}</option>
+                <option value="software-house">{{ i18n `software-house` }}</option>
+                <option value="translation">{{ i18n `translation` }}</option>
+                <option value="travel">{{ i18n `travel` }}</option>
+                <option value="others">{{ i18n `others` }}</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">{{ i18n `address` }}</label>
+            <div class="col-sm-8 input-group">
+              <input type="text" class="form-control" name="address" placeholder="" required="true">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputCity">{{ i18n `city` }}</label>
+              <input type="text" class="form-control" name="city">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputState">{{ i18n `province` }}</label>
+              <input type="text" class="form-control" name="province">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">{{ i18n `postal-code` }}</label>
+              <input type="text" class="form-control" name="postal-code">
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-4 col-form-label">{{ i18n `telp` }}</label>
+            <div class="col-sm-8 input-group">
+              <input type="number" class="form-control" name="telp" value="+62" required="true">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">{{ i18n `site` }}</label>
+            <div class="col-sm-8 input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">https://</span>
+              </div>
+              <input type="text" class="form-control" name="site" aria-label="site"
+                aria-describedby="inputWebsiteInstitusi" placeholder="">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">{{ i18n `cooperation-type` }}</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" name="cooperation-type[]" required="true">
+                <option selected value="media-partner">{{ i18n `media-partner` }}</option>
+                <option value="collaboration">{{ i18n `collaboration` }}</option>
+                <option value="sponsorship">{{ i18n `sponsorship` }}</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">{{ i18n `duration` }}</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" name="duration[]" required="true">
+                <option selected value="1-years">1 {{ i18n `years` }}</option>
+                <option value="2-years">2 {{ i18n `years` }}</option>
+                <option value="3-years">3 {{ i18n `years` }}</option>
+                <option value="conditional">{{ i18n `conditional` }}</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-4 col-form-label">{{ i18n `goals` }}</label>
+            <div class="col-sm-8 input-group">
+              <textarea name="goals" class="form-control" placeholder="{{ i18n `reasons` }}" required="true"></textarea>
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-4 col-form-label">{{ i18n `benefits-package` }} 1</label>
+            <div class="col-sm-8 input-group">
+              <textarea name="benefits-package-1" class="form-control" placeholder="" required="true"></textarea>
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-4 col-form-label">{{ i18n `benefits-package` }} 2 {{ i18n `optional` }}</label>
+            <div class="col-sm-8 input-group">
+              <textarea name="benefits-package-2" class="form-control" placeholder=""></textarea>
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-4 col-form-label">{{ i18n `benefits-package` }} 3 {{ i18n `optional` }}</label>
+            <div class="col-sm-8 input-group">
+              <textarea name="benefits-package-3" class="form-control" placeholder=""></textarea>
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-4 col-form-label">{{ i18n `benefits-package` }} 4 {{ i18n `optional` }}</label>
+            <div class="col-sm-8 input-group">
+              <textarea name="benefits-package-4" class="form-control" placeholder=""></textarea>
+            </div>
+          </div>
+          <div class="form-group row mt-3">
+            <label class="col-sm-4 col-form-label">{{ i18n `benefits-package` }} 5 {{ i18n `optional` }}</label>
+            <div class="col-sm-8 input-group">
+              <textarea name="benefits-package-5" class="form-control" placeholder=""></textarea>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Facebook</label>
+            <div class="col-sm-8 input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">fb.com/</span>
+              </div>
+              <input type="text" class="form-control" name="facebook" aria-label="facebook"
+                aria-describedby="inputFacebook" placeholder="">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Instagram</label>
+            <div class="col-sm-8 input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">@</span>
+              </div>
+              <input type="text" class="form-control" name="instagram" aria-label="instagram"
+                aria-describedby="inputInstagram" placeholder="">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Twitter</label>
+            <div class="col-sm-8 input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">@</span>
+              </div>
+              <input type="text" class="form-control" name="twitter" aria-label="twitter"
+                aria-describedby="inputTwitter" placeholder="">
+            </div>
+          </div>
+          <div class="form-group row mt-3 mb-5">
+            <label class="col-sm-4 col-form-label">Telegram</label>
+            <div class="col-sm-8 input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">@</span>
+              </div>
+              <input type="text" class="form-control" name="telegram" aria-label="telegram"
+                aria-describedby="inputTelegram" placeholder="">
+            </div>
+          </div>
+          <div class="form-group mb-3">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck" name="data" value="agree"
+                required="true">
+              <label class="form-check-label" for="gridCheck">{{ i18n `payment-agreement-label` }}</a>
+              </label>
+            </div>
+          </div>
+          <div class="mb-5">
+            <div data-netlify-recaptcha="true"></div>
+          </div>
+          <div class="text-center">
+            <button type="submit" value="send" class="btn btn-primary">{{ i18n `sendnow` }}</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- call to action -->
+
+<!-- /call to action -->
+
+{{ end }}

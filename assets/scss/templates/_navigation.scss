@@ -1,15 +1,36 @@
 .nav-item {
   margin: 0;
-  color: $text-color;
 
   .nav-link {
+    // text-transform: capitalize;
     font-weight: 700;
-
-    &:hover {
-      color: $text-color;
-    }
   }
+}
 
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+  color: $text-color;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 10px;
+
+  @include desktop {
+    padding: 10px;
+  }
+}
+
+#select-language{
+  color: $text-color;
+  background-color: transparent;
+  font-weight: 700;
 }
 
 .dropdown-menu {
@@ -52,92 +73,5 @@
         background-color: $light;
       }
     }
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .nav-item {
-    color: $text-color-dark;
-
-    .nav-link {
-      &:hover {
-        color: $text-color-dark;
-      }
-    }
-  }
-
-  .dropdown-menu {
-    background-color: $dark;
-    border: 1px solid $dark;
-    box-shadow: 0 12px 34px -6px rgba(59, 130, 246,.30) !important;
-
-    .dropdown-item {
-      color: $text-color-dark;
-
-      &:focus,
-      &:hover,
-      &:active {
-        color: $primary-color-dark;
-        background-color: $black;
-      }
-
-      &.active {
-        color: $primary-color-dark;
-        background-color: transparent;
-        &:focus,
-        &:hover,
-        &:active {
-          background-color: $black;
-        }
-      }
-    }
-  }
-}
-  .navbar-light .navbar-toggler {
-    color: $text-color;
-  }
-
-  .navbar-light .navbar-nav .show .nav-link {
-    color: $text-color;
-  }
-
-  .navbar-light .navbar-nav .nav-link {
-    color: $text-color;
-
-  &:hover {
-    color: $primary-color;
-  }
-}
-
-.navbar-expand-lg .navbar-nav .nav-link {
-  padding: 15px;
-
-  @include desktop {
-    padding: 10px;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .navbar-light .navbar-toggler {
-    color: $text-color-dark;
-    }
-
-  .navbar-light .navbar-nav .show .nav-link {
-    color: $text-color-dark;
-    }
-
-  .navbar-light .navbar-nav .nav-link {
-    color: $text-color-dark;
-
-    &:hover {
-      color: $primary-color-dark;
-    }
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .card {
-    background-color: $body-color-dark;
-    border:1px solid rgba(0,0,0,.0);
   }
 }

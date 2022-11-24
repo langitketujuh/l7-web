@@ -1,0 +1,81 @@
+@media (prefers-color-scheme: dark) {
+
+  /* Live chat */
+  #livechat {
+    #whatsapp-chat {
+      background: $black;
+      box-shadow: 0 12px 24px -6px rgba(37, 99, 235, 0.3) !important;
+    }
+
+    a.show-chat {
+      background: $primary-color-dark;
+      color: $white;
+      box-shadow: 0 12px 24px -6px rgba(37, 99, 235, 0.3) !important;
+    }
+
+    .header-chat {
+      background: $primary-color-dark;
+      color: $black;
+    }
+
+    .header-chat h3 {
+      color: $black;
+    }
+
+    .header-chat p {
+      color: $black;
+    }
+
+    .info-avatar:before {
+      font-family: $icon-font;
+      background: #23ab23;
+      color: $black;
+    }
+
+    a.informasi:hover {
+      background: $black;
+    }
+
+    a.informasi-static:hover {
+      background: $black;
+    }
+
+    #get-label,
+    span.chat-label {
+      color: #888;
+    }
+
+    #get-nama,
+    span.chat-nama {
+      color: #222;
+    }
+
+    #get-label,
+    #get-nama {
+      color: #fff;
+    }
+
+    .livechat-msg {
+      color: #444;
+      border-top: 1px solid #ddd;
+    }
+
+    a#send-it {
+      color: #555;
+      background: #eee;
+    }
+
+    .first-msg {
+      background: #f5f5f5;
+    }
+
+    .first-msg span {
+      background: #e2e2e2;
+      color: #333;
+    }
+
+    a.close-chat {
+      color: #fff;
+    }
+  }
+}

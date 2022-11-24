@@ -1,99 +1,90 @@
 {{ define "main" }}
 
+{{ partial "page-header.html" . }}
+
 <section class="section">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto">
-        <div class="mb-5 mt-4 text-center">
-          <h2>{{ .Title | markdownify }}</h2>
-        </div>
-        <form name="feedback" netlify-honeypot="bot-field" action="/sk-feedback" method="POST" data-netlify="true">
-          <input type="text" class="form-control mb-3" name="nama" placeholder="Nama lengkap"
-            required="true">
-          <input type="email" class="form-control mb-3" name="surel" placeholder="Email aktif" required="true">
+        <form name="feedback" netlify-honeypot="bot-field" action="/success" method="POST" data-netlify="true">
+          <input type="text" class="form-control mb-3" name="name" placeholder="{{ i18n `yourname` }}" required="true">
+          <input type="email" class="form-control mb-3" name="email" placeholder="{{ i18n `youremail` }}" required="true">
           <div class="input-group mb-3">
             <div class="input-group-prepend">
               <span class="input-group-text">@</span>
             </div>
             <input type="text" class="form-control" name="telegram" aria-label="telegram"
-              aria-describedby="inputTelegram" placeholder="Akun Telegram" required="true">
+              aria-describedby="inputTelegram" placeholder="Telegram" required="true">
           </div>
-          <input type="text" class="form-control mb-3" name="asal" placeholder="Nama Institusi"
-            required="true">
+          <input type="text" class="form-control mb-3" name="institution-name" placeholder="{{ i18n `institution-name` }}" required="true">
           <div class="form-group row">
-            <label class="col-sm-4 col-form-label">Jenis Institusi</label>
+            <label class="col-sm-4 col-form-label">{{ i18n `institution-type` }}</label>
             <div class="col-sm-8 input-group">
-              <select class="custom-select" name="jenis-institusi[]" required="true">
-                <option selected value="individu">Individu</option>
-                <option value="komunitas">Komunitas</option>
-                <option value="studio">Studio</option>
-                <option value="sekolah">Sekolah</option>
-                <option value="universitas">Universitas</option>
-                <option value="organisasi">Organisasi</option>
-                <option value="pemerintah">Pemerintah</option>
-                <option value="umkm">UMKM</option>
-                <option value="lainnya">Lainnya</option>
+              <select class="custom-select" name="institution-type[]" required="true">
+                <option selected value="individual">{{ i18n `individual` }}</option>
+                <option value="community">{{ i18n `community` }}</option>
+                <option value="government">{{ i18n `government` }}</option>
+                <option value="organizations">{{ i18n `organizations` }}</option>
+                <option value="school">{{ i18n `school` }}</option>
+                <option value="studio">{{ i18n `studio` }}</option>
+                <option value="small-business">{{ i18n `small-business` }}</option>
+                <option value="university">{{ i18n `university` }}</option>
+                <option value="others">{{ i18n `others` }}</option>
               </select>
             </div>
           </div>
           <div class="form-group row mt-3">
-            <label class="col-sm-4 col-form-label">Bergerak dalam bidang</label>
+            <label class="col-sm-4 col-form-label">{{ i18n `engaged` }}</label>
             <div class="col-sm-8 input-group">
-              <select class="custom-select" name="bergerak-dalam-bidang[]" required="true">
-                <option selected value="konten-kreator">Konten Kreator</option>
-                <option value="aktifis-dakwah">Aktifis Dakwah</option>
-                <option value="aktifis-free-software">Aktifis Free Software</option>
-                <option value="apparel">Apparel</option>
-                <option value="e-course">E-Course</option>
-                <option value="branding-desain">Branding Desain</option>
-                <option value="pendidikan">Pendidikan</option>
-                <option value="fotografer">Fotografer</option>
-                <option value="font-kreator">Font Kreator</option>
-                <option value="game-kreator">Game Kreator</option>
-                <option value="ilustrasi-komik">Ilustrasi Komik</option>
-                <option value="ilustrasi-buku-anak">Ilustrasi Buku Anak</option>
-                <option value="industri">Industri</option>
-                <option value="infrastruktur">Infrastruktur</option>
-                <option value="logistik">Logistik</option>
-                <option value="lingkungan-hidup">Lingkungan Hidup</option>
-                <option value="logo-desain">Logo Desain</option>
-                <option value="merchandise">Merchandise</option>
-                <option value="percetakan">Percetakan</option>
-                <option value="penerjemahan">Penerjemahan</option>
-                <option value="software-house">Software House</option>
-                <option value="travel">Travel</option>
-                <option value="lainnya">Lainnya</option>
+              <select class="custom-select" name="engaged[]" required="true">
+                <option selected value="content-creator">{{ i18n `content-creator` }}</option>
+                <option value="dakwa-activist">{{ i18n `dakwa-activist` }}</option>
+                <option value="apparel">{{ i18n `apparel` }}</option>
+                <option value="branding-design">{{ i18n `branding-design` }}</option>
+                <option value="comic-illustration">{{ i18n `comic-illustration` }}</option>
+                <option value="e-course">{{ i18n `e-course` }}</option>
+                <option value="education">{{ i18n `education` }}</option>
+                <option value="environment">{{ i18n `environment` }}</option>
+                <option value="font-creator">{{ i18n `font-creator` }}</option>
+                <option value="free-software-activist">{{ i18n `free-software-activist` }}</option>
+                <option value="game-developer">{{ i18n `game-developer` }}</option>
+                <option value="illustration-children-books">{{ i18n `illustration-children-books` }}</option>
+                <option value="industry">{{ i18n `industry` }}</option>
+                <option value="infrastructure">{{ i18n `infrastructure` }}</option>
+                <option value="logistics">{{ i18n `logistics` }}</option>
+                <option value="logo-design">{{ i18n `logo-design` }}</option>
+                <option value="merchandise">{{ i18n `merchandise` }}</option>
+                <option value="photographer">{{ i18n `photographer` }}</option>
+                <option value="printing">{{ i18n `printing` }}</option>
+                <option value="software-house">{{ i18n `software-house` }}</option>
+                <option value="translation">{{ i18n `translation` }}</option>
+                <option value="travel">{{ i18n `travel` }}</option>
+                <option value="others">{{ i18n `others` }}</option>
               </select>
             </div>
           </div>
           <hr>
           <div>
-            <p> Sedikit gambaran, LangitKetujuh OS merupakan sistem operasi berbasis voidlinux dengan kelengkapan
-              perangkat lunak desain grafis yang uptodate dan tersedia font aset. Sekali pasang, dapat semua.</p>
-            <p> Sebagai pengguna sistem operasi ini, bagaimana kesan pertama Anda dengan LangitKetujuh OS dan sudah
-              berapa lama menggunakannya? </p>
-            <textarea name="kesan-pertama" class="form-control mb-3" placeholder=""></textarea>
+            <p> {{ i18n `fb-intro` }}</p>
+            <p> {{ i18n `fb-impression` }}</p>
+            <textarea name="impression" class="form-control mb-3" placeholder="{{ i18n `livechat-label` }}" required="true"></textarea>
           </div>
-          <p> Adakah fitur perangkat lunak atau depedensi yang perlu ditambahkan untuk versi selanjutnya? </p>
-          <textarea name="fitur-baru" class="form-control mb-3" placeholder=""></textarea>
-          <p> Bagaimana performa LangitKetujuh OS. Ringan, biasa saja atau berat dalam kondisi tertentu? </p>
-          <textarea name="performa-sistem" class="form-control mb-3" placeholder=""></textarea>
-          <p> Apakah Anda menemukan kesalahan sistem atau bug di Sistem operasi ini? jika ada, boleh diceritakan. </p>
-          <textarea name="kesalahan-bug" class="form-control mb-3" placeholder=""></textarea>
-          <p> Apa yang Anda tidak sukai dari LangitKetujuh OS? </p>
-          <textarea name="ketidaksukaan" class="form-control mb-3" placeholder=""></textarea>
-          <p> Adakah saran untuk layanan di WhatsApps, Telegram dan Email agar lebih baik lagi? </p>
-          <textarea name="layanan-cs" class="form-control mb-3" placeholder=""></textarea>
-          <p> Saat ini Komunitas LangitKetujuh OS sudah terbentuk. Jika dibandingkan dengan Layanan CS manakah yang
-            terbaik?</p>
-          <textarea name="komunitas" class="form-control mb-5" placeholder=""></textarea>
+          <p> {{ i18n `fb-features` }}</p>
+          <textarea name="features" class="form-control mb-3" placeholder="{{ i18n `livechat-label` }}" required="true"></textarea>
+          <p> {{ i18n `fb-performance` }}</p>
+          <textarea name="performance" class="form-control mb-3" placeholder="{{ i18n `livechat-label` }}" required="true"></textarea>
+          <p> {{ i18n `fb-bug` }}</p>
+          <textarea name="bug" class="form-control mb-3" placeholder="{{ i18n `livechat-label` }}" required="true"></textarea>
+          <p> {{ i18n `fb-dislike` }}</p>
+          <textarea name="dislike" class="form-control mb-3" placeholder="{{ i18n `livechat-label` }}" required="true"></textarea>
+          <p> {{ i18n `fb-service` }}</p>
+          <textarea name="service" class="form-control mb-3" placeholder="{{ i18n `livechat-label` }}" required="true"></textarea>
+          <p> {{ i18n `fb-community` }}</p>
+          <textarea name="community" class="form-control mb-5" placeholder="{{ i18n `livechat-label` }}" required="true"></textarea>
           <div class="form-group mb-3">
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck" name="data" value="ya, saya setuju"
-                required="true">
-              <label class="form-check-label" for="gridCheck">
-                Saya telah menyetujui dan mematuhi <a href="/peraturan-layanan">peraturan layanan</a> & <a
-                  href="/kebijakan-privasi">kebijakan privasi</a>.
+              <input class="form-check-input" type="checkbox" id="gridCheck" name="data" value="agree" required="true">
+              <label class="form-check-label" for="gridCheck">{{ i18n `payment-agreement-label` }}</a>
               </label>
             </div>
           </div>
@@ -101,7 +92,7 @@
             <div data-netlify-recaptcha="true"></div>
           </div>
           <div class="text-center">
-            <button type="submit" value="send" class="btn btn-primary">Kirim saran</button>
+            <button type="submit" value="send" class="btn btn-primary">{{ i18n `sendnow` }}</button>
           </div>
         </form>
       </div>
@@ -109,7 +100,5 @@
   </div>
   </div>
 </section>
-
-{{ partial "screenshot.html" . }}
 
 {{ end }}

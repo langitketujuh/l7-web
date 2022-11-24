@@ -1,47 +1,69 @@
-{{- $favicon := "media/icons/favicon.ico" -}}
-{{- $icon16 := "media/icons/icon-16x16.png" -}}
-{{- $icon32 := "media/icons/icon-32x32.png" -}}
-{{- $icon144 := "media/icons/icon-144x144.png" -}}
-{{- $icon152 := "media/icons/icon-152x152.png" -}}
-{{- $icon192 := "media/icons/icon-192x192.png" -}}
+<meta charset="utf-8">
+<title>{{ partial "title" . }} - {{ .Site.Title }}</title>
 
-<head>
-  <meta charset="utf-8">
-  <title>{{ partial "title" . }} | {{ .Site.Title -}}</title>
+<!-- base url -->
+{{ if or (eq site.BaseURL "/") (eq site.BaseURL "http://localhost:1313/") (eq site.BaseURL "http://examplesite.org/") (eq site.BaseURL "https://examplesite.org/") (eq site.BaseURL "http://examplesite.com/") (eq site.BaseURL "https://examplesite.com/")}}{{else}}
+<base href="{{ site.BaseURL }}">
+{{ end }}
+<link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
 
-  {{/* Required meta tags */}}
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  {{/* The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags */}}
+<!-- multilingual SEO optimizations -->
+{{ if .IsTranslated }}
+{{ range .AllTranslations }}
+<link rel="alternate" hreflang="{{.Lang}}" href="{{ .RelPermalink | absLangURL }}">
+{{ end }}
+<link rel="alternate" hreflang="x-default" href="{{ .RelPermalink | absLangURL }}">
+{{ end }}
+<meta name="description" content="{{ if .Params.description }}{{ .Params.description }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ end }}" />
+{{ with site.Params.author }}
+<meta name="author" content="{{ . }}">{{ end }}
+{{ hugo.Generator }}
 
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="theme-color" content="#ffffff">
-  {{ hugo.Generator }}
+<!--Favicon-->
+<meta name="msapplication-TileImage" content="{{ site.Params.icon144 | absURL }}">
+<link rel="shortcut icon" href="{{ site.Params.favicon | absURL }}" type="image/x-icon">
+<link rel="icon" href="{{ site.Params.favicon | absURL }}" type="image/x-icon">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ site.Params.icon16 | absURL }}" type="image/x-icon">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ site.Params.icon32 | absURL }}" type="image/x-icon">
+<link rel="icon" sizes="192x192" href="{{ site.Params.icon192 | absURL }}" type="image/x-icon">
+<link rel="apple-touch-icon" href="{{ site.Params.icon152 | absURL }}" type="image/x-icon">
+<link rel="manifest" href="/manifest.json">
 
-  <meta name="description"
-    content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
-  {{ with site.Params.author }}
-  <meta name="author" content="{{ . }}">{{ end }}
+<!-- mobile responsive meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+<meta name="msapplication-TileColor" content="{{site.Params.variables.primary_color | default `#2563eb`}}">
+<meta name="theme-color" content="{{site.Params.variables.body_color | default `#ffffff` }}">
 
-  {{ range site.Params.plugins.css }}
-  <link rel="stylesheet" href="{{ .link | absURL }}">
-  {{ end }}
+<!-- theme meta -->
+<meta name="theme-name" content="langitketujuh" />
 
-  {{ $style := resources.Get "scss/style.scss" | toCSS | minify }}
-  <link href="{{ $style.Permalink }}" rel="stylesheet" media="screen" />
+{{ "<!-- Open Graph image and Twitter Card metadata -->" | safeHTML }}
+{{ $image_path := .Params.image | default site.Params.image -}}
+{{ $image_path_local :=  printf "static/%s" $image_path -}}
+{{ $image_ext := trim (path.Ext $image_path | lower) "." -}}
+{{ if fileExists $image_path_local -}}
+  <meta property="og:image" content="{{ $image_path | absURL }}" />
+  {{/* If not SVG, read image aspect ratio and define Twitter Card and Open Graph width and height  */ -}}
+  {{ if ne $image_ext "svg" -}}
+    {{ with (imageConfig $image_path_local) -}}
+    {{ if (and (gt .Width 144) (gt .Height 144)) -}}
+      <meta name="twitter:image" content="{{ $image_path | absURL }}"/>
+      <meta name="twitter:card" content="summary{{ if (and (gt .Width 300) (gt .Height 157) (not (eq .Width .Height))) }}_large_image{{ end }}">
+    {{ end -}}
+    <meta property="og:image:width" content="{{ .Width }}">
+    <meta property="og:image:height" content="{{ .Height }}">
+    {{ end -}}
+  {{ end -}}
+  <meta property="og:image:type" content="image/{{ if eq $image_ext `svg` }}svg+xml{{ else }}{{ replaceRE `^jpg$` `jpeg` $image_ext }}{{ end }}">
+{{ end -}}
+<meta name="twitter:title" content="{{ with .Title }}{{ . }}{{ else }}{{ site.Title }}{{ end }}"/>
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}"/>
+{{ with site.Social.twitter -}}<meta name="twitter:site" content="@{{ . }}"/>{{ end -}}
+{{ range site.Authors }}
+  {{ with .twitter -}}<meta name="twitter:creator" content="@{{ . }}"/>{{ end -}}
+{{ end -}}
 
-  <meta name="msapplication-TileImage" content="{{ $icon144 | relURL }}">
-  <link rel="icon" href="{{ $favicon | relURL }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ $icon16 | relURL }}" type="image/x-icon">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ $icon32 | relURL }}" type="image/x-icon">
-  <link rel="icon" sizes="192x192" href="{{ $icon192 | relURL }}" type="image/x-icon">
-  <link rel="apple-touch-icon" href="{{ $icon152 | relURL }}" type="image/x-icon">
-  <link rel="shortcut icon" href="{{ $favicon | absURL }}" type="image/x-icon">
-  <link rel="manifest" href="/manifest.json">
+{{ template "_internal/opengraph.html" . }}
 
-  {{- partial "opengraph.html" . -}}
-  {{ template "_internal/twitter_cards.html" . }}
-
-</head>
+<!-- google analytics -->
+{{ template "_internal/google_analytics.html" . }}

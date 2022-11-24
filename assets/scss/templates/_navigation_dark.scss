@@ -1,0 +1,64 @@
+@media (prefers-color-scheme: dark) {
+
+  .navbar-light .navbar-nav .nav-link,
+  .navbar-light .navbar-nav .active>.nav-link,
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .show>.nav-link {
+    color: $text-color-dark;
+
+    &:hover {
+      color: $primary-color-dark;
+    }
+  }
+
+  #select-language{
+    color: $text-color-dark;
+  }
+
+  .dropdown-menu {
+    background-color: $dark;
+    border: $dark;
+    box-shadow: 0 12px 24px -6px rgba(37,99,235,.30) !important;
+
+    .dropdown-item {
+      color: $text-color-dark;
+
+      &:focus,
+      &:hover,
+      &:active {
+        color: $primary-color-dark;
+        background-color: $black;
+      }
+
+      &.active {
+        color: $primary-color-dark;
+        &:focus,
+        &:hover,
+        &:active {
+          background-color: $dark;
+        }
+      }
+    }
+
+    .dropdown-toggle {
+      color: $text-color-dark;
+
+      &:focus,
+      &:hover,
+      &:active {
+        color: $primary-color-dark;
+        background-color: $dark;
+      }
+
+      &.active {
+        color: $primary-color-dark;
+        &:focus,
+        &:hover,
+        &:active {
+          background-color: $dark;
+        }
+      }
+    }
+  }
+}

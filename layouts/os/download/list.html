@@ -1,0 +1,171 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+
+<!--<section class="section pb-0">
+  <div class="container text-center">
+    <p>Rilis versi: <b>{{ .Params.version | markdownify }}</b></p>
+  </div>
+  {{ partial "info-release.html" . }}
+  {{ partial "info-maintenance.html" . }}
+</section>-->
+
+<section class="section">
+  <div class="container pricing-container">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-lg-5">
+        {{ with .Params.HomeMusl }}
+        <div class="card shadow">
+          <div class="card-body text-center py-5">
+            <!--<h3 class="mb-4">{{ .name | markdownify }}</h3>-->
+            <span class="price">{{ .type }}</span><span>{{ .type_ver }}</span>
+            <p class="lead">{{ .info | markdownify }}</p>
+            <hr>
+            <ul class="text-left list-unstyled mb-5 px-3">
+              {{ range .services }}
+              <li class="mx-4">
+                <span>
+                  <i class="fa-solid fa-check"></i>
+                </span>
+                {{ . | markdownify }}
+              </li>
+              {{ end }}
+            </ul>
+            {{ if .button.enable }}
+            {{ with .button }}
+            <a href="{{ .link | absURL }}" class="btn btn-outline-primary text-uppercase mb-3"><i class="fa-solid fa-download"></i> {{ .label }}</a></br>
+            {{ end }}
+            {{ end }}
+            {{ if .hash.enable }}
+            {{ with .hash }}
+            <a href="{{ .link | absURL }}" class="btn btn-sm btn-outline-primary text-uppercase mb-3"><i class="fa-solid fa-download"></i> {{ .label }}</a>
+            {{ end }}
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+      <div class="col-lg-5 col-recommended">
+        {{ with .Params.HomeGlibc }}
+        <div class="card border-0 shadow-lg">
+          <div class="card-body text-center py-5">
+            <!--<h3 class="mb-4">{{ .name | markdownify }}</h3>-->
+            <span class="price">{{ .type }}</span><span>{{ .type_ver }}</span>
+            <p class="lead">{{ .info | markdownify }}</p>
+            <hr>
+            <ul class="text-left list-unstyled mb-5 px-3">
+              {{ range .services }}
+              <li class="mx-4">
+                <span >
+                  <i class="fa-solid fa-check"></i>
+                </span>
+                {{ . | markdownify }}
+              </li>
+              {{ end }}
+            </ul>
+            {{ if .button.enable }}
+            {{ with .button }}
+            <a href="{{ .link | absURL }}" class="btn btn-primary text-uppercase mb-3"><i class="fa-solid fa-download"></i> {{ .label }}</a></br>
+            {{ end }}
+            {{ end }}
+            {{ if .hash.enable }}
+            {{ with .hash }}
+            <a href="{{ .link | absURL }}" class="btn btn-sm btn-outline-primary text-uppercase mb-3"><i class="fa-solid fa-download"></i> {{ .label }}</a>
+            {{ end }}
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container pricing-container">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-lg-5">
+        {{ with .Params.StudioMusl }}
+        <div class="card shadow">
+          <div class="card-body text-center py-5">
+            <!--<h3 class="mb-4">{{ .name | markdownify }}</h3>-->
+            <span class="price">{{ .type }}</span><span>{{ .type_ver }}</span>
+            <p class="lead">{{ .info | markdownify }}</p>
+            <hr>
+            <ul class="text-left list-unstyled mb-5 px-3">
+              {{ range .services }}
+              <li class="mx-3">
+                <span>
+                  <i class="fa-solid fa-check"></i>
+                </span>
+                {{ . | markdownify }}
+              </li>
+              {{ end }}
+            </ul>
+            {{ if .button.enable }}
+            {{ with .button }}
+            <a href="{{ .link | absURL }}" class="btn btn-outline-primary text-uppercase"><i class="fa-solid fa-download"></i> {{ .label }}</a>
+            {{ end }}
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+      <div class="col-lg-5 col-recommended">
+        {{ with .Params.StudioGlibc }}
+        <div class="card border-0 shadow-lg">
+          <div class="card-body text-center py-5">
+            <!--<h3 class="mb-4">{{ .name | markdownify }}</h3>-->
+            <span class="price">{{ .type }}</span><span>{{ .type_ver }}</span>
+            <p class="lead">{{ .info | markdownify }}</p>
+            <hr>
+            <ul class="text-left list-unstyled mb-5 px-3">
+              {{ range .services }}
+              <li class="mx-3">
+                <span>
+                  <i class="fa-solid fa-check"></i>
+                </span>
+                {{ . | markdownify }}
+              </li>
+              {{ end }}
+            </ul>
+            {{ if .button.enable }}
+            {{ with .button }}
+            <a href="{{ .link | absURL }}" class="btn btn-primary text-uppercase mb-3"><i class="fa-solid fa-download"></i> {{ .label }}</a></br>
+            {{ end }}
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- call to action -->
+{{ if .Params.call_to_action.enable }}
+{{ with .Params.call_to_action }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto shadow rounded-lg px-5">
+        <div class="row text-center">
+          <div class="mb-5 mt-4 px-3">
+            <h2 class="display-4 section-title">{{ .title | markdownify }}</h2>
+            {{with .content }}<p class="mb-4">{{ . | markdownify }}</p>{{ end }}
+            {{ if .button.enable }}
+            {{ with .button }}
+            <a href="{{ .link | absURL }}" class="btn btn-outline-primary">{{ .label }}</a>
+            {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /call to action -->
+
+{{ end }}

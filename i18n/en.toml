@@ -1,0 +1,274 @@
+### index
+
+[readmore]
+other = "Read more"
+
+[translations]
+other="Translations"
+
+[error404]
+other = "We are really sorry but there seems to be nothing here."
+
+[navigation_button]
+other = "Contribute"
+
+[upload-file]
+other = "Upload file"
+
+[upload-file-label]
+other = "Upload proof of payment"
+
+[architecture]
+other = "Architecture"
+
+### home
+
+[community-join]
+other = "Come on, join our community too."
+
+[others]
+other = "Others.."
+
+### payment
+
+[payment-total]
+other = "Pay amount"
+
+[payment-no-support]
+other = "USD $8 - Without Support"
+
+[payment-with-support]
+other = "USD $13 - With Installation Support (only ID)"
+
+[payment-link]
+other = "Payment Link"
+
+[payment-return-label]
+other = "(Payment can be returned if the installation is not successful or we distribute it to the Lazismu Indonesia charity with a discount of USD $3)"
+
+[payment-agreement-label]
+other = "I have agreed and comply with the terms of service & privacy policy"
+
+[resend]
+other = "Resending"
+
+### contact
+
+[yourname]
+other = "Your Name"
+
+[youremail]
+other = "Your Email"
+
+[subject]
+other = "Subject"
+
+[yourmessage]
+other = "Your Message"
+
+[sendnow]
+other = "Send"
+
+### live chat
+
+[livechat-title]
+other = "Welcome"
+
+[livechat-subtitle]
+other = "Click one of the available services"
+
+[livechat-chat-1]
+other = "Chat via Telegram"
+
+[livechat-chat-2]
+other = "Chat via WhatsApp"
+
+[livechat-label]
+other = "Message"
+
+[livechat-msg]
+other = "We are insyaallah online at: 07.00-20.00 WIB (GMT+7)"
+
+[livechat-first-msg]
+other = "Salam! Is there anything we can help you with"
+
+[livechat-show-chat]
+other = "Need Help?"
+
+# feedback
+
+[institution-name]
+other = "Institution Name"
+
+[institution-type]
+other = "Institution Type"
+
+[individual]
+other = "Individual"
+
+[community]
+other = "Community"
+
+[studio]
+other = "Studio"
+
+[school]
+other = "School"
+
+[university]
+other = "University"
+
+[organizations]
+other = "Organizations"
+
+[government]
+other = "Government"
+
+[small-business]
+other = "Small Business"
+
+[engaged]
+other = "Engaged in the field of"
+
+[content-creator]
+other = "Content Creator"
+
+[dakwa-activist]
+other = "Dakwa Activist"
+
+[free-software-activist]
+other = "Free Software Activist"
+
+[apparel]
+other = "Apparel"
+
+[e-course]
+other = "E-Course"
+
+[branding-design]
+other = "Branding Design"
+
+[education]
+other = "Education"
+
+[photographer]
+other = "Photographer"
+
+[font-creator]
+other = "Font Creator"
+
+[game-developer]
+other = "Game Developer"
+
+[comic-illustration]
+other = "Comic Iillustration"
+
+[illustration-children-books]
+other = "Illustration Children Books"
+
+[industry]
+other = "Industry"
+
+[infrastructure]
+other = "Infrastructure"
+
+[logistics]
+other = "Logistics"
+
+[environment]
+other = "Environment"
+
+[logo-design]
+other = "Logo Design"
+
+[merchandise]
+other = "Merchandise"
+
+[printing]
+other = "Printing"
+
+[translation]
+other = "Translation"
+
+[software-house]
+other = "Software House"
+
+[travel]
+other = "Travel"
+
+[fb-intro]
+other = "A little description, LangitKetujuh is a voidlinux-based operating system complete with uptodate graphic design software and asset fonts available. Once installed, you get all."
+
+[fb-impression]
+other = "As a user of this operating system, how was your first impression of LangitKetujuh and how long have you been using it?"
+
+[fb-features]
+other = "Are there any software features or dependencies that need to be added for the next version?"
+
+[fb-performance]
+other = "How is LangitKetujuh performing. Light, so-so or heavy under certain conditions?"
+
+[fb-bug]
+other = "Have you found any system errors or bugs in this operating system? If so, please tell us."
+
+[fb-dislike]
+other = "What's not to like about LangitKetujuh ?"
+
+[fb-service]
+other = "Any suggestions for the service on WhatsApps, Telegram and Email to make it even better?"
+
+[fb-community]
+other = "Currently the LangitKetujuh Community has been formed. When compared to CS Service which is the best?"
+
+# coorporation
+
+[address]
+other = "Address"
+
+[city]
+other = "City"
+
+[province]
+other = "Province"
+
+[postal-code]
+other = "Postal Code"
+
+[telp]
+other = "Telephone"
+
+[site]
+other = "URL Website"
+
+[cooperation-type]
+other = "Cooperation Type"
+
+[media-partner]
+other = "Media Partner"
+
+[collaboration]
+other = "Collaboration"
+
+[sponsorship]
+other = "Sponsorship"
+
+[duration]
+other = "Duration"
+
+[years]
+other = "Years"
+
+[conditional]
+other = "Conditional"
+
+[goals]
+other = "Goals and Interests in Collaboration" # Tujuan dan Minat Bekerjasama
+
+[reasons]
+other = "We are interested in partnering with LangitKetujuh because..." # Kami tertarik bermitra dengan LangitKetujuh karena...
+
+[benefits-package]
+other = "Benefits Package"
+
+[optional]
+other = "(Optional)"

@@ -1,0 +1,63 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <form name="studio" netlify-honeypot="bot-field" action="/success" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+          <input id="x86_64" type="hidden" name="architecture" value="x86_64" />
+          <input type="text" class="form-control mb-3" name="name" placeholder="{{ i18n `yourname` }}" required="true">
+          <input type="email" class="form-control mb-3" name="email" placeholder="{{ i18n `youremail` }}" required="true">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text">@</span>
+            </div>
+            <input type="text" class="form-control" name="telegram" aria-label="telegram"
+              aria-describedby="inputTelegram" placeholder="Telegram" required="true">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label class="input-group-text" for="inputDonasi">{{ i18n `payment-total` }}</label>
+            </div>
+            <select class="custom-select" name="donasi[]" required="true">
+              <option selected value="payment-no-support">{{ i18n `payment-no-support` }}</option>
+              <option value="payment-with-support">{{ i18n `payment-with-support` }}</option>
+            </select>
+          </div>
+          <div class="row mb-3">
+            <div class="col-md-4">
+              <a href="../../payment"><label class="btn btn-outline-primary mr-2 mb-3">{{ i18n `payment-link` }}</label></a>
+            </div>
+            <div class="col-md-4">
+              <label>{{ i18n `upload-file-label` }}:</a></label>
+              <input id="max_id" type="hidden" name="file_size" value="500000" />
+              <input onchange="upload_check()" type="file" accept="image/png, image/gif, image/jpeg" id="bukti_donasi" name="upload-file" placeholder="{{ i18n `upload-file` }}" required="true" />
+            </div>
+          </div>
+          <div class="mb-3">
+            <label><i>{{ i18n `payment-return-label` }}</i></label>
+          </div>
+          <div class="form-group mb-3">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck" name="data" value="agree"
+                required="true">
+              <label class="form-check-label" for="gridCheck">{{ i18n `payment-agreement-label` }}</a>
+              </label>
+            </div>
+          </div>
+          <div class="mb-5">
+            <div data-netlify-recaptcha="true"></div>
+          </div>
+          <div class="text-center">
+            <button type="submit" value="send" class="btn btn-primary">{{ i18n `sendnow` }}</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+{{ end }}

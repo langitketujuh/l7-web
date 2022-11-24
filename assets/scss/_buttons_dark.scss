@@ -1,0 +1,42 @@
+@media (prefers-color-scheme: dark) {
+  /* Button style */
+  .btn-primary {
+    background-color: $primary-color-dark;
+    color: $white;
+    border-color: $primary-color-dark;
+
+    &:active,
+    &:hover,
+    &.focus,
+    &.active {
+      background-color: $primary-color-dark !important;
+      border-color: $primary-color-dark !important;
+    }
+  }
+
+  .btn-outline-primary {
+    color: $text-color-dark;
+
+    &:active,
+    &:hover,
+    &.focus,
+    &.active {
+      border-color: $primary-color-dark !important;
+      color: $primary-color-dark;
+    }
+    &::before{
+      border-color: $primary-color-dark;
+    }
+  }
+
+  .btn-link {
+    color: $primary-color-dark;
+
+    &:active,
+    &:hover,
+    &.focus,
+    &.active {
+      color: $primary-color-dark;
+    }
+  }
+}

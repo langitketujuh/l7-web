@@ -1,359 +1,57 @@
-# DEFAULT
+# This file is for render site varibles and plugins
+# don't remove this file.
+# The presence of this file is for compatibility with Blogdown and Forestry.
+#
+# The actual configuration files are stored in the `config/_default/` folder.
 
-baseURL = "https://langitketujuh.id/"
-title = "LangitKetujuh OS"
-languageName = "Id"
-languageCode = "en-US"
-paginate = "6"
-summaryLength = "17"
-disqusShortname = "" # get your shortname form here : https://disqus.com
-googleAnalytics = "" # example : UA-123-45
-[markup.goldmark.renderer]
-unsafe = true
 
+######################### site variables ##############################
+# customize your color and font from here.
+[params.variables]
+primary_color = "#2563eb"
+primary_color_dark = "#3b82f6"
+text_color = "#1d2d35"
+text_color_dark = "#98a3ad"
+body_color = "#fff"
+body_color_dark = "#131516"
+border_color = "#ececec"
+border_color_dark = "#42494c"
+black = "#292c2f"
+white = "#fff"
+light = "#f0f9ff"
+dark = "#1a1d1e"
+
+# font variable
+# Give your font name from google font. add font weight using ":wght@" and separate by ";"
+# example: "Work Sans:wght@400;500;600"
+primary_font = "Noto Sans:wght@300;400;500;600"
+primary_font_type = "sans-serif" # [serif/sans-serif]
+icon_font = "Font Awesome 5 Free"
+
+
+############################# Plugins ##############################
 # CSS Plugins
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
-link = "plugins/themify-icons/themify-icons.css"
-[[params.plugins.css]]
 link = "plugins/slick/slick.css"
-#[[params.plugins.css]]
-#link = "plugins/lightbox2/css/lightbox.min.css"
+[[params.plugins.css]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css"
+[[params.plugins.css]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/brands.min.css"
+[[params.plugins.css]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/solid.min.css"
+
 
 # JS Plugins
 [[params.plugins.js]]
-link = "plugins/jQuery/jquery.min.js"
+link = "plugins/jQuery/jquery.slim.min.js"
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
 link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
-link = "plugins/drag/drag.min.js"
-[[params.plugins.js]]
 link = "plugins/back-to-top/vanilla-back-to-top.min.js"
-#[[params.plugins.js]]
-#link = "plugins/lightbox2/js/lightbox.min.js"
-#[[params.plugins.js]]
-#link = "plugins/mixitup/mixitup.min.js"
-#[[params.plugins.js]]
-#link = "plugins/filterzr/jquery.filterizr.min.js"
-
-# NAVIGASI
-
-# studio
-#[[menu.main]]
-#name = "Studio"
-#identifier = "studio"
-#URL = "studio"
-#weight = 1
-
-#[[menu.main]]
-#name = "Logo Desain"
-#identifier = "logo-desain"
-#URL = "studio/logo-desain"
-#parent = "studio"
-#weight = 1
-
-#[[menu.main]]
-#name = "Identitas Branding"
-#identifier = "identitas-branding"
-#URL = "studio/identitas-branding"
-#parent = "studio"
-#weight = 2
-
-#[[menu.main]]
-#name = "Desain Kemasan"
-#identifier = "desain-kemasan"
-#URL = "studio/desain-kemasan"
-#parent = "studio"
-#weight = 3
-
-#[[menu.main]]
-#name = "Sosial Media Desain"
-#identifier = "sosial-media-desain"
-#URL = "studio/sosial-media-desain"
-#parent = "studio"
-#weight = 4
-
-# os
-[[menu.main]]
-name = "OS"
-identifier = "os"
-URL = "os"
-weight = 2
-
-[[menu.main]]
-name = "Unduh OS"
-identifier = "unduh"
-URL = "os/unduh"
-parent = "os"
-weight = 1
-
-[[menu.main]]
-name = "Fitur OS"
-identifier = "fitur"
-URL = "os/fitur"
-parent = "os"
-weight = 2
-
-[[menu.main]]
-name = "RoadMap"
-identifier = "roadmap"
-URL = "os/roadmap"
-parent = "os"
-weight = 3
-
-[[menu.main]]
-name = "Verifikasi Berkas"
-identifier = "verifikasi"
-URL = "/os/verifikasi"
-parent = "os"
-weight = 4
-
-[[menu.main]]
-name = "Panduan"
-URL = "https://panduan.langitketujuh.id"
-identifier = "panduan"
-weight = 3
-
-# blog
-[[menu.main]]
-name = "Blog"
-identifier = "blog"
-URL = "blog"
-weight = 4
-
-# komparasi
-[[menu.main]]
-name = "Komparasi"
-identifier = "komparasi"
-URL = "komparasi"
-weight = 5
-
-[[menu.main]]
-name = "Vs Ubuntu Studio"
-identifier = "vs-ubuntu-studio"
-URL = "komparasi/vs-ubuntu-studio"
-parent = "komparasi"
-weight = 1
-
-[[menu.main]]
-name = "Vs Fedora Design Suite"
-identifier = "vs-fedora-design-suite"
-URL = "komparasi/vs-fedora-design-suite"
-parent = "komparasi"
-weight = 2
-
-[[menu.main]]
-name = "Vs Manjaro-X Design Suite"
-identifier = "vs-manjaro-x-design-suite"
-URL = "komparasi/vs-manjaro-x-design-suite"
-parent = "komparasi"
-weight = 3
-
-# cuplikan
-[[menu.main]]
-name = "Cuplikan"
-URL = "cuplikan"
-identifier = "cuplikan"
-weight = 6
-
-[[menu.main]]
-name = "Ilustrasi dan Lukis Digital"
-identifier = "ilustrasi-dan-lukis-digital"
-URL = "cuplikan/ilustrasi-dan-lukis-digital"
-parent = "cuplikan"
-weight = 1
-
-[[menu.main]]
-name = "Animasi 2D/3D Penuh Fitur"
-identifier = "animasi-2d-3d-penuh-fitur"
-URL = "cuplikan/animasi-2d-3d-penuh-fitur"
-parent = "cuplikan"
-weight = 2
-
-[[menu.main]]
-name = "Font Kreator dan Google Fonts"
-identifier = "font-kreator-dan-google-fonts"
-URL = "cuplikan/font-kreator-dan-google-fonts"
-parent = "cuplikan"
-weight = 3
-
-[[menu.main]]
-name = "Mesin Game 2D/3D"
-identifier = "mesin-game-2d-3d"
-URL = "cuplikan/mesin-game-2d-3d"
-parent = "cuplikan"
-weight = 4
-
-[[menu.main]]
-name = "Desktop Publishing"
-identifier = "desktop-publishing"
-URL = "cuplikan/desktop-publishing"
-parent = "cuplikan"
-weight = 5
-
-[[menu.main]]
-name = "Fotografi dan Manajemen Gambar"
-identifier = "fotografi-dan-manajemen-gambar"
-URL = "cuplikan/fotografi-dan-manajemen-gambar"
-parent = "cuplikan"
-weight = 6
-
-[[menu.main]]
-name = "Audio dan Video Non-linear"
-identifier = "audio-dan-video-non-linear"
-URL = "cuplikan/audio-dan-video-non-linear"
-parent = "cuplikan"
-weight = 7
-
-[[menu.main]]
-name = "CAD dan menggambar mekanik"
-identifier = "cad-dan-menggambar-mekanik"
-URL = "cuplikan/cad-dan-menggambar-mekanik"
-parent = "cuplikan"
-weight = 8
-
-[[menu.main]]
-name = "Perlengkapan Perkantoran"
-identifier = "perlengkapan-perkantoran"
-URL = "cuplikan/perlengkapan-perkantoran"
-parent = "cuplikan"
-weight = 9
-
-# sponsor
-[[menu.main]]
-name = "Pendukung"
-URL = "pendukung"
-weight = 7
-
-# kontak
-[[menu.main]]
-name = "Kontak"
-URL = "kontak"
-identifier = "kontak"
-weight = 8
-
-# profil
-[[menu.main]]
-name = "Profil"
-identifier = "profil"
-URL = "profil"
-parent = "kontak"
-weight = 1
-
-# kabari
-[[menu.main]]
-name = "Kabari"
-identifier = "kabari"
-URL = "kabari"
-parent = "kontak"
-weight = 2
-
-# faq
-[[menu.main]]
-name = "FAQ"
-identifier = "faq"
-URL = "faq"
-parent = "kontak"
-weight = 3
-
-# profil
-[[menu.profil]]
-name = "Profil"
-URL = "profil"
-weight = 1
-
-[[menu.profil]]
-name = "Kode Sumber"
-URL = "https://gitlab.com/langitketujuh"
-weight = 2
-
-[[menu.profil]]
-name = "Peraturan layanan"
-URL = "peraturan-layanan"
-weight = 3
-
-[[menu.profil]]
-name = "Kebijakan Privasi"
-URL = "kebijakan-privasi"
-weight = 4
-
-# produk 
-[[menu.produk]]
-name = "LangitKetujuh OS"
-URL = "/"
-weight = 1
-
-# dukungan
-#[[menu.dukungan]]
-#name = "Finansial"
-#URL = "finansial"
-#weight = 1
-
-[[menu.dukungan]]
-name = "Komunitas"
-URL = "komunitas"
-weight = 1
-
-[[menu.dukungan]]
-name = "Feedback"
-URL = "feedback"
-weight = 2
-
-[[menu.dukungan]]
-name = "Kerjasama"
-URL = "kerjasama"
-weight = 3
-
-[[menu.dukungan]]
-name = "Roadmap"
-URL = "os/roadmap"
-weight = 5
-
-[[menu.dukungan]]
-name = "Tautan Bio"
-URL = "https://link.langitketujuh.id"
-weight = 6
-
-# PARAMETER
-
-[params]
-  logo = "media/beranda/logo.webp"
-  logo_width = "70px"
-  logo_footer = "media/beranda/logo.webp"
-  logo_width_footer = "60px"
-  author = "LangitKetujuh ID"
-  image = "media/beranda/thumbnail.jpg"
-  opengraphimage = "media/beranda/thumbnail.jpg"
-  description = "Distribusi GNU/Linux untuk desainer, ilustrator, animator, publisher, fotografer, font kreator dan game desainer. Menggunakan glibc & musl libc, rilis bergulir, runit init dan KDE lingkungan desktop."
-
-# FOOTER
-
-footer_content = "Pilihan Tepat untuk Desainer dan Pengguna Desktop"
-copyright = "2021-2022 [Hervy Qurrotul A. R.](https://hervyqa.id) dan [LangitKetujuh kontributor](https://gitlab.com/langitketujuh). 2020 [VoidLinux kontributor](https://github.com/orgs/void-linux/people) dan 2008-2018 [Juan RP](https://gitlab.com/xtraeme). [Linux®](https://www.linuxfoundation.org/programs/legal/trademark/attribution) telah didaftarkan dengan merek dagang dari Linus Torvalds. [KDE® and the K Desktop Environment® logo](https://kde.org/media/images/trademark_kde_gear_black_logo.png) telah didaftarkan dengan branding [KDE e.V](https://ev.kde.org/). Template oleh [Themefisher](https://themefisher.com/). Dikembangkan oleh [Gethugothemes](https://gethugothemes.com/)."
-
-# PRELOADER
-
-[params.preloader]
-enable = false
-preloader = "media/beranda/preloader.svg" # use jpg, png, svg or gif format.
-
-# NAVIGATION BUTTONS
-[params.navigation_button]
-enable = true
-label = "Kontribusi"
-link = "kontribusi"
-
-# SOSIAL MEDIA
-
-[[params.social]]
-title = "instagram"
-icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
-link = "https://instagram.com/langitketujuh.id"
-
-[[params.social]]
-title = "facebook"
-icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "https://facebook.com/langitketujuh.id"
+# [[params.plugins.js]]
+# link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"
+# attributes = "crossorigin='anonymous' defer='defer' data-search-pseudo-elements"

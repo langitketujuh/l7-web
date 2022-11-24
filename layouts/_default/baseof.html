@@ -1,14 +1,48 @@
+<!-- 
+
+PROJECT: Bigspring Hugo
+VERSION: 2.0.0
+AUTHOR: Gethugothemes
+AUTHOR WEBSITE: https://gethugothemes.com
+
+-->
+
 <!DOCTYPE html>
-<html lang="{{ with site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-{{- partial "head.html" . -}}
+<html lang="{{ site.LanguageCode | default `en-US` }}">
+
+<head>
+	{{ partial "head.html" . }}
+
+	{{ if hugo.IsProduction }}
+	{{ partialCached "style.html" . }}
+	{{ else }}
+	{{ partial "style.html" . }}
+	{{ end }}
+</head>
 
 <body>
-  {{- partial "preloader.html" . -}}
-  {{- partial "header.html" . -}}
-  {{- block "main" . }}{{- end }}
-  {{- partial "footer.html" . -}}
-  {{- partial "call.html" . -}}
-  {{- partial "back-to-top.html" . -}}
+
+	{{ if hugo.IsProduction }}
+	{{ partialCached "preloader.html" . }}
+	{{ else }}
+	{{ partial "preloader.html" . }}
+	{{ end }}
+	{{ partial "header.html" . }}
+
+	<main>
+		{{ block "main" . }}{{ end }}
+	</main>
+
+	{{ if hugo.IsProduction }}
+	{{ partialCached "footer.html" . }}
+	{{ partialCached "script.html" . }}
+	{{ else }}
+	{{ partial "footer.html" . }}
+	{{ partial "script.html" . }}
+	{{ end }}
+
+	{{ partial "livechat.html" . }}
+	{{ partial "back-to-top.html" . }}
 </body>
 
 </html>

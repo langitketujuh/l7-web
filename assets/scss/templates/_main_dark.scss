@@ -1,0 +1,218 @@
+@media (prefers-color-scheme: dark) {
+
+  .feature-card {
+    background-color: $black;
+
+    svg,i {
+      color: $primary-color-dark;
+    }
+  }
+
+  .footer-list a {
+    color: $text-color-dark;
+
+    &:hover {
+      color: $primary-color-dark;
+    }
+  }
+
+  .social-icons a {
+    color: $primary-color-dark;
+    border: 1px solid $primary-color-dark;
+
+    &:hover {
+      color: $black;
+      background-color: $primary-color-dark;
+    }
+  }
+
+  // blog card
+
+  // blog post
+  a.post-title {
+    color: $text-color-dark;
+
+    &:hover {
+      color: $primary-color-dark;
+    }
+  }
+
+  .content {
+
+    a {
+      color: $text-color-dark;
+      border-bottom: 1px solid $border-color-dark;
+
+      &:hover {
+        color: $primary-color-dark;
+      }
+    }
+
+    ul {
+      li {
+        &::before {
+          background: $primary-color-dark;
+        }
+      }
+    }
+
+    table {
+      border: 1px solid $border-color-dark;
+    }
+
+    th,
+    td {
+      &:not(:last-of-type) {
+        border-right: 1px solid $border-color-dark;
+      }
+    }
+
+    thead {
+      background: $black;
+
+      tr {
+        border-bottom: 1px solid $border-color-dark;
+      }
+    }
+
+    .notices.note p {
+      border-top: 30px solid #6ab0de;
+      background: $black;
+    }
+
+    .notices.tip p {
+      border-top: 30px solid #78C578;
+      background: $black;
+    }
+
+    .notices.tip p::after {
+      color: $black;
+    }
+
+    .notices.info p {
+      border-top: 30px solid #F0B37E;
+      background: $black;
+    }
+
+    .notices.info p::after {
+      color: $black;
+    }
+
+
+    .notices.warning p {
+      border-top: 30px solid #E06F6C;
+      background: $black;
+    }
+
+    .notices.warning p::after {
+      color: #fff;
+    }
+
+
+    blockquote {
+      color: $text-color-dark;
+      border-left: 2px solid $primary-color-dark;
+      background: $black;
+    }
+
+    pre {
+        code {
+          color: $primary-color-dark;
+        }
+    }
+
+    code {
+      color: $primary-color-dark;
+    }
+  }
+
+
+  // pagination
+  .pagination {
+    .page-item {
+      .page-link {
+        background: $dark;
+        color: $text-color-dark;
+
+        &:hover {
+          background: $primary-color-dark;
+          color: $black;
+        }
+      }
+
+      &.active {
+        .page-link {
+          background: $primary-color-dark;
+          color: $black;
+        }
+      }
+    }
+  }
+
+  .slick-dots {
+    li {
+      &.slick-active {
+        button {
+          background-color: $primary-color-dark;
+        }
+      }
+
+      button {
+        border: 1px solid $primary-color-dark;
+      }
+    }
+  }
+
+  .price{
+    color: $text-color-dark;
+  }
+
+  .testimonial .item i {
+    color: $text-color-dark;
+  }
+
+  .testimonial .item .client-details p {
+    color: $text-color-dark;
+  }
+
+  .testimonial .item .client-meta {
+    color: $text-color-dark;
+  }
+
+  .card {
+    background-color: transparent;
+    border:1px solid rgba(0,0,0,.0);
+  }
+
+  input[type=text],
+  input[type=email],
+  input[type=password],
+  input[type=checkbox],
+  input[type=number] {
+    background-color: $dark;
+    border: 1px solid $border-color-dark;
+
+    &:focus {
+    background-color: $dark;
+    }
+  }
+
+  .input-group-text,
+  .custom-select,
+  .form-control {
+    color: $text-color-dark;
+    background-color: $dark;
+    border: 1px solid $border-color-dark;
+
+    &:focus {
+    color: $text-color-dark;
+    background-color: $dark;
+    }
+  }
+
+  img.sponsor,
+  .partner {
+    filter: invert(100%) grayscale(100%) brightness(2.5);
+  }
+
+}

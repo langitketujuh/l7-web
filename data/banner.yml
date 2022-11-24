@@ -1,8 +1,0 @@
-enable : true
-title : "Pilihan Tepat untuk Desainer<br>dan Pengguna Desktop"
-image : "media/beranda/banner.webp"
-content : "Distribusi GNU/Linux dengan Glibc dan Musl berdasar pada VoidLinux. Menggunakan runit init, KDE lingkungan desktop, pembaruan stabil rilis bergulir dan sumber daya yang efisien."
-button:
-  enable : true
-  label : "Unduh OS"
-  link : "os/unduh"

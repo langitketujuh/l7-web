@@ -1,0 +1,274 @@
+### index
+
+[readmore]
+other = "Selengkapnya"
+
+[translations]
+other="Terjemahan"
+
+[error404]
+other = "Kami benar-benar minta maaf tapi sepertinya tidak ada apa-apa di sini."
+
+[navigation_button]
+other = "Kontribusi"
+
+[upload-file]
+other = "Unggah berkas"
+
+[upload-file-label]
+other = "Unggah bukti pembayaran"
+
+[architecture]
+other = "Aritektur"
+
+### home
+
+[community-join]
+other = "Yuk, gabung juga dengan komunitas kami."
+
+[others]
+other = "Lainnya.."
+
+### payment
+
+[payment-total]
+other = "Jumlah bayar"
+
+[payment-no-support]
+other = "IDR 57.000 - Tanpa Dukungan"
+
+[payment-with-support]
+other = "IDR 107.000 - Dengan Dukungan Instalasi"
+
+[payment-link]
+other = "Tautan Pembayaran"
+
+[payment-return-label]
+other = "(Pembayaran dapat dikembalikan jika pemasangan tidak berhasil atau kami salurkan ke badan amal Lazismu Indonesia dengan potongan Rp7000)"
+
+[payment-agreement-label]
+other = "Saya telah menyetujui dan mematuhi peraturan layanan & kebijakan privasi"
+
+[resend]
+other = "Kirim ulang"
+
+### contact
+
+[yourname]
+other = "Nama Anda"
+
+[youremail]
+other = "Email Anda"
+
+[subject]
+other = "Subjek"
+
+[yourmessage]
+other = "Pesan Anda"
+
+[sendnow]
+other = "Kirim"
+
+### live chat
+
+[livechat-title]
+other = "Ahlan wa sahlan"
+
+[livechat-subtitle]
+other = "Klik salah satu layanan yang tersedia"
+
+[livechat-chat-1]
+other = "Mengobrol melalui Telegram"
+
+[livechat-chat-2]
+other = "Mengobrol melalui WhatsApp"
+
+[livechat-label]
+other = "Pesan"
+
+[livechat-msg]
+other = "Kami insyaAllah online pada jam: 07.00-20.00 WIB (GMT+7)"
+
+[livechat-first-msg]
+other = "Assalamu'alaikum kak! Ada yang bisa kami bantu?"
+
+[livechat-show-chat]
+other = "Butuh Bantuan?"
+
+# feedback
+
+[institution-name]
+other = "Nama Institusi"
+
+[institution-type]
+other = "Tipe Institusi"
+
+[individual]
+other = "Individu"
+
+[community]
+other = "Komunitas"
+
+[studio]
+other = "Studio"
+
+[school]
+other = "Sekolah"
+
+[university]
+other = "Universitas"
+
+[organizations]
+other = "Organisasi"
+
+[government]
+other = "Pemerintah"
+
+[small-business]
+other = "Bisnis kecil"
+
+[engaged]
+other = "Bergerak dalam bidang"
+
+[content-creator]
+other = "Kontent Kreator"
+
+[dakwa-activist]
+other = "Aktifis Dakwah"
+
+[free-software-activist]
+other = "Aktifis Free Software"
+
+[apparel]
+other = "Apparel"
+
+[e-course]
+other = "E-Course"
+
+[branding-design]
+other = "Branding Desain"
+
+[education]
+other = "Pendidikan"
+
+[photographer]
+other = "Fotografer"
+
+[font-creator]
+other = "Font Kreator"
+
+[game-developer]
+other = "Pengembang Game"
+
+[comic-illustration]
+other = "Ilustrasi Komik"
+
+[illustration-children-books]
+other = "Ilustration Buku Anak"
+
+[industry]
+other = "Industri"
+
+[infrastructure]
+other = "Infrastruktur"
+
+[logistics]
+other = "Logistik"
+
+[environment]
+other = "Lingkungan Hidup"
+
+[logo-design]
+other = "Desain Logo"
+
+[merchandise]
+other = "Merchandise"
+
+[printing]
+other = "Percetakan"
+
+[translation]
+other = "Penerjemah"
+
+[software-house]
+other = "Software House"
+
+[travel]
+other = "Travel"
+
+[fb-intro]
+other = "Sedikit gambaran, LangitKetujuh merupakan sistem operasi berbasis voidlinux dengan kelengkapan perangkat lunak desain grafis yang uptodate dan tersedia font aset. Sekali pasang, dapat semua."
+
+[fb-impression]
+other = "Sebagai pengguna sistem operasi ini, bagaimana kesan pertama Anda dengan LangitKetujuh dan sudah berapa lama menggunakannya?"
+
+[fb-features]
+other = "Adakah fitur perangkat lunak atau depedensi yang perlu ditambahkan untuk versi selanjutnya?"
+
+[fb-performance]
+other = "Bagaimana performa LangitKetujuh. Ringan, biasa saja atau berat dalam kondisi tertentu?"
+
+[fb-bug]
+other = "Apakah Anda menemukan kesalahan sistem atau bug di Sistem operasi ini? jika ada boleh diceritakan."
+
+[fb-dislike]
+other = "Apa yang Anda tidak sukai dari LangitKetujuh?"
+
+[fb-service]
+other = "Adakah saran untuk layanan di WhatsApps, Telegram dan Email agar lebih baik lagi?"
+
+[fb-community]
+other = "Saat ini Komunitas LangitKetujuh sudah terbentuk. Jika dibandingkan dengan Layanan CS manakah yang terbaik?"
+
+# coorporation
+
+[address]
+other = "Alamat"
+
+[city]
+other = "Kota"
+
+[province]
+other = "Provinsi"
+
+[postal-code]
+other = "Kode Pos"
+
+[telp]
+other = "Telefon"
+
+[site]
+other = "URL Situs"
+
+[cooperation-type]
+other = "Tipe Kerjasama"
+
+[media-partner]
+other = "Mitra Media"
+
+[collaboration]
+other = "Kolaborasi"
+
+[sponsorship]
+other = "Pendanaan"
+
+[duration]
+other = "Durasi"
+
+[years]
+other = "Tahun"
+
+[conditional]
+other = "Kondisional"
+
+[goals]
+other = "Tujuan dan Minat Bekerjasama"
+
+[reasons]
+other = "Kami tertarik bermitra dengan LangitKetujuh karena..."
+
+[benefits-package]
+other = "Paket Benefit"
+
+[optional]
+other = "(Opsional)"

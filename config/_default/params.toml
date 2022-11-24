@@ -1,0 +1,70 @@
+#################### default parameters ################################
+logo = "images/logo.webp"
+logo_width = "70px"
+# OpenGraph / Twitter Card metadata
+description = "Distribusi GNU/Linux untuk desainer, ilustrator, animator, publisher, fotografer, font kreator dan game desainer. Menggunakan glibc & musl libc, rilis bergulir, runit init dan KDE lingkungan desktop."
+author = "LangitKetujuh"
+image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
+
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+
+# Type of pages to be rendered with a blog view
+blogCategoryType = "category"
+
+# Favicon
+favicon = "images/icons/favicon.ico"
+icon16 = "images/icons/icon-16x16.png"
+icon32 = "images/icons/icon-32x32.png"
+icon144 = "images/icons/icon-144x144.png"
+icon152 = "images/icons/icon-152x152.png"
+icon192 = "images/icons/icon-192x192.png"
+
+# Preloader
+[preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
+# Navigation buttons
+[navigation_button]
+enable = true
+label = "Contribute"
+link = "contribute"
+
+# cookies
+[cookies]
+enable = false
+expire_days = 2
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+button = "I Accept"
+  
+############################# social site ########################
+[[social]]
+title = "email"
+icon = "fas fa-envelope"
+link = "mailto:langitketujuh.id@pm.me"
+
+[[social]]
+title = "gitlab"
+icon = "fab fa-gitlab"
+link = "https://gitlab.com/langitketujuh"
+
+[[social]]
+title = "facebook"
+icon = "fab fa-facebook"
+link = "https://facebook.com/langitketujuh.id"
+
+[[social]]
+title = "instagram"
+icon = "fab fa-instagram"
+link = "https://instagram.com/langitketujuh.id"
+
+[[social]]
+title = "telegram"
+icon = "fab fa-telegram"
+link = "https://t.me/langitketujuh_id"
+
+[[social]]
+title = "whatsapp"
+icon = "fab fa-whatsapp"
+link = "https://wa.me/message/RN5NNCNHNEY6B1"
