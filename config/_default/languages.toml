@@ -2,26 +2,22 @@
 [en]
 languageName = "🇺🇸 EN"
 title = "LangitKetujuh OS"
-contentDir = "content/english" # content/english
+contentDir = "content/english"
 weight = 1
-### footer content
 footer_menu_left = "Legal"
 footer_menu_middle = "Product"
 footer_menu_right = "Support"
 footer_content = "The right choices for designer and desktop users"
-### copyright
 copyright = "2021-2022 [Hervy Qurrotul Ainur Rozi](https://hervyqa.id) and [LangitKetujuh contributor](https://gitlab.com/langitketujuh). 2020 [VoidLinux contributor](https://github.com/orgs/void-linux/people) and 2008-2018 [Juan RP](https://gitlab.com/xtraeme). [Linux®](https://www.linuxfoundation.org/programs/legal/trademark/attribution) has been registered with the trademark of Linus Torvalds. [KDE® and the K Desktop Environment® logo](https://kde.org/media/images/trademark_kde_gear_black_logo.png) has been registered with the branding of [KDE e.V](https://ev.kde.org/). Template by [Themefisher](https://themefisher.com/) and development by [Gethugothemes](https://gethugothemes.com/)."
 
 # Indonesia
 [id]
 languageName = "🇮🇩 ID"
 title = "LangitKetujuh OS"
-contentDir = "content/indonesia" # content/indonesia
+contentDir = "content/indonesia"
 weight = 2
-### footer content
 footer_menu_left = "Legal"
 footer_menu_middle = "Produk"
 footer_menu_right = "Dukungan"
 footer_content = "Pilihan tepat untuk desainer dan pengguna desktop"
-### copyright
 copyright = "2021-2022 [Hervy Qurrotul Ainur Rozi](https://hervyqa.id) dan [LangitKetujuh kontributor](https://gitlab.com/langitketujuh). 2020 [VoidLinux kontributor](https://github.com/orgs/void-linux/people) dan 2008-2018 [Juan RP](https://gitlab.com/xtraeme). [Linux®](https://www.linuxfoundation.org/programs/legal/trademark/attribution) telah didaftarkan dengan merek dagang dari Linus Torvalds. [KDE® and the K Desktop Environment® logo](https://kde.org/media/images/trademark_kde_gear_black_logo.png) telah didaftarkan dengan branding [KDE e.V](https://ev.kde.org/). Template oleh [Themefisher](https://themefisher.com/) dan dikembangkan oleh [Gethugothemes](https://gethugothemes.com/)."

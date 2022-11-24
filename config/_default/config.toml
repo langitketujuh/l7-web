@@ -1,15 +1,14 @@
 ######################## default configuration ####################
 baseURL = "https://langitketujuh.id/"
-title = "LangitKetujuh"
+title = "LangitKetujuh OS"
 defaultContentLanguage = "en" # id/en, default en
-# post pagination
 paginate = "6"
-# post excerpt
 summaryLength = "17"
-# disqus short name
 disqusShortname = "" # get your shortname form here : https://disqus.com
-# google analytics
 googleAnalytics = "" # example : UA-123-45
-# unsafe html
+
+[params]
+images = ['images/thumbnail.jpg']
+
 [markup.goldmark.renderer]
 unsafe = true
