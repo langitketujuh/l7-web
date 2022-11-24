@@ -50,6 +50,6 @@ draft: false
 | Rawtherapee pengolah foto raw.           |   -   | **√**  |
 | Screenkey Screencast monitor.            |   -   | **√**  |
 | Scribus desain tata letak.               | **√** | **√**  |
-| Shotwell foto manager                    |   -   |   -    |
+| Shotwell foto manager.                   |   -   |   -    |
 | Synfigstudio Animasi Vector 2D.          |   -   | **√**  |
 | VLC pemutar video.                       |   -   | **√**  |
