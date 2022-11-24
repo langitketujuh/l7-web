@@ -75,7 +75,7 @@ other = "Send"
 other = "Welcome"
 
 [livechat-subtitle]
-other = "Click one of the available services"
+other = "Redirected to available services"
 
 [livechat-chat-1]
 other = "Chat via Telegram"

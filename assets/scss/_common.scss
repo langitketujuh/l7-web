@@ -18,9 +18,8 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background-color: $primary-color;
-  outline: 2px solid #fff;
+  outline: 2px solid $white;
 }
-
 
 /* preloader */
 
@@ -30,7 +29,7 @@ body::-webkit-scrollbar-thumb {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #fff;
+  background-color: $white;
   z-index: 9999;
   display: flex;
   align-items: center;

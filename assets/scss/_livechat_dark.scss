@@ -3,7 +3,7 @@
   /* Live chat */
   #livechat {
     #whatsapp-chat {
-      background: $black;
+      background: $dark;
       box-shadow: 0 12px 24px -6px rgba(37, 99, 235, 0.3) !important;
     }
 
@@ -15,15 +15,15 @@
 
     .header-chat {
       background: $primary-color-dark;
-      color: $black;
+      color: $white;
     }
 
     .header-chat h3 {
-      color: $black;
+      color: $white;
     }
 
     .header-chat p {
-      color: $black;
+      color: $white;
     }
 
     .info-avatar:before {
@@ -42,40 +42,45 @@
 
     #get-label,
     span.chat-label {
-      color: #888;
+      color: $text-color-dark;
     }
 
     #get-nama,
     span.chat-nama {
-      color: #222;
+      color: $text-color-dark;
     }
 
     #get-label,
     #get-nama {
-      color: #fff;
+      color: $white;
     }
 
     .livechat-msg {
-      color: #444;
-      border-top: 1px solid #ddd;
+      color: $text-color-dark;
+      border-top: 1px solid $dark;
+      background: $dark;
     }
 
-    a#send-it {
-      color: #555;
-      background: #eee;
-    }
+    textarea#chat-input {
+      color: $white;
+      background: $dark;
 
-    .first-msg {
-      background: #f5f5f5;
-    }
+      a#send-it {
+        color: $text-color;
+        background: $black;
+      }
 
-    .first-msg span {
-      background: #e2e2e2;
-      color: #333;
-    }
+      .first-msg {
+        background: $dark;
+      }
 
-    a.close-chat {
-      color: #fff;
+      .first-msg span {
+        background: $light;
+      }
+
+      a.close-chat {
+        color: $white;
+      }
     }
   }
 }

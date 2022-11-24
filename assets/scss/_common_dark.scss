@@ -15,13 +15,13 @@
 
   body::-webkit-scrollbar-thumb {
     background-color: $primary-color-dark;
-    outline: 2px solid #fff;
+    outline: 2px solid $black;
   }
 
   /* preloader */
 
   .preloader {
-    background-color: #fff;
+    background-color: $black;
   }
 
   a:hover {

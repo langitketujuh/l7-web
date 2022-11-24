@@ -82,7 +82,7 @@
   }
 
   a.informasi:hover {
-    background: $white;
+    background: $light;
   }
 
   a.informasi-static {
@@ -92,7 +92,7 @@
   }
 
   a.informasi-static:hover {
-    background: $white;
+    background: $light;
   }
 
   .info-chat span {
@@ -102,7 +102,7 @@
   #get-label,
   span.chat-label {
     font-size: 12px;
-    color: #888;
+    color: $text-color;
   }
 
   #get-nama,
@@ -110,12 +110,12 @@
     margin: 5px 0 0;
     font-size: 15px;
     font-weight: 700;
-    color: #222;
+    color: $text-color;
   }
 
   #get-label,
   #get-nama {
-    color: #fff;
+    color: $white;
   }
 
   span.my-number {
@@ -123,11 +123,12 @@
   }
 
   .livechat-msg {
-    color: #444;
+    color: $text-color;
     padding: 20px;
     font-size: 12.5px;
     text-align: center;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid $light;
+    background: $white;
   }
 
   textarea#chat-input {
@@ -138,28 +139,28 @@
     height: 20px;
     outline: none;
     resize: none;
+    color: $black;
+    background: $white;
   }
 
   a#send-it {
-    color: #555;
+    color: $text-color;
     width: 60px;
     margin: -5px 0 0 5px;
     font-weight: 700;
     font-size: 14.2px;
     padding: 8px;
-    background: #eee;
+    background: $light;
     border-radius: 10px;
   }
 
   .first-msg {
-    background: #f5f5f5;
     padding: 30px;
     text-align: center;
   }
 
   .first-msg span {
-    background: #e2e2e2;
-    color: #333;
+    color: $text-color;
     font-size: 14.2px;
     line-height: 1.7;
     border-radius: 10px;
@@ -179,7 +180,7 @@
     position: absolute;
     top: 5px;
     right: 15px;
-    color: #fff;
+    color: $white;
     font-size: 30px;
   }
 
