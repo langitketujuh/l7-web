@@ -7,21 +7,6 @@ image: images/thumbnail.jpg
 opengraph:
   image: images/thumbnail.jpg
 
-homeglibc:
-  name:
-  type: Home
-  type_ver:
-  info: x86_64 (64bit)
-  services:
-  - Nonfree application and driver support.
-  - Audio and Video codec support.
-  - HP and Epson printer detection.
-  - Inkscape & GIMP editing image.
-  - Libreoffice suite.
-  button:
-    enable: true
-    label: Download
-    link: "os/download/home/x86_64"
 homemusl:
   name:
   type: Home
@@ -37,26 +22,22 @@ homemusl:
     enable: true
     label: Download
     link: "os/download/home/x86_64-musl"
-
-studioglibc:
+homeglibc:
   name:
-  type: Studio
+  type: Home
   type_ver:
   info: x86_64 (64bit)
   services:
-  - All the benefits Home edition.
-  - Installation support by experts.
-  - Digital illustration and painting.
-  - Fully featured 2D/3D animation.
-  - Creator fonts and Google Fonts.
-  - Multiplatform 2D/3D game engine.
-  - Desktop publishing and layout design.
-  - Photography and image management.
-  - Audio and Video non-linear editing.
+  - Nonfree application and driver support.
+  - Audio and Video codec support.
+  - HP and Epson printer detection.
+  - Inkscape & GIMP editing image.
+  - Libreoffice suite.
   button:
     enable: true
-    label: Buy & Download
-    link: "os/download/studio/x86_64"
+    label: Download
+    link: "os/download/home/x86_64"
+
 studiomusl:
   name:
   type: Studio
@@ -76,6 +57,25 @@ studiomusl:
     enable: true
     label: Buy & Download
     link: "os/download/studio/x86_64-musl"
+studioglibc:
+  name:
+  type: Studio
+  type_ver:
+  info: x86_64 (64bit)
+  services:
+  - All the benefits Home edition.
+  - Installation support by experts.
+  - Digital illustration and painting.
+  - Fully featured 2D/3D animation.
+  - Creator fonts and Google Fonts.
+  - Multiplatform 2D/3D game engine.
+  - Desktop publishing and layout design.
+  - Photography and image management.
+  - Audio and Video non-linear editing.
+  button:
+    enable: true
+    label: Buy & Download
+    link: "os/download/studio/x86_64"
 
 call_to_action:
   enable: true
