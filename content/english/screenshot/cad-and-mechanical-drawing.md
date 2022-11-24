@@ -1,10 +1,10 @@
 ---
-title: "CAD dan Menggambar Mekanik"
+title: "CAD and mechanical drawing"
 date: 2021-06-12T23:23:16+07:00
 image: images/screenshot/cad-dan-menggambar-mekanik.jpg
 opengraph:
   image: images/screenshot/cad-dan-menggambar-mekanik.jpg
-description: "Daftar screenshot perangkat lunak CAD dan menggambar mekanik di LangitKetujuh"
+description: "Screenshot list of cad and mechanical drawing software"
 author: "LangitKetujuh"
 draft: false
 ---

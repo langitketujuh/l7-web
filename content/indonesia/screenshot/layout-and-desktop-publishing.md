@@ -1,10 +1,10 @@
 ---
-title: "Desktop Publishing"
+title: "Tata letak dan penerbitan desktop"
 date: 2020-12-12T23:23:18+07:00
 image: images/screenshot/open-source-desktop-publishing.jpg
 opengraph:
   image: images/screenshot/open-source-desktop-publishing.jpg
-description: "Daftar screenshot perangkat lunak Open Source Desktop Publishing di LangitKetujuh"
+description: "Daftar screenshot perangkat lunak open source desktop publishing"
 author: "LangitKetujuh"
 draft: false
 ---

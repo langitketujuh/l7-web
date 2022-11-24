@@ -1,10 +1,10 @@
 ---
-title: "Ilustrasi dan Lukis Digital"
+title: "Digital illustration and painting"
 date: 2020-12-12T23:23:23+07:00
 image: images/screenshot/ilustrasi-vektor-dan-pelukis-digital.jpg
 opengraph:
   image: images/screenshot/ilustrasi-vektor-dan-pelukis-digital.jpg
-description: "Daftar screenshot perangkat lunak Ilustrasi Vektor dan Digital Painting di LangitKetujuh"
+description: "Screenshot list of digital illustration and painting software"
 author: "LangitKetujuh"
 draft: false
 ---

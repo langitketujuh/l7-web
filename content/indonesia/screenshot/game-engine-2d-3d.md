@@ -1,10 +1,10 @@
 ---
-title: "Mesin Game 2D/3D"
+title: "Mesin game 2d/3d"
 date: 2020-12-12T23:23:20+07:00
 image: images/screenshot/mesin-game-multi-platform-2d-3d.jpg
 opengraph:
   image: images/screenshot/mesin-game-multi-platform-2d-3d.jpg
-description: "Daftar screenshot perangkat lunak Multi Platform Kreator 2D/3D Mesin Game di LangitKetujuh"
+description: "Daftar screenshot perangkat lunak multi platform kreator 2d/3d mesin game"
 author: "LangitKetujuh"
 draft: false
 parent: screenshot

@@ -1,10 +1,10 @@
 ---
-title: "Aneka Perlengkapan Perkantoran"
+title: "Perlengkapan perkantoran profesional"
 date: 2020-12-12T23:23:16+07:00
 image: images/screenshot/perlengkapan-perkantoran.jpg
 opengraph:
   image: images/screenshot/perlengkapan-perkantoran.jpg
-description: "Daftar screenshot perangkat lunak Aneka Produktifitas Keseharian di LangitKetujuh"
+description: "Daftar screenshot perangkat lunak aneka produktifitas keseharian"
 author: "LangitKetujuh"
 draft: false
 ---

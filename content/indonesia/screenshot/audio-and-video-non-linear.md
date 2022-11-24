@@ -1,10 +1,10 @@
 ---
-title: "Audio dan Video Non-linear"
+title: "Audio dan video non-linear"
 date: 2020-12-12T23:23:19+07:00
 image: images/screenshot/audio-dan-video-non-linear.jpg
 opengraph:
   image: images/screenshot/audio-dan-video-non-linear.jpg
-description: "Daftar screenshot perangkat lunak Audio dan Video Non-linear di LangitKetujuh"
+description: "Daftar screenshot perangkat lunak audio dan video non-linear"
 author: "LangitKetujuh"
 draft: false
 ---

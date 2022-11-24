@@ -1,11 +1,11 @@
 ---
-title: "Kreasi Animasi 2D/3D Full Fitur"
+title: "Full-featured 2d/3d animation"
 date: 2020-12-12T23:23:22+07:00
 image: images/screenshot/animasi-2d-3d-penuh-fitur.jpg
 opengraph:
   image: images/screenshot/animasi-2d-3d-penuh-fitur.jpg
-description: "Daftar screenshot perangkat lunak Kreasi Animasi 2D/3D Full Fitur di LangitKetujuh"
-author: "LangitKetujuh"
+description: "Screenshot list of full-featured 2d/3d animation software"
+author: "langitketujuh"
 draft: false
 ---
 

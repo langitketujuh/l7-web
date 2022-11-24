@@ -1,10 +1,10 @@
 ---
-title: "Font Kreator dan Google Fonts"
+title: "Font creator and google fonts"
 date: 2020-12-12T23:23:21+07:00
 image: images/screenshot/font-kreator-dan-google-fonts.jpg
 opengraph:
   image: images/screenshot/font-kreator-dan-google-fonts.jpg
-description: "Daftar screenshot Google Fonts dan Pembuat Truetype Font di LangitKetujuh"
+description: "Screenshot list of font creator software and google fonts"
 author: "LangitKetujuh"
 draft: false
 ---

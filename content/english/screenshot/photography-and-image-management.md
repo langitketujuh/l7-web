@@ -1,10 +1,10 @@
 ---
-title: "Fotografi dan Manajemen Gambar"
+title: "Photography and image management"
 date: 2020-12-12T23:23:17+07:00
 image: images/screenshot/fotografi-dan-manajemen-gambar.jpg
 opengraph:
   image: images/screenshot/fotografi-dan-manajemen-gambar.jpg
-description: "Daftar screenshot perangkat lunak Fotografi dan Manajemen Gambar di LangitKetujuh"
+description: "Screenshot list of photography and image management software"
 author: "LangitKetujuh"
 draft: false
 ---
