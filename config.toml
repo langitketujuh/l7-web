@@ -26,7 +26,7 @@ dark = "#1a1d1e"
 # example: "Work Sans:wght@400;500;600"
 primary_font = "Noto Sans:wght@300;400;500;600"
 primary_font_type = "sans-serif" # [serif/sans-serif]
-icon_font = "Font Awesome 5 Free"
+icon_font = "Font Awesome 6 Free"
 
 
 ############################# Plugins ##############################
