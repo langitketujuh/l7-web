@@ -38,7 +38,8 @@ other = "Pay amount"
 other = "USD $8 - Without Support"
 
 [payment-with-support]
-other = "USD $13 - With Installation Support (only ID)"
+other = "Installation Support (Currently not available)"
+#other = "USD $13 - With Installation Support (only ID)"
 
 [payment-link]
 other = "Payment Link"
