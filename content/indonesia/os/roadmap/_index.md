@@ -28,8 +28,8 @@ call_to_action:
 | Pengembangan        |   Proses   | 11 Juli 2022     |
 | Uji coba tak stabil |   Proses   | 15 Juli 2022     |
 | Uji coba stabil     |   Proses   | 13 Oktober 2022  |
-| Upload berkas iso   |   Belum    | 30 November 2022 |
-| **Rilis**           |   Belum    | 1 Desember 2022  |
+| Upload berkas iso   |   Belum    | - |
+| **Rilis**           |   Belum    | - |
 
 ### Improvisasi
 
