@@ -94,6 +94,7 @@ We say many thanks to **the Great People** and _Friends of LangitKetujuh_ for th
 - Dimas Nirwan.
 - Dony Martino.
 - Dudy Herdiana.
+- Dwi Noviyanto.
 - Edwin Hikmaturrahman.
 - Edy Daryapto.
 - Eggi Chanda.
@@ -134,7 +135,6 @@ We say many thanks to **the Great People** and _Friends of LangitKetujuh_ for th
 - Hasdin Adi Saputra.
 - Hendra.
 - Heri Setiawan.
-- Heriyanto.
 - Heriyanto.
 - Hermawan.
 - Herru Pratomo.
@@ -292,6 +292,7 @@ We say many thanks to **the Great People** and _Friends of LangitKetujuh_ for th
 - Yoga Pratama.
 - Yogi Tri Widodo.
 - Yudi Pratama.
+- Yudianto Hari Prasetyo.
 - Yunus Ahmad.
 - Yusuf Almalik Saputra, Md.
 - Yusuf Isna Hanif.
