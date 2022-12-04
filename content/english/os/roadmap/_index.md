@@ -28,8 +28,8 @@ call_to_action:
 | Development           |   Process  | 11 July 2022     |
 | Unstable test         |   Process  | 15 July 2022     |
 | Stable test           |   Process  | 13 October 2022  |
-| Upload iso file       |   Not yet  | - |
-| **Release**           |   Not yet  | - |
+| Upload iso file       |   Not yet  | 5 December 2022  |
+| **Release**           |   Not yet  | 6 December 2022  |
 
 ### Improvisation
 
