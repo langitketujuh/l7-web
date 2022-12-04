@@ -39,6 +39,7 @@ call_to_action:
 - Menambahkan `fastfetch` sebagai alternatif neofetch.
 - Menambahkan `font-awesome` (versi 4) dan `font-awesome6`. Sebelumnya hanya `font-awesome5` saja.
 - Menambahkan `webapp-manager` sebagai pembuat aplikasi web berbasis browser.
+- Menambahkan `cnijfilter2` sebagai sebagai driver canon printer (khusus arsitektur `x86_64`).
 - Menambahkan layout LangitKetujuh plus (windows-like) dan Langitketujuh Unity (ubuntu klasik) di global theme yang mendukung global appmenu.
 - Menambahkan `plasma-onzemenu` dan `plasma-panel-transparency-button` untuk panel layout theme.
 - Menambahkan beberapa addons baru lainnya di repo seperti `plasma-clearclock`, `plasma-minimalistclock`, `plasma-atmosphere`, `plasma-fokus`, `plasma-dittomenu` dan `plasma-translator`. (pasang manual)
