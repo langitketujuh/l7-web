@@ -33,33 +33,34 @@ call_to_action:
 
 ### Improvisation
 
+- Menggunakan kernel `linux6.0.10`.
 - Menambahkan `qownnotes` (QownNotes) sebagai aplikasi catatan instan yang mendukung markdown.
 - Menambahkan `ccc` (CMYK Convert Color) untuk konversi gambar rgb ke cmyk.
-- Menambahkan `kteatime` sebagai pengganti pomodoro metode manajemen waktu.
 - Menambahkan `fastfetch` sebagai alternatif neofetch.
 - Menambahkan `font-awesome` (versi 4) dan `font-awesome6`. Sebelumnya hanya `font-awesome5` saja.
 - Menambahkan `webapp-manager` sebagai pembuat aplikasi web berbasis browser.
-- Menambahkan layout windows-like dan unity di global theme yang mendukung global appmenu.
+- Menambahkan layout LangitKetujuh plus (windows-like) dan Langitketujuh Unity (ubuntu klasik) di global theme yang mendukung global appmenu.
 - Menambahkan `plasma-onzemenu` dan `plasma-panel-transparency-button` untuk panel layout theme.
-- Menambahkan beberapa addons lainnya di repo seperti `plasma-clearclock`, `plasma-minimalistclock`, `plasma-atmosphere`, `plasma-fokus`, `plasma-dittomenu` dan `plasma-translator`. (pasang manual)
+- Menambahkan beberapa addons baru lainnya di repo seperti `plasma-clearclock`, `plasma-minimalistclock`, `plasma-atmosphere`, `plasma-fokus`, `plasma-dittomenu` dan `plasma-translator`. (pasang manual)
 
 ### Problem Fix
 
-- Perbaikan halaman edisi home.
+Sebelumnya dengan `gzip` sangat berdampak pada server dan jumlah bandwith yang keluar.
 - Fix grub ketika install grub i686 dengan `target=i686`.
-- Mengaktifkan kembali repo nonfree, serta mengikutsertakan beberapa printer nonfree.
+- Mengaktifkan kembali `void-repo-nonfree`, serta mengikutsertakan beberapa printer nonfree.
 - Installer mendeteksi otomatis jenis boot mode (uefi/legacy) dan tipe disk label yang digunakan (gpt/dos).
 - Memisahkan wallpaper lama kedalam paket `l7-plasma-workspace-wallpapers`.
 - Menambahkan `l7-appmenu-gtk3-module` untuk menambahkan modul gtk3 appmenu yang hilang.
+- Pipewire sudah dapat berjalan saat startup tanpa harus menggunakan autostart lagi melalui `etc/xdg/autostart`.
+- Memindahkan konfigurasi rc KDE ke `/etc/xdg` agar setiap paket l7 lebih rapi dan tidak memerlukan salin manual (sebelumnya pengguna harus menyalin manual dari `/usr/share/doc/l7-*`, sekarang hanya beberapa aplikasi saja yang perlu.).
 - Pembaruan dokumentasi dan fix typo.
-- Fix bahasa indonesia installer.
-- [proses] Website multi bahasa. EN (Inggris) dan ID (Indonesia).
-- ~~Fix grub mendeteksi otomatis efi dualboot atau lebih setelah memasang OS.~~ (draft)
-- ~~Fix set waktu otomatis dengan `openntpd`. Sebelumnya menggunakan `ntp` namun tidak berjalan di `x86_64-musl` karena paket tersebut tidak tersedia.~~ (cancel)
+- Fix bahasa indonesia menu installer.
+- Website multi bahasa. [EN (Inggris)](https://langitketujuh.id) dan [ID (Indonesia)](https://langitketujuh.id/id)
 
 ### Elimination
 
 - Menghapus edisi `i686` (32bit) beserta iso dan paket depedensi yang ada direpositori.
+- Menghapus `noto-fonts-cjk` agar ukuran iso lebih ringan dan sebagai opsional saja.
 
 ### Studio
 
