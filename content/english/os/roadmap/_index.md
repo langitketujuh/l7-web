@@ -46,7 +46,7 @@ call_to_action:
 
 ### Problem Fix
 
-Sebelumnya dengan `gzip` sangat berdampak pada server dan jumlah bandwith yang keluar.
+- Kembali menggunakan kompresi `xz` agar ukuran iso lebih kecil. Sebelumnya dengan `gzip` sangat berdampak pada server dan jumlah bandwith yang keluar.
 - Fix grub ketika install grub i686 dengan `target=i686`.
 - Mengaktifkan kembali `void-repo-nonfree`, serta mengikutsertakan beberapa printer nonfree.
 - Installer mendeteksi otomatis jenis boot mode (uefi/legacy) dan tipe disk label yang digunakan (gpt/dos).
