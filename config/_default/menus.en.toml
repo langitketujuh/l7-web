@@ -33,26 +33,19 @@ URL = "os/roadmap"
 parent = "os"
 weight = 4
 
-[[main]]
-name = "Verification"
-identifier = "verification"
-URL = "os/verification"
-parent = "os"
-weight = 5
-
 # blog
 [[main]]
 name = "Blog"
 identifier = "blog"
 URL = "blog"
-weight = 4
+weight = 3
 
 # vs
 [[main]]
 name = "Compare"
 identifier = "vs"
 URL = "vs"
-weight = 5
+weight = 4
 
 [[main]]
 name = "vs Ubuntu Studio"
@@ -80,7 +73,7 @@ weight = 3
 name = "Screenshot"
 URL = "screenshot"
 identifier = "screenshot"
-weight = 6
+weight = 5
 
 [[main]]
 name = "Digital Illustration and Painting"
@@ -150,14 +143,14 @@ weight = 9
 name = "Supporter"
 identifier = "supporter"
 URL = "supporter"
-weight = 7
+weight = 6
 
 # profile
 [[main]]
 name = "Profile"
 identifier = "profile"
 URL = "profile"
-weight = 8
+weight = 7
 
 # contact
 [[main]]
@@ -180,7 +173,7 @@ weight = 2
 name = "FAQ"
 identifier = "faq"
 URL = "faq"
-weight = 9
+weight = 8
 
 # profile
 [[footer_left]]
