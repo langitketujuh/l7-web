@@ -7,7 +7,7 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         <div class="content">{{.Content}}</div>
-        <form name="kirim-ulang" netlify-honeypot="bot-field" action="/success" method="POST"
+        <form name="resend" netlify-honeypot="bot-field" action="/success" method="POST"
         data-netlify-recaptcha="true" data-netlify="true">
         <input type="text" class="form-control mb-3" name="name" placeholder="{{ i18n `yourname` }}" required="true">
         <input type="email" class="form-control mb-3" name="email" placeholder="{{ i18n `youremail` }}" required="true">
