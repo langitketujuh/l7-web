@@ -15,7 +15,7 @@ download:
   button:
     enable: true
     label: Unduh ISO
-    link: https://osdn.net/dl/langitketujuh/langitketujuh-home-x86_64-musl-20220710.iso
+    link: https://osdn.net/dl/langitketujuh/langitketujuh-kde-home-x86_64-musl-20221205-67szizo.iso
   hash:
     enable: false
     labelhash: Mirror

@@ -15,7 +15,7 @@ download:
   button:
     enable: true
     label: Download ISO
-    link: https://osdn.net/dl/langitketujuh/langitketujuh-home-x86_64-20220710.iso
+    link: https://osdn.net/dl/langitketujuh/langitketujuh-kde-home-x86_64-20221205-6w5ye2i.iso
   hash:
     enable: false
     labelhash: sha256
