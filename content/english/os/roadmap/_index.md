@@ -25,11 +25,11 @@ call_to_action:
 
 | **Schedule**          | **Status** | **Date**         |
 | :-------------------- | :--------: | :--------------- |
-| Development           |   Process  | 11 July 2022     |
-| Unstable test         |   Process  | 15 July 2022     |
-| Stable test           |   Process  | 13 October 2022  |
-| Upload iso file       |   Not yet  | 5 December 2022  |
-| **Release**           |   Not yet  | 6 December 2022  |
+| Development           |   Done     | 11 July 2022     |
+| Unstable test         |   Done     | 15 July 2022     |
+| Stable test           |   Done     | 13 October 2022  |
+| Upload iso file       |   Done     | 5 December 2022  |
+| **Release**           |   Done     | 6 December 2022  |
 
 ### Improvisation
 

@@ -25,11 +25,11 @@ call_to_action:
 
 | **Jadwal**          | **Status** | **Tanggal**      |
 | :------------------ | :--------: | :--------------- |
-| Pengembangan        |   Proses   | 11 Juli 2022     |
-| Uji coba tak stabil |   Proses   | 15 Juli 2022     |
-| Uji coba stabil     |   Proses   | 13 Oktober 2022  |
-| Upload berkas iso   |   Belum    | 5 Desember 2022  |
-| **Rilis**           |   Belum    | 6 Desember 2022  |
+| Pengembangan        |   Selesai  | 11 Juli 2022     |
+| Uji coba tak stabil |   Selesai  | 15 Juli 2022     |
+| Uji coba stabil     |   Selesai  | 13 Oktober 2022  |
+| Upload berkas iso   |   Selesai  | 5 Desember 2022  |
+| **Rilis**           |   Selesai  | 6 Desember 2022  |
 
 ### Improvisasi
 
