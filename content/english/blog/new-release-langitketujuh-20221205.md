@@ -1,5 +1,5 @@
 ---
-title: "New Release Langitketujuh 20221205"
+title: "New Release LangitKetujuh 20221205"
 date: 2022-12-05T18:12:01+07:00
 image: images/blog/new-release-langitketujuh-20221205.jpg
 opengraph:
