@@ -7,7 +7,7 @@ opengraph:
 # post type (regular/featured)
 type: "regular"
 description: ""
-author: "LangitKetujuh ID"
+author: "LangitKetujuh"
 categories:
   - software
   - pattern
