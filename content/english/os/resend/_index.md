@@ -3,7 +3,7 @@ title: "Ever Registered?"
 subtitle: ""
 # meta description
 type: "os/resend"
-description: "Terbaik untuk dukungan perangkat lunak nonfree (propietary)"
+description: "Have you registered yet? Fill out this form so we can resend it to a previously registered email."
 image: images/thumbnail.jpg
 opengraph:
   image: images/thumbnail.jpg
