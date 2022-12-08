@@ -60,7 +60,7 @@ Useful for creating notes that use markdown formatting. Of course, the markdown 
 
 ## Plasma widget
 
-Added some other new widget in the repository like `plasma-clearclock` as a beautiful desktop clock, `plasma-minimalistclock` as a simple clock, `plasma-atmosphere` as a meditation audio to make the user calmer, `plasma-focus` with pomodoro concept to focus more, `plasma-dittomenu` menu like windows 11 and `plasma-translator` to translate words/sentences from foreign languages or vice versa.
+Added some other new widget in the repository like `plasma-clearclock` as a beautiful desktop clock, `plasma-minimalistclock` as a simple clock, `plasma-atmosphere` as a meditation audio to make the user calmer, `plasma-focus` with pomodoro concept to focus more, `plasma-dittomenu` & `plasma-onzemenu` menu like windows 11 and `plasma-translator` to translate words/sentences from foreign languages or vice versa.
 
 The plasma widget package requires the user to install it manually with `get`.
 
@@ -73,7 +73,13 @@ The system information viewer doesn't always use `neofetch`, `screenfetch`, `pfe
 
 {{< figure src=/images/blog/fastfetch-langitketujuh-id.webp alt="Fastfetch LangitKetujuh">}}
 
-## Driver printer dan unrar
+## Runit service management with rsv
+
+Service settings can be done with `rsv` which previously used `vsv`. The `rsv` command is simpler than the default `sv`. For example, to activate the service by means of `rsv enable servicename`, reload the service `rsv restart servicename`, and so on.
+
+For more details, users can refer to the [runit init management guide page](https://panduan.langitkejuangan.id/konfigurasi/layanan/rsv).
+
+## Printer driver and unrar
 
 In the community we agree that some software like custom drivers need to be included. Moreover, the support for drivers and applications makes it easier for users who are just migrating from proprietary operating systems. The package included is `unrar` as a compressed file extractor from rar, `cnijfilter2` as a canon printer driver (`x86_64` only).
 

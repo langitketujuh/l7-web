@@ -60,7 +60,7 @@ Berguna untuk membuat catatan yang menggunakan format markdown. Tentunya format 
 
 ## Plasma widget
 
-Menambahkan beberapa addons baru lainnya di repo seperti `plasma-clearclock` sebagai jam desktop yang indah, `plasma-minimalistclock` jam yang sederhana, `plasma-atmosphere` sebagai audio meditasi agar pengguna lebih tenang, `plasma-fokus` dengan konsep pomodoro agar lebih fokus, `plasma-dittomenu` menu seperti windows 11 dan `plasma-translator` untuk menerjemahkan kata/kalimat dari bahasa asing atau sebaliknya.
+Menambahkan beberapa addons baru lainnya di repo seperti `plasma-clearclock` sebagai jam desktop yang indah, `plasma-minimalistclock` jam yang sederhana, `plasma-atmosphere` sebagai audio meditasi agar pengguna lebih tenang, `plasma-fokus` dengan konsep pomodoro agar lebih fokus, `plasma-dittomenu` & `plasma-onzemenu` menu seperti windows 11 dan `plasma-translator` untuk menerjemahkan kata/kalimat dari bahasa asing atau sebaliknya.
 
 Paket plasma widget tersebut pengguna harus memasangnya manual dengan `get`.
 
@@ -72,6 +72,12 @@ Paket plasma widget tersebut pengguna harus memasangnya manual dengan `get`.
 Penampil informasi sistem tidak selalu mengggunakan `neofetch`, `screenfetch`, `pfetch`, dsb. Di LangitKetujuh sudah terpasang `fastfetch` yang lebih ringan dan cepat. Tetapi jika ingin mendapatkan lebih detail lagi, pengguna dapat menggunakan `inxi`.
 
 {{< figure src=/images/blog/fastfetch-langitketujuh-id.webp alt="Fastfetch LangitKetujuh">}}
+
+## Manajemen layanan runit dengan rsv
+
+Pengaturan layanan dapat dilakukan dengan `rsv` yang sebelumnya menggunakan `vsv`. Perintah `rsv` lebih sederhana dari `sv` bawaan. Misalnya untuk mengaktifkan layanan dengan cara `rsv enable namalayanan`, memuat ulang layanan `rsv restart namalayanan`, dan sebagainya.
+
+Lebih detail lagi, pengguna dapat merujuk ke halaman [panduan manajemen runit init](https://panduan.langitketujuh.id/konfigurasi/layanan/rsv).
 
 ## Driver printer dan unrar
 
