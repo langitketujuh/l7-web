@@ -9,14 +9,14 @@
         <form name="contact" netlify-honeypot="bot-field" action="/success" method="POST" data-netlify-recaptcha="true" data-netlify="true">
         <input type="text" class="form-control mb-3" name="name" placeholder="{{ i18n `yourname` }}" required="true">
         <input type="email" class="form-control mb-3" name="email" placeholder="{{ i18n `youremail` }}" required="true">
-        <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="{{ i18n `subject` }}">
+        <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="{{ i18n `subject` }}" required="true">
         <div class="input-group mb-3">
           <div class="input-group-prepend">
               <span class="input-group-text">@</span>
           </div>
           <input type="text" class="form-control" name="telegram" aria-label="telegram" aria-describedby="inputTelegram" placeholder="Telegram" required="true">
         </div>
-        <textarea name="message" class="form-control mb-5" placeholder="{{ i18n `yourmessage` }}"></textarea>
+        <textarea name="message" class="form-control mb-5" placeholder="{{ i18n `yourmessage` }}" required="true"></textarea>
         <div class="form-group mb-3">
             <div class="form-check">
               <input class="form-check-input" type="checkbox" id="gridCheck"  name="data" value="agree" required="true">
