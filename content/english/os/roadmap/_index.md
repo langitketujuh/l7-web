@@ -54,7 +54,7 @@ call_to_action:
 
 ---
 
-## Development
+## 20221205 (stable)
 
 | **Schedule**          | **Status** | **Date**         |
 | :-------------------- | :--------: | :--------------- |

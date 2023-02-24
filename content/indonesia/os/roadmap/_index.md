@@ -53,7 +53,7 @@ call_to_action:
 
 ---
 
-## Pengembangan
+## 20221205 (stabil)
 
 | **Jadwal**          | **Status** | **Tanggal**      |
 | :------------------ | :--------: | :--------------- |
