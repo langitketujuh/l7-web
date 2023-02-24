@@ -78,6 +78,7 @@ We say many thanks to **the Great People** and _Friends of LangitKetujuh_ for th
 - Budi Irawan.
 - Budi Suzaldi.
 - Buyung.
+- Chandra Handika.
 - Cecep Wahidin.
 - Chairuddinsyah Harahap.
 - Dadan Mulyana.
@@ -90,6 +91,7 @@ We say many thanks to **the Great People** and _Friends of LangitKetujuh_ for th
 - Devrian Anwar.
 - Dian Lentera Buana.
 - Dias Fahmi.
+- Didik Prastiyanto.
 - Dimas Bagus Nirwandhani.
 - Dimas Nirwan.
 - Dony Martino.
@@ -168,6 +170,7 @@ We say many thanks to **the Great People** and _Friends of LangitKetujuh_ for th
 - Langgeng Wiono.
 - Latif Ahmad Fatih.
 - Latif Sobri Alhamidi.
+- Luyao Tian.
 - Linuxscoop.
 - M Indra Dwi Cahyono.
 - M. Indra Dwi Cahyono.
@@ -198,6 +201,7 @@ We say many thanks to **the Great People** and _Friends of LangitKetujuh_ for th
 - Muhammad Al Furqon.
 - Muhammad Arif Hidayat.
 - Muhammad Awaludin.
+- Muhammad Erlangga.
 - Muhammad Farid H.
 - Muhammad Firqi Arianto.
 - Muhammad Hasan.
@@ -225,6 +229,7 @@ We say many thanks to **the Great People** and _Friends of LangitKetujuh_ for th
 - Nurmah Greafika.
 - Nurul Efendi.
 - Oky Tjahjawiguna.
+- Omi Gusty Rifani.
 - Persada TV.
 - Pradipto E.H.
 - Pratama.
@@ -277,6 +282,7 @@ We say many thanks to **the Great People** and _Friends of LangitKetujuh_ for th
 - Teguh Ryt12.
 - Teuku Fauzan.
 - Tohir.
+- Toni Fajar Saputra.
 - Tukiyo.
 - Tun Rahmat Reformasi.
 - Usman Abdullah.

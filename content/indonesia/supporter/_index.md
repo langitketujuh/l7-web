@@ -78,6 +78,7 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - Budi Irawan.
 - Budi Suzaldi.
 - Buyung.
+- Chandra Handika.
 - Cecep Wahidin.
 - Chairuddinsyah Harahap.
 - Dadan Mulyana.
@@ -90,6 +91,7 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - Devrian Anwar.
 - Dian Lentera Buana.
 - Dias Fahmi.
+- Didik Prastiyanto.
 - Dimas Bagus Nirwandhani.
 - Dimas Nirwan.
 - Dony Martino.
@@ -168,6 +170,7 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - Langgeng Wiono.
 - Latif Ahmad Fatih.
 - Latif Sobri Alhamidi.
+- Luyao Tian.
 - Linuxscoop.
 - M Indra Dwi Cahyono.
 - M. Indra Dwi Cahyono.
@@ -198,6 +201,7 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - Muhammad Al Furqon.
 - Muhammad Arif Hidayat.
 - Muhammad Awaludin.
+- Muhammad Erlangga.
 - Muhammad Farid H.
 - Muhammad Firqi Arianto.
 - Muhammad Hasan.
@@ -225,6 +229,7 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - Nurmah Greafika.
 - Nurul Efendi.
 - Oky Tjahjawiguna.
+- Omi Gusty Rifani.
 - Persada TV.
 - Pradipto E.H.
 - Pratama.
@@ -277,6 +282,7 @@ Kami mengucapkan Banyak Terima kasih kepada **Orang Hebat** dan _Sahabat LangitK
 - Teguh Ryt12.
 - Teuku Fauzan.
 - Tohir.
+- Toni Fajar Saputra.
 - Tukiyo.
 - Tun Rahmat Reformasi.
 - Usman Abdullah.
