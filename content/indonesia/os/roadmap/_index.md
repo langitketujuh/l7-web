@@ -34,6 +34,8 @@ call_to_action:
 ### Improvisasi
 
 * `keepassxc`: Sebagai alternatif password manager browser.
+* `kfind`: Pencari lokasi berkas dan direktori.
+* `krename`: Pengganti nama secara batch untuk KDE.
 * `langitketujuh-install`: Menggunakan repositori dari Fastly CDN Global.
 * `linux-lts`: Menambah pilihan Kernel LTS ketika booting.
 * `plasma-desktop`: KDE Plasma desktop environment versi 5.27.

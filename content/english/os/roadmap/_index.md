@@ -35,6 +35,8 @@ call_to_action:
 ### Improvisation
 
 * `keepassxc`: As alternative password manager for browser.
+* `kfind`: Find files and folders.
+* `krename`: Powerful batch renamer for KDE.
 * `langitketujuh-install`: Using the repository from the Fastly CDN Global.
 * `linux-lts`: Add optional Kernel LTS when booting.
 * `plasma-desktop`: KDE Plasma desktop environment 5.27.
