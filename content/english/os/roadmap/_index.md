@@ -25,6 +25,39 @@ call_to_action:
 
 | **Schedule**          | **Status** | **Date**         |
 | :-------------------- | :--------: | :--------------- |
+| Development           |  Process   | 7 December 2023  |
+| Unstable test         |  Process   | January 2023     |
+| Stable test           |  Process   | January 2023     |
+| Upload iso file       |  Not yet   | July 2023        |
+| **Release**           |  Not yet   | July 2023        |
+
+
+### Improvisation
+
+* `keepassxc`: As alternative password manager for browser.
+* `langitketujuh-install`: Using the repository from the Fastly CDN Global.
+* `linux-lts`: Add optional Kernel LTS when booting.
+* `plasma-desktop`: KDE Plasma desktop environment 5.27.
+* `qpwgraph`: Graph manager for pipewire.
+* `xdeb`: Converter debian binary packages to xbps (install manually).
+* `l7-plasma-desktop`: New logo and animation for splash screen.
+
+### Elimination
+
+* `alsa-jack`: Unnecessary jack for home edition.
+* `p7zip`: Replaced by `7zip`.
+* `vlc`: Replaced by `dragon-player` as video player from KDE.
+
+### Studio
+
+* `qprompt`: As a support for teleprompter script readers.
+
+---
+
+## Development
+
+| **Schedule**          | **Status** | **Date**         |
+| :-------------------- | :--------: | :--------------- |
 | Development           |   Done     | 11 July 2022     |
 | Unstable test         |   Done     | 15 July 2022     |
 | Stable test           |   Done     | 13 October 2022  |

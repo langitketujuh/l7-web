@@ -25,6 +25,38 @@ call_to_action:
 
 | **Jadwal**          | **Status** | **Tanggal**      |
 | :------------------ | :--------: | :--------------- |
+| Pengembangan        |   Proses  | 7 Desember 2022 |
+| Uji coba tak stabil |   Proses  | Januari 2023 |
+| Uji coba stabil     |   Proses  | Januari 2023 |
+| Upload berkas iso   |   Belum   | Juli 2023 |
+| **Rilis**           |   Belum   | Juli 2023 |
+
+### Improvisasi
+
+* `keepassxc`: Sebagai alternatif password manager browser.
+* `langitketujuh-install`: Menggunakan repositori dari Fastly CDN Global.
+* `linux-lts`: Menambah pilihan Kernel LTS ketika booting.
+* `plasma-desktop`: KDE Plasma desktop environment versi 5.27.
+* `qpwgraph`: Grafik manager untuk pipewire.
+* `xdeb`: Konversi paket binary debian ke xbps (pasang manual).
+* `l7-plasma-desktop`: Logo baru dan animasi splash screen.
+
+### Eliminasi
+
+* `alsa-jack`: Tidak memerlukan jack untuk edisi home.
+* `p7zip`: Digantikan dengan `7zip`.
+* `vlc`: Digantikan dengan `dragon-player` sebagai video player KDE.
+
+### Studio
+
+* `qprompt`: Sebagai pendukung teleprompter pembaca naskah.
+
+---
+
+## Pengembangan
+
+| **Jadwal**          | **Status** | **Tanggal**      |
+| :------------------ | :--------: | :--------------- |
 | Pengembangan        |   Selesai  | 11 Juli 2022     |
 | Uji coba tak stabil |   Selesai  | 15 Juli 2022     |
 | Uji coba stabil     |   Selesai  | 13 Oktober 2022  |
