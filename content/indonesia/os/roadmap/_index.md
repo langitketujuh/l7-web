@@ -38,6 +38,7 @@ call_to_action:
 * `linux-lts`: Menambah pilihan Kernel LTS ketika booting.
 * `plasma-desktop`: KDE Plasma desktop environment versi 5.27.
 * `qpwgraph`: Grafik manager untuk pipewire.
+* `sweeper`: Membersihkan jejak yang tidak diinginkan yang ditinggalkan pengguna di sistem.
 * `xdeb`: Konversi paket binary debian ke xbps (pasang manual).
 * `l7-plasma-desktop`: Logo baru dan animasi splash screen.
 
