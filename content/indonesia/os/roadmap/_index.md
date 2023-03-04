@@ -54,6 +54,7 @@ call_to_action:
 ### Studio
 
 * `qprompt`: Sebagai pendukung teleprompter pembaca naskah.
+* `obs`: Menambahkan plugin `obs-plugin-browser-bin` dan `droidcam-obs-plugin`.
 
 ---
 

@@ -55,6 +55,7 @@ call_to_action:
 ### Studio
 
 * `qprompt`: As a support for teleprompter script readers.
+* `obs`: Add plugins `obs-plugin-browser-bin` and `droidcam-obs-plugin`.
 
 ---
 
