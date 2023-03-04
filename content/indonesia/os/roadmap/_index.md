@@ -42,6 +42,7 @@ call_to_action:
 * `qpwgraph`: Grafik manager untuk pipewire.
 * `sweeper`: Membersihkan jejak yang tidak diinginkan yang ditinggalkan pengguna di sistem.
 * `xdeb`: Konversi paket binary debian ke xbps (pasang manual).
+* `l7-kwin`: Mengaktifkan efek desktop _Wobbly Windows_ dan _Magic Lamp_.
 * `l7-plasma-desktop`: Logo baru dan animasi splash screen.
 
 ### Eliminasi
