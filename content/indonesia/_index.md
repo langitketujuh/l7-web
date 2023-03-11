@@ -49,6 +49,10 @@ feature:
       icon : "fas fa-shield-alt"
       content: "Solusi enkripsi yang terintegrasi dengan plasma untuk menyimpan direktori berkas rahasia dengan berbagai format."
 
+    - name: "LTS Kernel"
+      icon : "fas fa-server"
+      content: "Opsi tambahan dengan kernel LTS yang stabil, pembaruan minor, perbaikan keamanan dan dukungan lebih lama."
+
     - name: "Komunitas"
       icon : "fas fa-user-friends"
       content: "Berbagi inspirasi, gotong royong dan bertujuan untuk mensosialisasikan perangkat lunak terbuka."

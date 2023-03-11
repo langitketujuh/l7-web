@@ -49,6 +49,10 @@ feature:
       icon : "fas fa-shield-alt"
       content: "Plasma-integrated encryption solution for storing secret file directories of various formats."
 
+    - name: "LTS Kernel"
+      icon : "fas fa-server"
+      content: "Additional options with a stable LTS kernel, minor updates, security fixes and longer support."
+
     - name: "Community"
       icon : "fas fa-user-friends"
       content: "Sharing inspiration, mutual cooperation and aiming to promote open software."
