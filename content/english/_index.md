@@ -15,7 +15,7 @@ feature:
   feature_item:
     - name: "KDE Plasma"
       icon : "fas fa-desktop"
-      content: "A lightweight, easy, and reliable desktop environment. Supported with KDE applications such as Elisa and KDE Connect."
+      content: "A lightweight, easy, and reliable desktop environment. Supported with KDE applications such as Elisa & KDE Connect."
 
     #- name: "Wayland"
       #icon: "fas fa-infinity"
@@ -39,7 +39,7 @@ feature:
 
     - name: "PipeWire"
       icon : "fas fa-play-circle"
-      content: "Multimedia playback with minimal latency and support for PulseAudio, JACK, ALSA and GStreamer based applications."
+      content: "Multimedia playback with minimal latency and support for PulseAudio, JACK, ALSA & GStreamer based apps."
 
     - name: "ZRAM"
       icon : "fas fa-memory"
@@ -55,7 +55,7 @@ feature:
 
     - name: "Community"
       icon : "fas fa-user-friends"
-      content: "Sharing inspiration, mutual cooperation and aiming to promote open software."
+      content: "Sharing inspiration, mutual cooperation and aiming to promote open source software."
 
     - name: "Design Tools"
       icon : "fas fa-pen-nib"

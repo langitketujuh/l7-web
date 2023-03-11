@@ -15,7 +15,7 @@ feature:
   feature_item:
     - name: "KDE Plasma"
       icon : "fas fa-desktop"
-      content: "Lingkungan destop yang ringan, mudah, dan handal. Didukung dengan aplikasi KDE seperti Elisa dan KDE Connect."
+      content: "Lingkungan destop yang ringan, mudah, dan handal. Didukung dengan aplikasi KDE seperti Elisa & KDE Connect."
 
     #- name: "Wayland"
       #icon: "fas fa-infinity"
@@ -39,7 +39,7 @@ feature:
 
     - name: "PipeWire"
       icon : "fas fa-play-circle"
-      content: "Pemutaran multimedia dengan minimal latensi dan dukungan aplikasi berbasis PulseAudio, JACK, ALSA dan GStreamer."
+      content: "Pemutaran multimedia dengan minimal latensi dan dukungan aplikasi berbasis PulseAudio, JACK, ALSA & GStreamer."
 
     - name: "ZRAM"
       icon : "fas fa-memory"
