@@ -44,12 +44,15 @@ call_to_action:
 * `xdeb`: Konversi paket binary debian ke xbps (pasang manual).
 * `l7-kwin`: Mengaktifkan efek desktop _Wobbly Windows_ dan _Magic Lamp_.
 * `l7-plasma-desktop`: Logo baru dan animasi splash screen.
++ `font-liberation-ttf font-liberation-narrow-ttf `: Fonts dengan metric yang sama seperti times, arial dan courier.
+* `dragon-player`: Video player dari KDE.
 
 ### Eliminasi
 
 * `alsa-jack`: Tidak memerlukan jack untuk edisi home.
 * `p7zip`: Digantikan dengan `7zip`.
 * `vlc`: Digantikan dengan `dragon-player` sebagai video player KDE.
+* `liberation-fonts-ttf`: Diganti dengan `font-liberation-ttf`.
 
 ### Studio
 
