@@ -45,8 +45,11 @@ call_to_action:
 * `xdeb`: Converter debian binary packages to xbps (install manually).
 * `l7-kwin`: Enable desktop effect _Wobbly Windows_ and _Magic Lamp_.
 * `l7-plasma-desktop`: New logo and animation for splash screen.
-+ `font-liberation-ttf font-liberation-narrow-ttf `: Fonts with same metrics as times, arial and courier.
 * `dragon-player`: Video player from KDE.
++ `font-liberation-ttf font-liberation-narrow-ttf `: Fonts with same metrics as times, arial and courier.
+* `font-adobe-source-code-pro`: Monospaced font family for user interface and coding environments.
+* `font-adobe-source-sans-pro-v2`: Real SourceSansPro fonts.
+* `font-adobe-source-serif-pro`: Adobe's sans serif font family.
 
 ### Elimination
 

@@ -44,8 +44,11 @@ call_to_action:
 * `xdeb`: Konversi paket binary debian ke xbps (pasang manual).
 * `l7-kwin`: Mengaktifkan efek desktop _Wobbly Windows_ dan _Magic Lamp_.
 * `l7-plasma-desktop`: Logo baru dan animasi splash screen.
-+ `font-liberation-ttf font-liberation-narrow-ttf `: Fonts dengan metric yang sama seperti times, arial dan courier.
 * `dragon-player`: Video player dari KDE.
++ `font-liberation-ttf font-liberation-narrow-ttf `: Fonts dengan metric yang sama seperti times, arial dan courier.
+* `font-adobe-source-code-pro`: Monospaced font family untuk antarmuka pengguna dan koding.
+* `font-adobe-source-sans-pro-v2`: Real SourceSansPro fonts.
+* `font-adobe-source-serif-pro`: Adobe sans serif font family.
 
 ### Eliminasi
 
