@@ -104,6 +104,7 @@ We say many thanks to **the Great People** and _Friends of LangitKetujuh_ for th
 - Eka Putra.
 - Eko Purwanto.
 - Eman Sulaeman.
+- Enggar Saputri.
 - Ermin Dwi Alita.
 - Esya Firman F.
 - Fahmi8902.
