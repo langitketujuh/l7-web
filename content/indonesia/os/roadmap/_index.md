@@ -28,12 +28,11 @@ call_to_action:
 | Pengembangan        |   Proses   | 7 Desember 2022  |
 | Uji coba tak stabil |   Proses   | 1 Januari 2023   |
 | Uji coba stabil     |   Proses   | 1 Februari 2023  |
-| Upload berkas iso   |   Belum    | 19 Maret 2023    |
-| **Rilis**           |   Belum    | 21 Maret 2023    |
+| Upload berkas iso   |   Belum    | 24 Maret 2023    |
+| **Rilis**           |   Belum    | 25 Maret 2023    |
 
 ### Improvisasi
 
-* `keepassxc`: Sebagai alternatif password manager browser.
 * `kfind`: Pencari lokasi berkas dan direktori.
 * `krename`: Pengganti nama secara batch untuk KDE.
 * `langitketujuh-install`: Menggunakan repositori dari Fastly CDN Global.

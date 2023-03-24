@@ -28,13 +28,11 @@ call_to_action:
 | Development         |  Process   | 7 December 2023  |
 | Unstable test       |  Process   | 1 January 2023   |
 | Stable test         |  Process   | 1 February 2023  |
-| Upload iso file     |  Not yet   | 19 March 2023    |
-| **Release**         |  Not yet   | 21 March 2023    |
-
+| Upload iso file     |  Not yet   | 24 March 2023    |
+| **Release**         |  Not yet   | 25 March 2023    |
 
 ### Improvisation
 
-* `keepassxc`: As alternative password manager for browser.
 * `kfind`: Find files and folders.
 * `krename`: Powerful batch renamer for KDE.
 * `langitketujuh-install`: Using the repository from the Fastly CDN Global.
