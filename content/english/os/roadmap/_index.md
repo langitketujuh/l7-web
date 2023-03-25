@@ -33,30 +33,30 @@ call_to_action:
 
 ### Improvisation
 
+* `dragon-player`: Video player from KDE.
+* `font-adobe-source-code-pro`: Monospaced font family for user interface and coding environments.
+* `font-adobe-source-sans-pro-v2`: Real SourceSansPro fonts.
+* `font-adobe-source-serif-pro`: Adobe's sans serif font family.
 * `kfind`: Find files and folders.
 * `krename`: Powerful batch renamer for KDE.
+* `l7-kwin`: Enable desktop effect _Wobbly Windows_ and _Magic Lamp_.
+* `l7-plasma-desktop`: New logo and animation for splash screen.
 * `langitketujuh-install`: Using the repository from the Fastly CDN Global.
 * `linux-lts`: Add optional Kernel LTS when booting.
 * `plasma-desktop`: KDE Plasma desktop environment 5.27.
 * `qpwgraph`: Graph manager for pipewire.
 * `sweeper`: Cleans unwanted traces that users leave on the system..
 * `xdeb`: Converter debian binary packages to xbps (install manually).
-* `l7-kwin`: Enable desktop effect _Wobbly Windows_ and _Magic Lamp_.
-* `l7-plasma-desktop`: New logo and animation for splash screen.
-* `dragon-player`: Video player from KDE.
 + `font-liberation-ttf font-liberation-narrow-ttf `: Fonts with same metrics as times, arial and courier.
-* `font-adobe-source-code-pro`: Monospaced font family for user interface and coding environments.
-* `font-adobe-source-sans-pro-v2`: Real SourceSansPro fonts.
-* `font-adobe-source-serif-pro`: Adobe's sans serif font family.
 
 ### Elimination
 
 * `alsa-jack`: Unnecessary jack for home edition.
+* `digimend-kernel-drivers v4l2loopback`: Kernel modules that require `dkms`.
+* `gvfs*`: No needed in KDE.
+* `liberation-fonts-ttf`: Replaced by `font-liberation-ttf`.
 * `p7zip`: Replaced by `7zip`.
 * `vlc`: Replaced by `dragon-player` as video player from KDE.
-* `liberation-fonts-ttf`: Replaced by `font-liberation-ttf`.
-* `gvfs*`: No needed in KDE.
-* `digimend-kernel-drivers v4l2loopback`: Kernel modules that require `dkms`.
 
 ### Studio
 

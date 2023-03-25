@@ -33,30 +33,30 @@ call_to_action:
 
 ### Improvisasi
 
+* `dragon-player`: Video player dari KDE.
+* `font-adobe-source-code-pro`: Monospaced font family untuk antarmuka pengguna dan koding.
+* `font-adobe-source-sans-pro-v2`: Real SourceSansPro fonts.
+* `font-adobe-source-serif-pro`: Adobe sans serif font family.
 * `kfind`: Pencari lokasi berkas dan direktori.
 * `krename`: Pengganti nama secara batch untuk KDE.
+* `l7-kwin`: Mengaktifkan efek desktop _Wobbly Windows_ dan _Magic Lamp_.
+* `l7-plasma-desktop`: Logo baru dan animasi splash screen.
 * `langitketujuh-install`: Menggunakan repositori dari Fastly CDN Global.
 * `linux-lts`: Menambah pilihan Kernel LTS ketika booting.
 * `plasma-desktop`: KDE Plasma desktop environment versi 5.27.
 * `qpwgraph`: Grafik manager untuk pipewire.
 * `sweeper`: Membersihkan jejak yang tidak diinginkan yang ditinggalkan pengguna di sistem.
 * `xdeb`: Konversi paket binary debian ke xbps (pasang manual).
-* `l7-kwin`: Mengaktifkan efek desktop _Wobbly Windows_ dan _Magic Lamp_.
-* `l7-plasma-desktop`: Logo baru dan animasi splash screen.
-* `dragon-player`: Video player dari KDE.
 + `font-liberation-ttf font-liberation-narrow-ttf `: Fonts dengan metric yang sama seperti times, arial dan courier.
-* `font-adobe-source-code-pro`: Monospaced font family untuk antarmuka pengguna dan koding.
-* `font-adobe-source-sans-pro-v2`: Real SourceSansPro fonts.
-* `font-adobe-source-serif-pro`: Adobe sans serif font family.
 
 ### Eliminasi
 
 * `alsa-jack`: Tidak memerlukan jack untuk edisi home.
+* `digimend-kernel-drivers v4l2loopback`: Kernel modul yang memerlukan `dkms`.
+* `gvfs*`: Tidak diperlukan di KDE.
+* `liberation-fonts-ttf`: Diganti dengan `font-liberation-ttf`.
 * `p7zip`: Digantikan dengan `7zip`.
 * `vlc`: Digantikan dengan `dragon-player` sebagai video player KDE.
-* `liberation-fonts-ttf`: Diganti dengan `font-liberation-ttf`.
-* `gvfs*`: Tidak diperlukan di KDE.
-* `digimend-kernel-drivers v4l2loopback`: Kernel modul yang memerlukan `dkms`.
 
 ### Studio
 
