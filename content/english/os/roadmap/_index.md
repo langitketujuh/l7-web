@@ -55,11 +55,12 @@ call_to_action:
 * `p7zip`: Replaced by `7zip`.
 * `vlc`: Replaced by `dragon-player` as video player from KDE.
 * `liberation-fonts-ttf`: Replaced by `font-liberation-ttf`.
+* `gvfs*`: No needed in KDE.
+* `digimend-kernel-drivers v4l2loopback`: Kernel modules that require `dkms`.
 
 ### Studio
 
 * `qprompt`: As a support for teleprompter script readers.
-* `obs`: Add plugins `obs-plugin-browser-bin` and `droidcam-obs-plugin`.
 
 ---
 

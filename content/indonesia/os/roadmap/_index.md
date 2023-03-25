@@ -55,11 +55,12 @@ call_to_action:
 * `p7zip`: Digantikan dengan `7zip`.
 * `vlc`: Digantikan dengan `dragon-player` sebagai video player KDE.
 * `liberation-fonts-ttf`: Diganti dengan `font-liberation-ttf`.
+* `gvfs*`: Tidak diperlukan di KDE.
+* `digimend-kernel-drivers v4l2loopback`: Kernel modul yang memerlukan `dkms`.
 
 ### Studio
 
 * `qprompt`: Sebagai pendukung teleprompter pembaca naskah.
-* `obs`: Menambahkan plugin `obs-plugin-browser-bin` dan `droidcam-obs-plugin`.
 
 ---
 
