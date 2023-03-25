@@ -37,6 +37,7 @@ call_to_action:
 * `font-adobe-source-code-pro`: Monospaced font family untuk antarmuka pengguna dan koding.
 * `font-adobe-source-sans-pro-v2`: Real SourceSansPro fonts.
 * `font-adobe-source-serif-pro`: Adobe sans serif font family.
+* `font-liberation-ttf font-liberation-narrow-ttf`: Fonts dengan metric yang sama seperti times, arial dan courier.
 * `kfind`: Pencari lokasi berkas dan direktori.
 * `krename`: Pengganti nama secara batch untuk KDE.
 * `l7-kwin`: Mengaktifkan efek desktop _Wobbly Windows_ dan _Magic Lamp_.
@@ -47,7 +48,6 @@ call_to_action:
 * `qpwgraph`: Grafik manager untuk pipewire.
 * `sweeper`: Membersihkan jejak yang tidak diinginkan yang ditinggalkan pengguna di sistem.
 * `xdeb`: Konversi paket binary debian ke xbps (pasang manual).
-+ `font-liberation-ttf font-liberation-narrow-ttf `: Fonts dengan metric yang sama seperti times, arial dan courier.
 
 ### Eliminasi
 

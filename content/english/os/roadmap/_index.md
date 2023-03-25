@@ -37,6 +37,7 @@ call_to_action:
 * `font-adobe-source-code-pro`: Monospaced font family for user interface and coding environments.
 * `font-adobe-source-sans-pro-v2`: Real SourceSansPro fonts.
 * `font-adobe-source-serif-pro`: Adobe's sans serif font family.
+* `font-liberation-ttf font-liberation-narrow-ttf`: Fonts with same metrics as times, arial and courier.
 * `kfind`: Find files and folders.
 * `krename`: Powerful batch renamer for KDE.
 * `l7-kwin`: Enable desktop effect _Wobbly Windows_ and _Magic Lamp_.
@@ -47,7 +48,6 @@ call_to_action:
 * `qpwgraph`: Graph manager for pipewire.
 * `sweeper`: Cleans unwanted traces that users leave on the system..
 * `xdeb`: Converter debian binary packages to xbps (install manually).
-+ `font-liberation-ttf font-liberation-narrow-ttf `: Fonts with same metrics as times, arial and courier.
 
 ### Elimination
 
