@@ -41,8 +41,14 @@ AUTHOR WEBSITE: https://gethugothemes.com
 	{{ partial "script.html" . }}
 	{{ end }}
 
+	{{ if hugo.IsProduction }}
+	{{ partialCached "livechat.html" . }}
+	{{ partialCached "back-to-top.html" . }}
+	{{ else }}
 	{{ partial "livechat.html" . }}
 	{{ partial "back-to-top.html" . }}
+	{{ end }}
+
 </body>
 
 </html>
