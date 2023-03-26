@@ -1,9 +1,9 @@
 # Default parameters
-logo = "images/logo.webp"
-logo_width = "70px"
+logo = "images/icon.webp"
+logo_width = "60px"
 description = "GNU/Linux distribution for designers, illustrators, animators, publishers, photographers, font creators and game designers. Using glibc & musl libc, rolling releases, runit init and KDE desktop environments."
 author = "LangitKetujuh"
-image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
+image = "images/icon.webp" # this image will be used as fallback if a page has no image of its own
 
 # Contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
