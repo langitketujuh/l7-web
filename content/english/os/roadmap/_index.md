@@ -28,7 +28,7 @@ call_to_action:
 | Development         |  Done      | 7 December 2023  |
 | Unstable test       |  Done      | 1 January 2023   |
 | Stable test         |  Done      | 1 February 2023  |
-| Upload iso file     |  Done      | 27 March 2023    |
+| Upload iso file     |  Done      | 24 March 2023    |
 | **Release**         |  Done      | 28 March 2023    |
 
 ### Improvisation
