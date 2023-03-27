@@ -41,12 +41,17 @@ button = "I Accept"
 [[social]]
 title = "email"
 icon = "fas fa-envelope"
-link = "mailto:langitketujuh.id@pm.me"
+link = "mailto:langitketujuh.id@proton.me"
 
 [[social]]
 title = "gitlab"
 icon = "fab fa-gitlab"
 link = "https://gitlab.com/langitketujuh"
+
+[[social]]
+title = "gitlab"
+icon = "fab fa-github"
+link = "https://github.com/langitketujuh"
 
 [[social]]
 title = "facebook"
