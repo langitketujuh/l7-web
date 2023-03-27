@@ -29,6 +29,9 @@ other = "Come on, join our community too."
 [others]
 other = "Others.."
 
+[recommended]
+other = "Recommended"
+
 ### payment
 
 [payment-total]

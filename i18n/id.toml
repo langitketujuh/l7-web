@@ -29,6 +29,9 @@ other = "Yuk, gabung juga dengan komunitas kami."
 [others]
 other = "Lainnya.."
 
+[recommended]
+other = "Disarankan"
+
 ### payment
 
 [payment-total]
