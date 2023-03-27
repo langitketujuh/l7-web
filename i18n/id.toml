@@ -40,6 +40,9 @@ other = "IDR 57.000 - Tanpa Dukungan"
 [payment-with-support]
 other = "IDR 107.000 - Dengan Dukungan Instalasi"
 
+[payment-switch-lang]
+other = "Ganti ke Dollar? ganti bahasa ke EN dahulu"
+
 [payment-link]
 other = "Tautan Pembayaran"
 

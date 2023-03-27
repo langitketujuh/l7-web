@@ -41,6 +41,9 @@ other = "USD $8 - Without Support"
 other = "Installation Support (Currently not available)"
 #other = "USD $13 - With Installation Support (only ID)"
 
+[payment-switch-lang]
+other = "Switch to Rupiah (Rp)? change the language to ID first"
+
 [payment-link]
 other = "Payment Link"
 
