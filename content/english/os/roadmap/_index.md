@@ -21,15 +21,15 @@ call_to_action:
 
 ---
 
-## Development
+## 20230325 (stable)
 
 | **Schedule**        | **Status** | **Date**         |
 | :------------------ | :--------: | :--------------- |
-| Development         |  Process   | 7 December 2023  |
-| Unstable test       |  Process   | 1 January 2023   |
-| Stable test         |  Process   | 1 February 2023  |
-| Upload iso file     |  Not yet   | 24 March 2023    |
-| **Release**         |  Not yet   | 25 March 2023    |
+| Development         |  Done      | 7 December 2023  |
+| Unstable test       |  Done      | 1 January 2023   |
+| Stable test         |  Done      | 1 February 2023  |
+| Upload iso file     |  Done      | 27 March 2023    |
+| **Release**         |  Done      | 28 March 2023    |
 
 ### Improvisation
 

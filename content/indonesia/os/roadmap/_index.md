@@ -21,15 +21,15 @@ call_to_action:
 
 ---
 
-## Pengembangan
+## 20230325 (stable)
 
 | **Jadwal**          | **Status** | **Tanggal**      |
 | :------------------ | :--------: | :--------------- |
-| Pengembangan        |   Proses   | 7 Desember 2022  |
-| Uji coba tak stabil |   Proses   | 1 Januari 2023   |
-| Uji coba stabil     |   Proses   | 1 Februari 2023  |
-| Upload berkas iso   |   Belum    | 24 Maret 2023    |
-| **Rilis**           |   Belum    | 25 Maret 2023    |
+| Pengembangan        |   Selesai  | 7 Desember 2022  |
+| Uji coba tak stabil |   Selesai  | 1 Januari 2023   |
+| Uji coba stabil     |   Selesai  | 1 Februari 2023  |
+| Upload berkas iso   |   Selesai  | 24 Maret 2023    |
+| **Rilis**           |   Selesai  | 28 Maret 2023    |
 
 ### Improvisasi
 
