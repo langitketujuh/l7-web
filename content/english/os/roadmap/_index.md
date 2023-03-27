@@ -37,6 +37,8 @@ call_to_action:
 * `font-adobe-source-code-pro`: Monospaced font family for user interface and coding environments.
 * `font-adobe-source-sans-pro-v2`: Real SourceSansPro fonts.
 * `font-adobe-source-serif-pro`: Adobe's sans serif font family.
+* `font-crosextra-caladea-ttf`: Compatible with Cambria font.
+* `font-crosextra-carlito-ttf`: Compatible with Calibri font.
 * `font-liberation-ttf font-liberation-narrow-ttf`: Fonts with same metrics as times, arial and courier.
 * `kfind`: Find files and folders.
 * `krename`: Powerful batch renamer for KDE.

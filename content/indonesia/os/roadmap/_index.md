@@ -37,6 +37,8 @@ call_to_action:
 * `font-adobe-source-code-pro`: Monospaced font family untuk antarmuka pengguna dan koding.
 * `font-adobe-source-sans-pro-v2`: Real SourceSansPro fonts.
 * `font-adobe-source-serif-pro`: Adobe sans serif font family.
+* `font-crosextra-caladea-ttf`: Kompatibel dengan Cambria font.
+* `font-crosextra-carlito-ttf`: Kompatibel dengan Calibri font.
 * `font-liberation-ttf font-liberation-narrow-ttf`: Fonts dengan metric yang sama seperti times, arial dan courier.
 * `kfind`: Pencari lokasi berkas dan direktori.
 * `krename`: Pengganti nama secara batch untuk KDE.
