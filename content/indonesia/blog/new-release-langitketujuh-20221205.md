@@ -5,7 +5,7 @@ image: images/blog/new-release-langitketujuh-20221205.jpg
 opengraph:
   image: images/blog/new-release-langitketujuh-20221205.jpg
 # post type (regular/featured)
-type: "featured"
+type: "regular"
 description: ""
 author: "LangitKetujuh"
 categories:
