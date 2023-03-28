@@ -25,13 +25,21 @@ LangitKetujuh pada edisi ini menggunakan dobel [linux kernel](https://www.kernel
 
 Saat live usb Anda dapat memilih kernel yang ingin digunakan, kernel terbaru atau menggunakan kernel LTS. Setelah dipasangnya LangitKetujuh OS ke HDD/SSD maka kernel linux LTS akan terpasang juga.
 
+## Wallpaper & Tema
+
+Tampilan untuk gambar latar belakang kini lebih futuristik, elegan dan minimalis. Bahkan setiap berkas wallpapernya hanya berukuran sekitar 19kb. Kami juga mempertimbangkan untuk menggunakan wallpaper dengan style futuristik/tech yang seperti ini untuk rilis selanjutnya.
+
+{{< figure src=/images/blog/mockup-langitketujuh-os-20230325.webp alt="Wallpaper LangitKetujuh">}}
+
 ## Aplikasi KDE
 
 Beberapa aplikasi KDE juga ditambahkan, diantaranya:
 * `sweeper` untuk membersihkan cache dan berkas sampah.
 * `dragon-player` video player menggantikan `vlc`.
-* `krename` mengganti nama berkas secara batch (bersamaan).
+* `krename` mengganti nama berkas secara bersamaan (batch).
 * `kfind` untuk mencari letak suatu berkas atau direktori.
+
+{{< figure src=/images/blog/kde-apps-20230325.webp alt="KDE Apps LangitKetujuh">}}
 
 ## Fonts
 
@@ -52,25 +60,35 @@ LangitKetujuh mencoba untuk menghindari kernel modul yang menggunakan [DKMS](htt
 
 Panduan driver pen tablet `digimend-kernel-drivers` dapat merujuk ke [halaman ini](https://panduan.langitketujuh.id/konfigurasi/driver/pen-tablet/digimend.html).
 
-## Wallpaper & Tema
-
-Tampilan untuk gambar latar belakang kini lebih futuristik, elegan dan minimalis. Bahkan setiap berkas wallpapernya hanya berukuran sekitar 19kb. Kami juga mempertimbangkan untuk menggunakan wallpaper dengan style futuristik/tech yang seperti ini untuk rilis selanjutnya.
-
 ## Qpwgraph
 
 Berguna untuk mengatur grafik manajemen suara pipewire. Ini berguna untuk mengatur input dan output suara di mesin pengguna. Sangat berguna untuk melakukan perekaman desktop atau saat sesi podcast.
 
+{{< figure src=/images/blog/qpwgraph-langitketujuh-id-1.webp alt="Qpwgraph LangitKetujuh">}}
+
 ## QPrompt
 
-Merupakan perangkat lunak bebas yang digunakan untuk teleprompter. Biasanya digunakan untuk pembaca naskah. Tentu berguna juga untuk keperluan konten kreator. Kami memasukkannya khusus ke edisi studio.
+Merupakan perangkat lunak bebas yang digunakan untuk teleprompter. Biasanya digunakan untuk pembaca naskah. Tentu berguna juga untuk keperluan konten kreator. Kami memasukkannya khusus ke edisi studio, sedangkan edisi home memasangnya manual dengan `get qprompt`.
+
+{{< figure src=/images/blog/qprompt-langitketujuh-id-1.webp alt="QPrompt LangitKetujuh">}}
 
 ## Desktop Effect
 
 LangitKetujuh KDE mengaktifkan desktop efek `Magic Lamp` dan `Wobbly Windows` untuk memberikan efek animasi saat minimize atau menutup jendela aplikasi.
 
+* Magic Lamp
+
+{{< figure src=/images/blog/desktop-effect-magic-lamp-langitketujuh-id.webp alt="Magic Lamp LangitKetujuh">}}
+
+* Wobbly
+
+{{< figure src=/images/blog/desktop-effect-wobbly-langitketujuh-id.webp alt="Wobbly LangitKetujuh">}}
+
 ## Installer
 
 Pemasang diska ada panduan instan dibagian pemartisian. Sebab pada umumnya pengguna awam masih bingung tentang pemartisian pada sistem unix-like/linux. Harapannya menjadi lebih paham dengan 3 mountpoint penting di sistem operasi ini, seperti `/boot/efi`, `/`, dan `/home`.
+
+{{< figure src=/images/blog/install-filesystem-type-mount-point.webp alt="Type Mount Point LangitKetujuh">}}
 
 ## Terima kasih
 

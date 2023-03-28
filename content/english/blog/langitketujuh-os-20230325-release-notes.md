@@ -25,6 +25,12 @@ LangitKetujuh in this edition uses double [linux kernel](https://www.kernel.org/
 
 On live usb you can select the kernel you want to use, the latest kernel or use the LTS kernel. After the LangitKetujuh OS is installed on the HDD/SSD, the Linux LTS kernel will also be installed.
 
+## Wallpaper & Theme
+
+The display for background images is now more futuristic, elegant and minimalist. In fact, each wallpaper file is only about 19kb in size. We are also considering using a futuristic/tech styled wallpaper like this for future releases.
+
+{{< figure src=/images/blog/mockup-langitketujuh-os-20230325.webp alt="Wallpaper LangitKetujuh">}}
+
 ## KDE Apps
 
 Several KDE applications were also added, including:
@@ -32,6 +38,8 @@ Several KDE applications were also added, including:
 * `dragon-player` video player replaces `vlc`.
 * `krename` batch renames files.
 * `kfind` to locate a file or directory.
+
+{{< figure src=/images/blog/kde-apps-20230325.webp alt="KDE Apps LangitKetujuh">}}
 
 ## Fonts
 
@@ -52,27 +60,35 @@ LangitKetujuh tries to avoid kernel modules that use [DKMS](https://github.com/d
 
 Pen tablet driver guide `digimend-kernel-drivers` can refer to [this page](https://panduan.langitketujuh.id/konfigurasi/driver/pen-tablet/digimend.html).
 
-## Wallpaper & Theme
-
-The display for background images is now more futuristic, elegant and minimalist. In fact, each wallpaper file is only about 19kb in size. We are also considering using a futuristic/tech styled wallpaper like this for future releases.
-
 ## Qpwgraph
 
 Useful for setting up pipewire sound management graph. This is useful for setting the sound input and output on the user's computer. Very useful for doing desktop recordings or during podcast sessions.
 
+{{< figure src=/images/blog/qpwgraph-langitketujuh-id-1.webp alt="Qpwgraph LangitKetujuh">}}
+
 ## QPrompt
 
-Is free software used for teleprompter. Usually used for script readers. Of course it is also useful for creator content purposes. We included it specifically in the studio edition.
+Is free software used for teleprompter. Usually used for script readers. Of course it is also useful for creator content purposes. We included it specifically in the studio edition, while the home edition installs it manually with `get qprompt`.
+
+{{< figure src=/images/blog/qprompt-langitketujuh-id-1.webp alt="QPrompt LangitKetujuh">}}
 
 ## Desktop Effect
 
 LangitKetujuh KDE enables desktop effects `Magic Lamp` and `Wobbly Windows` to provide animated effects when minimizing or closing application windows.
 
+* Magic Lamp
+
+{{< figure src=/images/blog/desktop-effect-magic-lamp-langitketujuh-id.webp alt="Magic Lamp LangitKetujuh">}}
+
+* Wobbly
+
+{{< figure src=/images/blog/desktop-effect-wobbly-langitketujuh-id.webp alt="Wobbly LangitKetujuh">}}
+
 ## Installer
 
-Pemasang diska ada panduan instan dibagian pemartisian. Sebab pada umumnya pengguna awam masih bingung tentang pemartisian pada sistem unix-like/linux. Harapannya menjadi lebih paham dengan 3 mountpoint penting di sistem operasi ini, seperti `/boot/efi`, `/`, dan `/home`.
-
 The disk installer has an instant guide in the partitioning section. Because in general, ordinary users are still confused about partitioning on unix-like/linux systems. The hope is to become more familiar with the 3 important mountpoints in this operating system, such as `/boot/efi`, `/`, and `/home`.
+
+{{< figure src=/images/blog/install-filesystem-type-mount-point.webp alt="Type Mount Point LangitKetujuh">}}
 
 ## Thank you so much
 
