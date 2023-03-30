@@ -29,7 +29,7 @@ Pengguna dapat melihat perbedaan setiap edisi di [halaman panduan](https://pandu
 
 Perubahan di halaman panduan beberapa tautan mungkin akan berubah, sebab 70% konten telah dirubah alamat tautannya agar lebih terstruktur lagi. Beberapa tambahan lain yaitu menambahkan daftar perangkat lunak multimedia untuk dijelaskan semudah mungkin bagi pengguna awam. Kami tidak hanya membuat sistem operasi saja, tetapi mengenalkan juga macam-macam perangkat lunak bebas sebagai solusi untuk penunjang kebutuhan multimedia dan tetap produktif.
 
-![Dokumentasi-offline LangitKetujuh](/images/blog/aplikasi-panduan-offline-langitketujuh)
+![Dokumentasi-offline LangitKetujuh](/images/blog/aplikasi-panduan-offline-langitketujuh.webp)
 
 ### Perangkat lunak baru
 
@@ -68,9 +68,9 @@ Kami telah memaketkan `digimend-kernel-drivers` agar mendukung perangkat keras p
 
 Kami berusaha membuat gambar wallpaper baru disetiap rilisnya dan menggunakan svg wallpaper (bukan gambar jpg/png) agar lebih jernih dan ukurannya lebih ringan. Tentunya dibuat dengan [Inkscape](https://panduan.langitketujuh.id/aplikasi/grafis/inkscape). Tetapi ada batasan tertentu dalam pembuatan wallpaper itu sendiri, tidak boleh menggunakan filter (blur, glow, dll), clip, path effect. Hal ini menjadi tantangan tersendiri bagi pengembang.
 
-![Wallpaper LangitKetujuh](/images/blog/wallpaper-langitketujuh)
+![Wallpaper LangitKetujuh](/images/blog/wallpaper-langitketujuh.webp)
 
-![Desktop LangitKetujuh](/images/blog/langitketujuh-preview)
+![Desktop LangitKetujuh](/images/blog/langitketujuh-preview.webp)
 
 ### Pengaturan tambahan
 
@@ -84,7 +84,7 @@ Pengaturan tambahan Inkscape:
 - Autosave dengan durasi setiap 2 menit.
 - Profil tampilan menggunakan `sRGB-elle-V2-srgbtrc` dan proofing CMYK menggunakan `Chemical Proof` krita, sehingga kompatibel dengan profil warna yang ada di krita.
 
-![Inkscape LangitKetujuh](/images/blog/inkscape-langitketujuh-id-1)
+![Inkscape LangitKetujuh](/images/blog/inkscape-langitketujuh-id-1.webp)
 
 Pengaturan tambahan Blender 3D:
 - Menggunakan tema `Breeze Dark`.
@@ -93,15 +93,14 @@ Pengaturan tambahan Blender 3D:
 - Pada bagian navigasi, mengaktifkan `Auto Depth` dan `Zoom to Mouse Position`.
 - Pada bagian viewport, menggunakan `Simple Axis`.
 
-![Blender3D LangitKetujuh](/images/blog/blender-3d-langitketujuh-id-2)
-
+![Blender3D LangitKetujuh](/images/blog/blender-3d-langitketujuh-id-2.webp)
 Pengaturan tambahan OpenToonz:
 - Menggunakan tema `Dark`.
 - Font yang digunakan `Noto Sans [MONO]`.
 - Tampilan area kerja fullscreen.
 - Path ffmpeg untuk rendering animasi `/usr/bin`.
 
-![OpenToonz LangitKetujuh](/images/blog/opentoonz-langitketujuh-id)
+![OpenToonz LangitKetujuh](/images/blog/opentoonz-langitketujuh-id.webp)
 
 Pengaturan tambahan GIMP:
 - Menggunakan tema sistem, yaitu `breeze-dark`.
@@ -111,13 +110,13 @@ Pengaturan tambahan GIMP:
 - Sisi sebelah kanan digunakan hanya panel layer saja, agar manajemen layer lebih leluasa.
 - Sisi sebelah kiri digunakan untuk panel properti dan warna.
 
-![GIMP LangitKetujuh](/images/blog/gimp-langitketujuh-id-2)
+![GIMP LangitKetujuh](/images/blog/gimp-langitketujuh-id-2.webp)
 
 Pengaturan tambahan Godot:
 - Menggunakan tema gelap  yang serupa dengan `Breeze`.
 - Ukuran font utama `12px` dan font koding `13px`.
 
-![Godot LangitKetujuh](/images/blog/godot-langitketujuh-id-1)
+![Godot LangitKetujuh](/images/blog/godot-langitketujuh-id-1.webp)
 
 Rincian detail dependensi yang terpasang ada di halaman [roadmap](os/roadmap).
 

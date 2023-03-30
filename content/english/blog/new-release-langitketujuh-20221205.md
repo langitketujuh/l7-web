@@ -27,8 +27,8 @@ The LangitKetujuh installer with the `langitketujuh-install` uses the terminal i
 
 However, in this release it is quite easy for users to provide related device information. At the same time automatically selecting the `local` installation as the source of the file (previously there was a `Local/Network` option).
 
-![Installer LangitKetujuh](/images/blog/installer-langitketujuh-id-1)
-![Installer LangitKetujuh](/images/blog/installer-langitketujuh-id-2)
+![Installer LangitKetujuh](/images/blog/installer-langitketujuh-id-1.webp)
+![Installer LangitKetujuh](/images/blog/installer-langitketujuh-id-2.webp)
 
 ## New layout theme
 
@@ -36,13 +36,13 @@ LangitKetujuh has 3 different types of layout themes. Namely the LangitKetujuh a
 
 Users can replace it by going to system settings > Appearance > Global Theme > Select the theme and layout as desired. Also activate **Desktop and Window layout**.
 
-![Global Theme LangitKetujuh](/images/blog/global-theme-langitketujuh-id)
+![Global Theme LangitKetujuh](/images/blog/global-theme-langitketujuh-id.webp)
 
 ## Wallpaper display
 
 The basic idea of the new LangitKetujuh wallpaper is glass and streaks of dazzling blue light with black night behind it. Even though it looks simple, it takes almost half a day to make the wallpaper. Everything is 100% made with `inkscape` vector-based graphics processing.
 
-![Wallpaper LangitKetujuh](/images/blog/wallpaper-20221205)
+![Wallpaper LangitKetujuh](/images/blog/wallpaper-20221205.webp)
 
 ## Webapp manager
 
@@ -50,13 +50,13 @@ One of the new applications that we have added is the `webapp-manager` where use
 
 For details, users can refer to the [webapp manager guide page](https://panduan.langitketujuh.id/aplikasi/produktifitas/webapp-manager).
 
-![Webapp Manager LangitKetujuh](/images/blog/webapp-manager-langitketujuh-id)
+![Webapp Manager LangitKetujuh](/images/blog/webapp-manager-langitketujuh-id.webp)
 
 ## QOwnNotes markdown notes
 
 Useful for creating notes that use markdown formatting. Of course, the markdown format can also be exported to pdf with the same results as in the browser.
 
-![QOwnNotes LangitKetujuh](/images/blog/qownnotes-langitketujuh-id-1)
+![QOwnNotes LangitKetujuh](/images/blog/qownnotes-langitketujuh-id-1.webp)
 
 ## Plasma widget
 
@@ -64,14 +64,14 @@ Added some other new widget in the repository like `plasma-clearclock` as a beau
 
 The plasma widget package requires the user to install it manually with `get`.
 
-![Clearclock LangitKetujuh](/images/blog/clearclock-langitketujuh-id)
-![Translator LangitKetujuh](/images/blog/translator-langitketujuh-id)
+![Clearclock LangitKetujuh](/images/blog/clearclock-langitketujuh-id.webp)
+![Translator LangitKetujuh](/images/blog/translator-langitketujuh-id.webp)
 
 ## Fastfetch system information
 
 The system information viewer doesn't always use `neofetch`, `screenfetch`, `pfetch`, etc. LangitKetujuh has `fastfetch` installed which is lighter and faster. But if you want to get even more detailed, users can use `inxi`.
 
-![Fastfetch LangitKetujuh](/images/blog/fastfetch-langitketujuh-id)
+![Fastfetch LangitKetujuh](/images/blog/fastfetch-langitketujuh-id.webp)
 
 ## Runit service management with rsv
 

@@ -53,7 +53,7 @@ Lalu ketik kata sandi pengguna.
 
 Cara memperbarui sistemnya seperti biasa, yaitu dengan mengklik "Update Sistem" di menu kemudian ketik kata sandi pengguna.
 
-![Update dan Upgrade Sistem LangitKetujuh](/images/blog/update-upgrade-system-langitketujuh-os)
+![Update dan Upgrade Sistem LangitKetujuh](/images/blog/update-upgrade-system-langitketujuh-os.webp)
 
 Tunggu sampai proses selesai, tergantung seberapa cepat internetnya. Jika ada pembaruan kernel maka sebaiknya direstart. Selesai. _Barakallahu fiikum._
 

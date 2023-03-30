@@ -39,7 +39,7 @@ Several KDE applications were also added, including:
 * `krename` batch renames files.
 * `kfind` to locate a file or directory.
 
-![KDE Apps LangitKetujuh](/images/blog/kde-apps-20230325)
+![KDE Apps LangitKetujuh](/images/blog/kde-apps-20230325.webp)
 
 ## Fonts
 
@@ -64,13 +64,13 @@ Pen tablet driver guide `digimend-kernel-drivers` can refer to [this page](https
 
 Useful for setting up pipewire sound management graph. This is useful for setting the sound input and output on the user's computer. Very useful for doing desktop recordings or during podcast sessions.
 
-![Qpwgraph LangitKetujuh](/images/blog/qpwgraph-langitketujuh-id-1)
+![Qpwgraph LangitKetujuh](/images/blog/qpwgraph-langitketujuh-id-1.webp)
 
 ## QPrompt
 
 Is free software used for teleprompter. Usually used for script readers. Of course it is also useful for creator content purposes. We included it specifically in the studio edition, while the home edition installs it manually with `get qprompt`.
 
-![QPrompt LangitKetujuh](/images/blog/qprompt-langitketujuh-id-1)
+![QPrompt LangitKetujuh](/images/blog/qprompt-langitketujuh-id-1.webp)
 
 ## Desktop Effect
 
@@ -78,17 +78,17 @@ LangitKetujuh KDE enables desktop effects `Magic Lamp` and `Wobbly Windows` to p
 
 * Magic Lamp
 
-![agic Lamp LangitKetujuh](/images/blog/desktop-effect-magic-lamp-langitketujuh-id.webp M)
+![Magic Lamp LangitKetujuh](/images/blog/desktop-effect-magic-lamp-langitketujuh-id.webp)
 
 * Wobbly
 
-![Wobbly LangitKetujuh](/images/blog/desktop-effect-wobbly-langitketujuh-id)
+![Wobbly LangitKetujuh](/images/blog/desktop-effect-wobbly-langitketujuh-id.webp)
 
 ## Installer
 
 The disk installer has an instant guide in the partitioning section. Because in general, ordinary users are still confused about partitioning on unix-like/linux systems. The hope is to become more familiar with the 3 important mountpoints in this operating system, such as `/boot/efi`, `/`, and `/home`.
 
-![Type Mount Point LangitKetujuh](/images/blog/install-filesystem-type-mount-point)
+![Type Mount Point LangitKetujuh](/images/blog/install-filesystem-type-mount-point.webp)
 
 ## Thank you so much
 
