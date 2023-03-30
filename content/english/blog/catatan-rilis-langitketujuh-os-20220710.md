@@ -29,7 +29,7 @@ Untuk pengguna Studio, silakan mengisi form [kirim ulang] agar mendapatkan edisi
 ### Menu install
 Ikon desktop installer `Install to Disk` sudah ada di menu. Pengguna hanya sekali klik, lalu menuju ke installer. Installer juga sudah mendukung btrfs untuk memountpoint @subvolume `/`.
 
-{{< figure src=/images/blog/install-to-disk.webp alt="Menu Install LangitKetujuh">}}
+![Menu Install LangitKetujuh](/images/blog/install-to-disk)
 
 ### Fish-shell
 Perintah fish-shell sudah tidak menggunakan singkatan (abbreviation) lagi. Sebelumnya jika mengetikkan `get` maka akan berubah menjadi `doas xbps-install`, tetapi sekarang tidak berubah. Perintah-perintah lain seperti `remove`, `update`, `upgrade`, `list`, `repo`, `info` sudah bisa langsung digunakan. Ada perintah yang diganti seperti `update` diganti ke `upgrade`, `sync` diganti ke `update`, repolist diganti ke repo. Fungsi tersebut juga mendukung di bash-shell dan bisa dijalankan di pengguna root tanpa harus menggunakan doas.
@@ -51,12 +51,12 @@ Menambahkan `corectrl` untuk mengontrol hardware core cpu dengan mudah. Corectrl
 ### Skanpage
 Menambahkan `skanpage` sebagai pengganti dari skanlite serta dapat melakukan scanning dengan banyak halaman (multipage).
 
-{{< figure src=/images/blog/skanpage-langitketujuh-id-1.webp alt="Skanpage LangitKetujuh">}}
+![Skanpage LangitKetujuh](/images/blog/skanpage-langitketujuh-id-1)
 
 ### LangitKetujuh menu
 Beberapa pintasan menu LangitKetujuh ditambahkan untuk memudahkan pengguna jika ingin menuju ke halaman situs utama, komunitas, panduan, dan kontribusi.
 
-{{< figure src=/images/blog/menu-langitketujuh.webp alt="Menu LangitKetujuh">}}
+![Menu LangitKetujuh](/images/blog/menu-langitketujuh)
 
 ### Dukungan Flatpak
 Pembenahan menu aplikasi dengan `flatpak`. Sebelumnya belum kompatibel sehingga menyalin ikon desktop satu-persatu. Sekarang aplikasi flatpak otomatis terdeteksi di menu.
@@ -75,17 +75,17 @@ Menghapus widget memori dan cpu di panel. Alasannya untuk menghemat 100-300mb pe
 ### Carla & Cadence
 Beberapa aplikasi ditambahkan untuk kebutuhan audio production: `carla`, `cadence`, `calf` dan `jack_recorder`. Terutama digunakan untuk kebutuhan podcast secara profesional dengan JACK audio connection kit.
 
-{{< figure src=/images/blog/carla.webp alt="Carla LangitKetujuh">}}
+![Carla LangitKetujuh](/images/blog/carla)
 
 ### Goxel voxel editor
 Menambahkan Goxel 3D voxel editor (goxel). Goxel kompatibel dengan blender dan godot dengan format gitf, yang mana gitf merupakan ekstensi format 3D yang terbuka sehingga memudahkan untuk lintas software.
 
-{{< figure src=/images/blog/goxel.webp alt="Goxel LangitKetujuh">}}
+![Goxel LangitKetujuh](/images/blog/goxel)
 
 ### OpensCAD
 Menambahkan openscad untuk parametrik CAD 3D dengan functional programming. Hasil ekspor objek bisa dicetak dengan 3d printer.
 
-{{< figure src=/images/blog/openscad.webp alt="OpensCAD LangitKetujuh">}}
+![OpensCAD LangitKetujuh](/images/blog/openscad)
 
 Perubahan selengkapnya ada dihalaman [roadmap]. Perubahan tersebut memang ada perencanaan untuk menggunakan sesi wayland sebagai sesi desktop utama. Tetapi setelah dilakukan beberapa pengujian, LangitKetujuh masih belum siap untuk menggunakan wayland. Beberapa software GUI masih belum berfungsi dengan baik jika menggunakan wayland. Misalnya `ssr` hasil rekam blank, `libwacom` yang masih ditemui bug kursor, `kcm-wacom` yang hanya mendukung x11 saja, `hugin` yang tidak merespon, `dispcalgui`, `screenkey` yang tidak tampil output, dan `pickcolor` yang tidak dapat mengambil sampel warna. Alhasil, LangitKetujuh masih tetap menggunakan X11.
 

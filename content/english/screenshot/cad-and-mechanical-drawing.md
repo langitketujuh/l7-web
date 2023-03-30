@@ -15,8 +15,8 @@ Aplikasi FreeCAD adalah perangkat lunak yang dikembangkan dengan OpenCascade, Qt
 
 Aplikasi FreeCAD biasanya digunakan oleh desainer produk dan teknik mesin yang membutuhkan gambar produksi.
 
-{{< figure src=/images/screenshot/freecad-langitketujuh-id-1.webp alt="FreeCAD LangitKetujuh">}}
-{{< figure src=/images/screenshot/freecad-langitketujuh-id-2.webp alt="FreeCAD LangitKetujuh">}}
+![FreeCAD LangitKetujuh](/images/screenshot/freecad-langitketujuh-id-1.webp)
+![FreeCAD LangitKetujuh](/images/screenshot/freecad-langitketujuh-id-2.webp)
 
 ## LibreCAD
 
@@ -28,5 +28,5 @@ Proyek yang bernama CADuntu hanya didistribusikan untuk linux saja dan beberapa 
 
 Beberapa waktu setelah rilis seri LibreCAD 2.2.0, Qt5 sebagai inti dari program.
 
-{{< figure src=/images/screenshot/librecad-langitketujuh-id-1.webp alt="LibreCAD LangitKetujuh">}}
-{{< figure src=/images/screenshot/librecad-langitketujuh-id-2.webp alt="LibreCAD LangitKetujuh">}}
+![LibreCAD LangitKetujuh](/images/screenshot/librecad-langitketujuh-id-1.webp)
+![LibreCAD LangitKetujuh](/images/screenshot/librecad-langitketujuh-id-2.webp)

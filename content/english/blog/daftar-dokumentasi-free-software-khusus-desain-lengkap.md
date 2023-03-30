@@ -24,112 +24,147 @@ Banyak sumber referensi belajar desain yang bisa didapatkan selain dari menonton
 
 ## Inkscape
 
-#### Readthedocs Inkscape
+### Readthedocs Inkscape
+
+Tautan: https://inkscape-manuals.readthedocs.io/en/latest/
 
 Kelebihan dokumentasi dengan readthedocs ini dapat diunduh versi luringnya (offline). Berupa pdf, epub, atau html. Sehingga bisa dibaca tanpa memerlukan koneksi internet.
 
-{{< figure src=/images/blog/readthedocs-inkscape.webp alt="readthedocs inkscape" link="https://inkscape-manuals.readthedocs.io/en/latest/" target="_blank">}}
+![readthedocs inkscape](/images/blog/readthedocs-inkscape.webp)
 
-#### Inkscape Wiki
+### Inkscape Wiki
+
+Tautan: https://wiki.inkscape.org/wiki/index.php/Inkscape
 
 Inkscape wiki menjelaskan begitu detail tentang inkscape, baik untuk pengguna mauun untuk developer yang ingin mengembangkan inkscape.
 
-{{< figure src=/images/blog/inkscape-wiki.webp alt="Inkscape Wiki" link="https://wiki.inkscape.org/wiki/index.php/Inkscape" target="_blank">}}
+![Inkscape Wiki](/images/blog/inkscape-wiki.webp)
 
-#### Inkscape Learn
+### Inkscape Learn
 
-{{< figure src=/images/blog/inkscape-learn.webp alt="Inkscape Learn" link="https://inkscape.org/learn/" target="_blank">}}
+Tautan: https://inkscape.org/learn/
 
-#### Inkscape Tavmjong Bah
+![Inkscape Learn](/images/blog/inkscape-learn.webp)
+
+### Inkscape Tavmjong Bah
+
+Tautan: http://tavmjong.free.fr/INKSCAPE/MANUAL/html/
 
 Buku ini tersedia untuk PDF/offline dan online. Merangkum inkscape versi 0.92. Cukup lengkap yang dipandu dari ringkasan dahulu, ke teknis, lalu menuju ke kesimpulan.
 
-{{< figure src=/images/blog/inkscape-tavmjong-bah.webp alt="Inkscape Tavmjong Bah" link="http://tavmjong.free.fr/INKSCAPE/MANUAL/html/" target="_blank">}}
+![Inkscape Tavmjong Bah](/images/blog/inkscape-tavmjong-bah.webp)
 
 ## GIMP
 
 ### GIMP Docs
 
+Tautan: https://www.gimp.org/docs/
+
 Dokumentasi resmi dari GIMP ditulis secara detail. Mulai dari penjelasan raster, pemasangan gimp, teknis, tips dan trik, hingga penelasan ekstensi.
 
-{{< figure src=/images/blog/gimp-docs.webp alt="GIMP Docs" link="https://www.gimp.org/docs/" target="_blank">}}
+![GIMP Docs](/images/blog/gimp-docs.webp)
 
 ## Blender
 
 ### Blender Docs
 
+Tautan: https://docs.blender.org/
+
 Blender dokumentasi ini sangat kompleks panduannyaa. Benar-benar lengkap. Tak hanya itu, panduan tersebut dibuat untuk pengguna dan developer. Pengguna bisa membaca sederet panduan modelling, grease pencil, animasi, rendering, komposisi, video editing dan lain-lain.
 
-{{< figure src=/images/blog/blender-docs.webp alt="Blender Docs" link="https://docs.blender.org/" target="_blank">}}
+![Blender Docs](/images/blog/blender-docs.webp)
 
 ## Krita
 
 ### Krita Docs
 
-{{< figure src=/images/blog/krita-docs.webp alt="Krita Docs" link="https://docs.krita.org/en/index.html" target="_blank">}}
+Tautan: https://docs.krita.org/en/index.html
+
+![Krita Docs](/images/blog/krita-docs.webp)
 
 ## Kdenlive
 
 ### Kdenlive Userbase
 
+Tautan: https://userbase.kde.org/Kdenlive/Manual
+
 Dokumentasi pengguna kdenlive resmi ini cukup lengkap. Tetapi masih dibutuhkan kontributor dokumentasi.
 
-{{< figure src=/images/blog/kdenlive-userbase.webp alt="Kdenlive Userbase" link="https://userbase.kde.org/Kdenlive/Manual" target="_blank">}}
-
+![Kdenlive Userbase](/images/blog/kdenlive-userbase.webp)
 
 ### Kdenlive Flossmanual
 
+Tautan: https://en.flossmanuals.net/kdenlive/_full/
+
 Menelaskan secara lengkap, namun dalam satu halaman penuh. Jadi sedikit kurang nyaman ketika dibaca.
 
-{{< figure src=/images/blog/kdenlive-flossmanual.webp alt="Flossmanual Kdenlive" link="https://en.flossmanuals.net/kdenlive/_full/" target="_blank">}}
+![Flossmanual Kdenlive](/images/blog/kdenlive-flossmanual.webp)
 
 ## Scribus
 
 ### Scribus Wiki
 
-{{< figure src=/images/blog/scribus-wiki.webp alt="Scribus Wiki" link="https://wiki.scribus.net/canvas/Scribus" target="_blank">}}
+Tautan: https://wiki.scribus.net/canvas/Scribus
+
+![Scribus Wiki](/images/blog/scribus-wiki.webp)
 
 ### Scribus Flossmanual
 
-{{< figure src=/images/blog/scribus-flossmanual.webp alt="Scribus Flossmanual" link="http://write.flossmanuals.net/scribus/introduction/" target="_blank">}}
+Tautan: http://write.flossmanuals.net/scribus/introduction/
+
+![Scribus Flossmanual](/images/blog/scribus-flossmanual.webp)
 
 ### Scribus Tutorial (forum)
 
-{{< figure src=/images/blog/scribus-tutorial.webp alt="Scribus tutorial (forum)" link="https://forums.scribus.net/index.php/board,11.0.html" target="_blank">}}
+Tautan: https://forums.scribus.net/index.php/board,11.0.html
+
+![Scribus tutorial (forum)](/images/blog/scribus-tutorial.webp)
 
 ## Godot
 
 ### Godot Docs
 
-{{< figure src=/images/blog/godot-docs.webp alt="Godot Docs" link="https://docs.godotengine.org/en/stable/index.html" target="_blank">}}
+Tautan: https://docs.godotengine.org/en/stable/index.html
+
+![Godot Docs](/images/blog/godot-docs.webp)
 
 ## Opentoonz
 
 ### Opentoonz Docs
 
-{{< figure src=/images/blog/opentoonz-docs.webp alt="Opentoonz Docs" link="https://opentoonz.readthedocs.io/en/latest/" target="_blank">}}
+Tautan: https://opentoonz.readthedocs.io/en/latest/
+
+![Opentoonz Docs](/images/blog/opentoonz-docs.webp)
 
 ## Raw Therapee
 
 ### Rawpedia by Rawtherapee
 
-{{< figure src=/images/blog/rawpedia-by-rawtherapee.webp alt="Rawpedia by Rawtherapee" link="https://rawpedia.rawtherapee.com/Main_Page" target="_blank">}}
+Tautan: https://rawpedia.rawtherapee.com/Main_Page
+
+![Rawpedia by Rawtherapee](/images/blog/rawpedia-by-rawtherapee.webp)
 
 ## DigiKam
 
 ### Digikam Docs
 
-{{< figure src=/images/blog/digikam-docs.webp alt="Digikam Docs" link="https://www.digikam.org/documentation/" target="_blank">}}
+Tautan: https://www.digikam.org/documentation/
+
+![Digikam Docs](/images/blog/digikam-docs.webp)
 
 ### Digikam Handbook
 
-{{< figure src=/images/blog/digikam-handbook.webp alt="DigiKam Handbook" link="https://docs.kde.org/trunk5/en/extragear-graphics/digikam/index.html" target="_blank">}}
+Tautan: https://docs.kde.org/trunk5/en/extragear-graphics/digikam/index.html
+
+![DigiKam Handbook](/images/blog/digikam-handbook.webp)
 
 ## GMIC (Plugin)
 
 ### GMIC Reference
 
-{{< figure src=/images/blog/gmic-reference.webp alt="GMIC Reference" link="https://gmic.eu/reference/index.html" target="_blank">}}
+Tautan: https://gmic.eu/reference/index.html
+
+![GMIC Reference](/images/blog/gmic-reference.webp)
 
 ## Penutup
 

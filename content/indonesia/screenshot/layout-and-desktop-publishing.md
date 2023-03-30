@@ -15,9 +15,9 @@ Scribus adalah penerbitan aplikasi (DTP) desktop, dirilis di bawah GNU General P
 
 Perangkat lunak Scribus dirancang untuk kebutuhan tata letak, huruf dan mempersiapkan berkas untuk kualitas gambar secara profesional. Dengan ini juga dapat membuat presentasi PDF. Contoh penggunaan scribus yaitu seperti membuat koran, brosur, buletin, poster, majalah dan buku.
 
-{{< figure src=/images/screenshot/scribus-langitketujuh-id-1.webp alt="Scribus LangitKetujuh">}}
-{{< figure src=/images/screenshot/scribus-langitketujuh-id-2.webp alt="Scribus LangitKetujuh">}}
-{{< figure src=/images/screenshot/scribus-langitketujuh-id-3.webp alt="Scribus LangitKetujuh">}}
+![Scribus LangitKetujuh](/images/screenshot/scribus-langitketujuh-id-1.webp)
+![Scribus LangitKetujuh](/images/screenshot/scribus-langitketujuh-id-2.webp)
+![Scribus LangitKetujuh](/images/screenshot/scribus-langitketujuh-id-3.webp)
 
 ## LibreOffice Draw
 
@@ -25,4 +25,4 @@ LibreOffice Draw merupakan komponen aplikasi LibreOffice yang berfungsi untuk me
 
 Hampir semua format gambar digital yang umum digunakan dalam aplikasi komputer bisa dibuat dan dimanipulasi dengan program ini. Selain itu aplikasi LibreOffice Draw juga dapat digunakan untuk kebutuhan editing Postscript dan PDF.
 
-{{< figure src=/images/screenshot/libreoffice-draw-langitketujuh-id-1.webp alt="LibreOffice Draw LangitKetujuh">}}
+![LibreOffice Draw LangitKetujuh](/images/screenshot/libreoffice-draw-langitketujuh-id-1.webp)

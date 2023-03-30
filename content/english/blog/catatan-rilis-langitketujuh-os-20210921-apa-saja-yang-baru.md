@@ -29,11 +29,11 @@ Perubahan branding versi ini akan kami gunakan untuk seterusnya. Menggunakan dom
 
 ### Gambar Wallpaper
 
-{{< figure src=/images/blog/wallpaper-langitketujuh-id.webp alt="Wallpaper LangitKetujuh">}}
+![Wallpaper LangitKetujuh](/images/blog/wallpaper-langitketujuh-id)
 
 Tim desain memutuskan untuk menggunakan `.svg` wallpaper agar lebih maksimal dan jernih menampilkan wallpaper. Sebelumnya menggunakan `.png`. Jika Anda lihat lebih detail di layar komputer, garis-garis halus yang ada di wallpaper tampak jernih dan tajam.
 
-{{< figure src=/images/blog/berkas-wallpaper.webp alt="Berkas wallpaper LangitKetujuh">}}
+![Berkas wallpaper LangitKetujuh](/images/blog/berkas-wallpaper)
 
 ### Splash Screen
 
@@ -41,13 +41,13 @@ Perubahan lainnya yaitu splash screen. Animasi ini akan muncul saat pertama kali
 
 Tema splash screen bisa Anda ganti Pengaturan System Setting > Appareance > Splash Screen.
 
-{{< figure src=/images/blog/splash-screen.webp alt="Splash Screen LangitKetujuh">}}
+![Splash Screen LangitKetujuh](/images/blog/splash-screen)
 
 ### Ikon Desktop
 
 Ikon desktop baik untuk website, favicon, papirus dan breeze juga ada perubahan.
 
-{{< figure src=/images/blog/3-logo.webp alt="3 logo LangitKetujuh">}}
+![3 logo LangitKetujuh](/images/blog/3-logo)
 
 Logo kiri atau logo utama yang digunakan di info center dan website langitketujuh.id. Logo tengah digunakan untuk ikon kategori di sub menu KDE, ikon ini disesuaikan dengan branding desain papirus ikon. Sedangkan logo kanan digunakan untuk ikon di Breeze icon.
 
@@ -55,7 +55,7 @@ Logo tengah dan yang kanan sudah kami sesuaikan dengan panduan brand dari papiru
 
 ## Global Tema
 
-{{< figure src=/images/blog/desktop-langitketujuh-id.webp alt="Desktop LangitKetujuh">}}
+![Desktop LangitKetujuh](/images/blog/desktop-langitketujuh-id)
 
 Nah.. Untuk global tema, sebelum rilis ini kami membuat 2 tema. Antara lain tema terang (LangitKetujuh) dan tema gelap (LangitKetujuh-Dark). Tetapi pada rilis ini kami menggunakan 1 tema saja, yaitu tema gelap dengan nama `LangitKetujuh`.
 
@@ -65,14 +65,14 @@ Nah.. Untuk global tema, sebelum rilis ini kami membuat 2 tema. Antara lain tema
 
 Website utama sekarang mengaktifkan penyaranan tema gelap (`prefered-dark`). Sehingga tampilannya secara otomatis mengikuti tema sistem, baik itu tema terang maupun tema gelap.
 
-{{< figure src=/images/blog/web-light-mode.webp alt="Website LangitKetujuh">}}
-{{< figure src=/images/blog/web-dark-mode.webp alt="Website Dark Mode LangitKetujuh">}}
+![Website LangitKetujuh](/images/blog/web-light-mode)
+![Website Dark Mode LangitKetujuh](/images/blog/web-dark-mode)
 
 ### Mendukung PWA
 
 Dengan PWA (Progressive Web Apps) situs langitketujuh.id bisa diakses secara offline untuk halaman utama dan halaman lain yang penting. Selain itu akan mengluringkan (offline) halaman yang pernah dikunjungi.
 
-{{< figure src=/images/blog/web-service-worker.webp alt="Website Service Worker LangitKetujuh">}}
+![Website Service Worker LangitKetujuh](/images/blog/web-service-worker)
 
 Anda juga bisa membuat aplikasi web melalui chrome browser via smartphone.
 
@@ -80,7 +80,7 @@ Anda juga bisa membuat aplikasi web melalui chrome browser via smartphone.
 
 Fitur ini memudahkan pengguna untuk komunikasi melalui Telegram atau WhatsApp. Terlihat sederhana memang, tapi setidaknya bisa berfungsi.
 
-{{< figure src=/images/blog/live-chat.webp alt="Website Live Chat LangitKetujuh">}}
+![Website Live Chat LangitKetujuh](/images/blog/live-chat)
 
 ## Aplikasi
 
@@ -90,7 +90,7 @@ Di versi ini terdapat dokumentasi offline, dokumentasi dari https://panduan.lang
 
 Untuk penguna versi sebelumnya, diperlukan memasang `l7-docs` terlebih dahulu.
 
-{{< figure src=/images/blog/dokumentasi-offline.webp alt="Dokumentasi-offline LangitKetujuh">}}
+![Dokumentasi-offline LangitKetujuh](/images/blog/dokumentasi-offline)
 
 ### Pipewire Audio Server
 
@@ -112,6 +112,6 @@ Apabila kebutuhan anda untuk streaming dan meeting, OBS Studio dan virtual kamer
 
 Dengan mode yang telah dibuat di OBS Studio, bisa Anda integrasikan dengan aplikasi meeting seperti zoom dan MS teams.
 
-{{< figure src=/images/blog/virtual-kamera.webp alt="Virtual Kamera LangitKetujuh">}}
+![Virtual Kamera LangitKetujuh](/images/blog/virtual-kamera)
 
 _Barakallahu fiikum._

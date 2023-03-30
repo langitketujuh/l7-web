@@ -27,8 +27,8 @@ Pemasang LangitKetujuh dengan `langitketujuh-install` menggunakan tampilan antar
 
 Akan tetapi di rilis kali ini cukup memudahkan pengguna dengan memberikan informasi perangkat yang terkait. Sekaligus otomatis memilih pemasangan `local` sebagai sumber berkasnya (sebelumnya ada pilihan `Local`/`Network`).
 
-{{< figure src=/images/blog/installer-langitketujuh-id-1.webp alt="Installer LangitKetujuh">}}
-{{< figure src=/images/blog/installer-langitketujuh-id-2.webp alt="Installer LangitKetujuh">}}
+![Installer LangitKetujuh](/images/blog/installer-langitketujuh-id-1.webp)
+![Installer LangitKetujuh](/images/blog/installer-langitketujuh-id-2.webp)
 
 ## Tema layout baru
 
@@ -36,13 +36,13 @@ LangitKetujuh terdapat 3 jenis tema layout yang berbeda. Yaitu LangitKetujuh seb
 
 Pengguna dapat menggantinya dengan cara masuk ke pangaturan sistem > Appearance > Global Theme > Pilih tema dan layout sesuai keinginan. Aktifkan juga **Desktop and Window layout**.
 
-{{< figure src=/images/blog/global-theme-langitketujuh-id.webp alt="Global Theme LangitKetujuh">}}
+![Global Theme LangitKetujuh](/images/blog/global-theme-langitketujuh-id.webp)
 
 ## Tampilan wallpaper
 
 Ide dasar wallpaper baru LangitKetujuh yaitu kaca dan garis cahaya biru silau dengan warna hitam malam dibaliknya. Meskipun terlihat sederhana, pembuatan wallpaper tersebut sekitar hampir setengah hari hingga jadi. Semuanya 100% dibuat dengan `inkscape` pengolah grafis berbasis vektor.
 
-{{< figure src=/images/blog/wallpaper-20221205.webp alt="Wallpaper LangitKetujuh">}}
+![Wallpaper LangitKetujuh](/images/blog/wallpaper-20221205.webp)
 
 ## Webapp manager
 
@@ -50,13 +50,13 @@ Aplikasi baru yang kami tambahkan salah satunya `webapp-manager` yang dimana pen
 
 Selengkapnya, pengguna dapat merujuk ke halaman [panduan webapp manager](https://panduan.langitketujuh.id/aplikasi/produktifitas/webapp-manager).
 
-{{< figure src=/images/blog/webapp-manager-langitketujuh-id.webp alt="Webapp Manager LangitKetujuh">}}
+![Webapp Manager LangitKetujuh](/images/blog/webapp-manager-langitketujuh-id.webp)
 
 ## QOwnNotes catatan markdown
 
 Berguna untuk membuat catatan yang menggunakan format markdown. Tentunya format markdown tersebut dapat juga di ekspor ke pdf dengan hasil yang sama seperti di browser.
 
-{{< figure src=/images/blog/qownnotes-langitketujuh-id-1.webp alt="QOwnNotes LangitKetujuh">}}
+![QOwnNotes LangitKetujuh](/images/blog/qownnotes-langitketujuh-id-1.webp)
 
 ## Plasma widget
 
@@ -64,14 +64,14 @@ Menambahkan beberapa addons baru lainnya di repo seperti `plasma-clearclock` seb
 
 Paket plasma widget tersebut pengguna harus memasangnya manual dengan `get`.
 
-{{< figure src=/images/blog/clearclock-langitketujuh-id.webp alt="Clearclock LangitKetujuh">}}
-{{< figure src=/images/blog/translator-langitketujuh-id.webp alt="Translator LangitKetujuh">}}
+![Clearclock LangitKetujuh](/images/blog/clearclock-langitketujuh-id.webp)
+![Translator LangitKetujuh](/images/blog/translator-langitketujuh-id.webp)
 
 ## Fastfetch informasi sistem
 
 Penampil informasi sistem tidak selalu mengggunakan `neofetch`, `screenfetch`, `pfetch`, dsb. Di LangitKetujuh sudah terpasang `fastfetch` yang lebih ringan dan cepat. Tetapi jika ingin mendapatkan lebih detail lagi, pengguna dapat menggunakan `inxi`.
 
-{{< figure src=/images/blog/fastfetch-langitketujuh-id.webp alt="Fastfetch LangitKetujuh">}}
+![Fastfetch LangitKetujuh](/images/blog/fastfetch-langitketujuh-id.webp)
 
 ## Manajemen layanan runit dengan rsv
 

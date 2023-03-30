@@ -13,17 +13,17 @@ draft: false
 
 Blender 3D sebagai perangkat lunak animasi 3D dan 2D.
 
-{{< figure src=/images/screenshot/blender-3d-langitketujuh-id-1.webp alt="Blender 3D LangitKetujuh">}}
-{{< figure src=/images/screenshot/blender-3d-langitketujuh-id-2.webp alt="Blender 3D LangitKetujuh">}}
+![Blender 3D LangitKetujuh](/images/screenshot/blender-3d-langitketujuh-id-1.webp)
+![Blender 3D LangitKetujuh](/images/screenshot/blender-3d-langitketujuh-id-2.webp)
 
 ## Synfigstudio
 
 SynfigStudio merupakan pembuat animasi dari vektor dan bitmap, tanpa membuat animasi frame by frame.
 
-{{< figure src=/images/screenshot/synfigstudio-langitketujuh-id-1.webp alt="Synfigstudio LangitKetujuh">}}
-{{< figure src=/images/screenshot/synfigstudio-langitketujuh-id-2.webp alt="Synfigstudio LangitKetujuh">}}
+![Synfigstudio LangitKetujuh](/images/screenshot/synfigstudio-langitketujuh-id-1.webp)
+![Synfigstudio LangitKetujuh](/images/screenshot/synfigstudio-langitketujuh-id-2.webp)
 
 ## Opentoonz
 
-{{< figure src=/images/screenshot/opentoonz-langitketujuh-id-1.webp alt="Opentoonz LangitKetujuh">}}
-{{< figure src=/images/screenshot/opentoonz-langitketujuh-id-2.webp alt="Opentoonz LangitKetujuh">}}
+![Opentoonz LangitKetujuh](/images/screenshot/opentoonz-langitketujuh-id-1.webp)
+![Opentoonz LangitKetujuh](/images/screenshot/opentoonz-langitketujuh-id-2.webp)

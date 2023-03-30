@@ -26,7 +26,7 @@ Disini saya sudah tuliskan 5 distro GNU/Linux yang diperuntukan bagi Anda yang b
 
 ## Linux Mint Cinnamon
 
-{{< figure src=/images/blog/linux-mint-cinnamon.webp alt="Linux Mint Cinnamon - LangitKetujuh">}}
+![Linux Mint Cinnamon - LangitKetujuh](/images/blog/linux-mint-cinnamon.webp)
 
 **Linux Mint** memang tidak mengeluarkan varian khusus untuk desain grafis. Tidak menyertakan aplikasi-aplikasi desain grafis saat instalasi selesai. Linux Mint untuk saat ini masih menggunakan systemd dan juga point release. Linux Mint walaupun tidak menyertakan varian khusus desain grafis, distro ini adalah distro yang mudah digunakan bagi para imigran dari Windows.
 
@@ -36,7 +36,7 @@ Penggunaannya lebih mudah daripada distro induknya (ubuntu). Anda bisa mencoba L
 
 ## Fedora Design Suite
 
-{{< figure src=/images/blog/fedora-design-suite.webp alt="Fedora Design Suite - LangitKetujuh">}}
+![Fedora Design Suite - LangitKetujuh](/images/blog/fedora-design-suite.webp)
 
 **Fedora** menawarkan varian khusus untuk keperluan multimedia yaitu **Fedora design suite**. Fedora design suite sudah menyertakan aplikasi GIMP, Inkscape, Blender, Darktable, Krita, Scribus, dan Pitivi. Fedora masih menggunakan systemd sehingga akan menggunakan RAM lebih banyak ketimbang runit init, ditambah dengan lingkungan desktop GNOME akan lebih banyak menggunakan RAM.
 
@@ -46,7 +46,7 @@ Anda bisa memasang Fedora design suite dengan cara unduh pada tautan dibawah ini
 
 ## Ubuntu Studio
 
-{{< figure src=/images/blog/ubuntu-studio.webp alt="Ubuntu Studio - LangitKetujuh">}}
+![Ubuntu Studio - LangitKetujuh](/images/blog/ubuntu-studio.webp)
 
 **Ubuntu Studio** diperuntukan bagi orang-orang yang berkecimpung di multimedia, termasuk desain grafis. Ubuntu studio adalah salah satu varian yang ditawarkan oleh ubuntu kepada para penggemarnya. Setelah instalasi berhasil, pengguna tidak perlu lagi direpotkan dengan instal aplikasi-aplikasi untuk keperluan multimedia. Ubuntu studio terbaru (21.04) sudah menggunakan KDE sebagai lingkugan desktop berbeda dengan versi sebelum-sebelumnya yang menggunakan XFCE.
 
@@ -58,7 +58,7 @@ Anda bisa memasang Ubuntu Studio dengan klik tautan dibawah ini.
 
 ## AVLinux
 
-{{< figure src=/images/blog/avlinux.webp alt="AVLinux - LangitKetujuh">}}
+![AVLinux - LangitKetujuh](/images/blog/avlinux.webp)
 
 **AVLinux** adalah GNU/Linux yang distro induknya adalah MX Linux, tapi bukan official dari MX Linux. AVLinux menggunakan SysV untuk menjalankan software yang ada, bukan systemd ataupun runit init. AVLinux menggunakan XFCE untuk lingkungan desktopnya, cocok bagi Anda yang menyukai lingkungan desktop yang cepat namun tidak hilang estetik.
 
@@ -68,7 +68,7 @@ AVLinux dibekali dengan plugin-plugin yang mendukung untuk keperluan produksi au
 
 ## LangitKetujuh
 
-{{< figure src=/images/blog/langitketujuh-os.webp alt="LangitKetujuh - LangitKetujuh">}}
+![LangitKetujuh - LangitKetujuh](/images/blog/langitketujuh-os.webp)
 
 **LangitKetujuh** adalah satu dari sekian distro yang dikembangkan oleh orang Indonesia. Distro ini pun dikembangkan oleh seorang desainer grafis yaitu [Hervy Qurrotul Ainur Rozi](https://t.me/hervyqa) yang sudah beberapa kali [_memenangkan kontes desain_](https://news.opensuse.org/2019/07/09/opensuse-asia-summit-2019-logo-competition-winner/) [_grafis interlokal_](https://adfinis.com/en/blog/winners-of-the-libreoffice-template-contest-2020/), tentu dengan dikembangkannya LangitKetujuh langsung oleh seorang desainer grafis menjadikan distro ini sudah sepaket dengan keperluan-keperluan desain grafis.
 

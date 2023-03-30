@@ -41,19 +41,19 @@ Tujuannya untuk mengurangi Preview render ketika membuka perangkat lunak grafis.
 
 Pertama, buka "Font Management".
 
-{{< figure src=/images/blog/font-manager-open.webp alt="Font Management Open">}}
+![Font Management Open](/images/blog/font-manager-open.webp)
 
 Seleksi font yang akan dinonaktifkan. Gunakan Shift untuk memilih banyak font. Misalnya menonaktifkan semua font Noto, kecuali Noto sans dan Noto serif. Lalu klik kanan, pilih "Disable".
 
-{{< figure src=/images/blog/font-manager-selection.webp alt="Font Management Selection">}}
+![Font Management Selection](/images/blog/font-manager-selection.webp)
 
 Pilih "Disable" lagi.
 
-{{< figure src=/images/blog/font-manager-disable.webp alt="Font Management Disable">}}
+![Font Management Disable](/images/blog/font-manager-disable.webp)
 
 Maka font yang terpilih tadi akan di nonaktifkan yang ditandai dengan warna merah.
 
-{{< figure src=/images/blog/font-manager-non-active.webp alt="Font Management Non Active">}}
+![Font Management Non Active](/images/blog/font-manager-non-active.webp)
 
 ### Menggunakan Docker Text di Inkscape
 
@@ -63,7 +63,7 @@ Kelebihan dari font preview yaitu bisa langsung memilih font yang diinginkan, na
 
 Berbeda dengan doker teks and font. Pintasannya **Ctrl+Shift+T** . Render preview fontnya secara bergantian (satu-satu), sehingga lebih cepat untuk mengatur font yang diinginkan.
 
-{{< figure src=/images/blog/inkscape-better-font-choice.webp alt="Dock text for Inkscape">}}
+![Dock text for Inkscape](/images/blog/inkscape-better-font-choice.webp)
 
 Demikian tips untuk mengoptimalkan render font di LangitKetujuh dan Voidlinux.
 

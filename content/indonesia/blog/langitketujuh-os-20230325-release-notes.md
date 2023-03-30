@@ -29,7 +29,7 @@ Saat live usb Anda dapat memilih kernel yang ingin digunakan, kernel terbaru ata
 
 Tampilan untuk gambar latar belakang kini lebih futuristik, elegan dan minimalis. Bahkan setiap berkas wallpapernya hanya berukuran sekitar 19kb. Kami juga mempertimbangkan untuk menggunakan wallpaper dengan style futuristik/tech yang seperti ini untuk rilis selanjutnya.
 
-{{< figure src=/images/blog/mockup-langitketujuh-os-20230325.webp alt="Wallpaper LangitKetujuh">}}
+![Wallpaper LangitKetujuh](/images/blog/mockup-langitketujuh-os-20230325.webp)
 
 ## Aplikasi KDE
 
@@ -39,7 +39,7 @@ Beberapa aplikasi KDE juga ditambahkan, diantaranya:
 * `krename` mengganti nama berkas secara bersamaan (batch).
 * `kfind` untuk mencari letak suatu berkas atau direktori.
 
-{{< figure src=/images/blog/kde-apps-20230325.webp alt="KDE Apps LangitKetujuh">}}
+![KDE Apps LangitKetujuh](/images/blog/kde-apps-20230325.webp)
 
 ## Fonts
 
@@ -64,13 +64,13 @@ Panduan driver pen tablet `digimend-kernel-drivers` dapat merujuk ke [halaman in
 
 Berguna untuk mengatur grafik manajemen suara pipewire. Ini berguna untuk mengatur input dan output suara di mesin pengguna. Sangat berguna untuk melakukan perekaman desktop atau saat sesi podcast.
 
-{{< figure src=/images/blog/qpwgraph-langitketujuh-id-1.webp alt="Qpwgraph LangitKetujuh">}}
+![Qpwgraph LangitKetujuh](/images/blog/qpwgraph-langitketujuh-id-1.webp)
 
 ## QPrompt
 
 Merupakan perangkat lunak bebas yang digunakan untuk teleprompter. Biasanya digunakan untuk pembaca naskah. Tentu berguna juga untuk keperluan konten kreator. Kami memasukkannya khusus ke edisi studio, sedangkan edisi home memasangnya manual dengan `get qprompt`.
 
-{{< figure src=/images/blog/qprompt-langitketujuh-id-1.webp alt="QPrompt LangitKetujuh">}}
+![QPrompt LangitKetujuh](/images/blog/qprompt-langitketujuh-id-1.webp)
 
 ## Desktop Effect
 
@@ -78,17 +78,17 @@ LangitKetujuh KDE mengaktifkan desktop efek `Magic Lamp` dan `Wobbly Windows` un
 
 * Magic Lamp
 
-{{< figure src=/images/blog/desktop-effect-magic-lamp-langitketujuh-id.webp alt="Magic Lamp LangitKetujuh">}}
+![Magic Lamp LangitKetujuh](/images/blog/desktop-effect-magic-lamp-langitketujuh-id.webp)
 
 * Wobbly
 
-{{< figure src=/images/blog/desktop-effect-wobbly-langitketujuh-id.webp alt="Wobbly LangitKetujuh">}}
+![Wobbly LangitKetujuh](/images/blog/desktop-effect-wobbly-langitketujuh-id.webp)
 
 ## Installer
 
 Pemasang diska ada panduan instan dibagian pemartisian. Sebab pada umumnya pengguna awam masih bingung tentang pemartisian pada sistem unix-like/linux. Harapannya menjadi lebih paham dengan 3 mountpoint penting di sistem operasi ini, seperti `/boot/efi`, `/`, dan `/home`.
 
-{{< figure src=/images/blog/install-filesystem-type-mount-point.webp alt="Type Mount Point LangitKetujuh">}}
+![Type Mount Point LangitKetujuh](/images/blog/install-filesystem-type-mount-point.webp)
 
 ## Terima kasih
 

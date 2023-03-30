@@ -15,7 +15,7 @@ FontForge adalah aplikasi gratis yang digunakan untuk membuat, mengedit, dan men
 
 FontForge Editor tersedia untuk Windows, OS X, dan Linux. Tentunya di LangitKetujuh Edisi Studio, FontForge sudah terpasang otomatis.
 
-{{< figure src=/images/screenshot/fontforge-langitketujuh-id-1.webp alt="FontForge LangitKetujuh">}}
+![FontForge LangitKetujuh](/images/screenshot/fontforge-langitketujuh-id-1.webp)
 
 ## Google Fonts
 

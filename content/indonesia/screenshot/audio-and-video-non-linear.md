@@ -13,23 +13,23 @@ draft: false
 
 Kdenlive merupakan salah satu pengolah video terbaik berbasis GNU/linux. Kdenlive didukung oleh KDE dengan fitur yang melimpah.
 
-{{< figure src=/images/screenshot/kdenlive-langitketujuh-id-1.webp alt="Kdenlive LangitKetujuh">}}
-{{< figure src=/images/screenshot/kdenlive-langitketujuh-id-2.webp alt="Kdenlive LangitKetujuh">}}
+![Kdenlive LangitKetujuh](/images/screenshot/kdenlive-langitketujuh-id-1.webp)
+![Kdenlive LangitKetujuh](/images/screenshot/kdenlive-langitketujuh-id-2.webp)
 
 ## Audacity
 
 Audacity merupakan salah satu aplikasi pemberi efek suara, mengoreksi berkas suara tertentu, atau sekedar menambahkan berbagai efek yang disediakan.
 
-{{< figure src=/images/screenshot/audacity-langitketujuh-id-1.webp alt="Audacity LangitKetujuh">}}
+![Audacity LangitKetujuh](/images/screenshot/audacity-langitketujuh-id-1.webp)
 
 ## Ardour
 
-{{< figure src=/images/screenshot/ardour-langitketujuh-id-1.webp alt="Ardour LangitKetujuh">}}
+![Ardour LangitKetujuh](/images/screenshot/ardour-langitketujuh-id-1.webp)
 
 ## OBS Studio
 
-{{< figure src=/images/screenshot/obs-recorder-langitketujuh-id-1.webp alt="OBS Studio LangitKetujuh">}}
+![OBS Studio LangitKetujuh](/images/screenshot/obs-recorder-langitketujuh-id-1.webp)
 
 ## Simple Screen Recorder
 
-{{< figure src=/images/screenshot/simplescreenrecorder-langitketujuh-id-1.webp alt="Simplescreenrecorder LangitKetujuh">}}
+![Simplescreenrecorder LangitKetujuh](/images/screenshot/simplescreenrecorder-langitketujuh-id-1.webp)

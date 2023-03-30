@@ -104,7 +104,7 @@ Jadi bagaimana pengaturannya? Penulis akan mendemontrasikan dengan kondisi yang 
 
 Pertama konfigurasi input profile dahulu.
 
-{{< figure src=/images/blog/ssr-1.png alt="SimpleScreenRecorder LangitKetujuh">}}
+![SimpleScreenRecorder LangitKetujuh](/images/blog/ssr-1.png )
 
 * Record the entire screen: ceklis
 * Frame rate: 60
@@ -115,7 +115,7 @@ Anda juga bisa membuat input profil tertentu dengan klik "New". Lalu berikan nam
 
 Klik continue. Kemudian konfigurasi bagian output profile.
 
-{{< figure src=/images/blog/ssr-2.png alt="SimpleScreenRecorder LangitKetujuh">}}
+![SimpleScreenRecorder LangitKetujuh](/images/blog/ssr-2.png)
 
 * Container: WebM
 * Codec Video: VP8
@@ -129,7 +129,7 @@ Sebenarnya tidak terlalu sulit kalau sudah paham dukungan setiap container.
 
 Konfigurasi input profile.
 
-{{< figure src=/images/blog/ssr-3.png alt="SimpleScreenRecorder LangitKetujuh">}}
+![SimpleScreenRecorder LangitKetujuh](/images/blog/ssr-3.png)
 
 * Record the entire screen: ceklis
 * Frame rate: 24
@@ -140,7 +140,7 @@ Input profil: "24 FPS +Audio".
 
 Klik continue. Kemudian konfigurasi output profile.
 
-{{< figure src=/images/blog/ssr-4.png alt="SimpleScreenRecorder LangitKetujuh">}}
+![SimpleScreenRecorder LangitKetujuh](/images/blog/ssr-4.png)
 
 * Container: Mp4
 * Codec Video: H.264

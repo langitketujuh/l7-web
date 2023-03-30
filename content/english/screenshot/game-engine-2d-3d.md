@@ -14,7 +14,7 @@ Godot Game Engine merupakan multi platform game engine yang memiliki fitur untuk
 
 Fitur Multi Platform dapat mengeksport ke beberapa platform desktop seperti Windows, Linux, ataupun MacOS, serta platform mobile seperti Android dan IOS, dan berbasis web seperti HTML 5.
 
-{{< figure src=/images/screenshot/godot-langitketujuh-id-1.webp alt="Godot LangitKetujuh">}}
-{{< figure src=/images/screenshot/godot-langitketujuh-id-2.webp alt="Godot LangitKetujuh">}}
-{{< figure src=/images/screenshot/godot-langitketujuh-id-3.webp alt="Godot LangitKetujuh">}}
-{{< figure src=/images/screenshot/godot-langitketujuh-id-4.webp alt="Godot LangitKetujuh">}}
+![Godot LangitKetujuh](/images/screenshot/godot-langitketujuh-id-1.webp)
+![Godot LangitKetujuh](/images/screenshot/godot-langitketujuh-id-2.webp)
+![Godot LangitKetujuh](/images/screenshot/godot-langitketujuh-id-3.webp)
+![Godot LangitKetujuh](/images/screenshot/godot-langitketujuh-id-4.webp)

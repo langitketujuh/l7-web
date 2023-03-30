@@ -11,7 +11,7 @@ draft: false
 
 LibreOffice merupakan paket perangkat lunak bebas untuk perlengkapan perkantoran yang lengkap. Mulai dari untuk membuat laporan, makalah, skripsi, disertasi, tesis. Bahkan sudah tersedia untuk menyimpan database sendiri.
 
-{{< figure src=/images/screenshot/libreoffice-langitketujuh-id-1.webp alt="LibreOffice Draw LangitKetujuh">}}
+![LibreOffice Draw LangitKetujuh](/images/screenshot/libreoffice-langitketujuh-id-1.webp)
 
 Beberapa fungsi dari Libreoffice menurut kategorinya.
 
@@ -22,5 +22,5 @@ Beberapa fungsi dari Libreoffice menurut kategorinya.
 - LibreOffice Math, membuat teks formula matematika.
 - LibreOffice Base, mengolah bibliografi dan data lainnya.
 
-{{< figure src=/images/screenshot/libreoffice-langitketujuh-id-2.webp alt="LibreOffice Draw LangitKetujuh">}}
-{{< figure src=/images/screenshot/libreoffice-langitketujuh-id-3.webp alt="LibreOffice Draw LangitKetujuh">}}
+![LibreOffice Draw LangitKetujuh](/images/screenshot/libreoffice-langitketujuh-id-2.webp)
+![LibreOffice Draw LangitKetujuh](/images/screenshot/libreoffice-langitketujuh-id-3.webp)

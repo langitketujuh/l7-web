@@ -15,7 +15,7 @@ tag:
 draft: false
 ---
 
-[LangitKetujuh](https://langitketujuh.id) or `L7` is a GNU/Linux distribution for designers, illustrators, animators, publishers, photographers, architects, font creators, cinematographers, game designers and for users who are new to GNU/Linux. This distribution is based on [void linux](https://voidlinux.org) which uses [runit init](http://smarden.org/runit/), [KDE Plasma](https://kde.org/plasma-desktop) desktop environment, stable [rolling release](https://en.wikipedia.org/wiki/Rolling_release) and there is an efficient C library with [musl libc](https://www.musl-libc.org).
+[LangitKetujuh](https://langitketujuh.id "LangitKetujuh") or `L7` is a GNU/Linux distribution for designers, illustrators, animators, publishers, photographers, architects, font creators, cinematographers, game designers and for users who are new to GNU/Linux. This distribution is based on [void linux](https://voidlinux.org) which uses [runit init](http://smarden.org/runit/), [KDE Plasma](https://kde.org/plasma-desktop) desktop environment, stable [rolling release](https://en.wikipedia.org/wiki/Rolling_release) and there is an efficient C library with [musl libc](https://www.musl-libc.org).
 
 Thank God we were able to release the LangitKetujuh with lots of improvements and new features. Here is a list of changes and release notes in version `20230325`.
 
@@ -29,7 +29,7 @@ On live usb you can select the kernel you want to use, the latest kernel or use 
 
 The display for background images is now more futuristic, elegant and minimalist. In fact, each wallpaper file is only about 19kb in size. We are also considering using a futuristic/tech styled wallpaper like this for future releases.
 
-{{< figure src=/images/blog/mockup-langitketujuh-os-20230325.webp alt="Wallpaper LangitKetujuh">}}
+![Wallpaper LangitKetujuh 20230325 version](/images/blog/mockup-langitketujuh-os-20230325.webp)
 
 ## KDE Apps
 
@@ -39,7 +39,7 @@ Several KDE applications were also added, including:
 * `krename` batch renames files.
 * `kfind` to locate a file or directory.
 
-{{< figure src=/images/blog/kde-apps-20230325.webp alt="KDE Apps LangitKetujuh">}}
+![KDE Apps LangitKetujuh](/images/blog/kde-apps-20230325)
 
 ## Fonts
 
@@ -64,13 +64,13 @@ Pen tablet driver guide `digimend-kernel-drivers` can refer to [this page](https
 
 Useful for setting up pipewire sound management graph. This is useful for setting the sound input and output on the user's computer. Very useful for doing desktop recordings or during podcast sessions.
 
-{{< figure src=/images/blog/qpwgraph-langitketujuh-id-1.webp alt="Qpwgraph LangitKetujuh">}}
+![Qpwgraph LangitKetujuh](/images/blog/qpwgraph-langitketujuh-id-1)
 
 ## QPrompt
 
 Is free software used for teleprompter. Usually used for script readers. Of course it is also useful for creator content purposes. We included it specifically in the studio edition, while the home edition installs it manually with `get qprompt`.
 
-{{< figure src=/images/blog/qprompt-langitketujuh-id-1.webp alt="QPrompt LangitKetujuh">}}
+![QPrompt LangitKetujuh](/images/blog/qprompt-langitketujuh-id-1)
 
 ## Desktop Effect
 
@@ -78,17 +78,17 @@ LangitKetujuh KDE enables desktop effects `Magic Lamp` and `Wobbly Windows` to p
 
 * Magic Lamp
 
-{{< figure src=/images/blog/desktop-effect-magic-lamp-langitketujuh-id.webp alt="Magic Lamp LangitKetujuh">}}
+![agic Lamp LangitKetujuh](/images/blog/desktop-effect-magic-lamp-langitketujuh-id.webp M)
 
 * Wobbly
 
-{{< figure src=/images/blog/desktop-effect-wobbly-langitketujuh-id.webp alt="Wobbly LangitKetujuh">}}
+![Wobbly LangitKetujuh](/images/blog/desktop-effect-wobbly-langitketujuh-id)
 
 ## Installer
 
 The disk installer has an instant guide in the partitioning section. Because in general, ordinary users are still confused about partitioning on unix-like/linux systems. The hope is to become more familiar with the 3 important mountpoints in this operating system, such as `/boot/efi`, `/`, and `/home`.
 
-{{< figure src=/images/blog/install-filesystem-type-mount-point.webp alt="Type Mount Point LangitKetujuh">}}
+![Type Mount Point LangitKetujuh](/images/blog/install-filesystem-type-mount-point)
 
 ## Thank you so much
 
