@@ -10,8 +10,9 @@ opengraph:
 draft: false
 download:
   enable: true
-  image: images/footer-pro.webp
-  content: Edisi Home untuk kebutuhan standar. Terdapat aplikasi firefox, inkscape, gimp, libreoffice, codec audio dan video. Arsitektur musl tidak mendukung aplikasi nonfree seperti nvidia, zoom, discord dan lainnya. Tetapi beberapa aplikasi tersebut dapat dipasang melalui flatpak.
+  content: "Edisi Home untuk kebutuhan standar. Terdapat aplikasi firefox, inkscape, gimp, libreoffice, codec audio dan video. Arsitektur musl tidak mendukung aplikasi nonfree seperti nvidia, zoom, discord dan lainnya. Tetapi beberapa aplikasi tersebut dapat dipasang melalui flatpak.<br><br>
+  LangitKetujuh OS Edisi Home bebas biaya dan tidak menghasilkan pendapatan langsung apa pun. Itu didanai oleh iklan, sponsor dan donasi dan secara finansial didukung oleh komunitas penggunanya sendiri. Dukung kami untuk terus berkembang."
+  button:
   button:
     enable: true
     label: Unduh ISO
