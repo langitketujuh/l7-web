@@ -282,3 +282,6 @@ other = "Benefits Package"
 
 [optional]
 other = "(Optional)"
+
+[donate]
+other = "Donate"

@@ -281,3 +281,6 @@ other = "Paket Benefit"
 
 [optional]
 other = "(Opsional)"
+
+[donate]
+other = "Donasi"
