@@ -66,7 +66,7 @@ Nah.. Untuk global tema, sebelum rilis ini kami membuat 2 tema. Antara lain tema
 Website utama sekarang mengaktifkan penyaranan tema gelap (`prefered-dark`). Sehingga tampilannya secara otomatis mengikuti tema sistem, baik itu tema terang maupun tema gelap.
 
 ![Website LangitKetujuh](/images/blog/web-light-mode.webp)
-![Website Dark Mode LangitKetujuh](/images/blog/web-dark-mode.webp.webp)
+![Website Dark Mode LangitKetujuh](/images/blog/web-dark-mode.webp)
 
 ### Mendukung PWA
 

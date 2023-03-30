@@ -52,6 +52,7 @@ Menambahkan `corectrl` untuk mengontrol hardware core cpu dengan mudah. Corectrl
 Menambahkan `skanpage` sebagai pengganti dari skanlite serta dapat melakukan scanning dengan banyak halaman (multipage).
 
 ![Skanpage LangitKetujuh](/images/blog/skanpage-langitketujuh-id-1.webp)
+
 ### LangitKetujuh menu
 Beberapa pintasan menu LangitKetujuh ditambahkan untuk memudahkan pengguna jika ingin menuju ke halaman situs utama, komunitas, panduan, dan kontribusi.
 
