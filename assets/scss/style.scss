@@ -14,7 +14,7 @@ $light: {{.light | default "#f0f9ff"}};
 $dark: {{.dark | default "#1a1d1e"}};
 
 // Font Variables
-$primary-font: '{{ replaceRE ":[ital,]*wght@[0-9,;]+" "" .primary_font | default "Noto Sans"}}', {{.primary_font_type | default "sans-serif"}};
+$primary-font: '{{ replaceRE ":[ital,]*wght@[0-9,;]+" "" .primary_font | default "Montserrat"}}', {{.primary_font_type | default "sans-serif"}};
 $icon-font: '{{.icon_font | default "Font Awesome 6 Free"}}';
 {{ end }}
 
