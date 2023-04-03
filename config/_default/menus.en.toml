@@ -168,6 +168,14 @@ URL = "profile/about-us"
 parent = "profile"
 weight = 2
 
+# brand
+[[main]]
+name = "Brand"
+identifier = "brand"
+URL = "profile/brand"
+parent = "profile"
+weight = 3
+
 # faq
 [[main]]
 name = "FAQ"
