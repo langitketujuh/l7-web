@@ -10,7 +10,7 @@ opengraph:
 
 ## Lettermark Logo
 
-Unduh Logo: [**SVG**](/files/brand/logo_langitketujuh_1.0.tar.gz)
+Unduh: [**Logo (SVG)**](/files/brand/logo_langitketujuh_1.0.tar.gz)
 
 Logo LangitKetujuh OS merupakan singkatan dari langit ketujuh sendiri, yaitu gabungan huruf L dan angka 7. Dibawah ini merupakan logo utama yang digunakan untuk Info Center di KDE Plasma.
 
@@ -30,7 +30,7 @@ Jika ingin menggunakan logo polos seperti splash screen bisa menggunakan logo di
 
 ## Wallpaper
 
-Unduh Wallpaper: [**SVG**](/files/brand/wallpaper_langitketujuh_1.0.tar.gz)
+Unduh: [**Wallpaper (SVG)**](/files/brand/wallpaper_langitketujuh_1.0.tar.gz)
 
 Tampilan wallpaper dengan highlight biru sebagai warna utama dan warna gelap yang menyesuaikan tema.
 
@@ -38,7 +38,7 @@ Tampilan wallpaper dengan highlight biru sebagai warna utama dan warna gelap yan
 
 ## Mockup
 
-Unduh Mockup: [**SVG & PNG**](/files/brand/mockup_langitketujuh_1.0.tar.gz)
+Unduh: [**Mockup (SVG & PNG)**](/files/brand/mockup_langitketujuh_1.0.tar.gz)
 
 Tampilan wallpaper dengan mockup laptop.
 
@@ -46,7 +46,9 @@ Tampilan wallpaper dengan mockup laptop.
 
 ## Tipografi
 
-Untuk menjaga konsistensi tipografi disetiap elemen, LangitKetujuh OS menggunakan jenis keluarga Font [Montserrat](https://fonts.google.com/specimen/Montserrat).
+Unduh: [**Font (TTF)**](https://fonts.google.com/download?family=Montserrat)
+
+Untuk menjaga konsistensi tipografi disetiap elemen, LangitKetujuh OS menggunakan jenis keluarga Font [Montserrat](https://fonts.google.com/specimen/Montserrat) yang dibawah lisensi SIL Open Font. Pengguna edisi studio sudah terpasang secara bawaan dari paket Google Font.
 
 <div class="col-lg-12 mx-auto text-center">
   <h2 style="font-weight: 300;">Montserrat Light</h2>
@@ -58,7 +60,7 @@ Untuk menjaga konsistensi tipografi disetiap elemen, LangitKetujuh OS menggunaka
 
 ## Identitas Warna
 
-Unduh Palette Warna: [**SVG**](/files/brand/palette_color_langitketujuh_1.0.tar.gz)
+Unduh: [**Palette Warna (SVG)**](/files/brand/palette_color_langitketujuh_1.0.tar.gz)
 
 Penggunaan warna dominan menggunakan warna biru, ungu, emas dan hitam gelap.
 

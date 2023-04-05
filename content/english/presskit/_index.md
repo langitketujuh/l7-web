@@ -10,7 +10,7 @@ opengraph:
 
 ## Lettermark Logo
 
-Download Logo: [**SVG**](/files/brand/logo_langitketujuh_1.0.tar.gz)
+Download: [**Logo (SVG)**](/files/brand/logo_langitketujuh_1.0.tar.gz)
 
 The LangitKetujuh OS logo stands for sky and the seventh itself, which is a combination of the letter L and the number 7. Below is the main logo used for the Info Center on KDE Plasma.
 
@@ -30,7 +30,7 @@ If you want to use a plain logo like a splash screen, you can use the logo below
 
 ## Wallpaper
 
-Download Wallpaper: [**SVG**](/files/brand/wallpaper_langitketujuh_1.0.tar.gz)
+Download: [**Wallpaper (SVG)**](/files/brand/wallpaper_langitketujuh_1.0.tar.gz)
 
 Display wallpaper with blue highlights as the main color and dark colors that match the theme.
 
@@ -38,7 +38,7 @@ Display wallpaper with blue highlights as the main color and dark colors that ma
 
 ## Mockup
 
-Download Mockup: [**SVG & PNG**](/files/brand/mockup_langitketujuh_1.0.tar.gz)
+Download: [**Mockup (SVG & PNG)**](/files/brand/mockup_langitketujuh_1.0.tar.gz)
 
 Wallpaper display with laptop mockup.
 
@@ -46,7 +46,9 @@ Wallpaper display with laptop mockup.
 
 ## Typography
 
-To maintain typographical consistency in each element, LangitKetujuh OS uses the [Montserrat](https://fonts.google.com/specimen/Montserrat) Fonts family.
+Unduh Font (TTF)**](https://fonts.google.com/download?family=Montserrat)
+
+To maintain typographical consistency in each element, LangitKetujuh OS uses the [Montserrat](https://fonts.google.com/specimen/Montserrat) Fonts family licensed under the SIL Open Font. Studio edition users come installed by default from the Google Fonts package.
 
 <div class="col-lg-12 mx-auto text-center">
   <h2 style="font-weight: 300;">Montserrat Light</h2>
@@ -58,7 +60,7 @@ To maintain typographical consistency in each element, LangitKetujuh OS uses the
 
 ## Color Identity
 
-Download Palette Color: [**SVG**](/files/brand/palette_color_langitketujuh_1.0.tar.gz)
+Download: [**Palette Color (SVG)**](/files/brand/palette_color_langitketujuh_1.0.tar.gz)
 
 Dominant use of colors using blue, purple, gold and dark black.
 
