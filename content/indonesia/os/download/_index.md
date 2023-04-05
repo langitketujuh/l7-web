@@ -6,7 +6,7 @@ description: "Penuhi kebutuhan desainmu dengan LangitKetujuh."
 image: images/thumbnail.jpg
 opengraph:
   image: images/thumbnail.jpg
-version: 20220710
+version: 20230325
 
 homeglibc:
   name:
