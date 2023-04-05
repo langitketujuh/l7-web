@@ -1,8 +1,8 @@
 ---
-title: Brand and Press Kit
+title: Press Kit
 subtitle: ''
 description: Collection of assets for branding and media.
-type: "brand"
+type: "presskit"
 image: images/thumbnail.jpg
 opengraph:
   image: images/thumbnail.jpg

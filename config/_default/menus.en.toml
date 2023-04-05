@@ -197,9 +197,8 @@ url = "privacy"
 weight = 4
 
 [[footer_middle]]
-name = "Brand & Press Kit"
-identifier = "brand"
-URL = "brand"
+name = "Press Kit"
+URL = "presskit"
 weight = 1
 
 [[footer_middle]]

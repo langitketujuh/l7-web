@@ -1,8 +1,8 @@
 ---
-title: Merek dan Press Kit
+title: Press Kit
 subtitle: ''
 description: Kumpulan aset untuk branding dan media.
-type: "brand"
+type: "presskit"
 image: images/thumbnail.jpg
 opengraph:
   image: images/thumbnail.jpg
@@ -81,4 +81,4 @@ Penggunaan warna dominan menggunakan warna biru, ungu, emas dan hitam gelap.
 
 ## Lisensi dan Hak Cipta
 
-Semua konten dan asset digital diatas dibuat oleh Tim LangitKetujuh Visual Design dengan berdasarkan [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC 4.0)](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+Semua konten dan asset digital diatas dibuat oleh Tim LangitKetujuh Visual Design dibawah [Lisensi Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC 4.0)](http://creativecommons.org/licenses/by-nc-sa/4.0/).
