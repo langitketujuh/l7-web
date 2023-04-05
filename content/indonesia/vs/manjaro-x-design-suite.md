@@ -9,7 +9,7 @@ author: "LangitKetujuh"
 draft: false
 ---
 
-| Feature                           | Manjaro-X | L7 Studio |
+| Feature                           | Manjaro-X | LangitKetujuh Studio |
 | :--------------------------------------- | :---: | :----: |
 | Dukungan pemasangan oleh tenaga ahli.    |   -   | **√**  |
 | Deteksi Printer HP dan Epson.            |   -   | **√**  |
@@ -52,4 +52,3 @@ draft: false
 | Scribus desain tata letak.               | **√** | **√**  |
 | Shotwell foto manager.                   |   -   |   -    |
 | Synfigstudio Animasi Vector 2D.          |   -   | **√**  |
-| VLC pemutar video.                       |   -   | **√**  |

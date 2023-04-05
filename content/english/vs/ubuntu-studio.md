@@ -9,7 +9,7 @@ author: "LangitKetujuh"
 draft: false
 ---
 
-| Feature                            | Ubuntu Std | L7 Studio |
+| Feature                            | Ubuntu Studio | LangitKetujuh Studio |
 | :----------------------------------------- | :---: | :----: |
 | Installation support by experts.           |   -   | **√**  |
 | HP and Epson printer detection.            |   -   | **√**  |
@@ -52,4 +52,3 @@ draft: false
 | Scribus layout design.                     | **√** | **√**  |
 | Shotwell photo manager.                    |   -   |   -    |
 | Synfigstudio 2D Vector Animation.          |   -   | **√**  |
-| VLC Video player.                          |   -   | **√**  |

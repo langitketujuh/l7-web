@@ -9,7 +9,7 @@ author: "LangitKetujuh"
 draft: false
 ---
 
-| Feature                           | Fedora DS | L7 Studio |
+| Feature      | Fedora Design S | LangitKetujuh Studio |
 | :--------------------------------------- | :---: | :----: |
 | Dukungan pemasangan oleh tenaga ahli.    |   -   | **√**  |
 | Deteksi Printer HP dan Epson.            |   -   | **√**  |
@@ -52,4 +52,3 @@ draft: false
 | Scribus desain tata letak.               | **√** | **√**  |
 | Shotwell foto manager.                   | **√** |   -    |
 | Synfigstudio Animasi Vector 2D.          |   -   | **√**  |
-| VLC pemutar video.                       |   -   | **√**  |

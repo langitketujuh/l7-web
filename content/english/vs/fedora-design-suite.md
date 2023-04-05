@@ -9,7 +9,7 @@ author: "LangitKetujuh"
 draft: false
 ---
 
-| Feature                             | Fedora DS | L7 Studio |
+| Feature                             | Fedora Design S | LangitKetujuh Studio |
 | :----------------------------------------- | :---: | :----: |
 | Installation support by experts.           |   -   | **√**  |
 | HP and Epson printer detection.            |   -   | **√**  |
@@ -52,4 +52,3 @@ draft: false
 | Scribus layout design.                     | **√** | **√**  |
 | Shotwell photo manager.                    | **√** |   -    |
 | Synfigstudio 2D Vector Animation.          |   -   | **√**  |
-| VLC Video player.                          |   -   | **√**  |
