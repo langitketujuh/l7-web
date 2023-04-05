@@ -84,3 +84,5 @@ Penggunaan warna dominan menggunakan warna biru, ungu, emas dan hitam gelap.
 ## Lisensi dan Hak Cipta
 
 Semua konten dan asset digital diatas dibuat oleh Tim LangitKetujuh Visual Design dibawah [Lisensi Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC 4.0)](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+LangitKetujuh berhak untuk membatalkan, memodifikasi, atau mengubah izin dalam kebijakan kami kapan saja atas kebijakannya sendiri.
