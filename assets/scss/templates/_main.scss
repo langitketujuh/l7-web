@@ -141,13 +141,20 @@ a.post-title {
   }
 
   table {
-    width: 100%;
-    max-width: 100%;
-    margin-bottom: 1rem;
-    border-collapse:collapse;
-    border-radius:1em;
+    border-collapse: collapse;
+    border-radius: 1em;
     border: 1px solid $border-color;
     box-shadow: 0 12px 24px -6px rgba(37,99,235,.30) !important;
+    display: block;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    overflow-x: auto;
+    table-layout: fixed;
+    white-space: nowrap;
+    width: 100%;
   }
 
   table td,
@@ -170,6 +177,7 @@ a.post-title {
 
   thead {
     background: $white;
+    border-radius:1em;
     margin-bottom: 0;
 
     tr {
