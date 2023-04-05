@@ -48,7 +48,7 @@ Wallpaper display with laptop mockup.
 
 Unduh Font (TTF)**](https://fonts.google.com/download?family=Montserrat)
 
-To maintain typographical consistency in each element, LangitKetujuh OS uses the [Montserrat](https://fonts.google.com/specimen/Montserrat) Fonts family licensed under the SIL Open Font. Studio edition users come installed by default from the Google Fonts package.
+To maintain typographical consistency in each element, LangitKetujuh OS uses the [Montserrat](https://fonts.google.com/specimen/Montserrat) Fonts family under the SIL Open Font License. Studio edition users come installed by default from the Google Fonts package.
 
 <div class="col-lg-12 mx-auto text-center">
   <h2 style="font-weight: 300;">Montserrat Light</h2>

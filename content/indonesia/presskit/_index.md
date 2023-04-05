@@ -48,7 +48,7 @@ Tampilan wallpaper dengan mockup laptop.
 
 Unduh: [**Font (TTF)**](https://fonts.google.com/download?family=Montserrat)
 
-Untuk menjaga konsistensi tipografi disetiap elemen, LangitKetujuh OS menggunakan jenis keluarga Font [Montserrat](https://fonts.google.com/specimen/Montserrat) yang dibawah lisensi SIL Open Font. Pengguna edisi studio sudah terpasang secara bawaan dari paket Google Font.
+Untuk menjaga konsistensi tipografi disetiap elemen, LangitKetujuh OS menggunakan jenis keluarga Font [Montserrat](https://fonts.google.com/specimen/Montserrat) dibawah lisensi SIL Open Font. Pengguna edisi studio sudah terpasang secara bawaan dari paket Google Font.
 
 <div class="col-lg-12 mx-auto text-center">
   <h2 style="font-weight: 300;">Montserrat Light</h2>
