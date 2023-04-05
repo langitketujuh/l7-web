@@ -64,7 +64,7 @@ Unduh: [**Palette Warna (SVG)**](/files/brand/palette_color_langitketujuh_1.0.ta
 
 Penggunaan warna dominan menggunakan warna biru, ungu, emas dan hitam gelap.
 
-| Warna | Kode RGB | Keterangan |
+| Visual Warna | Kode RGB | Keterangan |
 | :---: | :---: | :---: |
 | <?xml?><svg width="50" height="50" viewBox="0 0 13.229 13.229"><circle cx="6.6145" cy="6.6145" r="6.360096" fill="#60a5fa" style="stroke:#e6e6e6;stroke-width:0.508808;"/></svg> | #60a5fa | Biru 1|
 | <?xml?><svg width="50" height="50" viewBox="0 0 13.229 13.229"><circle cx="6.6145" cy="6.6145" r="6.360096" fill="#3b82f6" style="stroke:#e6e6e6;stroke-width:0.508808;"/></svg> | #3b82f6 | Biru 2 (Dasar) |

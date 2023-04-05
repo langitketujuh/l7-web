@@ -64,7 +64,7 @@ Download: [**Palette Color (SVG)**](/files/brand/palette_color_langitketujuh_1.0
 
 Dominant use of colors using blue, purple, gold and dark black.
 
-| Color | RGB Code | Description |
+| Color Visual | RGB Code | Description |
 | :---: | :---: | :---: |
 | <?xml?><svg width="50" height="50" viewBox="0 0 13.229 13.229"><circle cx="6.6145" cy="6.6145" r="6.360096" fill="#60a5fa" style="stroke:#e6e6e6;stroke-width:0.508808;"/></svg> | #60a5fa | Blue 1|
 | <?xml?><svg width="50" height="50" viewBox="0 0 13.229 13.229"><circle cx="6.6145" cy="6.6145" r="6.360096" fill="#3b82f6" style="stroke:#e6e6e6;stroke-width:0.508808;"/></svg> | #3b82f6 | Blue 2 (Default) |
