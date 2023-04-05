@@ -44,7 +44,7 @@ Wallpaper display with laptop mockup.
 
 ![Mockup LangitKetujuh OS](/images/brand/mockup_langitketujuh.webp)
 
-## Tipography
+## Typography
 
 To maintain typographical consistency in each element, LangitKetujuh OS uses the [Montserrat](https://fonts.google.com/specimen/Montserrat) Fonts family.
 
