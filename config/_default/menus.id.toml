@@ -167,14 +167,6 @@ URL = "profile/about-us"
 parent = "profile"
 weight = 2
 
-# brand
-[[main]]
-name = "Brand"
-identifier = "brand"
-URL = "profile/brand"
-parent = "profile"
-weight = 3
-
 # faq
 [[main]]
 name = "FAQ"
@@ -189,7 +181,7 @@ URL = "profile/contact"
 weight = 1
 
 [[footer_left]]
-name = "Kode sumber"
+name = "Kode Sumber"
 URL = "https://gitlab.com/langitketujuh"
 weight = 2
 
@@ -199,14 +191,30 @@ url = "tos"
 weight = 3
 
 [[footer_left]]
-name = "Kebijakan pribadi"
+name = "Kebijakan Pribadi"
 url = "privacy"
 weight = 4
 
 [[footer_middle]]
-name = "LangitKetujuh"
-URL = "/"
+name = "Merek & Press Kit"
+identifier = "brand"
+URL = "brand"
 weight = 1
+
+[[footer_middle]]
+name = "Kerjasama"
+URL = "cooperation"
+weight = 2
+
+[[footer_middle]]
+name = "Peta Jalan"
+URL = "os/roadmap"
+weight = 3
+
+[[footer_middle]]
+name = "Ikuti Kami"
+URL = "https://follow.langitketujuh.id"
+weight = 4
 
 [[footer_right]]
 name = "Komunitas"
@@ -214,21 +222,6 @@ URL = "community"
 weight = 1
 
 [[footer_right]]
-name = "Umpan balik"
+name = "Umpan Balik"
 URL = "feedback"
 weight = 2
-
-[[footer_right]]
-name = "Kerjasama"
-URL = "cooperation"
-weight = 3
-
-[[footer_right]]
-name = "Peta jalan"
-URL = "os/roadmap"
-weight = 5
-
-[[footer_right]]
-name = "Ikuti kami"
-URL = "https://follow.langitketujuh.id"
-weight = 6
