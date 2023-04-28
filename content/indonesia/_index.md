@@ -35,7 +35,7 @@ feature:
 
     - name: "Vulkan API"
       icon : "fas fa-gamepad"
-      content: "Vulkan menarketkan performa tinggi untuk 3D grafis dengan penggunaan CPU dan GPU yang lebih seimbang."
+      content: "Vulkan menargetkan performa tinggi untuk 3D grafis dengan penggunaan CPU dan GPU yang lebih seimbang."
 
     - name: "PipeWire"
       icon : "fas fa-play-circle"
