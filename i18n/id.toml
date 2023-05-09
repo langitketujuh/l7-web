@@ -66,6 +66,9 @@ other = "Nama Anda"
 [youremail]
 other = "Email Anda"
 
+[yourprevemail]
+other = "Email Sebelumnya (abaikan jika nama email sama)"
+
 [subject]
 other = "Subjek"
 

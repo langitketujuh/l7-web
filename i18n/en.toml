@@ -67,6 +67,9 @@ other = "Your Name"
 [youremail]
 other = "Your Email"
 
+[yourprevemail]
+other = "Your Previous Email (ignore if the email names are the same)"
+
 [subject]
 other = "Subject"
 
