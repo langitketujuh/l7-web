@@ -17,7 +17,7 @@ draft: false
 
 ## LangitKetujuh OS?
 
-[LangitKetujuh](https://langitketujuh.id) or `L7` is a GNU/Linux distribution for designers, illustrators, animators, publishers, photographers, architects, font creators, cinematographers, game designers and for users who are new to GNU/Linux. This distribution is based on [void linux](https://voidlinux.org) which uses [runit init](http://smarden.org/runit/), [KDE Plasma](https://kde.org/plasma-desktop) desktop environment, stable [rolling release](https://en.wikipedia.org/wiki/Rolling_release) and there is an efficient C library with [musl libc](https://www.musl-libc.org).
+[LangitKetujuh](https://langitketujuh.id) or `L7` is a distribution for designers, illustrators, animators, publishers, photographers, architects, font creators, cinematographers, game designers and for users who are new to GNU/Linux. This distribution is based on [void linux](https://voidlinux.org) which uses [runit init](http://smarden.org/runit/), [KDE Plasma](https://kde.org/plasma-desktop) desktop environment, stable [rolling release](https://en.wikipedia.org/wiki/Rolling_release) and there is an efficient C library with [musl libc](https://www.musl-libc.org).
 
 Thank God we were able to release the LangitKetujuh with lots of improvements and new features. Here is a list of changes and release notes in version `20221205`.
 

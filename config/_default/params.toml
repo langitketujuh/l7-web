@@ -1,7 +1,7 @@
 # Default parameters
 logo = "images/icon.webp"
 logo_width = "60px"
-description = "GNU/Linux distribution for designers, illustrators, animators, publishers, photographers, font creators and game designers. Using glibc & musl libc, rolling releases, runit init and KDE desktop environments."
+description = "Distribution for designers, illustrators, animators, publishers, photographers, font creators and game designers. Using glibc & musl libc, rolling releases, runit init and KDE desktop environments."
 author = "LangitKetujuh"
 image = "images/icon.webp" # this image will be used as fallback if a page has no image of its own
 
