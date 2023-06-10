@@ -93,18 +93,18 @@ _Barakallahu fiikum._
 
 [roadmap]:os/roadmap
 [kirim ulang]:os/resend
-[panduan]:https://panduan.langitketujuh.id
-[pulseaudio]:https://panduan.langitketujuh.id/konfigurasi/multimedia/pulseaudio.html
-[sesi desktop]:https://panduan.langitketujuh.id/konfigurasi/kde/sesi-desktop.html
-[2 server]:https://panduan.langitketujuh.id/konfigurasi/server.html
-[carla]:https://panduan.langitketujuh.id/aplikasi/audio/carla.html
-[cadence]:https://panduan.langitketujuh.id/aplikasi/audio/cadence.html
-[goxel]:https://panduan.langitketujuh.id/aplikasi/animasi/goxel.html
-[printer]:https://panduan.langitketujuh.id/konfigurasi/driver/printer/index.html
-[brother]:https://panduan.langitketujuh.id/konfigurasi/driver/printer/brother.html
-[canon]:https://panduan.langitketujuh.id/konfigurasi/driver/printer/canon.html
-[epson]:https://panduan.langitketujuh.id/konfigurasi/driver/printer/epson.html
-[HP]:https://panduan.langitketujuh.id/konfigurasi/driver/printer/hp.html
-[open printing]:https://panduan.langitketujuh.id/konfigurasi/driver/printer/open-printing.html
-[runit init]:https://panduan.langitketujuh.id/konfigurasi/layanan/sv.html#daftar-layanan-yang-aktif
-[mengkonfigurasi touchpad]:https://panduan.langitketujuh.id/konfigurasi/kde/pengaturan-sistem.html#mengaktifkan-tap-to-click
+[panduan]:https://wiki.langitketujuh.id
+[pulseaudio]:https://wiki.langitketujuh.id/konfigurasi/multimedia/pulseaudio.html
+[sesi desktop]:https://wiki.langitketujuh.id/konfigurasi/kde/sesi-desktop.html
+[2 server]:https://wiki.langitketujuh.id/konfigurasi/server.html
+[carla]:https://wiki.langitketujuh.id/aplikasi/audio/carla.html
+[cadence]:https://wiki.langitketujuh.id/aplikasi/audio/cadence.html
+[goxel]:https://wiki.langitketujuh.id/aplikasi/animasi/goxel.html
+[printer]:https://wiki.langitketujuh.id/konfigurasi/driver/printer/index.html
+[brother]:https://wiki.langitketujuh.id/konfigurasi/driver/printer/brother.html
+[canon]:https://wiki.langitketujuh.id/konfigurasi/driver/printer/canon.html
+[epson]:https://wiki.langitketujuh.id/konfigurasi/driver/printer/epson.html
+[HP]:https://wiki.langitketujuh.id/konfigurasi/driver/printer/hp.html
+[open printing]:https://wiki.langitketujuh.id/konfigurasi/driver/printer/open-printing.html
+[runit init]:https://wiki.langitketujuh.id/konfigurasi/layanan/sv.html#daftar-layanan-yang-aktif
+[mengkonfigurasi touchpad]:https://wiki.langitketujuh.id/konfigurasi/kde/pengaturan-sistem.html#mengaktifkan-tap-to-click

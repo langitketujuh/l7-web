@@ -48,7 +48,7 @@ The basic idea of the new LangitKetujuh wallpaper is glass and streaks of dazzli
 
 One of the new applications that we have added is the `webapp-manager` where users can create web applications as they wish. For example social media and email where there is no application for desktop native.
 
-For details, users can refer to the [webapp manager guide page](https://panduan.langitketujuh.id/aplikasi/produktifitas/webapp-manager).
+For details, users can refer to the [webapp manager guide page](https://wiki.langitketujuh.id/aplikasi/produktifitas/webapp-manager).
 
 ![Webapp Manager LangitKetujuh](/images/blog/webapp-manager-langitketujuh-id.webp)
 
@@ -95,7 +95,7 @@ By default, LangitKetujuh follows the upstream void linux kernel, so it also fol
 
 Color profile image converter rgb to cmyk can be done with `ccc` via konsole terminal emulator. Its use is fairly easy, users only run `ccc -i rgbimage.png -o cmykimage.jpg`. By default ccc uses the color profile from ghostscript, but also supports other color profiles from krita and scribus.
 
-For details, users can refer to the [ccc guide page](https://panduan.langitketujuh.id/aplikasi/perkakas/ccc.html).
+For details, users can refer to the [ccc guide page](https://wiki.langitketujuh.id/aplikasi/perkakas/ccc.html).
 
 ## i686 edition removed
 

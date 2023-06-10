@@ -58,7 +58,7 @@ Font `liberation-fonts-ttf` dihapus dan diganti dengan `font-liberation-ttf`. De
 
 LangitKetujuh mencoba untuk menghindari kernel modul yang menggunakan [DKMS](https://github.com/dell/dkms) untuk mempercepat waktu booting. Kernel modul DKMS seperti `digimend-kernel-drivers` dan `v4l2loopback` sehingga kedua paket tersebut dihapus. Tetapi paket tersebut masih bisa dipasang secara manual melalui repositori.
 
-Panduan driver pen tablet `digimend-kernel-drivers` dapat merujuk ke [halaman ini](https://panduan.langitketujuh.id/konfigurasi/driver/pen-tablet/digimend.html).
+Panduan driver pen tablet `digimend-kernel-drivers` dapat merujuk ke [halaman ini](https://wiki.langitketujuh.id/konfigurasi/driver/pen-tablet/digimend.html).
 
 ## Qpwgraph
 

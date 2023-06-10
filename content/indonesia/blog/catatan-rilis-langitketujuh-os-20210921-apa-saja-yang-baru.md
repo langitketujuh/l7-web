@@ -86,7 +86,7 @@ Fitur ini memudahkan pengguna untuk komunikasi melalui Telegram atau WhatsApp. T
 
 ### Dokumentasi Offline
 
-Di versi ini terdapat dokumentasi offline, dokumentasi dari https://panduan.langitketujuh.id. Anda bisa membuka dokumentasi secara langsung di menu LangitKetujuh > Guide Book.
+Di versi ini terdapat dokumentasi offline, dokumentasi dari https://wiki.langitketujuh.id. Anda bisa membuka dokumentasi secara langsung di menu LangitKetujuh > Guide Book.
 
 Untuk penguna versi sebelumnya, diperlukan memasang `l7-docs` terlebih dahulu.
 

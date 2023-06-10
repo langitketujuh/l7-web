@@ -17,7 +17,7 @@ Komunitas LangitKetujuh ada di platform [telegram](https://telegram.org/langitke
 {{</ faq >}}
 
 {{< faq "Apakah musl bisa menjalankan aplikasi nonfree?" >}}
-Aplikasi nonfree seperti zoom, microsoft teams, spotify, skype dan lain-lain kebanyakan dibangun menggunakan glibc. Sedangkan aplikasi nonfree tersebut tidak dapat dipasang langsung. Aplikasi tersebut hanya dapat dipasang dengan flatpak. Selengkapnya ada di [perbedaan musl dan glibc](https://panduan.langitketujuh.id/perbandingan/libc.html). Jika ada kesulitan Anda bisa menghubungi [@langitketujuh_cs](https://t.me/langitketujuh_cs) via telegram.
+Aplikasi nonfree seperti zoom, microsoft teams, spotify, skype dan lain-lain kebanyakan dibangun menggunakan glibc. Sedangkan aplikasi nonfree tersebut tidak dapat dipasang langsung. Aplikasi tersebut hanya dapat dipasang dengan flatpak. Selengkapnya ada di [perbedaan musl dan glibc](https://wiki.langitketujuh.id/perbandingan/libc.html). Jika ada kesulitan Anda bisa menghubungi [@langitketujuh_cs](https://t.me/langitketujuh_cs) via telegram.
 {{</ faq >}}
 
 {{< faq "Apakah musl tidak bisa menjalankan aplikasi appimage?" >}}
@@ -29,5 +29,5 @@ Boleh, tetapi untuk kepenggunaan personal saja dan tidak mengupload iso ke websi
 {{</ faq >}}
 
 {{< faq "Apakah LangitKetujuh bisa dipasang aplikasi wine?" >}}
-Ya bisa. Tetapi khusus musl hanya mendukung aplikasi windows 64-bit saja, sedangkan glibc mendukung aplikasi windows 64-bit dan 32-bit. Panduan instalasinya dapat merujuk ke [halaman winehq](https://panduan.langitketujuh.id/aplikasi/windows/winehq.html).
+Ya bisa. Tetapi khusus musl hanya mendukung aplikasi windows 64-bit saja, sedangkan glibc mendukung aplikasi windows 64-bit dan 32-bit. Panduan instalasinya dapat merujuk ke [halaman winehq](https://wiki.langitketujuh.id/aplikasi/windows/winehq.html).
 {{</ faq >}}

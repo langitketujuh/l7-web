@@ -48,7 +48,7 @@ Ide dasar wallpaper baru LangitKetujuh yaitu kaca dan garis cahaya biru silau de
 
 Aplikasi baru yang kami tambahkan salah satunya `webapp-manager` yang dimana pengguna memungkinkan untuk membuat web aplikasi sesuai keinginan. Misalnya sosial media dan surel yang tidak ada aplikasi untuk desktop.
 
-Selengkapnya, pengguna dapat merujuk ke halaman [panduan webapp manager](https://panduan.langitketujuh.id/aplikasi/produktifitas/webapp-manager).
+Selengkapnya, pengguna dapat merujuk ke halaman [panduan webapp manager](https://wiki.langitketujuh.id/aplikasi/produktifitas/webapp-manager).
 
 ![Webapp Manager LangitKetujuh](/images/blog/webapp-manager-langitketujuh-id.webp)
 
@@ -77,7 +77,7 @@ Penampil informasi sistem tidak selalu mengggunakan `neofetch`, `screenfetch`, `
 
 Pengaturan layanan dapat dilakukan dengan `rsv` yang sebelumnya menggunakan `vsv`. Perintah `rsv` lebih sederhana dari `sv` bawaan. Misalnya untuk mengaktifkan layanan dengan cara `rsv enable namalayanan`, memuat ulang layanan `rsv restart namalayanan`, dan sebagainya.
 
-Lebih detail lagi, pengguna dapat merujuk ke halaman [panduan manajemen runit init](https://panduan.langitketujuh.id/konfigurasi/layanan/rsv).
+Lebih detail lagi, pengguna dapat merujuk ke halaman [panduan manajemen runit init](https://wiki.langitketujuh.id/konfigurasi/layanan/rsv).
 
 ## Driver printer dan unrar
 
@@ -95,7 +95,7 @@ Secara bawaan LangitKetujuh mengikuti kernel dari upstream void linux sehingga m
 
 Pengonversi gambar profil rgb ke cmyk dapat dilakukan dengan `ccc` via konsole terminal emulator. Penggunaannya terbilang sangat mudah, pengguna hanya menjalankan `ccc -i gambarrgb.png -o gambarcmyk.jpg`. Secara bawaan ccc menggunakan profil warna dari ghostscript, tetapi juga mendukung profil warna lain dari krita dan scribus.
 
-Selengkapnya, pengguna dapat merujuk ke halaman [panduan ccc](https://panduan.langitketujuh.id/aplikasi/perkakas/ccc.html).
+Selengkapnya, pengguna dapat merujuk ke halaman [panduan ccc](https://wiki.langitketujuh.id/aplikasi/perkakas/ccc.html).
 
 ## Arsitektur i686 dihapus
 

@@ -17,7 +17,7 @@ The LangitKetujuh Community is on the [telegram](https://telegram.org/langitketu
 {{</ faq >}}
 
 {{< faq "Can't musl run nonfree apps?" >}}
-Nonfree applications such as zoom, microsoft teams, spotify, skype and others are mostly built using glibc. Meanwhile, these nonfree applications cannot be installed directly. The app can only be installed with flatpak. Details are in [differences between musl and glibc](https://panduan.langitketujuh.id/perbandingan/libc.html). If you have any difficulties, you can contact [@langitketujuh_cs](https://t.me/langitketujuh_cs) via telegram.
+Nonfree applications such as zoom, microsoft teams, spotify, skype and others are mostly built using glibc. Meanwhile, these nonfree applications cannot be installed directly. The app can only be installed with flatpak. Details are in [differences between musl and glibc](https://wiki.langitketujuh.id/perbandingan/libc.html). If you have any difficulties, you can contact [@langitketujuh_cs](https://t.me/langitketujuh_cs) via telegram.
 {{</ faq >}}
 
 {{< faq "Can musl run the appimage application?" >}}
@@ -29,5 +29,5 @@ Yes, but for personal use only and do not upload iso to websites or other media.
 {{</ faq >}}
 
 {{< faq "Can LangitKetujuh be installed with the wine application?" >}}
-Yes, can. But specifically musl only supports 64-bit windows applications, while glibc supports 64-bit and 32-bit windows applications. The installation guide can refer to [winehq page](https://panduan.langitketujuh.id/aplikasi/windows/winehq.html).
+Yes, can. But specifically musl only supports 64-bit windows applications, while glibc supports 64-bit and 32-bit windows applications. The installation guide can refer to [winehq page](https://wiki.langitketujuh.id/aplikasi/windows/winehq.html).
 {{</ faq >}}

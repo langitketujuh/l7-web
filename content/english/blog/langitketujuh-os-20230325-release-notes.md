@@ -58,7 +58,7 @@ The `liberation-fonts-ttf` font was removed and replaced with `font-liberation-t
 
 LangitKetujuh tries to avoid kernel modules that use [DKMS](https://github.com/dell/dkms) to speed up boot time. DKMS module kernels like `digimend-kernel-drivers` and `v4l2loopback` so those two packages were removed. But the package can still be installed manually via the repository.
 
-Pen tablet driver guide `digimend-kernel-drivers` can refer to [this page](https://panduan.langitketujuh.id/konfigurasi/driver/pen-tablet/digimend.html).
+Pen tablet driver guide `digimend-kernel-drivers` can refer to [this page](https://wiki.langitketujuh.id/konfigurasi/driver/pen-tablet/digimend.html).
 
 ## Qpwgraph
 

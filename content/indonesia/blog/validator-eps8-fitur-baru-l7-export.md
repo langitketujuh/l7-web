@@ -31,7 +31,7 @@ Berkas `.svg` yang telah dikatakan `[VALID]` maka akan dilanjutkan untuk ekspor 
 
 Setelah aman dan lolos semua pastikan ukuran setiap objek sesuai dengan ukuran yang disarankan `Advice (px)` dan gunakan DPI yang sesuai dengan marketplace-nya.
 
-Yuk update sistem LangitKetujuh agar mendapat L7-export versi terbaru. Kalau bukan pengguna LangitKetujuh tapi ingin mencoba bagaimana? silahkan merujuk ke tautan berikut ini https://panduan.langitketujuh.id/aplikasi/l7-export/
+Yuk update sistem LangitKetujuh agar mendapat L7-export versi terbaru. Kalau bukan pengguna LangitKetujuh tapi ingin mencoba bagaimana? silahkan merujuk ke tautan berikut ini https://wiki.langitketujuh.id/aplikasi/l7-export/
 
 _Barakallahu fiikum._
 

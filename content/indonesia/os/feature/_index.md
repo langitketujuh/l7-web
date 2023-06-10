@@ -17,7 +17,7 @@ call_to_action:
   button:
     enable : true
     label : Docs
-    link : https://panduan.langitketujuh.id/perbandingan/index.html
+    link : https://wiki.langitketujuh.id/perbandingan/index.html
 
 ---
 

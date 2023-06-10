@@ -72,7 +72,7 @@ AVLinux dibekali dengan plugin-plugin yang mendukung untuk keperluan produksi au
 
 **LangitKetujuh** adalah satu dari sekian distro yang dikembangkan oleh orang Indonesia. Distro ini pun dikembangkan oleh seorang desainer grafis yaitu [Hervy Qurrotul Ainur Rozi](https://t.me/hervyqa) yang sudah beberapa kali [_memenangkan kontes desain_](https://news.opensuse.org/2019/07/09/opensuse-asia-summit-2019-logo-competition-winner/) [_grafis interlokal_](https://adfinis.com/en/blog/winners-of-the-libreoffice-template-contest-2020/), tentu dengan dikembangkannya LangitKetujuh langsung oleh seorang desainer grafis menjadikan distro ini sudah sepaket dengan keperluan-keperluan desain grafis.
 
-LangitKetujuh juga sudah memasangkan font dari google yang sudah bisa digunakan untuk keperluan komersial, aplikasi-aplikasi untuk keperluan desain grafis seperti Inkscape dan GIMP, bahkan hingga adanya [_L7-Export_](https://panduan.langitketujuh.id/aplikasi/perkakas/l7-export.html) Inkscape yang memudahkan desainer grafis ketika export file untuk kepentingan sosial media dan marketplace.
+LangitKetujuh juga sudah memasangkan font dari google yang sudah bisa digunakan untuk keperluan komersial, aplikasi-aplikasi untuk keperluan desain grafis seperti Inkscape dan GIMP, bahkan hingga adanya [_L7-Export_](https://wiki.langitketujuh.id/aplikasi/perkakas/l7-export.html) Inkscape yang memudahkan desainer grafis ketika export file untuk kepentingan sosial media dan marketplace.
 
 Pemakaian RAM yang efisien pun dipikirkan oleh Mas Hervy sehingga distro ini menggunakan runit init ketimbang systemd. Agar desainer grafis tidak direpotkan dengan upgrade OS, maka LangitKetujuh memilih rolling release ketimbang point release agar saat upgrade tidak perlu penyesuaian lagi.
 
