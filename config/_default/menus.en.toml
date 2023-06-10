@@ -13,9 +13,9 @@ parent = "os"
 weight = 1
 
 [[main]]
-name = "Guide (id_ID)"
-identifier = "guide"
-URL = "https://panduan.langitketujuh.id"
+name = "Wikipedia (id_ID)"
+identifier = "wiki"
+URL = "https://wiki.langitketujuh.id"
 parent = "os"
 weight = 2
 
