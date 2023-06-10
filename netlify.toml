@@ -60,7 +60,7 @@ HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
   from = "https://langitketujuh.id/wa"
-  to = "https://api.whatsapp.com/send/?phone=6282131146131"
+  to = "https://wa.me/message/RN5NNCNHNEY6B1"
   status = 301
   force = true
 
