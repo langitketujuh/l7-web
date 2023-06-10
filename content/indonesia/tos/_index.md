@@ -61,7 +61,7 @@ Kami ingin mengucapkan terima kasih kepada semua orang yang telah memungkinkan k
 LangitKetujuh Linux menggunakan beberapa merek dagang dari proyek yang berbeda. Hak mereka tidak dikesampingkan oleh lisensi kami dan tetap utuh.
 
 - 2021-2023 [Hervy Qurrotul Ainur Rozi](https://hervyqa.id) dan [LangitKetujuh kontributor](https://gitlab.com/langitketujuh).
-- 2020 [VoidLinux kontributor](https://github.com/orgs/void-linux/people) dan 2008-2018 [Juan RP](https://gitlab.com/xtraeme).
+- 2020 [void linux kontributor](https://github.com/orgs/void-linux/people) dan 2008-2018 [Juan RP](https://gitlab.com/xtraeme).
 - [Linux®](https://www.linuxfoundation.org/programs/legal/trademark/attribution) telah didaftarkan dengan merek dagang dari Linus Torvalds.
 - [KDE® and the K Desktop Environment® logo](https://kde.org/media/images/trademark_kde_gear_black_logo.png) telah didaftarkan dengan branding [KDE e.V](https://ev.kde.org/).
 - Template situs oleh [Themefisher](https://themefisher.com/) dan dikembangkan oleh [Gethugothemes](https://gethugothemes.com/).

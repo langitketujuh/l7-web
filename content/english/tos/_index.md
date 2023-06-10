@@ -61,7 +61,7 @@ We would like to thank everyone who has enabled us to create LangitKetujuh and/o
 LangitKetujuh Linux uses several trademarks from different projects. Their rights are not overruled by our license and stay intact.
 
 - 2021-2023 [Hervy Qurrotul Ainur Rozi](https://hervyqa.id) and [LangitKetujuh contributor](https://gitlab.com/langitketujuh).
-- 2020 [VoidLinux contributor](https://github.com/orgs/void-linux/people) and 2008-2018 [Juan RP](https://gitlab.com/xtraeme).
+- 2020 [void linux contributor](https://github.com/orgs/void-linux/people) and 2008-2018 [Juan RP](https://gitlab.com/xtraeme).
 - [Linux®](https://www.linuxfoundation.org/programs/legal/trademark/attribution) has been registered with the trademark of Linus Torvalds.
 - [KDE® and the K Desktop Environment® logo](https://kde.org/media/images/trademark_kde_gear_black_logo.png) has been registered with the branding of [KDE e.V](https://ev.kde.org/).
 - Template website by [Themefisher](https://themefisher.com/) and development by [Gethugothemes](https://gethugothemes.com/).
