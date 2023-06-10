@@ -21,6 +21,30 @@ call_to_action:
 
 ---
 
+## 20230801 (dev)
+
+| **Schedule**        | **Status** | **Date**         |
+| :------------------ | :--------: | :--------------- |
+| Pengembangan        |  Proses    | 29 Maret 2023    |
+| Pengujian ISO       |  Belum     | 1 Augustus 2023  |
+| **Rilis**           |  Belum     | 1 September 2023 |
+
+### Improvisasi
+
+* `l7-fish-shell`: improvisasi untuk vpsm, flatpak dan nix paket manajer. Lihat wiki [package manager](https://wiki.langitketujuh.id/konfigurasi/paket/index.html).
+* Situs dokumentasi [panduan](https://panduan.langitketujuh.id) pindah ke [wiki.langitketujuh.id](https://wiki.langitketujuh.id).
+* Repositori `l7-docs` pindah ke `l7-wiki` di [Gitlab](https://gitlab.com/langitketujuh/l7-wiki) dan [Github](https://github.com/langitketujuh/l7-wiki).
+
+### Eliminasi
+
+* `l7-docs`: pindah ke `l7-wiki` dengan bahasa yang umum.
+
+### Studio
+
+* ...
+
+---
+
 ## 20230325 (stable)
 
 | **Jadwal**          | **Status** | **Tanggal**      |
@@ -193,7 +217,7 @@ call_to_action:
 * Restrukturisasi panduan `l7-docs`.
 * Menggunakan KDE Plasma `5.23.4`.
 * Menggunakan kernel `linux5.15.22`.
-* Mengganti `sudo` ke `doas` (OpenDoas). [_Panduan_](https://panduan.langitketujuh.id/aplikasi/opendoas.html).
+* Mengganti `sudo` ke `doas` (OpenDoas). [_Panduan_](https://wiki.langitketujuh.id/aplikasi/opendoas.html).
 * Menambahkan gui paket manajemen: `octoxbps`.
 * Menambahkan gambar wallpaper baru setiap rilis.
 * Menambahkan pengambil warna: `kcolorchooser`.
@@ -201,7 +225,7 @@ call_to_action:
 * Menambahkan alter mkv pro: `mkvtoolnix-gui mediainfo`.
 * Peningkatan enkripsi signature 4096 repodata `al.quds.repo`.
 * Menambahkan depedensi bluetooth untuk pipewire `bluez-alsa`.
-* Menambahkan pen tablet driver: `digimend-kernel-drivers`. [_Panduan_](https://panduan.langitketujuh.id/driver/pen-tablet.html).
+* Menambahkan pen tablet driver: `digimend-kernel-drivers`. [_Panduan_](https://wiki.langitketujuh.id/driver/pen-tablet.html).
 * Menambahkan pengamanan data dan enkripsi: `gnupg2-scdaemon kgpg`.
 * Menambahkan virtual keyboard display manager: `qt5-virtualkeyboard`.
 * Menambahkan Audio Production pro: `lmms freepats soundfont-fluid`.
@@ -282,18 +306,18 @@ call_to_action:
 * Menambahkan LibreCAD dan Freecad
 * Pembaruan fiksasi `l7-tools` dan `l7-export`
 
-[panduan]:https://panduan.langitketujuh.id
-[pulseaudio]:https://panduan.langitketujuh.id/konfigurasi/multimedia/pulseaudio.html
-[sesi desktop]:https://panduan.langitketujuh.id/konfigurasi/kde/sesi-desktop.html
-[2 server]:https://panduan.langitketujuh.id/konfigurasi/server.html
-[carla]:https://panduan.langitketujuh.id/aplikasi/audio/carla.html
-[cadence]:https://panduan.langitketujuh.id/aplikasi/audio/cadence.html
-[goxel]:https://panduan.langitketujuh.id/aplikasi/animasi/goxel.html
-[printer]:https://panduan.langitketujuh.id/konfigurasi/driver/printer/index.html
-[brother]:https://panduan.langitketujuh.id/konfigurasi/driver/printer/brother.html
-[canon]:https://panduan.langitketujuh.id/konfigurasi/driver/printer/canon.html
-[epson]:https://panduan.langitketujuh.id/konfigurasi/driver/printer/epson.html
-[HP]:https://panduan.langitketujuh.id/konfigurasi/driver/printer/hp.html
-[open printing]:https://panduan.langitketujuh.id/konfigurasi/driver/printer/open-printing.html
-[runit init]:https://panduan.langitketujuh.id/konfigurasi/layanan/sv.html#daftar-layanan-yang-aktif
-[mengkonfigurasi touchpad]:https://panduan.langitketujuh.id/konfigurasi/kde/pengaturan-sistem.html#mengaktifkan-tap-to-click
+[panduan]:https://wiki.langitketujuh.id
+[pulseaudio]:https://wiki.langitketujuh.id/konfigurasi/multimedia/pulseaudio.html
+[sesi desktop]:https://wiki.langitketujuh.id/konfigurasi/kde/sesi-desktop.html
+[2 server]:https://wiki.langitketujuh.id/konfigurasi/server.html
+[carla]:https://wiki.langitketujuh.id/aplikasi/audio/carla.html
+[cadence]:https://wiki.langitketujuh.id/aplikasi/audio/cadence.html
+[goxel]:https://wiki.langitketujuh.id/aplikasi/animasi/goxel.html
+[printer]:https://wiki.langitketujuh.id/konfigurasi/driver/printer/index.html
+[brother]:https://wiki.langitketujuh.id/konfigurasi/driver/printer/brother.html
+[canon]:https://wiki.langitketujuh.id/konfigurasi/driver/printer/canon.html
+[epson]:https://wiki.langitketujuh.id/konfigurasi/driver/printer/epson.html
+[HP]:https://wiki.langitketujuh.id/konfigurasi/driver/printer/hp.html
+[open printing]:https://wiki.langitketujuh.id/konfigurasi/driver/printer/open-printing.html
+[runit init]:https://wiki.langitketujuh.id/konfigurasi/layanan/sv.html#daftar-layanan-yang-aktif
+[mengkonfigurasi touchpad]:https://wiki.langitketujuh.id/konfigurasi/kde/pengaturan-sistem.html#mengaktifkan-tap-to-click
