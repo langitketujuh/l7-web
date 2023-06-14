@@ -54,6 +54,11 @@ icon = "fab fa-github"
 link = "https://github.com/langitketujuh"
 
 [[social]]
+title = "mastodon"
+icon = "fab fa-mastodon"
+link = "https://linux.social/@langitketujuh"
+
+[[social]]
 title = "facebook"
 icon = "fab fa-facebook"
 link = "https://facebook.com/langitketujuh.id"
