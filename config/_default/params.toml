@@ -32,10 +32,8 @@ link = "contribute"
 
 # Cookies
 [cookies]
-enable = false
-expire_days = 2
-content = "This site uses cookies. By continuing to use this website, you agree to their use."
-button = "I Accept"
+enable = true
+expire_days = 7
   
 # Social site
 [[social]]

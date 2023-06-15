@@ -287,3 +287,11 @@ other = "(Opsional)"
 
 [donate]
 other = "Donasi"
+
+# cookie
+
+[cookie-content]
+other = "Situs ini menggunakan cookie. Dengan terus menggunakan situs web ini, Anda menyetujui penggunaannya."
+
+[cookie-button]
+other = "Setuju"

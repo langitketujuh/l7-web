@@ -288,3 +288,11 @@ other = "(Optional)"
 
 [donate]
 other = "Donate"
+
+# cookie
+
+[cookie-content]
+other = "This site uses cookies. By continuing to use this website, you agree to their use."
+
+[cookie-button]
+other = "Accept"
