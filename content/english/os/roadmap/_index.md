@@ -32,13 +32,14 @@ call_to_action:
 ### Improvisation
 
 * `l7-fish-shell`: improve for vpsm, flatpak and nix package manager. See wiki [package manager](https://wiki.langitketujuh.id/konfigurasi/paket/index.html).
+* `void-live-audio`: audio control with terminal commands.
 * Documentation website [panduan](https://panduan.langitketujuh.id) moved to [wiki.langitketujuh.id](https://wiki.langitketujuh.id).
 * Repository `l7-docs` moved to `l7-wiki` on [Gitlab](https://gitlab.com/langitketujuh/l7-wiki) and [Github](https://github.com/langitketujuh/l7-wiki).
 * Audio session using `wireplumber` by default, previously using `pipewire-media-session`.
 
 ### Elimination
 
-* `l7-docs`: change to `l7-wiki` for general language.
+* `l7-docs`: change to `l7-wiki`.
 
 ### Studio
 

@@ -32,13 +32,14 @@ call_to_action:
 ### Improvisasi
 
 * `l7-fish-shell`: improvisasi untuk vpsm, flatpak dan nix paket manajer. Lihat wiki [package manager](https://wiki.langitketujuh.id/konfigurasi/paket/index.html).
+* `void-live-audio`: kendali audio dengan perintah terminal.
 * Situs dokumentasi [panduan](https://panduan.langitketujuh.id) pindah ke [wiki.langitketujuh.id](https://wiki.langitketujuh.id).
 * Repositori `l7-docs` pindah ke `l7-wiki` di [Gitlab](https://gitlab.com/langitketujuh/l7-wiki) dan [Github](https://github.com/langitketujuh/l7-wiki).
 * Sesi audio menggunakan `wireplumber` sebagai bawaan, sebelumnya menggunakan `pipewire-media-session`.
 
 ### Eliminasi
 
-* `l7-docs`: pindah ke `l7-wiki` dengan bahasa yang umum.
+* `l7-docs`: pindah ke `l7-wiki`.
 
 ### Studio
 
