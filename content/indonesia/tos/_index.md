@@ -32,10 +32,15 @@ Tidak ada jaminan, baik tersurat maupun tersirat, dengan ini diberikan untuk apa
 ### Teknis layanan pemasangan
 
 1. Kami hanya melayani untuk memasang LangitKetujuh, bukan memasang sistem operasi selain LangitKetujuh.
-2. Kami menerima pemasangan dual boot dan triple boot, tetapi kami tidak bertanggung jawab jika ada kelalaian atau kesalahan pengoperasian dalam sistem operasi selain LangitKetujuh.
-3. Kami TIDAK menerima untuk mengembalikan Sistem Operasi terdahulu. Baik itu windows, osx, GNU/Linux, BSD, dan jenis OS lainnya.
-4. Kami TIDAK bertanggung jawab atas kehilangan data dan sistem operasi terdahulu.
-5. Kami hanya menerima instalasi untuk satu perangkat dengan **dua kali pemasangan saja**.
+2. Kami hanya menerima instalasi untuk satu perangkat dengan dua kali pemasangan saja.
+3. Dari segi perangkat lunak (software):
+    1. Kami TIDAK menerima untuk mengembalikan sistem operasi terdahulu. Baik itu windows, MacOSX, GNU/Linux, BSD, dan jenis OS lainnya.
+    2. Kami TIDAK bertanggung jawab atas kehilangan data dan sistem operasi terdahulu. Pastikan sudah benar-benar dicadangkan (backup) jika ada data yang penting.
+    3. Kami menerima pemasangan LangitKetujuh OS yang sebelumnya sudah ada atau bersama dengan sistem operasi lain, tetapi kami tidak bertanggung jawab sepenuhnya jika ada kelalaian atau kesalahan pengoperasian dalam sistem operasi selain LangitKetujuh.
+4. Dari segi perangkat keras (hardware):
+    1. Kami TIDAK bertanggung jawab atas pengaturan di BIOS, sepenuhnya dikendalikan dengan sadar oleh pengguna.
+    2. Kami TIDAK bertanggung jawab atas dampak kerusakan fisik pada perangkat keras yang dilakukan oleh pengguna sendiri, seperti penyimpanan diska (Hardisk, SSD, Flashdisk, DVD). Kerusakan yang terjadi seperti bad sector/error sepenuhnya tanggung jawab pengguna.
+    3. Kami TIDAK bertanggung jawab atas segala kerusakan perangkat keras lainnya. Hakikatnya layanan teknis LangitKetujuh hanya untuk pemasangan/instalasi secara remot bukan sebagai tukang service.
 
 ### Perangkat lunak bebas
 
@@ -53,8 +58,8 @@ Kami ingin mengucapkan terima kasih kepada semua orang yang telah memungkinkan k
 - Pengembang XBPS, untuk menciptakan pengelola paket terbaik di alam semesta yang dikenal.
 - Proyek KDE, untuk menciptakan lingkungan desktop paling kuat di planet bumi.
 - Semua orang yang menyediakan unduhan dan cermin paket. Tanpa Anda kami tidak akan berada di sini.
-- Semua penguji yang mengambil misi untuk menguji barang kami dengan sabar.
-- Semua orang benar-benar membaca dokumentasi.
+- Semua penguji yang mengambil misi untuk menguji produk kami dengan sabar.
+- Semua orang benar-benar membaca wiki dokumentasi.
 
 ### Merek Dagang
 

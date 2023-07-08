@@ -31,11 +31,17 @@ No warranties, either express or implied, are hereby given for anything provided
 
 ### Technical installation service
 
-1. We only serve to install LangitKetujuh, not install an operating system other than LangitKetujuh.
-2. We accept dual boot and triple boot installations, but we are not responsible for any omissions or operating errors in operating systems other than LangitKetujuh.
-3. We do NOT accept to restore the previous Operating System. Whether it's windows, osx, GNU/Linux, BSD, and other types of OS.
-4. We are NOT responsible for any loss of data and previous operating systems.
-5. We only accept installation for one device with **two installs only**.
+1. We only serve to install LangitKetujuh, not install any operating system other than LangitKetujuh.
+2. We only accept installation for one device with two installations only.
+3. In terms of software:
+    1. We DO NOT accept to restore the previous operating system. Whether it's windows, MacOSX, GNU/Linux, BSD, and other types of OS.
+    2. We are NOT responsible for any loss of data and previous operating systems. Make sure it is completely backup if there is important data.
+    3. We accept the installation of the LangitKetujuh OS that previously existed or together with other operating systems, but we are not fully responsible if there is negligence or operating errors in the operating system other than the LangitKetujuh.
+4. In terms of hardware:
+    1. We are NOT responsible for the settings in the BIOS, it is fully consciously controlled by the user.
+    2. We are NOT responsible for the impact of physical damage to hardware caused by the user himself, such as disk storage (Hardisk, SSD, Flashdisk, DVD). Damage that occurs such as bad sectors / errors is entirely the responsibility of the user.
+    3. We are NOT responsible for any other hardware damage. In essence, the LangitKetujuh technical service is only for remote installation, not as a repairman.
+
 
 ### Free Software
 
@@ -53,7 +59,7 @@ We would like to thank everyone who has enabled us to create LangitKetujuh and/o
 - The XBPS developers, for creating the best package manager in the known universe.
 - The KDE Project, for creating the most powerful desktop environment on planet earth.
 - All people providing download and package mirrors. Without you we wouldn’t be here.
-- All testers who took the mission to test our stuff with patience.
+- All testers who took the mission to test our product with patience.
 - All people actually reading documentation.
 
 ### Trademarks
