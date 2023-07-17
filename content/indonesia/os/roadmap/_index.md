@@ -37,11 +37,12 @@ call_to_action:
 * Repositori `l7-docs` pindah ke `l7-wiki` di [Gitlab](https://gitlab.com/langitketujuh/l7-wiki) dan [Github](https://github.com/langitketujuh/l7-wiki).
 * Sesi audio menggunakan `wireplumber` sebagai bawaan, sebelumnya menggunakan `pipewire-media-session`.
 * `l7-fish-shell`: Menambahkan parameter `SSH_ASKPASS:ksshaskpass` agar mendukung `pinentry-qt`.
-* Menambahkan `pinentry-qt` untuk edisi kde plasma dan mengaktifkannya.
+* `pinentry-qt` untuk edisi kde plasma dan mengaktifkannya.
 
 ### Eliminasi
 
 * `l7-docs`: pindah ke `l7-wiki`.
+* `polkid-elogind`, `mesa-ati-dri`, `mesa-intel-dri`, `mesa-nouveau-dri`, `lgi`: hapus paket *dummy* transisi.
 
 ### Studio
 
