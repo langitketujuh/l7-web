@@ -36,6 +36,7 @@ call_to_action:
 * Documentation website [panduan](https://panduan.langitketujuh.id) moved to [wiki.langitketujuh.id](https://wiki.langitketujuh.id).
 * Repository `l7-docs` moved to `l7-wiki` on [Gitlab](https://gitlab.com/langitketujuh/l7-wiki) and [Github](https://github.com/langitketujuh/l7-wiki).
 * Audio session using `wireplumber` by default, previously using `pipewire-media-session`.
+* `l7-fish-shell`: Adding parameter `SSH_ASKPASS:ksshaskpass` for support `pinentry-qt`.
 
 ### Elimination
 
@@ -43,7 +44,8 @@ call_to_action:
 
 ### Studio
 
-* ...
+* `l7-ardour`: Fix ardour theme `langitketujuh` new version to balance breeze theme.
+* `l7-blender`: Support blender 3.6 configuration.
 
 ---
 

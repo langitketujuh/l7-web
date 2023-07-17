@@ -36,6 +36,7 @@ call_to_action:
 * Situs dokumentasi [panduan](https://panduan.langitketujuh.id) pindah ke [wiki.langitketujuh.id](https://wiki.langitketujuh.id).
 * Repositori `l7-docs` pindah ke `l7-wiki` di [Gitlab](https://gitlab.com/langitketujuh/l7-wiki) dan [Github](https://github.com/langitketujuh/l7-wiki).
 * Sesi audio menggunakan `wireplumber` sebagai bawaan, sebelumnya menggunakan `pipewire-media-session`.
+* `l7-fish-shell`: Menambahkan parameter `SSH_ASKPASS:ksshaskpass` agar mendukung `pinentry-qt`.
 
 ### Eliminasi
 
@@ -43,11 +44,12 @@ call_to_action:
 
 ### Studio
 
-* ...
+* `l7-ardour`: Perbaikan tema ardour `langitketujuh` versi terbaru yang selaras dengan breeze theme.
+* `l7-blender`: Mendukung konfigurasi blender 3.6.
 
 ---
 
-## 20230325 (stable)
+## 20230325 (stabil)
 
 | **Jadwal**          | **Status** | **Tanggal**      |
 | :------------------ | :--------: | :--------------- |
