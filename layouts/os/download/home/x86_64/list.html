@@ -12,7 +12,13 @@
         {{with .content }}<p class="mb-4">{{ . | markdownify }}</p>{{ end }}
         {{ if .button.enable }}
         {{ with .button }}
-        <a href="{{ .link | absURL }}" class="btn btn-primary mb-2 mr-2" target="blank"><i class="fa-solid fa-download"></i> {{ .label }}</a>
+        <a href="{{ .link_mirror_auto | absURL }}" class="btn btn-primary mb-2 mr-2" target="blank"><i class="fa-solid fa-download"></i> {{ .label_mirror_auto }}</a>
+        {{ end }}
+        {{ end }}
+        {{ if .mirror.enable }}
+        {{ with .mirror }}
+        <a href="{{ .link_mirror_1 | absURL }}" class="btn btn-outline-primary mb-2 mr-2" target="blank"><i class="fa-solid fa-download"></i> {{ .label_mirror_1 }}</a>
+        <a href="{{ .link_mirror_2 | absURL }}" class="btn btn-outline-primary mb-2 mr-2" target="blank"><i class="fa-solid fa-download"></i> {{ .label_mirror_2 }}</a>
         {{ end }}
         {{ end }}
         <a href="{{ .Permalink }}/../../../contribute/#donation" class="btn btn-outline-primary mb-2 mr-2"><i class="fa-solid fa-heart"></i> {{ i18n `donate` }}</a>

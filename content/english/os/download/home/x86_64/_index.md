@@ -14,6 +14,12 @@ download:
   LangitKetujuh OS Home edition is free of cost and doesn’t generate any direct sort of income. It is funded by advertising, sponsoring and donations and although it is financially supported by its own community of users. Support us to keep growing."
   button:
     enable: true
-    label: Download ISO
-    link: https://osdn.net/dl/langitketujuh/langitketujuh-kde-home-x86_64-20230325-zbut59u.iso
+    label_mirror_auto: Mirror Auto
+    link_mirror_auto: https://osdn.net/dl/langitketujuh/langitketujuh-kde-home-x86_64-20230325-zbut59u.iso
+  mirror:
+    enable: true
+    label_mirror_1: Mirror 1
+    link_mirror_1: https://free.nchc.org.tw/osdn/langitketujuh/78438/langitketujuh-kde-home-x86_64-20230325-zbut59u.iso
+    label_mirror_2: Mirror 2
+    link_mirror_2: https://ftp.halifax.rwth-aachen.de/osdn/langitketujuh/78438/langitketujuh-kde-home-x86_64-20230325-zbut59u.iso
 ---
