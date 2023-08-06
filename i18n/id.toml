@@ -285,6 +285,9 @@ other = "Paket Benefit"
 [optional]
 other = "(Opsional)"
 
+[sha256sum]
+other = "sha256sum"
+
 [donate]
 other = "Donasi"
 

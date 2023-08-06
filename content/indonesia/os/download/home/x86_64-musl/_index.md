@@ -18,6 +18,7 @@ download:
     label_mirror_auto: Unduh iso
     link_mirror_auto: https://al.quds.repo.langitketujuh.id/iso/home/langitketujuh-kde-home-x86_64-musl-20230325-sdc9r8q.iso
     #link_mirror_auto: https://osdn.net/dl/langitketujuh/langitketujuh-kde-home-x86_64-musl-20230325-sdc9r8q.iso
+    sha256sum: https://al.quds.repo.langitketujuh.id/iso/home/sha256sums.txt
   mirror:
     enable: false
     label_mirror_1: Mirror 1
