@@ -32,7 +32,7 @@ link = "contribute"
 
 # Cookies
 [cookies]
-enable = true
+enable = false
 expire_days = 7
   
 # Social site
