@@ -14,9 +14,10 @@ download:
   LangitKetujuh OS Edisi Home bebas biaya dan tidak menghasilkan pendapatan langsung apa pun. Itu didanai oleh iklan, sponsor dan donasi dan secara finansial didukung oleh komunitas penggunanya sendiri. Dukung kami untuk terus berkembang."
   button:
     enable: true
-    label_mirror_auto: Unduh iso
-    link_mirror_auto: https://al.quds.repo.langitketujuh.id/iso/home/langitketujuh-kde-home-x86_64-20230325-zbut59u.iso
-    #link_mirror_auto: https://osdn.net/dl/langitketujuh/langitketujuh-kde-home-x86_64-20230325-zbut59u.iso
+    label_download: Unduh iso
+    link_download: https://al.quds.repo.langitketujuh.id/iso/home/langitketujuh-kde-home-x86_64-20230325-zbut59u.iso
+    label_mirror_auto: Mirror
+    link_mirror_auto: https://osdn.net/dl/langitketujuh/langitketujuh-kde-home-x86_64-20230325-zbut59u.iso
     sha256sum: https://al.quds.repo.langitketujuh.id/iso/home/sha256sums.txt
   mirror:
     enable: false

@@ -15,9 +15,10 @@ download:
   button:
   button:
     enable: true
-    label_mirror_auto: Unduh iso
-    link_mirror_auto: https://al.quds.repo.langitketujuh.id/iso/home/langitketujuh-kde-home-x86_64-musl-20230325-sdc9r8q.iso
-    #link_mirror_auto: https://osdn.net/dl/langitketujuh/langitketujuh-kde-home-x86_64-musl-20230325-sdc9r8q.iso
+    label_download: Unduh iso
+    link_download: https://al.quds.repo.langitketujuh.id/iso/home/musl/langitketujuh-kde-home-x86_64-musl-20230325-sdc9r8q.iso
+    label_mirror_auto: Mirror
+    link_mirror_auto: https://osdn.net/dl/langitketujuh/langitketujuh-kde-home-x86_64-musl-20230325-sdc9r8q.iso
     sha256sum: https://al.quds.repo.langitketujuh.id/iso/home/sha256sums.txt
   mirror:
     enable: false

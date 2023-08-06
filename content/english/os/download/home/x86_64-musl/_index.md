@@ -14,9 +14,10 @@ download:
   LangitKetujuh OS Home edition is free of cost and doesn’t generate any direct sort of income. It is funded by advertising, sponsoring and donations and although it is financially supported by its own community of users. Support us to keep growing."
   button:
     enable: true
-    label_mirror_auto: Download iso
-    link_mirror_auto: https://al.quds.repo.langitketujuh.id/iso/home/musl/langitketujuh-kde-home-x86_64-musl-20230325-sdc9r8q.iso
-    #link_mirror_auto: https://osdn.net/dl/langitketujuh/langitketujuh-kde-home-x86_64-musl-20230325-sdc9r8q.iso
+    label_download: Download iso
+    link_download: https://al.quds.repo.langitketujuh.id/iso/home/musl/langitketujuh-kde-home-x86_64-musl-20230325-sdc9r8q.iso
+    label_mirror_auto: Mirror
+    link_mirror_auto: https://osdn.net/dl/langitketujuh/langitketujuh-kde-home-x86_64-musl-20230325-sdc9r8q.iso
     sha256sum: https://al.quds.repo.langitketujuh.id/iso/home/sha256sums.txt
   mirror:
     enable: false
