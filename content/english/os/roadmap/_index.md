@@ -36,8 +36,10 @@ call_to_action:
 * Documentation website [panduan](https://panduan.langitketujuh.id) moved to [wiki.langitketujuh.id](https://wiki.langitketujuh.id).
 * Repository `l7-docs` moved to `l7-wiki` on [Gitlab](https://gitlab.com/langitketujuh/l7-wiki) and [Github](https://github.com/langitketujuh/l7-wiki).
 * Audio session using `wireplumber` by default, previously using `pipewire-media-session`.
-* `l7-fish-shell`: Adding parameter `SSH_ASKPASS:ksshaskpass` for support `pinentry-qt`.
-* `pinentry-qt` for kde plasma version and activated.
+* `pinentry-qt` for KDE Plasma version and activated.
+* `l7-tools` add desktop icon `Terminal Remote`.
+* `l7-tools` support for normal user without `wheel` groups.
+* `l7-opendoas` support `doas` for `root` user.
 
 ### Elimination
 

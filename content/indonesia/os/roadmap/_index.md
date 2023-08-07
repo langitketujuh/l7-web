@@ -36,8 +36,10 @@ call_to_action:
 * Situs dokumentasi [panduan](https://panduan.langitketujuh.id) pindah ke [wiki.langitketujuh.id](https://wiki.langitketujuh.id).
 * Repositori `l7-docs` pindah ke `l7-wiki` di [Gitlab](https://gitlab.com/langitketujuh/l7-wiki) dan [Github](https://github.com/langitketujuh/l7-wiki).
 * Sesi audio menggunakan `wireplumber` sebagai bawaan, sebelumnya menggunakan `pipewire-media-session`.
-* `l7-fish-shell`: Menambahkan parameter `SSH_ASKPASS:ksshaskpass` agar mendukung `pinentry-qt`.
-* `pinentry-qt` untuk edisi kde plasma dan mengaktifkannya.
+* `pinentry-qt` untuk edisi KDE Plasma dan mengaktifkannya.
+* `l7-tools` menambahkan desktop `Terminal Remote`.
+* `l7-tools` mendukung untuk pengguna normal selain grup `wheel`.
+* `l7-opendoas` mendukung `doas` untuk pengguna `root`.
 
 ### Eliminasi
 
