@@ -50,6 +50,7 @@ call_to_action:
 
 * `l7-ardour`: Perbaikan tema ardour `langitketujuh` versi terbaru yang selaras dengan breeze theme.
 * `l7-blender`: Mendukung konfigurasi blender 3.6.
+* `font-inter`: Menambahkan font industri.
 
 ---
 

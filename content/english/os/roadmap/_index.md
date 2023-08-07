@@ -50,6 +50,7 @@ call_to_action:
 
 * `l7-ardour`: Fix ardour theme `langitketujuh` new version to balance breeze theme.
 * `l7-blender`: Support blender 3.6 configuration.
+* `font-inter`: Add industrial font.
 
 ---
 
