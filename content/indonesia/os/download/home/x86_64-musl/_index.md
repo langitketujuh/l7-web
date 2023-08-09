@@ -13,17 +13,16 @@ download:
   content: "Edisi Home untuk kebutuhan standar. Terdapat aplikasi firefox, inkscape, gimp, libreoffice, codec audio dan video. Arsitektur musl tidak mendukung aplikasi nonfree seperti nvidia, zoom, discord dan lainnya. Tetapi beberapa aplikasi tersebut dapat dipasang melalui flatpak.<br><br>
   LangitKetujuh OS Edisi Home bebas biaya dan tidak menghasilkan pendapatan langsung apa pun. Itu didanai oleh iklan, sponsor dan donasi dan secara finansial didukung oleh komunitas penggunanya sendiri. Dukung kami untuk terus berkembang."
   button:
-  button:
     enable: true
     label_download: Unduh iso
-    link_download: https://al.quds.repo.langitketujuh.id/iso/home/musl/langitketujuh-kde-home-x86_64-musl-20230325-sdc9r8q.iso
-    label_mirror_auto: Mirror
-    link_mirror_auto: https://osdn.net/dl/langitketujuh/langitketujuh-kde-home-x86_64-musl-20230325-sdc9r8q.iso
-    sha256sum: https://al.quds.repo.langitketujuh.id/iso/home/sha256sums.txt
+    link_download: https://drive.google.com/drive/folders/1OI15qR2NDaBAQeuIaF1Vk0JfxWq8oVQh?usp=sharing
   mirror:
     enable: false
+    sha256sum:
+    label_mirror_auto: Mirror Auto
+    link_mirror_auto:
     label_mirror_1: Mirror 1
-    link_mirror_1: https://free.nchc.org.tw/osdn/langitketujuh/78438/langitketujuh-kde-home-x86_64-musl-20230325-sdc9r8q.iso
+    link_mirror_1:
     label_mirror_2: Mirror 2
-    link_mirror_2: https://ftp.halifax.rwth-aachen.de/osdn/langitketujuh/78438/langitketujuh-kde-home-x86_64-musl-20230325-sdc9r8q.iso
+    link_mirror_2:
 ---

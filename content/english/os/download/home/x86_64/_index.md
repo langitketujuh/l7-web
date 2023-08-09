@@ -15,14 +15,14 @@ download:
   button:
     enable: true
     label_download: Download iso
-    link_download: https://al.quds.repo.langitketujuh.id/iso/home/langitketujuh-kde-home-x86_64-20230325-zbut59u.iso
-    label_mirror_auto: Mirror
-    link_mirror_auto: https://osdn.net/dl/langitketujuh/langitketujuh-kde-home-x86_64-20230325-zbut59u.iso
-    sha256sum: https://al.quds.repo.langitketujuh.id/iso/home/sha256sums.txt
+    link_download: https://drive.google.com/drive/folders/1JQWSdCiI2OW9O6YIkwMo4gYu3hTBCHyv?usp=sharing
   mirror:
     enable: false
+    sha256sum:
+    label_mirror_auto: Mirror Auto
+    link_mirror_auto:
     label_mirror_1: Mirror 1
-    link_mirror_1: https://free.nchc.org.tw/osdn/langitketujuh/78438/langitketujuh-kde-home-x86_64-20230325-zbut59u.iso
+    link_mirror_1:
     label_mirror_2: Mirror 2
-    link_mirror_2: https://ftp.halifax.rwth-aachen.de/osdn/langitketujuh/78438/langitketujuh-kde-home-x86_64-20230325-zbut59u.iso
+    link_mirror_2:
 ---
