@@ -13,11 +13,11 @@
         {{ if .button.enable }}
         {{ with .button }}
         <a href="{{ .link_download | absURL }}" class="btn btn-primary mb-2 mr-2" target="blank"><i class="fa-solid fa-download"></i> {{ .label_download }}</a>
+        <a href="{{ .sha256sum | absURL }}" class="btn btn-outline-primary mb-2 mr-2" download><i class="fa-solid fa-circle-check"></i> {{ i18n `sha256sum` }}</a>
         {{ end }}
         {{ end }}
         {{ if .mirror.enable }}
         {{ with .mirror }}
-        <a href="{{ .sha256sum | absURL }}" class="btn btn-outline-primary mb-2 mr-2"><i class="fa-solid fa-circle-check"></i> {{ i18n `sha256sum` }}</a>
         <a href="{{ .link_mirror_auto | absURL }}" class="btn btn-outline-primary mb-2 mr-2" target="blank"><i class="fa-solid fa-download"></i> {{ .label_mirror_auto }}</a>
         <a href="{{ .link_mirror_1 | absURL }}" class="btn btn-outline-primary mb-2 mr-2" target="blank"><i class="fa-solid fa-download"></i> {{ .label_mirror_1 }}</a>
         <a href="{{ .link_mirror_2 | absURL }}" class="btn btn-outline-primary mb-2 mr-2" target="blank"><i class="fa-solid fa-download"></i> {{ .label_mirror_2 }}</a>

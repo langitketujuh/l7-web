@@ -15,10 +15,10 @@ download:
   button:
     enable: true
     label_download: Unduh iso
-    link_download: https://drive.google.com/drive/folders/1JQWSdCiI2OW9O6YIkwMo4gYu3hTBCHyv?usp=sharing
+    link_download: https://drive.google.com/uc?id=1em-ucjffWHDZAheLFt_g3-IWvvrW_JUE&export=download
+    sha256sum: /files/sha256sums.txt
   mirror:
     enable: false
-    sha256sum:
     label_mirror_auto: Mirror Auto
     link_mirror_auto:
     label_mirror_1: Mirror 1

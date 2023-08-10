@@ -15,10 +15,10 @@ download:
   button:
     enable: true
     label_download: Download iso
-    link_download: https://drive.google.com/drive/folders/1OI15qR2NDaBAQeuIaF1Vk0JfxWq8oVQh?usp=sharing
+    link_download: https://drive.google.com/u/1/uc?id=1XoK-D6gFWhBYGaSAkHKpFaKQWdiJvRie&export=download
+    sha256sum: /files/sha256sums.txt
   mirror:
     enable: false
-    sha256sum:
     label_mirror_auto: Mirror Auto
     link_mirror_auto:
     label_mirror_1: Mirror 1
