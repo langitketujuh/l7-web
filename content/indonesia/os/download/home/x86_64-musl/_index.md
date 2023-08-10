@@ -16,7 +16,7 @@ download:
     enable: true
     label_download: Unduh iso
     link_download: https://drive.google.com/u/1/uc?id=1XoK-D6gFWhBYGaSAkHKpFaKQWdiJvRie&export=download
-    sha256sum: /files/sha256sums.txt
+    sha256sum: https://repo-fatih.langitketujuh.id/iso/sha256sums.txt
   mirror:
     enable: false
     label_mirror_auto: Mirror Auto
