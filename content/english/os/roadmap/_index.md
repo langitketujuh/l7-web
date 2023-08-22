@@ -32,10 +32,10 @@ call_to_action:
 ### Improvisation
 
 * `l7-fish-shell`: improve for vpsm, flatpak and nix package manager. See wiki [package manager](https://wiki.langitketujuh.id/konfigurasi/paket/index.html).
-* `void-live-audio`: audio control with terminal commands.
 * Documentation website [panduan](https://panduan.langitketujuh.id) moved to [wiki.langitketujuh.id](https://wiki.langitketujuh.id).
 * Repository `l7-docs` moved to `l7-wiki` on [Gitlab](https://gitlab.com/langitketujuh/l7-wiki) and [Github](https://github.com/langitketujuh/l7-wiki).
 * Audio session using `wireplumber` by default, previously using `pipewire-media-session`.
+* Add `hx` Helix editor package.
 * `pinentry-qt` for KDE Plasma version and activated.
 * `l7-tools` add desktop icon `Terminal Remote`.
 * `l7-tools` support for normal user without `wheel` groups.
@@ -45,6 +45,8 @@ call_to_action:
 
 * `l7-docs`: change to `l7-wiki`.
 * `polkid-elogind`, `mesa-ati-dri`, `mesa-intel-dri`, `mesa-nouveau-dri`, `lgi`: remove transitional *dummy* packages.
+* Back to default, switch using `repo-default.voidlinux.org` and removed `/etc/xbps.d`. Previously used `repo-fastly.voidlinux.org`.
+* Repository migration to `repo-fatih.langitketujuh.id`. Previously used `al.quds.repo.langitketujuh.id`
 
 ### Studio
 
