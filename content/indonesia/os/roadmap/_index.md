@@ -40,6 +40,7 @@ call_to_action:
 * `l7-tools` menambahkan desktop `Terminal Remote`.
 * `l7-tools` mendukung untuk pengguna normal selain grup `wheel`.
 * `l7-opendoas` mendukung `doas` untuk pengguna `root`.
+* `l7-inkscape` menggunakan icon multicolor sebagai bawaan.
 
 ### Eliminasi
 

@@ -40,6 +40,7 @@ call_to_action:
 * `l7-tools` add desktop icon `Terminal Remote`.
 * `l7-tools` support for normal user without `wheel` groups.
 * `l7-opendoas` support `doas` for `root` user.
+* `l7-inkscape` using multicolor icon as default.
 
 ### Elimination
 
