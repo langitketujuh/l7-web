@@ -21,13 +21,13 @@ call_to_action:
 
 ---
 
-## 20230801 (dev)
+## 202301001 (dev)
 
 | **Schedule**        | **Status** | **Date**         |
 | :------------------ | :--------: | :--------------- |
 | Pengembangan        |  Proses    | 29 Maret 2023    |
-| Pengujian ISO       |  Belum     | 1 Augustus 2023  |
-| **Rilis**           |  Belum     | 1 September 2023 |
+| Pengujian ISO       |  Belum     | 1 September 2023 |
+| **Rilis**           |  Belum     | 1 Oktober 2023   |
 
 ### Improvisasi
 
@@ -36,11 +36,13 @@ call_to_action:
 * Repositori `l7-docs` pindah ke `l7-wiki` di [Gitlab](https://gitlab.com/langitketujuh/l7-wiki) dan [Github](https://github.com/langitketujuh/l7-wiki).
 * Sesi audio menggunakan `wireplumber` sebagai bawaan, sebelumnya menggunakan `pipewire-media-session`.
 * Menambah paket `hx` Helix editor.
+* Menambahkan `writerperfect` perkakas untuk mengekspor berkas yang bervariasi ke ODF atau EPUB.
 * `pinentry-qt` untuk edisi KDE Plasma dan mengaktifkannya.
 * `l7-tools` menambahkan desktop `Terminal Remote`.
 * `l7-tools` mendukung untuk pengguna normal selain grup `wheel`.
 * `l7-opendoas` mendukung `doas` untuk pengguna `root`.
 * `l7-inkscape` menggunakan icon multicolor sebagai bawaan.
+* `mesa-vulkan-intel`, `mesa-vulkan-radeon`: menambahkan mesa intel & radeon driver.
 
 ### Eliminasi
 
@@ -51,9 +53,10 @@ call_to_action:
 
 ### Studio
 
-* `l7-ardour`: Perbaikan tema ardour `langitketujuh` versi terbaru yang selaras dengan breeze theme.
-* `l7-blender`: Mendukung konfigurasi blender 3.6.
-* `font-inter`: Menambahkan font industri.
+* `dispcalGUI`, `calf`, `resynthesizer`: hapus aplikasi yang menggunakan python 2.
+* `l7-ardour`: perbaikan tema ardour `langitketujuh` versi terbaru yang selaras dengan breeze theme.
+* `l7-blender`: mendukung konfigurasi blender 3.6.
+* `font-inter`: menambahkan font industri.
 
 ---
 

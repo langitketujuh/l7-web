@@ -21,13 +21,13 @@ call_to_action:
 
 ---
 
-## 20230801 (dev)
+## 20231001 (dev)
 
 | **Schedule**        | **Status** | **Date**         |
 | :------------------ | :--------: | :--------------- |
 | Development         |  Process   | 29 March 2023    |
-| ISO testing         |  Not yet   | 1 August 2023    |
-| **Release**         |  Not yet   | 1 September 2023 |
+| ISO testing         |  Not yet   | 1 September 2023 |
+| **Release**         |  Not yet   | 1 October 2023   |
 
 ### Improvisation
 
@@ -36,11 +36,13 @@ call_to_action:
 * Repository `l7-docs` moved to `l7-wiki` on [Gitlab](https://gitlab.com/langitketujuh/l7-wiki) and [Github](https://github.com/langitketujuh/l7-wiki).
 * Audio session using `wireplumber` by default, previously using `pipewire-media-session`.
 * Add `hx` Helix editor package.
+* Add `writerperfect` tools for exporting various file format to  ODF or EPUB.
 * `pinentry-qt` for KDE Plasma version and activated.
 * `l7-tools` add desktop icon `Terminal Remote`.
 * `l7-tools` support for normal user without `wheel` groups.
 * `l7-opendoas` support `doas` for `root` user.
 * `l7-inkscape` using multicolor icon as default.
+* `mesa-vulkan-intel`, `mesa-vulkan-radeon`: add mesa intel & radeon driver.
 
 ### Elimination
 
@@ -51,9 +53,10 @@ call_to_action:
 
 ### Studio
 
-* `l7-ardour`: Fix ardour theme `langitketujuh` new version to balance breeze theme.
-* `l7-blender`: Support blender 3.6 configuration.
-* `font-inter`: Add industrial font.
+* `dispcalGUI`, `calf`, `resynthesizer`: remove apps using python 2.
+* `l7-ardour`: aix ardour theme `langitketujuh` new version to balance breeze theme.
+* `l7-blender`: support blender 3.6 configuration.
+* `font-inter`: add industrial font.
 
 ---
 
