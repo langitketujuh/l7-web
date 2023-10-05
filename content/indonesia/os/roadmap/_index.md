@@ -50,6 +50,7 @@ call_to_action:
 * `polkid-elogind`, `mesa-ati-dri`, `mesa-intel-dri`, `mesa-nouveau-dri`, `lgi`: hapus paket *dummy* transisi.
 * Kembali ke bawaan, dialihkan menggunakan `repo-default.voidlinux.org` dan menghapus `/etc/xbps.d`. Sebelumnya menggunakan `repo-fastly.voidlinux.org`.
 * Migrasi repositori ke `repo-fatih.langitketujuh.id`. Sebelumnya menggunakan `al.quds.repo.langitketujuh.id`
+* `sof-tools`: Dihapus karena ada dependensi glibc yang bermasalah di arsitektur musl.
 
 ### Studio
 

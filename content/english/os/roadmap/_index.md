@@ -50,6 +50,7 @@ call_to_action:
 * `polkid-elogind`, `mesa-ati-dri`, `mesa-intel-dri`, `mesa-nouveau-dri`, `lgi`: remove transitional *dummy* packages.
 * Back to default, switch using `repo-default.voidlinux.org` and removed `/etc/xbps.d`. Previously used `repo-fastly.voidlinux.org`.
 * Repository migration to `repo-fatih.langitketujuh.id`. Previously used `al.quds.repo.langitketujuh.id`
+* `soft-tools`: Removed due to problematic glibc dependency in musl architecture.
 
 ### Studio
 
