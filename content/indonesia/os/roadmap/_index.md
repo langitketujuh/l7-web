@@ -27,7 +27,7 @@ call_to_action:
 | :------------------ | :--------: | :--------------- |
 | Pengembangan        |  Proses    | 29 Maret 2023    |
 | Pengujian ISO       |  Belum     | 1 September 2023 |
-| **Rilis**           |  Belum     | 1 Oktober 2023   |
+| **Rilis**           |  Belum     | 5 Oktober 2023   |
 
 ### Improvisasi
 
