@@ -25,9 +25,9 @@ call_to_action:
 
 | **Schedule**        | **Status** | **Date**         |
 | :------------------ | :--------: | :--------------- |
-| Pengembangan        |  Proses    | 29 Maret 2023    |
-| Pengujian ISO       |  Belum     | 1 September 2023 |
-| **Rilis**           |  Belum     | 5 Oktober 2023   |
+| Pengembangan        |  Sudah     | 29 Maret 2023    |
+| Pengujian ISO       |  Sudah     | 1 September 2023 |
+| **Rilis**           |  Sudah     | 5 Oktober 2023   |
 
 ### Improvisasi
 

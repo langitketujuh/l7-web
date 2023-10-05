@@ -25,9 +25,9 @@ call_to_action:
 
 | **Schedule**        | **Status** | **Date**         |
 | :------------------ | :--------: | :--------------- |
-| Development         |  Process   | 29 March 2023    |
-| ISO testing         |  Not yet   | 1 September 2023 |
-| **Release**         |  Not yet   | 5 October 2023   |
+| Development         |  Done      | 29 March 2023    |
+| ISO testing         |  Done      | 1 September 2023 |
+| **Release**         |  Done      | 5 October 2023   |
 
 ### Improvisation
 
