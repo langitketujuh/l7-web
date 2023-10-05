@@ -15,7 +15,7 @@ download:
   button:
     enable: true
     label_download: Download iso
-    link_download: https://drive.google.com/uc?id=1em-ucjffWHDZAheLFt_g3-IWvvrW_JUE&export=download
+    link_download: https://drive.google.com/u/1/uc?id=1RCeLPRNr9rDtydW7nOlrwjZTKOZJMk7k&export=download
     sha256sum: https://repo-fatih.langitketujuh.id/iso/sha256sums.txt
   mirror:
     enable: false
