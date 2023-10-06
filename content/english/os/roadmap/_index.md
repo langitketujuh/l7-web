@@ -54,6 +54,7 @@ call_to_action:
 
 ### Studio
 
+* `projectM`: add audio visualization.
 * `dispcalGUI`, `calf`, `resynthesizer`: remove apps using python 2.
 * `l7-ardour`: aix ardour theme `langitketujuh` new version to balance breeze theme.
 * `l7-blender`: support blender 3.6 configuration.

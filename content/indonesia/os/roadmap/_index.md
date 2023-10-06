@@ -54,6 +54,7 @@ call_to_action:
 
 ### Studio
 
+* `projectM`: menambahkan visualiasi audio.
 * `dispcalGUI`, `calf`, `resynthesizer`: hapus aplikasi yang menggunakan python 2.
 * `l7-ardour`: perbaikan tema ardour `langitketujuh` versi terbaru yang selaras dengan breeze theme.
 * `l7-blender`: mendukung konfigurasi blender 3.6.
