@@ -19,17 +19,18 @@ call_to_action:
     link : https://t.me/langitketujuh_cs
 ---
 
-**Berbagi dan memudahkan Anda untuk selalu berkarya**, itulah motivasi kami. LangitKetujuh berusaha untuk fokus ke produktifitas pengguna sehingga tidak perlu memasang aplikasi satu persatu dan melakukan konfigurasi khusus yang sifatnya mendasar. Sekali pasang dan lupakan, sesederhana itu.
-
-Setiap pembaruan dan perawatan kami selalu prioritaskan untuk pengguna. Tidak jarang waktu kami difokuskan untuk membangun sistem operasi ini. Seperti memecahkan masalah, kompilasi berjam-jam hingga uji coba berhari-hari dan sebagainya. Meskipun dalam kondisi dan perangkat yang terbatas.
-
-Kami berharap pengguna LangitKetujuh bisa memberikan kontribusi berupa membagikan pengalaman ke sosial media, memberikan  [umpan balik](/feedback), [melaporkan bug](/let-us-know), memberikan ide di [kode sumber](https://gitlab.com/langitketujuh) atau memberikan bantuan melalui donasi. Tentunya kami sangat menghargai atas upaya-upaya tersebut. Sebagai tim pengembang projek hanyalah mencari keberkahan dalam membuat produk sistem operasi ini.
-
-<div style="text-align: right"><b><i>Hervy Qurrotul Ainur Rozi</b></i></div>
-<div style="text-align: right"><i>~ Inisiator proyek</i></div>
-
 # Donasi
 
+## Bank transfer
+
+| Nama Bank | Nomer Rekening | Nama |
+| :--------- | :--- | :---- |
+| Bank Syariah Indonesia (BSI) | `7150725105` | Hervy Qurrotul Ainur Rozi |
+| Bank Jago Syariah (Jago)| `507148567388` | Hervy Qurrotul Ainur Rozi |
+| Bank Seabank (Seabank) | `901496022525` | Hervy Qurrotul Ainur Rozi |
+| Bank BTPN (BTPN) | `90014450043` | Hervy Qurrotul Ainur Rozi |
+
+## Internasional
 
 <div class="row text-md-left">
   <div class="col-lg-12">
@@ -41,18 +42,7 @@ Kami berharap pengguna LangitKetujuh bisa memberikan kontribusi berupa membagika
   </div>
 </div>
 
-## Bank transfer
-
-- Pemilik akun bank   : `Hervy Qurrotul Ainur Rozi`
-- Nama Bank           : PT. Bank Syariah Indonesia, tbk
-- Nomer Rekening      : `7150725105`
-- Kode Bank           : `4510017`
-- Alamat              : RT02/02 Kembangsri, Ngoro
-- Kota                : Mojokerto
-- Negara              : ID (indonesia)
-- Kode Pos            : `61385`
-
-## Scan E-Wallet (indonesia)
+<!--## Scan E-Wallet (indonesia)
 
 <div class="row text-md-left">
   <div class="col-lg-5">
@@ -61,4 +51,15 @@ Kami berharap pengguna LangitKetujuh bisa memberikan kontribusi berupa membagika
   <div class="col-lg-7">
     <p class="mb-4">Mendukung pembayaran dengan QRIS, Mobile E-Banking, E-Wallet seperti Shopee Pay, OVO, GoPay, LinkAja, DANA, WeChat Pay, Jenius dan E-wallet lainnya. (NMID: ID (indonesia)1021067117882)</p>
   </div>
-</div>
+</div>-->
+
+<hr>
+
+**Berbagi dan memudahkan Anda untuk selalu berkarya**, itulah motivasi kami. LangitKetujuh berusaha untuk fokus ke produktifitas pengguna sehingga tidak perlu memasang aplikasi satu persatu dan melakukan konfigurasi khusus yang sifatnya mendasar. Sekali pasang dan lupakan, sesederhana itu.
+
+Setiap pembaruan dan perawatan kami selalu prioritaskan untuk pengguna. Tidak jarang waktu kami difokuskan untuk membangun sistem operasi ini. Seperti memecahkan masalah, kompilasi berjam-jam hingga uji coba berhari-hari dan sebagainya. Meskipun dalam kondisi dan perangkat yang terbatas.
+
+Kami berharap pengguna LangitKetujuh bisa memberikan kontribusi berupa membagikan pengalaman ke sosial media, memberikan  [umpan balik](/feedback), [melaporkan bug](/let-us-know), memberikan ide di [kode sumber](https://gitlab.com/langitketujuh) atau memberikan bantuan melalui donasi. Tentunya kami sangat menghargai atas upaya-upaya tersebut. Sebagai tim pengembang projek hanyalah mencari keberkahan dalam membuat produk sistem operasi ini.
+
+<div style="text-align: right"><b><i>Hervy Qurrotul Ainur Rozi</b></i></div>
+<div style="text-align: right"><i>~ Inisiator proyek</i></div>

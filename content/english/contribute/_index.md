@@ -19,18 +19,18 @@ call_to_action:
     link : https://t.me/langitketujuh_cs
 ---
 
-**Sharing and making it easier for you to always create**, that's our motivation. LangitKetujuh tries to focus on user productivity so there is no need to install applications one by one and perform special, basic configurations. One time install and forget, it's that simple.
-
-Every update and maintenance we always prioritize for users. It's not uncommon for our time to be focused on building this operating system. Like solving problems, hours of compilation to days of trials and so on. Although in limited conditions and devices.
-
-We hope that the users of LangitKetujuh can contribute in the form of sharing experiences on social media, providing [feedback](/feedback), [reporting bugs](/let-us-know), providing ideas in the [source code](https://gitlab.com/langitketujuh) or providing assistance through donations. Of course we really appreciate these efforts. As a project development team, we are only looking for blessings in making this operating system product.
-
-<br>
-<br>
-<div style="text-align: right"><b><i>Hervy Qurrotul Ainur Rozi</b></i></div>
-<div style="text-align: right"><i>~ Project initiator</i></div>
-
 ## Donation
+
+## Bank transfer
+
+| Bank Name | Account Number | Owner |
+| :--------- | :--- | :---- |
+| Bank Syariah Indonesia (BSI) | `7150725105` | Hervy Qurrotul Ainur Rozi |
+| Bank Jago Syariah (Jago)| `507148567388` | Hervy Qurrotul Ainur Rozi |
+| Bank Seabank (Seabank) | `901496022525` | Hervy Qurrotul Ainur Rozi |
+| Bank BTPN (BTPN) | `90014450043` | Hervy Qurrotul Ainur Rozi |
+
+## International
 
 <div class="row text-md-left">
   <div class="col-lg-8">
@@ -44,18 +44,7 @@ We hope that the users of LangitKetujuh can contribute in the form of sharing ex
   </div>
 </div>
 
-## Bank transfer
-
-- Account Holder Name : `Hervy Qurrotul Ainur Rozi`
-- Bank name           : PT. Bank Syariah Indonesia, tbk
-- Account Number      : `7150725105`
-- Bank Code           : `4510017`
-- First Line          : RT02/02 Kembangsri, Ngoro
-- City                : Mojokerto
-- Country             : ID (indonesia)
-- Post Code           : `61385`
-
-## Scan E-Wallet (indonesia)
+<!--## Scan E-Wallet (indonesia)
 
 <div class="row text-md-left">
   <div class="col-lg-5">
@@ -64,4 +53,17 @@ We hope that the users of LangitKetujuh can contribute in the form of sharing ex
   <div class="col-lg-7">
     <p>Supports payments with QRIS, Mobile E-Banking, E-Wallets such as Shopee Pay, OVO, GoPay, LinkAja, DANA, WeChat Pay, Jenius and other E-wallets. (NMID: ID (indonesia)1021067117882)</p>
   </div>
-</div>
+</div>-->
+
+<hr>
+
+**Sharing and making it easier for you to always create**, that's our motivation. LangitKetujuh tries to focus on user productivity so there is no need to install applications one by one and perform special, basic configurations. One time install and forget, it's that simple.
+
+Every update and maintenance we always prioritize for users. It's not uncommon for our time to be focused on building this operating system. Like solving problems, hours of compilation to days of trials and so on. Although in limited conditions and devices.
+
+We hope that the users of LangitKetujuh can contribute in the form of sharing experiences on social media, providing [feedback](/feedback), [reporting bugs](/let-us-know), providing ideas in the [source code](https://gitlab.com/langitketujuh) or providing assistance through donations. Of course we really appreciate these efforts. As a project development team, we are only looking for blessings in making this operating system product.
+
+<br>
+<br>
+<div style="text-align: right"><b><i>Hervy Qurrotul Ainur Rozi</b></i></div>
+<div style="text-align: right"><i>~ Project initiator</i></div>
