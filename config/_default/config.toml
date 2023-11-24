@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://langitketujuh.id/"
 title = "LangitKetujuh OS"
-defaultContentLanguage = "en" # id/en, default en
+defaultContentLanguage = "id" # id/en, default en
 paginate = "6"
 summaryLength = "17"
 disqusShortname = "" # get your shortname form here : https://disqus.com
